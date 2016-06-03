@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11721</itemKey>
+	<itemName>Diamanthalskette</itemName>
+	<itemIcon>00011721.png</itemIcon>
+	<itemDesc>Eine mit einem Diamanten verzierte Halskette.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4405</id>
+			<name>Rohdiamant</name>
+			<icon>00004405.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohdiamant erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4202</id>
+			<name>Golderz</name>
+			<icon>00004202.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Golderz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus goldhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11722</id>
+			<name>Glänzende Diamanthalskette</name>
+			<icon>00011722.png</icon>
+			<desc>Eine mit einem Funkelnden Diamanten verzierte Halskette.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4066</itemKey>
+	<itemName>Brass Ingot</itemName>
+	<itemIcon>00004066.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper and Zinc together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Melted Zinc Shard</name>
+			<icon>00004063.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Zinc Ore.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Melted Zinc Shard</name>
+			<icon>00004063.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Zinc Ore.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>49203</id>
+			<name>Altinova Ferry Cargo Container</name>
+			<icon>00049203.png</icon>
+			<desc>A Mediah freight chest that can be attached to a ferry. It allows the boat to hold heavier cargo when equipped.\nWhen 3 or more set items are equipped:\nMovement Speed +3%\nAll DP +30\n- Mounts Usable: Ferry\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>51008</id>
+			<name>Wagon Registration: Noble Wagon</name>
+			<icon>00051008.png</icon>
+			<desc>Proof of ownership of a &lt;Noble Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 20, Acceleration: 95%, Speed: 95%, Turn: 95%, Braking: 95%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51007</id>
+			<name>Wagon Registration: Merchant Wagon</name>
+			<icon>00051007.png</icon>
+			<desc>Proof of ownership of a &lt;Merchant Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 18, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51005</id>
+			<name>Wagon Registration: Trade Wagon</name>
+			<icon>00051005.png</icon>
+			<desc>Proof of ownership of a &lt;Trade Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 16, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51003</id>
+			<name>Wagon Registration: White Wagon</name>
+			<icon>00051003.png</icon>
+			<desc>Proof of ownership of a &lt;White Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 12, Acceleration: 110%, Speed: 110%, Turn: 120%, Braking: 120%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>55847</id>
+			<name>Brass Ingot Crate</name>
+			<icon>00055847.png</icon>
+			<desc>A Trade Item containing 10 Brass Ingots.</desc>
+		</item>
+		<item>
+			<id>53503</id>
+			<name>White Wagon Cover</name>
+			<icon>00053503.png</icon>
+			<desc>A cover for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53507</id>
+			<name>Noble Wagon Cover</name>
+			<icon>00053507.png</icon>
+			<desc>A cover for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53506</id>
+			<name>Merchant Wagon Cover</name>
+			<icon>00053506.png</icon>
+			<desc>A cover for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>52703</id>
+			<name>Combat Hide Saddle</name>
+			<icon>00052703.png</icon>
+			<desc>Durable heavy saddle made of hard leather that is purpose built for battle.\nIncreases stability for faster riding.\n- Able to attach on : Horse &amp; Camel &amp; Donkey\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>52702</id>
+			<name>Light Hide Saddle</name>
+			<icon>00052702.png</icon>
+			<desc>Sturdier and lighter saddle made of high-quality leather\nIncreases stability for faster riding.\n- Able to attach on : Horse &amp; Camel &amp; Donkey\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Grunil Armor</name>
+			<icon>00010934.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Grunil Helmet</name>
+			<icon>00010933.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Grunil Gloves of Iron Wall</name>
+			<icon>00010935.png</icon>
+			<desc>Iron Wall energy is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Iron Wall, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Grunil Armor of Iron Wall</name>
+			<icon>00010934.png</icon>
+			<desc>Iron Wall energy is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Iron Wall, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Grunil Helmet of Iron Wall</name>
+			<icon>00010933.png</icon>
+			<desc>Iron Wall energy is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Iron Wall, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Grunil Shoes</name>
+			<icon>00010936.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Grunil Gloves</name>
+			<icon>00010935.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10962</id>
+			<name>Ultimate Grunil Armor</name>
+			<icon>00010934.png</icon>
+			<desc>Grunil Armor developed to its maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Iron Wall, Grunil Armor of Agility, Grunil Armor of Intimidation, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10961</id>
+			<name>Ultimate Grunil Helmet</name>
+			<icon>00010933.png</icon>
+			<desc>A Grunil Helmet developed to its maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Iron Wall, Grunil Helmet of Agility, Grunil Helmet of Intimidation, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Grunil Gloves of Agility</name>
+			<icon>00010935.png</icon>
+			<desc>The energy of Agility is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Agility, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Grunil Armor of Agility</name>
+			<icon>00010934.png</icon>
+			<desc>The energy of Agility is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Agility, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Grunil Helmet of Agility</name>
+			<icon>00010933.png</icon>
+			<desc>The energy of Agility is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Agility, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Grunil Shoes of Iron Wall</name>
+			<icon>00010936.png</icon>
+			<desc>Iron Wall energy is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Iron Wall, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Ultimate Grunil Shoes</name>
+			<icon>00010936.png</icon>
+			<desc>Grunil Shoes developed to their maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Iron Wall, Grunil Shoes of Agility, Grunil Shoes of Intimidation, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10963</id>
+			<name>Ultimate Grunil Gloves</name>
+			<icon>00010935.png</icon>
+			<desc>Grunil Gloves developed to their maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Iron Wall, Grunil Gloves of Agility, Grunil Gloves of Intimidation, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Grunil Shoes of Intimidation</name>
+			<icon>00010936.png</icon>
+			<desc>The energy of Intimidation is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Intimidation, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Grunil Gloves of Intimidation</name>
+			<icon>00010935.png</icon>
+			<desc>The energy of Intimidation is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Intimidation, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Grunil Armor of Intimidation</name>
+			<icon>00010934.png</icon>
+			<desc>The energy of Intimidation is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Intimidation, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Grunil Helmet of Intimidation</name>
+			<icon>00010933.png</icon>
+			<desc>The energy of Intimidation is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Intimidation, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Grunil Shoes of Agility</name>
+			<icon>00010936.png</icon>
+			<desc>The energy of Agility is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Agility, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea Dagger of Temptation</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Temptation, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea Dagger of Destruction</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Destruction, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea Dagger of Crimson Flame</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Crimson Flame, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A dagger crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10305</id>
+			<name>Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A dagger made for parrying attacks.</desc>
+		</item>
+		<item>
+			<id>10331</id>
+			<name>Ultimate Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A Krea Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Dagger of Crimson Flame, Krea Dagger of Destruction, Krea Dagger of Temptation, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parrying Dagger of Crimson Flame</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Crimson Flame, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Ultimate Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A Parrying Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Parrying Dagger of Crimson Flame, Parrying Dagger of Destruction, Parrying Dagger of Temptation, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parrying Dagger of Temptation</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Temptation is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Temptation, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parrying Dagger of Destruction</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Destruction is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Destruction, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>13009</id>
+			<name>Ultimate Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>An Incense Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Incense Trinket of Crimson Flame, Incense Trinket of Destruction, Incense Trinket of Temptation, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Incense Trinket of Temptation</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Temptation is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Temptation, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Incense Trinket of Destruction</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Destruction is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Destruction, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Incense Trinket of Crimson Flame</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Crimson Flame, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>A trinket with a pouch full of incense.</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Krea Trinket of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Temptation, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea Trinket of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Destruction, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea Trinket of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Crimson Flame, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Ultimate Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A Krea Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Trinket of Crimson Flame, Krea Trinket of Destruction, Krea Trinket of Temptation, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik Talisman of Temptation</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Temptation is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Temptation, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik Talisman of Destruction</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Destruction is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Destruction, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik Talisman of Crimson Flame</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Crimson Flame, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Ultimate Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A Rhik Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Rhik Talisman of Crimson Flame, Rhik Talisman of Destruction, Rhik Talisman of Temptation, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea Talisman of Destruction</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Destruction, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea Talisman of Crimson Flame</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Crimson Flame, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A talisman crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A talisman with enhanced defensive abilities.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea Talisman of Temptation</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Temptation, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Ultimate Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A Krea Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Talisman of Crimson Flame, Krea Talisman of Destruction, Krea Talisman of Temptation, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Grade 2 Weapon Reform Stone</name>
+			<icon>00004908.png</icon>
+			<desc>A material used in 2nd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Brass Candelabra with Four Candles</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>A brass candelabra with 4 candles attached.</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea Ornamental Knot of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Destruction, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea Ornamental Knot of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Crimson Flame, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>An ornamental knot crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Ultimate Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>Krea Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Crimson Flame, Krea Ornamental Knot of Destruction, Krea Ornamental Knot of Temptation, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea Ornamental Knot of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Temptation, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>2708</id>
+			<name>Mediahn Handcrafted Bed</name>
+			<icon>InHouse_H_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2706</id>
+			<name>Calpheon Handcrafted Bed</name>
+			<icon>InHouse_F_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2010</id>
+			<name>Mediahn Handcrafted Bedside Table</name>
+			<icon>InHouse_H_DFF_Chest_01.png</icon>
+			<desc>A handcrafted bedside table from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2008</id>
+			<name>Mediahn Handcrafted Drawers</name>
+			<icon>InHouse_H_DFF_Dresser_01.png</icon>
+			<desc>A handcrafted drawer from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Calpheon Handcrafted Drawer</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>A handcrafted drawer from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2108</id>
+			<name>Mediahn Handcrafted Closet</name>
+			<icon>InHouse_H_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Calpheon Handcrafted Wardrobe</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2316</id>
+			<name>Mediahn Handcrafted Sofa</name>
+			<icon>InHouse_H_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2315</id>
+			<name>Mediahn Handcrafted Chair</name>
+			<icon>InHouse_H_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2313</id>
+			<name>Calpheon Handcrafted Sofa</name>
+			<icon>InHouse_F_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2311</id>
+			<name>Velian Handcrafted Sofa</name>
+			<icon>InHouse_D_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2309</id>
+			<name>Heidel Handcrafted Sofa</name>
+			<icon>InHouse_B_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Calpheon Handcrafted Chair</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Calpheon Handcrafted Cabinet</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>A handcrafted bedside table from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2216</id>
+			<name>Calpheon Handcrafted Table</name>
+			<icon>InHouse_F_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2210</id>
+			<name>Mediahn Handcrafted Table</name>
+			<icon>InHouse_H_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2208</id>
+			<name>Mediahn Handcrafted Dining Table</name>
+			<icon>InHouse_H_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Calpheon Handcrafted Dining Table</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>49004</id>
+			<name>Ship License: Mediah Ferry</name>
+			<icon>00049004.png</icon>
+			<desc>Proof of ownership of a &lt;Mediah Ferry&gt; at the Wharf.\n- Inventory Slot(s): 8, Acceleration: 100%, Speed: 110%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

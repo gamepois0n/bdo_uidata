@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7909</itemKey>
+	<itemName>Worm Meat</itemName>
+	<itemIcon>00007909.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a worm corpse.</itemDesc>
+	<collect>
+		<character>
+			<name>Calpheon Worm</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cave Flytrap Worm</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Hole Worm</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Rare Jerky</name>
+			<icon>00007920.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

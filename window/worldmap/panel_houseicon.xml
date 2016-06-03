@@ -1,0 +1,878 @@
+<UI>
+	<Control Type="Panel" Name="Panel_HouseIcon" Pos="147 62" Size="200 200" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 200">
+		<Attribute Type="Ignore"/>
+		<Control Type="Button" Name="Static_Empty" Pos="-126 -47" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MyHouse" Pos="160 -50" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_LiveHouse" Pos="432 -51" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Inn" Pos="728 -48" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_WareHouse" Pos="1012 -46" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Horse" Pos="1313 -42" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Weapon" Pos="-126 193" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Guard" Pos="151 189" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HandMade" Pos="435 194" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carpenter" Pos="740 196" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Jewel" Pos="1020 192" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Tools" Pos="1314 191" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Blackstone" Pos="-122 428" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Upgrade" Pos="152 428" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Cannon" Pos="439 432" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Ships" Pos="744 428" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carriage" Pos="1027 425" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HorseGoods" Pos="1314 423" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Furniture" Pos="-121 678" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Special" Pos="157 681" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Const" Pos="446 682" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Change" Pos="750 682" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Working" Pos="1028 690" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_30" Pos="1323 694" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Empty_1F" Pos="10 -44" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Empty_2F" Pos="10 44" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Empty_3F" Pos="10 95" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MyHouse_1F" Pos="295 -51" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MyHouse_2F" Pos="295 37" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MyHouse_3F" Pos="295 88" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_LiveHouse_1F" Pos="575 -46" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_LiveHouse_2F" Pos="575 42" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_LiveHouse_3F" Pos="575 93" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Inn_1F" Pos="868 -44" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Inn_2F" Pos="868 44" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Inn_3F" Pos="868 95" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_WareHouse_1F" Pos="1156 -43" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_WareHouse_2F" Pos="1156 45" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_WareHouse_3F" Pos="1156 96" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Horse_1F" Pos="1444 -42" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Horse_2F" Pos="1444 46" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Horse_3F" Pos="1444 97" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Weapon_1F" Pos="18 194" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Weapon_2F" Pos="18 282" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Weapon_3F" Pos="18 333" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Guard_1F" Pos="297 196" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Guard_2F" Pos="297 284" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Guard_3F" Pos="297 335" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HandMade_1F" Pos="573 196" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HandMade_2F" Pos="573 284" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HandMade_3F" Pos="573 335" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_02.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carpenter_1F" Pos="871 199" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carpenter_2F" Pos="871 287" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carpenter_3F" Pos="871 338" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Jewel_1F" Pos="1159 191" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Jewel_2F" Pos="1159 279" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Jewel_3F" Pos="1159 330" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Tools_1F" Pos="1445 193" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Tools_2F" Pos="1445 281" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Tools_3F" Pos="1445 332" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Blackstone_1F" Pos="12 434" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Blackstone_2F" Pos="12 522" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Blackstone_3F" Pos="12 573" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Upgrade_1F" Pos="292 433" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Upgrade_2F" Pos="292 521" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Upgrade_3F" Pos="292 572" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Cannon_1F" Pos="570 434" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Cannon_2F" Pos="570 522" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Cannon_3F" Pos="570 573" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_04.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Ships_1F" Pos="881 435" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Ships_2F" Pos="881 523" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Ships_3F" Pos="881 574" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carriage_1F" Pos="1161 429" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carriage_2F" Pos="1161 517" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Carriage_3F" Pos="1161 568" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HorseGoods_1F" Pos="1447 424" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HorseGoods_2F" Pos="1447 512" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_HorseGoods_3F" Pos="1447 563" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_05.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Furniture_1F" Pos="9 681" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Furniture_2F" Pos="9 769" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Furniture_3F" Pos="9 820" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Special_1F" Pos="289 687" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Special_2F" Pos="289 775" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Special_3F" Pos="289 826" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Const_1F" Pos="571 684" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Const_2F" Pos="571 772" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Const_3F" Pos="571 823" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_06.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Change_1F" Pos="876 683" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Change_2F" Pos="876 771" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Change_3F" Pos="876 822" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Working_1F" Pos="1159 689" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Working_2F" Pos="1159 777" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Working_3F" Pos="1159 828" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCarriage" Pos="-131 883" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCarriage_1F" Pos="8 883" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCarriage_2F" Pos="8 971" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCarriage_3F" Pos="8 1022" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeShip" Pos="156 894" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeShip_1F" Pos="289 894" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="172 4 340 4 172 92 340 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="172 203 340 203 172 291 340 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeShip_2F" Pos="289 982" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="172 92 340 92 172 142 340 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="172 291 340 291 172 341 340 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeShip_3F" Pos="289 1033" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="172 142 340 142 172 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="172 341 340 341 172 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCannon" Pos="437 891" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCannon_1F" Pos="568 891" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="344 4 512 4 344 92 512 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="344 203 512 203 344 291 512 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCannon_2F" Pos="568 979" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="344 92 512 92 344 142 512 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="344 291 512 291 344 341 512 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCannon_3F" Pos="568 1030" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="344 142 512 142 344 200 512 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<Texture Type="On" UV="344 341 512 341 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_09.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCustomize" Pos="750 883" Size="168 95" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 95" Grid="1" GridPosX="0 0 168 168" GridPosY="0 88 88 99" GridUVX="0 0 168 168" GridUVY="0 88 188 200" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCustomize_1F" Pos="876 884" Size="168 88" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 88" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCustomize_2F" Pos="876 972" Size="168 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 51" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_MakeCustomize_3F" Pos="876 1023" Size="168 58" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 58" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_10.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

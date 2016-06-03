@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12102</itemKey>
+	<itemName>Bague en rubis resplendissant</itemName>
+	<itemIcon>00012102.png</itemIcon>
+	<itemDesc>Un anneau décoré d&apos;un rubis brillant.</itemDesc>
+	<house type="8">
+		<item>
+			<id>12101</id>
+			<name>Bague en rubis</name>
+			<icon>00012101.png</icon>
+			<desc>Un anneau décoré d&apos;un rubis.</desc>
+		</item>
+		<item>
+			<id>4257</id>
+			<name>Fragment de platine fondu</name>
+			<icon>00004257.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de platine.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubis</name>
+			<icon>00004451.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un rubis brut.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12103</id>
+			<name>Bague en rubis de sang</name>
+			<icon>00012103.png</icon>
+			<desc>Un anneau décoré d&apos;un rubis sanglant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

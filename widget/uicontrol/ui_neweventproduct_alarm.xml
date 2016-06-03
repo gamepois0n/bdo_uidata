@@ -1,0 +1,14 @@
+<UI>
+	<Control Type="Panel" Name="Panel_NewEventProduct_Alarm" Pos="Right Bottom" Size="50 80" Pan="-33 0" Color="ffffffff" EnableArea="0 0 50 40" ApplyGlobalScale="False">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_Icon" Pos="Center -4" Size="45 45" Pan="0 0" Color="ffffffff" EnableArea="0 0 45 45" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="124 202 164 202 124 242 164 242" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SumText" Pos="Center Center" Size="70 20" Pan="0 -5" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Disable" Color="Off"/>
+			<Text Value="" Font="BaseFont_8_Line" Color="fff7eaa4" OverColor="fff7eaa4" ClickColor="fff7eaa4" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

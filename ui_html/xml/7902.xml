@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7902</itemKey>
+	<itemName>Lamb Meat</itemName>
+	<itemIcon>00007902.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a sheep corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Lamb</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mediah Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mediah Young Mountain Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mountain Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendia Mountain Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sheep</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Mountain Goat</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Well-Dried Jerky</name>
+			<icon>00007919.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

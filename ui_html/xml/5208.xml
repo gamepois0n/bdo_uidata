@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5208</itemKey>
+	<itemName>Essence of the Sun</itemName>
+	<itemIcon>00005208.png</itemIcon>
+	<itemDesc>An essence extracted from Fruit of the Sun, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n- How to Obtain: Can be made by combining other ingredients with Fruit of the Sun using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5207</id>
+			<name>Fruit of the Sun</name>
+			<icon>00005207.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5207</id>
+			<name>Fruit of the Sun</name>
+			<icon>00005207.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Pine Sap</name>
+			<icon>00005003.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Pine Trees with a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>5954</id>
+			<name>Trace of the Earth</name>
+			<icon>00005954.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</desc>
+		</item>
+		<item>
+			<id>5408</id>
+			<name>Arrow Mushroom</name>
+			<icon>00005408.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: It can be Produced at Forest of Plunder. Arrow Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

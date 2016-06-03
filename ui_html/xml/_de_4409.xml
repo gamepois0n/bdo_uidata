@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4409</itemKey>
+	<itemName>Grüner Rohkristall</itemName>
+	<itemIcon>00004409.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Grünem Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe des Rhutum-Außenpostens gesammelt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Grünquarz</name>
+		</character>
+	</collect>
+	<node region="Rhutum-Außenposten – Bergbau"/>
+	<makelist>
+		<item>
+			<id>4469</id>
+			<name>Grüner Kristall</name>
+			<icon>00004469.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe des Rhutum-Außenpostens gefundenem Grünen Rohkristall gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

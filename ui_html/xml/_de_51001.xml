@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>51001</itemKey>
+	<itemName>Wagenregistrierung: Schäbiger Wagen</itemName>
+	<itemIcon>00051001.png</itemIcon>
+	<itemDesc>Dient beim Stall als Nachweis über den Besitz eines 『Schäbigen Wagens』.\n– Inventarplätze: 8, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</itemDesc>
+	<shop>
+		<character>
+			<name>Gabril</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Breesman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dimanthor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Aschrogge</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vanacil</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Izauro</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Allan</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Bial Nasser</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Melson Bandor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Gulo</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Micha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Muam Mant</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Samier</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Partus</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Bevel</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Spig</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Herar</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fanucci</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Romary</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Chiara Coop</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Lorenzo Murray</name>
+		</character>
+	</shop>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Wagenpferd</name>
+			<icon>00053901.png</icon>
+			<desc>Das Pferd, das einen Wagen zieht. Es ist bei der Herstellung eines Wagens unverzichtbar.\n\n– Verwendung: Wagenherstellung</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Eschenschichtholz</name>
+			<icon>00004652.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Eschenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Bronzebarren</name>
+			<icon>00004067.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zinn gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fuchsfell</name>
+			<icon>00006003.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Fuchskadavers gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+</itemInfo>
+

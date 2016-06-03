@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15116</itemKey>
+	<itemName>Cristal magique d&apos;infinité (Assaut)</itemName>
+	<itemIcon>00045031.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être transposé dans des châsses de gant. \n- Effet d&apos;objet : vitesse d&apos;attaque +2\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15014</id>
+			<name>Cristal magique du soleil (Assaut)</name>
+			<icon>00045031.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de gant. \n- Effet d&apos;objet : vitesse d&apos;attaque +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>5209</id>
+			<name>Fruit d&apos;enchantement</name>
+			<icon>00005209.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Cristal magique de la flamme pourpre - Précision</name>
+			<icon>00045001.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>4460</id>
+			<name>Émeraude</name>
+			<icon>00004460.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une émeraude brute.</desc>
+		</item>
+		<item>
+			<id>6203</id>
+			<name>Sang de renard</name>
+			<icon>00006203.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un renard mort.</desc>
+		</item>
+		<item>
+			<id>15014</id>
+			<name>Cristal magique du soleil (Assaut)</name>
+			<icon>00045031.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de gant. \n- Effet d&apos;objet : vitesse d&apos;attaque +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

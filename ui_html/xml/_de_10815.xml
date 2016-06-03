@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10815</itemKey>
+	<itemName>Taritas-Handschuhe</itemName>
+	<itemIcon>00010815.png</itemIcon>
+	<itemDesc>Ein von harten Kriegern getragenes Rüstungsteil. Auf der Innenseite des Rüstungsteils stehen Durchhalteparolen geschrieben.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe</itemDesc>
+	<shop>
+		<character>
+			<name>Techthon</name>
+		</character>
+	</shop>
+	<house type="11">
+		<item>
+			<id>10815</id>
+			<name>Taritas-Handschuhe</name>
+			<icon>00010815.png</icon>
+			<desc>Ein von harten Kriegern getragenes Rüstungsteil. Auf der Innenseite des Rüstungsteils stehen Durchhalteparolen geschrieben.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004907.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10855</id>
+			<name>Ultimative Taritas-Handschuhe</name>
+			<icon>00010815.png</icon>
+			<desc>Maximal aufgerüstete Taritas-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Eisenmauer, Taritas-Handschuhe der Eisenmauer, Taritas-Stahlhandschuhe der Beweglichkeit, Taritas-Handschuhe der Beweglichkeit, Taritas-Stahlhandschuhe der Einschüchterung, Taritas-Handschuhe der Einschüchterung, Taritas-Stahlhandschuhe der Zerstörung, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10851</id>
+			<name>Taritas-Handschuhe der Einschüchterung</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Einschüchterung, Taritas-Handschuhe der Einschüchterung, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10843</id>
+			<name>Taritas-Handschuhe der Eisenmauer</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Eisenmauer, Taritas-Handschuhe der Eisenmauer, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10815</id>
+			<name>Taritas-Handschuhe</name>
+			<icon>00010815.png</icon>
+			<desc>Ein von harten Kriegern getragenes Rüstungsteil. Auf der Innenseite des Rüstungsteils stehen Durchhalteparolen geschrieben.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe</desc>
+		</item>
+		<item>
+			<id>10847</id>
+			<name>Taritas-Handschuhe der Beweglichkeit</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Beweglichkeit, Taritas-Handschuhe der Beweglichkeit, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

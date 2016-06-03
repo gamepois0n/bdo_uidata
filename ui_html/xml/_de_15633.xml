@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15633</itemKey>
+	<itemName>Roter Geistkristall</itemName>
+	<itemIcon>00015633.png</itemIcon>
+	<itemDesc>Ein Schwarzsteinkristall, der in Sekundärwaffen-Sockel übertragen werden kann.\n– Gegenstandseffekt: Max. LP +100 &amp; Angriff +5 sowie Bonusschaden gegen Menschen +3\n※ Dieser Kristall kann beim Tod zersplittern.\n\n– Das Potenzial des Kristalls kann durch den Schwarzgeist auf Ausrüstungsgegenstände übertragen werden.n– Gewinnung: Betretet das Rote Schlachtfeld durch den Schwarzgeist und verdient Rote Siegel durch schwere Kämpfe.\nTauscht die Roten Siegel bei Ornella in Heidel in Rote Essenz um.\nErhitzt die Rote Essenz mit einem Schwarzgeistkristall.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4989</id>
+			<name>Rote Essenz</name>
+			<icon>00004989.png</icon>
+			<desc>Die konzentrierte Essenz von rotem Blut.\nDurch Erhitzung zusammen mit Uralter Magiekristall – Macht und Uralter Magiekristall – Stahlhart lässt sich ein erweckter Kristall erschaffen.</desc>
+		</item>
+		<item>
+			<id>15626</id>
+			<name>Schwarzgeistkristall</name>
+			<icon>00045051.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Sekundärwaffen-Sockel übertragen werden kann.\nKann nur durch eine Schwarzgeist-Quest erhalten werden.\n– Gegenstandseffekt: Max. LP +100 &amp; AK +5\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

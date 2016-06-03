@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4651</itemKey>
+	<itemName>Eschenbrett</itemName>
+	<itemIcon>00004651.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Eschenholz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Esche</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Angela</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4601</id>
+			<name>Eschenholz</name>
+			<icon>00004601.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann in der Goblinhöhle, auf dem Ehwazhügel, im Balenoswald und auf dem Wolfshügel hergestellt werden. Kann außerdem durch Holzfällen von Eschen erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4652</id>
+			<name>Eschenschichtholz</name>
+			<icon>00004652.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Eschenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

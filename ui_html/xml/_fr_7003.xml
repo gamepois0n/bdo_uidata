@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7003</itemKey>
+	<itemName>Pomme de terre</itemName>
+	<itemIcon>00007003.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient aux fermes Bartali, Finto et Loggia. Et peut être aussi obtenu en cultivantdes graines de pommes de terre dans un jardin ou en récoltant des pommes de terre à la main ou avec une houe..\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Pomme de terre</name>
+		</character>
+	</collect>
+	<node region="Ferme Bartali : culture de la pomme de terre"/>
+	<node region="Ferme Finto : culture de la pomme de terre"/>
+	<node region="Ferme Loggia : culture de la pomme de terre"/>
+	<makelist>
+		<item>
+			<id>567</id>
+			<name>Jus de grains concentré</name>
+			<icon>00000567.png</icon>
+			<desc>Restaure instantanément les PM par +125 à l&apos;utilisation.\n- Temps de recharge : 4 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Jus de grain</name>
+			<icon>00000566.png</icon>
+			<desc>Restaure instantanément les PM par +75 à l&apos;utilisation.\n- Temps de recharge : 4 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>7423</id>
+			<name>Caisse de pommes de terre</name>
+			<icon>00007423.png</icon>
+			<desc>Une récolte transformée pour être vendue à bon prix. Elle peut être vendue à des marchands.\n- Obtention : elle peut être préparée à un établi.</desc>
+		</item>
+		<item>
+			<id>7103</id>
+			<name>Farine de pomme de terre</name>
+			<icon>00007103.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant des pommes de terre.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Engrais minéral</name>
+			<icon>00016901.png</icon>
+			<desc>Augmente la croissance des cultures alentours. Utiliser un engrais avant de planter réduit le temps de pousse des cultures.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

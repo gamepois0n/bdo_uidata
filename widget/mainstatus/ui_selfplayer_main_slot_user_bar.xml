@@ -1,0 +1,179 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MainStatus_User_Bar" Pos="Center Bottom" Size="385 40" Pan="11 90" Color="ffffffff" EnableArea="0 0 407 40" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_empty.dds</Texture>
+		<UIAni CalcParentRotate="False">
+			<UIAniItem Type="Move" StartPos="613 991" EndPos="613 994" Align="2 2 2 2" StartSpan="0 6" EndSpan="0 3" ID="Ani_Move_Damage_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="3" AdvanceType="4" HideAtEnd="False"/>
+			<UIAniItem Type="Move" StartPos="613 991" EndPos="613 988" Align="2 2 2 2" StartSpan="0 6" EndSpan="0 9" ID="Ani_Move_Damage_2" Activity="True" Replay="False" RunOnBoot="False" StartFrame="3" EndFrame="6" AdvanceType="4" HideAtEnd="False"/>
+			<UIAniItem Type="Move" StartPos="613 991" EndPos="613 997" Align="2 2 2 2" StartSpan="0 6" EndSpan="0 0" ID="Ani_Move_Damage_Critical_1" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="5" AdvanceType="4" HideAtEnd="False"/>
+			<UIAniItem Type="Move" StartPos="613 991" EndPos="613 985" Align="2 2 2 2" StartSpan="0 6" EndSpan="0 12" ID="Ani_Move_Damage_Critical_2" Activity="False" Replay="False" RunOnBoot="False" StartFrame="5" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+			<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="1.08" BasePosition="300 50" ScaleChild="True" ID="Ani_Scale_Damage_Critical_1" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="4" AdvanceType="4" HideAtEnd="False"/>
+		</UIAni>
+		<Attribute Type="Drag" Area="0 0 600 110"/>
+		<UIAniSet Name="ANI_SET_Damage" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="2250712988" AniName="Ani_Move_Damage_1" UIName="Panel_MainStatus_User_Bar"/>
+			<UIAniItem UIKey="2250712988" AniName="Ani_Move_Damage_2" UIName="Panel_MainStatus_User_Bar"/>
+			<UIAniItem UIKey="3694676849" AniName="Ani_Color_Damage_1" UIName="Static_HPGage_Back"/>
+		</UIAniSet>
+		<UIAniSet Name="ANI_SET_Circular_Loop" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="2544838303" AniName="Ani_Color_Start_01" UIName="Static_Circular_Effect_1"/>
+			<UIAniItem UIKey="2544838303" AniName="Ani_Color_Loop" UIName="Static_Circular_Effect_1"/>
+			<UIAniItem UIKey="3356050584" AniName="Ani_Color_Loop" UIName="CircularProgress_SkillExp"/>
+			<UIAniItem UIKey="3356050584" AniName="Ani_Color_Start_01" UIName="CircularProgress_SkillExp"/>
+			<UIAniItem UIKey="1284488484" AniName="Ani_Color_Loop" UIName="Static_SkillIcon"/>
+			<UIAniItem UIKey="1284488484" AniName="Ani_Color_Start_01" UIName="Static_SkillIcon"/>
+		</UIAniSet>
+		<UIAniSet Name="ANI_SET_Damage_Critical" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="2250712988" AniName="Ani_Move_Damage_Critical_1" UIName="Panel_MainStatus_User_Bar"/>
+			<UIAniItem UIKey="2250712988" AniName="Ani_Move_Damage_Critical_2" UIName="Panel_MainStatus_User_Bar"/>
+			<UIAniItem UIKey="2250712988" AniName="Ani_Scale_Damage_Critical_1" UIName="Panel_MainStatus_User_Bar"/>
+			<UIAniItem UIKey="3694676849" AniName="Ani_Color_Damage_Critical_1" UIName="Static_HPGage_Back"/>
+		</UIAniSet>
+		<Control Type="Static" Name="Static_HP_MainBG" Pos="Center Top" Size="309 9" Pan="2 4" Color="ffffffff" EnableArea="0 0 309 9" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 10 256 10 0 19 256 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_MP_MainBG" Pos="Center Top" Size="309 9" Pan="2 20" Color="ffffffff" EnableArea="0 0 309 9" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 10 256 10 0 19 256 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GaugeAlert" Pos="Center Top" Size="328 15" Pan="0 10" Color="ffd20000" EnableArea="0 0 328 15" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 144 246 144 1 163 246 163" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="aad20000" EndColor="85d20000" StartIntensity="1.50" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_AlertGauge0" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="180" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffd20000" EndColor="b5d20000" StartIntensity="1.50" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_AlertGauge1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Texture_MP" Pos="Left Top" Size="20 11" Pan="17 30" Color="ffffffff" EnableArea="0 0 20 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_Texture_FP" Pos="Left Top" Size="20 11" Pan="17 30" Color="ffffffff" EnableArea="0 0 20 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_Texture_EP" Pos="Left Top" Size="20 11" Pan="17 30" Color="ffffffff" EnableArea="0 0 20 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_Texture_CP" Pos="Left Top" Size="20 11" Pan="17 30" Color="ffffffff" EnableArea="0 0 20 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_Texture_BP" Pos="Left Top" Size="20 11" Pan="17 30" Color="ffffffff" EnableArea="0 0 20 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_HpGaugeLater" Pos="Center Top" Size="309 9" Pan="0 4" Color="ffffffff" EnableArea="0 0 309 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 32 256 32 0 41 256 41" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="8.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Center Center" Size="20 9" Pan="0 0" Color="cc000044" EnableArea="0 0 20 9">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress_HPGauge" Pos="Center Top" Size="309 9" Pan="1 4" Color="ffffffff" EnableArea="0 0 309 9" Grid="1" GridPosX="0 5 304 309" GridPosY="0 0 9 9" GridUVX="0 5 250 255" GridUVY="0 0 9 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 255 0 0 9 255 9" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress_HPHead" Pos="-5 Center" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="253 0 256 0 253 9 256 9" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_MpGaugeLater" Pos="Center Top" Size="309 9" Pan="1 20" Color="ffffffff" EnableArea="0 0 309 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 32 256 32 0 41 256 41" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="8.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-5 0" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="253 32 256 32 253 41 256 41" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress_FPGauge" Pos="Center Top" Size="309 9" Pan="1 20" Color="ffffffff" EnableArea="0 0 309 9" Grid="1" GridPosX="0 5 304 309" GridPosY="0 0 9 9" GridUVX="0 5 250 255" GridUVY="0 0 9 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 42 255 42 0 51 255 51" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress_FPHead" Pos="-5 Center" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="252 42 255 42 252 51 255 51" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress_MPGauge" Pos="Center Top" Size="309 9" Pan="1 20" Color="ffffffff" EnableArea="0 0 309 9" Grid="1" GridPosX="0 5 304 309" GridPosY="0 0 9 9" GridUVX="0 5 250 255" GridUVY="0 0 9 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 52 255 52 0 61 255 61" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress_MPHead" Pos="-5 Center" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="252 52 255 52 252 61 255 61" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress_EPGauge" Pos="Center Top" Size="309 9" Pan="1 20" Color="ffffffff" EnableArea="0 0 309 9" Grid="1" GridPosX="0 5 304 309" GridPosY="0 0 9 9" GridUVX="0 5 250 255" GridUVY="0 0 9 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 62 255 62 0 71 255 71" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress_EPHead" Pos="-5 Center" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="252 62 255 62 252 71 255 71" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress_BPGauge" Pos="Center Top" Size="309 9" Pan="1 20" Color="ffffffff" EnableArea="0 0 309 9" Grid="1" GridPosX="0 5 304 309" GridPosY="0 0 9 9" GridUVX="0 5 250 255" GridUVY="0 0 9 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 226 256 226 1 235 256 235" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress_BPHead" Pos="-5 Center" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_100per" Pos="Center Top" Size="318 14" Pan="0 10" Color="78ffffff" EnableArea="0 0 318 14" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 21 256 21 0 33 256 33" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="bfffffff" EndColor="75ffffff" StartIntensity="1.50" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_100per_0" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_HPGage_Back" Pos="Center Top" Size="312 11" Pan="2 3" Color="ffffffff" EnableArea="0 0 312 11" Grid="1" GridPosX="0 5 307 312" GridPosY="0 0 11 11" GridUVX="0 5 250 255" GridUVY="0 0 11 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 20 255 20 0 31 255 31" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="6" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_Critical_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MPGage_Back" Pos="Center Top" Size="312 11" Pan="2 19" Color="ffffffff" EnableArea="0 0 312 11" Grid="1" GridPosX="0 5 307 312" GridPosY="0 0 11 11" GridUVX="0 5 250 255" GridUVY="0 0 11 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 20 255 20 0 31 255 31" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="6" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_Critical_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="6" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_Critical_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MainBarText" Pos="Left Top" Size="50 20" Pan="0 -35" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="전투 자원" formatString="SELFPLAYERBAR_TXT_RESOURCE" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HP" Pos="334 Top" Size="15 11" Pan="0 3" Color="ffffffff" EnableArea="0 0 15 11">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="206 84 221 84 206 95 221 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="fff0ef9d" OverColor="fff0ef9d" ClickColor="fff0ef9d" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MP" Pos="333 Top" Size="15 11" Pan="0 19" Color="ffffffff" EnableArea="0 0 15 11">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="206 84 221 84 206 95 221 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="fff0ef9d" OverColor="fff0ef9d" ClickColor="fff0ef9d" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HPText" Pos="0 Top" Size="2 2" Pan="0 3" Color="ffffffff" EnableArea="0 0 2 2">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="fff0ef9d" OverColor="fff0ef9d" ClickColor="fff0ef9d" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MPText" Pos="0 Top" Size="2 2" Pan="0 3" Color="ffffffff" EnableArea="0 0 2 2">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="fff0ef9d" OverColor="fff0ef9d" ClickColor="fff0ef9d" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+	</Control>
+</UI>
+

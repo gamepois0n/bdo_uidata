@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5801</itemKey>
+	<itemName>Cotton</itemName>
+	<itemIcon>00005801.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Ahto Farm and Kasula Farm. It can also be obtained by Gathering in rarely seen Wild Cotton plants.</itemDesc>
+	<collect>
+		<character>
+			<name>Cotton</name>
+		</character>
+	</collect>
+	<node region="Ahto Farm - Cotton Farming"/>
+	<node region="Kasula Farm - Cotton Farming"/>
+	<makelist>
+		<item>
+			<id>5851</id>
+			<name>Cotton Yarn</name>
+			<icon>00005851.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Cotton.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

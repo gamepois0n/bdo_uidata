@@ -1,0 +1,80 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Copy_CharacterTag_HouseHold" Pos="-1000 -1000" Size="100 100" Pan="0 0" Color="  ffffff" EnableArea="0 0 200 10">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Control Type="StaticText" Name="CharacterName" Pos="Center Bottom" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterName" Font="BaseFont" Color="fffdffef" OverColor="fffdffef" ClickColor="fffdffef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="KingsCharacterName" Pos="Center Bottom" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterName" Font="SubTitleFont_14" Color="fffdffef" OverColor="fffdffef" ClickColor="fffdffef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="ProgressBack" Pos="Center Bottom" Size="105 11" Pan="0 -11" Color="ffffffff" EnableArea="0 0 105 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_HpLater" Pos="Center Bottom" Size="99 4" Pan="0 -8" Color="ffffffff" EnableArea="0 0 97 3">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 233 1 1 2 233 2" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_White" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Attribute Type="Smooth" Speed="12.000000"/>
+			<Control Type="Static" Name="Progress2_1_LaterBar_Head" Pos="-1 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 3">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="CharacterHPGageProgress" Pos="Center Bottom" Size="99 4" Pan="0 -8" Color="ffffffff" EnableArea="0 0 99 4">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 56 232 56 1 61 232 61" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="18" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_20" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_40" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="CharacterHPGage_Bar_Head" Pos="-1 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 4">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="KingOrLordTentProgressBack" Pos="Center Bottom" Size="313 42" Pan="0 -40" Color="ffffffff" EnableArea="0 0 313 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 168 314 168 1 210 314 210" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="KingOrLordTentProgress2_HpLater" Pos="Center Bottom" Size="287 22" Pan="0 -30" Color="ffffffff" EnableArea="0 0 287 22">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 144 288 144 1 166 288 166" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_White" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="Progress2_1_LaterBar_Head" Pos="-3 0" Size="1 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 22">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="KingOrLordTentHPGageProgress" Pos="Center Bottom" Size="287 22" Pan="0 -30" Color="ffffffff" EnableArea="0 0 287 22">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 120 288 120 1 142 288 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="18" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_20" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_40" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="CharacterHPGage_Bar_Head" Pos="-3 0" Size="1 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 22">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15016</itemKey>
+	<itemName>Magic Crystal of the Sun - Valor</itemName>
+	<itemIcon>00045033.png</itemIcon>
+	<itemDesc>A Black Stone Crystal that can be fused into Glove sockets.\n- Item Effect: Critical Hit Rate +1\n※ This magic crystal has a high chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</itemDesc>
+	<shop>
+		<character>
+			<name>Corin</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Marsella</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

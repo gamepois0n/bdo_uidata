@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5208</itemKey>
+	<itemName>Essence du soleil</itemName>
+	<itemIcon>00005208.png</itemIcon>
+	<itemDesc>Essence extraite d&apos;un fruit du soleil pouvant être parfois obtenu dans un jardin. Utilisé en tant qu&apos;ingrédient en alchimie.\n- Obtention : s&apos;obtient en combinant certains ingrédients avec un fruit du soleil en alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5207</id>
+			<name>Fruit du soleil</name>
+			<icon>00005207.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5207</id>
+			<name>Fruit du soleil</name>
+			<icon>00005207.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Sève de pin</name>
+			<icon>00005003.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un pin.</desc>
+		</item>
+		<item>
+			<id>5954</id>
+			<name>Trace de la Terre</name>
+			<icon>00005954.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+		<item>
+			<id>5408</id>
+			<name>Champignon flèche</name>
+			<icon>00005408.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit dans la forêt du Pillage. Les champignons flèche peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

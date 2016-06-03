@@ -1,0 +1,202 @@
+<!-- ========================================================================================================
+	  ========================  캐릭터 생성의 커스터마이징 카테고리 컨트롤 UI   data  =========================================
+      ======================================================================================================== -->
+
+
+<!-- 새로운 CustomizationUi 추가 방법 , 추가하려는 UI를  클라이언트 소스코드 내의 CustomizationUi Enumeration 및 name parser 에 적절히 추가해야 한다. 프로그래머에게 문의 -->
+<!-- CustomizationUi의 경우 순서대로 화면에 출력됨 -->
+<!-- CustomizationUi descName : Ui에 표시되는 이름, UiName : UiId로 변경되는 이름, ShowMessageId : 선택 시 표시될 message Id --> 
+<!-- 현재 CustomizationCategory 순서는 변경되면 안된다. Panel_CharacterCreation_Main.lua 에서 고정되어있음 -->
+<Class ClassType="1">
+	<CustomizationCategory Type = "Hair" >
+		<CustomizationUi descName ="프리셋" UiName= "HairPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="종류" UiName = "HairMesh" ShowMessageId = "1"/>
+		<CustomizationUi descName ="형태" UiName = "HairShape" />
+		<CustomizationUi descName ="색상" UiName = "HairDecoration" />
+	</CustomizationCategory>
+		
+	<CustomizationCategory Type = "Face" >
+		<CustomizationUi descName ="프리셋" UiName = "FacePreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="얼굴타입" UiName = "FaceMesh" ShowMessageId = "2"/>
+		<CustomizationUi descName ="피부" UiName = "Skin" />
+		<CustomizationUi descName ="얼굴형태" UiName = "FaceShape" ShowMessageId = "4"/>
+		<CustomizationUi descName ="화장" UiName = "FaceDecoration" />
+		<CustomizationUi descName ="눈" UiName = "EyeDecoration" />
+		<CustomizationUi descName ="아이라인" UiName = "EyelineDecoration" />
+		<CustomizationUi descName ="문신" UiName = "FaceTattoo" />
+		<CustomizationUi descName ="주름" UiName = "Wrinkle"  />
+	</CustomizationCategory>	
+		
+	<CustomizationCategory Type = "Body" >
+		<CustomizationUi descName ="프리셋" UiName = "BodyPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="형태" UiName = "BodyShape"  />
+		<CustomizationUi descName ="근육" UiName = "Muscle"  />
+		<CustomizationUi descName ="문신" UiName = "BodyTattoo"  />
+		<CustomizationUi descName ="포즈편집" UiName = "Pose" ShowMessageId = "3"/>
+	</CustomizationCategory>
+</Class>
+<Class ClassType="2"/>
+<Class ClassType="3"/>
+<Class ClassType="4">
+	<CustomizationCategory Type = "Hair" >
+		<CustomizationUi descName ="프리셋" UiName= "HairPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="종류" UiName = "HairMesh" ShowMessageId = "1"/>
+		<CustomizationUi descName ="형태" UiName = "HairShape" />
+		<CustomizationUi descName ="색상" UiName = "HairDecoration" />
+	</CustomizationCategory>
+		
+	<CustomizationCategory Type = "Face" >
+		<CustomizationUi descName ="프리셋" UiName = "FacePreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="얼굴타입" UiName = "FaceMesh" ShowMessageId = "2"/>
+		<CustomizationUi descName ="피부" UiName = "Skin" />
+		<CustomizationUi descName ="얼굴형태" UiName = "FaceShape" ShowMessageId = "4"/>
+		<CustomizationUi descName ="화장" UiName = "FaceDecoration" />
+		<CustomizationUi descName ="눈" UiName = "EyeDecoration" />
+		<CustomizationUi descName ="아이라인" UiName = "EyelineDecoration" />
+		<CustomizationUi descName ="문신" UiName = "FaceTattoo" />
+		<CustomizationUi descName ="주름" UiName = "Wrinkle"  />
+	</CustomizationCategory>	
+		
+	<CustomizationCategory Type = "Body" >
+		<CustomizationUi descName ="프리셋" UiName = "BodyPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="형태" UiName = "BodyShape"  />
+		<CustomizationUi descName ="근육" UiName = "Muscle"  />
+		<CustomizationUi descName ="문신" UiName = "BodyTattoo"  />
+		<CustomizationUi descName ="포즈편집" UiName = "Pose" ShowMessageId = "3"/>
+	</CustomizationCategory>
+</Class>
+<Class ClassType="5"/>
+<Class ClassType="6"/>
+<Class ClassType="7"/>
+<Class ClassType="8">
+	<CustomizationCategory Type = "Hair" >
+		<CustomizationUi descName ="프리셋" UiName= "HairPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="종류" UiName = "HairMesh" ShowMessageId = "1"/>
+		<CustomizationUi descName ="형태" UiName = "HairShape" />
+		<CustomizationUi descName ="색상" UiName = "HairDecoration" />
+	</CustomizationCategory>
+		
+	<CustomizationCategory Type = "Face" >
+		<CustomizationUi descName ="프리셋" UiName = "FacePreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="얼굴타입" UiName = "FaceMesh" ShowMessageId = "2"/>
+		<CustomizationUi descName ="피부" UiName = "Skin" />
+		<CustomizationUi descName ="얼굴형태" UiName = "FaceShape" ShowMessageId = "4"/>
+		<CustomizationUi descName ="화장" UiName = "FaceDecoration" />
+		<CustomizationUi descName ="눈" UiName = "EyeDecoration" />
+		<CustomizationUi descName ="아이라인" UiName = "EyelineDecoration" />
+		<CustomizationUi descName ="문신" UiName = "FaceTattoo" />
+		<CustomizationUi descName ="주름" UiName = "Wrinkle"  />
+	</CustomizationCategory>	
+		
+	<CustomizationCategory Type = "Body" >
+		<CustomizationUi descName ="프리셋" UiName = "BodyPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="형태" UiName = "BodyShape"  />
+		<CustomizationUi descName ="근육" UiName = "Muscle"  />
+		<CustomizationUi descName ="문신" UiName = "BodyTattoo"  />
+		<CustomizationUi descName ="포즈편집" UiName = "Pose" ShowMessageId = "3"/>
+	</CustomizationCategory>
+</Class>
+<Class ClassType="9"/>
+<Class ClassType="10"/>
+<Class ClassType="11"/>
+<Class ClassType="12">
+	<CustomizationCategory Type = "Hair" >
+		<CustomizationUi descName ="프리셋" UiName= "HairPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="종류" UiName = "HairMesh" ShowMessageId = "1"/>
+		<CustomizationUi descName ="형태" UiName = "HairShape" />
+		<CustomizationUi descName ="색상" UiName = "HairDecoration" />
+	</CustomizationCategory>
+		
+	<CustomizationCategory Type = "Face" >
+		<CustomizationUi descName ="프리셋" UiName = "FacePreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="얼굴타입" UiName = "FaceMesh" ShowMessageId = "2"/>
+		<CustomizationUi descName ="피부" UiName = "Skin" />
+		<CustomizationUi descName ="얼굴형태" UiName = "FaceShape" ShowMessageId = "4"/>
+		<CustomizationUi descName ="화장" UiName = "FaceDecoration" />
+		<CustomizationUi descName ="눈" UiName = "EyeDecoration" />
+		<CustomizationUi descName ="아이라인" UiName = "EyelineDecoration" />
+		<CustomizationUi descName ="문신" UiName = "FaceTattoo" />
+		<CustomizationUi descName ="주름" UiName = "Wrinkle"  />
+	</CustomizationCategory>	
+		
+	<CustomizationCategory Type = "Body" >
+		<CustomizationUi descName ="프리셋" UiName = "BodyPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="형태" UiName = "BodyShape"  />
+		<CustomizationUi descName ="근육" UiName = "Muscle"  />
+		<CustomizationUi descName ="문신" UiName = "BodyTattoo"  />
+		<CustomizationUi descName ="포즈편집" UiName = "Pose" ShowMessageId = "3"/>
+	</CustomizationCategory>
+</Class>
+<Class ClassType="13"/>
+<Class ClassType="14"/>
+<Class ClassType="15"/>
+<Class ClassType="16">
+	<CustomizationCategory Type = "Hair" >
+		<CustomizationUi descName ="프리셋" UiName= "HairPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="종류" UiName = "HairMesh" ShowMessageId = "1"/>
+		<CustomizationUi descName ="형태" UiName = "HairShape" />
+		<CustomizationUi descName ="색상" UiName = "HairDecoration" />
+	</CustomizationCategory>
+		
+	<CustomizationCategory Type = "Face" >
+		<CustomizationUi descName ="프리셋" UiName = "FacePreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="얼굴타입" UiName = "FaceMesh" ShowMessageId = "2"/>
+		<CustomizationUi descName ="피부" UiName = "Skin" />
+		<CustomizationUi descName ="얼굴형태" UiName = "FaceShape" ShowMessageId = "4"/>
+		<CustomizationUi descName ="화장" UiName = "FaceDecoration" />
+		<CustomizationUi descName ="눈" UiName = "EyeDecoration" />
+		<CustomizationUi descName ="아이라인" UiName = "EyelineDecoration" />
+		<CustomizationUi descName ="문신" UiName = "FaceTattoo" />
+		<CustomizationUi descName ="주름" UiName = "Wrinkle"  />
+	</CustomizationCategory>	
+		
+	<CustomizationCategory Type = "Body" >
+		<CustomizationUi descName ="프리셋" UiName = "BodyPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="형태" UiName = "BodyShape"  />
+		<CustomizationUi descName ="근육" UiName = "Muscle"  />
+		<CustomizationUi descName ="문신" UiName = "BodyTattoo"  />
+		<CustomizationUi descName ="포즈편집" UiName = "Pose" ShowMessageId = "3"/>
+	</CustomizationCategory>
+</Class>
+<Class ClassType="17"/>
+<Class ClassType="18"/>
+<Class ClassType="19"/>
+<Class ClassType="20">
+	<CustomizationCategory Type = "Hair" >
+		<CustomizationUi descName ="프리셋" UiName= "HairPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="종류" UiName = "HairMesh" ShowMessageId = "1"/>
+		<CustomizationUi descName ="형태" UiName = "HairShape" />
+		<CustomizationUi descName ="색상" UiName = "HairDecoration" />
+	</CustomizationCategory>
+		
+	<CustomizationCategory Type = "Face" >
+		<CustomizationUi descName ="프리셋" UiName = "FacePreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="얼굴타입" UiName = "FaceMesh" ShowMessageId = "2"/>
+		<CustomizationUi descName ="피부" UiName = "Skin" />
+		<CustomizationUi descName ="얼굴형태" UiName = "FaceShape" ShowMessageId = "4"/>
+		<CustomizationUi descName ="화장" UiName = "FaceDecoration" />
+		<CustomizationUi descName ="눈" UiName = "EyeDecoration" />
+		<CustomizationUi descName ="아이라인" UiName = "EyelineDecoration" />
+		<CustomizationUi descName ="문신" UiName = "FaceTattoo" />
+		<CustomizationUi descName ="주름" UiName = "Wrinkle"  />
+	</CustomizationCategory>	
+		
+	<CustomizationCategory Type = "Body" >
+		<CustomizationUi descName ="프리셋" UiName = "BodyPreset" ShowMessageId = "5"/>
+		<CustomizationUi descName ="형태" UiName = "BodyShape"  />
+		<CustomizationUi descName ="근육" UiName = "Muscle"  />
+		<CustomizationUi descName ="문신" UiName = "BodyTattoo"  />
+		<CustomizationUi descName ="포즈편집" UiName = "Pose" ShowMessageId = "3"/>
+	</CustomizationCategory>
+</Class>
+<Class ClassType="21"/>
+<Class ClassType="22"/>
+<Class ClassType="23"/>
+<Class ClassType="24"/>
+<Class ClassType="25"/>
+<Class ClassType="26"/>
+<Class ClassType="27"/>
+<Class ClassType="28"/>
+<Class ClassType="29"/>
+<Class ClassType="30"/>
+<Class ClassType="31"/>

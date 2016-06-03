@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9441</itemKey>
+	<itemName>Hochwertige Pasta mit Meeresfrüchten</itemName>
+	<itemIcon>00009441.png</itemIcon>
+	<itemDesc>Hochwertige Nudeln mit Meeresfrüchten.\n\n– Spezielle Wirkung: Wirkgeschwindigkeit +1 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>51009</itemKey>
+	<itemName>Papiers de wagon : wagon branlant</itemName>
+	<itemIcon>00051009.png</itemIcon>
+	<itemDesc>Preuve de propriété d&apos;un [wagon branlant] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 6, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</itemDesc>
+	<shop>
+		<character>
+			<name>Bial Nasser</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Melson Bandor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Gula</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Gabril</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Breesman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dimanthor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ashrogue</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Romary</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Herar</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Partus</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Muam Mant</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ella</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Izaro</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Chiara Coop</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Samier</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vanacil</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Meisha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Bevel</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Spig</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fanucci</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Lorenzo Murray</name>
+		</character>
+	</shop>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Cheval de wagon</name>
+			<icon>00053901.png</icon>
+			<desc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Contreplaqué de frêne</name>
+			<icon>00004652.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de frêne. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la requête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la requête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Lingot de bronze</name>
+			<icon>00004067.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et d&apos;étain. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fourrure de renard</name>
+			<icon>00006003.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un renard tué à la chasse.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Cheval de wagon</name>
+			<icon>00053901.png</icon>
+			<desc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Contreplaqué de frêne</name>
+			<icon>00004652.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de frêne. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la requête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la requête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Lingot de bronze</name>
+			<icon>00004067.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et d&apos;étain. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fourrure de renard</name>
+			<icon>00006003.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un renard tué à la chasse.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Cheval de wagon</name>
+			<icon>00053901.png</icon>
+			<desc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Contreplaqué de frêne</name>
+			<icon>00004652.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de frêne. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la requête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la requête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Lingot de bronze</name>
+			<icon>00004067.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et d&apos;étain. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fourrure de renard</name>
+			<icon>00006003.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un renard tué à la chasse.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Cheval de wagon</name>
+			<icon>00053901.png</icon>
+			<desc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Contreplaqué de frêne</name>
+			<icon>00004652.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de frêne. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la requête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la requête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Lingot de bronze</name>
+			<icon>00004067.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et d&apos;étain. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fourrure de renard</name>
+			<icon>00006003.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un renard tué à la chasse.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Cheval de wagon</name>
+			<icon>00053901.png</icon>
+			<desc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Contreplaqué de frêne</name>
+			<icon>00004652.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de frêne. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la requête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la requête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Lingot de bronze</name>
+			<icon>00004067.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et d&apos;étain. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fourrure de renard</name>
+			<icon>00006003.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un renard tué à la chasse.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Cheval de wagon</name>
+			<icon>00053901.png</icon>
+			<desc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Contreplaqué de frêne</name>
+			<icon>00004652.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de frêne. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la requête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la requête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Lingot de bronze</name>
+			<icon>00004067.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et d&apos;étain. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fourrure de renard</name>
+			<icon>00006003.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un renard tué à la chasse.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Cheval de wagon</name>
+			<icon>00053901.png</icon>
+			<desc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Contreplaqué de frêne</name>
+			<icon>00004652.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de frêne. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la requête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la requête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4067</id>
+			<name>Lingot de bronze</name>
+			<icon>00004067.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et d&apos;étain. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6003</id>
+			<name>Fourrure de renard</name>
+			<icon>00006003.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un renard tué à la chasse.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

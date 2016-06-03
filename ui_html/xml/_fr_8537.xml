@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8537</itemKey>
+	<itemName>Swiri séché</itemName>
+	<itemIcon>00008537.png</itemIcon>
+	<itemDesc>Un swiri obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8237</id>
+			<name>Swiri</name>
+			<icon>00008237.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55937</id>
+			<name>Swiri séché sous vide</name>
+			<icon>00055937.png</icon>
+			<desc>Un objet de commerce contenant 10 swiris séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

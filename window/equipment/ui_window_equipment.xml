@@ -1,0 +1,422 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Equipment" Pos="Right Center" Size="392 580" Pan="390 0" Color="ffffffff" EnableArea="0 0 392 580" Grid="1" GridPosX="0 50 342 392" GridPosY="0 50 530 580" GridUVX="0 50 365 415" GridUVY="0 50 500 550">
+		<Texture Type="Base" UV="0 0 415 0 0 550 415 550" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/inven_main.dds</Texture>
+		<UIAni CalcParentRotate="False">
+			<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Show_Color" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="5" HideAtEnd="False"/>
+			<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Hide_Color" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="5" HideAtEnd="False"/>
+			<UIAniItem Type="Scale" ScaleType="0" StartScale="0.80" EndScale="1.00" BasePosition="96 295" ScaleChild="True" ID="Show_Ani_Scale" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="6" AdvanceType="3" HideAtEnd="False"/>
+			<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="1.02" BasePosition="96 295" ScaleChild="True" ID="Show_Ani_Scale_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="6" EndFrame="10" AdvanceType="1" HideAtEnd="False"/>
+			<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="1.02" BasePosition="96 295" ScaleChild="True" ID="Hide_Ani_Scale" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="15" AdvanceType="4" HideAtEnd="False"/>
+		</UIAni>
+		<Attribute Type="Drag" Area="20 20 320 50"/>
+		<UIAniSet Name="Show" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="2425025192" AniName="Show_Color" UIName="Panel_Window_Equipment"/>
+			<UIAniItem UIKey="2425025192" AniName="Show_Ani_Scale" UIName="Panel_Window_Equipment"/>
+			<UIAniItem UIKey="2425025192" AniName="Show_Ani_Scale_1" UIName="Panel_Window_Equipment"/>
+		</UIAniSet>
+		<UIAniSet Name="Hide" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="2425025192" AniName="Hide_Color" UIName="Panel_Window_Equipment"/>
+			<UIAniItem UIKey="2425025192" AniName="Hide_Ani_Scale" UIName="Panel_Window_Equipment"/>
+		</UIAniSet>
+		<Control Type="Static" Name="Static_PartLine" Pos="Center Top" Size="375 46" Pan="0 7" Color="ffffffff" EnableArea="0 0 375 46" Grid="1" GridPosX="0 50 325 375" GridPosY="0 30 40 46" GridUVX="0 50 349 399" GridUVY="0 30 40 46" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 399 0 0 46 399 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_EquipBg" Pos="Center Top" Size="355 465" Pan="0 55" Color="99ffffff" EnableArea="0 0 355 465" Grid="1" GridPosX="0 10 345 355" GridPosY="0 10 455 465" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 62 64 1 125 62 125" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Circle" Pos="Center Top" Size="346 464" Pan="0 0" Color="ffffffff" EnableArea="0 0 346 464" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="161 19 507 19 161 483 507 483" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="20 22" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="41 22" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Slot_Enchant_value" Pos="-365 28" Size="42 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 42 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+9" Font="BaseFont_12_Yellow" Color="ffe9e4e4" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="170 20" Pan="0 20" Color="ffffffff" EnableArea="0 0 170 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="장 비" formatString="EQUIPMENT_TEXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_SubTitle1" Pos="Center 58" Size="80 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 23">
+			<Attribute Type="Ignore"/>
+			<Text Value="장착 상태" formatString="EQUIPMENT_TEXT_SUBTITLE1" Font="BaseFont_8_Bold" Color="ffb3aeae" OverColor="ffc8fa00" ClickColor="ffc8fa00" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_SubTitle2" Pos="-480 118" Size="100 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="캐 릭 터" Font="BaseFont_12" Color="ff70bf76" OverColor="ff70bf76" ClickColor="ff70bf76" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_SubTitle3" Pos="Center 105" Size="190 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 190 23">
+			<Attribute Type="Ignore"/>
+			<Text Value="의상" formatString="EQUIPMENT_TEXT_SUBTITLE2" Font="BaseFont_8_Bold" Color="ffb3aeae" OverColor="ffc8fa00" ClickColor="ffc8fa00" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Helm" Pos="114 73" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Chest" Pos="232 82" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Belt" Pos="56 297" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Glove" Pos="298 239" Size="42 42" Pan="22 15" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Boots" Pos="28 239" Size="42 42" Pan="15 15" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Gather" Pos="299 361" Size="42 42" Pan="10 10" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_AlchemyStone" Pos="299 421" Size="42 42" Pan="10 10" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Earing1" Pos="48 133" Size="42 42" Pan="35 113" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Earing2" Pos="26 183" Size="42 42" Pan="35 113" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Necklace" Pos="272 297" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Ring1" Pos="280 134" Size="42 42" Pan="75 55" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Ring2" Pos="299 184" Size="42 42" Pan="75 55" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Lantern" Pos="31 362" Size="42 42" Pan="10 10" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_RightHand" Pos="122 343" Size="42 42" Pan="-40 20" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_LeftHand" Pos="211 343" Size="42 42" Pan="40 20" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_AwakenWeapon" Pos="24 61" Size="42 42" Pan="-40 20" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_Helm" Pos="121 142" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_Chest" Pos="202 144" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_Boots" Pos="85 204" Size="42 42" Pan="95 35" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_Gloves" Pos="240 204" Size="42 42" Pan="95 35" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_LeftHand" Pos="219 264" Size="42 42" Pan="40 100" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_RightHand" Pos="108 265" Size="42 42" Pan="-40 100" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_AwakenWeapon" Pos="164 286" Size="42 42" Pan="-40 100" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Avatar_UnderWear" Pos="164 286" Size="42 42" Pan="-40 100" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_FaceDecoration1" Pos="164 400" Size="42 42" Pan="-40 100" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_FaceDecoration2" Pos="228 400" Size="42 42" Pan="-40 100" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_FaceDecoration3" Pos="100 400" Size="42 42" Pan="-40 100" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_Helm_BG" Pos="110 69" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 7 54 7 4 57 54 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Chest_BG" Pos="232 69" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 7 107 7 57 57 107 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Belt_BG" Pos="48 296" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 60 107 60 57 110 107 110" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Glove_BG" Pos="320 234" Size="50 50" Pan="22 15" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 7 160 7 110 57 160 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Boots_BG" Pos="22 234" Size="50 50" Pan="15 15" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 60 54 60 4 110 54 110" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Gather_BG" Pos="320 358" Size="50 50" Pan="10 10" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 166 107 166 57 216 107 216" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_AlchemyStone_BG" Pos="171 209" Size="50 50" Pan="10 10" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 378 160 378 110 428 160 428" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Slot_AlchemyStone_Key" Pos="172 253" Size="50 20" Pan="10 10" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="단축키 : U" Font="BaseFont_8_Bold" Color="ffb3aeae" OverColor="ffc8fa00" ClickColor="ffc8fa00" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckBox_AlchemyStone" Pos="Right Bottom" Size="23 23" Pan="350 25" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="연금석 자동 사용" formatString="PANEL_EQUIPMENT_ALCHYMESTONE_AUTO" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="23 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Earing1_BG" Pos="52 110" Size="50 50" Pan="35 113" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 60 160 60 110 110 160 110" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Earing2_BG" Pos="25 170" Size="50 50" Pan="35 113" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 60 160 60 110 110 160 110" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Necklace_BG" Pos="294 296" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 113 160 113 110 163 160 163" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Ring1_BG" Pos="290 110" Size="50 50" Pan="75 55" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 166 54 166 4 216 54 216" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Ring2_BG" Pos="317 170" Size="50 50" Pan="75 55" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 166 54 166 4 216 54 216" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Lantern_BG" Pos="22 360" Size="50 50" Pan="10 10" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 166 160 166 110 216 160 216" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_RightHand_BG" Pos="102 340" Size="50 50" Pan="-40 20" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 113 107 113 57 163 107 163" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_AwakenWeapon_BG" Pos="171 359" Size="50 50" Pan="-40 20" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 431 54 431 4 481 54 481" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_LeftHand_BG" Pos="240 340" Size="50 50" Pan="40 20" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 113 54 113 4 163 54 163" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_Helm_BG" Pos="134 133" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 219 54 219 4 269 54 269" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_Chest_BG" Pos="208 133" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 219 107 219 57 269 107 269" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_Boots_BG" Pos="89 178" Size="50 50" Pan="95 35" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 272 54 272 4 322 54 322" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_Gloves_BG" Pos="253 178" Size="50 50" Pan="95 35" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 219 160 219 110 269 160 269" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_LeftHand_BG" Pos="253 240" Size="50 50" Pan="40 100" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 325 54 325 4 375 54 375" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_RightHand_BG" Pos="89 240" Size="50 50" Pan="-40 100" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 325 107 325 57 375 107 375" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_AwakenWeapon_BG" Pos="134 282" Size="50 50" Pan="-40 100" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 431 107 431 57 481 107 481" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Avatar_UnderWear_BG" Pos="208 282" Size="50 50" Pan="-40 100" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 272 107 272 57 322 107 322" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_FaceDecoration1_BG" Pos="171 410" Size="50 50" Pan="-40 100" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="4 378 54 378 4 428 54 428" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_FaceDecoration2_BG" Pos="234 410" Size="50 50" Pan="-40 100" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="57 378 107 378 57 428 107 428" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_FaceDecoration3_BG" Pos="105 410" Size="50 50" Pan="-40 100" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="110 325 160 325 110 375 160 375" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/equipment_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Weight" Pos="-476 257" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterName" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TextBg" Pos="Center Bottom" Size="355 60" Pan="0 60" Color="99ffffff" EnableArea="0 0 355 60" Grid="1" GridPosX="0 10 345 355" GridPosY="0 10 50 60" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 62 64 1 125 62 125" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Attack" Pos="Left Bottom" Size="40 20" Pan="35 95" Color="  ffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="공격력" formatString="EQUIPMENT_TEXT_ATTACK" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Attack_Value" Pos="Left Bottom" Size="60 20" Pan="25 70" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="999" Font="TitleFont_18" Color="ffe7d583" OverColor="ffe7d583" ClickColor="ffe7d583" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Defence" Pos="Right Bottom" Size="40 20" Pan="35 95" Color="  ffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="방어력" formatString="EQUIPMENT_TEXT_DEFENCE" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Defence_Value" Pos="Right Bottom" Size="60 20" Pan="25 70" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="999" Font="TitleFont_18" Color="ffe7d583" OverColor="ffe7d583" ClickColor="ffe7d583" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AwakenAttack" Pos="Center Bottom" Size="100 20" Pan="0 95" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="각성 무기 공격력" formatString="PANEL_EQUIPMENT_AWAKENATTACKVALUE" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AwakenAttack_Value" Pos="Center Bottom" Size="100 20" Pan="0 70" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="999" Font="TitleFont_18" Color="ffe7d583" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Effect" Pos="Center Center" Size="346 540" Pan="0 0" Color="ffffffff" EnableArea="0 0 346 540" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_Chest" Pos="232 174" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_Gloves" Pos="270 234" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_Boots" Pos="115 234" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_Helm" Pos="150 172" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_RightHand" Pos="138 295" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_LeftHand" Pos="249 294" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_AwakenWeapon" Pos="194 316" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Avatar_UnderWear" Pos="194 316" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_FaceDecoration1" Pos="194 430" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_FaceDecoration2" Pos="258 430" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_FaceDecoration3" Pos="130 430" Size="20 20" Pan="54 397" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Check_Slot_Helm" Pos="138 112" Size="20 20" Pan="54 197" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 230 26 230 3 253 26 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="31 230 54 230 31 253 54 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="59 230 82 230 59 253 82 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Cloak_Invisual" Pos="285 Bottom" Size="33 33" Pan="0 20" Color="ffffffff" EnableArea="0 0 33 33" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="199 467 232 467 199 500 232 500" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="233 467 266 467 233 500 266 500" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="267 467 300 467 267 500 300 500" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="23 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Helm_Invisual" Pos="315 Bottom" Size="33 33" Pan="0 20" Color="ffffffff" EnableArea="0 0 33 33" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 325 34 325 1 358 34 358" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="1 361 34 361 1 394 34 394" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="1 397 34 397 1 430 34 430" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="23 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_HelmOpen" Pos="345 Bottom" Size="33 33" Pan="0 20" Color="ffffffff" EnableArea="0 0 33 33" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="109 361 142 361 109 394 142 394" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="109 397 142 397 109 430 142 430" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="109 433 142 433 109 466 142 466" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="23 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Underwear_Invisual" Pos="255 Bottom" Size="33 33" Pan="0 20" Color="ffffffff" EnableArea="0 0 33 33" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="37 362 70 362 37 394 70 394" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="37 397 70 397 37 430 70 430" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="37 433 70 433 37 466 70 466" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_PetInfo" Pos="225 Bottom" Size="33 33" Pan="0 20" Color="ffffffff" EnableArea="0 0 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="37 145 70 145 37 178 70 178" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="37 181 70 181 37 214 70 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="37 217 70 217 37 250 70 250" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Repair_Message" Pos="Center Bottom" Size="300 30" Pan="0 -20" Color="ffffffff" EnableArea="0 0 300 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Control Type="StaticText" Name="StaticText_Repair_Message" Pos="Center 5" Size="250 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 20">
+				<Attribute Type="Ignore"/>
+				<Text Value="Message" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="StaticText" Name="StaticText_Repair_MessageJP" Pos="Center 5" Size="250 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 20">
+				<Attribute Type="Ignore"/>
+				<Text Value="Message" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Button" Name="Button_ServantInventory" Pos="195 Bottom" Size="33 33" Pan="0 20" Color="ffffffff" EnableArea="0 0 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="289 145 322 145 289 178 322 178" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="289 181 322 181 289 214 322 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="289 217 322 217 289 250 322 250" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="35 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_ShowNameWhenCamouflage" Pos="165 Bottom" Size="33 33" Pan="0 20" Color="ffffffff" EnableArea="0 0 33 33" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="289 291 322 291 289 324 322 324" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="324 291 357 291 324 324 357 324" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="359 291 392 291 359 324 392 324" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Money" Pos="Left Top" Size="12 15" Pan="130 525" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="10,000,000" Font="BaseFont_12" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Right" AlignVertical="Top" Span="-90 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Money2" Pos="Left Top" Size="12 15" Pan="130 543" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="100,000,000" Font="BaseFont_12" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Right" AlignVertical="Top" Span="-90 -5"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Icon_Money" Pos="Left Top" Size="23 23" Pan="22 520" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="2">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="가방 보유 금액" formatString="PANEL_ITEMMARKET_ICON_MONEY" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="22 3"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Icon_Money2" Pos="Left Top" Size="23 23" Pan="22 540" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="2">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="창고 보유 금액" formatString="PANEL_ITEMMARKET_ICON_MONEY2" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="22 3"/>
+		</Control>
+	</Control>
+</UI>
+

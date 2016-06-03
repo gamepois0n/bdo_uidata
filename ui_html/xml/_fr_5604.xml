@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5604</itemKey>
+	<itemName>Poudre à canon à base de plantes</itemName>
+	<itemIcon>00005604.png</itemIcon>
+	<itemDesc>Une poudre à canon végétale obtenue par alchimie et utilisée comme ingrédient dans les explosifs.\n - Obtention : s&apos;obtient en raffinant la poudre de plante carnivore par alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5601</id>
+			<name>Poudre de plante insectivore</name>
+			<icon>00005601.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en transformant une fleur de plante carnivore ou une feuille de plante carnivore. Peut aussi être récolté à la main ou à l&apos;aide d&apos;une houe à partir des plantes carnivores. Récolter une plante carnivore demande un certain niveau de compétence.</desc>
+		</item>
+		<item>
+			<id>5601</id>
+			<name>Poudre de plante insectivore</name>
+			<icon>00005601.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en transformant une fleur de plante carnivore ou une feuille de plante carnivore. Peut aussi être récolté à la main ou à l&apos;aide d&apos;une houe à partir des plantes carnivores. Récolter une plante carnivore demande un certain niveau de compétence.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Poudre des ténèbres</name>
+			<icon>00004801.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

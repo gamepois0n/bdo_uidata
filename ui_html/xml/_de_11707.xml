@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11707</itemKey>
+	<itemName>Glänzende Saphirhalskette</itemName>
+	<itemIcon>00011707.png</itemIcon>
+	<itemDesc>Eine mit einem Funkelnden Saphir verzierte Halskette.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11706</id>
+			<name>Saphirhalskette</name>
+			<icon>00011706.png</icon>
+			<desc>Eine mit einem Saphir verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Geschmolzener Goldsplitter</name>
+			<icon>00004254.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Golderz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4454</id>
+			<name>Saphir</name>
+			<icon>00004454.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohsaphir gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11708</id>
+			<name>Ozeansaphir-Halskette</name>
+			<icon>00011708.png</icon>
+			<desc>Eine mit einem Ozeansaphir verzierte Halskette.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

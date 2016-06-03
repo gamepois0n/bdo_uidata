@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5402</itemKey>
+	<itemName>Silberazalee</itemName>
+	<itemIcon>00005402.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann in derNördlichen Ebene von Serendia und in den Ruinen des Hofes Lynch hergestellt werden. Kann außerdem mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</itemDesc>
+	<collect>
+		<character>
+			<name>Heilkrautbeutel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Heilkrautkessel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Silberazalee</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildkraut</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Nieves</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Kaia Feresio</name>
+		</character>
+	</shop>
+	<node region="Nördliche Ebene von Serendia – Sammeln"/>
+	<node region="Ruinen von Hof Lynch – Sammeln"/>
+	<makelist>
+		<item>
+			<id>7502</id>
+			<name>Silberazaleenkiste</name>
+			<icon>00007502.png</icon>
+			<desc>Kräuter, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Konzentrierter Kräutersaft</name>
+			<icon>00000570.png</icon>
+			<desc>Stellt bei Verwendung sofort +175 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Kräutersaft</name>
+			<icon>00000569.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

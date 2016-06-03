@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7311</itemKey>
+	<itemName>Tomato</itemName>
+	<itemIcon>00007311.png</itemIcon>
+	<itemDesc>This Cooking ingredient can be obtained primarily by Farming.\nUsage: Stir-Fried Vegetables, Fried Vegetables, etc.\n- How to Obtain: It can be obtained by Farming Tomato Seeds in a Garden or by Gathering from Tomatoes using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</itemDesc>
+	<collect>
+		<character>
+			<name>Tomato</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7411</id>
+			<name>Tomato Crate</name>
+			<icon>00007411.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10212</itemKey>
+	<itemName>Arc long de Kalis</itemName>
+	<itemIcon>00010212.png</itemIcon>
+	<itemDesc>Un arc long conçu pour développer son potentiel maximum.</itemDesc>
+	<shop>
+		<character>
+			<name>Ronatz</name>
+		</character>
+	</shop>
+	<house type="7">
+		<item>
+			<id>4604</id>
+			<name>Bois de bouleau</name>
+			<icon>00004604.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit à le colline de Quint, dans les ruines de l&apos;arbre de Bree et à Vieux Pissenlit. S&apos;obtient également en débitant des bouleaux.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Cristal de fer pur</name>
+			<icon>00004053.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de fer. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Peau résistante délicate</name>
+			<icon>00006160.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de rhino, de cochon ou de vache. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5961</id>
+			<name>Trace de violence</name>
+			<icon>00005961.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait dans la forêt des manshas.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10212</id>
+			<name>Arc long de Kalis</name>
+			<icon>00010212.png</icon>
+			<desc>Un arc long conçu pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10235</id>
+			<name>Arc long de Kalis ultime</name>
+			<icon>00010212.png</icon>
+			<desc>Un arc long de Kalis qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de la flamme pourpre, arc long de Kalis de destruction, arc long de Kalis de tentation, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Arc long de Kalis de tentation</name>
+			<icon>00010212.png</icon>
+			<desc>Cet arc long de Kalis renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de tentation, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Arc long de Kalis de destruction</name>
+			<icon>00010212.png</icon>
+			<desc>Cet arc long de Kalis renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de destruction, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Arc long de Kalis de la flamme pourpre</name>
+			<icon>00010212.png</icon>
+			<desc>Cet arc long de Kalis renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de la flamme pourpre, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Arc long de Kalis</name>
+			<icon>00010212.png</icon>
+			<desc>Un arc long conçu pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Cristal de fer pur</name>
+			<icon>00004053.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de fer. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5961</id>
+			<name>Trace de violence</name>
+			<icon>00005961.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait dans la forêt des manshas.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

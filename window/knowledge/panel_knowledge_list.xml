@@ -1,0 +1,167 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Knowledge_List" Pos="Right Bottom" Size="560 590" Pan="10 5" Color="ffffffff" EnableArea="0 0 560 590" Grid="1" GridPosX="0 10 550 560" GridPosY="0 10 580 590" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_ListStep_1" Pos="Left Top" Size="100 20" Pan="10 10" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="인물" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ListStep_2" Pos="Left Top" Size="100 20" Pan="260 10" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="산토 만지이이" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ListStep_3" Pos="Left Top" Size="100 20" Pan="135 10" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="벨리아 마을" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ListStepArrow_1" Pos="Left Top" Size="17 22" Pan="115 10" Color="ffffffff" EnableArea="0 0 17 22" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="223 38 240 38 223 60 240 60" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ListStepArrow_2" Pos="Left Top" Size="17 22" Pan="240 10" Color="ffffffff" EnableArea="0 0 17 22" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="223 38 240 38 223 60 240 60" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TopMenuBG" Pos="Center Top" Size="545 40" Pan="0 38" Color="ffffffff" EnableArea="0 0 545 40" Grid="1" GridPosX="0 10 535 545" GridPosY="0 10 30 40" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ListBG" Pos="Left Top" Size="535 465" Pan="7 85" Color="ffffffff" EnableArea="0 0 535 465" Grid="1" GridPosX="0 10 525 535" GridPosY="0 10 455 465" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Land" Pos="Left Top" Size="37 37" Pan="250 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 420 38 420 1 457 38 457" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="39 420 76 420 39 457 76 457" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="77 420 114 420 77 457 114 457" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_BigSea" Pos="Left Top" Size="37 37" Pan="250 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="229 382 266 382 229 419 266 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="267 382 304 382 267 419 304 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="305 382 342 382 305 419 342 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Travel" Pos="Left Top" Size="37 37" Pan="210 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="115 382 152 382 115 419 152 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="153 382 190 382 153 419 190 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="191 382 228 382 191 419 228 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Life" Pos="Left Top" Size="37 37" Pan="170 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="229 344 266 344 229 381 266 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="267 344 304 344 267 381 304 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="305 344 342 344 305 381 342 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Guide" Pos="Left Top" Size="37 37" Pan="170 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="229 306 266 306 229 343 266 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="267 306 304 306 267 343 304 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="305 306 342 306 305 343 342 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_TradeItem" Pos="Left Top" Size="37 37" Pan="170 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="115 344 152 344 115 381 152 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="153 344 190 344 153 381 190 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="191 344 228 344 191 381 228 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Fish" Pos="Left Top" Size="37 37" Pan="130 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="115 306 152 306 115 343 152 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="153 306 190 306 153 343 190 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="191 306 228 306 191 343 228 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Book" Pos="Left Top" Size="37 37" Pan="90 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 382 38 382 1 419 38 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="39 382 76 382 39 419 76 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="77 382 114 382 77 419 114 419" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Env" Pos="Left Top" Size="37 37" Pan="50 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 344 38 344 1 381 38 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="39 344 76 344 39 381 76 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="77 344 114 344 77 381 114 381" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Man" Pos="Left Top" Size="37 37" Pan="10 40" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 306 38 306 1 343 38 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="39 306 76 306 39 343 76 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="77 306 114 306 77 343 114 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_MyList" Pos="Right Bottom" Size="150 30" Pan="10 5" Color="ffffffff" EnableArea="0 0 150 30" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="지식 찾기" formatString="PANEL_KNOWLEDGE_BTN_FIND" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_FindKnowledge" Pos="Right Bottom" Size="170 27" Pan="165 7" Color="ffffffff" EnableArea="0 0 170 27" Grid="1" GridPosX="0 5 165 170" GridPosY="0 5 22 27" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Tree" Name="Tree_Knowledge_List" Pos="Left Top" Size="535 465" Pan="7 85" Color="ffffffff" EnableArea="0 0 535 465" VisibleItem="25" BlankSize="0">
+			<Text Font="BaseFont" Color="ffffffff" SelectColor="ffffffff"/>
+			<Control Type="Scroll" Name="Tree_1_Scroll" Pos="Right Top" Size="7 465" Pan="-10 0" Color="ffffffff" EnableArea="0 0 7 465" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 458 465" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Tree_1_Scroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Tree_1_Scroll_DownButton" Pos="0 40" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Tree_1_Scroll_CtrlButton" Pos="Center 14" Size="13 65" Pan="1 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Static" Name="Tree_1_BackStatic" Pos="0 0" Size="535 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 535 18" Grid="1" GridPosX="0 1 534 535" GridPosY="0 1 17 18" GridUVX="0 1 9 10" GridUVY="0 1 20 21" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="142 24 152 24 142 45 152 45" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			</Control>
+			<Control Type="Static" Name="Tree_1_OverStatic" Pos="0 21" Size="535 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 535 18" Grid="1" GridPosX="0 1 534 535" GridPosY="0 1 17 18" GridUVX="0 1 9 10" GridUVY="0 1 20 21" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="153 24 163 24 153 45 163 45" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			</Control>
+			<Control Type="Scroll" Name="Tree_1_Scroll_Bottom" Pos="Left Bottom" Size="40 20" Pan="0 -20" Color="ffffffff" EnableArea="0 0 40 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Tree_1_Scroll_Bottom_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Tree_1_Scroll_Bottom_DownButton" Pos="40 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Tree_1_Scroll_Bottom_CtrlButton" Pos="10 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Notice" Pos="-570 -144" Size="150 34" Pan="0 0" Color="ff000000" EnableArea="0 0 150 34" Grid="1" GridPosX="0 8 142 150" GridPosY="0 8 26 34" GridUVX="0 8 95 103" GridUVY="0 8 78 86">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="152 88 255 88 152 174 255 174" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+			<Text Value="지식에 대한 힌트" Font="BaseFont_10_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 10"/>
+		</Control>
+	</Control>
+</UI>
+

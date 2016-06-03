@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4451</itemKey>
+	<itemName>Ruby</itemName>
+	<itemIcon>00004451.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Ruby.</itemDesc>
+	<collect>
+		<character>
+			<name>Ruby</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4401</id>
+			<name>Rough Ruby</name>
+			<icon>00004401.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Ruby requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11602</id>
+			<name>Bares Necklace</name>
+			<icon>00011602.png</icon>
+			<desc>A necklace that draws out hidden destructive energy.\nIt can be Enhanced with the same type of necklace, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11604</id>
+			<name>Elisha Necklace</name>
+			<icon>00011604.png</icon>
+			<desc>A necklace that gives serenity to its wearer.\nIt can be Enhanced with the same type of necklace, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11802</id>
+			<name>Bares Earring</name>
+			<icon>00011802.png</icon>
+			<desc>An earring that draws out hidden destructive energy.\nIt can be Enhanced with the same type of earring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11804</id>
+			<name>Elisha Earring</name>
+			<icon>00011804.png</icon>
+			<desc>An earring that gives serenity to its wearer.\nIt can be Enhanced with the same type of earring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12002</id>
+			<name>Bares Ring</name>
+			<icon>00012002.png</icon>
+			<desc>A ring that draws out hidden destructive energy.\nIt can be Enhanced with the same type of ring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12004</id>
+			<name>Elisha Ring</name>
+			<icon>00012004.png</icon>
+			<desc>A ring that gives serenity to its wearer.\nIt can be Enhanced with the same type of ring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12202</id>
+			<name>Bares Belt</name>
+			<icon>00012202.png</icon>
+			<desc>A belt that draws out hidden destructive energy.\nIt can be Enhanced with the same type of belt, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12204</id>
+			<name>Elisha Belt</name>
+			<icon>00012204.png</icon>
+			<desc>A belt that gives serenity to its wearer.\nIt can be Enhanced with the same type of belt, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14220</id>
+			<name>[Witch] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress for Calpheon aristocrats. It&apos;s both fabulous and practical.\n- Item effect: Amity +15% from a conversation\n※ If you use a costume exchange coupon, you&apos;ll get the same dress with an additional effect of moving speed +2. The costume can be equipped in the same slot as the pearl costume.\nIf you exchange it for a costume, you cannot register it to the Marketplace.</desc>
+		</item>
+		<item>
+			<id>14207</id>
+			<name>[Valkyrie] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14205</id>
+			<name>[Ranger] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14204</id>
+			<name>[Tamer] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14203</id>
+			<name>[Sorceress] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>11703</id>
+			<name>Blood Ruby Necklace</name>
+			<icon>00011703.png</icon>
+			<desc>A necklace decorated with a Blood Ruby.</desc>
+		</item>
+		<item>
+			<id>11702</id>
+			<name>Resplendent Ruby Necklace</name>
+			<icon>00011702.png</icon>
+			<desc>A necklace decorated with a Resplendent Ruby.</desc>
+		</item>
+		<item>
+			<id>12103</id>
+			<name>Blood Ruby Ring</name>
+			<icon>00012103.png</icon>
+			<desc>A ring decorated with a Blood Ruby.</desc>
+		</item>
+		<item>
+			<id>12102</id>
+			<name>Resplendent Ruby Ring</name>
+			<icon>00012102.png</icon>
+			<desc>A ring decorated with a Resplendent Ruby.</desc>
+		</item>
+		<item>
+			<id>11903</id>
+			<name>Blood Ruby Earrings</name>
+			<icon>00011903.png</icon>
+			<desc>An earring decorated with a Blood Ruby.</desc>
+		</item>
+		<item>
+			<id>11902</id>
+			<name>Resplendent Ruby Earrings</name>
+			<icon>00011902.png</icon>
+			<desc>An earring decorated with a Resplendent Ruby.</desc>
+		</item>
+		<item>
+			<id>4452</id>
+			<name>Resplendent Ruby</name>
+			<icon>00004452.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Ruby. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7917</itemKey>
+	<itemName>Flamingofleisch</itemName>
+	<itemIcon>00007917.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Flamingokadaver ausschlachtet.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Fächerflamingo</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Hochwertiges Trockenfleisch</name>
+			<icon>00007919.png</icon>
+			<desc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

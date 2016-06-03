@@ -1,0 +1,423 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Building_WorkManager" Pos="70 222" Size="643 579" Pan="0 0" Color="ffffffff" EnableArea="3 3 640 579" Grid="1" GridPosX="0 10 633 643" GridPosY="0 10 569 579" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="3 3 640 35"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="655 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 655 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="벨리아 1번지 : 가구 공방" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="7 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="31 7" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Building_BG" Pos="Left Top" Size="620 60" Pan="10 40" Color="ffffffff" EnableArea="0 0 620 60" Grid="1" GridPosX="0 10 610 620" GridPosY="0 10 50 60" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Building_Cancel" Pos="Left Top" Size="92 25" Pan="534 43" Color="ffffffff" EnableArea="0 0 92 25" Grid="1" GridPosX="0 5 87 92" GridPosY="0 5 20 25" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="제작 취소" formatString="PANEL_BUILDING_WORKMANAGER_BTN_CANCEL" Font="BaseFont_10" Color="ffdb2b2b" OverColor="ffdb2b2b" ClickColor="ffdb2b2b" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Building_Result_Icon_BG_1" Pos="Left Top" Size="50 50" Pan="25 45" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="1.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="17 17 144 17 17 144 144 144" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Building_Result_Icon_BG_2" Pos="Left Top" Size="45 45" Pan="28 47" Color="ffffffff" EnableArea="0 0 45 45" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 357 0 357 0 357 0 357" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="On" UV="163 0 283 0 163 123 283 123" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Building_Result_Icon" Pos="Left Top" Size="42 41" Pan="29 49" Color="ffffffff" EnableArea="0 0 42 41" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="195 25 320 25 195 150 320 150" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_04.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Building_Name" Pos="Left Top" Size="370 40" Pan="83 47" Color="  ffffff" EnableArea="0 0 370 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="대규모 제작 1" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Building_CurrentCount" Pos="Left Top" Size="50 20" Pan="563 57" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50/100" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_Building_Progress_BG" Pos="Left Top" Size="539 9" Pan="83 84" Color="ffffffff" EnableArea="0 0 539 9" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 10 256 10 0 19 256 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Building_Progress_OutLine" Pos="Left Top" Size="542 11" Pan="83 83" Color="ffffffff" EnableArea="0 0 542 11" Grid="1" GridPosX="0 5 537 542" GridPosY="0 0 11 11" GridUVX="0 5 250 255" GridUVY="0 0 11 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 20 255 20 0 31 255 31" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="6" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_Critical_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_Building_OnGoing" Pos="Left Top" Size="539 9" Pan="83 84" Color="ffffffff" EnableArea="0 0 539 9" Grid="1" GridPosX="0 5 534 539" GridPosY="0 0 9 9" GridUVX="0 5 250 255" GridUVY="0 0 9 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 52 255 52 0 61 255 61" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress2_Building_OnGoing_Bar_Head" Pos="-7 Center" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="253 52 256 52 253 61 256 61" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_Building_Complete" Pos="Left Top" Size="539 9" Pan="83 84" Color="ffffffff" EnableArea="0 0 539 9" Grid="1" GridPosX="0 5 534 539" GridPosY="0 0 9 9" GridUVX="0 5 250 255" GridUVY="0 0 9 9">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 42 255 42 0 51 255 51" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress_Building_Complete_Bar_Head" Pos="-7 Center" Size="3 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 3 9">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="253 42 256 42 253 51 256 51" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_SubWorkList_BG" Pos="Left Top" Size="298 200" Pan="10 129" Color="ffffffff" EnableArea="0 0 298 200" Grid="1" GridPosX="0 10 288 298" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkList_Title" Pos="Left Top" Size="234 21" Pan="10 105" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 작업 목록" formatString="PANEL_BUILDING_WORKMANAGER_TITLE_SUBWORKLIST" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_SubWorkList" Pos="Left Top" Size="10 200" Pan="313 129" Color="ffffffff" EnableArea="0 0 10 200" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 193 200" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 200" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="ScrollBar_CtrlButton" Pos="Center 64" Size="13 65" Pan="-2 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_SubWork" Pos="Left Top" Size="298 25" Pan="10 139" Color="eaffffff" EnableArea="0 3 298 22" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Texture Type="Base" UV="114 1 127 1 114 16 127 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<Texture Type="On" UV="129 1 144 1 129 16 144 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<Texture Type="Click" UV="83 20 94 20 83 30 94 30" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="99ffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="토대 쌓기" Font="BaseFont_10" Color="eac4bebe" OverColor="eaffffff" ClickColor="eaffffff" AlignHorizon="Left" AlignVertical="Top" Span="22 3"/>
+		</Control>
+		<Control Type="Static" Name="Static_SubWorkList_OnGoingAni" Pos="Left Top" Size="20 20" Pan="11 139" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Disable" Color="Off"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="4 4 0.010 0">new_ui_common_forlua/widget/worldmap/worldmap_ani_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_SubWorkList_OnGoing" Pos="Left Top" Size="298 5" Pan="10 159" Color="ffffffff" EnableArea="0 0 298 5" Grid="1" GridPosX="0 1 297 298" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 4 5">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 135 140 135 1 140 140 140" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-3 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 5">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="146 107 147 107 146 111 147 111" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_SubWorkList_Complete" Pos="Left Top" Size="298 5" Pan="10 159" Color="ffffffff" EnableArea="0 0 298 5" Grid="1" GridPosX="0 1 297 298" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 4 5">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 128 140 128 1 133 140 133" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress2_7_Bar_Head" Pos="-3 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 5">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="146 107 147 107 146 111 147 111" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkList_Count_1" Pos="Left Top" Size="50 20" Pan="255 139" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="0/10" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkList_Count_2" Pos="Left Top" Size="50 20" Pan="255 139" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="10회" Font="BaseFont_10_Line" Color="ffa3df00" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_WorkerList_BG" Pos="Left Top" Size="298 200" Pan="325 129" Color="ffffffff" EnableArea="0 0 298 200" Grid="1" GridPosX="0 10 288 298" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WorkerList_Title" Pos="Left Top" Size="234 21" Pan="325 105" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 일꾼 목록" formatString="PANEL_BUILDING_WORKMANAGER_TITLE_WORKERLIST" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_WorkerList" Pos="Left Top" Size="10 200" Pan="626 129" Color="ffffffff" EnableArea="0 0 10 200" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 193 200" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Frame_Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Frame_Scroll_DownButton" Pos="0 200" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Frame_ScrollBar_thumb" Pos="Center 11" Size="13 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_Worker_ActionPoint" Pos="Left Top" Size="298 5" Pan="325 159" Color="ffffffff" EnableArea="0 0 298 5" Grid="1" GridPosX="0 1 297 298" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 4 5">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 128 140 128 1 133 140 133" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress2_RestorePoint_Bar_Head" Pos="-3 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 5">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="146 107 147 107 146 111 147 111" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Worker" Pos="Left Top" Size="298 25" Pan="325 139" Color="eaffffff" EnableArea="0 3 298 22" UseDefaultSound="1" ClickSound="0 0" Group="2">
+			<Texture Type="Base" UV="114 1 127 1 114 16 127 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<Texture Type="On" UV="129 1 144 1 129 16 144 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<Texture Type="Click" UV="83 20 94 20 83 30 94 30" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="99ffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="QA 슈퍼 일꾼" Font="BaseFont_10_Bold" Color="eac4bebe" OverColor="eaffffff" ClickColor="eaffffff" AlignHorizon="Left" AlignVertical="Top" Span="7 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Worker_ActionPoint" Pos="Left Top" Size="50 20" Pan="570 139" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="0/100" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_SubWorkInfo_BG" Pos="Left Top" Size="300 200" Pan="10 363" Color="ffffffff" EnableArea="0 0 300 200" Grid="1" GridPosX="0 10 290 300" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkInfo_Title" Pos="Left Top" Size="234 21" Pan="10 339" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 작업 상세 정보" formatString="PANEL_BUILDING_WORKMANAGER_TITLE_SUBWORKINFO" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NoWorker" Pos="Left Top" Size="240 30" Pan="355 210" Color="  ffffff" EnableArea="0 0 240 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="작업 가능한 일꾼이 없습니다." formatString="PANEL_BUILDING_WORKMANAGER_WORKERLIST_NOWORKER" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SubWorkInfo_Resource_BG" Pos="Left Top" Size="290 57" Pan="15 370" Color="ffffffff" EnableArea="0 0 290 57" Grid="1" GridPosX="0 12 278 290" GridPosY="0 13 44 57" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkInfo_Resource_Title" Pos="Left Top" Size="205 18" Pan="75 375" Color="  ffffff" EnableArea="0 0 205 18">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 제작 재료" formatString="PANEL_BUILDING_WORKMANAGER_SUBWORKINFO_RESOURCE" Font="BaseFont_8_Bold" Color="ffffe375" OverColor="ffffe375" ClickColor="ffffe375" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkInfo_Resource_Name" Pos="Left Top" Size="210 25" Pan="73 397" Color="  ffffff" EnableArea="0 0 210 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이템 이름 ???" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="StaticText_SubWorkInfo_Resource_Icon_BG" Pos="Left Top" Size="45 45" Pan="20 376" Color="ffffffff" EnableArea="4 4 41 41" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 46 0 0 46 46 46" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticText_SubWorkInfo_Resource_Icon_Border" Pos="Left Top" Size="45 45" Pan="20 376" Color="ffffffff" EnableArea="0 0 45 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="172 44 214 44 172 86 214 86" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_ui_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticText_SubWorkInfo_Resource_Icon_Over" Pos="Left Top" Size="40 41" Pan="23 378" Color="ffffffff" EnableArea="0 0 40 41" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 357 0 357 0 357 0 357" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="On" UV="163 0 283 0 163 123 283 123" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticText_SubWorkInfo_Resource_Icon" Pos="Left Top" Size="37 37" Pan="24 380" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkInfo_Resource_Count" Pos="Left Top" Size="37 20" Pan="24 400" Color="ffffffff" EnableArea="0 0 37 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="0/1" Font="BaseFont_8_Bold" Color="ffededed" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Bottom" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_SubWorkInfo_Resource_Line_1" Pos="Left Top" Size="220 6" Pan="50 391" Color="ffffffff" EnableArea="0 0 220 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_SubWorkInfo_Resource_Line_2" Pos="Left Top" Size="298 6" Pan="11 423" Color="ffffffff" EnableArea="0 0 298 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_SubWorkInfo_OnGoing_BG" Pos="Left Top" Size="290 125" Pan="15 430" Color="ffffffff" EnableArea="0 0 290 125" Grid="1" GridPosX="0 12 278 290" GridPosY="0 13 112 125" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkInfo_OnGoing_Title" Pos="Left Top" Size="250 20" Pan="22 435" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 작업 진행 상황" formatString="PANEL_BUILDING_WORKMANAGER_SUBWORKINFO_PROGRESS" Font="BaseFont_8_Bold" Color="ffffe375" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_SubWorkInfo_OnGoing" Pos="Left Top" Size="10 105" Pan="313 451" Color="ffffffff" EnableArea="0 0 10 105" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 98 105" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_1_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_DownButton" Pos="0 105" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_CtrlButton" Pos="Center 28" Size="13 65" Pan="-2 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="Static_SubWorkInfo_OnGoing_Line_1" Pos="Left Top" Size="320 6" Pan="0 451" Color="ffffffff" EnableArea="0 0 320 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_SubWorkInfo_OnGoing_Line_2" Pos="Left Top" Size="298 6" Pan="11 551" Color="ffffffff" EnableArea="0 0 298 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkInfo_OnGoing_Guide" Pos="Left Top" Size="294 40" Pan="13 475" Color="  ffffff" EnableArea="0 0 294 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="진행 중인 작업이 없습니다." formatString="PANEL_BUILDING_WORKMANAGER_SUBWORKINFO_GUIDE" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubWorkInfo_Ongoing_Time" Pos="Left Top" Size="50 17" Pan="22 458" Color="ffffffff" EnableArea="0 0 50 17">
+			<Attribute Type="Ignore"/>
+			<Text Value="20분 30초" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SubWorkInfo_OnGoing_Progress_BG" Pos="Left Top" Size="280 4" Pan="20 476" Color="ffffffff" EnableArea="0 0 280 4" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 140 107 1 112 140 112" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_SubWorkInfo_OnGoing" Pos="Left Top" Size="280 5" Pan="20 475" Color="ffffffff" EnableArea="0 0 280 5">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 186 255 186 1 189 255 189" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress2_4_Bar_Head" Pos="-3 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 5">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="146 107 147 107 146 111 147 111" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Button" Name="Button_SubWorkInfo_Cancel" Pos="Left Top" Size="15 15" Pan="287 461" Color="ffffffff" EnableArea="-2 0 17 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.30" ChangeChild="True" ColorOperator="0" ID="Ani_Color_Light" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="(1회 남음)" Font="BaseFont_8_Bold" Color="fff6f3f0" OverColor="fff6f3f0" ClickColor="fff6f3f0" AlignHorizon="Right" AlignVertical="Top" Span="20 -1"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Estimated_BG" Pos="Left Top" Size="300 200" Pan="325 363" Color="ffffffff" EnableArea="0 0 300 200" Grid="1" GridPosX="0 10 290 300" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_Title" Pos="Left Top" Size="234 21" Pan="325 339" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 작업 예상 시간" formatString="PANEL_BUILDING_WORKMANAGER_TITLE_ESTIMATED" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Estimated_Time_BG" Pos="Left Top" Size="290 42" Pan="330 368" Color="ffffffff" EnableArea="0 0 290 42" Grid="1" GridPosX="0 12 278 290" GridPosY="0 13 29 42" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_Time_Text" Pos="Left Top" Size="70 20" Pan="340 370" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="- 소요 시간" formatString="PANEL_BUILDING_WORKMANAGER_ESTIMATED_TIME_1" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_Time_Value" Pos="Left Top" Size="294 40" Pan="328 366" Color="  ffffff" EnableArea="0 0 294 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffffb93e" OverColor="ffffb93e" ClickColor="ffffb93e" AlignHorizon="Left" AlignVertical="Center" Span="20 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_Time_Count" Pos="Left Top" Size="45 20" Pan="510 376" Color="ffffffff" EnableArea="0 0 45 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Estimated_Work_Count" Pos="Left Top" Size="55 23" Pan="560 376" Color="ffffffff" EnableArea="0 0 55 23" Grid="1" GridPosX="0 5 50 55" GridPosY="0 6 18 23" GridUVX="0 5 149 154" GridUVY="0 6 27 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="변경" formatString="PANEL_BUILDING_WORKMANAGER_BTN_ESTIMATED_WORK_COUNT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Estimated_Time_Line" Pos="Left Top" Size="298 6" Pan="326 406" Color="ffffffff" EnableArea="0 0 298 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_Estimated_Work_BG" Pos="Left Top" Size="290 52" Pan="330 413" Color="ffffffff" EnableArea="0 0 290 52" Grid="1" GridPosX="0 12 278 290" GridPosY="0 13 39 52" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Estimated_Move_BG" Pos="Left Top" Size="290 52" Pan="330 468" Color="ffffffff" EnableArea="0 0 290 52" Grid="1" GridPosX="0 12 278 290" GridPosY="0 13 39 52" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_WorkVolum_Text" Pos="Left Top" Size="70 20" Pan="345 418" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 작업량" formatString="PANEL_BUILDING_WORKMANAGER_ESTIMATED_WORKVOLUM" Font="BaseFont_8_Bold" Color="ffffe375" OverColor="ffffe375" ClickColor="ffffe375" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_WorkVolum_Value" Pos="Left Top" Size="70 20" Pan="550 416" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value=": 500" Font="BaseFont_10" Color="ffa3df00" OverColor="ffa3df00" ClickColor="ffa3df00" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_WorkSpeed_Text" Pos="Left Top" Size="70 20" Pan="345 472" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 작업 속도" formatString="PANEL_BUILDING_WORKMANAGER_ESTIMATED_WORKSPEED" Font="BaseFont_8_Bold" Color="ffffe375" OverColor="ffffe375" ClickColor="ffffe375" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_WorkSpeed_Value" Pos="Left Top" Size="70 20" Pan="550 471" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value=": 500" Font="BaseFont_10" Color="ffa3df00" OverColor="ffa3df00" ClickColor="ffa3df00" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Estimated_Work_Line_1" Pos="Left Top" Size="205 6" Pan="370 437" Color="ffffffff" EnableArea="0 0 205 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Estimated_Work_Line_2" Pos="Left Top" Size="298 6" Pan="323 461" Color="ffffffff" EnableArea="0 0 298 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_MoveDistance_Text" Pos="Left Top" Size="70 20" Pan="345 442" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 거리" formatString="PANEL_BUILDING_WORKMANAGER_ESTIMATED_MOVEDISTANCE" Font="BaseFont_8_Bold" Color="ffffe375" OverColor="ffffe375" ClickColor="ffffe375" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_MoveDistance_Value" Pos="Left Top" Size="70 20" Pan="550 440" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value=": 500" Font="BaseFont_10" Color="ffa3df00" OverColor="ffa3df00" ClickColor="ffa3df00" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_MoveSpeed_Value" Pos="Left Top" Size="70 20" Pan="550 494" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value=": 30" Font="BaseFont_10" Color="ffa3df00" OverColor="ffa3df00" ClickColor="ffa3df00" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Estimated_MoveSpeed_Text" Pos="Left Top" Size="70 20" Pan="345 496" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 이동 속도" formatString="PANEL_BUILDING_WORKMANAGER_ESTIMATED_MOVESPEED" Font="BaseFont_8_Bold" Color="ffffe375" OverColor="ffffe375" ClickColor="ffffe375" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Estimated_Move_Line_1" Pos="Left Top" Size="205 6" Pan="370 492" Color="ffffffff" EnableArea="0 0 205 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Estimated_Move_Line_2" Pos="Left Top" Size="298 6" Pan="323 516" Color="ffffffff" EnableArea="0 0 298 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_IgnoreWorkingCount" Pos="Left Top" Size="23 23" Pan="330 528" Color="ffffffff" EnableArea="0 0 113 23" UseDefaultSound="1" ClickSound="0 1">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="진행중인 작업 무시" formatString="PANEL_WORLDMAP_GRAND_GUILDCRAFT_IGNORE_WORK_CHK" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_doWork" Pos="Left Top" Size="142 32" Pan="480 525" Color="ffffffff" EnableArea="0 0 142 32" Grid="1" GridPosX="0 5 137 142" GridPosY="0 5 27 32" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="작업 시작" formatString="PANEL_BUILDING_WORKMANAGER_BTN_DOWORK" Font="BaseFont_10" Color="ff62e3ff" OverColor="ffb2f1ff" ClickColor="ffb2f1ff" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Finished_Work" Pos="Left Top" Size="292 32" Pan="330 525" Color="ffffffff" EnableArea="0 0 292 32" Grid="1" GridPosX="0 5 287 292" GridPosY="0 5 27 32" GridUVX="0 5 25 30" GridUVY="0 5 25 30">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="이미 완료된 작업입니다." formatString="PANEL_BUILDING_WORKMANAGER_BTN_FINISHEDWORK" Font="BaseFont_10" Color="ffdb2b2b" OverColor="ffdb2b2b" ClickColor="ffdb2b2b" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_noResource" Pos="Left Top" Size="292 32" Pan="330 525" Color="ffffffff" EnableArea="0 0 292 32" Grid="1" GridPosX="0 5 287 292" GridPosY="0 5 27 32" GridUVX="0 5 25 30" GridUVY="0 5 25 30">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="창고에 재료가 부족합니다" formatString="PANEL_BUILDING_WORKMANAGER_BTN_NORESOURCEWORK" Font="BaseFont_10" Color="ffdb2b2b" OverColor="ffdb2b2b" ClickColor="ffdb2b2b" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+	</Control>
+</UI>
+

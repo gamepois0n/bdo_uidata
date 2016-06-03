@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10863</itemKey>
+	<itemName>Zeres-Handschuhe der Beweglichkeit</itemName>
+	<itemIcon>00010819.png</itemIcon>
+	<itemDesc>Diese Zeres-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe</itemDesc>
+	<house type="5">
+		<item>
+			<id>4052</id>
+			<name>Eisenbarren</name>
+			<icon>00004052.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Eisensplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4469</id>
+			<name>Grüner Kristall</name>
+			<icon>00004469.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe des Rhutum-Außenpostens gefundenem Grünen Rohkristall gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10819</id>
+			<name>Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004907.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10863</id>
+			<name>Zeres-Handschuhe der Beweglichkeit</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Zeres-Handschuhe der Eisenmauer</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Eisenmauer, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10871</id>
+			<name>Ultimative Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Maximal aufgerüstete Zeres-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Eisenmauer, Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe der Einschüchterung, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Zeres-Handschuhe der Einschüchterung</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Einschüchterung, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10819</id>
+			<name>Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

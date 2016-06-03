@@ -1,0 +1,12 @@
+<UI>
+	<Control Type="Panel" Name="Panel_WorldMapNaviButton" Pos="0 0" Size="80 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 30" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Control Type="Button" Name="Button_Navi" Pos="0 0" Size="130 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 130 30" Grid="1" GridPosX="0 4 125 130" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="자동 이동 경로 완성" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

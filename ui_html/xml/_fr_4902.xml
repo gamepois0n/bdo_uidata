@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4902</itemKey>
+	<itemName>Or alluvial</itemName>
+	<itemIcon>00004902.png</itemIcon>
+	<itemDesc>Un ingrédient rare obtenu dans de l&apos;eau du fleuve qui peut être chauffée pour créer de l&apos;or.\n- Obtention : s&apos;obtient en affinant une bouteille d&apos;eau du fleuve.</itemDesc>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6653</id>
+			<name>Bouteille d&apos;eau du fleuve</name>
+			<icon>00006653.png</icon>
+			<desc>Une bouteille vide qui a été remplie d&apos;eau de rivière. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une rivière.\n\n※ Utiliser de l&apos;eau de rivière sur un jardin augmentera la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6654</id>
+			<name>Bouteille d&apos;eau trouble</name>
+			<icon>00006654.png</icon>
+			<desc>Une bouteille d&apos;eau trouble obtenue à partir d&apos;une source d&apos;eau boueuse. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une source d&apos;eau boueuse.\n\n※ Utiliser de l&apos;eau trouble sur un jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6655</id>
+			<name>Bouteille d&apos;eau pure</name>
+			<icon>00006655.png</icon>
+			<desc>Une bouteille vide qui a été remplie d&apos;eau claire. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une source d&apos;eau claire.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4255</id>
+			<name>Lingot d&apos;or</name>
+			<icon>00004255.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai d&apos;or. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Fragment d&apos;or fondu</name>
+			<icon>00004254.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai d&apos;or.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

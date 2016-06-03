@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4407</itemKey>
+	<itemName>Roher Schlammkristall</itemName>
+	<itemIcon>00004407.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohem Schlammkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe der Ruinen von Glisch gesammelt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Schlammiger Quarz</name>
+		</character>
+	</collect>
+	<node region="Südliches Cienaga – Bergbau"/>
+	<makelist>
+		<item>
+			<id>24207</id>
+			<name>Ausgefallene Saphirvase</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>Eine ausgefallene Saphirvase.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Rubin-Kürbisflasche</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>Eine Rubin-Kürbisflasche.</desc>
+		</item>
+		<item>
+			<id>24205</id>
+			<name>Längliche Töpferware</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Längliche Töpferware.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Sumpf-Töpferware</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Sumpf-Töpferware.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Runde Töpferware</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Runde Töpferware.</desc>
+		</item>
+		<item>
+			<id>4467</id>
+			<name>Schlammkristall</name>
+			<icon>00004467.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe der Ruinen von Glisch gefundenem Rohen Schlammkristall gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

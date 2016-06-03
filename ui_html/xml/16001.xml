@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16001</itemKey>
+	<itemName>Black Stone (Weapon)</itemName>
+	<itemIcon>00000008.png</itemIcon>
+	<itemDesc>Weapons can be enhanced through Black Spirits.\n\n- Able to Enhance: Weapon, Secondary Weapon</itemDesc>
+	<collect>
+		<character>
+			<name>Treasure Chest</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<house type="10">
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+		<item>
+			<id>6352</id>
+			<name>Tyrant&apos;s Blood</name>
+			<icon>00006352.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>6603</id>
+			<name>Oil of Fortitude</name>
+			<icon>00006603.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

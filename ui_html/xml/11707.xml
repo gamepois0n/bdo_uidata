@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11707</itemKey>
+	<itemName>Resplendent Sapphire Necklace</itemName>
+	<itemIcon>00011707.png</itemIcon>
+	<itemDesc>A necklace decorated with a Resplendent Sapphire.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11706</id>
+			<name>Sapphire Necklace</name>
+			<icon>00011706.png</icon>
+			<desc>A necklace decorated with a Sapphire.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Melted Gold Shard</name>
+			<icon>00004254.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Gold Ore.</desc>
+		</item>
+		<item>
+			<id>4454</id>
+			<name>Sapphire</name>
+			<icon>00004454.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Rough Sapphire.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11708</id>
+			<name>Ocean Sapphire Necklace</name>
+			<icon>00011708.png</icon>
+			<desc>A necklace decorated with an Ocean Sapphire.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

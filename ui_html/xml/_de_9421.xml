@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9421</itemKey>
+	<itemName>In Butter gebratene Meeresfrüchte</itemName>
+	<itemIcon>00009421.png</itemIcon>
+	<itemDesc>In Butter gebratene Meeresfrüchte.\n\n– Spezielle Wirkung: Angriffsgeschwindigkeit +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

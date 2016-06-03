@@ -1,0 +1,62 @@
+<UI>
+	<Control Type="Panel" Name="UI_New_Worldmap_TentInfo" Pos="30 52" Size="270 168" Pan="0 0" Color="ffffffff" EnableArea="0 0 270 168" Grid="1" GridPosX="0 10 260 270" GridPosY="0 10 158 168" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="270 6" Pan="0 32" Color="ffffffff" EnableArea="0 0 270 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="ÅÔ¹ç Á¤º¸" formatString="WORLDMAP_TENTINFO_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_HouseControl_BG" Pos="Center Top" Size="254 120" Pan="0 40" Color="ffffffff" EnableArea="0 0 254 120" Grid="1" GridPosX="0 10 244 254" GridPosY="0 10 110 120" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_T_RemainTime" Pos="Left Top" Size="50 20" Pan="18 47" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- Ã¶°Å ¿¹Á¤ ½Ã°£" formatString="WORLDMAP_TENTINFO_EXPIRE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_V_RemainTime" Pos="Right Top" Size="110 20" Pan="25 45" Color="ffffffff" EnableArea="0 0 110 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2½Ã°£ 50ºÐ" Font="BaseFont_10" Color="ffffbe41" OverColor="ffffbe41" ClickColor="ffffbe41" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_T_ProCount" Pos="Left Top" Size="50 20" Pan="18 75" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- Àç¹è ÁßÀÎ ÀÛ¹°" formatString="WORLDMAP_TENTINFO_PROGRESS" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_C_BG" Pos="Center 101" Size="249 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 249 40" Grid="1" GridPosX="0 10 239 249" GridPosY="0 10 30 40" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_C_IconSlot" Pos="23 108" Size="25 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 25 25" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_C_Icon" Pos="24 109" Size="23 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 23 23" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/00065007_cash_skill_initialization.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_ItemName" Pos="55 106" Size="50 20" Pan="25 105" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="°í·ÁÀÎ»ï »Ñ¸®" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_C_GaugeBG" Pos="Center 125" Size="110 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 110 5" Grid="1" GridPosX="0 1 109 110" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_C_Gauge" Pos="Center 125" Size="110 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 110 5">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 186 255 186 1 189 255 189" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-2 0" Size="1 5" Pan="0 0" Color="cc000044" EnableArea="0 0 1 5">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_Percent" Pos="142 112" Size="50 20" Pan="25 105" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50%" Font="BaseFont_10" Color="ffffbe41" OverColor="ffffbe41" ClickColor="ffffbe41" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CropsIcon_Pruning" Pos="199 108" Size="25 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 25 25" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="199 76 224 76 199 101 224 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CropsIcon_InsectDamege" Pos="226 108" Size="25 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 25 25" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="226 76 251 76 226 101 251 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

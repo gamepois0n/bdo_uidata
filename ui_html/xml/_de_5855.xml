@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5855</itemKey>
+	<itemName>Baumwollstoff</itemName>
+	<itemIcon>00005855.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Baumwollgarn gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<collect>
+		<character>
+			<name>Bettwäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäscheständer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zelt</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5851</id>
+			<name>Baumwollgarn</name>
+			<icon>00005851.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Baumwolle gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14021</id>
+			<name>Silberbestickte Händlerkleidung</name>
+			<icon>00014016.png</icon>
+			<desc>Edle Kleidung für Händler.</desc>
+		</item>
+		<item>
+			<id>14019</id>
+			<name>Silberbestickte Kochkleidung</name>
+			<icon>00014007.png</icon>
+			<desc>Edle Kleidung für Köche.</desc>
+		</item>
+		<item>
+			<id>14219</id>
+			<name>[Magier] Adeligen-Anzug aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n- Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Anzug mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie das Perlenkostüm.\nTauscht Ihr ihn in ein Kostüm um, könnt Ihr ihn nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14202</id>
+			<name>[Berserker] Adeligen-Anzug aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Anzug mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr ihn für ein Kostüm um, könnt Ihr ihn nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14201</id>
+			<name>[Krieger] Adeligen-Anzug aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Anzug mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr ihn für ein Kostüm um, könnt Ihr ihn nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14028</id>
+			<name>Silberbestickte Bauernkleidung</name>
+			<icon>00014028.png</icon>
+			<desc>Edle Kleidung für Bauern.</desc>
+		</item>
+		<item>
+			<id>24193</id>
+			<name>Puppe</name>
+			<icon>InHouse_X_DPFO_Doll_01.png</icon>
+			<desc>Eine Puppe.</desc>
+		</item>
+		<item>
+			<id>25623</id>
+			<name>Baumwollvorhang mit Schlaufen</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Tied.png</icon>
+			<desc>Ein einfacher Schlaufenvorhang aus Baumwolle.</desc>
+		</item>
+		<item>
+			<id>25620</id>
+			<name>Baumwollvorhang</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Back.png</icon>
+			<desc>Ein einfacher Vorhang aus Baumwolle.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

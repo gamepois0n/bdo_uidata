@@ -1,0 +1,16 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CustomizationMessage" Pos="Right Top" Size="1000 50" Pan="20 10" Color="ff555555" EnableArea="0 0 1000 50">
+		<Control Type="StaticText" Name="StaticText_CustomizationMessage" Pos="Right Top" Size="1000 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 1000 50" Grid="1" GridPosX="0 5 995 1000" GridPosY="0 5 45 50" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="" Font="BaseFont_12_Bold" Color="ffede9d0" OverColor="ffede9d0" ClickColor="ffede9d0" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubText" Pos="Right Top" Size="400 30" Pan="0 35" Color="ffffffff" EnableArea="0 0 400 30" Grid="1" GridPosX="0 5 395 400" GridPosY="0 5 25 30" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="※ 유료 기능을 적용하면, 캐릭터를 생성할 수 없습니다." formatString="UI_CUSTOMIZATION_MESSAGE_STCTXT_SUBTEXT" Font="BaseFont_12_Bold" Color="ffede9d0" OverColor="ffede9d0" ClickColor="ffede9d0" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>55925</itemKey>
+	<itemName>Bar séché sous vide</itemName>
+	<itemIcon>00055925.png</itemIcon>
+	<itemDesc>Un objet de commerce contenant 10 bars séchés.</itemDesc>
+	<house type="17">
+		<item>
+			<id>8525</id>
+			<name>Bar séché</name>
+			<icon>00008525.png</icon>
+			<desc>Un bar obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

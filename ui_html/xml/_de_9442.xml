@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9442</itemKey>
+	<itemName>Dicker Fleischeintopf</itemName>
+	<itemIcon>00009442.png</itemIcon>
+	<itemDesc>Ein Fleischeintopf mit intensiver Brühe.\n\n– Spezielle Wirkung: Max. LP +30 für 45 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

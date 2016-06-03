@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6351</itemKey>
+	<itemName>Sang de la bête légendaire</itemName>
+	<itemIcon>00006351.png</itemIcon>
+	<itemDesc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6208</id>
+			<name>Sang de lézard</name>
+			<icon>00006208.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un lézard mort.</desc>
+		</item>
+		<item>
+			<id>5954</id>
+			<name>Trace de la Terre</name>
+			<icon>00005954.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+		<item>
+			<id>5006</id>
+			<name>Feuille d&apos;esprit</name>
+			<icon>00005006.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une feuille d&apos;esprit demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>53607</id>
+			<name>Drapeau de wagon noble</name>
+			<icon>00053604.png</icon>
+			<desc>Un drapeau de wagon à quatre roues.\n\n- Utilisable sur : wagon à quatre roues\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53606</id>
+			<name>Drapeau de wagon de marchand</name>
+			<icon>00053606.png</icon>
+			<desc>Un drapeau de wagon à quatre roues.\n\n- Utilisable sur : wagon à quatre roues\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53605</id>
+			<name>Drapeau de wagon de commerce</name>
+			<icon>00053605.png</icon>
+			<desc>Un drapeau de wagon à quatre roues.\n\n- Utilisable sur : wagon à quatre roues\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53604</id>
+			<name>Drapeau de wagon agricole</name>
+			<icon>00053604.png</icon>
+			<desc>Un drapeau de wagon à quatre roues.\n\n- Utilisable sur : wagon à quatre roues\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53603</id>
+			<name>Drapeau de wagon blanc</name>
+			<icon>00053603.png</icon>
+			<desc>Un drapeau de wagon.\n\n- Utilisable sur : wagon\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53602</id>
+			<name>Drapeau de wagon solide</name>
+			<icon>00053602.png</icon>
+			<desc>Un drapeau de wagon.\n\n- Utilisable sur : wagon\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53601</id>
+			<name>Drapeau de wagon miteux</name>
+			<icon>00053601.png</icon>
+			<desc>Un drapeau de wagon.\n\n- Utilisable sur : wagon\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>49302</id>
+			<name>Proue de barque de Calpheon</name>
+			<icon>00049302.png</icon>
+			<desc>Une proue de Calpheon pouvant être attachée à une barque. Elle permet au bateau de voguer plus vite.\nEffet à partir de 3 objets d&apos;ensemble :\nvitesse de mouvement +2 %\nlimite de poids +100 LT(actuellement indisponible)\n\n- Utilisable sur : barque\n\nPeut être améliorée avec une pierre noire (armure)</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 2</name>
+			<icon>00004909.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 2.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

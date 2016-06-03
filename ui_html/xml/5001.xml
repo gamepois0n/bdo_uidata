@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5001</itemKey>
+	<itemName>Ash Sap</itemName>
+	<itemIcon>00005001.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from an Ash Tree using a Fluid Collector.</itemDesc>
+	<collect>
+		<character>
+			<name>Ash Tree</name>
+		</character>
+	</collect>
+	<node region="Ehwaz Hill - Lumbering"/>
+	<makelist>
+		<item>
+			<id>14405</id>
+			<name>Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>A staff custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Ultimate Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A Seleth staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Seleth staff.\n\n- Restore Max Durability: Seleth Staff of Crimson Flame, Seleth Staff of Destruction, Seleth Staff of Temptation, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Seleth Staff of Temptation</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Temptation, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seleth Staff of Destruction</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Destruction, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seleth Staff of Crimson Flame</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Crimson Flame, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Ultimate Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A Demihuman staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Demihuman staff.\n\n- Restore Max Durability: Demihuman Staff of Crimson Flame, Demihuman Staff of Destruction, Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Demihuman Staff of Temptation</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Demihuman Staff of Destruction</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Destruction, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Demihuman Staff of Crimson Flame</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Crimson Flame, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Ultimate Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>An Azwell staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Azwell staff.\n\n- Restore Max Durability: Azwell Staff of Crimson Flame, Azwell Staff of Destruction, Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Azwell Staff of Temptation</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Azwell Staff of Destruction</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Destruction, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Azwell Staff of Crimson Flame</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Crimson Flame, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A staff possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A staff made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Ship License: Ferry</name>
+			<icon>00049001.png</icon>
+			<desc>Proof of ownership of a  at the Wharf.\n- Inventory Slot(s): 8, Acceleration: 100%, Speed: 105%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

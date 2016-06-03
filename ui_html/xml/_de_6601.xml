@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6601</itemKey>
+	<itemName>Öl der Regeneration</itemName>
+	<itemIcon>00006601.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6351</id>
+			<name>Blut eines legendären Biests</name>
+			<icon>00006351.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>6351</id>
+			<name>Blut eines legendären Biests</name>
+			<icon>00006351.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>5201</id>
+			<name>Frucht der Purpurnen Flamme</name>
+			<icon>00005201.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4803</id>
+			<name>Spaltenpulver</name>
+			<icon>00004803.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5011</id>
+			<name>Rotbaumbeule</name>
+			<icon>00005011.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Rotbaumbeulen erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<alchemy>
+		<item>
+			<id>6351</id>
+			<name>Blut eines legendären Biests</name>
+			<icon>00006351.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>6351</id>
+			<name>Blut eines legendären Biests</name>
+			<icon>00006351.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>5201</id>
+			<name>Frucht der Purpurnen Flamme</name>
+			<icon>00005201.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4803</id>
+			<name>Spaltenpulver</name>
+			<icon>00004803.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5406</id>
+			<name>Ewigkraut</name>
+			<icon>00005406.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Ewigkraut erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16002</id>
+			<name>Schwarzstein (Rüstung)</name>
+			<icon>00000007.png</icon>
+			<desc>Rüstungsteile können durch den Schwarzgeist verstärkt werden.\n\n– Kann verstärken: Helm, Rüstung, Handschuhe, Schuhe</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

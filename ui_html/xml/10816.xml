@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10816</itemKey>
+	<itemName>Taritas Shoes</itemName>
+	<itemIcon>00010816.png</itemIcon>
+	<itemDesc>Armor worn by tough warriors. Morale boosting proverbs are written inside the armor.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes</itemDesc>
+	<shop>
+		<character>
+			<name>Techthon</name>
+		</character>
+	</shop>
+	<house type="11">
+		<item>
+			<id>10816</id>
+			<name>Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Armor worn by tough warriors. Morale boosting proverbs are written inside the armor.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Grade 1 Armor Reform Stone</name>
+			<icon>00004907.png</icon>
+			<desc>A material used in 1st-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10816</id>
+			<name>Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Armor worn by tough warriors. Morale boosting proverbs are written inside the armor.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>10844</id>
+			<name>Taritas Shoes of Iron Wall</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of iron wall is contained within this Taritas Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Iron Wall, Taritas Shoes of Iron wall, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>10848</id>
+			<name>Taritas Shoes of Agility</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of agility is contained within this Taritas Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Agility, Taritas Shoes of Agility, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>10856</id>
+			<name>Ultimate Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Taritas Shoes with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>10852</id>
+			<name>Taritas Shoes of Intimidation</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of intimidation is contained within this Taritas Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Duress, Taritas Shoes of Duress, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

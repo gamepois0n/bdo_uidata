@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9206</itemKey>
+	<itemName>Honey Wine</itemName>
+	<itemIcon>00009206.png</itemIcon>
+	<itemDesc>Sweet flavored liquor with honey. \n- Unique effect: All Damage Reduction +2 for 60 min.\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Cooking Honey</name>
+			<icon>00007702.png</icon>
+			<desc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Cooking Honey</name>
+			<icon>00007702.png</icon>
+			<desc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Cooking Honey</name>
+			<icon>00007702.png</icon>
+			<desc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Cooking Honey</name>
+			<icon>00007702.png</icon>
+			<desc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4804</itemKey>
+	<itemName>Poudre de la terre</itemName>
+	<itemIcon>00004804.png</itemIcon>
+	<itemDesc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</itemDesc>
+	<collect>
+		<character>
+			<name>Argent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zinc</name>
+		</character>
+	</collect>
+	<node region="Source de la rivière de Behr : extraction minière"/>
+	<makelist>
+		<item>
+			<id>10305</id>
+			<name>Dague de parade</name>
+			<icon>00010305.png</icon>
+			<desc>Une dague faite pour parer les attaques.</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Dague de parade ultime</name>
+			<icon>00010305.png</icon>
+			<desc>Une dague de parade qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : dague de parade de la flamme pourpre, dague de parade de destruction, dague de parade de tentation, dague de parade</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Dague de parade de tentation</name>
+			<icon>00010305.png</icon>
+			<desc>Cette dague de parade renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : dague de parade de tentation, dague de parade</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Dague de parade de destruction</name>
+			<icon>00010305.png</icon>
+			<desc>Cette dague de parade renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : dague de parade de destruction, dague de parade</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Dague de parade de la flamme pourpre</name>
+			<icon>00010305.png</icon>
+			<desc>Cette dague de parade renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : dague de parade de la flamme pourpre, dague de parade</desc>
+		</item>
+		<item>
+			<id>52902</id>
+			<name>Fer à cheval léger</name>
+			<icon>00052902.png</icon>
+			<desc>Des fers à cheval solides et légers en fer de haute qualité.\n\n- Utilisables sur : cheval, âne\n\nPeuvent être améliorés avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Nœud décoratif de Theos</name>
+			<icon>00010705.png</icon>
+			<desc>Un nœud décoratif fait main pour une hache plaquée d&apos;or.</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Colifichet de lame ultime</name>
+			<icon>00010707.png</icon>
+			<desc>Un colifichet de lame qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet de lame de la flamme pourpre, colifichet de lame de destruction, colifichet de lame de tentation, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Colifichet de lame de tentation</name>
+			<icon>00010706.png</icon>
+			<desc>Ce colifichet de lame renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet de lame de tentation, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Colifichet de lame de destruction</name>
+			<icon>00010706.png</icon>
+			<desc>Ce colifichet de lame renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet de lame de destruction, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Colifichet de lame de la flamme pourpre</name>
+			<icon>00010706.png</icon>
+			<desc>Ce colifichet de lame renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet de lame de la flamme pourpre, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Colifichet de lame</name>
+			<icon>00010706.png</icon>
+			<desc>Un colifichet avec une lame décorative attachée.</desc>
+		</item>
+		<item>
+			<id>14019</id>
+			<name>Vêtements de cuisinier brodés d&apos;argent</name>
+			<icon>00014007.png</icon>
+			<desc>Un habit noble fait pour les cuisiniers.</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Talisman de Rhik de tentation</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman de Rhik de tentation, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Talisman de Rhik de destruction</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman de Rhik de destruction, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Talisman de Rhik de la flamme pourpre</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman de Rhik de la flamme pourpre, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Talisman de Rhik ultime</name>
+			<icon>00010505.png</icon>
+			<desc>Un talisman de Rhik qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman de Rhik de la flamme pourpre, talisman de Rhik de destruction, talisman de Rhik de tentation, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Talisman de Rhik</name>
+			<icon>00010505.png</icon>
+			<desc>Un talisman avec des capacités de défense améliorées.</desc>
+		</item>
+		<item>
+			<id>10717</id>
+			<name>Nœud décoratif de Theos ultime</name>
+			<icon>00010705.png</icon>
+			<desc>Un nœud décoratif de Theos qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : nœud décoratif de Theos de la flamme pourpre, nœud décoratif de Theos de destruction, nœud décoratif de Theos de tentation, nœud décoratif de Theos</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Nœud décoratif de Theos de tentation</name>
+			<icon>00010705.png</icon>
+			<desc>Ce nœud décoratif de Theos renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : nœud décoratif de Theos de tentation, nœud décoratif de Theos</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Nœud décoratif de Theos de destruction</name>
+			<icon>00010705.png</icon>
+			<desc>Ce nœud décoratif de Theos renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : nœud décoratif de Theos de destruction, nœud décoratif de Theos</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Nœud décoratif de Theos de la flamme pourpre</name>
+			<icon>00010705.png</icon>
+			<desc>Ce nœud décoratif de Theos renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : nœud décoratif de Theos de la flamme pourpre, nœud décoratif de Theos</desc>
+		</item>
+		<item>
+			<id>10117</id>
+			<name>Pavois ultime</name>
+			<icon>00010105.png</icon>
+			<desc>Un pavois qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : pavois de la flamme pourpre, pavois de destruction, pavois de tentation, pavois</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Pavois de tentation</name>
+			<icon>00010105.png</icon>
+			<desc>Ce pavois renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : pavois de tentation, pavois</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Pavois</name>
+			<icon>00010105.png</icon>
+			<desc>Un bouclier en alliage très résistant qui offre une défense maximale.</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Pavois de destruction</name>
+			<icon>00010105.png</icon>
+			<desc>Ce pavois renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : pavois de destruction, pavois</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Pavois de la flamme pourpre</name>
+			<icon>00010105.png</icon>
+			<desc>Ce pavois renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : pavois de la flamme pourpre, pavois</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

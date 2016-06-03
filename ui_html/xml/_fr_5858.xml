@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5858</itemKey>
+	<itemName>Laine</itemName>
+	<itemIcon>00005858.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant du fil à tricoter. Nécessite des connaissances en meulage (débutant).\n\n※ Trouvez Ornella à Heidel et terminez la quête de matériaux de réparation d&apos;équipement pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<collect>
+		<character>
+			<name>Linge</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Literie</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tente</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Étendoir à linge</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5854</id>
+			<name>Fil à tricoter</name>
+			<icon>00005854.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant de la toison.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14217</id>
+			<name>[Valkyrie] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14215</id>
+			<name>[Rôdeuse] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14214</id>
+			<name>[Dompteuse] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14213</id>
+			<name>[Sorcière] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14212</id>
+			<name>[Berserker] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14211</id>
+			<name>[Guerrier] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14026</id>
+			<name>Vêtements d&apos;artisan brodés d&apos;argent</name>
+			<icon>00014004.png</icon>
+			<desc>Un habit noble fait pour les artisans.</desc>
+		</item>
+		<item>
+			<id>14025</id>
+			<name>Vêtements d&apos;alchimiste brodés d&apos;argent</name>
+			<icon>00014001.png</icon>
+			<desc>Un habit noble fait pour les alchimistes.</desc>
+		</item>
+		<item>
+			<id>25624</id>
+			<name>Rideau à œillets court polaire</name>
+			<icon>InHouse_X_DPW_Curtain_01_02_Tied.png</icon>
+			<desc>Une patte de rideau en toison.</desc>
+		</item>
+		<item>
+			<id>25621</id>
+			<name>Rideau court polaire</name>
+			<icon>InHouse_X_DPW_Curtain_01_02_Back.png</icon>
+			<desc>Un rideau en toison.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

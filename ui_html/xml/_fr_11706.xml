@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11706</itemKey>
+	<itemName>Collier de saphir</itemName>
+	<itemIcon>00011706.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;un saphir.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4402</id>
+			<name>Saphir brut</name>
+			<icon>00004402.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un saphir brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+		<item>
+			<id>4202</id>
+			<name>Minerai d&apos;or</name>
+			<icon>00004202.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un minerai d&apos;or demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant de l&apos;or.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11707</id>
+			<name>Collier de saphir resplendissant</name>
+			<icon>00011707.png</icon>
+			<desc>Un collier décoré d&apos;un saphir brillant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

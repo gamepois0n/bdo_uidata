@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8534</itemKey>
+	<itemName>Dried Filefish</itemName>
+	<itemIcon>00008534.png</itemIcon>
+	<itemDesc>A dried filefish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8234</id>
+			<name>Filefish</name>
+			<icon>00008234.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55934</id>
+			<name>Packaged Dried Filefish</name>
+			<icon>00055934.png</icon>
+			<desc>A Trade Item containing 10 Dried Filefish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

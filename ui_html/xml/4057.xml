@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4057</itemKey>
+	<itemName>Melted Copper Shard</itemName>
+	<itemIcon>00004057.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bloodstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Copper</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Granite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mudstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstone</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4003</id>
+			<name>Copper Ore</name>
+			<icon>00004003.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Goblin Cave, Imp Cave, Coastal Cave, Forest of Seclusion, Thermian Cliff, Northern Heidel Quarry, and Mediah Shore. It can be directly obtained from Ore containing Copper.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10303</id>
+			<name>Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A dagger cast in bronze.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10305</id>
+			<name>Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A dagger made for parrying attacks.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10324</id>
+			<name>Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A dagger crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10503</id>
+			<name>Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A talisman with a magical gemstone embedded in it.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10505</id>
+			<name>Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A talisman with enhanced defensive abilities.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10524</id>
+			<name>Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A talisman crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10703</id>
+			<name>Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>A handmade ornamental knot for an axe made of quality silk.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10724</id>
+			<name>Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>An ornamental knot crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13003</id>
+			<name>Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>A trinket with a pouch full of incense.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4067</id>
+			<name>Bronze Ingot</name>
+			<icon>00004067.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper and Tin together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4066</id>
+			<name>Brass Ingot</name>
+			<icon>00004066.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper and Zinc together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4058</id>
+			<name>Copper Ingot</name>
+			<icon>00004058.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Copper Shards. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

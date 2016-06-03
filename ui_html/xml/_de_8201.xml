@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8201</itemKey>
+	<itemName>Schlammspringer</itemName>
+	<itemIcon>00008201.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Fischnetz</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ständer zum Dörren von Fisch</name>
+		</character>
+	</collect>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8501</id>
+			<name>Getrockneter Schlammspringer</name>
+			<icon>00008501.png</icon>
+			<desc>Ein Getrockneter Schlammspringer, der durch Trocknen erlangt wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

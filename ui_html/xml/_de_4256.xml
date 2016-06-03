@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4256</itemKey>
+	<itemName>Reiner Goldkristall</itemName>
+	<itemIcon>00004256.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Goldbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4076</id>
+			<name>Metall-Lösungsmittel</name>
+			<icon>00004076.png</icon>
+			<desc>Ein Material, das für eine Verarbeitungsmethode genutzt wird, bei der Metalle in Kristalle verwandelt werden.\n\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4255</id>
+			<name>Goldbarren</name>
+			<icon>00004255.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Golderz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11725</id>
+			<name>Diamanthalskette der Tapferkeit</name>
+			<icon>00011725.png</icon>
+			<desc>Eine mit einem Diamanten der Tapferkeit verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11710</id>
+			<name>Saphirhalskette der Stürme</name>
+			<icon>00011710.png</icon>
+			<desc>Eine mit einem Saphir des Sturms verzierte Halskette.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

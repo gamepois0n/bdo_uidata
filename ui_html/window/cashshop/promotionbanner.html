@@ -1,0 +1,61 @@
+<!-- XHTML5 -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densitydpi=medium-dpi;" />
+
+<link rel="stylesheet" href="../../daumgames/css/base.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../daumgames/css/board.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../daumgames/css/layout.css" type="text/css" media="all" />
+
+<script type="text/javascript" src="../../daumgames/javascript/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../daumgames/javascript/common.js"></script>
+<script type="text/javascript" src="../../javascript/coherent.js"></script>
+<script type="text/javascript">
+
+jQuery(function(){
+	$(".show_category").click(function() {
+		var product 	= $(this).data("product");
+		var price 		= $(this).data("price");
+		
+		console.log("product : " + product);
+		engine.call("ToClient_RequestShowProduct", product, price)	
+	});
+
+});
+
+</script>
+</head>
+
+<body>
+
+<div id="wrap">
+	<div id="header">
+		<div class="topm">  
+			<table class="tab-top-step">
+				<tr>
+					<td id="mainbanner" class="category_tab tab-on"><a class="show_category" data-product="10001" data-price="100" href="javascript:;"><span>메인배너 (의상 : [워리어] 슈다드 세트 - 10001) </span></a></td>
+				</tr>	
+				<tr>
+					<td id="banner1" class="category_tab"><a class="show_category" data-product="1001" data-price="100" href="javascript:;"><span>소배너 #1 (펫 : 줄무늬 고양이 - 1001)</span></a></td>
+				</tr>
+				<tr>
+					<td id="banner2" class="category_tab"><a class="show_category" data-product="4011" data-price="100" href="javascript:;"><span>소배너 #2 (가구 : 양털 가구 세트 - 4011)</span></a></td>
+				</tr>
+				<tr>
+					<td id="banner3" class="category_tab"><a class="show_category" data-product="5005" data-price="100" href="javascript:;"><span>소배너 #3 (기능성 : 경험치 증가 주문서 - 5005)</span></a></td>
+				</tr>
+				<tr>
+					<td id="banner4" class="category_tab"><a class="show_category" data-product="19007" data-price="100" href="javascript:;"><span>소배너 #4 (치장 : [워리어] 메탈 피어싱 - 19007)</span></a></td>
+				</tr>	
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!-- //container -->
+</div>	
+</body>
+</html>

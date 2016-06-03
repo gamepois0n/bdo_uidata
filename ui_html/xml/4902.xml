@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4902</itemKey>
+	<itemName>Alluvial Gold</itemName>
+	<itemIcon>00004902.png</itemIcon>
+	<itemDesc>A rare ingredient filtered from River Water that can be Heated to create Gold.\n- How to Obtain: It can be obtained by Thinning a Bottle of River Water.</itemDesc>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6653</id>
+			<name>Bottle of River Water</name>
+			<icon>00006653.png</icon>
+			<desc>Water Gathered from a river using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: River Water can be obtained by using an Empty Bottle at a river.\n\n※ Pouring a Bottle of River Water on a Garden will increase the available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6654</id>
+			<name>Bottle of Turbid Water</name>
+			<icon>00006654.png</icon>
+			<desc>Water Gathered from a murky water source using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Turbid Water can be obtained by using an Empty Bottle at a murky water source.\n\n※ Pouring a Bottle of Turbid Water on a Garden will slightly increase the available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6655</id>
+			<name>Bottle of Clean Water</name>
+			<icon>00006655.png</icon>
+			<desc>Water Gathered from a clear water source. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Clean Water can be obtained by using an Empty Bottle at a clear water source.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4255</id>
+			<name>Gold Ingot</name>
+			<icon>00004255.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Gold Ore. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Melted Gold Shard</name>
+			<icon>00004254.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Gold Ore.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

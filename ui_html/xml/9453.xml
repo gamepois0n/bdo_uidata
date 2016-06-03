@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9453</itemKey>
+	<itemName>Chewy Desert Dumpling</itemName>
+	<itemIcon>00009453.png</itemIcon>
+	<itemDesc>A desert dumpling made with the finest dough. \n\n- Unique Effect: Max Stamina +200 for 75 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>7348</id>
+			<name>Cinnamon</name>
+			<icon>00007348.png</icon>
+			<desc>Cinnamon is a specialty of Mediah.\nUsage: Borscht, Desert Dumpling, etc.\n- How to Obtain: It can be obtained at Kasula Farm. Mediah Cinammon can also be Gathered using Bare Hands or a Hoe.</desc>
+		</item>
+		<item>
+			<id>7908</id>
+			<name>Lizard Meat</name>
+			<icon>00007908.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a lizard corpse.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Cinnamon</name>
+			<icon>00007348.png</icon>
+			<desc>Cinnamon is a specialty of Mediah.\nUsage: Borscht, Desert Dumpling, etc.\n- How to Obtain: It can be obtained at Kasula Farm. Mediah Cinammon can also be Gathered using Bare Hands or a Hoe.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olive Oil</name>
+			<icon>00009015.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

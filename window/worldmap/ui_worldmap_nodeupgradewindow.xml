@@ -1,0 +1,127 @@
+<UI>
+	<Control Type="Panel" Name="Panel_nodeUpgrade" Pos="609 283" Size="330 320" Pan="0 0" Color="ffffffff" EnableArea="0 0 330 320" Grid="1" GridPosX="0 10 320 330" GridPosY="0 10 310 320" GridUVX="0 10 173 183" GridUVY="0 10 212 222" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 330 30"/>
+		<Control Type="StaticText" Name="titlebar_nodeUpgrade" Pos="Center Top" Size="330 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 330 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="거점 업그레이드" formatString="WORLDMAP_NODEUP_TXT_UPGRADE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="7 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="29 7" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="button_expandWarehouse" Pos="63 46" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100" Grid="1" GridPosX="0 5 95 100" GridPosY="0 4 93 100" GridUVX="0 5 25 30" GridUVY="0 4 23 30" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="창고 확장" formatString="WORLDMAP_NODEUP_BTN_BOXUP" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="subTitlebar_requirement_value" Pos="Left 152" Size="310 20" Pan="10 0" Color="ffffffff" EnableArea="0 0 310 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="재료1111" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="button_expandWarehouse_value" Pos="90 101" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="( 1 / 5 )" Font="BaseFont_10" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="button_expandWorker" Pos="Center 46" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100" Grid="1" GridPosX="0 5 95 100" GridPosY="0 4 93 100" GridUVX="0 5 25 30" GridUVY="0 4 23 30" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="일꾼슬롯 확장" formatString="WORLDMAP_NODEUP_BTN_WORKERUP" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="button_expandWorker_value" Pos="Center 100" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="( 1 / 5 )" Font="BaseFont_10" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="button_increaseEfficiency" Pos="10 46" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100" Grid="1" GridPosX="0 5 95 100" GridPosY="0 4 93 100" GridUVX="0 5 25 30" GridUVY="0 4 23 30" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="기본 효율 증가" formatString="WORLDMAP_NODEUP_BTN_EFFUP" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="button_increaseLuck" Pos="114 46" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100" Grid="1" GridPosX="0 5 95 100" GridPosY="0 4 93 100" GridUVX="0 5 25 30" GridUVY="0 4 23 30" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="운 증가" formatString="WORLDMAP_NODEUP_BTN_LUCKUP" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="button_upgradeProduction" Pos="218 46" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100" Grid="1" GridPosX="0 5 95 100" GridPosY="0 4 93 100" GridUVX="0 5 25 30" GridUVY="0 4 23 30" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="작물 확충" formatString="WORLDMAP_NODEUP_BTN_PRODUCTUP" Font="BaseFont_10" Color="ffc8fa00" OverColor="ffc8fa00" ClickColor="ffc8fa00" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="button_increaseEfficiency_value" Pos="34 100" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="( 1 / 5 )" Font="BaseFont_10" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="button_increaseLuck_value" Pos="139 100" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="( 1 / 5 )" Font="BaseFont_10" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="button_upgradeProduction_value" Pos="244 100" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="( 1 / 5 )" Font="BaseFont_10" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="upgrade_product_category" Pos="Center 150" Size="310 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 310 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="세렌디아산 납품용 곡물 ( 0 / 2 )" Font="BaseFont_10" Color="ffffbb00" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="upgrade_product_recipe" Pos="Center 174" Size="285 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 285 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="레시피 추가 ( 0 / 0 )" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="upgrade_product_workSlot" Pos="Center 193" Size="285 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 285 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="작업 슬롯 추가 ( 0 / 0 )" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="button_upgrade_product_recipe" Pos="Left 172" Size="23 23" Pan="10 0" Color="ffffffff" EnableArea="2 2 21 21" Group="5">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="183 73 206 73 183 92 206 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="button_upgrade_product_workSlot" Pos="Left 191" Size="23 23" Pan="10 0" Color="ffffffff" EnableArea="2 2 21 21" Group="5">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="183 73 206 73 183 92 206 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="button_doUpgrade" Pos="31 Bottom" Size="130 30" Pan="0 3" Color="ffffffff" EnableArea="0 0 130 30" Grid="1" GridPosX="0 5 125 130" GridPosY="0 4 23 30" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" ClickSound="0 3">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="업그레이드" formatString="WORLDMAP_NODEUP_BTN_DOUP" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="button_cancle" Pos="165 Bottom" Size="130 30" Pan="0 3" Color="ffffffff" EnableArea="0 0 130 30" Grid="1" GridPosX="0 5 125 130" GridPosY="0 4 23 30" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="WORLDMAP_NODEUP_BTN_CANCEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

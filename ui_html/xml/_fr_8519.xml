@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8519</itemKey>
+	<itemName>Poisson-chat séché</itemName>
+	<itemIcon>00008519.png</itemIcon>
+	<itemDesc>Un poisson-chat obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8219</id>
+			<name>Poisson-chat</name>
+			<icon>00008219.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55919</id>
+			<name>Poisson-chat séché sous vide</name>
+			<icon>00055919.png</icon>
+			<desc>Un objet de commerce contenant 10 poissons-chats séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

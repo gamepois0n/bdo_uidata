@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6018</itemKey>
+	<itemName>Flamingofeder</itemName>
+	<itemIcon>00006018.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Flamingokadavers gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Fächerflamingo</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6158</id>
+			<name>Schmuckfeder</name>
+			<icon>00006158.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Flamingofedern gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>6166</id>
+			<name>Feine Schmuckfeder</name>
+			<icon>00006166.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Schmuckfedern gewonnen werden. Dies erfordert die Kenntnis Sieben.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,20 @@
+<UI>
+	<Control Type="Panel" Name="Panel_fieldQuest" Pos="0 0" Size="200 200" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 200">
+		<Control Type="Static" Name="Static_QuestIcon" Pos="Center Bottom" Size="47 47" Pan="0 48" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_QuestIconBorder" Pos="Center Bottom" Size="49 56" Pan="0 40" Color="ffffffff" EnableArea="0 0 49 56" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 65 0 0 75 65 75" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_quest.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_QuestClear" Pos="Center Bottom" Size="44 44" Pan="0 50" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 184 98 184 1 267 98 267" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_LookAtMe" Pos="417 191" Size="56 56" Pan="0 0" Color="ffffffff" EnableArea="0 0 56 56" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.010 0">new_ui_common_forlua/widget/quest/ui_quest_effect01.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15639</itemKey>
+	<itemName>Red Battlefield Crystal: Power</itemName>
+	<itemIcon>00015638.png</itemIcon>
+	<itemDesc>A Black Stone Crystal that can be fused into Weapon sockets. \n- Item effect: Attack +5 &amp; Extra Damage against Humans +2\n※ Once installed, the crystal might be destroyed upon the character&apos;s death.\n- The potential of the crystal can be transfused to equipment items through Black Spirit.\n- How to Obtain: Enter the Red Battlefield through Black Spirit and earn Red Seals through a fierce battle.\nExchange the Red Seals with Red Essence from Ornella in Heidel.\nHeat the Red Essence and Ancient Magic Crystal: Power together.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4989</id>
+			<name>Red Essence</name>
+			<icon>00004989.png</icon>
+			<desc>The concentrated essence of red blood.\nWhen heated with Ancient Magic Crystal : Power and Ancient Magic Crystal : Adamantine to obtain an awakened crystal.</desc>
+		</item>
+		<item>
+			<id>15606</id>
+			<name>Ancient Magic Crystal of Crimson Flame - Power</name>
+			<icon>00045002.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Weapon sockets. \n- Item Effect: AP +5\n\n※ This magic crystal has a low chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

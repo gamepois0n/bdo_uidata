@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4663</itemKey>
+	<itemName>Tannenbrett</itemName>
+	<itemIcon>00004663.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Tanne</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Angela</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4606</id>
+			<name>Tannenholz</name>
+			<icon>00004606.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Manshawald, bei Phoniels Hütte und im Treantwald hergestellt werden. Kann außerdem durch Fällen von Tannen erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4664</id>
+			<name>Tannenschichtholz</name>
+			<icon>00004664.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

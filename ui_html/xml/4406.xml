@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4406</itemKey>
+	<itemName>Rough Translucent Crystal</itemName>
+	<itemIcon>00004406.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Translucent Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Goblin Cave.</itemDesc>
+	<collect>
+		<character>
+			<name>Clear Quartz</name>
+		</character>
+	</collect>
+	<node region="Goblin Cave - Mining"/>
+	<makelist>
+		<item>
+			<id>4466</id>
+			<name>Translucent Crystal</name>
+			<icon>00004466.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Translucent Crystals found near Goblin Cave.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

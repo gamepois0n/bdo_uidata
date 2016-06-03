@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4410</itemKey>
+	<itemName>Rough Black Crystal</itemName>
+	<itemIcon>00004410.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Black Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Mediah Abandoned Iron Mine.</itemDesc>
+	<collect>
+		<character>
+			<name>Black Quartz</name>
+		</character>
+	</collect>
+	<node region="Abandoned Iron Mine - Mining"/>
+	<makelist>
+		<item>
+			<id>4470</id>
+			<name>Black Crystal</name>
+			<icon>00004470.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Black Crystals.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

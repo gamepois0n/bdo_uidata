@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5206</itemKey>
+	<itemName>Essence of Nature</itemName>
+	<itemIcon>00005206.png</itemIcon>
+	<itemDesc>An essence extracted from Fruit of Nature, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n- How to Obtain: Can be made by combining other ingredients with Fruit of Nature using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5205</id>
+			<name>Fruit of Nature</name>
+			<icon>00005205.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5205</id>
+			<name>Fruit of Nature</name>
+			<icon>00005205.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5002</id>
+			<name>Maple Sap</name>
+			<icon>00005002.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Maple Trees with a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>5954</id>
+			<name>Trace of the Earth</name>
+			<icon>00005954.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</desc>
+		</item>
+		<item>
+			<id>5407</id>
+			<name>Fortune Teller Mushroom</name>
+			<icon>00005407.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: It can be Produced at Ehwaz Hill and Coastal Cliff. Fortune Teller Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

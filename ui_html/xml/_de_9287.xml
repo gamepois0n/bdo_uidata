@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9287</itemKey>
+	<itemName>Süßer Obstkuchen</itemName>
+	<itemIcon>00009287.png</itemIcon>
+	<itemDesc>Ein süßer Obstkuchen mit viel Zucker und Sahne.\n\n– Spezielle Wirkung: Wirkgeschwindigkeit +1 für 110 Min.\nMP-/KP-Regeneration +70 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

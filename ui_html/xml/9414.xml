@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9414</itemKey>
+	<itemName>Meat Stew</itemName>
+	<itemIcon>00009414.png</itemIcon>
+	<itemDesc>A dish made by boiling meat. \n\n- Unique Effect: Max HP +30 for 30 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Pork</name>
+			<icon>00007905.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a pig corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

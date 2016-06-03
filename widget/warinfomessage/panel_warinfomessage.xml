@@ -1,0 +1,18 @@
+<UI>
+	<Control Type="Panel" Name="Panel_WarInfoMessage" Pos="Center Top" Size="562 128" Pan="0 100" Color="ffffffff" EnableArea="0 0 562 128">
+		<Control Type="Static" Name="Static_BGTexture" Pos="0 0" Size="562 128" Pan="0 0" Color="ffffffff" EnableArea="0 0 562 128" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 562 0 0 128 562 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/warinfomessage/addguildtent.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Effect" Pos="0 0" Size="562 128" Pan="0 0" Color="ffffffff" EnableArea="0 0 562 128" AutoDisableTime="0.000000">
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MainMessage" Pos="Center Top" Size="50 20" Pan="0 87" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="새로운 길드가 참전했습니다." Font="TitleFont_18" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubMessage" Pos="Center Top" Size="50 20" Pan="0 65" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="발레노스령 점령전은 12개 길드가 참전중입니다." Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

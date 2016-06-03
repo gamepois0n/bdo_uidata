@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5402</itemKey>
+	<itemName>Silver Azalea</itemName>
+	<itemIcon>00005402.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be Produced at the Northern Plain of Serendia and Lynch Farm Ruins. It can also be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<collect>
+		<character>
+			<name>Herb Sack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Medicinal Herb Kettle</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Silver Azalea</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wild Herb</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Nieves</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Kaia Feresio</name>
+		</character>
+	</shop>
+	<node region="Northern Plain of Serendia - Gathering"/>
+	<node region="Lynch Farm Ruins - Gathering"/>
+	<makelist>
+		<item>
+			<id>7502</id>
+			<name>Silver Azalea Crate</name>
+			<icon>00007502.png</icon>
+			<desc>An herb that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Concentrated Herbal Juice</name>
+			<icon>00000570.png</icon>
+			<desc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

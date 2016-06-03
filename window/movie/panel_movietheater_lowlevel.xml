@@ -1,0 +1,25 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MovieTheater_LowLevel" Pos="814 390" Size="460 417" Pan="0 0" Color="ffffffff" EnableArea="0 0 460 417" Grid="1" GridPosX="0 10 450 460" GridPosY="0 10 407 417" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 330 34"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="460 6" Pan="0 32" Color="ffffffff" EnableArea="0 0 460 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="초반 영상 설명" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 8"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="7 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Replay" Pos="Center Bottom" Size="136 33" Pan="0 5" Color="ffffffff" EnableArea="0 0 136 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="119 1 255 1 119 34 255 34" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_02.dds</Texture>
+			<Texture Type="On" UV="119 35 255 35 119 68 255 68" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_02.dds</Texture>
+			<Texture Type="Click" UV="119 69 255 69 119 102 255 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_02.dds</Texture>
+			<Text Value="처음부터" formatString="PANEL_MOVIETHEATHER_LOWLEVEL_BTN_REPLAY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

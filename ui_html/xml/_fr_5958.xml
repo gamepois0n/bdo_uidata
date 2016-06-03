@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5958</itemKey>
+	<itemName>Trace de bataille</itemName>
+	<itemIcon>00005958.png</itemIcon>
+	<itemDesc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait à la ferme Bernianto.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10013</id>
+			<name>Épée longue de Bares</name>
+			<icon>00010013.png</icon>
+			<desc>Une épée longue possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10213</id>
+			<name>Arc long de Bares</name>
+			<icon>00010213.png</icon>
+			<desc>Un arc long possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10413</id>
+			<name>Amulette de Bares</name>
+			<icon>00010413.png</icon>
+			<desc>Une amulette possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10613</id>
+			<name>Hache de Bares</name>
+			<icon>00010613.png</icon>
+			<desc>Une hache possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13213</id>
+			<name>Épée courte de Bares</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14413</id>
+			<name>Bâton de Bares</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</manufacture>
+	<node region="Ferme Bernianto : excavation"/>
+	<makelist>
+		<item>
+			<id>13239</id>
+			<name>Épée courte de Bares ultime</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte de Bares qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée courte de Bares.\n\n- Rétablir la durabilité maximale : épée courte de Bares de la flamme pourpre, épée courte de Bares de destruction, épée courte de Bares de tentation, épée courte de Bares</desc>
+		</item>
+		<item>
+			<id>13238</id>
+			<name>Épée courte de Bares de tentation</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Bares renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée courte de Bares.\n\n- Rétablir la durabilité maximale : épée courte de Bares de tentation, épée courte de Bares</desc>
+		</item>
+		<item>
+			<id>13237</id>
+			<name>Épée courte de Bares de destruction</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Bares renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée courte de Bares.\n\n- Rétablir la durabilité maximale : épée courte de Bares de destruction, épée courte de Bares</desc>
+		</item>
+		<item>
+			<id>13236</id>
+			<name>Épée courte de Bares de la flamme pourpre</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Bares renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée courte de Bares.\n\n- Rétablir la durabilité maximale : épée courte de Bares de la flamme pourpre, épée courte de Bares</desc>
+		</item>
+		<item>
+			<id>13213</id>
+			<name>Épée courte de Bares</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>10638</id>
+			<name>Hache de Bares de tentation</name>
+			<icon>00010613.png</icon>
+			<desc>Cette hache de Bares renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une hache de Bares.\n\n- Rétablir la durabilité maximale : hache de Bares de tentation, hache de Bares</desc>
+		</item>
+		<item>
+			<id>10637</id>
+			<name>Hache de Bares de destruction</name>
+			<icon>00010613.png</icon>
+			<desc>Cette hache de Bares renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une hache de Bares.\n\n- Rétablir la durabilité maximale : hache de Bares de destruction, hache de Bares</desc>
+		</item>
+		<item>
+			<id>10636</id>
+			<name>Hache de Bares de la flamme pourpre</name>
+			<icon>00010613.png</icon>
+			<desc>Cette hache de Bares renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache de Bares.\n\n- Rétablir la durabilité maximale : hache de Bares de la flamme pourpre, hache de Bares</desc>
+		</item>
+		<item>
+			<id>10639</id>
+			<name>Hache de Bares ultime</name>
+			<icon>00010613.png</icon>
+			<desc>Une hache de Bares qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une hache de Bares.\n\n- Rétablir la durabilité maximale : hache de Bares de la flamme pourpre, hache de Bares de destruction, hache de Bares de tentation, hache de Bares</desc>
+		</item>
+		<item>
+			<id>14439</id>
+			<name>Bâton de Bares ultime</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton de Bares ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares de destruction, bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Bâton de Bares de tentation</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>10413</id>
+			<name>Amulette de Bares</name>
+			<icon>00010413.png</icon>
+			<desc>Une amulette possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>10613</id>
+			<name>Hache de Bares</name>
+			<icon>00010613.png</icon>
+			<desc>Une hache possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>14023</id>
+			<name>Vêtements d&apos;entraîneur brodés d&apos;argent</name>
+			<icon>00014010.png</icon>
+			<desc>Un habit noble fait pour les entraîneurs.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Bâton de Bares</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>10439</id>
+			<name>Amulette de Bares ultime</name>
+			<icon>00010413.png</icon>
+			<desc>Une amulette de Bares qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une amulette de Bares.\n\n- Rétablir la durabilité maximale : amulette de Bares de la flamme pourpre, amulette de Bares de destruction, amulette de Bares de tentation, amulette de Bares</desc>
+		</item>
+		<item>
+			<id>10438</id>
+			<name>Amulette de Bares de tentation</name>
+			<icon>00010413.png</icon>
+			<desc>Cette amulette de Bares renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une amulette de Bares.\n\n- Rétablir la durabilité maximale : amulette de Bares de tentation, amulette de Bares</desc>
+		</item>
+		<item>
+			<id>10437</id>
+			<name>Amulette de Bares de destruction</name>
+			<icon>00010413.png</icon>
+			<desc>Cette amulette de Bares renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une amulette de Bares.\n\n- Rétablir la durabilité maximale : amulette de Bares de destruction, amulette de Bares</desc>
+		</item>
+		<item>
+			<id>10436</id>
+			<name>Amulette de Bares de la flamme pourpre</name>
+			<icon>00010413.png</icon>
+			<desc>Cette amulette de Bares renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de Bares.\n\n- Rétablir la durabilité maximale : amulette de Bares de la flamme pourpre, amulette de Bares</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Bâton de Bares de destruction</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de destruction, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Bâton de Bares de la flamme pourpre</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>10239</id>
+			<name>Arc long de Bares ultime</name>
+			<icon>00010213.png</icon>
+			<desc>Un arc long de Bares qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de la flamme pourpre, arc long de Bares de destruction, arc long de Bares de tentation, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>10238</id>
+			<name>Arc long de Bares de tentation</name>
+			<icon>00010213.png</icon>
+			<desc>Cet arc long de Bares renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de tentation, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Arc long de Bares de destruction</name>
+			<icon>00010213.png</icon>
+			<desc>Cet arc long de Bares renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de destruction, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Arc long de Bares de la flamme pourpre</name>
+			<icon>00010213.png</icon>
+			<desc>Cet arc long de Bares renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de la flamme pourpre, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Arc long de Bares</name>
+			<icon>00010213.png</icon>
+			<desc>Un arc long possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>10039</id>
+			<name>Épée longue de Bares ultime</name>
+			<icon>00010013.png</icon>
+			<desc>Une épée longue de Bares qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée longue de Bares.\n\n- Rétablir la durabilité maximale : épée longue de Bares de la flamme pourpre, épée longue de Bares de destruction, épée longue de Bares de tentation, épée longue de Bares</desc>
+		</item>
+		<item>
+			<id>10038</id>
+			<name>Épée longue de Bares de tentation</name>
+			<icon>00010013.png</icon>
+			<desc>Cette épée longue de Bares renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée longue de Bares.\n\n- Rétablir la durabilité maximale : épée longue de Bares de tentation, épée longue de Bares</desc>
+		</item>
+		<item>
+			<id>10037</id>
+			<name>Épée longue de Bares de destruction</name>
+			<icon>00010013.png</icon>
+			<desc>Cette épée longue de Bares renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée longue de Bares.\n\n- Rétablir la durabilité maximale : épée longue de Bares de destruction, épée longue de Bares</desc>
+		</item>
+		<item>
+			<id>10036</id>
+			<name>Épée longue de Bares de la flamme pourpre</name>
+			<icon>00010013.png</icon>
+			<desc>Cette épée longue de Bares renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée longue de Bares.\n\n- Rétablir la durabilité maximale : épée longue de Bares de la flamme pourpre, épée longue de Bares</desc>
+		</item>
+		<item>
+			<id>10013</id>
+			<name>Épée longue de Bares</name>
+			<icon>00010013.png</icon>
+			<desc>Une épée longue possédée par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

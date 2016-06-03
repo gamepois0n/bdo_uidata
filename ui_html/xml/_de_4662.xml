@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4662</itemKey>
+	<itemName>Stabiles Birkenschichtholz</itemName>
+	<itemIcon>00004662.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Birkenschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4661</id>
+			<name>Birkenschichtholz</name>
+			<icon>00004661.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Birkenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4684</id>
+			<name>Schichtholz-Härter</name>
+			<icon>00004684.png</icon>
+			<desc>Ein Material, das genutzt wird, um Schichthölzer durch Verarbeitung zu verstärken.\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>49304</id>
+			<name>Fischerbootsbug</name>
+			<icon>00049304.png</icon>
+			<desc>Ein Bug, der an einem Fischerboot angebracht werden kann. Dies erlaubt dem Boot, schneller zu segeln.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nGesamte VK +30 (noch nicht verfügbar)\n\n– Ausrüstung für Fischerboote\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>49204</id>
+			<name>Fischerboot-Frachtbehälter</name>
+			<icon>00049204.png</icon>
+			<desc>Ein Frachtbehälter, der an einem Fischerboot angebracht werden kann. Dies erlaubt dem Boot, größere Lasten zu transportieren.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nGesamte VK +30 (noch nicht verfügbar)\n\n– Ausrüstung für Fischerboote\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>24005</id>
+			<name>[Musikautomat] Gebet der Zeit</name>
+			<icon>InHouse_X_DPF_JukeBox_02.png</icon>
+			<desc>Ein Musikautomat, der das Titellied des Gebets der Zeit spielt.</desc>
+		</item>
+		<item>
+			<id>2313</id>
+			<name>Handgemachtes Kanapee aus Calpheon</name>
+			<icon>InHouse_F_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2706</id>
+			<name>Handgemachtes Bett aus Calpheon</name>
+			<icon>InHouse_F_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

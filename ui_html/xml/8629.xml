@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8629</itemKey>
+	<itemName>Dried Moray</itemName>
+	<itemIcon>00008596.png</itemIcon>
+	<itemDesc>A dried moray obtained through Drying.\n ※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8329</id>
+			<name>Moray</name>
+			<icon>00008329.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

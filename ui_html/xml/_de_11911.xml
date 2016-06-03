@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11911</itemKey>
+	<itemName>Topasohrringe</itemName>
+	<itemIcon>00011911.png</itemIcon>
+	<itemDesc>Ein mit einem Topas verzierter Ohrring.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4001</id>
+			<name>Eisenerz</name>
+			<icon>00004001.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Küstenhöhle, Küstenfelsen, Steinbruch von Nordheidel, Süd-Cienaga, Verwunschener Steinwall, Verlassene Eisenmine. Kann aus eisenhaltigem Erz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4403</id>
+			<name>Rohtopas</name>
+			<icon>00004403.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Topaserz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11912</id>
+			<name>Glänzende Topasohrringe</name>
+			<icon>00011912.png</icon>
+			<desc>Ein mit einem Funkelnden Topas verzierter Ohrring.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9273</itemKey>
+	<itemName>High-Quality Cheese Pie</itemName>
+	<itemIcon>00009273.png</itemIcon>
+	<itemDesc>A delicious cheese pie. \n\n- Unique Effect: Restore +8 Worker Stamina (Use through the Worker Menu on the world map)\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 1 sec</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Egg</name>
+			<icon>00009064.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest.\n\n- Usage: Soft Bread, Omelet, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>An ingredient used in Cooking. It can be created by Shaking salt with the cream obtained from Shaking milk.\n\n- Usage: Cheese Pie, Seafood Grilled with Butter</desc>
+		</item>
+	</cook>
+</itemInfo>
+

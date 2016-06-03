@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7919</itemKey>
+	<itemName>Viande séchée à point</itemName>
+	<itemIcon>00007919.png</itemIcon>
+	<itemDesc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7902</id>
+			<name>Viande d&apos;agneau</name>
+			<icon>00007902.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un mouton mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7908</id>
+			<name>Viande de lézard</name>
+			<icon>00007908.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un lézard mort.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7910</id>
+			<name>Viande de raton laveur</name>
+			<icon>00007910.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un raton laveur mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7916</id>
+			<name>Viande de coucou</name>
+			<icon>00007916.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un coucou mort.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7917</id>
+			<name>Viande de flamant rose</name>
+			<icon>00007917.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un flamant mort.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

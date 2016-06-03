@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8539</itemKey>
+	<itemName>Dried Piranha</itemName>
+	<itemIcon>00008539.png</itemIcon>
+	<itemDesc>A dried piranha obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8239</id>
+			<name>Piranha</name>
+			<icon>00008239.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55939</id>
+			<name>Packaged Dried Piranha</name>
+			<icon>00055939.png</icon>
+			<desc>A Trade Item containing 10 Dried Piranha.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

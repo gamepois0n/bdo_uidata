@@ -1,0 +1,50 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Tooltip_NpcNavigation" Pos="Right Bottom" Size="205 150" Pan="393 212" Color="ffffffff" EnableArea="0 0 205 150" Grid="1" GridPosX="0 10 195 205" GridPosY="0 10 140 150" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Control Type="StaticText" Name="Tooltip_NpcName" Pos="Left 10" Size="205 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 265 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="NpcName" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_NpcDescription" Pos="Left 37" Size="265 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 265 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="휴식중" Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ItemName" Pos="Left 65" Size="265 20" Pan="45 0" Color="  ffffff" EnableArea="0 0 265 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아제리안의 목걸이" Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Icon" Pos="16 64" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/00000000_common.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NeedExplorePoint" Pos="Left 124" Size="265 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 265 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="공헌도 요구량 : 150" Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Description" Pos="Left 95" Size="265 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 265 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아제리안이 착용하던 목걸이 입니다." Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ProgressBG" Pos="Center 0" Size="100 100" Pan="0 420" Color="ffffffff" EnableArea="0 0 100 100" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="256 1 384 1 256 129 384 129" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_Current" Pos="Center 0" Size="100 100" Pan="0 420" Color="ffffffff" EnableArea="0 0 100 100" StartRadian="1.570796" CenterPos="50.00 50.00">
+			<Texture Type="Base" UV="256 129 384 129 256 257 384 257" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Fruitage_Value" Pos="Center 0" Size="100 100" Pan="0 420" Color="ffffffff" EnableArea="0 0 100 100">
+			<Attribute Type="Ignore"/>
+			<Text Value="130" Font="SubTitleFont_14_Bold" Color="ffe0d5a7" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_GiftIcon" Pos="-41 105" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 360 0 0 360 360 360" Ani="1 1 0.000 0">ui_artwork/collected_study.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NotFound" Pos="Left 37" Size="265 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 265 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아직 대상의 정보를 얻지 못했습니다." formatString="PANEL_TOOLTIP_NPCNAVIGATION_NOTFOUND" Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

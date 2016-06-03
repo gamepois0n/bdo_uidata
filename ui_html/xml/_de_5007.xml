@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5007</itemKey>
+	<itemName>Mönchszweig</itemName>
+	<itemIcon>00005007.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Mönchszweig erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Ahorn</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Akazie</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birke</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Esche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pinie</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tanne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Weißzeder</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zeder</name>
+		</character>
+	</collect>
+	<node region="Wald der Abgeschiedenheit – Holzfällen"/>
+	<node region="Serendiaschrein – Holzfällen"/>
+	<node region="Ozanapass – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>14430</id>
+			<name>Seles-Stab der Versuchung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Versuchung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seles-Stab der Zerstörung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Zerstörung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seles-Stab der Purpurnen Flamme</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Purpurnen Flamme, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Ultimativer Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Halbmenschen-Stab der Versuchung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Halbmenschen-Stab der Zerstörung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14443</id>
+			<name>Ultimativer Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab der Zerstörung, Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria-Stab der Versuchung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria-Stab der Zerstörung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Zerstörung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria-Stab der Purpurnen Flamme</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Stabs gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14439</id>
+			<name>Ultimativer Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab der Zerstörung, Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Baris-Stab der Versuchung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>16165</id>
+			<name>Mediah Fishing Rod</name>
+			<icon>00016165.png</icon>
+			<desc>Ash tree float. It shortens the auto-fishing time.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16164</id>
+			<name>Calpheon-Angelrute</name>
+			<icon>00016164.png</icon>
+			<desc>Calpheon-Angelrute. … Das ist sehr effektiv!\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16163</id>
+			<name>Epheria-Angelrute</name>
+			<icon>00016163.png</icon>
+			<desc>Epheria-Angelrute. Sie ist stabiler als andere Angelruten.\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein Stab, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>16162</id>
+			<name>Balenos-Angelrute</name>
+			<icon>00016162.png</icon>
+			<desc>Balenos-Angelrute. Verkürzt automatische Fischfangzeit.\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Halbmenschen-Stab der Purpurnen Flamme</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Ultimativer Aswell-Stab</name>
+			<icon>00014405.png</icon>
+			<desc>Ein maximal aufgerüsteter Aswell-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Purpurnen Flamme, Aswell-Stab der Zerstörung, Aswell-Stab der Versuchung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Aswell-Stab der Versuchung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Versuchung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Aswell-Stab der Zerstörung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Zerstörung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Aswell-Stab der Purpurnen Flamme</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Purpurnen Flamme, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Aswell-Stab</name>
+			<icon>00014405.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Stab.</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Ultimativer Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein maximal aufgerüsteter Seles-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Purpurnen Flamme, Seles-Stab der Zerstörung, Seles-Stab der Versuchung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedeter Stab.</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein Stab, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein Stab zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein Stab, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein Stab, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimativer Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab der Zerstörung, Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea-Stab der Versuchung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea-Stab der Zerstörung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Zerstörung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea-Stab der Purpurnen Flamme</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Baris-Stab der Zerstörung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Zerstörung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Baris-Stab der Purpurnen Flamme</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Ultimativer Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab der Zerstörung, Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis-Stab der Versuchung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis-Stab der Zerstörung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Zerstörung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis-Zauberstab der Purpurnen Flamme</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Waffen-Verbesserungsstein (Stufe 2)</name>
+			<icon>00004908.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

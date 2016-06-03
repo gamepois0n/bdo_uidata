@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5403</itemKey>
+	<itemName>Fleur de flocon de feu</itemName>
+	<itemIcon>00005403.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : peut être récolté directement sur des herbes sauvages à mains nues ou à l&apos;aide d&apos;une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</itemDesc>
+	<collect>
+		<character>
+			<name>Bouilloire à herbes médicinale</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fleur de flocon de feu</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Herbe sauvage</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sac d&apos;herbes médicinales</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Kaia Feresio</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Nieves</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>570</id>
+			<name>Infusion concentrée</name>
+			<icon>00000570.png</icon>
+			<desc>Restaure instantanément les PM/PF/PS par +175 à l&apos;utilisation.\n- Temps de recharge : 6 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Infusion</name>
+			<icon>00000569.png</icon>
+			<desc>Restaure instantanément les PM/PF/PC par +125 à l&apos;utilisation.\n- Temps de recharge : 6 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>7503</id>
+			<name>Caisse de fleurs de flocons de feu</name>
+			<icon>00007503.png</icon>
+			<desc>Une herbe transformée pour être vendue à bon prix. Elle peut être vendue à des marchands.\n- Obtention : elle peut être préparée à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

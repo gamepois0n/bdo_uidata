@@ -1,0 +1,16 @@
+<UI>
+	<Control Type="Panel" Name="Panel_ImportantKnowledge" Pos="Left Top" Size="50 50" Pan="537 5" Color="ffffffff" EnableArea="0 0 50 50">
+		<Control Type="Button" Name="Button_Important" Pos="Center Center" Size="45 45" Pan="0 0" Color="ffffffff" EnableArea="0 0 45 45" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 65 1 1 65 65 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/character_main/knowledge_00.dds</Texture>
+			<Texture Type="On" UV="66 1 130 1 66 65 130 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/character_main/knowledge_00.dds</Texture>
+			<Texture Type="Click" UV="131 1 195 1 131 65 195 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/character_main/knowledge_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Number" Pos="Right Bottom" Size="20 20" Pan="1 1" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="196 1 216 1 196 21 216 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/character_main/knowledge_00.dds</Texture>
+			<Text Value="50" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

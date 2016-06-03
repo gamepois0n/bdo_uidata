@@ -1,0 +1,218 @@
+﻿<!-- XHTML5 -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<title></title>
+
+<link rel="stylesheet" href="../../css/base.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../css/common.css" type="text/css" media="all" />
+
+<script type="text/javascript" src="../../javascript/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../javascript/common.js"></script>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+  
+	var parameters = unescape(location.search).substring(1).split(/\&|\=/g);
+	parameters = "../../xml/" + parameters + ".xml"
+	$.ajax({
+		type	  : "GET",
+		url       : parameters,
+		dataType  : "xml",
+		success   : response_parse,
+		error : function(xhr, status, error){
+			alert("아이템 정보가 없습니다.");
+			history.go(-1)
+		}
+	});
+	
+  });
+  
+  function response_parse(xml)
+  {
+	$item = $(xml).find('itemInfo');
+	var itemKey = $item.find('itemKey').text();
+	var itemName = $item.find('itemName').text();
+	var itemIcon = $item.find('itemIcon').text();
+	var itemDesc = $item.find('itemDesc').text();
+	itemDesc = itemDesc.replace(/\\n/g, "<BR>");
+	
+	$( "#itemId" ).append(itemKey);
+	$( "#itemName" ).append(itemName);
+	$( "#itemIcon" ).attr("src", itemIcon);
+	$( "#itemDesc" ).append(itemDesc);
+	
+	var subItem = "";
+	$(xml).find('collect').each(function(){	
+		subItem += "<div class='subtitle'>채집</div>";	
+		$(this).find('character').each(function(){
+			subItem += createCharacter($(this));
+		});
+	});
+	
+	$(xml).find('manufacture').each(function(){	
+		var action = $(this).attr("action");
+		switch(action){
+			case "MANUFACTURE_DRY" :
+				action = "말리기";
+				break;
+			case "MANUFACTURE_GRIND" :
+				action = "빻기";
+				break;	
+			case "MANUFACTURE_SHAKE" :
+				action = "흔들어 섞기";
+				break;	
+			case "MANUFACTURE_HEAT" :
+				action = "가열하기";
+				break;	
+			case "MANUFACTURE_THINNING" :
+				action = "솎아내기";
+				break;	
+			case "MANUFACTURE_FIREWOOD" :
+				action = "장작패기";
+				break;			
+			default:
+				action = "";
+		}
+		subItem += "<div class='subtitle'>가공( " + action + " )</div>";	
+		$(this).find('item').each(function(){
+			subItem += createSubItem($(this));
+		});
+	});
+	
+	$(xml).find('house').each(function(){	
+		subItem += "<div class='subtitle'>집 제작</div>";	
+		$(this).find('item').each(function(){
+			subItem += createSubItem($(this));
+		});
+	});
+	
+	$(xml).find('fishing').each(function(){	
+		subItem += "<div class='subtitle'>낚시</div>";	
+	});
+	
+	$(xml).find('alchemy').each(function(){	
+		subItem += "<div class='subtitle'>연금</div>";	
+		$(this).find('item').each(function(){
+			subItem += createSubItem($(this));
+		});
+	});
+	
+	$(xml).find('node').each(function(){	
+		subItem += "<div class='subtitle'>거점</div>";	
+		subItem += createNode($(this));
+	});
+	
+	$(xml).find('shop').each(function(){	
+		subItem += "<div class='subtitle'>상점</div>";	
+		$(this).find('character').each(function(){
+			subItem += createCharacter($(this));
+		});
+	});
+	
+	$(xml).find('cook').each(function(){	
+		subItem += "<div class='subtitle'>요리</div>";	
+		$(this).find('item').each(function(){
+			subItem += createSubItem($(this));
+		});
+	});
+	
+	$( "#subItem" ).html(subItem);
+  }
+  
+  function createSubItem(item)
+  {
+	var id = item.find('id').text();
+	var name = item.find('name').text();
+	var icon = item.find('icon').text();
+	var desc = item.find('desc').text();
+	desc = desc.replace(/\\n/g, "<BR>");
+	
+	var subItem = "";
+	
+	subItem += "<li>";
+	subItem += 		"<div class='type1'>";
+	subItem += 			"<div class='left'>";
+	subItem += 				"<a href='ProductNote.html?"+id+"'><span>"+id+"</span></a>";
+	subItem += 				"<div class='pic'>";
+	subItem += 					"<a href='ProductNote.html?"+id+"'><img id='itemIcon' src='"+icon+"' width='62' height='62' alt='' /></a>";
+	subItem += 				"</div>";
+	subItem += 			"</div>";
+	subItem += 			"<dl>";
+	subItem += 				"<dt>"+name+"</dt>";
+	subItem += 				"<dd>"+desc+"</dd>";
+	subItem += 			"</dl>";
+	subItem += 		"</div>";
+	subItem += "</li>";
+	
+	return subItem;
+  }
+  
+  function createCharacter(item)
+  {
+	var name = item.find('name').text();
+	var subItem = "";
+	
+	subItem += "<li>";
+	subItem += 		"<div class='type1'>";
+	subItem += 			"<dl>";
+	subItem += 				"<dt>"+name+"</dt>";
+	subItem += 			"</dl>";
+	subItem += 		"</div>";
+	subItem += "</li>";
+	
+	return subItem;
+  }
+  
+  function createNode(item)
+  {
+	var name = item.attr('region');
+	var subItem = "";
+	
+	subItem += "<li>";
+	subItem += 		"<div class='type1'>";
+	subItem += 			"<dl>";
+	subItem += 				"<dt>"+name+"</dt>";
+	subItem += 			"</dl>";
+	subItem += 		"</div>";
+	subItem += "</li>";
+	
+	return subItem;
+  }
+  
+</script>
+  
+</head>
+
+<body>
+
+<div id="wrap">
+
+	<ul class="lst_type">
+		<div class="subtitle">	
+			아이템 상세 정보
+		</div>
+		<li>
+			<div class="type1">
+				<div class="left">
+					<span id="itemId"></span>
+					<div class="pic">
+						<a href="#"><img id="itemIcon" src="" width="62" height="62" alt="" /></a>
+					</div>
+				</div>
+				<dl>
+					<dt id="itemName"></dt>
+					<dd id="itemDesc"></dd>
+				</dl>
+			</div>
+		</li>
+		<div class="subtitle" id="subTitle">	
+		</div>
+		<li id="subItem">
+		</li>
+	</ul>
+</div>	
+</body>
+</html>

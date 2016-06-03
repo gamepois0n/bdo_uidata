@@ -1,0 +1,120 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Housing_FarmInfo" Pos="1069 393" Size="220 373" Pan="0 0" Color="ffffffff" EnableArea="0 0 220 373" Grid="1" GridPosX="0 10 210 220" GridPosY="0 10 363 373" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 220 35"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="220 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 220 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="딸 기" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_MainBG" Pos="Left Top" Size="206 232" Pan="7 40" Color="ffffffff" EnableArea="0 0 206 232" Grid="1" GridPosX="0 10 196 206" GridPosY="0 10 222 232" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Bar_Left" Pos="Left Top" Size="8 182" Pan="30 55" Color="fff41313" EnableArea="0 0 8 182" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 1 9 1 1 183 9 183" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Bar_Right" Pos="Left Top" Size="8 182" Pan="73 55" Color="ff348cee" EnableArea="0 0 8 182" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 1 9 1 1 183 9 183" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CurrentBar_Temp" Pos="31 127" Size="6 58" Pan="0 0" Color="fff41313" EnableArea="0 0 6 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="10 47 16 47 10 105 16 105" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CurrentBar_Water" Pos="74 127" Size="6 58" Pan="0 0" Color="ff348cee" EnableArea="0 0 6 58" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="10 47 16 47 10 105 16 105" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_TempScroll" Pos="Left Top" Size="23 192" Pan="29 50" Color="ff333333" EnableArea="0 0 23 192" Shape="Vertical">
+			<Control Type="Button" Name="TempScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="TempScroll_DownButton" Pos="0 192" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="TempScroll_CtrlButton" Pos="Center 45" Size="23 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 23 13" AutoDisableTime="0.000000" ClickSound="0 0">
+				<Texture Type="Base" UV="57 1 80 1 57 14 80 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+				<Texture Type="On" UV="81 1 104 1 81 14 104 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+				<Texture Type="Click" UV="105 1 128 1 105 14 128 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_WaterScroll" Pos="Left Top" Size="23 192" Pan="72 50" Color="ff333333" EnableArea="0 0 23 192" Shape="Vertical">
+			<Control Type="Button" Name="WaterScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="WaterScroll_DownButton" Pos="0 192" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="WaterScroll_CtrlButton" Pos="Center 102" Size="23 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 23 13" AutoDisableTime="0.000000" ClickSound="0 0">
+				<Texture Type="Base" UV="57 1 80 1 57 14 80 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+				<Texture Type="On" UV="81 1 104 1 81 14 104 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+				<Texture Type="Click" UV="105 1 128 1 105 14 128 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_Temperature" Pos="Left Top" Size="22 22" Pan="23 240" Color="ffffffff" EnableArea="0 0 22 22" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="10 1 32 1 10 23 32 23" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Temperature" Pos="Right Top" Size="50 20" Pan="70 60" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 온도" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Temp_Value" Pos="Right Top" Size="50 20" Pan="35 75" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="20 / 20" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Water" Pos="Right Top" Size="50 20" Pan="70 100" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 지하수량" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Water_Value" Pos="Right Top" Size="50 20" Pan="35 115" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="20 / 20" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Temp_Result" Pos="Right Top" Size="20 20" Pan="15 60" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="33 15 53 15 33 35 53 35" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Water_Result" Pos="Right Top" Size="20 20" Pan="15 100" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="33 15 53 15 33 35 53 35" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Temp_Arrow" Pos="Left 82" Size="23 13" Pan="16 0" Color="ffffffff" EnableArea="0 0 23 13" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="33 1 56 1 33 14 56 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Water_Arrow" Pos="Left 85" Size="23 13" Pan="59 0" Color="ffffffff" EnableArea="0 0 23 13" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="33 1 56 1 33 14 56 14" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Water" Pos="Left Top" Size="22 22" Pan="66 240" Color="ffffffff" EnableArea="0 0 22 22" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="10 24 32 24 10 46 32 46" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TotalResult_Title" Pos="Right Top" Size="50 20" Pan="40 192" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="실제 재배시간" Font="BaseFont_8_Bold" Color="ffceff82" OverColor="ffceff82" ClickColor="ffceff82" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TotalResult" Pos="Right Top" Size="50 20" Pan="40 210" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2시간 30분" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Test" Pos="Right Bottom" Size="100 30" Pan="13 105" Color="ffffffff" EnableArea="0 0 100 30" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="현재상태 확인" Font="BaseFont_8_Bold" Color="ffb4ff00" OverColor="ffdeff8e" ClickColor="ffdeff8e" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_DescBG" Pos="Left Bottom" Size="206 92" Pan="7 7" Color="ffffffff" EnableArea="0 0 206 92" Grid="1" GridPosX="0 10 196 206" GridPosY="0 10 82 92" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Desc" Pos="11 277" Size="198 86" Pan="0 0" Color="ffffffff" EnableArea="0 0 198 86">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 온도와 지하수량에 따라 농작물이 자라는 시간에 영향을 미칠 수 있습니다.위 막대의 중앙 부분까지 맞추면 재배 시간의 효율이 좋아집니다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

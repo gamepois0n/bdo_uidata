@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8591</itemKey>
+	<itemName>Suihogan séché</itemName>
+	<itemIcon>00008591.png</itemIcon>
+	<itemDesc>Un œil-bulle obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8291</id>
+			<name>Suihogan</name>
+			<icon>00008291.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55991</id>
+			<name>Œil-bulle séché sous vide</name>
+			<icon>00055991.png</icon>
+			<desc>Un objet de commerce contenant 10 suihogans séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

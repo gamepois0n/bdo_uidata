@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5002</itemKey>
+	<itemName>Sève d&apos;érable</itemName>
+	<itemIcon>00005002.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un érable.</itemDesc>
+	<collect>
+		<character>
+			<name>Érable</name>
+		</character>
+	</collect>
+	<node region="Hautes-terres septentrionales de Mediah : débit de bois"/>
+	<node region="Ruines du château : débit de bois"/>
+	<makelist>
+		<item>
+			<id>14439</id>
+			<name>Bâton de Bares ultime</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton de Bares ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares de destruction, bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Bâton de Bares de tentation</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Bâton de Bares</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Bâton de Kalis</name>
+			<icon>00014412.png</icon>
+			<desc>Un bâton conçu pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Bâton de Bares de destruction</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de destruction, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Bâton de Bares de la flamme pourpre</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Bâton de Kalis ultime</name>
+			<icon>00014412.png</icon>
+			<desc>Un bâton de Kalis ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de la flamme pourpre, bâton de Kalis de destruction, bâton de Kalis de tentation, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Bâton de Kalis de tentation</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de tentation, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Bâton de Kalis de destruction</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de destruction, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Bâton de Kalis de la flamme pourpre</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de la flamme pourpre, bâton de Kalis</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

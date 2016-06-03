@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6166</itemKey>
+	<itemName>Fine Fancy Feather</itemName>
+	<itemIcon>00006166.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Thinning Fancy Feathers. It requires knowledge of Thinning.</itemDesc>
+	<shop>
+		<character>
+			<name>Lavientia Batian</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6018</id>
+			<name>Flamingo Plume</name>
+			<icon>00006018.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted flamingo corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6158</id>
+			<name>Fancy Feather</name>
+			<icon>00006158.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Thinning Flamingo Feathers.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14219</id>
+			<name>[Wizard] Calpheon Noble Suit</name>
+			<icon>00014201.png</icon>
+			<desc>A suit for Calpheon aristocrats. It&apos;s both fabulous and practical.\n- Item effect: Amity +15% from a conversation\n※ If you use a costume exchange coupon, you&apos;ll get the same suit with an additional effect of moving speed +2. The costume can be equipped in the same slot as the pearl costume.\nIf you exchange it for a costume, you cannot register it to the Marketplace.</desc>
+		</item>
+		<item>
+			<id>14202</id>
+			<name>[Berserker] Calpheon Noble Suit</name>
+			<icon>00014201.png</icon>
+			<desc>A suit worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same suit with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14201</id>
+			<name>[Warrior] Calpheon Noble Suit</name>
+			<icon>00014201.png</icon>
+			<desc>A suit worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same suit with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>6174</id>
+			<name>Supreme Fancy Feather</name>
+			<icon>00006174.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking Fine Fancy Feather and Leather Glaze, an ingredient made through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7104</itemKey>
+	<itemName>Sweet Potato Flour</itemName>
+	<itemIcon>00007104.png</itemIcon>
+	<itemDesc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained through Grinding Sweet Potatoes.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7004</id>
+			<name>Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Shuri Farm. It can also be obtained by Farming Sweet Potato Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7009</id>
+			<name>High-Quality Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7014</id>
+			<name>Special Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7204</id>
+			<name>Sweet Potato Dough</name>
+			<icon>00007204.png</icon>
+			<desc>A product made by Shaking Sweet Potato Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

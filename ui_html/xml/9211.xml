@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9211</itemKey>
+	<itemName>Special Carrot Juice</itemName>
+	<itemIcon>00009211.png</itemIcon>
+	<itemDesc>A carrot juice made using special carrots. \n\n- Unique Effect: Restore +300 Horse HP\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 4 sec</itemDesc>
+	<cook>
+		<item>
+			<id>54005</id>
+			<name>Special Carrot</name>
+			<icon>00054005.png</icon>
+			<desc>Restores a horse’s Energy by +7,500 and HP by +1,500.\nRight-click while riding to use.\n- Cooldown: 5 min</desc>
+		</item>
+		<item>
+			<id>54005</id>
+			<name>Special Carrot</name>
+			<icon>00054005.png</icon>
+			<desc>Restores a horse’s Energy by +7,500 and HP by +1,500.\nRight-click while riding to use.\n- Cooldown: 5 min</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54005</id>
+			<name>Special Carrot</name>
+			<icon>00054005.png</icon>
+			<desc>Restores a horse’s Energy by +7,500 and HP by +1,500.\nRight-click while riding to use.\n- Cooldown: 5 min</desc>
+		</item>
+		<item>
+			<id>54005</id>
+			<name>Special Carrot</name>
+			<icon>00054005.png</icon>
+			<desc>Restores a horse’s Energy by +7,500 and HP by +1,500.\nRight-click while riding to use.\n- Cooldown: 5 min</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

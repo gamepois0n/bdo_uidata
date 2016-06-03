@@ -1,0 +1,66 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Cash_Customization_BuyItem" Pos="0 0" Size="540 300" Pan="0 0" Color="ffffffff" EnableArea="0 0 540 300" Grid="1" GridPosX="0 10 530 540" GridPosY="0 10 290 300" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="520 6" Pan="0 30" Color="ffffffff" EnableArea="0 0 520 6" Grid="1" GridPosX="0 80 440 520" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="알림" formatString="PANEL_CASH_CUSTOMIZATION_BUYITEM_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_BG" Pos="5 40" Size="530 210" Pan="0 0" Color="ffffffff" EnableArea="0 0 530 210" Grid="1" GridPosX="0 10 520 530" GridPosY="0 10 200 210" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NotifyBG" Pos="10 45" Size="520 55" Pan="0 0" Color="ffffffff" EnableArea="0 0 520 55" Grid="1" GridPosX="0 10 510 520" GridPosY="0 10 45 55" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Notify" Pos="15 55" Size="500 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 500 30">
+			<Text Value="사용할 수 있는 아이템이 있습니다.\n아래 리스트에서 사용할 아이템을 선택해주세요." Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Template_Static_ItemBG" Pos="613 132" Size="250 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 70" Grid="1" GridPosX="0 10 240 250" GridPosY="0 10 60 70" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Template_StaticText_ItemNameBG" Pos="618 137" Size="240 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 240 42" Grid="1" GridPosX="0 10 230 240" GridPosY="0 10 32 42" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="Template_RadioButton_SelectedItem" Pos="620 138" Size="23 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="Template_StaticText_ItemName" Pos="636 134" Size="230 45" Pan="0 0" Color="ffffffff" EnableArea="0 0 230 45">
+			<Attribute Type="Hide"/>
+			<Text Value="커스터마이징 1회 이용권(2)" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Template_StaticText_Period" Pos="617 168" Size="190 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 190 30">
+			<Attribute Type="Hide"/>
+			<Text Value="기간 : 2014.11.30일까지" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Template_StaticText_ItemPrice" Pos="646 172" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="50,000→90,000" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Template_Static_PearlIcon" Pos="623 171" Size="19 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 19 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="287 479 307 479 287 498 307 498" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Confirm" Pos="Center Bottom" Size="80 30" Pan="-43 10" Color="ffffffff" EnableArea="0 0 80 30" Grid="1" GridPosX="0 4 76 80" GridPosY="0 4 26 30" GridUVX="0 4 150 154" GridUVY="0 4 28 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="적용하기" formatString="PANEL_CASH_CUSTOMIZATION_BUYITEM_BTN_CONFIRM" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancle" Pos="Center Bottom" Size="80 30" Pan="43 10" Color="ffffffff" EnableArea="0 0 80 30" Grid="1" GridPosX="0 4 76 80" GridPosY="0 4 26 30" GridUVX="0 4 150 154" GridUVY="0 4 28 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취소" formatString="PANEL_CASH_CUSTOMIZATION_BUYITEM_BTN_CANCEL" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

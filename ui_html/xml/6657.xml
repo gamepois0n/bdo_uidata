@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6657</itemKey>
+	<itemName>Bag of Muddy Water</itemName>
+	<itemIcon>00006657.png</itemIcon>
+	<itemDesc>Water collected from desert using a shovel. It can be filtered to make Purified Water.\n- How to Obtain : Use Shabby Shovel in the desert to obtain a bag of muddy water.\n※Using this item on the garden will increase the amount of water deposit.</itemDesc>
+	<makelist>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

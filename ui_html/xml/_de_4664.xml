@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4664</itemKey>
+	<itemName>Tannenschichtholz</itemName>
+	<itemIcon>00004664.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4606</id>
+			<name>Tannenholz</name>
+			<icon>00004606.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Manshawald, bei Phoniels Hütte und im Treantwald hergestellt werden. Kann außerdem durch Fällen von Tannen erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4663</id>
+			<name>Tannenbrett</name>
+			<icon>00004663.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4663</id>
+			<name>Tannenbrett</name>
+			<icon>00004663.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>55840</id>
+			<name>Calpheonholzkiste</name>
+			<icon>00055840.png</icon>
+			<desc>Handelsware, die 5 Birkenschichthölzer, 5 Zedernschichthölzer und 5 Tannenschichthölzer enthält.</desc>
+		</item>
+		<item>
+			<id>4665</id>
+			<name>Stabiles Tannenschichtholz</name>
+			<icon>00004665.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Tannenschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>49003</id>
+			<name>Schiffslizenz: Calpheon-Fähre</name>
+			<icon>00049003.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Calpheon-Fähre』.\n– Inventarplätze: 10, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 105 %, Anhalten: 105 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

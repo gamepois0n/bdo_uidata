@@ -1,0 +1,17 @@
+<UI>
+	<Control Type="Panel" Name="Panel_TimeBar" Pos="Right Top" Size="74 17" Pan="47 3" Color="ffffffff" EnableArea="0 0 74 17">
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="0 0 74 0 0 17 74 17" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/region_namebar_timebar_mask.dds</Texture>
+		<Texture Type="Special" UV="0 0 74 0 0 17 74 17" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/region_namebar_timebar_masking.dds</Texture>
+		<Control Type="Static" Name="timeLine" Pos="Center Center" Size="74 17" Pan="0 4" Color="ffffffff" EnableArea="0 0 74 17">
+			<Texture Type="Base" UV="0 0 74 0 0 17 74 17" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/region_namebar_timebar_tick.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="timeElement" Pos="0 Center" Size="154 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 154 17">
+			<Texture Type="Base" UV="0 0 154 0 0 17 154 17" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/region_namebar_timebar_element.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="timeElement2" Pos="0 Center" Size="154 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 154 17">
+			<Texture Type="Base" UV="0 0 154 0 0 17 154 17" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/region_namebar_timebar_element.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

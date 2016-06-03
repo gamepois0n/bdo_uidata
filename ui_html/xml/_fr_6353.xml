@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6353</itemKey>
+	<itemName>Sang de clown</itemName>
+	<itemIcon>00006353.png</itemIcon>
+	<itemDesc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6214</id>
+			<name>Sang de loup</name>
+			<icon>00006214.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un loup mort.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Poudre des ténèbres</name>
+			<icon>00004801.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>5006</id>
+			<name>Feuille d&apos;esprit</name>
+			<icon>00005006.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une feuille d&apos;esprit demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>49303</id>
+			<name>Proue de barque d&apos;Altinova</name>
+			<icon>00049303.png</icon>
+			<desc>Une proue de Mediah pouvant être attachée à une barque. Elle permet au bateau de voguer plus vite.\nEffet à partir de 3 objets d&apos;ensemble :\nvitesse de mouvement +3 %\ntous les types de PD +30(actuellement indisponible)\n\n- Utilisable sur :barque\n\nPeut être améliorée avec une pierre noire (armure)</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 3</name>
+			<icon>00004910.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 3.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

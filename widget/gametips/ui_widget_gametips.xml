@@ -1,0 +1,16 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GameTips" Pos="0 0" Size="507 43" Pan="4 3" Color="ffffffff" EnableArea="0 0 507 43" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Drag" Area="0 -40 470 222"/>
+		<Control Type="Static" Name="Static_GameTipsBG" Pos="0 0" Size="494 28" Pan="0 0" Color="ffffffff" EnableArea="0 0 494 28" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 3 494 3 0 31 494 31" Ani="1 1 0.000 0">new_ui_common_forlua/widget/interaction/gametips.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Tip" Pos="Left Top" Size="50 20" Pan="10 4" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="TIP ¢º" Font="BaseFont_10" Color="ffef316b" OverColor="ffef316b" ClickColor="ffef316b" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

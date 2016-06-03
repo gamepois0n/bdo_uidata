@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9415</itemKey>
+	<itemName>Meat Sandwich</itemName>
+	<itemIcon>00009415.png</itemIcon>
+	<itemDesc>A sandwich made with soft bread and fine meat. \n- Unique effect: Movement Speed Rank +1 for 90 min.\n Max Endurance +200 for 90 min.\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Pork</name>
+			<icon>00007905.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a pig corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Soft Bread</name>
+			<icon>00009260.png</icon>
+			<desc>A grain dough that was allowed to ferment before baking. \n\n- Unique Effect: Max Stamina +100 for 30 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Cabbage</name>
+			<icon>00007318.png</icon>
+			<desc>A plump cabbage used as an ingredient in Cooking.\nUsage: Stir-Fried Vegetables, Fried Vegetables, etc.\n- How to Obtain: It can be Gathered from Cabbage using Bare Hands.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

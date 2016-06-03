@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4804</itemKey>
+	<itemName>Erdenpulver</itemName>
+	<itemIcon>00004804.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Silber</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zink</name>
+		</character>
+	</collect>
+	<node region="Behr-Flussquelle – Bergbau"/>
+	<makelist>
+		<item>
+			<id>10305</id>
+			<name>Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein Dolch, mit dem Angriffe pariert werden können.</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parierdolch der Purpurnen Flamme</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Ultimativer Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein maximal aufgerüsteter Parierdolch.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch der Zerstörung, Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parierdolch der Versuchung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parierdolch der Zerstörung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Zerstörung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10717</id>
+			<name>Ultimativer Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein maximal aufgerüsteter Theos-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Purpurnen Flamme, Theos-Schmuckknoten der Zerstörung, Theos-Schmuckknoten der Versuchung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos-Schmuckknoten der Versuchung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Versuchung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos-Schmuckknoten der Zerstörung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Zerstörung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Purpurnen Flamme, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Klingenanhänger</name>
+			<icon>00010706.png</icon>
+			<desc>Ein Anhänger, an dem eine dekorative Klinge befestigt ist.</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Ultimativer Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein maximal aufgerüsteter Rhik-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman der Zerstörung, Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein Talisman mit verstärkten Verteidigungseigenschaften.</desc>
+		</item>
+		<item>
+			<id>52902</id>
+			<name>Leichtes Hufeisen</name>
+			<icon>00052902.png</icon>
+			<desc>Widerstandsfähigere, leichtere Hufeisen aus hochwertigem Eisen.\n\n– Ausrüstung für Pferde und Esel\n\nKönnen mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>14019</id>
+			<name>Silberbestickte Kochkleidung</name>
+			<icon>00014007.png</icon>
+			<desc>Edle Kleidung für Köche.</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik-Talisman der Versuchung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik-Talisman der Zerstörung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Zerstörung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik-Talisman der Purpurnen Flamme</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Ultimativer Klingenanhänger</name>
+			<icon>00010707.png</icon>
+			<desc>Ein maximal aufgerüsteter Klingenanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger der Zerstörung, Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Klingenanhänger der Versuchung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Klingenanhänger der Zerstörung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Zerstörung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Klingenanhänger der Purpurnen Flamme</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein starker Legierungsschild, der den größten Schutz bietet.</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Drachenschild der Zerstörung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Zerstörung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Drachenschild der Purpurnen Flamme</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Purpurnen Flamme, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10117</id>
+			<name>Ultimativer Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein maximal aufgerüsteter Drachenschild.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Purpurnen Flamme, Drachenschild der Zerstörung, Drachenschild der Versuchung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Drachenschild der Versuchung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Versuchung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Gold.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

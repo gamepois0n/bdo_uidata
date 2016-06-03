@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8542</itemKey>
+	<itemName>Arowana séché</itemName>
+	<itemIcon>00008542.png</itemIcon>
+	<itemDesc>Un arowana obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8242</id>
+			<name>Arowana</name>
+			<icon>00008242.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55942</id>
+			<name>Arowana séché sous vide</name>
+			<icon>00055942.png</icon>
+			<desc>Un objet de commerce contenant 10 arowanas séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

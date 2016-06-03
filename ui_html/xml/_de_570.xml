@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>570</itemKey>
+	<itemName>Konzentrierter Kräutersaft</itemName>
+	<itemIcon>00000570.png</itemIcon>
+	<itemDesc>Stellt bei Verwendung sofort +175 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5600</id>
+			<name>Unkraut</name>
+			<icon>00005600.png</icon>
+			<desc>Nur ein nutzloses Unkraut. Ihr könnt es günstig an Händler verkaufen.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5401</id>
+			<name>Aurorakraut</name>
+			<icon>00005401.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann in derCron-Burganlage und im Balenoswald hergestellt werden. Kann außerdem mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5402</id>
+			<name>Silberazalee</name>
+			<icon>00005402.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann in derNördlichen Ebene von Serendia und in den Ruinen des Hofes Lynch hergestellt werden. Kann außerdem mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5403</id>
+			<name>Feuerblattblume</name>
+			<icon>00005403.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5404</id>
+			<name>Trockenmähnengras</name>
+			<icon>00005404.png</icon>
+			<desc>Eine natürliche Zutat, die mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5405</id>
+			<name>Seidenhoniggras</name>
+			<icon>00005405.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann im Karandakamm, Außenposten Langblattbaum, Antiken Riss und Marnis zweitem Labor hergestellt werden. Kann außerdem mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5406</id>
+			<name>Ewigkraut</name>
+			<icon>00005406.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Ewigkraut erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5439</id>
+			<name>Wildkraut</name>
+			<icon>00005439.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann durch Sammeln mit bloßen Händen von Wildkräutern erhalten werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5444</id>
+			<name>Hochwertiges Aurorakraut</name>
+			<icon>00005401.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5445</id>
+			<name>Hochwertige Silberazalee</name>
+			<icon>00005402.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5446</id>
+			<name>Hochwertige Feuerblattblume</name>
+			<icon>00005403.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5447</id>
+			<name>Hochwertiges Trockenmähnengras</name>
+			<icon>00005404.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5448</id>
+			<name>Hochwertiges Seidenhoniggras</name>
+			<icon>00005405.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5449</id>
+			<name>Hochwertiges Ewigkraut</name>
+			<icon>00005406.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5464</id>
+			<name>Besonderes Aurorakraut</name>
+			<icon>00005401.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5465</id>
+			<name>Besondere Silberazalee</name>
+			<icon>00005402.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5466</id>
+			<name>Besondere Feuerblattblume</name>
+			<icon>00005403.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5467</id>
+			<name>Besonderes Trockenmähnengras</name>
+			<icon>00005404.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5468</id>
+			<name>Besonderes Seidenhoniggras</name>
+			<icon>00005405.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5469</id>
+			<name>Besonderes Ewigkraut</name>
+			<icon>00005406.png</icon>
+			<desc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>569</id>
+			<name>Kräutersaft</name>
+			<icon>00000569.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>569</id>
+			<name>Kräutersaft</name>
+			<icon>00000569.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>571</id>
+			<name>Hochkonzentrierter Kräutersaft</name>
+			<icon>00000571.png</icon>
+			<desc>Stellt bei Verwendung sofort +250 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

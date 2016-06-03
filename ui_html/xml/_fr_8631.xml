@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8631</itemKey>
+	<itemName>Poisson-hérisson séché</itemName>
+	<itemIcon>00008598.png</itemIcon>
+	<itemDesc>Un poisson-hérisson obtenu par séchage.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8331</id>
+			<name>Poisson-hérisson</name>
+			<icon>00008331.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

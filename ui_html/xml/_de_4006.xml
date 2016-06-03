@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4006</itemKey>
+	<itemName>Grober Stein</itemName>
+	<itemIcon>00004006.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann mithilfe einer Spitzhacke aus jedem Felsen gesammelt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ausgewachsener Steingeist</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bergbau</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blutstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diorit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ebenen-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faustwald-Kräutersteinrückenkr</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faustwald-Wurzelsteinrückenkre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Feldspat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grabgolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Granit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grasrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Hochkopf-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Hofsteinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Käfer-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Königin der Steinrückenkrebse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Moos-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Moospflanze</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rauhsteinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Schlammstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steingolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinkiste</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildnisgolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Winziger Faustwald-Steinrücken</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zäher Faustwald-Steinrückenkre</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>24205</id>
+			<name>Längliche Töpferware</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Längliche Töpferware.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Sumpf-Töpferware</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Sumpf-Töpferware.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Runde Töpferware</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Runde Töpferware.</desc>
+		</item>
+		<item>
+			<id>3718</id>
+			<name>Kochnische für Laien</name>
+			<icon>Crafting_Cooking_02.png</icon>
+			<desc>Ein mittelwertiges Werkzeug, das für das Kochen verwendet wird.\n– Es kann in einem Haus angebracht werden.</desc>
+		</item>
+		<item>
+			<id>3717</id>
+			<name>Kochnische</name>
+			<icon>Crafting_Cooking_01.png</icon>
+			<desc>Ein Werkzeug, das für das Kochen verwendet wird.\n– Es kann in einem Haus angebracht werden.</desc>
+		</item>
+		<item>
+			<id>3702</id>
+			<name>Alchemietisch für Laien</name>
+			<icon>Crafting_Alchemy_02.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz aufgestellt werden.</desc>
+		</item>
+		<item>
+			<id>3701</id>
+			<name>Alchemietisch</name>
+			<icon>Crafting_Alchemy_01.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz aufgestellt werden.</desc>
+		</item>
+		<item>
+			<id>4068</id>
+			<name>Polierter Stein</name>
+			<icon>00004068.png</icon>
+			<desc>Ein grober Stein für die Herstellung.\n\n– Gewinnung:Kann durch Mahlen von Groben Steinen gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,16 @@
+<UI>
+	<Control Type="Panel" Name="Panel_NodeName" Pos="673 273" Size="200 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 40" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Ignore"/>
+		<Control Type="StaticText" Name="StaticText_NodeName" Pos="Center Center" Size="200 40" Pan="0 0" Color="  ffffff" EnableArea="0 0 200 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="³ëµå¸í" Font="HeaderFont_26" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_L_Line" Pos="-1 20" Size="556 11" Pan="0 0" Color="ffffffff" EnableArea="0 0 556 11" Grid="1" GridPosX="0 12 544 556" GridPosY="0 0 11 11" GridUVX="0 12 500 512" GridUVY="0 0 11 11" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 512 0 0 11 512 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/region/region_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_R_Line" Pos="-18 50" Size="556 11" Pan="0 0" Color="ffffffff" EnableArea="0 0 556 11" Grid="1" GridPosX="0 12 544 556" GridPosY="0 0 11 11" GridUVX="0 11 500 512" GridUVY="0 0 11 11" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 13 512 13 0 24 512 24" Ani="1 1 0.000 0">new_ui_common_forlua/widget/region/region_00.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

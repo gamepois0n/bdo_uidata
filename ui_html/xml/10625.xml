@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10625</itemKey>
+	<itemName>Demihuman Axe of Destruction</itemName>
+	<itemIcon>00010606.png</itemIcon>
+	<itemDesc>The energy of Destruction is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Destruction, Demihuman Axe</itemDesc>
+	<house type="4">
+		<item>
+			<id>4077</id>
+			<name>Steel</name>
+			<icon>00004077.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Iron Shards and Coal together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4062</id>
+			<name>Pure Tin Crystal</name>
+			<icon>00004062.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Tin Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Fine Tough Hide</name>
+			<icon>00006160.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Trace of Savagery</name>
+			<icon>00005956.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Lynch Farm Ruins.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10606</id>
+			<name>Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>An axe made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10627</id>
+			<name>Ultimate Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>A Demihuman Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Crimson Flame, Demihuman Axe of Destruction, Demihuman Axe of Temptation, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10606</id>
+			<name>Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>An axe made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10626</id>
+			<name>Demihuman Axe of Temptation</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Temptation, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10625</id>
+			<name>Demihuman Axe of Destruction</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Destruction, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10624</id>
+			<name>Demihuman Axe of Crimson Flame</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Crimson Flame, Demihuman Axe</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

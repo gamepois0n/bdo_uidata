@@ -1,0 +1,64 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MentalGame_Right" Pos="Right Bottom" Size="1200 500" Pan="-150 0" Color="ffffffff" EnableArea="0 0 1200 1000">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="102 60 110 60 102 68 110 68" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		<Control Type="Static" Name="Static_MentalIcon_C_0" Pos="885 758" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 360 0 0 360 360 360" Ani="1 1 0.000 0">ui_artwork/ic_00002.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MentalTxt_C_0" Pos="907 734" Size="110 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 110 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="지이일다" Font="BaseFont" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CircleBG" Pos="315 312" Size="680 224" Pan="0 0" Color="ffffffff" EnableArea="0 0 680 224" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 128 256 128" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_line_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_RightArrow" Pos="936 446" Size="37 37" Pan="0 0" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="473 224 511 224 473 262 511 262" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="473 262 511 262 473 300 511 300" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="473 300 511 300 473 338 511 338" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_LeftArrow" Pos="341 446" Size="37 37" Pan="0 0" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="435 224 473 224 435 262 473 262" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="On" UV="435 262 473 262 435 300 473 300" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Texture Type="Click" UV="435 300 473 300 435 338 473 338" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NowListBG" Pos="603 407" Size="125 35" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 35" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="298 90 423 90 298 125 423 125" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ListPoint" Pos="656 413" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="385 130 449 130 385 194 449 194" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_InterestBG" Pos="486 370" Size="350 130" Pan="0 0" Color="ffffffff" EnableArea="0 0 350 130" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="298 1 493 1 298 89 493 89" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_InterestLine" Pos="584 387" Size="165 173" Pan="0 0" Color="ffffffff" EnableArea="0 0 165 173" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="346 338 511 338 346 511 511 511" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Interest" Pos="641 457" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="흥미 있는 지식" formatString="PANEL_MENTALGAME_RIGHT_INTEREST" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Apply_New" Pos="606 444" Size="120 45" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 45" Grid="1" GridPosX="0 5 115 120" GridPosY="0 5 40 45" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="이야기 교류" formatString="PANEL_MENTALGAME_RIGHT_APPLY_NEW_BTN" Font="SubTitleFont_14" Color="ffe0d5a7" OverColor="ffe0d5a7" ClickColor="ffe0d5a7" AlignHorizon="Center" AlignVertical="Center" Span="0 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

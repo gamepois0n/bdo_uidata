@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7908</itemKey>
+	<itemName>Lizard Meat</itemName>
+	<itemIcon>00007908.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a lizard corpse.</itemDesc>
+	<collect>
+		<character>
+			<name>Big Horn Triangle Head Salaman</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blue Lizard</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Iguana</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Longtail Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rainbow Lizard</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rhino Lizard</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Scary Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Small Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Triangle Head Lizard</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wasteland Iguana</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Well-Dried Jerky</name>
+			<icon>00007919.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

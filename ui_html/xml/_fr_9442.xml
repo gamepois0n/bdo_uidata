@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9442</itemKey>
+	<itemName>Ragoût à la viande épais</itemName>
+	<itemIcon>00009442.png</itemIcon>
+	<itemDesc>Un ragoût à la viande avec un bouillon riche en saveurs.\n\n- Effet unique : PV max. +30 pendant 45 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

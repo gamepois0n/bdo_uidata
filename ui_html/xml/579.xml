@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>579</itemKey>
+	<itemName>Refined Herbal Juice</itemName>
+	<itemIcon>00000573.png</itemIcon>
+	<itemDesc>MP/WP/SP is recovered by 325.\n- Cooldown time: 6 sec.\n- It is lighter than an ordinary potion.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>571</id>
+			<name>Highly Concentrated Herbal Juice</name>
+			<icon>00000571.png</icon>
+			<desc>Immediately heals MP/WP/SP by +250.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>571</id>
+			<name>Highly Concentrated Herbal Juice</name>
+			<icon>00000571.png</icon>
+			<desc>Immediately heals MP/WP/SP by +250.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

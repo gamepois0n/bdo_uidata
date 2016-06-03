@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6162</itemKey>
+	<itemName>Feines dünnes Leder</itemName>
+	<itemIcon>00006162.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Waschbär-, Affen- oder Wieselfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6010</id>
+			<name>Waschbärenfell</name>
+			<icon>00006010.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Waschbärkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6011</id>
+			<name>Affenhaut</name>
+			<icon>00006011.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Affenkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6012</id>
+			<name>Wieselfell</name>
+			<icon>00006012.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wieselkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6154</id>
+			<name>Dünnes Leder</name>
+			<icon>00006154.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Waschbär-, Affen- oder Wieselfell gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10517</id>
+			<name>Ultimativer Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein maximal aufgerüsteter Rhik-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman der Zerstörung, Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea-Talisman der Zerstörung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Zerstörung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea-Talisman der Purpurnen Flamme</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein Talisman, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick-Talisman der Versuchung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick-Talisman der Zerstörung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Zerstörung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick-Talisman der Purpurnen Flamme</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein Talisman mit verstärkten Verteidigungseigenschaften.</desc>
+		</item>
+		<item>
+			<id>10504</id>
+			<name>Jubre-Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>Ein Talisman, auf dem in einer fremden Ursprache etwas geschrieben steht.</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein Talisman, in den ein magischer Edelstein eingelassen ist.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea-Talisman der Versuchung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10511</id>
+			<name>Jubre-Talisman der Zerstörung</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Zerstörung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>10510</id>
+			<name>Jubre-Talisman der Purpurnen Flamme</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Purpurnen Flamme, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Ultimativer Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein maximal aufgerüsteter Helrick-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman der Zerstörung, Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Ultimativer Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman der Zerstörung, Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik-Talisman der Versuchung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik-Talisman der Zerstörung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Zerstörung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik-Talisman der Purpurnen Flamme</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10513</id>
+			<name>Ultimativer Jubre-Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>Ein maximal aufgerüsteter Jubre-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Purpurnen Flamme, Jubre-Talisman der Zerstörung, Jubre-Talisman der Versuchung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>10512</id>
+			<name>Jubre-Talisman der Versuchung</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Versuchung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>6170</id>
+			<name>Exzellentes dünnes Leder</name>
+			<icon>00006170.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinem dünnem Leder mit durch Alchemie gewonnene Lederversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

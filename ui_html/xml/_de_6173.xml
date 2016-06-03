@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6173</itemKey>
+	<itemName>Exzellente leichte Feder</itemName>
+	<itemIcon>00006173.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinen leichten Federn mit durch Alchemie gewonnene Lederversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>6165</id>
+			<name>Feine leichte Feder</name>
+			<icon>00006165.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Leichten Federn gewonnen werden. Dies erfordert die Kenntnis Sieben.</desc>
+		</item>
+		<item>
+			<id>6183</id>
+			<name>Lederversiegelung</name>
+			<icon>00006183.png</icon>
+			<desc>Ein Material, das dafür genutzt wird, Leder, Fell und Federn durch Verarbeitung zu verstärken.\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

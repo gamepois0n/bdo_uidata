@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4064</itemKey>
+	<itemName>Zinkbarren</itemName>
+	<itemIcon>00004064.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Zinksplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4005</id>
+			<name>Zinkerz</name>
+			<icon>00004005.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Omar-Lavahöhle, Verlassene Eisenmine, Antiker Riss. Kann aus zinkhaltigem Erz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4063</id>
+			<name>Geschmolzener Zinksplitter</name>
+			<icon>00004063.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinkerz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4063</id>
+			<name>Geschmolzener Zinksplitter</name>
+			<icon>00004063.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinkerz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>49403</id>
+			<name>Altinova-Fährendekoration</name>
+			<icon>00049403.png</icon>
+			<desc>Eine Dekoration aus Mediah, die an einer Fähre angebracht werden kann. Dadurch verringert sich die Chance, Handelswaren zu beschädigen.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +3 %\nGesamte VK +30(noch nicht verfügbar)\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>3705</id>
+			<name>Amboss</name>
+			<icon>Crafting_Anvil_01.png</icon>
+			<desc>Ein Werkzeug, das für die Reparatur von Waffen und Verteidigungsausrüstung verwendet wird. Es erfordert Wissen über Eigenreparatur, um es zu verwenden.\n– Es kann in einem Wohnsitz angebracht werden.</desc>
+		</item>
+		<item>
+			<id>4065</id>
+			<name>Reiner Zinkkristall</name>
+			<icon>00004065.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Zinkbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

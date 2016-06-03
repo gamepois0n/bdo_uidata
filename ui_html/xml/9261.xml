@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9261</itemKey>
+	<itemName>Oatmeal</itemName>
+	<itemIcon>00009261.png</itemIcon>
+	<itemDesc>A mixture of grain powder and milk. \n\n- Unique Effect: Recover +5 Worker Stamina (Use through the Worker Menu on the world map)\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 1 sec</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Cooking Honey</name>
+			<icon>00007702.png</icon>
+			<desc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Onion</name>
+			<icon>00007303.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Oatmeal, Stir-Fried Meat, etc.\n- How to Obtain: It can be obtained by Farming Onion Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

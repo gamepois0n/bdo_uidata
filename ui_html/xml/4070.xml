@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4070</itemKey>
+	<itemName>Processed Coal</itemName>
+	<itemIcon>00004070.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Coal.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4007</id>
+			<name>Coal</name>
+			<icon>00004007.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Keplan Quarry, Glutoni Cave, Omar Lava Cave. It can be Gathered with a Pickaxe.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55864</id>
+			<name>Bunch of Coal</name>
+			<icon>00055864.png</icon>
+			<desc>Coal is considered to be a high-quality fuel that only those with money can afford.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

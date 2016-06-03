@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9065</itemKey>
+	<itemName>Milk</itemName>
+	<itemIcon>00009065.png</itemIcon>
+	<itemDesc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</itemDesc>
+	<makelist>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7919</itemKey>
+	<itemName>Well-Dried Jerky</itemName>
+	<itemIcon>00007919.png</itemIcon>
+	<itemDesc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7902</id>
+			<name>Lamb Meat</name>
+			<icon>00007902.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a sheep corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7908</id>
+			<name>Lizard Meat</name>
+			<icon>00007908.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a lizard corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7910</id>
+			<name>Raccoon Meat</name>
+			<icon>00007910.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a raccoon corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7916</id>
+			<name>Kuku Bird Meat</name>
+			<icon>00007916.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a Kuku Bird corpse.\n\n- Usage: Fried Bird, Steamed Bird, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7917</id>
+			<name>Flamingo Meat</name>
+			<icon>00007917.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a flamingo corpse.\n\n- Usage: Fried Bird, Steamed Bird, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

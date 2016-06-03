@@ -1,0 +1,115 @@
+<UI>
+	<Control Type="Panel" Name="Panel_NodeStable" Pos="Left Top" Size="172 415" Pan="240 45" Color="ffffffff" EnableArea="0 0 172 415" Grid="1" GridPosX="0 10 162 172" GridPosY="0 10 405 415" GridUVX="0 10 173 183" GridUVY="0 10 212 222" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="List_Title" Pos="Left Top" Size="50 20" Pan="46 7" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="축 사" formatString="PANEL_NODESTABLE_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_SlotCountValue" Pos="Left Top" Size="35 10" Pan="81 13" Color="ffffffff" EnableArea="0 0 35 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="( 3 )" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="List_Button_Close" Pos="Left Top" Size="19 19" Pan="146 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="List_ListBG" Pos="Left Top" Size="150 374" Pan="9 32" Color="ffffffff" EnableArea="0 0 150 374" Grid="1" GridPosX="0 10 140 150" GridPosY="0 10 364 374" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_Slot_List" Pos="Right Top" Size="10 373" Pan="2 35" Color="ffffffff" EnableArea="0 0 10 373" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 366 373" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_1_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_DownButton" Pos="0 373" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_CtrlButton" Pos="Center 258" Size="13 100" Pan="-1 0" Color="ffffffff" EnableArea="0 0 13 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 91 100" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="List_SlotBG" Pos="Left Top" Size="134 114" Pan="17 41" Color="ffffffff" EnableArea="0 0 134 114" Grid="1" GridPosX="0 10 124 134" GridPosY="0 10 104 114" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="List_FemaleIcon" Pos="Left Top" Size="20 20" Pan="18 40" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="183 54 235 54 183 106 235 106" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="List_MaleIcon" Pos="Left Top" Size="20 20" Pan="18 40" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="130 54 182 54 130 106 182 106" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="List_Icon" Pos="Left Top" Size="114 114" Pan="28 41" Color="ffffffff" EnableArea="0 0 114 114" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 143 0 0 143 143 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/temphorseicon.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="List_ButtonEffect" Pos="Left Top" Size="136 116" Pan="16 40" Color="ffffffff" EnableArea="0 0 136 116" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="130 107 286 107 130 263 286 263" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_Tear_Value" Pos="Left Top" Size="40 10" Pan="110 48" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="1등급" Font="BaseFont_8_Bold" Color="fffff3b1" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_Name_Value" Pos="Left Top" Size="129 13" Pan="22 138" Color="  ffffff" EnableArea="0 0 129 13">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="말 이름" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_Level_Value" Pos="Left Top" Size="40 10" Pan="22 127" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="Lv. 30" Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_Coma" Pos="Left Top" Size="40 10" Pan="38 47" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="부 상" formatString="STABLE_LIST_TXT_HURT" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_Link" Pos="Left Top" Size="40 10" Pan="38 47" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="연결중" formatString="UI_WINDOW_STABLE_LIST_LINK" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_RegisterMating" Pos="Left Top" Size="40 10" Pan="38 47" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="교배 등록 중" formatString="STABLE_LIST_TXT_MATINGREGISTER" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_RegisterMarket" Pos="Left Top" Size="40 10" Pan="38 47" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="시장 등록 중" formatString="STABLE_LIST_TXT_MARKETREGISTER" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_Mating" Pos="Left Top" Size="40 10" Pan="38 47" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="교배 중" formatString="STABLE_LIST_TXT_MATING" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_MatingComplete" Pos="Left Top" Size="40 10" Pan="38 47" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="교배 완료" formatString="STABLE_LIST_TXT_MATED" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="List_Seized" Pos="Left Top" Size="40 10" Pan="38 47" Color="  ffffff" EnableArea="0 0 40 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="압류" formatString="PANEL_STABLE_LIST_ATTACHMENT" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

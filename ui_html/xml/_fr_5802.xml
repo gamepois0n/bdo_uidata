@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5802</itemKey>
+	<itemName>Lin</itemName>
+	<itemIcon>00005802.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : produit à la plantation Moretti.</itemDesc>
+	<collect>
+		<character>
+			<name>Lin sauvage</name>
+		</character>
+	</collect>
+	<node region="Temple de Kamasilve - culture du lin"/>
+	<node region="Ferme Costa - culture du lin"/>
+	<node region="Plantation Moretti : culture du lin"/>
+	<makelist>
+		<item>
+			<id>24108</id>
+			<name>Pot en osier</name>
+			<icon>InHouse_X_DPFO_Basket_08.png</icon>
+			<desc>Un pot en osier.</desc>
+		</item>
+		<item>
+			<id>5852</id>
+			<name>Fil de lin</name>
+			<icon>00005852.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant du lin.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

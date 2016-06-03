@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8577</itemKey>
+	<itemName>Dried Maomao</itemName>
+	<itemIcon>00008577.png</itemIcon>
+	<itemDesc>A dried maomao obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8277</id>
+			<name>Maomao</name>
+			<icon>00008277.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55977</id>
+			<name>Packaged Dried Maomao</name>
+			<icon>00055977.png</icon>
+			<desc>A Trade Item containing 10 Dried Maomao.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

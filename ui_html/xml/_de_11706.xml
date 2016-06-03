@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11706</itemKey>
+	<itemName>Saphirhalskette</itemName>
+	<itemIcon>00011706.png</itemIcon>
+	<itemDesc>Eine mit einem Saphir verzierte Halskette.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4402</id>
+			<name>Rohsaphir</name>
+			<icon>00004402.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohsaphir erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4202</id>
+			<name>Golderz</name>
+			<icon>00004202.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Golderz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus goldhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11707</id>
+			<name>Glänzende Saphirhalskette</name>
+			<icon>00011707.png</icon>
+			<desc>Eine mit einem Funkelnden Saphir verzierte Halskette.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

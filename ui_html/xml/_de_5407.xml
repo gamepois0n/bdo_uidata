@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5407</itemKey>
+	<itemName>Wahrsagerpilz</itemName>
+	<itemIcon>00005407.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann auf dem Ehwazhügel und dem Küstenfelsen hergestellt werden. Wahrsagerpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</itemDesc>
+	<collect>
+		<character>
+			<name>Wahrsagerpilz</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Ehwazhügel – Sammeln"/>
+	<node region="Küstenfelsen – Sammeln"/>
+	<makelist>
+		<item>
+			<id>7507</id>
+			<name>Wahrsagerpilzkiste</name>
+			<icon>00007507.png</icon>
+			<desc>Pilze, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

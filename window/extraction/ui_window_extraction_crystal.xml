@@ -1,0 +1,146 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Extraction_Crystal" Pos="88 86" Size="535 320" Pan="0 0" Color="ffffffff" EnableArea="3 3 532 317" Grid="1" GridPosX="0 10 525 535" GridPosY="0 10 310 320" GridUVX="0 10 173 183" GridUVY="0 10 212 222" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<UIAni CalcParentRotate="False">
+			<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="5.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Show_Color" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="12" AdvanceType="5" HideAtEnd="False"/>
+			<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Hide-Color" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="5" HideAtEnd="False"/>
+		</UIAni>
+		<Attribute Type="Drag" Area="3 3 532 33"/>
+		<UIAniSet Name="Show" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="365044414" AniName="Show_Color" UIName="Panel_Window_Enchant_Socket"/>
+		</UIAniSet>
+		<UIAniSet Name="Hide" Repeat="False" TotalEndFrame="0" Sound="1 1">
+			<UIAniItem UIKey="365044414" AniName="Hide-Color" UIName="Panel_Window_Enchant_Socket"/>
+		</UIAniSet>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="535 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 535 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="수정 추출" formatString="UI_WINDOW_EXTRACTION_CRYSTAL_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_SocketDescBG_1" Pos="180 44" Size="305 69" Pan="17 33" Color="ffffffff" EnableArea="0 0 305 69" Grid="1" GridPosX="0 10 295 305" GridPosY="0 10 59 69" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SocketDescBG_2" Pos="180 119" Size="305 69" Pan="17 33" Color="ffffffff" EnableArea="0 0 305 69" Grid="1" GridPosX="0 10 295 305" GridPosY="0 10 59 69" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SocketDescBG_3" Pos="180 195" Size="305 69" Pan="17 33" Color="ffffffff" EnableArea="0 0 305 69" Grid="1" GridPosX="0 10 295 305" GridPosY="0 10 59 69" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SocketBG_2" Pos="12 110" Size="506 155" Pan="0 0" Color="ffffffff" EnableArea="0 0 506 155" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 234 506 234 1 389 506 389" Ani="1 1 0.000 0">new_ui_common_forlua/window/socket/socket_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SocketBG_1" Pos="18 114" Size="506 84" Pan="0 0" Color="ffffffff" EnableArea="0 0 506 84" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 149 506 149 1 233 506 233" Ani="1 1 0.000 0">new_ui_common_forlua/window/socket/socket_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SocketBG_0" Pos="25 43" Size="506 147" Pan="0 0" Color="ffffffff" EnableArea="0 0 506 147" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 506 1 1 148 506 148" Ani="1 1 0.000 0">new_ui_common_forlua/window/socket/socket_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_List_1" Pos="200 65" Size="275 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 275 44">
+			<Text Value="설 명" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_List_2" Pos="201 140" Size="275 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 275 44">
+			<Text Value="설 명" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_List_3" Pos="201 215" Size="275 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 275 44">
+			<Text Value="설 명" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NameTag_1" Pos="220 40" Size="275 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 275 22">
+			<Attribute Type="Ignore"/>
+			<Text Value="수정 - 1" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NameTag_2" Pos="220 115" Size="275 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 275 22">
+			<Attribute Type="Ignore"/>
+			<Text Value="수정 - 2" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NameTag_3" Pos="220 190" Size="275 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 275 22">
+			<Attribute Type="Ignore"/>
+			<Text Value="수정 - 3" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_StuffSlot_1_Background" Pos="397 58" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_StuffSlot_2_Background" Pos="397 133" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_StuffSlot_3_Background" Pos="397 208" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_StuffSlot_1" Pos="397 58" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_StuffSlot_2" Pos="397 133" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_StuffSlot_3" Pos="397 208" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Socket_1_Background" Pos="137 55" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Socket_2_Background" Pos="137 130" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Socket_3_Background" Pos="137 205" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Socket_1" Pos="141 57" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Socket_2" Pos="141 132" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Socket_3" Pos="141 207" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Equip_Socket_Background" Pos="32 133" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ExtractionEquip_Socket" Pos="35 136" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="Button" Name="Button_Extraction_Socket_1" Pos="455 49" Size="60 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 4 55 60" GridPosY="0 4 55 60" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="추출" formatString="UI_WINDOW_EXTRACTION_CRYSTAL_BTN_EXTRACTION" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Extraction_Socket_2" Pos="455 123" Size="60 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 4 55 60" GridPosY="0 4 55 60" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="추출" formatString="UI_WINDOW_EXTRACTION_CRYSTAL_BTN_EXTRACTION" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Extraction_Socket_3" Pos="455 199" Size="60 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 4 55 60" GridPosY="0 4 55 60" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="추출" formatString="UI_WINDOW_EXTRACTION_CRYSTAL_BTN_EXTRACTION" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="9 7" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ExtractionGuideBG" Pos="Center 272" Size="430 39" Pan="0 55" Color="ffffffff" EnableArea="0 0 430 39" Grid="1" GridPosX="0 10 425 430" GridPosY="0 10 29 39" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_ExtractionGuide" Pos="Center 277" Size="410 27" Pan="0 60" Color="ffffffff" EnableArea="0 0 410 27">
+			<Text Value="※ 수정을 추출하기 위해서는 흑정령의 정수 혹은 수정 추출 도구가 필요합니다." Font="BaseFont_8_Bold" Color="ffdb2b2b" OverColor="ffdb2b2b" ClickColor="ffdb2b2b" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Enchant_value" Pos="-159 -178" Size="42 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 42 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+9" Font="BaseFont_12_Yellow" Color="ffe9e4e4" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

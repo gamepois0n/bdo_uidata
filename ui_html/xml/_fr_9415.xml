@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9415</itemKey>
+	<itemName>Sandwich à la viande</itemName>
+	<itemIcon>00009415.png</itemIcon>
+	<itemDesc>Un sandwich préparé avec du pain moelleux et de la viande tendre.\n\n- Effet unique : vitesse de mouvement +1 pendant 90 min.\nEndurance max. +200 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Pain moelleux</name>
+			<icon>00009260.png</icon>
+			<desc>Une pâte aux céréales fermentée avant la cuisson.\n\n- Effet unique : endurance max. +100 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7003</itemKey>
+	<itemName>Potato</itemName>
+	<itemIcon>00007003.png</itemIcon>
+	<itemDesc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Bartali Farm, Finto Farm, and Loggia Farm. It can also be obtained by Farming Potato Seeds using a Garden or by Gathering Potatoes using Bare Hands or a Hoe..\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </itemDesc>
+	<collect>
+		<character>
+			<name>Potato</name>
+		</character>
+	</collect>
+	<node region="Bartali Farm - Potato Farming"/>
+	<node region="Finto Farm - Potato Farming"/>
+	<node region="Loggia Farm - Potato Farming"/>
+	<makelist>
+		<item>
+			<id>7103</id>
+			<name>Potato Flour</name>
+			<icon>00007103.png</icon>
+			<desc>A fine flour made of Grinding.\n- How to Obtain: It can be obtained through Grinding Potatoes.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>7423</id>
+			<name>Potato Crate</name>
+			<icon>00007423.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Concentrated Grain Juice</name>
+			<icon>00000567.png</icon>
+			<desc>Immediately heals HP by+125.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Grain Juice</name>
+			<icon>00000566.png</icon>
+			<desc>Immediately heals HP by+75.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Inorganic Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

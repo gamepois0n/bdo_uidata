@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4605</itemKey>
+	<itemName>Rondin</itemName>
+	<itemIcon>00004605.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en débitant des arbres poussant dans chaque région.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bouleau</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre blanc</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Frêne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sapin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Érable</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>16150</id>
+			<name>Vieille canne à pêche</name>
+			<icon>00016150.png</icon>
+			<desc>Un outil de récolte utilisé pour capturer des poissons dans une rivière ou une mer.</desc>
+		</item>
+		<item>
+			<id>2302</id>
+			<name>Chaise d&apos;Heidel fabriquée main</name>
+			<icon>InHouse_B_DFF_Chair_01.png</icon>
+			<desc>Une chaise fabriquée à la main à Heidel.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Table à manger de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>Une table à manger fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2204</id>
+			<name>Table à manger de Velia fabriquée main</name>
+			<icon>InHouse_D_DFF_Table_01.png</icon>
+			<desc>Une table à manger fabriquée à la main à Velia.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2202</id>
+			<name>Table à manger d&apos;Heidel fabriquée main</name>
+			<icon>InHouse_B_DFF_Table_01.png</icon>
+			<desc>Une table à manger fabriquée à la main à Heidel.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2014</id>
+			<name>Table de chevet de Velia de haute qualité fabriquée main</name>
+			<icon>InHouse_D_DFF_Chest_01.png</icon>
+			<desc>Une table de chevet de qualité supérieure fabriquée à la main à Velia.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2012</id>
+			<name>Table de chevet d&apos;Heidel de haute qualité fabriquée main</name>
+			<icon>InHouse_B_DFF_Chest_01.png</icon>
+			<desc>Une table de chevet de qualité supérieure fabriquée à la main à Heidel.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Commode de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>Un tiroir fabriqué à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2004</id>
+			<name>Commode de Velia de haute qualité fabriquée main</name>
+			<icon>InHouse_D_DFF_Dresser_01.png</icon>
+			<desc>Un tiroir de qualité supérieure fabriqué à la main à Velia.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2002</id>
+			<name>Commode d&apos;Heidel de haute qualité fabriquée main</name>
+			<icon>InHouse_B_DFF_Dresser_01.png</icon>
+			<desc>Un tiroir de qualité supérieure fabriqué à la main à Heidel.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Armoire de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>Une armoire fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2104</id>
+			<name>Armoire de Velia fabriquée main</name>
+			<icon>InHouse_D_DFF_Closet_01.png</icon>
+			<desc>Une armoire fabriquée à la main à Velia.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2102</id>
+			<name>Armoire d&apos;Heidel fabriquée main</name>
+			<icon>InHouse_B_DFF_Closet_01.png</icon>
+			<desc>Une armoire fabriquée à la main à Heidel.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Chaise de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>Une chaise fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2304</id>
+			<name>Chaise de Velia fabriquée main</name>
+			<icon>InHouse_D_DFF_Chair_01.png</icon>
+			<desc>Une chaise fabriquée à la main à Velia.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Placard de Calpheon fabriqué main</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>Une table de chevet fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>3718</id>
+			<name>Ustensile de cuisine intermédiaire</name>
+			<icon>Crafting_Cooking_02.png</icon>
+			<desc>Un outil de rang moyen servant en cuisine.\n- Vous pouvez l&apos;installer dans une résidence.</desc>
+		</item>
+		<item>
+			<id>3702</id>
+			<name>Outil d&apos;alchimie intermédiaire</name>
+			<icon>Crafting_Alchemy_02.png</icon>
+			<desc>Un outil pouvant reconstruire les composants d&apos;une substance.\n- Vous pouvez l&apos;installer dans une résidence.</desc>
+		</item>
+		<item>
+			<id>4669</id>
+			<name>Bois équarri utilisable</name>
+			<icon>00004669.png</icon>
+			<desc>Du bois nécessaire à la construction.\n\n- Obtention : s&apos;obtient en découpant les rondins des arbres de chaque région.</desc>
+		</item>
+		<item>
+			<id>16911</id>
+			<name>Cours d&apos;eau</name>
+			<icon>00016911.png</icon>
+			<desc>Installer un cours d&apos;eau dans un jardin réduit la consommation d&apos;eau.\n(Effectuez un clic droit pour afficher le marché de barrières le plus proche.)</desc>
+		</item>
+		<item>
+			<id>16910</id>
+			<name>Épouvantail</name>
+			<icon>00016910.png</icon>
+			<desc>Installer un épouvantail dans un jardin réduit la fréquence des attaques d&apos;oiseaux.\n(Effectuez un clic droit pour afficher le marché de barrières le plus proche.)</desc>
+		</item>
+		<item>
+			<id>49005</id>
+			<name>Permis bateau : radeau</name>
+			<icon>00049005.png</icon>
+			<desc>Preuve de propriété d&apos;un [radeau] sur les quais.\n- Emplacement d&apos;inventaire : 4, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis bateau\n 1. Effectuez un clic droit sur le permis bateau et déplacez-le vers le quai sélectionné.\n 2. Adressez-vous au gardien de la traversée en barque et sélectionnez le menu du quai.\n 3. Cliquez sur le menu d&apos;enregistrement des bateaux puis effectuez un clic droit sur le permis bateau.\n 4. Saisissez le nom du bateau puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le bateau enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>570</itemKey>
+	<itemName>Concentrated Herbal Juice</itemName>
+	<itemIcon>00000570.png</itemIcon>
+	<itemDesc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5600</id>
+			<name>Weeds</name>
+			<icon>00005600.png</icon>
+			<desc>It’s just a useless weed. You can sell it for a cheap price to merchants.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5401</id>
+			<name>Sunrise Herb</name>
+			<icon>00005401.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be Produced at Cron Castle Site and Balenos Forest. It can also be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5402</id>
+			<name>Silver Azalea</name>
+			<icon>00005402.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be Produced at the Northern Plain of Serendia and Lynch Farm Ruins. It can also be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5403</id>
+			<name>Fire Flake Flower</name>
+			<icon>00005403.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. \n- How to Obtain: It can be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5404</id>
+			<name>Dry Mane Grass</name>
+			<icon>00005404.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. \n- How to Obtain: It can be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5405</id>
+			<name>Silk Honey Grass</name>
+			<icon>00005405.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be Produced at Karanda Ridge, Longleaf Tree Sentry Post, Ancient Fissure, and Marni’s 2nd Lab. It can also be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5406</id>
+			<name>Everlasting Herb</name>
+			<icon>00005406.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Everlasting Herbs require a certain level of skill to collect.\n- How to Obtain: It can be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5439</id>
+			<name>Wild Grass</name>
+			<icon>00005439.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Wild Herbs using Barehanded Gathering.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5444</id>
+			<name>High-Quality Sunrise Herb</name>
+			<icon>00005401.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5445</id>
+			<name>High-Quality Silver Azalea</name>
+			<icon>00005402.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5446</id>
+			<name>High-Quality Fire Flake Flower</name>
+			<icon>00005403.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5447</id>
+			<name>High-Quality Dry Mane Grass</name>
+			<icon>00005404.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5448</id>
+			<name>High-Quality Silk Honey Grass</name>
+			<icon>00005405.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5449</id>
+			<name>High-Quality Everlasting Herb</name>
+			<icon>00005406.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5464</id>
+			<name>Special Sunrise Herb</name>
+			<icon>00005401.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5465</id>
+			<name>Special Silver Azalea</name>
+			<icon>00005402.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5466</id>
+			<name>Special Fire Flake Flower</name>
+			<icon>00005403.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5467</id>
+			<name>Special Dry Mane Grass</name>
+			<icon>00005404.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5468</id>
+			<name>Special Silk Honey Grass</name>
+			<icon>00005405.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>5469</id>
+			<name>Special Everlasting Herb</name>
+			<icon>00005406.png</icon>
+			<desc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>571</id>
+			<name>Highly Concentrated Herbal Juice</name>
+			<icon>00000571.png</icon>
+			<desc>Immediately heals MP/WP/SP by +250.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

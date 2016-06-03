@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7103</itemKey>
+	<itemName>Kartoffelmehl</itemName>
+	<itemIcon>00007103.png</itemIcon>
+	<itemDesc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Kartoffeln gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7003</id>
+			<name>Kartoffel</name>
+			<icon>00007003.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof, Laubenhof. Kann ebenfalls durch Anbau von Kartoffelsamen im Garten gewonnen werden oder von Kartoffeln mithilfe einer Hacke oder mit bloßen Händen gesammelt werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7008</id>
+			<name>Hochwertige Kartoffel</name>
+			<icon>00007003.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau im Garten gewonnen werden kann.\n– Gewinnung: Die Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7013</id>
+			<name>Besondere Kartoffel</name>
+			<icon>00007003.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau im Garten gewonnen werden kann.\n– Gewinnung: Die Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7203</id>
+			<name>Kartoffelteig</name>
+			<icon>00007203.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Kartoffelmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

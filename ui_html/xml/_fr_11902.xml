@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11902</itemKey>
+	<itemName>Boucles d&apos;oreille en rubis resplendissantes</itemName>
+	<itemIcon>00011902.png</itemIcon>
+	<itemDesc>Une boucle d&apos;oreille décorée d&apos;un rubis brillant.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11901</id>
+			<name>Boucles d&apos;oreille en rubis</name>
+			<icon>00011901.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;un rubis.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Fragment de fer fondu</name>
+			<icon>00004051.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de fer.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubis</name>
+			<icon>00004451.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un rubis brut.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11903</id>
+			<name>Boucles d&apos;oreille en rubis de sang</name>
+			<icon>00011903.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;un rubis sanglant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

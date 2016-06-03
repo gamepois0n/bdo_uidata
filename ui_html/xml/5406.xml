@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5406</itemKey>
+	<itemName>Everlasting Herb</itemName>
+	<itemIcon>00005406.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Everlasting Herbs require a certain level of skill to collect.\n- How to Obtain: It can be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<collect>
+		<character>
+			<name>Everlasting Herb</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Herb Sack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Medicinal Herb Kettle</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wild Herb</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7506</id>
+			<name>Everlasting Herb Crate</name>
+			<icon>00007506.png</icon>
+			<desc>An herb that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Concentrated Herbal Juice</name>
+			<icon>00000570.png</icon>
+			<desc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

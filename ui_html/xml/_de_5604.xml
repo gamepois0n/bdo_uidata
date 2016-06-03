@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5604</itemKey>
+	<itemName>Pflanzliches Schießpulver</itemName>
+	<itemIcon>00005604.png</itemIcon>
+	<itemDesc>Ein pflanzliches Schießpulver, das durch Alchemie gewonnen wurde und als Zutat für Sprengstoffe verwendet wird.\n– Gewinnung: Kann mithilfe von Raffination vom Pulver der Insektenfressenden Pflanze durch Alchemie gewonnen werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5601</id>
+			<name>Pulver der Insektenfressenden Pflanze</name>
+			<icon>00005601.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Verarbeitung einer Blüte der Insektenfressenden Pflanze oder eines Blatts der Insektenfressenden Pflanze gewonnen werden. Kann außerdem mit bloßen Händen oder einer Hacke aus Insektenfressenden Pflanzen gesammelt werden. Zum Sammeln Insektenfressender Pflanzen ist eine gewisse Talentstufe erforderlich.</desc>
+		</item>
+		<item>
+			<id>5601</id>
+			<name>Pulver der Insektenfressenden Pflanze</name>
+			<icon>00005601.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Verarbeitung einer Blüte der Insektenfressenden Pflanze oder eines Blatts der Insektenfressenden Pflanze gewonnen werden. Kann außerdem mit bloßen Händen oder einer Hacke aus Insektenfressenden Pflanzen gesammelt werden. Zum Sammeln Insektenfressender Pflanzen ist eine gewisse Talentstufe erforderlich.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Pulver der Dunkelheit</name>
+			<icon>00004801.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

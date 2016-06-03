@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		<script type="text/javascript" src="../../javascript/coherent.js"></script>
+		<script type="text/javascript" src="../../javascript/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			function setText()
+			{
+				var content = document.getElementById("text").value;
+				engine.call( "SetText", content );
+			}
+			
+			function clearText()
+			{
+				var content = document.getElementById("text").value;
+				content = "";
+			}
+		
+			engine.on( "GetText", setText )
+			engine.on( "ClearText", clearText )
+		</script>
+		<Textarea id="text" cols="35" rows="23" wrap="soft" style="resize:none;color:white;"></Textarea>
+	</body>
+</html>
+
+<!-- width="330" height="410"  -->

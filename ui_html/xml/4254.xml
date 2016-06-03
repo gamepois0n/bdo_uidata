@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4254</itemKey>
+	<itemName>Melted Gold Shard</itemName>
+	<itemIcon>00004254.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Gold Ore.</itemDesc>
+	<collect>
+		<character>
+			<name>Gold</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4202</id>
+			<name>Gold Ore</name>
+			<icon>00004202.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Gold Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gold.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4902</id>
+			<name>Alluvial Gold</name>
+			<icon>00004902.png</icon>
+			<desc>A rare ingredient filtered from River Water that can be Heated to create Gold.\n- How to Obtain: It can be obtained by Thinning a Bottle of River Water.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11722</id>
+			<name>Resplendent Diamond Necklace</name>
+			<icon>00011722.png</icon>
+			<desc>A necklace decorated with a Resplendent Diamond.</desc>
+		</item>
+		<item>
+			<id>11707</id>
+			<name>Resplendent Sapphire Necklace</name>
+			<icon>00011707.png</icon>
+			<desc>A necklace decorated with a Resplendent Sapphire.</desc>
+		</item>
+		<item>
+			<id>4255</id>
+			<name>Gold Ingot</name>
+			<icon>00004255.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Gold Ore. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Golden Hand Vase</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>A golden hand vase.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

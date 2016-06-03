@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<script type="text/javascript" src="javascript/coherent.js"></script>
+		<!-- Uncomment the following meta tag if you have issues rendering this page on an intranet or local site. -->    
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+		<script type="text/javascript">
+			document.addEventListener("DOMContentLoaded", function () {
+				init();
+			}, false);
+
+			function init() {        // Master function, encapsulates all functions
+				var introVideo = document.getElementById("introVideo");   
+				introVideo.addEventListener("ended", function () {
+					//engine.trigger('OnEndMovie');
+				}, false);
+			}// end of master       
+
+			//engine.on('OnEndMovie', function () {    alert('Bye');});
+			
+			engine.on('PlayMovie', function (movieName){
+				var introVideo = document.getElementById("introVideo");  
+				introVideo.src = movieName;
+				if(introVideo.paused){
+					introVideo.play();
+				}
+			});
+			
+			engine.on('StopMovie', function (movieName){
+				var introVideo = document.getElementById("introVideo");
+				introVideo.pause();
+				introVideo.src = "";
+			});
+			
+			engine.on('ControlAudio', function (audioVolume){
+				var introVideo = document.getElementById("introVideo");
+				introVideo.volume = audioVolume;
+			});
+			
+		</script>
+	</head>
+	<body style="margin:0px;padding:0px;">
+		<video id="introVideo" width="320" Height="240" style="background-color:black">	
+		  <source src="coui://UI_Movie/Intro_movieClip.webm" type='video/webm; codecs="vp8, vorbis"'>
+		</video>
+	</body>
+</html>

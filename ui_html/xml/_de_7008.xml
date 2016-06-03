@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7008</itemKey>
+	<itemName>Hochwertige Kartoffel</itemName>
+	<itemIcon>00007003.png</itemIcon>
+	<itemDesc>Eine Kochzutat, die durch Anbau im Garten gewonnen werden kann.\n– Gewinnung: Die Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe etc.</itemDesc>
+	<makelist>
+		<item>
+			<id>7103</id>
+			<name>Kartoffelmehl</name>
+			<icon>00007103.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Kartoffeln gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>7554</id>
+			<name>Kiste hochwertiger Kartoffeln</name>
+			<icon>00007423.png</icon>
+			<desc>Feldfrüchte, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Anorganischer Dünger</name>
+			<icon>00016901.png</icon>
+			<desc>Wird verwendet, um die Wachstumsrate von Feldfrüchten in der Nähe zu steigern. Wenn Ihr Dünger vor dem Anpflanzen verwendet, reduziert das die Zeit, die eine Feldfrucht zum Heranwachsen benötigt.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Konzentrierter Feldsaft</name>
+			<icon>00000567.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Feldsaft</name>
+			<icon>00000566.png</icon>
+			<desc>Stellt bei Verwendung sofort +75 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

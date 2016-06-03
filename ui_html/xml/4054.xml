@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4054</itemKey>
+	<itemName>Melted Lead Shard</itemName>
+	<itemIcon>00004054.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Lead Ore.</itemDesc>
+	<collect>
+		<character>
+			<name>Diorite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lead</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4002</id>
+			<name>Lead Ore</name>
+			<icon>00004002.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Glish Swamp, Quint Hill, and Primal Giant Post. It can be directly obtained from Ore containing Lead.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10705</id>
+			<name>Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with gold.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13005</id>
+			<name>Blade Trinket</name>
+			<icon>00010706.png</icon>
+			<desc>A trinket with an ornamental knife attached.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4055</id>
+			<name>Lead Ingot</name>
+			<icon>00004055.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Lead Shards. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

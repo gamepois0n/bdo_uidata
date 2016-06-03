@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9063</itemKey>
+	<itemName>Butter</itemName>
+	<itemIcon>00009063.png</itemIcon>
+	<itemDesc>An ingredient used in Cooking. It can be created by Shaking salt with the cream obtained from Shaking milk.\n\n- Usage: Cheese Pie, Seafood Grilled with Butter</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

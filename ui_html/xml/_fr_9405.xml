@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9405</itemKey>
+	<itemName>Oiseau cuit à la vapeur</itemName>
+	<itemIcon>00009405.png</itemIcon>
+	<itemDesc>Un plat à base de viande d&apos;oiseau cuite à la vapeur et avec de la liqueur.\n\n- Effet unique : gain d&apos;EXP de combat +3 % pendant 60 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,17 @@
+<UI>
+	<Control Type="Panel" Name="Panel_LuckyRepair_Result" Pos="100 20" Size="600 150" Pan="100 20" Color="ff000000" EnableArea="0 0 600 150">
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="LuckyRepair_BG" Pos="Center Center" Size="1280 90" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 90">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 127 129 127 1 255 129 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.20" EndScale="1.00" BasePosition="0 45" ScaleChild="False" ID="Ani_Scale_0" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="20" AdvanceType="2" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="LuckyRepair_MSG" Pos="Center Center" Size="450 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 450 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="TitleFont_22" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

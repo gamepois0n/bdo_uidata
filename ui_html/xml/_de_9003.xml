@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9003</itemKey>
+	<itemName>Weiße Soße</itemName>
+	<itemIcon>00009003.png</itemIcon>
+	<itemDesc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</itemDesc>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

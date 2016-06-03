@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9438</itemKey>
+	<itemName>Croquettes à la viande croustillantes</itemName>
+	<itemIcon>00009438.png</itemIcon>
+	<itemDesc>Une croquette de viande frite à la perfection.\n\n- Effet unique : gain d&apos;EXP de combat +5 % pendant 110 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

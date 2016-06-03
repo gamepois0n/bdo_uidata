@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12112</itemKey>
+	<itemName>Bague en topaze resplendissante</itemName>
+	<itemIcon>00012112.png</itemIcon>
+	<itemDesc>Un anneau décoré d&apos;une topaze brillante.</itemDesc>
+	<house type="8">
+		<item>
+			<id>12111</id>
+			<name>Bague en topaze</name>
+			<icon>00012111.png</icon>
+			<desc>Un anneau décoré d&apos;une topaze.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Fragment de fer fondu</name>
+			<icon>00004051.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de fer.</desc>
+		</item>
+		<item>
+			<id>4457</id>
+			<name>Topaze</name>
+			<icon>00004457.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une topaze brute.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12113</id>
+			<name>Bague en topaze et or</name>
+			<icon>00012113.png</icon>
+			<desc>Un anneau décoré d&apos;une topaze dorée.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

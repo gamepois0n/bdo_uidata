@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5008</itemKey>
+	<itemName>Old Tree Bark</itemName>
+	<itemIcon>00005008.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Old Tree Bark requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ash Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cedar Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fir</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Maple</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pine Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>White Cedar</name>
+		</character>
+	</collect>
+	<node region="Mediah Northern Highlands - Lumbering"/>
+	<node region="Mediah Northern Highlands - Lumbering"/>
+	<makelist>
+		<item>
+			<id>4911</id>
+			<name>Grade 3 Armor Reform Stone</name>
+			<icon>00004911.png</icon>
+			<desc>A material used in 3rd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

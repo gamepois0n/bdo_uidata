@@ -1,0 +1,73 @@
+<UI>
+	<Control Type="Panel" Name="Panel_UI_Setting" Pos="0 1" Size="1024 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1024 720">
+		<Control Type="StaticText" Name="Static_Able" Pos="89 369" Size="52 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 52" Grid="1" GridPosX="0 8 44 52" GridPosY="0 8 44 52" GridUVX="0 8 44 52" GridUVY="0 8 44 52">
+			<Texture Type="Base" UV="1 1 53 1 1 53 53 53" Ani="1 1 0.000 0">new_ui_common_forlua/default/uicontrolpanel.dds</Texture>
+			<Text Value="창 제목" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_DisAble" Pos="20 511" Size="52 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 52" Grid="1" GridPosX="0 8 44 52" GridPosY="0 8 44 52" GridUVX="0 8 44 52" GridUVY="0 8 44 52">
+			<Texture Type="Base" UV="54 1 106 1 54 53 106 53" Ani="1 1 0.000 0">new_ui_common_forlua/default/uicontrolpanel.dds</Texture>
+			<Text Value="창 제목" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Close" Pos="Right Top" Size="24 18" Pan="7 7" Color="ffffffff" EnableArea="0 0 24 18" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="206 85 230 85 206 103 230 103" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="On" UV="231 66 255 66 231 84 255 84" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="Click" UV="206 66 230 66 206 84 230 84" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="300 150" Pan="0 150" Color="ffffffff" EnableArea="0 0 300 150" Grid="1" GridPosX="0 8 292 300" GridPosY="0 8 142 150" GridUVX="0 8 54 62" GridUVY="0 8 54 62">
+			<Texture Type="Base" UV="1 190 63 190 1 252 63 252" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="인터페이스 편집모드" formatString="PANEL_UI_SETTING_TITLE" Font="SubTitleFont_14_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Save" Pos="Center Bottom" Size="70 30" Pan="-72 10" Color="ffffffff" EnableArea="0 0 70 30" Grid="1" GridPosX="0 4 65 70" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="저장" formatString="PANEL_UI_SETTING_BTN_SAVE" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="Center Bottom" Size="70 30" Pan="0 10" Color="ffffffff" EnableArea="0 0 70 30" Grid="1" GridPosX="0 4 65 70" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취소" formatString="PANEL_UI_SETTING_BTN_CANCEL" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Reset" Pos="Center Bottom" Size="70 30" Pan="72 10" Color="ffffffff" EnableArea="0 0 70 30" Grid="1" GridPosX="0 4 65 70" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="초기화" formatString="PANEL_UI_SETTING_BTN_RESET" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_FieldView" Pos="Right Bottom" Size="23 23" Pan="60 -25" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="시점 조절" formatString="PANEL_UI_SETTING_CHKBTN_FIELDVIEW" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UISize" Pos="Center Top" Size="280 20" Pan="0 50" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="인터페이스 크기 조절" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UI_LOW" Pos="Left Top" Size="23 23" Pan="10 70" Color="ffffffff" EnableArea="0 0 23 23">
+			<Attribute Type="Ignore"/>
+			<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UI_HIGH" Pos="Right Top" Size="23 23" Pan="10 70" Color="ffffffff" EnableArea="0 0 23 23">
+			<Attribute Type="Ignore"/>
+			<Text Value="150" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_UI_Scaling" Pos="Center Top" Size="260 7" Pan="0 95" Color="ffffffff" EnableArea="0 0 260 7" Grid="1" GridPosX="0 2 258 260" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0" Name="Slider_UI_Scaling_Button" Pos="52 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

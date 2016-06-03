@@ -1,0 +1,75 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Stable_Info" Pos="Right Top" Size="350 250" Pan="28 400" Color="ffffffff" EnableArea="0 0 350 250">
+		<Control Type="Static" Name="Stable_Info_Equipment" Pos="0 0" Size="350 250" Pan="0 0" Color="ffffffff" EnableArea="0 0 350 250" Grid="1" GridPosX="0 8 342 350" GridPosY="0 8 242 250" GridUVX="0 8 175 183" GridUVY="0 8 214 222">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="350 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 350 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="Å¾½Â¹° Àåºñ" formatString="PANEL_STABLE_EQUIPMENT_WINDOW_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_EquipBG" Pos="Center Top" Size="336 202" Pan="0 40" Color="ffffffff" EnableArea="0 0 336 202" Grid="1" GridPosX="0 10 326 336" GridPosY="0 10 192 202" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_helm" Pos="Left 46" Size="52 52" Pan="24 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="107 1 159 1 107 53 159 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_upperArmor" Pos="Left 115" Size="52 52" Pan="24 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="160 1 212 1 160 53 212 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_upperArmor2" Pos="Left 115" Size="52 52" Pan="104 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="160 1 212 1 160 53 212 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_stirrups" Pos="Left 185" Size="52 52" Pan="24 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="54 1 106 1 54 53 106 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_foot" Pos="Left 185" Size="52 52" Pan="104 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="266 1 318 1 266 53 318 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_weapon" Pos="Left 46" Size="52 52" Pan="104 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="372 1 424 1 372 53 424 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_deco1" Pos="Right 185" Size="52 52" Pan="35 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="213 1 265 1 213 53 265 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_deco2" Pos="Right 46" Size="52 52" Pan="35 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="213 1 265 1 213 53 265 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipSlot_deco3" Pos="Right 115" Size="52 52" Pan="35 0" Color="ffffffff" EnableArea="0 0 52 52">
+			<Texture Type="Base" UV="213 1 265 1 213 53 265 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="equipIcon_helm" Pos="Left 50" Size="42 42" Pan="29 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_upperArmor" Pos="Left 119" Size="42 42" Pan="29 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_upperArmor2" Pos="Left 119" Size="42 42" Pan="109 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_stirrups" Pos="Left 189" Size="42 42" Pan="29 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_foot" Pos="Left 189" Size="42 42" Pan="109 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_weapon" Pos="Left 50" Size="42 42" Pan="109 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_deco1" Pos="Right 50" Size="42 42" Pan="40 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_deco2" Pos="Right 189" Size="42 42" Pan="40 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="equipIcon_deco3" Pos="Right 119" Size="42 42" Pan="40 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Slot_Enchant_value" Pos="272 227" Size="42 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 42 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="+9" Font="BaseFont_12_Yellow" Color="ffe9e4e4" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

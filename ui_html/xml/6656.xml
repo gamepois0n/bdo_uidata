@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6656</itemKey>
+	<itemName>Purified Water</itemName>
+	<itemIcon>00006656.png</itemIcon>
+	<itemDesc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</itemDesc>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6653</id>
+			<name>Bottle of River Water</name>
+			<icon>00006653.png</icon>
+			<desc>Water Gathered from a river using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: River Water can be obtained by using an Empty Bottle at a river.\n\n※ Pouring a Bottle of River Water on a Garden will increase the available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6654</id>
+			<name>Bottle of Turbid Water</name>
+			<icon>00006654.png</icon>
+			<desc>Water Gathered from a murky water source using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Turbid Water can be obtained by using an Empty Bottle at a murky water source.\n\n※ Pouring a Bottle of Turbid Water on a Garden will slightly increase the available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6655</id>
+			<name>Bottle of Clean Water</name>
+			<icon>00006655.png</icon>
+			<desc>Water Gathered from a clear water source. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Clean Water can be obtained by using an Empty Bottle at a clear water source.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6657</id>
+			<name>Bag of Muddy Water</name>
+			<icon>00006657.png</icon>
+			<desc>Water collected from desert using a shovel. It can be filtered to make Purified Water.\n- How to Obtain : Use Shabby Shovel in the desert to obtain a bag of muddy water.\n※Using this item on the garden will increase the amount of water deposit.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>24212</id>
+			<name>Imperial Platinum Kettle</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>An imperial platinum kettle.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Golden Hand Vase</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>A golden hand vase.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Beautiful Opal Vase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>A beautiful opal vase.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Fancy Topaz Kettle</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>A fancy topaz kettle.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Emerald Gourd-Shaped Bottle</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>An emerald gourd-shaped bottle.</desc>
+		</item>
+		<item>
+			<id>24207</id>
+			<name>Fancy Sapphire Vase</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>A fancy sapphire vase.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Ruby Gourd-Shaped Bottle</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>A ruby gourd-shaped bottle.</desc>
+		</item>
+		<item>
+			<id>24205</id>
+			<name>Long Pottery</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Long pottery.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Quagmire Pottery</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Quagmire pottery.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Round Pottery</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Round pottery.</desc>
+		</item>
+		<item>
+			<id>16903</id>
+			<name>Organic Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

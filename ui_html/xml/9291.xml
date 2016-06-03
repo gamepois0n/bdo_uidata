@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9291</itemKey>
+	<itemName>Soft Omelet</itemName>
+	<itemIcon>00009291.png</itemIcon>
+	<itemDesc>Nicely cooked omelet. \n- Unique effect: All Damage Reduction +2 for 75min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Egg</name>
+			<icon>00009064.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest.\n\n- Usage: Soft Bread, Omelet, etc.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Costa Farm, Moretti Plantation, and Northern Wheat Plantation. It can also be obtained by Farming Wheat Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olive Oil</name>
+			<icon>00009015.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Egg</name>
+			<icon>00009064.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest.\n\n- Usage: Soft Bread, Omelet, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

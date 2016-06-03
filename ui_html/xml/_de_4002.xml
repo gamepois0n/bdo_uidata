@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4002</itemKey>
+	<itemName>Bleierz</itemName>
+	<itemIcon>00004002.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Sumpf bei Glisch, Quintenhügel, Wachposten der Riesen. Kann aus bleihaltigem Erz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Blei</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diorit</name>
+		</character>
+	</collect>
+	<node region="Sumpf bei Glisch – Bergbau"/>
+	<node region="Quintenhügel – Bergbau"/>
+	<node region="Wachposten der Riesen – Bergbau"/>
+	<makelist>
+		<item>
+			<id>55844</id>
+			<name>Bleierzkiste</name>
+			<icon>00055844.png</icon>
+			<desc>Handelsware, die 10 Bleierze enthält.</desc>
+		</item>
+		<item>
+			<id>4055</id>
+			<name>Bleibarren</name>
+			<icon>00004055.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Bleisplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4054</id>
+			<name>Geschmolzener Bleisplitter</name>
+			<icon>00004054.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Bleierz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

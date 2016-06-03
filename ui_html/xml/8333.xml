@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8333</itemKey>
+	<itemName>Atka Mackerel</itemName>
+	<itemIcon>00008333.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8633</id>
+			<name>Dried Atka Mackerel</name>
+			<icon>00008600.png</icon>
+			<desc>A dried atka mackerel obtained through Drying.\n ※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4066</itemKey>
+	<itemName>Lingot de laiton</itemName>
+	<itemIcon>00004066.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et de zinc. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Fragment de cuivre fondu</name>
+			<icon>00004057.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de cuivre.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Fragment de zinc fondu</name>
+			<icon>00004063.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de zinc.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Fragment de cuivre fondu</name>
+			<icon>00004057.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de cuivre.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Fragment de zinc fondu</name>
+			<icon>00004063.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de zinc.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>13009</id>
+			<name>Colifichet d&apos;encens ultime</name>
+			<icon>00013003.png</icon>
+			<desc>Un colifichet d&apos;encens qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de la flamme pourpre, colifichet d&apos;encens de destruction, colifichet d&apos;encens de tentation, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Colifichet d&apos;encens de tentation</name>
+			<icon>00013003.png</icon>
+			<desc>Ce colifichet d&apos;encens renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de tentation, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>10305</id>
+			<name>Dague de parade</name>
+			<icon>00010305.png</icon>
+			<desc>Une dague faite pour parer les attaques.</desc>
+		</item>
+		<item>
+			<id>10331</id>
+			<name>Dague de Krea ultime</name>
+			<icon>00010324.png</icon>
+			<desc>Une dague de Krea qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : dague de Krea de la flamme pourpre, dague de Krea de destruction, dague de Krea de tentation, dague de Krea</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Dague de Krea de tentation</name>
+			<icon>00010324.png</icon>
+			<desc>Cette dague de Krea renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : dague de Krea de tentation, dague de Krea</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Dague de Krea de destruction</name>
+			<icon>00010324.png</icon>
+			<desc>Cette dague de Krea renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : dague de Krea de destruction, dague de Krea</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Dague de Krea de la flamme pourpre</name>
+			<icon>00010324.png</icon>
+			<desc>Cette dague de Krea renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : dague de Krea de la flamme pourpre, dague de Krea</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Dague de Krea</name>
+			<icon>00010324.png</icon>
+			<desc>Une dague conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Dague de parade ultime</name>
+			<icon>00010305.png</icon>
+			<desc>Une dague de parade qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : dague de parade de la flamme pourpre, dague de parade de destruction, dague de parade de tentation, dague de parade</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Dague de parade de tentation</name>
+			<icon>00010305.png</icon>
+			<desc>Cette dague de parade renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : dague de parade de tentation, dague de parade</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Dague de parade de destruction</name>
+			<icon>00010305.png</icon>
+			<desc>Cette dague de parade renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : dague de parade de destruction, dague de parade</desc>
+		</item>
+		<item>
+			<id>55847</id>
+			<name>Caisse de lingots de laiton</name>
+			<icon>00055847.png</icon>
+			<desc>Un objet de commerce contenant 10 lingots de laiton.</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Dague de parade de la flamme pourpre</name>
+			<icon>00010305.png</icon>
+			<desc>Cette dague de parade renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : dague de parade de la flamme pourpre, dague de parade</desc>
+		</item>
+		<item>
+			<id>51008</id>
+			<name>Papiers de wagon : wagon noble</name>
+			<icon>00051008.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon noble] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 20, accélération : 95 %, vitesse : 95 %, direction : 95 %, freinage : 95 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51007</id>
+			<name>Papiers de wagon : wagon de marchand</name>
+			<icon>00051007.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon marchand] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 18, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51005</id>
+			<name>Papiers de wagon : wagon de commerce</name>
+			<icon>00051005.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon de commerce] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 16, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51003</id>
+			<name>Papiers de wagon : wagon blanc</name>
+			<icon>00051003.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon blanc] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 12, accélération : 110 %, vitesse : 110 %, direction : 120 %, freinage : 120 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>52703</id>
+			<name>Selle de combat en cuir</name>
+			<icon>00052703.png</icon>
+			<desc>Une selle de combat lourde et résistante en cuir renforcé.\nElle augmente la stabilité pour permettre de chevaucher plus rapidement.\n\n- Utilisable sur : cheval, âne\n\nPeut être améliorée avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>52702</id>
+			<name>Selle légère en cuir</name>
+			<icon>00052702.png</icon>
+			<desc>Une selle solide et légère en cuir de bonne qualité.\nElle augmente la stabilité pour permettre de chevaucher plus rapidement.\n\n- Utilisable sur : cheval, âne\n\nPeut être améliorée avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53507</id>
+			<name>Housse de wagon noble</name>
+			<icon>00053507.png</icon>
+			<desc>Une housse de wagon à quatre roues.\n\n- Utilisable sur : wagon à quatre roues\n\nPeut être améliorée avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53506</id>
+			<name>Housse de wagon de marchand</name>
+			<icon>00053506.png</icon>
+			<desc>Une housse de wagon à quatre roues.\n\n- Utilisable sur : wagon à quatre roues\n\nPeut être améliorée avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53503</id>
+			<name>Housse de wagon blanc</name>
+			<icon>00053503.png</icon>
+			<desc>Une housse de wagon.\n\n- Utilisable sur : wagon\n\nPeut être améliorée avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Armure de Grunil</name>
+			<icon>00010934.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Casque de Grunil</name>
+			<icon>00010933.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Gants de Grunil du mur de fer</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil du mur de fer, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Armure de Grunil du mur de fer</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil du mur de fer, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Casque de Grunil du mur de fer</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil du mur de fer, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Chaussures de Grunil</name>
+			<icon>00010936.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Gants de Grunil</name>
+			<icon>00010935.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10962</id>
+			<name>Armure de Grunil ultime</name>
+			<icon>00010934.png</icon>
+			<desc>Une armure de Grunil qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil du mur de fer, armure de Grunil d&apos;agilité, armure de Grunil d&apos;intimidation, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10961</id>
+			<name>Casque de Grunil ultime</name>
+			<icon>00010933.png</icon>
+			<desc>Un casque de Grunil qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil du mur de fer, casque de Grunil d&apos;agilité, casque de Grunil d&apos;intimidation, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Gants de Grunil d&apos;agilité</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil d&apos;agilité, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Armure de Grunil d&apos;agilité</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil d&apos;agilité, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Casque de Grunil d&apos;agilité</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil d&apos;agilité, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Chaussures de Grunil du mur de fer</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil du mur de fer, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Chaussures de Grunil ultimes</name>
+			<icon>00010936.png</icon>
+			<desc>Des chaussures de Grunil qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil du mur de fer, chaussures de Grunil d&apos;agilité, chaussures de Grunil d&apos;intimidation, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10963</id>
+			<name>Gants de Grunil ultimes</name>
+			<icon>00010935.png</icon>
+			<desc>Des gants de Grunil qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil du mur de fer, gants de Grunil d&apos;agilité, gants de Grunil d&apos;intimidation, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Talisman de Krea ultime</name>
+			<icon>00010524.png</icon>
+			<desc>Un talisman de Krea qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman de Krea de la flamme pourpre, talisman de Krea de destruction, talisman de Krea de tentation, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Colifichet de Krea de tentation</name>
+			<icon>00010724.png</icon>
+			<desc>Ce colifichet de Krea renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet de Krea de tentation, colifichet de Krea</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Colifichet de Krea de destruction</name>
+			<icon>00010724.png</icon>
+			<desc>Ce colifichet de Krea renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet de Krea de destruction, colifichet de Krea</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Colifichet de Krea de la flamme pourpre</name>
+			<icon>00010724.png</icon>
+			<desc>Ce colifichet de Krea renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet de Krea de la flamme pourpre, colifichet de Krea</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Colifichet de Krea</name>
+			<icon>00010724.png</icon>
+			<desc>Un colifichet conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Colifichet de Krea ultime</name>
+			<icon>00010724.png</icon>
+			<desc>Un colifichet de Krea qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet de Krea de la flamme pourpre, colifichet de Krea de destruction, colifichet de Krea de tentation, colifichet de Krea</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Colifichet d&apos;encens de destruction</name>
+			<icon>00013003.png</icon>
+			<desc>Ce colifichet d&apos;encens renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de destruction, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Colifichet d&apos;encens de la flamme pourpre</name>
+			<icon>00013003.png</icon>
+			<desc>Ce colifichet d&apos;encens renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de la flamme pourpre, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Colifichet d&apos;encens</name>
+			<icon>00013003.png</icon>
+			<desc>Un colifichet avec une poche pleine d&apos;encens.</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Chaussures de Grunil d&apos;intimidation</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil d&apos;intimidation, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Gants de Grunil d&apos;intimidation</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil d&apos;intimidation, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Armure de Grunil d&apos;intimidation</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil d&apos;intimidation, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Casque de Grunil d&apos;intimidation</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil d&apos;intimidation, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Chaussures de Grunil d&apos;agilité</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil d&apos;agilité, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Talisman de Krea de tentation</name>
+			<icon>00010524.png</icon>
+			<desc>Ce talisman de Krea renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman de Krea de tentation, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Talisman de Rhik de tentation</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman de Rhik de tentation, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Talisman de Rhik de destruction</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman de Rhik de destruction, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Talisman de Rhik de la flamme pourpre</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman de Rhik de la flamme pourpre, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Talisman de Rhik ultime</name>
+			<icon>00010505.png</icon>
+			<desc>Un talisman de Rhik qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman de Rhik de la flamme pourpre, talisman de Rhik de destruction, talisman de Rhik de tentation, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Talisman de Krea de destruction</name>
+			<icon>00010524.png</icon>
+			<desc>Ce talisman de Krea renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman de Krea de destruction, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Talisman de Krea de la flamme pourpre</name>
+			<icon>00010524.png</icon>
+			<desc>Ce talisman de Krea renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman de Krea de la flamme pourpre, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Talisman de Krea</name>
+			<icon>00010524.png</icon>
+			<desc>Un talisman conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Talisman de Rhik</name>
+			<icon>00010505.png</icon>
+			<desc>Un talisman avec des capacités de défense améliorées.</desc>
+		</item>
+		<item>
+			<id>49203</id>
+			<name>Conteneur de barque d&apos;Altinova</name>
+			<icon>00049203.png</icon>
+			<desc>Un coffre de transport de Mediah pouvant être attaché à une barque. Il permet au bateau de transporter des cargaisons plus lourdes.\nEffet à partir de 3 objets d&apos;ensemble :\nvitesse de mouvement +3 %\ntous les types de PD +30(actuellement indisponible)\n\n- Utilisable sur : barque\n\nPeut être amélioré avec une pierre noire (armure)</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Nœud décoratif de Krea de destruction</name>
+			<icon>00010724.png</icon>
+			<desc>Ce nœud décoratif de Krea renferme l&apos;énergie de la destruction.\n\n- - Rétablir la durabilité maximale : nœud décoratif de Krea de destruction, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Nœud décoratif de Krea de la flamme pourpre</name>
+			<icon>00010724.png</icon>
+			<desc>Ce nœud décoratif de Krea renferme l&apos;énergie de la flamme pourpre.\n\n- - Rétablir la durabilité maximale : nœud décoratif de Krea de la flamme pourpre, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Nœud décoratif de Krea</name>
+			<icon>00010724.png</icon>
+			<desc>Un nœud décoratif conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Nœud décoratif de Krea ultime</name>
+			<icon>00010724.png</icon>
+			<desc>Un nœud décoratif de Krea qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : nœud décoratif de Krea de la flamme pourpre, nœud décoratif de Krea de destruction, nœud décoratif de Krea de tentation, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Nœud décoratif de Krea de tentation</name>
+			<icon>00010724.png</icon>
+			<desc>Ce nœud décoratif de Krea renferme l&apos;énergie de la tentation.\n\n- - Rétablir la durabilité maximale : nœud décoratif de Krea de tentation, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Candélabre en laiton avec quatre bougies</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>Un candélabre en laiton avec quatre bougies.</desc>
+		</item>
+		<item>
+			<id>2216</id>
+			<name>Table de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_SideTable_01.png</icon>
+			<desc>Une table fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2210</id>
+			<name>Table de Mediah fabriquée main</name>
+			<icon>InHouse_H_DFF_SideTable_01.png</icon>
+			<desc>Une table fabriquée à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2208</id>
+			<name>Table à manger de Mediah fabriquée main</name>
+			<icon>InHouse_H_DFF_Table_01.png</icon>
+			<desc>Une table à manger fabriquée à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Table à manger de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>Une table à manger fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2010</id>
+			<name>Table de chevet de Mediah fabriquée main</name>
+			<icon>InHouse_H_DFF_Chest_01.png</icon>
+			<desc>Une table de chevet fabriquée à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2008</id>
+			<name>Commode de Mediah fabriquée main</name>
+			<icon>InHouse_H_DFF_Dresser_01.png</icon>
+			<desc>Un tiroir fabriqué à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Commode de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>Un tiroir fabriqué à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2108</id>
+			<name>Placard de Mediah fabriqué main</name>
+			<icon>InHouse_H_DFF_Closet_01.png</icon>
+			<desc>Une armoire fabriquée à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Armoire de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>Une armoire fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2316</id>
+			<name>Canapé de Mediah fabriqué main</name>
+			<icon>InHouse_H_DFF_Sofa_01.png</icon>
+			<desc>Un canapé fabriqué à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2315</id>
+			<name>Chaise de Mediah fabriquée main</name>
+			<icon>InHouse_H_DFF_Chair_01.png</icon>
+			<desc>Une chaise fabriquée à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2313</id>
+			<name>Canapé de Calpheon fabriqué main</name>
+			<icon>InHouse_F_DFF_Sofa_01.png</icon>
+			<desc>Un canapé fabriqué à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2311</id>
+			<name>Canapé de Velia fabriqué main</name>
+			<icon>InHouse_D_DFF_Sofa_01.png</icon>
+			<desc>Un canapé fabriqué à la main à Velia.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2309</id>
+			<name>Canapé d&apos;Heidel fabriqué main</name>
+			<icon>InHouse_B_DFF_Sofa_01.png</icon>
+			<desc>Un canapé fabriqué à la main à Heidel.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Chaise de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>Une chaise fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Placard de Calpheon fabriqué main</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>Une table de chevet fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2708</id>
+			<name>Lit de Mediah fabriqué main</name>
+			<icon>InHouse_H_DFF_Bed_01.png</icon>
+			<desc>Un lit fabriqué main de Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2706</id>
+			<name>Lit de Calpheon fabriqué main</name>
+			<icon>InHouse_F_DFF_Bed_01.png</icon>
+			<desc>Un lit fabriqué main de Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 2</name>
+			<icon>00004908.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 2.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>49004</id>
+			<name>Permis bateau : barque de Mediah</name>
+			<icon>00049004.png</icon>
+			<desc>Preuve de propriété d&apos;une [barque de Mediah] sur les quais.\n- Emplacement d&apos;inventaire : 8, accélération : 100 %, vitesse : 110 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis bateau\n 1. Effectuez un clic droit sur le permis bateau et déplacez-le vers le quai sélectionné.\n 2. Adressez-vous au gardien de la traversée en barque et sélectionnez le menu du quai.\n 3. Cliquez sur le menu d&apos;enregistrement des bateaux puis effectuez un clic droit sur le permis bateau.\n 4. Saisissez le nom du bateau puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le bateau enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

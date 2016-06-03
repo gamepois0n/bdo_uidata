@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9062</itemKey>
+	<itemName>Cheese</itemName>
+	<itemIcon>00009062.png</itemIcon>
+	<itemDesc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

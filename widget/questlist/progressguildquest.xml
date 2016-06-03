@@ -1,0 +1,67 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Current_Guild_Quest" Pos="0 0" Size="300 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 100" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_empty.dds</Texture>
+		<Texture Type="Special" UV="0 0 64 0 0 64 64 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_empty.dds</Texture>
+		<Control Type="Static" Name="Static_BG" Pos="0 0" Size="62 62" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 62" Grid="1" GridPosX="0 8 54 62" GridPosY="0 8 54 62" GridUVX="0 8 54 62" GridUVY="0 8 54 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 127 63 127 1 189 63 189" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Left Top" Size="300 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 439 195 439 1 462 195 462" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="퀘스트 이름" Font="BaseFont_10" Color="ff8b5de9" OverColor="ff8b5de9" ClickColor="ff8b5de9" AlignHorizon="Left" AlignVertical="Center" Span="5 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_AutoNavi" Pos="Right Top" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="83 2 108 2 83 27 108 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="83 29 108 29 83 54 108 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="83 56 108 56 83 81 108 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_Quest_Navi" Pos="Right Top" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="56 2 81 2 56 27 81 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="56 29 81 29 56 54 81 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="56 56 81 56 56 81 81 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Checkbox_Quest_Reward" Pos="Right Top" Size="18 18" Pan="20 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="292 385 310 385 292 403 310 403" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="On" UV="292 404 310 404 292 422 310 422" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="Click" UV="292 423 310 423 292 441 310 441" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Checkbox_Quest_Giveup" Pos="Right Top" Size="18 18" Pan="40 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="29 2 54 2 29 27 54 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="29 29 54 29 29 54 54 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="29 56 54 56 29 81 54 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LimitTime" Pos="1 20" Size="280 22" Pan="10 20" Color="ffffffff" EnableArea="0 0 200 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="제한시간 : " Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="13 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Condition1" Pos="10 40" Size="280 20" Pan="10 20" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="조건1" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Condition2" Pos="10 60" Size="280 20" Pan="10 40" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="조건2" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Condition3" Pos="10 80" Size="280 20" Pan="10 60" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="조건3" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Condition4" Pos="10 100" Size="280 20" Pan="10 80" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="조건4" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Condition5" Pos="10 120" Size="280 20" Pan="10 100" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="조건5" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

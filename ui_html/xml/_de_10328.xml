@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10328</itemKey>
+	<itemName>Krea-Dolch der Versuchung</itemName>
+	<itemIcon>00010324.png</itemIcon>
+	<itemDesc>Dieser Krea-Dolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Versuchung, Krea-Dolch</itemDesc>
+	<house type="4">
+		<item>
+			<id>4066</id>
+			<name>Messingbarren</name>
+			<icon>00004066.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zink gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4253</id>
+			<name>Reiner Silberkristall</name>
+			<icon>00004253.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Silberbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4803</id>
+			<name>Spaltenpulver</name>
+			<icon>00004803.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10324</id>
+			<name>Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein Dolch, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10331</id>
+			<name>Ultimativer Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Dolch.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch der Zerstörung, Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea-Dolch der Versuchung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea-Dolch der Zerstörung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Zerstörung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea-Dolch der Purpurnen Flamme</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein Dolch, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

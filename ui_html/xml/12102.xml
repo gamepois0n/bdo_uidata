@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12102</itemKey>
+	<itemName>Resplendent Ruby Ring</itemName>
+	<itemIcon>00012102.png</itemIcon>
+	<itemDesc>A ring decorated with a Resplendent Ruby.</itemDesc>
+	<house type="8">
+		<item>
+			<id>12101</id>
+			<name>Ruby Ring</name>
+			<icon>00012101.png</icon>
+			<desc>A ring decorated with a Ruby.</desc>
+		</item>
+		<item>
+			<id>4257</id>
+			<name>Melted Platinum Shard</name>
+			<icon>00004257.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Platinum Ore.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Ruby</name>
+			<icon>00004451.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Ruby.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12103</id>
+			<name>Blood Ruby Ring</name>
+			<icon>00012103.png</icon>
+			<desc>A ring decorated with a Blood Ruby.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

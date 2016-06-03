@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14424</itemKey>
+	<itemName>Halbmenschen-Stab der Purpurnen Flamme</itemName>
+	<itemIcon>00014406.png</itemIcon>
+	<itemDesc>Dieser Halbmenschen-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab</itemDesc>
+	<house type="6">
+		<item>
+			<id>4062</id>
+			<name>Reiner Zinnkristall</name>
+			<icon>00004062.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Zinnbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Eschensaft</name>
+			<icon>00005001.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Esche erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4601</id>
+			<name>Eschenholz</name>
+			<icon>00004601.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann in der Goblinhöhle, auf dem Ehwazhügel, im Balenoswald und auf dem Wolfshügel hergestellt werden. Kann außerdem durch Holzfällen von Eschen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Mönchszweig</name>
+			<icon>00005007.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Mönchszweig erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Spur der Wildheit</name>
+			<icon>00005956.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei den Ruinen von Hof Lynch gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14406</id>
+			<name>Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein Stab zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14427</id>
+			<name>Ultimativer Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Halbmenschen-Stab der Versuchung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Halbmenschen-Stab der Zerstörung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Halbmenschen-Stab der Purpurnen Flamme</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein Stab zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

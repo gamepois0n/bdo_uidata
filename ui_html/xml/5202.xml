@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5202</itemKey>
+	<itemName>Essence of Crimson Flame</itemName>
+	<itemIcon>00005202.png</itemIcon>
+	<itemDesc>An essence extracted from Fruit of Crimson Flame, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n- How to Obtain: Can be made by combining other ingredients with Fruit of Crimson Flame using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5201</id>
+			<name>Fruit of Crimson Flame</name>
+			<icon>00005201.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5201</id>
+			<name>Fruit of Crimson Flame</name>
+			<icon>00005201.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Ash Sap</name>
+			<icon>00005001.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from an Ash Tree using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace of Ascension</name>
+			<icon>00005955.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</desc>
+		</item>
+		<item>
+			<id>5409</id>
+			<name>Dwarf Mushroom</name>
+			<icon>00005409.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: It can be Produced at Northern Cienaga. Dwarf Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

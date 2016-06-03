@@ -1,0 +1,101 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Endurance" Pos="400 200" Size="70 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 100">
+		<Control Type="Static" Name="Static_Armor" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="285 1 355 1 285 101 355 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Helm" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="214 1 284 1 214 101 284 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Glove" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="427 1 497 1 427 101 497 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Boots" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="356 1 426 1 356 101 426 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WeaponR" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="72 1 142 1 72 101 142 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WeaponL" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="143 1 213 1 143 101 213 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_AwakenWeapon" Pos="0 0" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="427 102 497 102 427 202 497 202" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Earing1" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 102 71 102 1 202 71 202" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Earing2" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="72 102 142 102 72 202 142 202" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Belt" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="214 102 284 102 214 202 284 202" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Necklace" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="143 102 213 102 143 202 213 202" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Ring1" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="285 102 355 102 285 202 355 202" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Ring2" Pos="Center Center" Size="70 100" Pan="0 0" Color="ff000000" EnableArea="0 0 70 100" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="356 102 426 102 356 202 426 202" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_02.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WeightOver" Pos="27 107" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32">
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/weightover.dds</Texture>
+			<Text Value="50%" Font="BaseFont_10_Line" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -15"/>
+		</Control>
+		<Control Type="MultilineText" Name="StaticText_NoticeEndurance" Pos="Left Top" Size="250 40" Pan="-210 105" Color="ffffffff" EnableArea="0 0 250 40">
+			<Attribute Type="Ignore"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="b8ffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="가까운 마을에서 수리할 수 있습니다.\n(내구도가 0인 장비는 어떤 기능도 낼 수 없습니다)" formatString="ENDURANCE_TXT_NOTICE" Font="BaseFont_8_Line" Color="c6f16f6f" OverColor="c6f16f6f" ClickColor="c6f16f6f" AlignHorizon="Right" AlignVertical="Center" Span="5 5"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Repair_AutoNavi" Pos="Left Top" Size="18 18" Pan="60 105" Color="ffffffff" EnableArea="0 0 18 18" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="83 2 108 2 83 27 108 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="83 29 108 29 83 54 108 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="83 56 108 56 83 81 108 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_Repair_Navi" Pos="Left Top" Size="18 18" Pan="40 105" Color="ffffffff" EnableArea="0 0 18 18" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="56 2 81 2 56 27 81 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="56 29 81 29 56 54 81 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="56 56 81 56 56 81 81 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="MultilineText" Name="StaticText_NoticeWeight" Pos="-224 104" Size="250 40" Pan="-290 -2" Color="ffffffff" EnableArea="0 0 250 40">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="b8ffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="무게가 100%를 넘어가면 이동 및 공격 속도가\n떨어집니다. 가방을 정리해 무게를 줄이세요." formatString="UI_ENDURANCE_STCTXT_NOTICEWEIGHT" Font="BaseFont_8_Line" Color="f4f16f6f" OverColor="f4f16f6f" ClickColor="f4f16f6f" AlignHorizon="Right" AlignVertical="Center" Span="5 5"/>
+		</Control>
+		<Control Type="Static" Name="Static_Effect" Pos="0 0" Size="70 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 100" AutoDisableTime="0.000000"/>
+	</Control>
+</UI>
+

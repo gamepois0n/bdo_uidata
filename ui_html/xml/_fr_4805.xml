@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4805</itemKey>
+	<itemName>Poudre du temps</itemName>
+	<itemIcon>00004805.png</itemIcon>
+	<itemDesc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</itemDesc>
+	<collect>
+		<character>
+			<name>Béryl</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diamant</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Or</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Platine</name>
+		</character>
+	</collect>
+	<node region="Colline de Quint : extraction minière"/>
+	<node region="Grotte de lave d'Omar : extraction minière"/>
+	<node region="Mine de fer abandonnée : extraction minière"/>
+	<node region="Fissure des Sages : extraction minière"/>
+	<node region="Marécage de Glish : extraction minière"/>
+	<makelist>
+		<item>
+			<id>14020</id>
+			<name>Vêtements de pêcheur brodés d&apos;argent</name>
+			<icon>00014069.png</icon>
+			<desc>Un habit noble fait pour les pêcheurs.</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Nœud décoratif de Saiyer ultime</name>
+			<icon>00010703.png</icon>
+			<desc>Un nœud décoratif de Saiyer qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : nœud décoratif de Saiyer de la flamme pourpre, nœud décoratif de Saiyer de destruction, nœud décoratif de Saiyer de tentation, nœud décoratif de Saiyer</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Nœud décoratif de Saiyer de tentation</name>
+			<icon>00010703.png</icon>
+			<desc>Ce nœud décoratif de Saiyer renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : nœud décoratif de Saiyer de tentation, nœud décoratif de Saiyer</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Nœud décoratif de Saiyer de destruction</name>
+			<icon>00010703.png</icon>
+			<desc>Ce nœud décoratif de Saiyer renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : nœud décoratif de Saiyer de destruction, nœud décoratif de Saiyer</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Nœud décoratif de Saiyer de la flamme pourpre</name>
+			<icon>00010703.png</icon>
+			<desc>Ce nœud décoratif de Saiyer renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : nœud décoratif de Saiyer de la flamme pourpre, nœud décoratif de Saiyer</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Nœud décoratif de Saiyer</name>
+			<icon>00010703.png</icon>
+			<desc>Un nœud décoratif fait main pour une hache fait en soie de qualité.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

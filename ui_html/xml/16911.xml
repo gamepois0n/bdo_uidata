@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16911</itemKey>
+	<itemName>Waterway</itemName>
+	<itemIcon>00016911.png</itemIcon>
+	<itemDesc>Installing a Waterway in a Garden will reduce the amount of water consumed.\n(Right-click to display the closest Fence Exchange location)</itemDesc>
+	<house type="7">
+		<item>
+			<id>4605</id>
+			<name>Log</name>
+			<icon>00004605.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Lumbering trees grown in every region.</desc>
+		</item>
+		<item>
+			<id>6653</id>
+			<name>Bottle of River Water</name>
+			<icon>00006653.png</icon>
+			<desc>Water Gathered from a river using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: River Water can be obtained by using an Empty Bottle at a river.\n\n※ Pouring a Bottle of River Water on a Garden will increase the available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+</itemInfo>
+

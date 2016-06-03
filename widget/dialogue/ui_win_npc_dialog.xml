@@ -1,0 +1,341 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Npc_Dialog" Pos="Left Bottom" Size="1280 262" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 262">
+		<Texture Type="Base" UV="0 0 1024 0 0 262 1024 262" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_wide.dds</Texture>
+		<Control Type="Static" Name="Static_ContolForScroll" Pos="0 0" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Button" Name="Button_Exit" Pos="300 38" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="대화종료(ESC)" formatString="DIALOGUE_BTN_EXIT" Font="BaseFont_10_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 8"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_MenuAni_0" Pos="1015 -181" Size="170 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 170 42" Grid="1" GridPosX="0 14 156 170" GridPosY="0 14 28 42" GridUVX="0 14 26 40" GridUVY="0 14 26 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 31 193 31 154 70 193 70" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="33ffffff" EndColor="dfffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MenuAni_1" Pos="1012 -248" Size="170 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 170 42" Grid="1" GridPosX="0 14 156 170" GridPosY="0 14 28 42" GridUVX="0 14 26 40" GridUVY="0 14 26 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 31 193 31 154 70 193 70" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="33ffffff" EndColor="dfffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MenuAni_2" Pos="1010 -293" Size="170 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 170 42" Grid="1" GridPosX="0 14 156 170" GridPosY="0 14 28 42" GridUVX="0 14 26 40" GridUVY="0 14 26 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 31 193 31 154 70 193 70" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="33ffffff" EndColor="dfffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MenuAni_3" Pos="1003 -368" Size="170 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 170 42" Grid="1" GridPosX="0 14 156 170" GridPosY="0 14 28 42" GridUVX="0 14 26 40" GridUVY="0 14 26 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 31 193 31 154 70 193 70" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="33ffffff" EndColor="dfffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MenuAni_4" Pos="989 -450" Size="170 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 170 42" Grid="1" GridPosX="0 14 156 170" GridPosY="0 14 28 42" GridUVX="0 14 26 40" GridUVY="0 14 26 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 31 193 31 154 70 193 70" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="33ffffff" EndColor="dfffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MenuAni_5" Pos="995 -529" Size="170 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 170 42" Grid="1" GridPosX="0 14 156 170" GridPosY="0 14 28 42" GridUVX="0 14 26 40" GridUVY="0 14 26 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 31 193 31 154 70 193 70" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="33ffffff" EndColor="dfffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Button" Name="Button_Menu_5" Pos="0 40" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.500000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="대화" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 8"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Menu_4" Pos="0 40" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.500000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="퀘스트를 받는다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 8"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Menu_3" Pos="0 40" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.500000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="기술을 배운다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 8"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Menu_2" Pos="0 40" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.500000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="퀘스트를 받는다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 8"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Menu_1" Pos="0 40" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.500000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="퀘스트를 받는다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 8"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Menu_0" Pos="0 40" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.500000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="퀘스트를 받는다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 7"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Dialog_0" Pos="465 Bottom" Size="350 23" Pan="0 81" Color="ffffffff" EnableArea="0 0 350 23" Grid="1" GridPosX="0 5 345 350" GridPosY="0 6 18 23" GridUVX="0 5 149 154" GridUVY="0 6 27 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="대화 내용" Font="BaseFont_12" Color="ffdfdfdf" OverColor="ffdfdfdf" ClickColor="ffdfdfdf" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Dialog_1" Pos="465 Bottom" Size="350 23" Pan="0 56" Color="ffffffff" EnableArea="0 0 350 23" Grid="1" GridPosX="0 5 345 350" GridPosY="0 6 18 23" GridUVX="0 5 149 154" GridUVY="0 6 27 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="대화 내용" Font="BaseFont_12" Color="ffdfdfdf" OverColor="ffdfdfdf" ClickColor="ffdfdfdf" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Dialog_2" Pos="465 Bottom" Size="350 23" Pan="0 31" Color="ffffffff" EnableArea="0 0 350 23" Grid="1" GridPosX="0 5 345 350" GridPosY="0 6 18 23" GridUVX="0 5 149 154" GridUVY="0 6 27 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="대화 내용" Font="BaseFont_12" Color="ffdfdfdf" OverColor="ffdfdfdf" ClickColor="ffdfdfdf" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Dialog_3" Pos="465 Bottom" Size="350 23" Pan="0 6" Color="ffffffff" EnableArea="0 0 350 23" Grid="1" GridPosX="0 5 345 350" GridPosY="0 6 18 23" GridUVX="0 5 149 154" GridUVY="0 6 27 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="대화 내용" Font="BaseFont_12" Color="ffdfdfdf" OverColor="ffdfdfdf" ClickColor="ffdfdfdf" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Next" Pos="465 Bottom" Size="350 23" Pan="0 81" Color="ffffffff" EnableArea="0 0 350 23" Grid="1" GridPosX="0 5 345 350" GridPosY="0 6 18 23" GridUVX="0 5 149 154" GridUVY="0 6 27 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 211 155 211" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="다음…" formatString="DIALOGUE_BTN_NEXT" Font="BaseFont_10_Bold" Color="ffd9b08a" OverColor="ffd9b08a" ClickColor="ffd9b08a" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_DialogButtonIcon" Pos="470 160" Size="18 19" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 19" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="380 11 398 11 380 30 398 30" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+		</Control>
+		<Control Type="MultilineText" Name="Static_NPC_Content" Pos="Center 80" Size="900 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 900 70">
+			<Attribute Type="Ignore"/>
+			<Text Value="월드맵을 열어보시기 바랍니다. M 키 혹은 우측 하단에 월드맵 아이콘을 누르면 됩니다.\n월드맵 상에서 벨리아 마을을 선택한 뒤 마을내 집 아이콘을 누르고 창고 메뉴를 선택해 구입하면 됩니다." Font="SubTitleFont_14" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_NPC_Name" Pos="610 8" Size="300 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="NPC이름" Font="SubTitleFont_14_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_NPC" Pos="501 11" Size="100 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="NPC기능" Font="BaseFont_10_Bold" Color="ffd9b08a" OverColor="ffd9b08a" ClickColor="ffd9b08a" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Spacebar" Pos="780 Bottom" Size="40 22" Pan="180 55" Color="afffffff" EnableArea="0 0 40 22" Grid="1" GridPosX="0 4 36 40" GridPosY="0 4 18 22" GridUVX="0 4 26 30" GridUVY="0 5 26 30">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="1.40" ChangeChild="True" ColorOperator="0" ID="Ani_Color_SPACE" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="R" Font="BaseFont_8_Bold" Color="afd9b08a" OverColor="afd9b08a" ClickColor="afd9b08a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="style_Button_Explore" Pos="Center Bottom" Size="350 23" Pan="0 6" Color="ffffffff" EnableArea="0 0 350 23" Grid="1" GridPosX="0 17 333 350" GridPosY="0 6 18 23" GridUVX="0 17 137 154" GridUVY="0 6 27 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 1 310 1 156 33 310 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 1 465 1 311 33 465 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="대화 내용" Font="BaseFont_12" Color="ffdfdfdf" OverColor="ffdfdfdf" ClickColor="ffdfdfdf" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="style_Button_Original" Pos="Center Bottom" Size="350 23" Pan="0 56" Color="ffffffff" EnableArea="0 0 350 23" Grid="1" GridPosX="0 5 345 350" GridPosY="0 6 18 23" GridUVX="0 5 149 154" GridUVY="0 6 27 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="대화 내용" Font="BaseFont_12" Color="ffdfdfdf" OverColor="ffdfdfdf" ClickColor="ffdfdfdf" AlignHorizon="Center" AlignVertical="Top" Span="0 -1"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_HalfLine" Pos="Center Top" Size="469 6" Pan="0 70" Color="ffffffff" EnableArea="0 0 469 6" Grid="1" GridPosX="0 86 386 469" GridPosY="0 0 6 6" GridUVX="0 86 386 469" GridUVY="0 0 6 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Back" Pos="131 37" Size="160 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 364 155 364 1 396 155 396" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_01.dds</Texture>
+			<Texture Type="On" UV="156 364 310 364 156 396 310 396" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_01.dds</Texture>
+			<Texture Type="Click" UV="311 364 465 364 311 396 465 396" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="85ffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Locked" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="처음으로" formatString="PANEL_NPC_DIALOG_BACK" Font="BaseFont_10_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 8"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleBox" Pos="499 -50" Size="280 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 60" Grid="1" GridPosX="0 18 217 230" GridPosY="0 12 28 60" GridUVX="0 18 137 150" GridUVY="0 12 54 86" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 151 1 1 87 151 87" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleBox" Pos="499 -50" Size="260 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="이야기여력 포인트 필요" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Top" Span="15 5"/>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleBox2" Pos="750 -50" Size="280 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 60" Grid="1" GridPosX="0 18 217 230" GridPosY="0 12 28 60" GridUVX="0 18 137 150" GridUVY="0 12 54 86" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 151 1 1 87 151 87" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleBox2" Pos="750 -50" Size="260 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 40">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="선행 거점 연결이 필요합니다.\n버튼을 눌러 선행 거점을 확인하세요." Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Top" Span="15 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Notice" Pos="96 104" Size="145 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 145 23" Grid="1" GridPosX="0 10 135 145" GridPosY="0 10 13 23" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 63 64 63 1 126 64 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="NPC 찾기" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="7 3"/>
+		</Control>
+		<Control Type="Static" Name="Static_ProgressBG" Pos="Left Top" Size="128 128" Pan="20 105" Color="ffffffff" EnableArea="0 0 128 128" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="256 1 384 1 256 129 384 129" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_Current" Pos="Left Top" Size="128 128" Pan="20 105" Color="ffffffff" EnableArea="0 0 128 128" StartRadian="1.570796" CenterPos="64.00 64.00">
+			<Texture Type="Base" UV="383 1 512 1 383 129 512 129" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Fruitage_Value" Pos="Left Top" Size="128 128" Pan="20 110" Color="ffffffff" EnableArea="0 0 128 128">
+			<Attribute Type="Ignore"/>
+			<Text Value="130" Font="SubTitleFont_14" Color="ffe0d5a7" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Intimacy" Pos="Left Top" Size="50 20" Pan="58 145" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="친밀도" formatString="PANEL_DIALOG_INTIMACY" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_GiftIcon" Pos="28 111" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 15" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 360 0 0 360 360 360" Ani="1 1 0.000 0">ui_artwork/collected_study.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_IntimacyNotice" Pos="Left Top" Size="120 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="현재 대화중인 대상과의 친밀도입니다. 어떤 NPC는 친밀감을 보상으로 표현하기도 합니다." formatString="UI_WIN_NPC_DIALOG_STCTXT_INTIMACYNOTICE" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 8"/>
+		</Control>
+		<Control Type="Static" Name="Static_Notice" Pos="150 -22" Size="180 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 180 20" Grid="1" GridPosX="0 10 170 180" GridPosY="0 10 10 20" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 63 64 63 1 126 64 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NeedWpAni" Pos="1196 169" Size="34 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 34 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 34 0 0 20 34 20" Ani="4 1 0.350 0">new_ui_common_forlua/widget/dialogue/dialog_needwp.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Intimacy" Pos="1197 195" Size="34 20" Pan="0 0" Color="adffffff" EnableArea="0 0 34 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 34 0 0 20 34 20" Ani="2 1 0.500 0">new_ui_common_forlua/widget/globalmanual/dialog_intimacy.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Dark_Enchant" Pos="1092 32" Size="178 63" Pan="0 0" Color="f4ffffff" EnableArea="0 0 178 63" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 395 179 395 1 458 179 458" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="aaffffff" StartIntensity="1.00" EndIntensity="2.50" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Dark_Socket" Pos="291 16" Size="178 63" Pan="0 0" Color="fdffffff" EnableArea="0 0 178 63" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="180 395 358 395 180 458 358 458" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="aaffffff" StartIntensity="1.00" EndIntensity="2.50" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EnchantMsg" Pos="661 -163" Size="250 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 60" Grid="1" GridPosX="0 10 208 250" GridPosY="0 12 28 60" GridUVX="0 10 108 150" GridUVY="0 12 54 86">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 349 150 349 1 435 150 435" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SocketMsg" Pos="788 -90" Size="250 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 60" Grid="1" GridPosX="0 10 208 250" GridPosY="0 12 28 60" GridUVX="0 10 108 150" GridUVY="0 12 54 86">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 349 150 349 1 435 150 435" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EnchantMsg_Desc" Pos="672 -159" Size="230 38" Pan="0 0" Color="ffffffff" EnableArea="0 0 230 38">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="네 가방 안에 블랙스톤이 보이는걸? 네가 가진 무기나 방어구를 내가 더 강하게 만들어줄게." Font="BaseFont_10_Bold" Color="ff000000" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SocketMsg_Desc" Pos="797 -86" Size="230 38" Pan="0 0" Color="ffffffff" EnableArea="0 0 230 38">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="네 가방 안에 수정은 무기나 방어구에 다양한 효과를 부여하지, 내가 넣어줄까?" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GiftNotice" Pos="167 -74" Size="100 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 10 90 100" GridPosY="0 10 15 25" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 63 64 63 1 126 64 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="지식" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_NextPage" Pos="Center Bottom" Size="18 18" Pan="-200 26" Color="cbffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="217 156 236 156 217 174 236 174" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="217 175 236 175 217 193 236 193" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="217 194 236 194 217 212 236 212" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="cbd9b08a" OverColor="cbd9b08a" ClickColor="cbd9b08a" AlignHorizon="Center" AlignVertical="Center" Span="0 20"/>
+		</Control>
+		<Control Type="Button" Name="Button_PrevPage" Pos="Center Bottom" Size="18 18" Pan="-200 62" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="236 156 254 156 236 174 254 174" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="236 175 254 175 236 193 254 193" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="236 194 254 194 236 212 254 212" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PageValue" Pos="Center Bottom" Size="18 18" Pan="-200 44" Color="ffffffff" EnableArea="0 0 18 18">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="1" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

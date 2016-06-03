@@ -1,0 +1,68 @@
+<UI>
+	<Control Type="Panel" Name="Panel_NodeGuildWarMenu" Pos="673 273" Size="230 220" Pan="0 0" Color="ffffffff" EnableArea="0 0 230 220" Grid="1" GridPosX="0 10 220 230" GridPosY="0 10 210 220" GridUVX="0 10 173 183" GridUVY="0 10 212 222" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_GuildWarTitle" Pos="Center Top" Size="175 20" Pan="0 10" Color="  ffffff" EnableArea="0 0 175 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="거점전 정보" formatString="PANEL_NODEGUILDWARMENU_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NodeBG" Pos="Center Top" Size="210 175" Pan="0 35" Color="ffffffff" EnableArea="0 0 210 175" Grid="1" GridPosX="0 10 200 210" GridPosY="0 10 165 175" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildNameValue" Pos="Center Top" Size="150 16" Pan="23 52" Color="  ffffff" EnableArea="0 0 150 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명은열자까지가능" Font="BaseFont_12" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_GuildMarkBG" Pos="Left Top" Size="40 40" Pan="18 43" Color="ffffffff" EnableArea="0 0 40 40" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 40 0 0 40 40 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nowarguildbackground.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildMark" Pos="Left Top" Size="36 36" Pan="20 45" Color="ffffffff" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 96 0 0 96 96 96" Ani="1 1 0.000 0">icon/quest/5_giant.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildMaster" Pos="Center Top" Size="50 16" Pan="-75 90" Color="  ffffff" EnableArea="0 0 50 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드대장 :" formatString="PANEL_NODEGUILDWARMENU_GUILDMASTER" Font="BaseFont_10" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildMasterValue" Pos="Center Top" Size="130 16" Pan="30 90" Color="  ffffff" EnableArea="0 0 130 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="캐릭명은열자까지가능" Font="BaseFont_10" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeWarPeriod" Pos="Center Top" Size="50 16" Pan="-75 110" Color="  ffffff" EnableArea="0 0 50 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령일    :" formatString="PANEL_NODEGUILDWARMENU_PERIOD" Font="BaseFont_10" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeWarPeriodValue" Pos="Center Top" Size="130 16" Pan="30 110" Color="  ffffff" EnableArea="0 0 130 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="2015년 12월 30일 24시" Font="BaseFont_10" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Benefits" Pos="Center Top" Size="50 16" Pan="0 130" Color="  ffffff" EnableArea="0 0 50 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령혜택" formatString="PANEL_NODEGUILDWARMENU_BENEFITS" Font="BaseFont_10" Color="fff26a6a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="MultilineText" Name="StaticText_BenefitsValue" Pos="Center Top" Size="180 16" Pan="0 150" Color="  ffffff" EnableArea="0 0 180 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="세금 혜택(1 단계)\n생산량 혜택(2 배수)" Font="BaseFont_10" Color="ff3db7cc" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeWar_Ing" Pos="Center Top" Size="150 16" Pan="0 70" Color="  ffffff" EnableArea="0 0 150 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="거점전 진행중" formatString="PANEL_NODEGUILDWARMENU_ING" Font="SubTitleFont_14_Bold" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_JoingNodeWar" Pos="Center Top" Size="150 16" Pan="0 100" Color="  ffffff" EnableArea="0 0 150 16">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="99개의 길드가 참여중" Font="BaseFont_12" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeWarFree" Pos="Center Top" Size="150 16" Pan="0 70" Color="  ffffff" EnableArea="0 0 150 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 길드가 없습니다." formatString="PANEL_NODEGUILDWARMENU_NODEFREE" Font="SubTitleFont_14_Bold" Color="ffff9900" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeWarDesc" Pos="Center Top" Size="50 20" Pan="0 190" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="단계가 높을수록 많은 세금 수령 가능" formatString="PANEL_NODEGUILDWARMENU_NODEWARDESC" Font="BaseFont_8" Color="fff26a6a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

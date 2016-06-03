@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6155</itemKey>
+	<itemName>Dickes Fell</itemName>
+	<itemIcon>00006155.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Bären- oder Wolfsfell gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Balenosbär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blinde Stupsnase</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Braunbär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Dressierter Wolf</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fleckenhyäne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grauwolf</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rotbär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendiabär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendiawolf</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wolf</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6013</id>
+			<name>Bärenfell</name>
+			<icon>00006013.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Bärenkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6014</id>
+			<name>Wolfsfell</name>
+			<icon>00006014.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wolfskadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>6163</id>
+			<name>Feines dickes Fell</name>
+			<icon>00006163.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Bären- oder Wolfsfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

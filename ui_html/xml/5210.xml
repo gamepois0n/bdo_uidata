@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5210</itemKey>
+	<itemName>Essence of Enchantment</itemName>
+	<itemIcon>00005210.png</itemIcon>
+	<itemDesc>An essence extracted from Fruit of Enchantment, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n- How to Obtain: Can be made by combining other ingredients with Fruit of Enchantment using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5209</id>
+			<name>Fruit of Enchantment</name>
+			<icon>00005209.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5209</id>
+			<name>Fruit of Enchantment</name>
+			<icon>00005209.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Ash Sap</name>
+			<icon>00005001.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from an Ash Tree using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Powder of Darkness</name>
+			<icon>00004801.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5403</id>
+			<name>Fire Flake Flower</name>
+			<icon>00005403.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. \n- How to Obtain: It can be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

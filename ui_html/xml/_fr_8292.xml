@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8292</itemKey>
+	<itemName>Pacu</itemName>
+	<itemIcon>00008292.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8592</id>
+			<name>Pacu séché</name>
+			<icon>00008592.png</icon>
+			<desc>Un pacu obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

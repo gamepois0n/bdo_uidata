@@ -1,0 +1,38 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CustomizationSkin" Pos="Right Center" Size="285 320" Pan="50 0" Color="ffffffff" EnableArea="0 0 285 320">
+		<Attribute Type="Hide"/>
+		<Attribute Type="Drag" Area="0 0 285 30"/>
+		<Control Type="Frame" Name="Frame_Template_Color" Pos="10 50" Size="265 100" Pan="120 220" Color="ffffffff" EnableArea="0 0 265 100" IgnoreVScroll="true" IgnoreHScroll="true">
+			<Control Type="FrameContent" Name="Frame_Content" Pos="0 0" Size="275 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 275 48">
+				<Attribute Type="Ignore"/>
+				<Control Type="Static" Name="Frame_Content_Image" Pos="0 0" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+					<Attribute Type="Hide"/>
+				</Control>
+				<Control Type="Static" Name="Static_SelectMark" Pos="0 0" Size="25 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 25 25" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="0 0 25 0 0 25 25 25" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_palette_select.dds</Texture>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_Collision" Pos="10 50" Size="265 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 100" AutoDisableTime="0.000000"/>
+		<Control Type="Slider" Name="Slider_R_Controller" Pos="84 21" Size="185 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 185 8" Grid="1" GridPosX="0 2 183 185" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="88 Center" Size="36 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Slider_R_Left" Pos="56 23" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="(Now)" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_1" Pos="10 13" Size="60 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="¹ÝÂ¦ÀÓ" formatString="UI_CUSTOMIZATION_SKIN_STCTXT_SLIDER_1" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

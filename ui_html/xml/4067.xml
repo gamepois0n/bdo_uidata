@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4067</itemKey>
+	<itemName>Bronze Ingot</itemName>
+	<itemIcon>00004067.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper and Tin together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+		<item>
+			<id>4060</id>
+			<name>Melted Tin Shard</name>
+			<icon>00004060.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Tin Ore.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+		<item>
+			<id>4060</id>
+			<name>Melted Tin Shard</name>
+			<icon>00004060.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Tin Ore.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>49204</id>
+			<name>Fishing Boat Cargo Container</name>
+			<icon>00049204.png</icon>
+			<desc>A freight chest that can be attached to a fishing boat. It allows the boat to hold heavier cargo when equipped.\nWhen 3 or more set items are equipped:\nMovement Speed +2%\nAll DP +30\n- Mounts Usable: Fishing Boat\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>49202</id>
+			<name>Calpheon Ferry Cargo Container</name>
+			<icon>00049202.png</icon>
+			<desc>A Calpheon freight chest that can be attached to a ferry. It allows the boat to hold heavier cargo when equipped.\nWhen 3 or more set items are equipped:\nMovement Speed +2%\nWeight Limit +100LT\n- Mounts Usable: Ferry\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>16110</id>
+			<name>Sharp Fluid Collector</name>
+			<icon>00016110.png</icon>
+			<desc>A Gathering Tool made for extracting animal blood or sap.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16106</id>
+			<name>Sharp Lumbering Axe</name>
+			<icon>00016106.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16126</id>
+			<name>Sharp Pickaxe</name>
+			<icon>00016126.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16122</id>
+			<name>Sharp Tanning Knife</name>
+			<icon>00016122.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16118</id>
+			<name>Sharp Butcher Knife</name>
+			<icon>00016118.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16114</id>
+			<name>Bronze Hoe</name>
+			<icon>00016114.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>51009</id>
+			<name>Wagon Registration: Flimsy Wagon</name>
+			<icon>00051009.png</icon>
+			<desc>Proof of ownership of a &lt;Flimsy Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 6, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51001</id>
+			<name>Wagon Registration: Shabby Wagon</name>
+			<icon>00051001.png</icon>
+			<desc>Proof of ownership of a &lt;Shabby Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 8, Acceleration: 110%, Speed: 110%, Turn: 120%, Braking: 120%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>55848</id>
+			<name>Bronze Ingot Crate</name>
+			<icon>00055848.png</icon>
+			<desc>A Trade Item containing 10 Bronze Ingots.</desc>
+		</item>
+		<item>
+			<id>53505</id>
+			<name>Trade Wagon Cover</name>
+			<icon>00053505.png</icon>
+			<desc>A cover for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53501</id>
+			<name>Shabby Wagon Cover</name>
+			<icon>00053501.png</icon>
+			<desc>A cover for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>10303</id>
+			<name>Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A dagger cast in bronze.</desc>
+		</item>
+		<item>
+			<id>10308</id>
+			<name>Bronze Dagger of Temptation</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Temptation is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Temptation, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Bronze Dagger of Destruction</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Destruction is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Destruction, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Bronze Dagger of Crimson Flame</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Crimson Flame, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10309</id>
+			<name>Ultimate Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A Bronze Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Bronze Dagger of Crimson Flame, Bronze Dagger of Destruction, Bronze Dagger of Temptation, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick Talisman of Temptation</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Temptation is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Temptation, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick Talisman of Destruction</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Destruction is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Destruction, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick Talisman of Crimson Flame</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Crimson Flame, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A talisman with a magical gemstone embedded in it.</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Ultimate Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A Helrick Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Helrick Talisman of Crimson Flame, Helrick Talisman of Destruction, Helrick Talisman of Temptation, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Grade 2 Armor Reform Stone</name>
+			<icon>00004909.png</icon>
+			<desc>A material used in 2nd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with gold.</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimate Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>Saiyer Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer Ornamental Knot of Temptation</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Temptation is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer Ornamental Knot of Destruction</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Destruction is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer Ornamental Knot of Crimson Flame</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10717</id>
+			<name>Ultimate Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>Theos Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Crimson Flame, Theos Ornamental Knot of Destruction, Theos Ornamental Knot of Temptation, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos Ornamental Knot of Temptation</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Temptation is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Temptation, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos Ornamental Knot of Destruction</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Destruction is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Destruction, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos Ornamental Knot of Crimson Flame</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Crimson Flame, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>A handmade ornamental knot for an axe made of quality silk.</desc>
+		</item>
+		<item>
+			<id>2702</id>
+			<name>Heidel Handcrafted Bed</name>
+			<icon>InHouse_B_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2704</id>
+			<name>Velian Handcrafted Bed</name>
+			<icon>InHouse_D_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2014</id>
+			<name>Velian Handcrafted High-Quality Bedside Table</name>
+			<icon>InHouse_D_DFF_Chest_01.png</icon>
+			<desc>A high-quality, handcrafted bedside table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2012</id>
+			<name>Heidel Handcrafted High-Quality Bedside Table</name>
+			<icon>InHouse_B_DFF_Chest_01.png</icon>
+			<desc>A high-quality, handcrafted bedside table from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2004</id>
+			<name>Velian handmade High-Quality Drawers</name>
+			<icon>InHouse_D_DFF_Dresser_01.png</icon>
+			<desc>A high-quality, handcrafted drawer from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2002</id>
+			<name>Heidel Handcrafted High-Quality Drawers</name>
+			<icon>InHouse_B_DFF_Dresser_01.png</icon>
+			<desc>A high-quality, handcrafted drawer from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2104</id>
+			<name>Velian Handcrafted Wardrobe</name>
+			<icon>InHouse_D_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2102</id>
+			<name>Heidel Handcrafted Wardrobe</name>
+			<icon>InHouse_B_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2304</id>
+			<name>Velian Handcrafted Chair</name>
+			<icon>InHouse_D_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2302</id>
+			<name>Heidel Handcrafted Chair</name>
+			<icon>InHouse_B_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2214</id>
+			<name>Velian Handcrafted Table</name>
+			<icon>InHouse_D_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2212</id>
+			<name>Heidel Handcrafted Table</name>
+			<icon>InHouse_B_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2204</id>
+			<name>Velian Handcrafted Dining Table</name>
+			<icon>InHouse_D_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2202</id>
+			<name>Heidel Handcrafted Dining Table</name>
+			<icon>InHouse_B_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>16810</id>
+			<name>Lucky Sharp Fluid Collector</name>
+			<icon>00016810.png</icon>
+			<desc>A Gathering Tool made for extracting animal blood or sap. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16806</id>
+			<name>Lucky Sharp Lumbering Axe</name>
+			<icon>00016806.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16826</id>
+			<name>Lucky Sharp Pickaxe</name>
+			<icon>00016826.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16822</id>
+			<name>Lucky Sharp Tanning Knife</name>
+			<icon>00016822.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16818</id>
+			<name>Lucky Sharp Butcher Knife</name>
+			<icon>00016818.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16814</id>
+			<name>Lucky Bronze Hoe</name>
+			<icon>00016814.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Ship License: Fishing Boat</name>
+			<icon>00049005.png</icon>
+			<desc>Proof of ownership of a &lt;Fishing Boat&gt; at the Wharf.\n- Inventory Slot(s): 12, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

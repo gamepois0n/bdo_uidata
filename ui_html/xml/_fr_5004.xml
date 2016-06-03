@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5004</itemKey>
+	<itemName>Sève de bouleau</itemName>
+	<itemIcon>00005004.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un bouleau.</itemDesc>
+	<collect>
+		<character>
+			<name>Bouleau</name>
+		</character>
+	</collect>
+	<node region="Ruines de l'Arbre de Bree : débit de bois"/>
+	<makelist>
+		<item>
+			<id>14456</id>
+			<name>Bâton de Krea</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Bâton de Krea ultime</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton de Krea ayant atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea de destruction, bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Bâton de Krea de tentation</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Bâton de Krea de destruction</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de destruction, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Bâton de Krea de la flamme pourpre</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

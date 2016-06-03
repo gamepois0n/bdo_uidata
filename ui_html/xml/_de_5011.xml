@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5011</itemKey>
+	<itemName>Rotbaumbeule</itemName>
+	<itemIcon>00005011.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Rotbaumbeulen erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Ahorn</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Akazie</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birke</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Esche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pinie</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tanne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Weißzeder</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zeder</name>
+		</character>
+	</collect>
+	<node region="Blutkloster – Holzfällen"/>
+	<node region="Nördliche Ebene von Serendia – Holzfällen"/>
+	<node region="Quintenhügel – Holzfällen"/>
+	<node region="Alt-Löwenzahn – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>4910</id>
+			<name>Waffen-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004910.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

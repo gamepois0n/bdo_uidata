@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6605</itemKey>
+	<itemName>Oil of Tranquility</itemName>
+	<itemIcon>00006605.png</itemIcon>
+	<itemDesc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6355</id>
+			<name>Wise Man&apos;s Blood</name>
+			<icon>00006355.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>6355</id>
+			<name>Wise Man&apos;s Blood</name>
+			<icon>00006355.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>5211</id>
+			<name>Fruit of Magic Power</name>
+			<icon>00005211.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>4804</id>
+			<name>Powder of Earth</name>
+			<icon>00004804.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Bloody Tree Knot</name>
+			<icon>00005005.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Bloody Tree Knot requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16168</id>
+			<name>Maple Float</name>
+			<icon>00016168.png</icon>
+			<desc>A float made of maple wood. Good for catching rare fishes.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16167</id>
+			<name>Ash Tree Float</name>
+			<icon>00016167.png</icon>
+			<desc>A float made of ash wood. Good for catching big fishes.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

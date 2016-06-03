@@ -1,0 +1,54 @@
+<UI>
+	<Control Type="Panel" Name="Panel_QuestInfo" Pos="725 332" Size="300 202" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 202" Grid="1" GridPosX="0 8 292 300" GridPosY="0 8 194 202" GridUVX="0 8 175 183" GridUVY="0 8 214 222" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Control Type="Static" Name="Static_QuestIcon" Pos="Left Top" Size="38 38" Pan="12 37" Color="ffffffff" EnableArea="0 0 38 38" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_IconBackground" Pos="Left Top" Size="42 42" Pan="10 34" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="454 1 504 1 454 51 504 51" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/Quests_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestDescPanelTitle" Pos="Center Top" Size="280 20" Pan="0 6" Color="ffffffff" EnableArea="0 0 280 20" Grid="1" GridPosX="0 5 275 280" GridPosY="0 5 15 20" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="의뢰 요약" formatString="WORLDMAP_QUESTINFO_SUMMARY" Font="BaseFont_10" Color="ffe0ccaa" OverColor="ffe0ccaa" ClickColor="ffe0ccaa" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestTitle" Pos="Left Top" Size="230 20" Pan="60 32" Color="ffffffff" EnableArea="0 0 230 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="의뢰 제목" formatString="WORLDMAP_QUESTINFO_TITLE" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffecdc9b" ClickColor="ffecdc9b" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestCondition" Pos="Left Top" Size="230 20" Pan="60 55" Color="ffffffff" EnableArea="0 0 230 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="의뢰 완료 조건" formatString="WORLDMAP_QUESTINFO_CLEAR_CONDITION" Font="BaseFont_8_Bold" Color="fffdf4d1" OverColor="fffdf4d1" ClickColor="fffdf4d1" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestDesc" Pos="12 88" Size="280 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 60" Grid="1" GridPosX="0 10 270 280" GridPosY="0 10 50 60" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="의뢰 내용" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="5 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MouseTipBG" Pos="12 Bottom" Size="280 36" Pan="0 8" Color="ffffffff" EnableArea="0 0 280 36" Grid="1" GridPosX="0 10 270 280" GridPosY="0 10 26 36" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="5 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Mouse_Left" Pos="68 Bottom" Size="60 20" Pan="0 15" Color="ff000000" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="의뢰 정보 보기" formatString="UI_WORLDMAP_QUESTINFO_MOUSELEFT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Mouse_Right" Pos="180 Bottom" Size="58 20" Pan="0 15" Color="ff000000" EnableArea="0 0 58 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길 찾기" formatString="UI_WORLDMAP_QUESTINFO_MOUSERIGHT" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Mouse_Left" Pos="24 Bottom" Size="24 30" Pan="0 11" Color="ffffffff" EnableArea="0 0 24 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="300 368 335 368 300 413 335 413" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Mouse_Right" Pos="157 Bottom" Size="24 30" Pan="0 11" Color="ffffffff" EnableArea="0 0 24 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="262 368 297 368 262 413 297 413" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

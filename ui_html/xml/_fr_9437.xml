@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9437</itemKey>
+	<itemName>Oiseau récemment frit</itemName>
+	<itemIcon>00009437.png</itemIcon>
+	<itemDesc>De la viande d&apos;oiseau frite pour un rituel saint.\n\n- Effet unique : récupération de PV +5 pendant 75 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

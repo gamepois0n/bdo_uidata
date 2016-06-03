@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5955</itemKey>
+	<itemName>Trace of Ascension</itemName>
+	<itemIcon>00005955.png</itemIcon>
+	<itemDesc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10014</id>
+			<name>Yuria Longsword</name>
+			<icon>00010014.png</icon>
+			<desc>A longsword possessed with a hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10214</id>
+			<name>Yuria Longbow</name>
+			<icon>00010214.png</icon>
+			<desc>A longbow possessed with a hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10414</id>
+			<name>Yuria Amulet</name>
+			<icon>00010414.png</icon>
+			<desc>An amulet possessed with a hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10614</id>
+			<name>Yuria Axe</name>
+			<icon>00010614.png</icon>
+			<desc>An axe possessed with a hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13214</id>
+			<name>Yuria Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword possessed with a hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14414</id>
+			<name>Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A staff possessed with a hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<node region="Ancient Stone Chamber - Excavation"/>
+	<makelist>
+		<item>
+			<id>14414</id>
+			<name>Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A staff possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>13214</id>
+			<name>Yuria Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>13243</id>
+			<name>Ultimate Yuria Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Yuria Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Crimson Flame, Yuria Shortsword of Destruction, Yuria Shortsword of Temptation, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13242</id>
+			<name>Yuria Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Temptation, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13241</id>
+			<name>Yuria Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Destruction, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13240</id>
+			<name>Yuria Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Crimson Flame, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>10414</id>
+			<name>Yuria Amulet</name>
+			<icon>00010414.png</icon>
+			<desc>An amulet possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Yuria Amulet of Destruction</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Destruction, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Yuria Amulet of Crimson Flame</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Crimson Flame, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10443</id>
+			<name>Ultimate Yuria Amulet</name>
+			<icon>00010414.png</icon>
+			<desc>A Yuria Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Crimson Flame, Yuria Amulet of Destruction, Yuria Amulet of Temptation, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Yuria Amulet of Temptation</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Temptation, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>14443</id>
+			<name>Ultimate Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A Yuria staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Yuria staff.\n\n- Restore Max Durability: Yuria Staff of Crimson Flame, Yuria Staff of Destruction, Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria Staff of Temptation</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria Staff of Destruction</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Destruction, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria Staff of Crimson Flame</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Crimson Flame, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>10014</id>
+			<name>Yuria Longsword</name>
+			<icon>00010014.png</icon>
+			<desc>A longsword possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10043</id>
+			<name>Ultimate Yuria Longsword</name>
+			<icon>00010014.png</icon>
+			<desc>A Yuria Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Crimson Flame, Yuria Longsword of Destruction, Yuria Longsword of Temptation, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10042</id>
+			<name>Yuria Longsword of Temptation</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Temptation, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10041</id>
+			<name>Yuria Longsword of Destruction</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Destruction, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10040</id>
+			<name>Yuria Longsword of Crimson Flame</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Crimson Flame, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Yuria Longbow</name>
+			<icon>00010214.png</icon>
+			<desc>A longbow possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10614</id>
+			<name>Yuria Axe</name>
+			<icon>00010614.png</icon>
+			<desc>An axe possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10640</id>
+			<name>Yuria Axe of Crimson Flame</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Crimson Flame, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10643</id>
+			<name>Ultimate Yuria Axe</name>
+			<icon>00010614.png</icon>
+			<desc>A Yuria Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Crimson Flame, Yuria Axe of Destruction, Yuria Axe of Temptation, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10642</id>
+			<name>Yuria Axe of Temptation</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Temptation, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10641</id>
+			<name>Yuria Axe of Destruction</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Destruction, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10243</id>
+			<name>Ultimate Yuria Longbow</name>
+			<icon>00010214.png</icon>
+			<desc>A Yuria Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Crimson Flame, Yuria Longbow of Destruction, Yuria Longbow of Temptation, Longbow Temptation</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Yuria Longbow of Temptation</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Temptation, Yuria Longbow</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Yuria Longbow of Destruction</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Destruction, Yuria Longbow</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Yuria Longbow of Crimson Flame</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Crimson Flame, Yuria Longbow</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

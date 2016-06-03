@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4607</itemKey>
+	<itemName>Zedernholz</itemName>
+	<itemIcon>00004607.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Ruhebereich für Holzfäller, Langblattbaumwald und am Ozanapass hergestellt werden. Kann außerdem durch Fällen von Zedern erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Zeder</name>
+		</character>
+	</collect>
+	<node region="Ruhebereich für Holzfäller – Holzfällen"/>
+	<node region="Langblattbaumwald – Holzfällen"/>
+	<node region="Ozanapass – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>53405</id>
+			<name>Rad für Handelswagen</name>
+			<icon>00053405.png</icon>
+			<desc>Ein Rad für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53605</id>
+			<name>Flagge für Handelswagen</name>
+			<icon>00053605.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55835</id>
+			<name>Zedernholzkiste</name>
+			<icon>00055835.png</icon>
+			<desc>Handelsware, die 10 Zedernholz enthält.</desc>
+		</item>
+		<item>
+			<id>16155</id>
+			<name>Dicke Harpune</name>
+			<icon>00016155.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Tiefseefische gefangen werden. Manche Fische können nur mit einer Harpune gefangen werden. \n– Zur Verwendung ist ein Fischerboot erforderlich.</desc>
+		</item>
+		<item>
+			<id>16154</id>
+			<name>Dünne Harpune</name>
+			<icon>00016154.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Tiefseefische gefangen werden. Manche Fische können nur mit einer Harpune gefangen werden. \n– Zur Verwendung ist ein Fischerboot erforderlich.</desc>
+		</item>
+		<item>
+			<id>10263</id>
+			<name>Ultimativer Krea-Langbogen</name>
+			<icon>00010256.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Purpurnen Flamme, Krea-Langbogen der Zerstörung, Krea-Langbogen der Versuchung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Krea-Langbogen der Versuchung</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Versuchung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Krea-Langbogen der Zerstörung</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Zerstörung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10239</id>
+			<name>Ultimativer Baris-Langbogen</name>
+			<icon>00010213.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Purpurnen Flamme, Baris-Langbogen der Zerstörung, Baris-Langbogen der Versuchung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10238</id>
+			<name>Baris-Langbogen der Versuchung</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Versuchung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Baris-Langbogen der Zerstörung</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Zerstörung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Baris-Langbogen der Purpurnen Flamme</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Langbogens Baris werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Purpurnen Flamme, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Baris-Langbogen</name>
+			<icon>00010213.png</icon>
+			<desc>Ein Langbogen, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Krea-Langbogen der Purpurnen Flamme</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Purpurnen Flamme, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Krea-Langbogen</name>
+			<icon>00010256.png</icon>
+			<desc>Ein Langbogen, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>4667</id>
+			<name>Zedernschichtholz</name>
+			<icon>00004667.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Zedernholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4666</id>
+			<name>Zedernbrett</name>
+			<icon>00004666.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Zedernholz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

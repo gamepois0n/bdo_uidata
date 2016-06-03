@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6163</itemKey>
+	<itemName>Feines dickes Fell</itemName>
+	<itemIcon>00006163.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Bären- oder Wolfsfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6013</id>
+			<name>Bärenfell</name>
+			<icon>00006013.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Bärenkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6014</id>
+			<name>Wolfsfell</name>
+			<icon>00006014.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wolfskadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6155</id>
+			<name>Dickes Fell</name>
+			<icon>00006155.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Bären- oder Wolfsfell gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>6171</id>
+			<name>Exzellentes dickes Fell</name>
+			<icon>00006171.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinem dickem Fell mit durch Alchemie gewonnene Fellversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

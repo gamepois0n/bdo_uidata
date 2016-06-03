@@ -1,0 +1,67 @@
+<UI>
+	<Control Type="Panel" Name="Frame_Guild_Notice" Pos="0 0" Size="715 625" Pan="0 0" Color="ffffffff" EnableArea="0 0 715 625">
+		<Control Type="Static" Name="Static_NoticeFrame_BG" Pos="0 Top" Size="670 572" Pan="0 48" Color="ffffffff" EnableArea="0 0 670 572" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_Notice" Pos="0 Top" Size="715 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 715 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="200 10 240 10 200 50 240 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="공지사항" Font="BaseFont_10" Color="fff8e9bb" OverColor="fff8e9bb" ClickColor="fff8e9bb" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_Comment" Pos="0 Top" Size="715 25" Pan="0 150" Color="ffffffff" EnableArea="0 0 715 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="200 10 240 10 200 50 240 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="한줄 남기기" Font="BaseFont_10" Color="fff8e9bb" OverColor="fff8e9bb" ClickColor="fff8e9bb" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_Notice" Pos="Center Top" Size="700 75" Pan="0 30" Color="ffffffff" EnableArea="0 0 700 75" Grid="1" GridPosX="0 5 695 700" GridPosY="0 5 70 75" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="7 7"/>
+		</Control>
+		<Control Type="Button" Name="Button_Notice_Confirm" Pos="Right Top" Size="150 30" Pan="5 105" Color="ffffffff" EnableArea="0 0 150 30" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="공지 등록" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Notice_Help" Pos="Left Top" Size="350 20" Pan="15 105" Color="ffffffff" EnableArea="0 0 350 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 공지사항은 길드장과 분대장만 작성할 수 있습니다." Font="BaseFont_8_Bold" Color="ffafafaf" OverColor="ffafafaf" ClickColor="ffafafaf" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_Comment" Pos="Left Top" Size="580 30" Pan="5 180" Color="ffffffff" EnableArea="0 0 580 30" Grid="1" GridPosX="0 5 575 580" GridPosY="0 5 25 30" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Comment_Confirm" Pos="Right Top" Size="120 30" Pan="5 180" Color="ffffffff" EnableArea="0 0 120 30" Grid="1" GridPosX="0 5 115 120" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="남기기" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_Comment" Pos="Right 216" Size="530 20" Pan="10 0" Color="ffffffff" EnableArea="0 0 530 20" Grid="1" GridPosX="0 0 530 530" GridPosY="0 24 28 34" GridUVX="90 100 469 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="이건 이렇게 하는것이다" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="20 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_ID" Pos="Left 216" Size="120 20" Pan="10 0" Color="ffffffff" EnableArea="0 0 120 20" Grid="1" GridPosX="0 0 120 120" GridPosY="0 24 28 34" GridUVX="0 0 340 350" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="[효우효우]" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Scroll" Name="VerticalScroll" Pos="Right Bottom" Size="20 350" Pan="-8 5" Color="ffffffff" EnableArea="0 0 20 350" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 343 350" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="VerticalScroll_DownButton" Pos="0 350" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="VerticalScroll_CtrlButton" Pos="Center 0" Size="13 65" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

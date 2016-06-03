@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8530</itemKey>
+	<itemName>Thon rose séché</itemName>
+	<itemIcon>00008530.png</itemIcon>
+	<itemDesc>Une bonite obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8230</id>
+			<name>Thon rose</name>
+			<icon>00008230.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

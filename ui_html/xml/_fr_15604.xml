@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15604</itemKey>
+	<itemName>Cristal magique ancien (Hystria)</itemName>
+	<itemIcon>00045013.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être transposé dans des châsses de chaussure. \n- Effet d&apos;objet : limite de poids +20 LT et vitesse de mouvement +1\n\n※ Ce cristal magique a de faibles chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>15637</id>
+			<name>Cristal de champ de bataille rouge (Hystria)</name>
+			<icon>00015637.png</icon>
+			<desc>Un cristal de pierre noire qui peut être fusionné dans des châsses dechaussures. \n- Effet d&apos;objet : limite de poids +20 LT, vitesse de mouvement +1 et dégâts supplémentaires contre les humains +2\n※ Une fois installé, le cristal peut être détruit à la mort du personnage.\n- Le potentiel du cristal peut être transféré à des pièces d&apos;équipement grâce à l&apos;esprit occulte.\n- Obtention : faites chauffer de l&apos;essence rouge et le cristal magique ancien (Hystria).</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

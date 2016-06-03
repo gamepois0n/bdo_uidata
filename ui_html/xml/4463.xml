@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4463</itemKey>
+	<itemName>Diamond</itemName>
+	<itemIcon>00004463.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Rough Diamonds.</itemDesc>
+	<collect>
+		<character>
+			<name>Diamond</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gravestone Golem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Golem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wilderness Golem</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4405</id>
+			<name>Rough Diamond</name>
+			<icon>00004405.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Diamond requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11601</id>
+			<name>Yuria Necklace</name>
+			<icon>00011601.png</icon>
+			<desc>A necklace possessed with a hatred for Humankind.\nIt can be Enhanced with the same type of necklace, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11801</id>
+			<name>Yuria Earring</name>
+			<icon>00011801.png</icon>
+			<desc>An earring possessed with a hatred for Humankind.\nIt can be Enhanced with the same type of earring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12001</id>
+			<name>Yuria Ring</name>
+			<icon>00012001.png</icon>
+			<desc>A ring possessed with a hatred for Humankind.\nIt can be Enhanced with the same type of ring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12201</id>
+			<name>Yuria Belt</name>
+			<icon>00012201.png</icon>
+			<desc>A belt possessed with a hatred for Humankind.\nIt can be Enhanced with the same type of belt, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11723</id>
+			<name>Star Diamond Necklace</name>
+			<icon>00011723.png</icon>
+			<desc>A necklace decorated with a Star Diamond.</desc>
+		</item>
+		<item>
+			<id>11722</id>
+			<name>Resplendent Diamond Necklace</name>
+			<icon>00011722.png</icon>
+			<desc>A necklace decorated with a Resplendent Diamond.</desc>
+		</item>
+		<item>
+			<id>4464</id>
+			<name>Resplendent Diamond</name>
+			<icon>00004464.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Diamond. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

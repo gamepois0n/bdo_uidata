@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>3718</itemKey>
+	<itemName>Kochnische für Laien</itemName>
+	<itemIcon>Crafting_Cooking_02.png</itemIcon>
+	<itemDesc>Ein mittelwertiges Werkzeug, das für das Kochen verwendet wird.\n– Es kann in einem Haus angebracht werden.</itemDesc>
+	<house type="9">
+		<item>
+			<id>4006</id>
+			<name>Grober Stein</name>
+			<icon>00004006.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann mithilfe einer Spitzhacke aus jedem Felsen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>4605</id>
+			<name>Holzscheit</name>
+			<icon>00004605.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Fällen von Bäumen aus allen Regionen gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Geschmolzener Eisensplitter</name>
+			<icon>00004051.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+</itemInfo>
+

@@ -1,0 +1,100 @@
+<UI>
+	<Control Type="Panel" Name="Panel_IngameCashShop_NewCart" Pos="71 38" Size="690 845" Pan="0 0" Color="ffffffff" EnableArea="0 0 690 845" Grid="1" GridPosX="0 0 690 690" GridPosY="0 36 809 845" GridUVX="0 10 68 78" GridUVY="0 36 82 116">
+		<Texture Type="Base" UV="3 73 81 73 3 189 81 189" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		<Control Type="Static" Name="TemplateCart_Static_GoodsBG" Pos="16 369" Size="685 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 685 65" Grid="1" GridPosX="0 10 675 685" GridPosY="0 0 65 65" GridUVX="0 10 65 75" GridUVY="0 10 56 66" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="47 5 122 5 47 71 122 71" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="TemplateCart_Static_SlotBG" Pos="9 381" Size="44 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="TemplateCart_Static_Slot" Pos="8 381" Size="44 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="StaticText" Name="TemplateCart_StaticText_ItemName" Pos="61 385" Size="295 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이템 이름이 생각보다 길게" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="TemplateCart_StaticText_DiscountPeriod" Pos="61 404" Size="280 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="할인 기간 : 2014.11.10~2014.11.30" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="TemplateCart_StaticText_ItemPrice" Pos="355 390" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50,000→90,000" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="TemplateCart_Static_PearlIcon" Pos="329 391" Size="20 19" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 19" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="287 479 307 479 287 498 307 498" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="Edit" Name="TemplateCart_EditProductCount" Pos="507 384" Size="60 35" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 35" Grid="1" GridPosX="0 5 55 60" GridPosY="0 5 30 35" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="0" Font="BaseFont" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Button" Name="TemplateCart_Button_CountPlus" Pos="570 386" Size="16 16" Pan="0 0" Color="ffffffff" EnableArea="0 0 16 16" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="287 415 303 415 287 431 303 431" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Texture Type="On" UV="287 435 303 435 287 451 303 451" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Texture Type="Click" UV="287 455 303 455 287 471 303 471" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="TemplateCart_Button_CountMinus" Pos="570 403" Size="16 16" Pan="0 0" Color="ffffffff" EnableArea="0 0 16 16" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="310 415 326 415 310 431 326 431" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Texture Type="On" UV="310 435 326 435 310 451 326 451" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Texture Type="Click" UV="310 455 326 455 310 471 326 471" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="TemplateCart_Button_DeleteItem" Pos="603 384" Size="70 35" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 35" Grid="1" GridPosX="0 4 66 70" GridPosY="0 4 31 35" GridUVX="0 4 150 154" GridUVY="0 4 28 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="삭제" formatString="PANEL_INGAMECASHSHOP_NEWCART_DELETEITEM" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_CartClear" Pos="Left Bottom" Size="130 40" Pan="132 5" Color="ffffffff" EnableArea="0 0 130 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 385 123 385 2 425 123 425" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_02.dds</Texture>
+			<Texture Type="On" UV="126 385 247 385 126 425 247 425" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_02.dds</Texture>
+			<Texture Type="Click" UV="250 385 371 385 250 425 371 425" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_02.dds</Texture>
+			<Text Value="비우기" formatString="PANEL_INGAMECASHSHOP_NEWCART_BTN_CARTCLEAR" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_CartBuyAll" Pos="Left Bottom" Size="130 40" Pan="0 5" Color="ffffffff" EnableArea="0 0 130 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="6 283 127 283 6 323 127 323" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Texture Type="On" UV="130 283 251 283 130 323 251 323" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Texture Type="Click" UV="254 283 375 283 254 323 375 323" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+			<Text Value="모두 구입" formatString="PANEL_INGAMECASHSHOP_NEWCART_BTN_BUYALL" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="45 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_CartClose" Pos="Left Bottom" Size="130 40" Pan="264 5" Color="ffffffff" EnableArea="0 0 130 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 430 123 430 2 470 123 470" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_02.dds</Texture>
+			<Texture Type="On" UV="126 430 247 430 126 470 247 470" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_02.dds</Texture>
+			<Texture Type="Click" UV="250 430 371 430 250 470 371 470" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_02.dds</Texture>
+			<Text Value="닫기" formatString="PANEL_INGAMECASHSHOP_NEWCART_BTN_CLOSE" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_IngameCashCart" Pos="Right Top" Size="5 540" Pan="-5 5" Color="ffffffff" EnableArea="0 0 5 540" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 533 540" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 540" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_CtrlButton" Pos="Center 0" Size="10 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 106 116" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_PearlBox" Pos="Right Bottom" Size="140 30" Pan="0 10" Color="ffffffff" EnableArea="0 0 140 30" Grid="1" GridPosX="0 10 130 140" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NowPearlIcon" Pos="Right Bottom" Size="19 17" Pan="82 17" Color="ffffffff" EnableArea="0 0 19 17" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="287 479 307 479 287 498 307 498" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TotalCount" Pos="Right Bottom" Size="50 20" Pan="80 16" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="합계" formatString="PANEL_INGAMECASHSHOP_NEWCART_TOTALCOUNT" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NowPearlCount" Pos="Right Bottom" Size="50 20" Pan="10 17" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50,000" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

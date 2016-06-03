@@ -1,0 +1,23 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Tooltip_Common" Pos="1047 327" Size="350 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 350 100" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 90 100" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+		<Attribute Type="Hide"/>
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="126 64 190 64 126 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		<Control Type="Static" Name="Tooltip_Common_Icon" Pos="8 8" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/01_phm_skill/phm_skill_0175.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Common_Name" Pos="61 10" Size="270 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 270 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="진격의 강타 II" Font="BaseFont_10" Color="ffcec7c7" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Common_Title" Pos="60 -48" Size="100 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffb7a390" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Common_Description" Pos="Left Bottom" Size="265 20" Pan="15 20" Color="  ffffff" EnableArea="0 0 265 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="기운을 담아 전방의 적을 공격한다. " Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Bottom" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

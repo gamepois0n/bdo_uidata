@@ -1,0 +1,293 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Housing_ConsignmentSale" Pos="Center Center" Size="1220 720" Pan="0 -35" Color="ffffffff" EnableArea="0 3 1217 715" Grid="1" GridPosX="0 5 1215 1220" GridPosY="0 5 715 720" GridUVX="0 5 178 183" GridUVY="0 5 217 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="0 3 1217 30"/>
+		<Control Type="Static" Name="Static_Top5" Pos="Left Top" Size="400 615" Pan="5 35" Color="ffffffff" EnableArea="0 0 400 615" Grid="1" GridPosX="0 10 390 400" GridPosY="0 10 605 615" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="50 20" Pan="0 6" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="위탁 판매" formatString="PANEL_CONSIGN_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Top5_Title" Pos="Left Top" Size="400 25" Pan="5 44" Color="ffffffff" EnableArea="0 0 400 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="137 1 149 1 137 15 149 15" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+			<Text Value="광고비 TOP 5 상품 목록" formatString="PANEL_CONSIGN_TOP5LIST" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ShopList" Pos="Left Top" Size="800 615" Pan="410 35" Color="ffffffff" EnableArea="0 0 800 615" Grid="1" GridPosX="0 10 790 800" GridPosY="0 10 605 615" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ShopList_Title" Pos="Left Top" Size="800 25" Pan="410 44" Color="ffffffff" EnableArea="0 0 800 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="92 1 104 1 92 15 104 15" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+			<Text Value="상품 목록" formatString="PANEL_CONSIGN_SHOPLIST" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_BackGround" Pos="Left Top" Size="390 110" Pan="5 0" Color="ffffffff" EnableArea="0 0 390 110" Grid="1" GridPosX="0 10 380 390" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_UpdateIcon" Pos="Right Top" Size="19 19" Pan="55 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="0.000000"/>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right 7" Size="19 19" Pan="7 0" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="31 7" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BuyPrice" Pos="Left Top" Size="50 20" Pan="80 53" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="판매 가격 :" formatString="PANEL_CONSIGN_BUYPRICE" Font="BaseFont_10" Color="ff6dc6ff" OverColor="ff6dc6ff" ClickColor="ff6dc6ff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Itemicon" Pos="Left Top" Size="60 60" Pan="3 25" Color="ffffffff" EnableArea="0 0 60 60" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="103 176 153 176 103 226 153 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ItemName" Pos="Left Top" Size="50 20" Pan="12 4" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이템 이름" Font="BaseFont_12" Color="ffffdf7f" OverColor="ffffdf7f" ClickColor="ffffdf7f" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RegisterPrice" Pos="Left Top" Size="50 20" Pan="80 29" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="광고 비용 :" formatString="PANEL_CONSIGN_RESISTPRICE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_RegisterPrice" Pos="Right Top" Size="50 20" Pan="20 29" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="000" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_BuyPrice" Pos="Right Top" Size="50 20" Pan="20 53" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="000" Font="BaseFont_10" Color="ff6dc6ff" OverColor="ff6dc6ff" ClickColor="ff6dc6ff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Buy" Pos="Right Bottom" Size="100 25" Pan="5 5" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 20 25" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 3">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="구  매" formatString="PANEL_CONSIGN_BTN_BUY" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RemainedTime" Pos="Left Bottom" Size="50 20" Pan="10 7" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 시간" formatString="PANEL_CONSIGN_REMAINTIME" Font="BaseFont_10" Color="ffbf6464" OverColor="ffbf6464" ClickColor="ffbf6464" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RegisterIcon" Pos="Right Top" Size="12 15" Pan="5 33" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="-75 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SaleIcon" Pos="Right Top" Size="12 15" Pan="5 55" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Right" AlignVertical="Center" Span="-75 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Register" Pos="278 80" Size="90 25" Pan="15 5" Color="ffffffff" EnableArea="0 0 90 25" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 20 25" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="등  록" formatString="PANEL_CONSIGN_BTN_RESIST" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_MyList" Pos="Right Bottom" Size="150 55" Pan="10 7" Color="ffffffff" EnableArea="0 0 150 55" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 50 55" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="내 물품 목록" formatString="PANEL_CONSIGN_BTN_MYLIST" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_PartLine" Pos="Center Top" Size="1200 6" Pan="0 28" Color="ffffffff" EnableArea="0 0 1200 6" Grid="1" GridPosX="0 95 1105 1200" GridPosY="0 0 6 6" GridUVX="0 95 374 469" GridUVY="0 0 6 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_List_Left" Pos="Right Top" Size="18 18" Pan="108 47" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 19 1 1 19 19 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 1 38 1 20 19 38 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 1 57 1 39 19 57 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_List_Right" Pos="Right Top" Size="18 18" Pan="17 47" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 20 19 20 1 38 19 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 20 38 20 20 38 38 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 20 57 20 39 38 57 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_List" Pos="Right Top" Size="74 20" Pan="35 45" Color="ffffffff" EnableArea="0 0 74 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 226 61 226 1 247 61 247" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="2" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_RegistItem" Pos="415 Top" Size="390 110" Pan="300 75" Color="ffffffff" EnableArea="0 0 390 110" Grid="1" GridPosX="0 10 380 390" GridPosY="0 10 100 110" GridUVX="0 10 380 390" GridUVY="0 10 100 110" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 391 1 1 111 391 111" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/houseinfo_00.dds</Texture>
+			<Texture Type="On" UV="1 112 391 112 1 222 391 222" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/houseinfo_00.dds</Texture>
+			<Texture Type="Click" UV="1 223 391 223 1 333 391 333" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/houseinfo_00.dds</Texture>
+			<Text Value="물품 등록하기" formatString="PANEL_CONSIGN_BTN_RESISTITEM" Font="SubTitleFont_14" Color="ff2699bf" OverColor="ff2fd1ff" ClickColor="ff2fd1ff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 25"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_RegistPrice" Pos="Right Top" Size="100 25" Pan="20 27" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 20 25" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_SalePrice" Pos="Right Top" Size="100 25" Pan="20 51" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 20 25" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SellCom_BG" Pos="Left Top" Size="250 110" Pan="815 75" Color="ffffffff" EnableArea="0 0 250 110" Grid="1" GridPosX="0 10 240 250" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SellCommision" Pos="Center Top" Size="50 20" Pan="238 82" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="판매 수수료 : " Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RegistMinimum" Pos="Center Top" Size="50 20" Pan="238 107" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="최소 광고 비용 : " Font="BaseFont_8_Bold" Color="ff6dc6ff" OverColor="ff6dc6ff" ClickColor="ff6dc6ff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RegistMinimumNo" Pos="Right Top" Size="50 20" Pan="169 105" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="100" Font="BaseFont_10" Color="ff6dc6ff" OverColor="ff6dc6ff" ClickColor="ff6dc6ff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SellDate" Pos="Center Top" Size="50 20" Pan="238 133" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="판매 기간 : " Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SellDateNo" Pos="Right Top" Size="50 20" Pan="169 131" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="1" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WhatFor" Pos="Center Top" Size="50 20" Pan="238 157" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="세금 : " Font="BaseFont_10" Color="ffafe800" OverColor="ffafe800" ClickColor="ffafe800" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WhatForNo" Pos="Right Top" Size="50 20" Pan="169 157" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="100%" Font="BaseFont_10" Color="ffafe800" OverColor="ffafe800" ClickColor="ffafe800" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_StopRegist" Pos="Right Top" Size="120 25" Pan="15 160" Color="ffffffff" EnableArea="0 0 120 25" Grid="1" GridPosX="0 5 115 120" GridPosY="0 5 20 25" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="등록 중지" formatString="PANEL_CONSIGN_BTN_STOP" Font="BaseFont_8_Bold" Color="fff56161" OverColor="ffff9a9a" ClickColor="ffff9a9a" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_WithdrawGold" Pos="Right Top" Size="120 25" Pan="15 133" Color="ffffffff" EnableArea="0 0 120 25" Grid="1" GridPosX="0 5 115 120" GridPosY="0 5 20 25" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 3">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="출금 하기" formatString="PANEL_CONSIGN_BTN_GETMONEY" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_RegistMaximum" Pos="Right Top" Size="100 25" Pan="35 103" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 20 25" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Balance" Pos="Right Top" Size="50 20" Pan="35 80" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="잔고 : 100000000" Font="BaseFont_8_Bold" Color="fffff88a" OverColor="fffff88a" ClickColor="fffff88a" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MinimumIcon" Pos="Right Top" Size="12 15" Pan="168 110" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Right" AlignVertical="Center" Span="-75 0"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_RegistMinimum" Pos="Right Top" Size="75 25" Pan="185 104" Color="ffffffff" EnableArea="0 0 75 25" Grid="1" GridPosX="0 5 70 75" GridPosY="0 5 20 25" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Combo" Name="Combobox_Commision" Pos="Right Top" Size="75 25" Pan="185 78" Color="ffffffff" EnableArea="0 0 75 25" Grid="1" GridPosX="0 2 58 75" GridPosY="0 0 25 25" GridUVX="0 2 43 60" GridUVY="0 0 20 20">
+			<Texture Type="Base" UV="156 156 216 156 156 176 216 176" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="156 177 216 177 156 197 216 197" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="156 198 216 198 156 218 216 218" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="수수료" formatString="PANEL_CONSIGN_COMBO_COMMISION" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="5 0"/>
+			<Control Type="List" VisibleItem="4" BlankSize="0" Name="Combobox_1_List" Pos="2 23" Size="75 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 75 80">
+				<Text Font="BaseFont" Color="ffffffff" SelectColor="ffffffff"/>
+				<Control Type="Scroll" Name="Combobox_1_List_Scroll" Pos="Right 5" Size="10 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 70" Shape="Vertical">
+					<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+					<Control Type="Button" Name="Combobox_1_List_Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+					<Control Type="Button" Name="Combobox_1_List_Scroll_DownButton" Pos="0 70" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+					<Control Type="Button" Name="Combobox_1_List_Scroll_CtrlButton" Pos="Center 0" Size="10 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 30" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 27 36" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" ClickSound="0 0">
+						<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="Static" Name="Combobox_1_List_BackStatic" Pos="1 15" Size="75 20" Pan="0 0" Color="4dffffff" EnableArea="0 0 75 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="88 1 148 1 88 21 148 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				</Control>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="27 1 87 1 27 81 87 81" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Combo" Name="Combobox_SellDate" Pos="Right Top" Size="75 25" Pan="185 130" Color="ffffffff" EnableArea="0 0 75 25" Grid="1" GridPosX="0 2 58 75" GridPosY="0 0 25 25" GridUVX="0 2 43 60" GridUVY="0 0 20 20">
+			<Texture Type="Base" UV="156 156 216 156 156 176 216 176" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="156 177 216 177 156 197 216 197" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="156 198 216 198 156 218 216 218" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+			<Control Type="List" VisibleItem="4" BlankSize="0" Name="Combobox_1_List" Pos="1 22" Size="75 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 75 80">
+				<Text Font="BaseFont" Color="ffffffff" SelectColor="ffffffff"/>
+				<Control Type="Scroll" Name="Combobox_1_List_Scroll" Pos="Right 5" Size="10 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 70" Shape="Vertical">
+					<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+					<Control Type="Button" Name="Combobox_1_List_Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+					<Control Type="Button" Name="Combobox_1_List_Scroll_DownButton" Pos="0 70" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+					<Control Type="Button" Name="Combobox_1_List_Scroll_CtrlButton" Pos="Center 0" Size="10 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 30" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 27 36" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" ClickSound="0 0">
+						<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="Static" Name="Combobox_1_List_BackStatic" Pos="2 4" Size="75 20" Pan="0 0" Color="4dffffff" EnableArea="0 0 75 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="88 1 148 1 88 21 148 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				</Control>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="27 1 87 1 27 81 87 81" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MaximumPrice" Pos="Right Top" Size="12 15" Pan="15 107" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Right" AlignVertical="Center" Span="-75 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BalanceIcon" Pos="Right Top" Size="12 15" Pan="15 80" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Right" AlignVertical="Center" Span="-75 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Percent" Pos="Right Top" Size="20 20" Pan="160 82" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="%" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Date" Pos="Right Top" Size="20 20" Pan="160 133" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="일" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CenterLine" Pos="Right Top" Size="11 115" Pan="145 73" Color="ffffffff" EnableArea="0 0 11 115" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="130 12 141 12 130 55 141 55" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HelpText" Pos="Left Bottom" Size="750 65" Pan="10 5" Color="ffffffff" EnableArea="0 0 750 65">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 상품 목록들은 광고비가 높고 먼저 등록된 순서로 나열되며, 새로운 상품의 광고비가 이를 상회하면 기존 목록을 밀어내며 등재됩니다.\n- 광고비가 가장 높은 상위 5개 상품은 좌측에 상시 노출되어 판매 촉진에 도움을 줍니다.\n- 내구도가 하락한 물품이나 귀속, 기간제 아이템은 등록할 수 없습니다." formatString="PANEL_CONSIGN_HELP" Font="BaseFont_8_Bold" Color="ff858585" OverColor="ff858585" ClickColor="ff858585" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Slot_Enchant_value" Pos="-159 -178" Size="42 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 42 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+9" Font="BaseFont_12_Yellow" Color="ffe9e4e4" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

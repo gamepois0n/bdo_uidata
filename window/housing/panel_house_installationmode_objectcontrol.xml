@@ -1,0 +1,66 @@
+<UI>
+	<Control Type="Panel" Name="Panel_House_InstallationMode_ObjectControl" Pos="0 0" Size="125 125" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 125" Grid="1" GridPosX="0 10 115 125" GridPosY="0 10 115 125" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+		<!-- <Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture> -->
+		<Control Type="Button" Name="Button_Confirm" Pos="46 48" Size="29 29" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 284 31 284 2 313 31 313" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="On" UV="32 284 61 284 32 313 61 313" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="Click" UV="62 284 91 284 62 313 91 313" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Rotate_Left" Pos="86 48" Size="29 29" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 224 31 224 2 253 31 253" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="On" UV="32 224 61 224 32 253 61 253" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="Click" UV="62 224 91 224 62 253 91 253" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Rotate_Right" Pos="6 48" Size="29 29" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 194 31 194 2 223 31 223" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="On" UV="32 194 61 194 32 223 61 223" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="Click" UV="62 194 91 194 62 223 91 223" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Delete" Pos="86 7" Size="29 29" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 314 31 314 2 343 31 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="On" UV="32 314 61 314 32 343 61 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="Click" UV="62 314 91 314 62 343 91 343" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Move" Pos="46 88" Size="29 29" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 391 31 391 2 420 31 420" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="On" UV="32 391 61 391 32 420 61 420" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="Click" UV="62 391 91 391 62 420 91 420" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Resize" Pos="86 88" Size="29 29" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 344 31 344 2 373 31 373" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="On" UV="32 344 61 344 32 373 61 373" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="Click" UV="62 344 91 344 62 373 91 373" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="46 8" Size="29 29" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="2 254 31 254 2 283 31 283" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="On" UV="32 254 61 254 32 283 61 283" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Texture Type="Click" UV="62 254 91 254 62 283 91 283" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_01.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DetailGuide" Pos="Center Bottom" Size="320 27" Pan="0 0" Color="ffffffff" EnableArea="0 0 320 27">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="휠스크롤을 이용해 높낮이를 조절 할 수 있습니다." Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Desc" Pos="Center Top" Size="100 27" Pan="0 -30" Color="ffffffff" EnableArea="0 0 100 27" Grid="1" GridPosX="0 10 90 100" GridPosY="0 10 17 27" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="설명설명설명설명설명설명" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="10 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8211</itemKey>
+	<itemName>Squid</itemName>
+	<itemIcon>00008211.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</itemDesc>
+	<fishing/>
+	<node region="Weita Island - Fish Trap"/>
+	<node region="Pujara Island - Fish Trap 2"/>
+	<node region="Paratama Island - Fish Trap"/>
+	<node region="Mariveno Island - Fish Trap"/>
+	<node region="Serca Island - Fish Trap"/>
+	<node region="Oben Island - Fish Trap 1"/>
+	<node region="Barater Island - Fish Trap 1"/>
+	<makelist>
+		<item>
+			<id>8511</id>
+			<name>Dried Squid</name>
+			<icon>00008511.png</icon>
+			<desc>A dried squid obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

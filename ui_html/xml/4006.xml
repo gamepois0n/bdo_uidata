@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4006</itemKey>
+	<itemName>Rough Stone</itemName>
+	<itemIcon>00004006.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Gathered with a Pickaxe from any rock on the ground.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Beetle Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bloodstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bryophyte</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diorite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Farm Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faust Forest Herb Stoneback Cr</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faust Forest Scrub Stoneback C</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faust Forest Tiny Stoneback Cr</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faust Forest Tough Stoneback C</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Feldspar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Granite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grassback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gravestone Golem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>High Head Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mature Rock Spirit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mining</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Moss Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mudstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Plain Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Queen Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rock Box</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rough Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Golem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stoneback Crab</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wilderness Golem</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+		<item>
+			<id>3718</id>
+			<name>Intermediate Cooking Utensil</name>
+			<icon>Crafting_Cooking_02.png</icon>
+			<desc>An medium-grade tool used for Cooking.\n- It can be installed in a residence.</desc>
+		</item>
+		<item>
+			<id>3717</id>
+			<name>Cooking Utensil</name>
+			<icon>Crafting_Cooking_01.png</icon>
+			<desc>A tool used for Cooking.\n- It can be installed in a residence.</desc>
+		</item>
+		<item>
+			<id>3702</id>
+			<name>Intermediate Alchemy Tool</name>
+			<icon>Crafting_Alchemy_02.png</icon>
+			<desc>A tool that can reconstruct the components in a substance.\n- It can be installed in a residence.</desc>
+		</item>
+		<item>
+			<id>3701</id>
+			<name>Alchemy Tool</name>
+			<icon>Crafting_Alchemy_01.png</icon>
+			<desc>A tool that can reconstruct the components in a substance.\n- It can be installed in a residence.</desc>
+		</item>
+		<item>
+			<id>4068</id>
+			<name>Polished Stone</name>
+			<icon>00004068.png</icon>
+			<desc>A Crude Stone used as material for Crafting.\n\n- How to Obtain: It can be obtained by Grinding Rough Stones.</desc>
+		</item>
+		<item>
+			<id>24205</id>
+			<name>Long Pottery</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Long pottery.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Quagmire Pottery</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Quagmire pottery.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Round Pottery</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Round pottery.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10316</itemKey>
+	<itemName>Parierdolch der Versuchung</itemName>
+	<itemIcon>00010305.png</itemIcon>
+	<itemDesc>Dieser Parierdolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Versuchung, Parierdolch</itemDesc>
+	<house type="4">
+		<item>
+			<id>4066</id>
+			<name>Messingbarren</name>
+			<icon>00004066.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zink gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4059</id>
+			<name>Reiner Kupferkristall</name>
+			<icon>00004059.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Kupferbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4804</id>
+			<name>Erdenpulver</name>
+			<icon>00004804.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10305</id>
+			<name>Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein Dolch, mit dem Angriffe pariert werden können.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10305</id>
+			<name>Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein Dolch, mit dem Angriffe pariert werden können.</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parierdolch der Purpurnen Flamme</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Ultimativer Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein maximal aufgerüsteter Parierdolch.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch der Zerstörung, Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parierdolch der Versuchung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parierdolch der Zerstörung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Zerstörung, Parierdolch</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

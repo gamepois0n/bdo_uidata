@@ -1,0 +1,45 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MyHouseNavi" Pos="70 45" Size="54 54" Pan="0 0" Color="ffffffff" EnableArea="0 0 54 54">
+		<Attribute Type="Drag" Area="-10 -10 60 60"/>
+		<UIAniSet Name="ANI_SET_Effect" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="4028890624" AniName="Ani_Color_Effect_1" UIName="Static_Slot_Effect_0"/>
+		</UIAniSet>
+		<Control Type="Static" Name="Static_Icon_House" Pos="-2 -2" Size="60 60" Pan="6 6" Color="ffffffff" EnableArea="5 5 55 55" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="123 62 183 62 123 122 183 122" Ani="1 1 0.000 0">new_ui_common_forlua/window/horse/servant_icon_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SlotBackground" Pos="4 4" Size="45 45" Pan="4 4" Color="ffffffff" EnableArea="0 0 45 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="454 1 504 1 454 51 504 51" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/Quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Tent" Pos="80 -2" Size="60 60" Pan="0 0" Color="ffffffff" EnableArea="5 5 55 55" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="184 62 244 62 184 122 244 122" Ani="1 1 0.000 0">new_ui_common_forlua/window/horse/servant_icon_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SlotBackground_Tent" Pos="Center Center" Size="45 45" Pan="0 0" Color="ffffffff" EnableArea="0 0 45 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="454 1 504 1 454 51 504 51" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/Quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_TerritoryAuth" Pos="66 -2" Size="60 60" Pan="66 6" Color="ffffffff" EnableArea="5 5 55 55" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 123 61 123 1 183 61 183" Ani="1 1 0.000 0">new_ui_common_forlua/window/horse/servant_icon_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Worker" Pos="120 -2" Size="60 60" Pan="120 6" Color="ffffffff" EnableArea="5 5 55 55" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 184 61 184 1 244 61 244" Ani="1 1 0.000 0">new_ui_common_forlua/window/horse/servant_icon_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SlotBackground_TerritoryAuth" Pos="64 4" Size="45 45" Pan="64 4" Color="ffffffff" EnableArea="0 0 45 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="454 1 504 1 454 51 504 51" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/Quests_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Helper" Pos="-28 55" Size="180 45" Pan="0 0" Color="ffffffff" EnableArea="0 0 180 45" Grid="1" GridPosX="0 10 170 180" GridPosY="0 10 35 45" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

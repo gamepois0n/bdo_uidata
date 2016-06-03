@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>578</itemKey>
+	<itemName>Refined Grain Juice</itemName>
+	<itemIcon>00000572.png</itemIcon>
+	<itemDesc>HP is recovered by 275.\n- Cooldown time: 5 sec.\n- It is lighter than an ordinary potion.</itemDesc>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>568</id>
+			<name>Highly Concentrated Grain Juice</name>
+			<icon>00000568.png</icon>
+			<desc>Immediately heals HP by+200.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>568</id>
+			<name>Highly Concentrated Grain Juice</name>
+			<icon>00000568.png</icon>
+			<desc>Immediately heals HP by+200.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

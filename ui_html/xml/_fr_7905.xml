@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7905</itemKey>
+	<itemName>Porc</itemName>
+	<itemIcon>00007905.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Jeune sanglier rouge</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Marcassin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sanglier</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sanglier de la ferme</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sanglier gris</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sanglier rouge</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>24129</id>
+			<name>Candélabre en étain avec quatre bougies</name>
+			<icon>InHouse_X_DPFO_Candlestick_03_light.png</icon>
+			<desc>Un candélabre en étain avec quatre bougies.</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Candélabre en laiton avec quatre bougies</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>Un candélabre en laiton avec quatre bougies.</desc>
+		</item>
+		<item>
+			<id>7920</id>
+			<name>Viande séchée rare</name>
+			<icon>00007920.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

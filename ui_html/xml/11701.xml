@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11701</itemKey>
+	<itemName>Ruby Necklace</itemName>
+	<itemIcon>00011701.png</itemIcon>
+	<itemDesc>A necklace decorated with a Ruby.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4401</id>
+			<name>Rough Ruby</name>
+			<icon>00004401.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Ruby requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+		<item>
+			<id>4201</id>
+			<name>Silver Ore</name>
+			<icon>00004201.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Silver Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Silver.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11702</id>
+			<name>Resplendent Ruby Necklace</name>
+			<icon>00011702.png</icon>
+			<desc>A necklace decorated with a Resplendent Ruby.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

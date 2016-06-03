@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9002</itemKey>
+	<itemName>Sugar</itemName>
+	<itemIcon>00009002.png</itemIcon>
+	<itemDesc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</itemDesc>
+	<shop>
+		<character>
+			<name>Izella</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fredelles Herba</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Hannes</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Deborah</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fatoos</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Nadia Rowen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vangelas</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Constante</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>David Finto</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Paola Toscani</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Weikid Taha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Edman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Broman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ekta</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Pasenia</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Galutboar</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Adin</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dyleoyen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ivan DeRose</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>578</id>
+			<name>Refined Grain Juice</name>
+			<icon>00000572.png</icon>
+			<desc>HP is recovered by 275.\n- Cooldown time: 5 sec.\n- It is lighter than an ordinary potion.</desc>
+		</item>
+		<item>
+			<id>568</id>
+			<name>Highly Concentrated Grain Juice</name>
+			<icon>00000568.png</icon>
+			<desc>Immediately heals HP by+200.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Concentrated Grain Juice</name>
+			<icon>00000567.png</icon>
+			<desc>Immediately heals HP by+125.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

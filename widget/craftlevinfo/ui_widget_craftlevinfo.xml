@@ -1,0 +1,174 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Widget_CraftLevInfo" Pos="1 0" Size="220 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 220 40">
+		<Texture Type="Special" UV="0 0 220 0 0 232 220 232" Ani="1 1 0.000 0">new_ui_common_forlua/Default/Mask_a80.dds</Texture>
+		<Control Type="Static" Name="Static_Icon_Gathering" Pos="Left Top" Size="10 10" Pan="0 1" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="159 1 169 1 159 11 169 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Manufacture" Pos="Left Top" Size="10 10" Pan="55 1" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="170 1 180 1 170 11 180 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Cook" Pos="Left Top" Size="10 10" Pan="110 1" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="181 1 191 1 181 11 191 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Training" Pos="Left Top" Size="10 10" Pan="165 1" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="192 1 202 1 192 11 202 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Alchemy" Pos="Left Top" Size="10 10" Pan="0 15" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="203 1 213 1 203 11 213 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Fishing" Pos="Left Top" Size="10 10" Pan="55 15" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="214 1 224 1 214 11 224 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Hunting" Pos="Left Top" Size="10 10" Pan="110 15" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="225 1 235 1 225 11 235 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Trade" Pos="Left Top" Size="10 10" Pan="165 15" Color="ffffffff" EnableArea="0 0 50 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="236 1 246 1 236 11 246 11" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GatheringLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="13 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_GatheringLevel_Gauge" Pos="Left Top" Size="33 3" Pan="14 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_6_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_ManufactureLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="68 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_ManufactureLevel_Gauge" Pos="Left Top" Size="33 3" Pan="69 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_CookLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="123 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_CookLevel_Gauge" Pos="Left Top" Size="33 3" Pan="124 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_2_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_TrainingLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="178 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_TrainingLevel_Gauge" Pos="Left Top" Size="33 3" Pan="179 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_3_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_AlchemyLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="13 19" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_AlchemyLevel_Gauge" Pos="Left Top" Size="33 3" Pan="14 20" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_4_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_FishingLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="68 19" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_FishingLevel_Gauge" Pos="Left Top" Size="33 3" Pan="69 20" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_5_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_HuntingLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="123 19" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_HuntingLevel_Gauge" Pos="Left Top" Size="33 3" Pan="124 20" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_6_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_TradeLevel_GaugeBG" Pos="Left Top" Size="35 5" Pan="178 19" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_TradeLevel_Gauge" Pos="Left Top" Size="33 3" Pan="178 20" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_7_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GatheringLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ManufactureLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CookLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TrainingLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AlchemyLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishingLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HuntingLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradeLevel_Value" Pos="Left Top" Size="60 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="명장 Lv.19" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

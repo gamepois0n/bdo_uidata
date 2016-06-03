@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6656</itemKey>
+	<itemName>Eau purifiée</itemName>
+	<itemIcon>00006656.png</itemIcon>
+	<itemDesc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</itemDesc>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6653</id>
+			<name>Bouteille d&apos;eau du fleuve</name>
+			<icon>00006653.png</icon>
+			<desc>Une bouteille vide qui a été remplie d&apos;eau de rivière. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une rivière.\n\n※ Utiliser de l&apos;eau de rivière sur un jardin augmentera la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6654</id>
+			<name>Bouteille d&apos;eau trouble</name>
+			<icon>00006654.png</icon>
+			<desc>Une bouteille d&apos;eau trouble obtenue à partir d&apos;une source d&apos;eau boueuse. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une source d&apos;eau boueuse.\n\n※ Utiliser de l&apos;eau trouble sur un jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6655</id>
+			<name>Bouteille d&apos;eau pure</name>
+			<icon>00006655.png</icon>
+			<desc>Une bouteille vide qui a été remplie d&apos;eau claire. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une source d&apos;eau claire.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6657</id>
+			<name>Poche d&apos;eau boueuse</name>
+			<icon>00006657.png</icon>
+			<desc>Water collected from desert using a shovel. It can be filtered to make Purified Water.\n- How to Obtain : Use Shabby Shovel in the desert to obtain a bag of muddy water.\n※Using this item on the garden will increase the amount of water deposit.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>24212</id>
+			<name>Bouilloire impériale en platine</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>Bouilloire impériale en platine.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Vase de main doré</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>Vase de main doré.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Vase en opale magnifique</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Vase en opale magnifique.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Bouilloire distinguée en topaze</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>Bouilloire distinguée en topaze.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Bouteille ronde en émeraude</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>Bouteille en émeraude en forme de gourde.</desc>
+		</item>
+		<item>
+			<id>24207</id>
+			<name>Vase en saphir distingué</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>Vase en saphir distingué.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Bouteille ronde en rubis</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>Bouteille en rubis en forme de gourde.</desc>
+		</item>
+		<item>
+			<id>24205</id>
+			<name>Poterie longue</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Poterie longue.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Poterie de bourbier</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Poterie de bourbier.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Poterie ronde</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Poterie ronde.</desc>
+		</item>
+		<item>
+			<id>16903</id>
+			<name>Engrais organique</name>
+			<icon>00016901.png</icon>
+			<desc>Augmente la croissance des cultures alentours. Utiliser un engrais à proximité d&apos;un jardin réduit le temps de pousse des cultures.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

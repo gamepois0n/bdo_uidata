@@ -1,0 +1,231 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CustomizationTransformHair" Pos="901 139" Size="280 260" Pan="0 0" Color="ffffffff" EnableArea="0 0 285 260">
+		<Attribute Type="Hide"/>
+		<Control Type="StaticText" Name="StaticText_DefaultControl" Pos="10 10" Size="50 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Bone_Trans" Pos="10 32" Size="77 77" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 70" Group="0">
+			<Texture Type="Base" UV="0 0 77 0 0 77 77 77" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_transbutton_normal.dds</Texture>
+			<Texture Type="On" UV="0 0 77 0 0 77 77 77" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_transbutton_over.dds</Texture>
+			<Texture Type="Click" UV="0 0 77 0 0 77 77 77" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_transbutton_down.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TransX" Pos="92 42" Size="12 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="辆气" formatString="UI_CUSTOMIZATION_COMMON_X" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TransY" Pos="92 63" Size="12 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="染气" formatString="UI_CUSTOMIZATION_COMMON_Y" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TransZ" Pos="92 84" Size="12 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="表捞" formatString="UI_CUSTOMIZATION_COMMON_Z" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_TransX_Controller" Pos="129 45" Size="140 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 140 8" Grid="1" GridPosX="0 2 138 140" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="11 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_TransX_Left" Pos="101 47" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_TransY_Controller" Pos="129 66" Size="140 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 140 8" Grid="1" GridPosX="0 2 138 140" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="10 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_TransY_Left" Pos="101 68" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_TransZ_Controller" Pos="129 87" Size="140 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 140 8" Grid="1" GridPosX="0 2 138 140" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="72 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_TransZ_Left" Pos="101 89" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Bone_Rot" Pos="10 119" Size="77 77" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 70" Group="0">
+			<Texture Type="Base" UV="0 0 77 0 0 77 77 77" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_rotationbutton_normal.dds</Texture>
+			<Texture Type="On" UV="0 0 77 0 0 77 77 77" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_rotationbutton_over.dds</Texture>
+			<Texture Type="Click" UV="0 0 77 0 0 77 77 77" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_rotationbutton_down.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RotX" Pos="92 129" Size="12 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="辆气" formatString="UI_CUSTOMIZATION_COMMON_X" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RotY" Pos="92 150" Size="12 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="染气" formatString="UI_CUSTOMIZATION_COMMON_Y" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RotZ" Pos="92 171" Size="12 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="表捞" formatString="UI_CUSTOMIZATION_COMMON_Z" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_RotX_Controller" Pos="129 132" Size="140 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 140 8" Grid="1" GridPosX="0 2 138 140" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="11 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_RotX_Value" Pos="101 134" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_RotY_Controller" Pos="129 153" Size="140 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 140 8" Grid="1" GridPosX="0 2 138 140" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="10 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_RotY_Value" Pos="101 155" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_RotZ_Controller" Pos="129 174" Size="140 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 140 8" Grid="1" GridPosX="0 2 138 140" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="72 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_RotZ_Value" Pos="101 176" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderDesc1" Pos="10 125" Size="60 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderValue1" Pos="64 130" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_Controller1" Pos="95  128" Size="174 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 174 8" Grid="1" GridPosX="0 2 172 174" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="11 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderDesc2" Pos="10 146" Size="60 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderValue2" Pos="64 151" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_Controller2" Pos="95 149" Size="174 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 174 8" Grid="1" GridPosX="0 2 172 174" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="10 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderDesc3" Pos="10 167" Size="60 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderValue3" Pos="64 172" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_Controller3" Pos="95 170" Size="174 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 174 8" Grid="1" GridPosX="0 2 172 174" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="72 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderDesc4" Pos="10 125" Size="60 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderValue4" Pos="64 151" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_Controller4" Pos="95 128" Size="174 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 174 8" Grid="1" GridPosX="0 2 172 174" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="11 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderDesc5" Pos="10 146" Size="60 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SliderValue5" Pos="64 130" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_Controller5" Pos="95 149" Size="174 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 174 8" Grid="1" GridPosX="0 2 172 174" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="10 Center" Size="34 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 13">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_ControlPart" Pos="10 190" Size="20 20" Pan="165 105" Color="ffffffff" EnableArea="0 0 20 20" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="211 73 230 73 211 92 230 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="235 73 254 73 235 92 254 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ControlPart" Pos="40 188" Size="80 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Part_Reset" Pos="80 220" Size="90 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 90 30" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 25 30" GridUVX="1 6 24 29" GridUVY="1 6 24 29" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_All_Reset" Pos="180 220" Size="90 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 90 30" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 25 30" GridUVX="1 6 24 29" GridUVY="1 6 24 29" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

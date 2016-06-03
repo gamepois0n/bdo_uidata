@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5003</itemKey>
+	<itemName>Piniensaft</itemName>
+	<itemIcon>00005003.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Pinie erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Pinie</name>
+		</character>
+	</collect>
+	<node region="Mariehöhle – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>14443</id>
+			<name>Ultimativer Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab der Zerstörung, Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria-Stab der Versuchung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria-Stab der Zerstörung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Zerstörung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria-Stab der Purpurnen Flamme</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Stabs gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein Stab, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Schiffslizenz: Fischerboot</name>
+			<icon>00049005.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz eines 『Fischerboots 』.\n– Inventarplätze: 12, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

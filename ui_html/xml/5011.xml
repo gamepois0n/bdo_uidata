@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5011</itemKey>
+	<itemName>Red Tree Lump</itemName>
+	<itemIcon>00005011.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Red Tree Lump requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ash Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cedar Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fir</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Maple</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pine Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>White Cedar</name>
+		</character>
+	</collect>
+	<node region="Bloody Monastery - Lumbering"/>
+	<node region="Northern Plain of Serendia - Lumbering"/>
+	<node region="Quint Hill - Lumbering"/>
+	<node region="Old Dandelion - Lumbering"/>
+	<makelist>
+		<item>
+			<id>4910</id>
+			<name>Grade 3 Weapon Reform Stone</name>
+			<icon>00004910.png</icon>
+			<desc>A material used in 3rd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

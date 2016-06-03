@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6352</itemKey>
+	<itemName>Sang de tyran</itemName>
+	<itemIcon>00006352.png</itemIcon>
+	<itemDesc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6213</id>
+			<name>Sang d&apos;ours</name>
+			<icon>00006213.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un ours mort.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Trace de sauvagerie</name>
+			<icon>00005956.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site des ruines de la ferme Lynch.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Branche de moine</name>
+			<icon>00005007.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une branche de moine demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16001</id>
+			<name>Pierre noire (arme)</name>
+			<icon>00000008.png</icon>
+			<desc>Les armes peuvent être optimisées grâce à l&apos;esprit occulte.\n\n- Possibilité d&apos;optimiser :arme, arme secondaire</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 3</name>
+			<icon>00004911.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 3.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

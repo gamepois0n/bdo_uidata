@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9286</itemKey>
+	<itemName>Pain au lait tendre</itemName>
+	<itemIcon>00009286.png</itemIcon>
+	<itemDesc>Une quantité plus importante de lait rend ce pain encore plus moelleux.\n\n- Effet unique : endurance max. +100 pendant 45 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

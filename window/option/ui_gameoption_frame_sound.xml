@@ -1,0 +1,347 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GameOption_Sound" Pos="0 0" Size="560 600" Pan="0 0" Color="ffffffff" EnableArea="0 0 560 600" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Control Type="Frame" Name="Frame_Sound" Pos="Right Top" Size="560 380" Pan="42 100" Color="ffffffff" EnableArea="0 0 560 380">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="Center Top" Size="560 1028" Pan="0 0" Color="ffffffff" EnableArea="0 0 560 1028">
+				<Attribute Type="Ignore"/>
+				<Control Type="StaticText" Name="StaticText_SoundSetting" Pos="Center Top" Size="560 30" Pan="0 5" Color="ffffffff" EnableArea="0 0 560 30">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="326 200 340 200 326 214 340 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+					<Text Value="소리 설정" formatString="OPTION_TEXT_SOUNDTITLE" Font="BaseFont_12" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_SoundOnOff" Pos="Center Top" Size="560 20" Pan="0 50" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="음향 켜고 끄기" formatString="OPTION_TEXT_SOUNDONOFF" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_MusicOnOff" Pos="Left Top" Size="220 23" Pan="25 75" Color="ffffffff" EnableArea="0 0 220 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="음악 켜기/끄기" formatString="OPTION_TXT_BGMTOGGLE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_FXOnOff" Pos="Left Top" Size="220 23" Pan="25 105" Color="ffffffff" EnableArea="0 0 220 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="효과음 켜기/끄기" formatString="OPTION_TXT_EFFECTSOUNDTOGGLE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_EnvFXOnOff" Pos="Left Top" Size="220 23" Pan="25 135" Color="ffffffff" EnableArea="0 0 220 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="환경 효과음 켜기/끄기" formatString="OPTION_TXT_ENVSOUNDTOGGLE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_RiddingOnOff" Pos="Left Top" Size="290 23" Pan="260 75" Color="ffffffff" EnableArea="0 0 290 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="탑승물 음악 켜기/끄기" formatString="PANEL_GAMEOPTION_SOUND_BTN_SERVANT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_WhisperOnOff" Pos="Left Top" Size="290 23" Pan="260 105" Color="ffffffff" EnableArea="0 0 290 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="귓속말 음악 켜기/끄기" formatString="PANEL_GAMEOPTION_SOUND_BTN_WHISPER" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_TraySoundOnOff" Pos="Left Top" Size="290 23" Pan="260 135" Color="ffffffff" EnableArea="0 0 290 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="트레이창 상태 소리 켜기/끄기" formatString="PANEL_GAMEOPTION_SOUND_BTN_TRAYSOUND" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_CombatSound" Pos="Center Top" Size="560 20" Pan="0 180" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="전투 음악 켜기/끄기" formatString="PANEL_GAMEOPTION_SOUND_TITLE_COMBAT" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_AllwaysCombatLowOff" Pos="Left Top" Size="180 23" Pan="380 210" Color="ffffffff" EnableArea="0 0 180 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="10">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="기본" formatString="PANEL_GAMEOPTION_SOUND_BTN_COMBATNORMAL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_AllwaysCombatOff" Pos="Left Top" Size="170 23" Pan="25 210" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="10">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="상시 끄기" formatString="PANEL_GAMEOPTION_SOUND_BTN_COMBATTURNOFF" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_AllwaysCombatOn" Pos="Left Top" Size="170 23" Pan="200 210" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="10">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="상시 켜기" formatString="PANEL_GAMEOPTION_SOUND_BTN_COMBATALLWAYS" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_TotalVolume" Pos="Center Top" Size="560 20" Pan="0 260" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="전체 크기 조절" formatString="OPTION_TEXT_MASTERVOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_TotalVolume_0" Pos="Left Top" Size="23 23" Pan="25 280" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_TotalVolume_50" Pos="Center Top" Size="23 23" Pan="0 280" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_TotalVolume_100" Pos="Right Top" Size="23 23" Pan="25 280" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_TotalVolumeControl" Pos="Center Top" Size="510 7" Pan="0 305" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_TotalVolume_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MusicVolume" Pos="Center Top" Size="560 20" Pan="0 350" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="음악 크기 조절" formatString="OPTION_TEXT_BGMVOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MusicVolume_0" Pos="Left Top" Size="23 23" Pan="25 370" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MusicVolume_50" Pos="Center Top" Size="23 23" Pan="0 370" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MusicVolume_100" Pos="Right Top" Size="23 23" Pan="25 370" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_MusicVolumeControl" Pos="Center Top" Size="510 7" Pan="0 395" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_MusicVolume_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_FXVolume" Pos="Center Top" Size="560 20" Pan="0 440" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="효과음 크기 조절" formatString="OPTION_TEXT_FXVOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_FXVolume_0" Pos="Left Top" Size="23 23" Pan="25 460" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_FXVolume_50" Pos="Center Top" Size="23 23" Pan="0 460" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_FXVolume_100" Pos="Right Top" Size="23 23" Pan="25 460" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_FXVolumeControl" Pos="Center Top" Size="510 7" Pan="0 485" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_FXVolume_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_EnvFXVolume" Pos="Center Top" Size="560 20" Pan="0 530" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="환경 효과음 크기 조절" formatString="OPTION_TEXT_ENVVOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_EnvFXVolume_0" Pos="Left Top" Size="23 23" Pan="25 550" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_EnvFXVolume_50" Pos="Center Top" Size="23 23" Pan="0 550" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_EnvFXVolume_100" Pos="Right Top" Size="23 23" Pan="25 550" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_EnvFXVolumeControl" Pos="Center Top" Size="510 7" Pan="0 575" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_EnvFXVolume_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_VoiceVolume" Pos="Center Top" Size="560 20" Pan="0 620" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="음성 크기 조절" formatString="OPTION_TEXT_DIALOGVOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_VoiceVolume_0" Pos="Left Top" Size="23 23" Pan="25 640" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_VoiceVolume_50" Pos="Center Top" Size="23 23" Pan="0 640" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_VoiceVolume_100" Pos="Right Top" Size="23 23" Pan="25 640" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_VoiceVolumeControl" Pos="Center Top" Size="510 7" Pan="0 665" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_VoiceVolume_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackVolume" Pos="Center Top" Size="560 20" Pan="0 710" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="전투 효과음 크기 조절" formatString="OPTION_TEXT_ATTACKVOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackVolume_0" Pos="Left Top" Size="23 23" Pan="25 730" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackVolume_50" Pos="Center Top" Size="23 23" Pan="0 730" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackVolume_100" Pos="Right Top" Size="23 23" Pan="25 730" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_AttackVolumeControl" Pos="Center Top" Size="510 7" Pan="0 755" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_VoiceVolume_Button" Pos="218 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackSmothVolume" Pos="Center Top" Size="560 20" Pan="0 800" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="타격음 밝기 조절" formatString="OPTION_TEXT_HITVOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackSmothVolume_0" Pos="Left Top" Size="23 23" Pan="25 820" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackSmothVolume_50" Pos="Center Top" Size="23 23" Pan="0 820" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AttackSmothVolume_100" Pos="Right Top" Size="23 23" Pan="25 820" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_AttackSmothVolumeControl" Pos="Center Top" Size="510 7" Pan="0 845" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_VoiceVolume_Button" Pos="322 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_OtherUserVolume" Pos="Center Top" Size="560 20" Pan="0 890" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="다른 모험가의 음량 조절" formatString="OPTION_TEXT_OTHERPLAYER_VOLUME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_OtherUserVolume_0" Pos="Left Top" Size="23 23" Pan="25 910" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_OtherUserVolume_50" Pos="Center Top" Size="23 23" Pan="0 910" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_OtherUserVolume_100" Pos="Right Top" Size="23 23" Pan="25 910" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_OtherUserVolumeControl" Pos="Center Top" Size="510 7" Pan="0 935" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_VoiceVolume_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_VoiceChat" Pos="Center Top" Size="560 20" Pan="0 980" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Hide"/>
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="음성 채팅" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_VoiceChatOnOff" Pos="Left Top" Size="23 23" Pan="25 1005" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="음성 채팅 on/off" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_Snd_BottomBlank" Pos="Center Top" Size="560 20" Pan="0 950" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Button_Reset" Pos="Right Top" Size="100 25" Pan="10 8" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 20 25" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="초기화" formatString="PANEL_GAMEOPTION_SOUND_BTN_RESET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="Right 0" Size="20 380" Pan="-23 0" Color="ff333333" EnableArea="0 0 20 380" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 373 380" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_DownButton" Pos="0 380" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_CtrlButton" Pos="Center 315" Size="13 65" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="0 380" Size="520 20" Pan="0 0" Color="ff333333" EnableArea="0 0 520 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="520 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="-5 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>

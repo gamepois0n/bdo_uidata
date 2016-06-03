@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15103</itemKey>
+	<itemName>Magic Crystal of Infinity - Carnage</itemName>
+	<itemIcon>00045003.png</itemIcon>
+	<itemDesc>A Black Stone Crystal that can be fused into Weapon sockets. \n- Item Effect: Additional Damage to Demihumans +2\n※ This magic crystal has a high chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15003</id>
+			<name>Magic Crystal of Crimson Flame - Carnage</name>
+			<icon>00045003.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Weapon sockets. \n- Item Effect: Additional Damage to Demihumans +1\n※ This magic crystal has a high chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</desc>
+		</item>
+		<item>
+			<id>5205</id>
+			<name>Fruit of Nature</name>
+			<icon>00005205.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Magic Crystal of Crimson Flame - Precision</name>
+			<icon>00045001.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Weapon sockets. \n- Item Effect: All Accuracy +1\n※ This magic crystal has a high chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</desc>
+		</item>
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+		<item>
+			<id>6214</id>
+			<name>Wolf Blood</name>
+			<icon>00006214.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be extracted from a wolf corpse using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>15003</id>
+			<name>Magic Crystal of Crimson Flame - Carnage</name>
+			<icon>00045003.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Weapon sockets. \n- Item Effect: Additional Damage to Demihumans +1\n※ This magic crystal has a high chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

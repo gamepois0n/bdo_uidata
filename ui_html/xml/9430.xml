@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9430</itemKey>
+	<itemName>Juicy Steak</itemName>
+	<itemIcon>00009430.png</itemIcon>
+	<itemDesc>A juicy steak grilled to perfection. \n\n- Unique Effect: Max HP +50 for 75 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Red Sauce</name>
+			<icon>00009004.png</icon>
+			<desc>A red sauce used for Cooking.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Steak, Cheese Gratin</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Pork</name>
+			<icon>00007905.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a pig corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Garlic</name>
+			<icon>00007302.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Steak, Steamed Fish, etc.\n- How to Obtain: It can be obtained by Farming Garlic Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Red Sauce</name>
+			<icon>00009004.png</icon>
+			<desc>A red sauce used for Cooking.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Steak, Cheese Gratin</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9415</itemKey>
+	<itemName>Fleischstulle</itemName>
+	<itemIcon>00009415.png</itemIcon>
+	<itemDesc>Ein belegtes Weichbrot mit zartem Fleisch.\n\n– Spezielle Wirkung: Bewegungsgeschwindigkeit +1 für 90 Min.\nMax. Ausdauer +200 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Milchbrot</name>
+			<icon>00009260.png</icon>
+			<desc>Ein Getreideteig, der vor dem Backen gären konnte.\n\n– Spezielle Wirkung: Max. Ausdauer +100 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

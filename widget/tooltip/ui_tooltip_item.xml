@@ -1,0 +1,379 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Tooltip_Item" Pos="361 159" Size="321 590" Pan="0 0" Color="ffffffff" EnableArea="0 0 321 590" Grid="1" GridPosX="0 6 313 321" GridPosY="0 4 582 590" GridUVX="0 6 248 256" GridUVY="0 4 248 256">
+		<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_noline.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Control Type="Static" Name="Tooltip_Item_Icon" Pos="Left 31" Size="42 42" Pan="12 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/04_pgm_skill/pgm_skill_0272.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_Name" Pos="Left Top" Size="230 20" Pan="15 30" Color="  ffffff" EnableArea="0 0 230 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="날카로운 진격의 워해머" Font="BaseFont_12_Bold" Color="ffededed" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_Enchant_value" Pos="Left 66" Size="42 20" Pan="12 0" Color="  ffffff" EnableArea="0 0 42 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+9" Font="BaseFont_12_Yellow" Color="ffe9e4e4" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_Type" Pos="Left Top" Size="120 20" Pan="190 7" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="소켓 아이템" formatString="UI_TOOLTIP_ITEM_SOCKETITEM" Font="BaseFont_8_Bold" Color="ff839364" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Dying" Pos="Right Top" Size="80 20" Pan="14 25" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="염색됨" formatString="UI_TOOLTIP_ITEM_DYE" Font="BaseFont_8_Bold" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_isEnchantable" Pos="Left 79" Size="200 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="강화 불가" formatString="UI_TOOLTIP_ITEM_NOENCHANT" Font="BaseFont_8_Bold" Color="ff748cab" OverColor="ff748cab" ClickColor="ff748cab" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_isSealed" Pos="Left 79" Size="150 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="각인됨" formatString="UI_TOOLTIP_ITEM_IMPRINT" Font="BaseFont_8_Bold" Color="ff748cab" OverColor="ff748cab" ClickColor="ff748cab" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_BindType" Pos="Left 117" Size="210 20" Pan="15 15" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="획득시 귀속" formatString="UI_TOOLTIP_ITEM_GETIT" Font="BaseFont_8_Bold" Color="ff748cab" OverColor="ff748cab" ClickColor="ff748cab" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DisassembleType" Pos="Left 98" Size="150 20" Pan="15 15" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="분해 가능" formatString="UI_TOOLTIP_ITEM_DECOMPOSED" Font="BaseFont_8_Bold" Color="ff748cab" OverColor="ff748cab" ClickColor="ff748cab" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_UseLimit_panel" Pos="Center 149" Size="300 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 100" Grid="1" GridPosX="0 12 288 300" GridPosY="0 13 87 100" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_category" Pos="349 40" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffb7a390" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_level" Pos="Left 204" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_level_value" Pos="Left 153" Size="250 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="20 레벨 ~ 30 레벨" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_extendedslot" Pos="Left 172" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_extendedslot_value" Pos="Left 172" Size="250 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="상의, 장갑, 신발, 투구 부위를 차지합니다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_class" Pos="Left 191" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_class_value" Pos="Left 191" Size="250 50" Pan="15 0" Color="  ffffff" EnableArea="0 0 250 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="전사, 마법사" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_Exp" Pos="Left 550" Size="275 20" Pan="15 0" Color="  c4bebe" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 경험치 :" formatString="PANEL_ITEMTOOLTIP_EXP" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_UseLimit_Exp_gage" Pos="Center Bottom" Size="300 16" Pan="0 10" Color="ffffffff" EnableArea="0 0 300 16" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress_UseLimit_Exp_gage_value" Pos="Center Bottom" Size="285 6" Pan="0 16" Color="ffffffff" EnableArea="0 0 285 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 49 232 49 1 54 232 54" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-13 1" Size="20 6" Pan="0 0" Color="cc000044" EnableArea="0 0 20 6">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_Exp_value" Pos="Center Bottom" Size="150 10" Pan="0 16" Color="  ffffff" EnableArea="0 0 150 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="20 / 20" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_endurance" Pos="Left 550" Size="275 20" Pan="15 0" Color="  c4bebe" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 내구도" formatString="TOOLTIP_ITEM_TXT_ENDURANCE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_UseLimit_endurance_gage" Pos="Center Bottom" Size="300 16" Pan="0 10" Color="ffffffff" EnableArea="0 0 300 16" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_MaxEndurance" Pos="Center Bottom" Size="285 6" Pan="0 15" Color="ffffffff" EnableArea="0 0 285 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 242 233 242 1 248 233 248" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-13 1" Size="20 6" Pan="0 0" Color="cc000044" EnableArea="0 0 20 6">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress_UseLimit_endurance_gage_value" Pos="Center Bottom" Size="285 6" Pan="0 16" Color="ffffffff" EnableArea="0 0 285 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 49 232 49 1 54 232 54" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-13 1" Size="20 6" Pan="0 0" Color="cc000044" EnableArea="0 0 20 6">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_endurance_value" Pos="Center Bottom" Size="150 10" Pan="0 16" Color="  ffffff" EnableArea="0 0 150 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="20 / 20" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_remainTime" Pos="Left 188" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 가격 보증 기간 :" formatString="TOOLTIP_ITEM_TXT_REMAINTIME" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_UseLimit_remainTime_value" Pos="Left 189" Size="160 20" Pan="150 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50000초" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_DefaultEffect_panel" Pos="341 115" Size="300 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 70" Grid="1" GridPosX="0 12 288 300" GridPosY="0 13 57 70" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_category" Pos="348 65" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffb7a390" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_attack" Pos="Left 35" Size="60 20" Pan="60 0" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="공격력 :" formatString="TOOLTIP_ITEM_TXT_ATTACK" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_attack_value" Pos="Left 28" Size="160 20" Pan="130 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="15~39" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_attackDiff_value" Pos="Left 35" Size="200 20" Pan="200 0" Color="  ffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="(▲10)" Font="BaseFont_12_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_DefaultEffect_attack_isMeleeAttack" Pos="189 36" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 15" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 21 1 1 21 21 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_DefaultEffect_attack_isRangeAttack" Pos="206 36" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 15" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="22 1 42 1 22 21 42 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_DefaultEffect_attack_isMagicAttack" Pos="223 36" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 15" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="43 1 63 1 43 21 63 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_defense" Pos="Left 74" Size="60 20" Pan="60 0" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="방어력 :" formatString="TOOLTIP_ITEM_TXT_DEFENCE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_defense_value" Pos="Left 66" Size="160 20" Pan="130 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="128" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_defenseDiff_value" Pos="Left 73" Size="200 20" Pan="200 0" Color="  ffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="(▲10)" Font="BaseFont_12_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_weight" Pos="Left 55" Size="60 20" Pan="60 0" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="무게 :" formatString="TOOLTIP_ITEM_TXT_WEIGHT" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_DefaultEffect_weight_value" Pos="Left 55" Size="160 20" Pan="130 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="1000 LT" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_ProducedPlace" Pos="Left 471" Size="265 18" Pan="15 0" Color="  ffffff" EnableArea="0 0 265 18">
+			<Attribute Type="Ignore"/>
+			<Text Value="원산지 : 벨리아 마을" Font="BaseFont_8_Bold" Color="ffffe375" OverColor="ffffe375" ClickColor="ffffe375" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_Description" Pos="Left 492" Size="290 30" Pan="15 0" Color="  ffffff" EnableArea="0 0 290 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="레페의 유래는 어디서부터 어떻게 시작되었고, 너는 지금 잘난 레페의 무기를 사용하고 있지. 지금까지 그래왔고 앞으로도 계속..." Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_ExchangeTitle" Pos="Left -9" Size="290 20" Pan="15 0" Color="ffffffff" EnableArea="0 0 290 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 교환 정보" formatString="PANEL_ITEMTOOLTIP_EXCHANGEITEMINFO" Font="BaseFont_8_Bold" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_ExchangeDescription" Pos="Left 492" Size="290 30" Pan="15 0" Color="  ffffff" EnableArea="0 0 290 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="레페의 유래는 어디서부터 어떻게 시작되었고, 너는 지금 잘난 레페의 무기를 사용하고 있지. 지금까지 그래왔고 앞으로도 계속..." Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_ItemPrice_panel" Pos="Center Bottom" Size="300 50" Pan="0 40" Color="ffffffff" EnableArea="0 0 300 50" Grid="1" GridPosX="0 12 288 300" GridPosY="0 12 37 50" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_ItemPrice_transportBuy" Pos="Left Bottom" Size="60 20" Pan="15 40" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="무역구매가 :" formatString="UI_TOOLTIP_ITEM_TRADEPRICE" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_ItemPrice_transportBuy_value" Pos="Left Bottom" Size="80 20" Pan="100 40" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="300 G" Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_ItemPrice_storeSell" Pos="Left Bottom" Size="60 20" Pan="15 40" Color="  ffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="판매가 :" formatString="UI_TOOLTIP_ITEM_SELLPRICE" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_ItemPrice_storeSell_value" Pos="Left Bottom" Size="80 20" Pan="100 40" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Silver 30,000,000" Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_SoketOption_panel" Pos="Center 257" Size="300 210" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 210" Grid="1" GridPosX="0 12 288 300" GridPosY="0 13 197 210" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_category" Pos="345 91" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffb7a390" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_SoketOption_soketSlot1" Pos="Left 263" Size="18 18" Pan="15 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketName1" Pos="Left 262" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="영롱하면서 밝은 쥬얼" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketEffect1" Pos="Left 277" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="소켓 효과" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_SoketOption_soketSlot2" Pos="Left 297" Size="18 18" Pan="15 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketName2" Pos="Left 296" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="영롱하면서 밝은 쥬얼" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketEffect2" Pos="Left 311" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="소켓 효과" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_SoketOption_soketSlot3" Pos="Left 332" Size="18 18" Pan="15 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketName3" Pos="Left 331" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="영롱하면서 밝은 쥬얼" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketEffect3" Pos="Left 346" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="소켓 효과" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_SoketOption_soketSlot4" Pos="Left 367" Size="18 18" Pan="15 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketName4" Pos="Left 398" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="영롱하면서 밝은 쥬얼" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketEffect4" Pos="Left 412" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="소켓 효과" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_SoketOption_soketSlot5" Pos="Left 400" Size="18 18" Pan="15 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketName5" Pos="Left 366" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="영롱하면서 밝은 쥬얼" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketEffect5" Pos="Left 381" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="소켓 효과" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Item_SoketOption_soketSlot6" Pos="Left 432" Size="18 18" Pan="15 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketName6" Pos="Left 431" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="영롱하면서 밝은 쥬얼" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Item_SoketOption_soketEffect6" Pos="Left 444" Size="250 20" Pan="40 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="소켓 효과" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Expire_Icon1" Pos="-310 -3" Size="13 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 13" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="45 1 58 1 45 14 58 14" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/inventory_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Expire_Icon2" Pos="-315 64" Size="13 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 13" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="45 15 58 15 45 28 58 28" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/inventory_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Expire_Icon3" Pos="-341 20" Size="13 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 13" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="45 29 58 29 45 42 58 42" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/inventory_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DyeColorInfo" Pos="Left 79" Size="50 20" Pan="15 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 염색 정보" formatString="UI_TOOLTIP_ITEM_DYEINFO" Font="BaseFont_8_Bold" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part1" Pos="15 142" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part2" Pos="15 142" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part3" Pos="15 142" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part4" Pos="54 142" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part5" Pos="67 142" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part6" Pos="79 141" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part7" Pos="91 142" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part8" Pos="101 140" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part9" Pos="111 142" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part10" Pos="124 141" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part11" Pos="137 143" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DyeColorIcon_Part12" Pos="142 146" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="86 43 96 43 86 53 96 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DefaultEffect_weightDiff_value" Pos="Left 55" Size="100 20" Pan="170 0" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="( 3 )" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TradeInfoPanel" Pos="Center -13" Size="300 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 65" Grid="1" GridPosX="0 12 288 300" GridPosY="0 13 52 65" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradePriceTitle" Pos="Left -9" Size="290 20" Pan="15 0" Color="ffffffff" EnableArea="0 0 290 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 거래소 정보" formatString="PANEL_TOOLTIP_ITEM_TRADEPRICETITLE" Font="BaseFont_8_Bold" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradePriceValue" Pos="Left 11" Size="290 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="거래가 :" formatString="UI_TOOLTIP_ITEM_DEALPRICE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EquipTypeName" Pos="Left 221" Size="250 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="착용 부위 :" formatString="UI_TOOLTIP_ITEM_WEARPARTS" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_ProductNotify" Pos="Center 0" Size="300 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 26" Grid="1" GridPosX="0 12 288 300" GridPosY="0 13 13 26" GridUVX="0 12 244 256" GridUVY="0 13 243 256">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+			<Text Value="&lt;PAColor0xFF00C0D7&gt;쉬프트+좌클릭&lt;PAOldColor&gt;으로 &lt;PAColor0xFF00C0D7&gt;제작 정보&lt;PAOldColor&gt;를 확인할 수 있습니다." formatString="UI_TOOLTIP_ITEM_SHIFTCLICK" Font="BaseFont_8_Bold" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_IsPersnalTrade" Pos="Left 230" Size="250 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 개인 거래 가능" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

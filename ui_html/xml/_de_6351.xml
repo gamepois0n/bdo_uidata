@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6351</itemKey>
+	<itemName>Blut eines legendären Biests</itemName>
+	<itemIcon>00006351.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>6208</id>
+			<name>Echsenblut</name>
+			<icon>00006208.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Echsenkadaver erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5954</id>
+			<name>Spur der Erde</name>
+			<icon>00005954.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei der Uralten Steinkammer gefunden werden.</desc>
+		</item>
+		<item>
+			<id>5006</id>
+			<name>Geisterblatt</name>
+			<icon>00005006.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Geisterblatt erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>53607</id>
+			<name>Flagge für Adelswagen</name>
+			<icon>00053604.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53606</id>
+			<name>Flagge für Händlerwagen</name>
+			<icon>00053606.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53605</id>
+			<name>Flagge für Handelswagen</name>
+			<icon>00053605.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53604</id>
+			<name>Flagge für Hofwagen</name>
+			<icon>00053604.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53603</id>
+			<name>Flagge für Weißen Wagen</name>
+			<icon>00053603.png</icon>
+			<desc>Eine Flagge für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53602</id>
+			<name>Flagge für Robusten Wagen</name>
+			<icon>00053602.png</icon>
+			<desc>Eine Flagge für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53601</id>
+			<name>Flagge für Schäbigen Wagen</name>
+			<icon>00053601.png</icon>
+			<desc>Eine Flagge für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>49302</id>
+			<name>Bug der Calpheon-Fähre</name>
+			<icon>00049302.png</icon>
+			<desc>Ein Bug aus Calpheon, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, schneller zu segeln.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nMax. Traglast +100 kg(noch nicht verfügbar)\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 2)</name>
+			<icon>00004909.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

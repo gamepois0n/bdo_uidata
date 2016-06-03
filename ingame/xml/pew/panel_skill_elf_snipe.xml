@@ -1,0 +1,12 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Skill_Elf_Snipe" Pos="0 0" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720">
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_Radial" Pos="0 0" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/skill/pew/elf_snipe.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="eaffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+	</Control>
+</UI>
+

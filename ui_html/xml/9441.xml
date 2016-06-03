@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9441</itemKey>
+	<itemName>High-Quality Seafood Pasta</itemName>
+	<itemIcon>00009441.png</itemIcon>
+	<itemDesc>Pasta with quality seafood. \n- Unique effect: Casting Speed Rank +1 for 75min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Squid</name>
+			<icon>00008211.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Garlic</name>
+			<icon>00007302.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Steak, Steamed Fish, etc.\n- How to Obtain: It can be obtained by Farming Garlic Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

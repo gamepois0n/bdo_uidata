@@ -1,0 +1,37 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Extraction" Pos="Center Bottom" Size="1300 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 1300 75">
+		<Control Type="Static" Name="ExtractionBackGround" Pos="Center Bottom" Size="1950 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 1950 75" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 1024 0 0 256 1024 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_wide.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Extraction_EnchantStone" Pos="Center Bottom" Size="159 32" Pan="-170 25" Color="ffffffff" EnableArea="0 0 159 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="5 7">
+			<Texture Type="Base" UV="1 67 155 67 1 99 155 99" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 67 310 67 156 99 310 99" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 67 465 67 311 99 465 99" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="블랙스톤 추출" formatString="UI_WINDOW_EXTRACTION_FUNCTION_BTN_ENCHANTSTONE" Font="BaseFont_10" Color="ffe9e4e4" OverColor="ffe9e4e4" ClickColor="ffe9e4e4" AlignHorizon="Left" AlignVertical="Center" Span="45 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Extraction_Crystal" Pos="Center Bottom" Size="159 32" Pan="0 25" Color="ffffffff" EnableArea="0 0 159 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="5 7">
+			<Texture Type="Base" UV="1 34 155 34 1 66 155 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 34 310 34 156 66 310 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 34 465 34 311 66 465 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="수정 추출" formatString="UI_WINDOW_EXTRACTION_FUNCTION_BTN_CRYSTAL" Font="BaseFont_10" Color="ffe9e4e4" OverColor="ffe9e4e4" ClickColor="ffe9e4e4" AlignHorizon="Left" AlignVertical="Center" Span="56 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Extraction_Cloth" Pos="Center Bottom" Size="159 32" Pan="170 25" Color="ffffffff" EnableArea="0 0 159 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="5 7">
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<Texture Type="On" UV="156 1 310 1 156 33 310 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<Texture Type="Click" UV="311 1 465 1 311 33 465 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<Text Value="의상 추출" formatString="UI_WINDOW_EXTRACTION_CLOTH_TITLE" Font="BaseFont_10" Color="ffe9e4e4" OverColor="ffe9e4e4" ClickColor="ffe9e4e4" AlignHorizon="Left" AlignVertical="Center" Span="56 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Exit" Pos="Right Bottom" Size="159 32" Pan="50 25" Color="ffffffff" EnableArea="0 0 159 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="나가기" formatString="UI_WINDOW_EXTRACTION_FUNCTION_BTN_EXIT" Font="BaseFont_10" Color="ffe9e4e4" OverColor="ffe9e4e4" ClickColor="ffe9e4e4" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

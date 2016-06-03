@@ -1,0 +1,43 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Worldmap_Tooltip" Pos="0 0" Size="200 68" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 68" Grid="1" GridPosX="0 10 190 200" GridPosY="0 10 58 68" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_IconName" Pos="Left Top" Size="10 15" Pan="10 10" Color="ffffffff" EnableArea="0 0 10 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="벨리아 마을" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_IconName_ResultName" Pos="Left Top" Size="160 18" Pan="33 32" Color="  ffffff" EnableArea="0 0 160 18">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="오감자" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="StaticText_IconName_ResultIconBG" Pos="Left Top" Size="18 18" Pan="10 32" Color="ffffffff" EnableArea="0 0 180 18" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticText_IconName_ResultIcon" Pos="Left Top" Size="10 10" Pan="14 35" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/07_productmaterial/00006002.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticText_NodeIconHelp_BG" Pos="0 0" Size="100 68" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 68" Grid="1" GridPosX="0 10 90 100" GridPosY="0 10 58 68" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Help_MouseL" Pos="5 2" Size="24 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 24 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="300 368 335 368 300 413 335 413" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="정보 보기" formatString="UI_NEW_WORLDMAP_TOOLTIP_HELP_MOUSEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="fffefefe" ClickColor="fffefefe" AlignHorizon="Left" AlignVertical="Center" Span="30 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Help_MouseR" Pos="5 40" Size="24 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 24 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="262 368 297 368 262 413 297 413" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="길 찾기" formatString="UI_NEW_WORLDMAP_TOOLTIP_HELP_MOUSER" Font="BaseFont_10" Color="ffffce22" OverColor="fffefefe" ClickColor="fffefefe" AlignHorizon="Left" AlignVertical="Center" Span="30 0"/>
+		</Control>
+	</Control>
+</UI>
+

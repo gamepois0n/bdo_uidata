@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8511</itemKey>
+	<itemName>Dried Squid</itemName>
+	<itemIcon>00008511.png</itemIcon>
+	<itemDesc>A dried squid obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8211</id>
+			<name>Squid</name>
+			<icon>00008211.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55911</id>
+			<name>Packaged Dried Squid</name>
+			<icon>00055911.png</icon>
+			<desc>A Trade Item containing 10 Dried Squid.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

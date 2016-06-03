@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4469</itemKey>
+	<itemName>Grüner Kristall</itemName>
+	<itemIcon>00004469.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe des Rhutum-Außenpostens gefundenem Grünen Rohkristall gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4409</id>
+			<name>Grüner Rohkristall</name>
+			<icon>00004409.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Grünem Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe des Rhutum-Außenpostens gesammelt werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10817</id>
+			<name>Zeres-Helm</name>
+			<icon>00010817.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10818</id>
+			<name>Zeres-Rüstung</name>
+			<icon>00010818.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10819</id>
+			<name>Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10820</id>
+			<name>Zeres-Schuhe</name>
+			<icon>00010820.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10863</id>
+			<name>Zeres-Handschuhe der Beweglichkeit</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10862</id>
+			<name>Zeres-Rüstung der Beweglichkeit</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Beweglichkeit, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10861</id>
+			<name>Zeres-Helm der Beweglichkeit</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Beweglichkeit, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Zeres-Schuhe der Eisenmauer</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Eisenmauer, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Zeres-Handschuhe der Eisenmauer</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Eisenmauer, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10858</id>
+			<name>Zeres-Rüstung der Eisenmauer</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Eisenmauer, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10857</id>
+			<name>Zeres-Helm der Eisenmauer</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Eisenmauer, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>55858</id>
+			<name>Grünes Kristallamulett des Reichtums</name>
+			<icon>00055858.png</icon>
+			<desc>Schmuck aus Grünem Kristall. Jene, die reich werden wollen, tragen ihn als Glücksbringer.</desc>
+		</item>
+		<item>
+			<id>10872</id>
+			<name>Ultimative Zeres-Schuhe</name>
+			<icon>00010820.png</icon>
+			<desc>Maximal aufgerüstete Zeres-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Eisenmauer, Zeres-Schuhe der Beweglichkeit, Zeres-Schuhe der Einschüchterung, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10871</id>
+			<name>Ultimative Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Maximal aufgerüstete Zeres-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Eisenmauer, Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe der Einschüchterung, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Zeres-Schuhe der Beweglichkeit</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Beweglichkeit, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10870</id>
+			<name>Ultimative Zeres-Rüstung</name>
+			<icon>00010818.png</icon>
+			<desc>Eine maximal aufgerüstete Zeres-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Eisenmauer, Zeres-Rüstung der Beweglichkeit, Zeres-Rüstung der Einschüchterung, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10869</id>
+			<name>Ultimativer Zeres-Helm</name>
+			<icon>00010817.png</icon>
+			<desc>Ein maximal aufgerüsteter Zeres-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Eisenmauer, Zeres-Helm der Beweglichkeit, Zeres-Helm der Einschüchterung, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Zeres-Schuhe der Einschüchterung</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Einschüchterung, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Zeres-Handschuhe der Einschüchterung</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Einschüchterung, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10866</id>
+			<name>Zeres-Rüstung der Einschüchterung</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Einschüchterung, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10865</id>
+			<name>Zeres-Helm der Einschüchterung</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Einschüchterung, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>14217</id>
+			<name>[Walküre] Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14215</id>
+			<name>[Waldläuferin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14214</id>
+			<name>[Bändigerin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14213</id>
+			<name>[Schwarzmagierin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14212</id>
+			<name>[Berserker] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14211</id>
+			<name>[Krieger] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>10820</id>
+			<name>Zeres-Schuhe</name>
+			<icon>00010820.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10819</id>
+			<name>Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10818</id>
+			<name>Zeres-Rüstung</name>
+			<icon>00010818.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10817</id>
+			<name>Zeres-Helm</name>
+			<icon>00010817.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 2)</name>
+			<icon>00004909.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

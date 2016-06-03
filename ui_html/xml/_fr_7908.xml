@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7908</itemKey>
+	<itemName>Viande de lézard</itemName>
+	<itemIcon>00007908.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un lézard mort.</itemDesc>
+	<collect>
+		<character>
+			<name>Iguane</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Iguane des terres désolées</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard arc-en-ciel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard bleu</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard rhinocéros</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard à tête triangulaire</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Petite salamandre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Salamandre Delta cornue</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Salamandre effrayante</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Salamandre à longue queue</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Viande séchée à point</name>
+			<icon>00007919.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

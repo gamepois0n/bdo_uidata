@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15641</itemKey>
+	<itemName>Kristall vom Roten Schlachtfeld: Geschwindigkeit</itemName>
+	<itemIcon>00015637.png</itemIcon>
+	<itemDesc>Ein Schwarzsteinkristall, der in Sockel eines Oberteils (Kostüm) übertragen werden kann.\n– Gegenstandseffekt: Bewegungsgeschwindigkeit +2\n※ Kann durch die Erhitzung eines Adeligen-Kostüms aus Calpheon erhalten werden.\n\n– Das Potenzial des Kristalls kann durch den Schwarzgeist auf Ausrüstungsgegenstände übertragen werden.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14301</id>
+			<name>[Krieger] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14302</id>
+			<name>[Berserker] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14303</id>
+			<name>[Schwarzmagierin] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14304</id>
+			<name>[Bändigerin] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14305</id>
+			<name>[Waldläuferin] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14307</id>
+			<name>[Walküre] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14331</id>
+			<name>[Magier] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug für calpheonische Aristokraten. Er ist gleichermaßen modisch und praktisch.\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n– „Erhitzung“ zum Extrahieren des Uralten Magiekristalls – Geschwindigkeit von diesem Gegenstand.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14332</id>
+			<name>[Magierin] Adeligen-Kostüm aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Anzug für calpheonische Aristokraten. Er ist gleichermaßen modisch und praktisch.\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n– „Erhitzung“ zum Extrahieren des Uralten Magiekristalls – Geschwindigkeit von diesem Gegenstand.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

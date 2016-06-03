@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5004</itemKey>
+	<itemName>Birch Sap</itemName>
+	<itemIcon>00005004.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Birch Trees with a Fluid Collector.</itemDesc>
+	<collect>
+		<character>
+			<name>Birch</name>
+		</character>
+	</collect>
+	<node region="Bree Tree Ruins - Lumbering"/>
+	<makelist>
+		<item>
+			<id>14456</id>
+			<name>Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A staff crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimate Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A Krea staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Krea staff.\n\n- Restore Max Durability: Krea Staff of Crimson Flame, Krea Staff of Destruction, Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea Staff of Temptation</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea Staff of Destruction</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Destruction, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea Staff of Crimson Flame</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Crimson Flame, Krea Staff</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

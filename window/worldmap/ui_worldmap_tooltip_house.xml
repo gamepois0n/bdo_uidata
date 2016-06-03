@@ -1,0 +1,21 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Win_Tooltip_Wagon" Pos="414 182" Size="260 150" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 150" Grid="1" GridPosX="0 10 250 260" GridPosY="0 10 140 150" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 790 35"/>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="260 6" Pan="0 30" Color="ffffffff" EnableArea="0 0 260 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="하우스 이름" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_ItemList" Pos="8 40" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="주인정보" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_ItemPrice" Pos="8 60" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="집정보" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

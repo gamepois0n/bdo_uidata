@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5802</itemKey>
+	<itemName>Flachs</itemName>
+	<itemIcon>00005802.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf der Moretti-Plantage hergestellt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Wilder Flachs</name>
+		</character>
+	</collect>
+	<node region="Hof Costa – Flachsanbau"/>
+	<node region="Moretti-Plantage – Flachsanbau"/>
+	<node region="Kamasilvetempel – Flachsanbau"/>
+	<makelist>
+		<item>
+			<id>5852</id>
+			<name>Flachsfaden</name>
+			<icon>00005852.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Flachs gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>24108</id>
+			<name>Strohgefäß</name>
+			<icon>InHouse_X_DPFO_Basket_08.png</icon>
+			<desc>Ein Strohgefäß.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8535</itemKey>
+	<itemName>Poisson-scorpion séché</itemName>
+	<itemIcon>00008535.png</itemIcon>
+	<itemDesc>Un poisson-scorpion obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8235</id>
+			<name>Poisson-scorpion</name>
+			<icon>00008235.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55935</id>
+			<name>Poisson-scorpion séché sous vide</name>
+			<icon>00055935.png</icon>
+			<desc>Un objet de commerce contenant 10 poissons-scorpions séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

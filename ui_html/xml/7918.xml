@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7918</itemKey>
+	<itemName>Fragrant Jerky</itemName>
+	<itemIcon>00007918.png</itemIcon>
+	<itemDesc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7903</id>
+			<name>Fox Meat</name>
+			<icon>00007903.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a fox corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7911</id>
+			<name>Weasel Meat</name>
+			<icon>00007911.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a weasel corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7912</id>
+			<name>Bear Meat</name>
+			<icon>00007912.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a bear corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7913</id>
+			<name>Wolf Meat</name>
+			<icon>00007913.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a wolf corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

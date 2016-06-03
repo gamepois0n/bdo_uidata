@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8213</itemKey>
+	<itemName>Crabe</itemName>
+	<itemIcon>00008213.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</itemDesc>
+	<fishing/>
+	<node region="Nasse 2, île de Taramura"/>
+	<node region="Nasse 2, île d'Orffs"/>
+	<node region="Nasse, île de Daton"/>
+	<node region="Nasse 2, île de Lisz"/>
+	<makelist>
+		<item>
+			<id>8513</id>
+			<name>Crabe séché</name>
+			<icon>00008513.png</icon>
+			<desc>Un crabe obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

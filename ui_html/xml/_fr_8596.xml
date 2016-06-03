@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8596</itemKey>
+	<itemName>Macropodes à queue ronde séché</itemName>
+	<itemIcon>00008596.png</itemIcon>
+	<itemDesc>Un macropode à queue ronde obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8296</id>
+			<name>Macropodes à queue ronde</name>
+			<icon>00008296.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55996</id>
+			<name>Macropode à queue ronde séché sous vide</name>
+			<icon>00055996.png</icon>
+			<desc>Un objet de commerce contenant 10 macropodes à queue ronde séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

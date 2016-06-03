@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4452</itemKey>
+	<itemName>Resplendent Ruby</itemName>
+	<itemIcon>00004452.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Ruby. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4401</id>
+			<name>Rough Ruby</name>
+			<icon>00004401.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Ruby requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4451</id>
+			<name>Ruby</name>
+			<icon>00004451.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Ruby.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11704</id>
+			<name>Dark Blood Ruby Necklace</name>
+			<icon>00011704.png</icon>
+			<desc>A necklace decorated with a Dark Blood Ruby.</desc>
+		</item>
+		<item>
+			<id>12104</id>
+			<name>Dark Blood Ruby Ring</name>
+			<icon>00012104.png</icon>
+			<desc>A ring decorated with a Dark Blood Ruby.</desc>
+		</item>
+		<item>
+			<id>11904</id>
+			<name>Dark Blood Ruby Earrings</name>
+			<icon>00011904.png</icon>
+			<desc>An earring decorated with a Dark Blood Ruby.</desc>
+		</item>
+		<item>
+			<id>4453</id>
+			<name>Blood Ruby</name>
+			<icon>00004453.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Ruby and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a reward for completing a challenge after achieving Processing Artisan Level 1.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

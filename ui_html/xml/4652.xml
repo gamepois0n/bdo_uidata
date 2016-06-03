@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4652</itemKey>
+	<itemName>Ash Plywood</itemName>
+	<itemIcon>00004652.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Ash Timber. It requires Chopping: Beginner knowledge.\n\n※ Find Lebyos in Heidel and complete the Working the Ash Tree Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4601</id>
+			<name>Ash Timber</name>
+			<icon>00004601.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Goblin Cave, Ehwaz Hill, Balenos Forest, and Wolf Hills. It can be also be obtained by Lumbering Ash Trees.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4651</id>
+			<name>Ash Plank</name>
+			<icon>00004651.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Chopping Ash Timber.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4651</id>
+			<name>Ash Plank</name>
+			<icon>00004651.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Chopping Ash Timber.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>51009</id>
+			<name>Wagon Registration: Flimsy Wagon</name>
+			<icon>00051009.png</icon>
+			<desc>Proof of ownership of a &lt;Flimsy Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 6, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51001</id>
+			<name>Wagon Registration: Shabby Wagon</name>
+			<icon>00051001.png</icon>
+			<desc>Proof of ownership of a &lt;Shabby Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 8, Acceleration: 110%, Speed: 110%, Turn: 120%, Braking: 120%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>55838</id>
+			<name>Balenos Timber Crate</name>
+			<icon>00055838.png</icon>
+			<desc>A Trade Item containing 5 Ash Plywood and 5 Maple Plywood.</desc>
+		</item>
+		<item>
+			<id>53501</id>
+			<name>Shabby Wagon Cover</name>
+			<icon>00053501.png</icon>
+			<desc>A cover for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>4653</id>
+			<name>Sturdy Ash Plywood</name>
+			<icon>00004653.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Ash Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>2014</id>
+			<name>Velian Handcrafted High-Quality Bedside Table</name>
+			<icon>InHouse_D_DFF_Chest_01.png</icon>
+			<desc>A high-quality, handcrafted bedside table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2004</id>
+			<name>Velian handmade High-Quality Drawers</name>
+			<icon>InHouse_D_DFF_Dresser_01.png</icon>
+			<desc>A high-quality, handcrafted drawer from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2104</id>
+			<name>Velian Handcrafted Wardrobe</name>
+			<icon>InHouse_D_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2214</id>
+			<name>Velian Handcrafted Table</name>
+			<icon>InHouse_D_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2204</id>
+			<name>Velian Handcrafted Dining Table</name>
+			<icon>InHouse_D_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Ship License: Ferry</name>
+			<icon>00049001.png</icon>
+			<desc>Proof of ownership of a  at the Wharf.\n- Inventory Slot(s): 8, Acceleration: 100%, Speed: 105%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

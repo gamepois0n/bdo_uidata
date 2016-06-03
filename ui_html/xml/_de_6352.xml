@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6352</itemKey>
+	<itemName>Blut des Tyrannen</itemName>
+	<itemIcon>00006352.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>6213</id>
+			<name>Bärenblut</name>
+			<icon>00006213.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Bärenkadaver erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Spur der Wildheit</name>
+			<icon>00005956.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei den Ruinen von Hof Lynch gefunden werden.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Mönchszweig</name>
+			<icon>00005007.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Mönchszweig erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16001</id>
+			<name>Schwarzstein (Waffe)</name>
+			<icon>00000008.png</icon>
+			<desc>Waffen können durch den Schwarzgeist verstärkt werden.\n\n– Kann verstärken: Waffe, Sekundärwaffe</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004911.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

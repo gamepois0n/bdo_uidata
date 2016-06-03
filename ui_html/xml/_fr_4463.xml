@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4463</itemKey>
+	<itemName>Diamant</itemName>
+	<itemIcon>00004463.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un diamant brut.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diamant</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Golem de cimetière</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Golem de pierre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Golem sauvage</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4405</id>
+			<name>Diamant brut</name>
+			<icon>00004405.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un diamant brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11601</id>
+			<name>Collier de Yuria</name>
+			<icon>00011601.png</icon>
+			<desc>Un collier imprégné d&apos;une haine envers les humains.\nIl peut être optimisé avec un collier du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11801</id>
+			<name>Boucle d&apos;oreille de Yuria</name>
+			<icon>00011801.png</icon>
+			<desc>Une boucle d&apos;oreille imprégnée d&apos;une haine envers les humains.\nElle peut être optimisée avec une boucle du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12001</id>
+			<name>Anneau de Yuria</name>
+			<icon>00012001.png</icon>
+			<desc>Un anneau imprégné d&apos;une haine envers les humains.\nIl peut être optimisé avec un anneau du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12201</id>
+			<name>Ceinture de Yuria</name>
+			<icon>00012201.png</icon>
+			<desc>Une ceinture imprégnée d&apos;une haine envers les humains.\nElle peut être optimisée avec une ceinture du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11723</id>
+			<name>Collier de diamants en étoile</name>
+			<icon>00011723.png</icon>
+			<desc>Un collier décoré d&apos;un diamant stellaire.</desc>
+		</item>
+		<item>
+			<id>11722</id>
+			<name>Collier de diamants resplendissant</name>
+			<icon>00011722.png</icon>
+			<desc>Un collier décoré d&apos;un diamant brillant.</desc>
+		</item>
+		<item>
+			<id>4464</id>
+			<name>Diamant resplendissant</name>
+			<icon>00004464.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un diamant brut. Nécessite des connaissances en meulage (débutant).\n\n※ Trouvez Ornella à Heidel et terminez la quête de matériaux de réparation d&apos;équipement pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

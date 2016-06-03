@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4257</itemKey>
+	<itemName>Geschmolzener Platinsplitter</itemName>
+	<itemIcon>00004257.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Platin</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4203</id>
+			<name>Platinerz</name>
+			<icon>00004203.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Platinerz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus platinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11912</id>
+			<name>Glänzende Topasohrringe</name>
+			<icon>00011912.png</icon>
+			<desc>Ein mit einem Funkelnden Topas verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11712</id>
+			<name>Glänzende Topashalskette</name>
+			<icon>00011712.png</icon>
+			<desc>Eine mit einem Funkelnden Topas verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>12102</id>
+			<name>Glänzender Rubinring</name>
+			<icon>00012102.png</icon>
+			<desc>Ein mit einem Funkelnden Rubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>24212</id>
+			<name>Kaiserlicher Platinkessel</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>Ein kaiserlicher Platinkessel.</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004911.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Waffen-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004910.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4258</id>
+			<name>Platinbarren</name>
+			<icon>00004258.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

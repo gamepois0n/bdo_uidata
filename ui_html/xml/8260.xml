@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8260</itemKey>
+	<itemName>Flatfish</itemName>
+	<itemIcon>00008260.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<node region="Pilava Island - Fish Trap 1"/>
+	<node region="Luivano Island - Fish Trap"/>
+	<node region="Baeza Island - Fish Trap"/>
+	<node region="Barater Island - Fish Trap 2"/>
+	<makelist>
+		<item>
+			<id>8560</id>
+			<name>Dried Flatfish</name>
+			<icon>00008560.png</icon>
+			<desc>A dried flatfish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

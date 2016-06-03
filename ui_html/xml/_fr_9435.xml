@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9435</itemKey>
+	<itemName>Salade de viande maigre de qualité supérieure</itemName>
+	<itemIcon>00009435.png</itemIcon>
+	<itemDesc>Une salade fraîche avec de la viande de qualité.\n\n- Effet unique : tous types de PD +3 pendant 110 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4251</itemKey>
+	<itemName>Geschmolzener Silbersplitter</itemName>
+	<itemIcon>00004251.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Silbererz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Silber</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4201</id>
+			<name>Silbererz</name>
+			<icon>00004201.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Silbererz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus silberhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11601</id>
+			<name>Yuria-Halskette</name>
+			<icon>00011601.png</icon>
+			<desc>Eine Halskette voller Hass gegen die Menschheit.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11602</id>
+			<name>Baris-Halskette</name>
+			<icon>00011602.png</icon>
+			<desc>Eine Halskette, die verborgene zerstörerische Kräfte hervorlockt.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11603</id>
+			<name>Hesus-Halskette</name>
+			<icon>00011603.png</icon>
+			<desc>Eine Halskette, die den Träger schneller und beweglicher macht.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11604</id>
+			<name>Elisha-Halskette</name>
+			<icon>00011604.png</icon>
+			<desc>Eine Halskette, die dem Träger Gelassenheit gibt.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11605</id>
+			<name>Kalis-Halskette</name>
+			<icon>00011605.png</icon>
+			<desc>Eine Halskette mit einer Aura, die die Konzentration verbessert.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11606</id>
+			<name>Talis-Halskette</name>
+			<icon>00011606.png</icon>
+			<desc>Eine Halskette mit einer stählernen Aura.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11801</id>
+			<name>Yuria-Ohrring</name>
+			<icon>00011801.png</icon>
+			<desc>Ein Ohrring voller Hass gegen die Menschheit.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11802</id>
+			<name>Baris-Ohrring</name>
+			<icon>00011802.png</icon>
+			<desc>Ein Ohrring, der verborgene zerstörerische Kräfte hervorlockt.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11803</id>
+			<name>Hesus-Ohrring</name>
+			<icon>00011803.png</icon>
+			<desc>Ein Ohrring, der den Träger schneller und beweglicher macht.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11804</id>
+			<name>Elisha-Ohrring</name>
+			<icon>00011804.png</icon>
+			<desc>Ein Ohrring, der dem Träger Gelassenheit gibt.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11805</id>
+			<name>Kalis-Ohrring</name>
+			<icon>00011805.png</icon>
+			<desc>Ein Ohrring mit einer Aura, die die Konzentration verbessert.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11806</id>
+			<name>Talis-Ohrring</name>
+			<icon>00011806.png</icon>
+			<desc>Ein Ohrring mit einer stählernen Aura.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12001</id>
+			<name>Yuria-Ring</name>
+			<icon>00012001.png</icon>
+			<desc>Ein Ring voller Hass gegen die Menschheit.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12002</id>
+			<name>Baris-Ring</name>
+			<icon>00012002.png</icon>
+			<desc>Ein Ring, der verborgene zerstörerische Kräfte hervorlockt.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12003</id>
+			<name>Hesus-Ring</name>
+			<icon>00012003.png</icon>
+			<desc>Ein Ring, der den Träger schneller und beweglicher macht.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12004</id>
+			<name>Elisha-Ring</name>
+			<icon>00012004.png</icon>
+			<desc>Ein Ring, der dem Träger Gelassenheit gibt.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12005</id>
+			<name>Kalis-Ring</name>
+			<icon>00012005.png</icon>
+			<desc>Ein Ring mit einer Aura, die die Konzentration verbessert.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12006</id>
+			<name>Talis-Ring</name>
+			<icon>00012006.png</icon>
+			<desc>Ein Ring mit einer stählernen Aura.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12201</id>
+			<name>Yuria-Gürtel</name>
+			<icon>00012201.png</icon>
+			<desc>Ein Gürtel voller Hass gegen die Menschheit.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12202</id>
+			<name>Baris-Gürtel</name>
+			<icon>00012202.png</icon>
+			<desc>Ein Gürtel, der verborgene zerstörerische Kräfte hervorlockt.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12203</id>
+			<name>Hesus-Gürtel</name>
+			<icon>00012203.png</icon>
+			<desc>Ein Gürtel, der den Träger schneller und beweglicher macht.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12204</id>
+			<name>Elisha-Gürtel</name>
+			<icon>00012204.png</icon>
+			<desc>Ein Gürtel, der dem Träger Gelassenheit gibt.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12205</id>
+			<name>Kalis-Gürtel</name>
+			<icon>00012205.png</icon>
+			<desc>Ein Gürtel mit einer Aura, die die Konzentration verbessert.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12206</id>
+			<name>Talis-Gürtel</name>
+			<icon>00012206.png</icon>
+			<desc>Ein Gürtel mit einer stählernen Aura.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16104</id>
+			<name>Glänzende leere Flasche</name>
+			<icon>00016104.png</icon>
+			<desc>Ein Sammelwerkzeug, das der Wasserspeicherung dient.\n– Gebrauch: Wenn es verwendet wird, kann an einem Fluss oder am Meer Wasser gesammelt werden.\n– Sammelzeit: -15 Sek.</desc>
+		</item>
+		<item>
+			<id>16103</id>
+			<name>Gehärtete leere Flasche</name>
+			<icon>00016103.png</icon>
+			<desc>Ein Sammelwerkzeug, das der Wasserspeicherung dient.\n– Gebrauch: Wenn es verwendet wird, kann an einem Fluss oder am Meer Wasser gesammelt werden.\n– Sammelzeit: -10 Sek.</desc>
+		</item>
+		<item>
+			<id>11717</id>
+			<name>Glänzende Smaragdhalskette</name>
+			<icon>00011717.png</icon>
+			<desc>Eine mit einem Funkelnden Smaragd verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11702</id>
+			<name>Glänzende Rubinhalskette</name>
+			<icon>00011702.png</icon>
+			<desc>Eine mit einem Funkelnden Rubin verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4252</id>
+			<name>Silberbarren</name>
+			<icon>00004252.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Silbererz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

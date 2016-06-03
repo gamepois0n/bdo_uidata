@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8232</itemKey>
+	<itemName>Seahorse</itemName>
+	<itemIcon>00008232.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8532</id>
+			<name>Dried Seahorse</name>
+			<icon>00008532.png</icon>
+			<desc>A dried seahorse obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

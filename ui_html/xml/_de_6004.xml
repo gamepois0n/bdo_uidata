@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6004</itemKey>
+	<itemName>Nashornhaut</itemName>
+	<itemIcon>00006004.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Nashornkadavers gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Stahlnashorn</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinnashorn</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinnashorn-Jungtier</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6152</id>
+			<name>Robustes Leder</name>
+			<icon>00006152.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

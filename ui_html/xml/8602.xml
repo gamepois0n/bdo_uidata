@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8602</itemKey>
+	<itemName>Dried Clownfish</itemName>
+	<itemIcon>00008602.png</itemIcon>
+	<itemDesc>A dried clownfish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8302</id>
+			<name>Clownfish</name>
+			<icon>00008302.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

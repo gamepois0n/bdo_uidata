@@ -1,0 +1,56 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_StableFunction" Pos="Center Bottom" Size="1300 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 1300 75">
+		<Control Type="Static" Name="Static_StableTitle" Pos="Center Bottom" Size="1950 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 1950 75" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 1024 0 0 256 1024 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_wide.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_RegisterByItem" Pos="Center Bottom" Size="154 32" Pan="130 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 463 155 463 1 495 155 495" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 463 310 463 156 495 310 495" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 463 465 463 311 495 465 495" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="마패 등록" formatString="PANEL_STABLEFUNCTION_BTN_REGISTERBYITEM" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Exit" Pos="Center Bottom" Size="154 32" Pan="300 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="나가기" formatString="STABLE_FUNCTION_BTN_LEAVE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ListMating" Pos="Center Bottom" Size="154 32" Pan="-40 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 133 155 133 1 165 155 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 133 310 133 156 165 310 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 133 465 133 311 165 465 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="교배 시장" formatString="PANEL_STABLEFUNCTION_BTN_LISTMATING" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ListMarket" Pos="Center Bottom" Size="154 32" Pan="-210 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 35 153 35 1 65 153 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_02.dds</Texture>
+			<Texture Type="On" UV="156 35 308 35 156 65 308 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_02.dds</Texture>
+			<Texture Type="Click" UV="311 35 465 35 311 65 465 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_02.dds</Texture>
+			<Text Value="마시장" formatString="STABLE_FUNCTION_BTN_MARKET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_HorseMix" Pos="Center Bottom" Size="154 32" Pan="-380 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 133 155 133 1 165 155 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="On" UV="156 133 310 133 156 165 310 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="Click" UV="311 133 465 133 311 165 465 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Text Value="말 교환" formatString="PANEL_STABLEFUNCTION_BTN_HORSEMIX" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_HorseLink" Pos="Center Bottom" Size="154 32" Pan="-540 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 430 155 430 1 462 155 462" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="On" UV="156 430 310 430 156 462 310 462" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="Click" UV="311 430 465 430 311 462 465 462" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Text Value="마차 연결" formatString="PANEL_WINDOW_STABLEFUNCTION_HORSELINK" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Purpose" Pos="Center Top" Size="800 45" Pan="0 -500" Color="ffffffff" EnableArea="0 0 800 45">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="마패 또는 등록증을 우클릭해 탑승물을 등록해주세요." formatString="PANEL_WINDOW_STABLEFUNCTION_PURPOSE" Font="TitleFont_18" Color="ffe4e4e4" OverColor="ffe4e4e4" ClickColor="ffe4e4e4" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

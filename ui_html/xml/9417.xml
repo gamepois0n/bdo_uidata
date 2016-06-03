@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9417</itemKey>
+	<itemName>Smoked Fish Steak</itemName>
+	<itemIcon>00009417.png</itemIcon>
+	<itemDesc>Dish with smoked fish. \n- Unique effect: Attack Speed Rank +1 for 60min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Olive Oil</name>
+			<icon>00009015.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Mudskipper</name>
+			<icon>00008201.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olive Oil</name>
+			<icon>00009015.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

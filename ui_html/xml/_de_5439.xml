@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5439</itemKey>
+	<itemName>Wildkraut</itemName>
+	<itemIcon>00005439.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann durch Sammeln mit bloßen Händen von Wildkräutern erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Heilkrautbeutel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Heilkrautkessel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildkraut</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>570</id>
+			<name>Konzentrierter Kräutersaft</name>
+			<icon>00000570.png</icon>
+			<desc>Stellt bei Verwendung sofort +175 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Kräutersaft</name>
+			<icon>00000569.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5855</itemKey>
+	<itemName>Cotton Fabric</itemName>
+	<itemIcon>00005855.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Cotton Yarn. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<collect>
+		<character>
+			<name>Bedding</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry Rack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tent</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5851</id>
+			<name>Cotton Yarn</name>
+			<icon>00005851.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Cotton.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14021</id>
+			<name>Silver Embroidered Trader&apos;s Clothes</name>
+			<icon>00014016.png</icon>
+			<desc>A noble outfit made for Traders.</desc>
+		</item>
+		<item>
+			<id>14019</id>
+			<name>Silver Embroidered Cook&apos;s Clothes</name>
+			<icon>00014007.png</icon>
+			<desc>A noble outfit made for Cooks.</desc>
+		</item>
+		<item>
+			<id>14219</id>
+			<name>[Wizard] Calpheon Noble Suit</name>
+			<icon>00014201.png</icon>
+			<desc>A suit for Calpheon aristocrats. It&apos;s both fabulous and practical.\n- Item effect: Amity +15% from a conversation\n※ If you use a costume exchange coupon, you&apos;ll get the same suit with an additional effect of moving speed +2. The costume can be equipped in the same slot as the pearl costume.\nIf you exchange it for a costume, you cannot register it to the Marketplace.</desc>
+		</item>
+		<item>
+			<id>14202</id>
+			<name>[Berserker] Calpheon Noble Suit</name>
+			<icon>00014201.png</icon>
+			<desc>A suit worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same suit with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14201</id>
+			<name>[Warrior] Calpheon Noble Suit</name>
+			<icon>00014201.png</icon>
+			<desc>A suit worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same suit with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14028</id>
+			<name>Silver Embroidered Farmer&apos;s Clothes</name>
+			<icon>00014028.png</icon>
+			<desc>A noble outfit made for farmers.</desc>
+		</item>
+		<item>
+			<id>24193</id>
+			<name>Doll</name>
+			<icon>InHouse_X_DPFO_Doll_01.png</icon>
+			<desc>A doll.</desc>
+		</item>
+		<item>
+			<id>25623</id>
+			<name>Cotton Tab Drapeless Curtain</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Tied.png</icon>
+			<desc>A cotton tab curtain without drapes.</desc>
+		</item>
+		<item>
+			<id>25620</id>
+			<name>Cotton Drapeless Curtain</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Back.png</icon>
+			<desc>A cotton curtain without drapes.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

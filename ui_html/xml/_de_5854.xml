@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5854</itemKey>
+	<itemName>Strickgarn</itemName>
+	<itemIcon>00005854.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Vlies gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Bettwäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäscheständer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zelt</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>5804</id>
+			<name>Vlies</name>
+			<icon>00005804.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf Hof Lynch hergestellt werden.</desc>
+		</item>
+	</manufacture>
+	<node region="Hof Lynch – Vliesproduktion"/>
+	<makelist>
+		<item>
+			<id>13004</id>
+			<name>Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Nadeln.</desc>
+		</item>
+		<item>
+			<id>13012</id>
+			<name>Nadelanhänger der Versuchung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Versuchung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Nadelanhänger der Zerstörung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Zerstörung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Nadelanhänger der Purpurnen Flamme</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Purpurnen Flamme, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13013</id>
+			<name>Ultimativer Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein maximal aufgerüsteter Nadelanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Purpurnen Flamme, Nadelanhänger der Zerstörung, Nadelanhänger der Versuchung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>5858</id>
+			<name>Wolle</name>
+			<icon>00005858.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Strickgarn gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>24134</id>
+			<name>Kissen aus blauem Schafsfell</name>
+			<icon>InHouse_X_DPFO_Cushion_03.png</icon>
+			<desc>Ein blaues Kissen aus Schafsfell.</desc>
+		</item>
+		<item>
+			<id>24133</id>
+			<name>Kissen aus rotem Schafsfell</name>
+			<icon>InHouse_X_DPFO_Cushion_02.png</icon>
+			<desc>Ein rotes Kissen aus Schafsfell.</desc>
+		</item>
+		<item>
+			<id>24820</id>
+			<name>Luxuriöser Teppich</name>
+			<icon>InHouse_X_DPF_Carpet_12.png</icon>
+			<desc>Ein eleganter Teppich.</desc>
+		</item>
+		<item>
+			<id>24819</id>
+			<name>Teppichboden</name>
+			<icon>InHouse_X_DPF_Carpet_11.png</icon>
+			<desc>Ein Bodenteppich.</desc>
+		</item>
+		<item>
+			<id>24818</id>
+			<name>Handwerkerteppich aus Calpheon</name>
+			<icon>InHouse_X_DPF_Carpet_10.png</icon>
+			<desc>Ein Teppich eines Meisterhandwerkers aus Calpheon.</desc>
+		</item>
+		<item>
+			<id>24817</id>
+			<name>Teppich aus Serendia</name>
+			<icon>InHouse_X_DPF_Carpet_09.png</icon>
+			<desc>Ein Teppich aus Serendia.</desc>
+		</item>
+		<item>
+			<id>24816</id>
+			<name>Teppich aus Velia</name>
+			<icon>InHouse_X_DPF_Carpet_08.png</icon>
+			<desc>Ein Teppich aus Velia.</desc>
+		</item>
+		<item>
+			<id>24603</id>
+			<name>Wandteppich mit Mediah-Muster</name>
+			<icon>InHouse_X_DPW_Carpetdeco_04b.png</icon>
+			<desc>Ein Wandteppich mit einem Muster aus Mediah.</desc>
+		</item>
+		<item>
+			<id>24602</id>
+			<name>Wandteppich mit herrlichem Muster</name>
+			<icon>InHouse_X_DPW_Carpetdeco_03.png</icon>
+			<desc>Ein Wandteppich mit elegantem Muster.</desc>
+		</item>
+		<item>
+			<id>24815</id>
+			<name>Teppich aus Mediah</name>
+			<icon>InHouse_X_DPF_Carpet_07.png</icon>
+			<desc>Ein Teppich aus Mediah.</desc>
+		</item>
+		<item>
+			<id>24814</id>
+			<name>Großer Teppich</name>
+			<icon>InHouse_X_DPF_Carpet_06.png</icon>
+			<desc>Ein breiter Teppich.</desc>
+		</item>
+		<item>
+			<id>24813</id>
+			<name>Mehrfach gemusterter Teppich</name>
+			<icon>InHouse_X_DPF_Carpet_04.png</icon>
+			<desc>Ein Teppich mit elegantem Muster.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

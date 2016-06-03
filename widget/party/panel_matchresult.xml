@@ -1,0 +1,276 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MatchResult" Pos="Center Center" Size="622 500" Pan="0 0" Color="ffffffff" EnableArea="0 0 622 500">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Back_BG" Pos="Center Top" Size="622 247" Pan="0 98" Color="ffffffff" EnableArea="0 0 622 247" Grid="1" GridPosX="0 64 557 622" GridPosY="0 0 247 247" GridUVX="0 58 75 134" GridUVY="0 1 31 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="6 104 134 104 6 136 134 136" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Back_Left_1" Pos="Left Top" Size="293 48" Pan="16 143" Color="ffffffff" EnableArea="0 0 293 48" Grid="1" GridPosX="0 47 293 293" GridPosY="0 0 48 48" GridUVX="0 47 47 56" GridUVY="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="9 54 65 54 9 102 65 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Back_Left_2" Pos="Left Top" Size="293 48" Pan="16 196" Color="ffffffff" EnableArea="0 0 293 48" Grid="1" GridPosX="0 47 293 293" GridPosY="0 0 48 48" GridUVX="0 47 47 56" GridUVY="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="9 54 65 54 9 102 65 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Back_Left_3" Pos="Left Top" Size="293 48" Pan="16 249" Color="ffffffff" EnableArea="0 0 293 48" Grid="1" GridPosX="0 47 293 293" GridPosY="0 0 48 48" GridUVX="0 47 47 56" GridUVY="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="9 54 65 54 9 102 65 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Back_Right_1" Pos="Left Top" Size="293 48" Pan="314 143" Color="ffffffff" EnableArea="0 0 293 48" Grid="1" GridPosX="0 274 274 293" GridPosY="0 0 48 48" GridUVX="0 0 37 56" GridUVY="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="116 54 172 54 116 102 172 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Back_Right_2" Pos="Left Top" Size="293 48" Pan="314 196" Color="ffffffff" EnableArea="0 0 293 48" Grid="1" GridPosX="0 274 274 293" GridPosY="0 0 48 48" GridUVX="0 0 37 56" GridUVY="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="116 54 172 54 116 102 172 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Back_Right_3" Pos="Left Top" Size="293 48" Pan="314 249" Color="ffffffff" EnableArea="0 0 293 48" Grid="1" GridPosX="0 274 274 293" GridPosY="0 0 48 48" GridUVX="0 0 37 56" GridUVY="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="116 54 172 54 116 102 172 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Back_Actor" Pos="Left 12" Size="293 48" Pan="16 0" Color="ffffffff" EnableArea="0 0 293 48" Grid="1" GridPosX="0 47 293 293" GridPosY="0 0 48 48" GridUVX="0 47 47 56" GridUVY="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="175 54 231 54 175 102 231 102" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Result_Title_Back_Win" Pos="Left Top" Size="112 80" Pan="256 18" Color="ffffffff" EnableArea="0 0 112 80" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="8 193 120 193 8 273 120 273" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Result_Title_Back_Lose" Pos="Center Top" Size="289 84" Pan="0 18" Color="ffffffff" EnableArea="0 0 289 84" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="217 243 506 243 217 327 506 327" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Text_Title" Pos="Center Top" Size="120 50" Pan="0 30" Color="ffffffff" EnableArea="0 0 120 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="승리" Font="HeaderFont_26" Color="ffe7e7e7" OverColor="ffe7e7e7" ClickColor="ffe7e7e7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Line_Top_Win" Pos="Center Top" Size="622 27" Pan="0 73" Color="ffffffff" EnableArea="0 0 622 27" Grid="1" GridPosX="0 229 393 622" GridPosY="0 0 27 27" GridUVX="0 156 320 476" GridUVY="0 0 27 27" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="14 443 490 443 14 470 490 470" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Line_Bottom_Win" Pos="Center Top" Size="622 26" Pan="0 344" Color="ffffffff" EnableArea="0 0 622 26" Grid="1" GridPosX="0 229 393 622" GridPosY="0 0 26 26" GridUVX="0 156 320 476" GridUVY="0 0 26 26" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="14 481 490 481 14 507 490 507" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Line_Top_Lose" Pos="Center Top" Size="622 27" Pan="0 72" Color="ffffffff" EnableArea="0 0 622 27" Grid="1" GridPosX="0 229 393 622" GridPosY="0 0 27 27" GridUVX="0 156 320 476" GridUVY="0 0 27 27" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="14 337 490 337 14 364 490 364" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Line_Bottom_Lose" Pos="Center Top" Size="622 26" Pan="0 344" Color="ffffffff" EnableArea="0 0 622 26" Grid="1" GridPosX="0 229 393 622" GridPosY="0 0 26 26" GridUVX="0 156 320 476" GridUVY="0 0 26 26" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="14 376 490 376 14 402 490 402" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Left Top" Size="46 46" Pan="560 350" Color="ffffffff" EnableArea="0 0 46 46" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="8 141 54 141 8 187 54 187" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+			<Texture Type="On" UV="68 141 114 141 68 187 114 187" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+			<Texture Type="Click" UV="130 141 176 141 130 187 176 187" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Effect_Ali" Pos="Left Top" Size="159 21" Pan="80 110" Color="ffffffff" EnableArea="0 0 159 21" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="8 275 167 275 8 296 167 296" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali" Pos="Left Top" Size="60 30" Pan="132 106" Color="ffffffff" EnableArea="0 0 60 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="아군" formatString="PANEL_MATCHRESULT_TEXT_ALI" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Effect_Ene" Pos="Left Top" Size="159 21" Pan="380 110" Color="ffffffff" EnableArea="0 0 159 21" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="8 298 167 298 8 319 167 319" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene" Pos="Left Top" Size="60 30" Pan="429 106" Color="ffffffff" EnableArea="0 0 60 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="적군" formatString="PANEL_MATCHRESULT_TEXT_ENE" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="TotalKill_Col" Pos="Center Top" Size="10 20" Pan="0 108" Color="ffffffff" EnableArea="0 0 10 20">
+			<Attribute Type="Ignore"/>
+			<Text Value=":" Font="SubTitleFont_14_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="TotalPoint_Ali" Pos="Left Top" Size="40 20" Pan="267 108" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="0" Font="SubTitleFont_14_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="TotalPoint_Ene" Pos="Left Top" Size="40 20" Pan="314 108" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="0" Font="SubTitleFont_14_Bold" Color="ffff4b4b" OverColor="ffff4b4b" ClickColor="ffff4b4b" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_EndInfo_Sec" Pos="Left Top" Size="10 20" Pan="433 318" Color="ffffffff" EnableArea="0 0 10 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="60초" Font="BaseFont_8_Bold" Color="ffff4b4b" OverColor="ffff4b4b" ClickColor="ffff4b4b" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_EndInfo" Pos="Left Top" Size="150 20" Pan="445 318" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="후 이전 위치로 이동됩니다." formatString="PANEL_MATCHRESULT_TEXT_ENDINFO" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_EndInfo2" Pos="Left Top" Size="180 20" Pan="34 318" Color="ffffffff" EnableArea="0 0 180 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="점수는 추후 구현 예정입니다." Font="BaseFont_8_Bold" Color="ffff4b4b" OverColor="ffff4b4b" ClickColor="ffff4b4b" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Icon_Class_Ali_1" Pos="Left Top" Size="36 45" Pan="26 145" Color="ffffffff" EnableArea="0 0 36 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="178 104 214 104 178 149 214 149" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Class_Ali_2" Pos="Left Top" Size="36 45" Pan="26 197" Color="ffffffff" EnableArea="0 0 36 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="178 104 214 104 178 149 214 149" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Class_Ali_3" Pos="Left Top" Size="36 45" Pan="26 249" Color="ffffffff" EnableArea="0 0 36 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="178 104 214 104 178 149 214 149" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Class_Ene_1" Pos="Left Top" Size="36 45" Pan="319 145" Color="ffffffff" EnableArea="0 0 36 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="178 151 214 151 178 196 214 196" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Class_Ene_2" Pos="Left Top" Size="36 45" Pan="319 197" Color="ffffffff" EnableArea="0 0 36 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="178 151 214 151 178 196 214 196" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Class_Ene_3" Pos="Left Top" Size="36 45" Pan="319 249" Color="ffffffff" EnableArea="0 0 36 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="178 151 214 151 178 196 214 196" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Name_1" Pos="Left Top" Size="120 20" Pan="62 158" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이디는최대열글자요" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Name_2" Pos="Left Top" Size="120 20" Pan="62 210" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이디는최대열글자요" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Name_3" Pos="Left Top" Size="120 20" Pan="62 262" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이디는최대열글자요" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Name_1" Pos="Left Top" Size="120 20" Pan="355 158" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이디는최대열글자요" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Name_2" Pos="Left Top" Size="120 20" Pan="355 210" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이디는최대열글자요" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Name_3" Pos="Left Top" Size="120 20" Pan="355 262" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이디는최대열글자요" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Icon_Kill_Ali_1" Pos="Left Top" Size="18 18" Pan="180 158" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="121 191 138 191 121 208 138 208" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Kill_Ali_2" Pos="Left Top" Size="18 18" Pan="180 210" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="121 191 138 191 121 208 138 208" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Kill_Ali_3" Pos="Left Top" Size="18 18" Pan="180 262" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="121 191 138 191 121 208 138 208" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Kill_Ene_1" Pos="Left Top" Size="18 18" Pan="472 158" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="121 191 138 191 121 208 138 208" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Kill_Ene_2" Pos="Left Top" Size="18 18" Pan="472 210" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="121 191 138 191 121 208 138 208" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Kill_Ene_3" Pos="Left Top" Size="18 18" Pan="472 262" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="121 191 138 191 121 208 138 208" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Point_Ali_1" Pos="Left Top" Size="18 18" Pan="222 159" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="139 192 156 192 139 209 156 209" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Point_Ali_2" Pos="Left Top" Size="18 18" Pan="222 210" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="139 192 156 192 139 209 156 209" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Point_Ali_3" Pos="Left Top" Size="18 18" Pan="222 262" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="139 192 156 192 139 209 156 209" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Point_Ene_1" Pos="Left Top" Size="18 18" Pan="514 159" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="139 192 156 192 139 209 156 209" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Point_Ene_2" Pos="Left Top" Size="18 18" Pan="514 210" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="139 192 156 192 139 209 156 209" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Icon_Point_Ene_3" Pos="Left Top" Size="18 18" Pan="514 262" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="139 192 156 192 139 209 156 209" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Kill_1" Pos="Left Top" Size="30 20" Pan="202 158" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="100" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Kill_2" Pos="Left Top" Size="30 20" Pan="202 210" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Kill_3" Pos="Left Top" Size="30 20" Pan="202 262" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="5" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Kill_1" Pos="Left Top" Size="30 20" Pan="494 158" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="25" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Kill_2" Pos="Left Top" Size="30 20" Pan="494 210" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="15" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Kill_3" Pos="Left Top" Size="30 20" Pan="494 262" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="1" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Point_1" Pos="Left Top" Size="40 20" Pan="243 158" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+1000 (90000)" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffff4b4b" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Point_2" Pos="Left Top" Size="40 20" Pan="243 210" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+500 (30000)" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ali_Point_3" Pos="Left Top" Size="40 20" Pan="243 262" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+ 70" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Point_1" Pos="Left Top" Size="40 20" Pan="535 158" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+170 (20000)" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Point_2" Pos="Left Top" Size="40 20" Pan="535 210" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+100 (5000)" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Ene_Point_3" Pos="Left Top" Size="40 20" Pan="535 262" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+50 (100)" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Icon_Ace" Pos="145 132" Size="52 52" Pan="0 0" Color="c4ffffff" EnableArea="0 0 52 52" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="123 212 185 212 123 273 185 273" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Close_Text" Pos="Left Top" Size="50 20" Pan="506 362" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="바로 닫기" formatString="PANEL_MATCHRESULT_CLOSE_TEXT" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

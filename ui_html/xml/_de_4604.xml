@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4604</itemKey>
+	<itemName>Birkenholz</itemName>
+	<itemIcon>00004604.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf dem Quintenhügel, in den Breebaumruinen und Alt-Löwenzahn hergestellt werden. Kann außerdem durch Fällen von Birken erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Birke</name>
+		</character>
+	</collect>
+	<node region="Quintenhügel – Holzfällen"/>
+	<node region="Breebaumruinen – Holzfällen"/>
+	<node region="Alt-Löwenzahn – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>16163</id>
+			<name>Epheria-Angelrute</name>
+			<icon>00016163.png</icon>
+			<desc>Epheria-Angelrute. Sie ist stabiler als andere Angelruten.\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55833</id>
+			<name>Birkenholzkiste</name>
+			<icon>00055833.png</icon>
+			<desc>Handelsware, die 10 Birkenholz enthält.</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein Stab, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimativer Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab der Zerstörung, Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea-Stab der Versuchung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea-Stab der Zerstörung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Zerstörung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea-Stab der Purpurnen Flamme</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Ultimativer Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Purpurnen Flamme, Kalis-Langbogen der Zerstörung, Kalis-Langbogen der Versuchung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis-Langbogen der Versuchung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Versuchung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis-Langbogen der Zerstörung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Zerstörung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis-Langbogen der Purpurnen Flamme</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Langbogens gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Purpurnen Flamme, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Langbogen.</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Handgemachter Stuhl aus Calpheon</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>4661</id>
+			<name>Birkenschichtholz</name>
+			<icon>00004661.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Birkenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4660</id>
+			<name>Birkenbrett</name>
+			<icon>00004660.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Birkenholz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

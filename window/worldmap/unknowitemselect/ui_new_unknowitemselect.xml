@@ -1,0 +1,96 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_UnknownRandomSelect" Pos="Center Center" Size="338 460" Pan="0 0" Color="ffffffff" EnableArea="0 0 338 460" Grid="1" GridPosX="0 10 328 338" GridPosY="0 10 450 460" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="10 7" Color="ffffffff" EnableArea="0 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_UnknownRandomSelectBG" Pos="0 1" Size="338 430" Pan="0 0" Color="ffffffff" EnableArea="0 0 338 430" Grid="1" GridPosX="0 10 328 338" GridPosY="0 10 420 430" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UnknownRnadomSelectTitle" Pos="Center Top" Size="338 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 338 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="알 수 없는 상점" formatString="PANEL_UNKNOWNRANDOMSELECT_TITLE" Font="BaseFont_10" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_UnknownBG" Pos="8 36" Size="324 320" Pan="0 0" Color="ffffffff" EnableArea="0 0 324 320" Grid="1" GridPosX="0 10 314 324" GridPosY="0 10 310 320" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 64 64 1 126 64 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemCirclePicture" Pos="Center Top" Size="201 257" Pan="0 30" Color="ffffffff" EnableArea="0 0 201 257" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 1 201 1 0 257 201 257" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemrandomselect/itemrandomselect.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemIconBG" Pos="Center Top" Size="42 42" Pan="0 140" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemIcon_Off" Pos="Center Top" Size="56 56" Pan="-2 132" Color="ffffffff" EnableArea="0 0 56 56" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="217 311 273 311 217 367 273 367" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_ui_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemIcon_On" Pos="Center Top" Size="56 56" Pan="-2 132" Color="ffffffff" EnableArea="0 0 56 56" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="217 254 273 254 217 310 273 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_ui_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemIcon" Pos="Center Top" Size="42 42" Pan="-1 140" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 1 45 1 1 45 45 45" Ani="1 1 0.000 0">icon/new_icon/00000002_special.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ItemPrice" Pos="123 311" Size="200 31" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 31">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="12 164 198 164 12 195 198 195" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/workerrandomselect/workerrandomselect_00.dds</Texture>
+			<Text Value="해당 아이템의 가격" formatString="PANEL_UNKNOWNRANDOMSELECT_ITEMPRICE" Font="BaseFont_10_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UnknowItemName" Pos="Center Top" Size="328 37" Pan="0 275" Color="ffffffff" EnableArea="0 0 328 37">
+			<Attribute Type="Ignore"/>
+			<Text Value="금괴 10G" Font="BaseFont_12_Bold" Color="ff5cd1e5" OverColor="ff5cd1e5" ClickColor="ff5cd1e5" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_ItemSelect" Pos="Center Bottom" Size="154 33" Pan="80 10" Color="ffffffff" EnableArea="0 0 154 33" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="13 208 167 208 13 241 167 241" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/workerrandomselect/workerrandomselect_00.dds</Texture>
+			<Texture Type="On" UV="168 208 322 208 168 241 322 241" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/workerrandomselect/workerrandomselect_00.dds</Texture>
+			<Texture Type="Click" UV="324 208 478 208 324 241 478 241" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/workerrandomselect/workerrandomselect_00.dds</Texture>
+			<Text Value="아이템 구매" formatString="PANEL_UNKNOWNRANDOMSELECT_BTN_ITEMSELECT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="35 6"/>
+		</Control>
+		<Control Type="Button" Name="Button_ItemReSelect" Pos="Center Bottom" Size="154 33" Pan="-80 10" Color="ffffffff" EnableArea="0 0 154 33" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="13 253 167 253 13 286 167 286" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/workerrandomselect/workerrandomselect_00.dds</Texture>
+			<Texture Type="On" UV="168 253 322 253 168 286 322 286" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/workerrandomselect/workerrandomselect_00.dds</Texture>
+			<Texture Type="Click" UV="324 253 478 253 324 286 478 286" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/workerrandomselect/workerrandomselect_00.dds</Texture>
+			<Text Value="다른 아이템 보기" formatString="PANEL_UNKNOWNRANDOMSELECT_BTN_ITEMRESELECT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="17 6"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Gold_Icon3" Pos="233 319" Size="12 15" Pan="93 319" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ItemPriceValue" Pos="263 316" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50,000" Font="BaseFont_10" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Icon_Money" Pos="Left Top" Size="23 23" Pan="22 366" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="가방 보유 금액" formatString="PANEL_ITEMMARKET_ICON_MONEY" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="25 3"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Icon_Money2" Pos="Left Top" Size="23 23" Pan="22 390" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="창고 보유 금액" formatString="PANEL_ITEMMARKET_ICON_MONEY2" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="25 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Money" Pos="Left Top" Size="12 15" Pan="135 370" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="10,000,000" Font="BaseFont_12" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Right" AlignVertical="Top" Span="-100 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Money2" Pos="Left Top" Size="12 15" Pan="135 393" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="100,000,000" Font="BaseFont_12" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Right" AlignVertical="Top" Span="-100 -5"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5802</itemKey>
+	<itemName>Flax</itemName>
+	<itemIcon>00005802.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Moretti Plantation.</itemDesc>
+	<collect>
+		<character>
+			<name>Wild Flax</name>
+		</character>
+	</collect>
+	<node region="Costa Farm - Flax Farming"/>
+	<node region="Moretti Plantation - Flax Farming"/>
+	<node region="Kamasilve Temple - Flax Farming"/>
+	<makelist>
+		<item>
+			<id>5852</id>
+			<name>Flax Thread</name>
+			<icon>00005852.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Flax.</desc>
+		</item>
+		<item>
+			<id>24108</id>
+			<name>Straw Pot</name>
+			<icon>InHouse_X_DPFO_Basket_08.png</icon>
+			<desc>A straw pot.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

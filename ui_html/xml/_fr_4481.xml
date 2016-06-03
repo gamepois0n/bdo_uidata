@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4481</itemKey>
+	<itemName>Polisseur de gemme</itemName>
+	<itemIcon>00004481.png</itemIcon>
+	<itemDesc>Un matériau utilisé pour transformer les gemmes resplendissantes en gemmes de meilleure qualité grâce à la transformation.\n- Obtention : s&apos;obtient par le biais de l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>4070</id>
+			<name>Charbon transformé</name>
+			<icon>00004070.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant du charbon.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>5957</id>
+			<name>Trace d&apos;origine</name>
+			<icon>00005957.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site des ruines de Glish.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>24210</id>
+			<name>Vase en opale magnifique</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Vase en opale magnifique.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Bouilloire distinguée en topaze</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>Bouilloire distinguée en topaze.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Bouteille ronde en émeraude</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>Bouteille en émeraude en forme de gourde.</desc>
+		</item>
+		<item>
+			<id>24207</id>
+			<name>Vase en saphir distingué</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>Vase en saphir distingué.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Bouteille ronde en rubis</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>Bouteille en rubis en forme de gourde.</desc>
+		</item>
+		<item>
+			<id>4465</id>
+			<name>Diamant en étoile</name>
+			<icon>00004465.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des diamants resplendissants et du polisseur de gemme, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>4462</id>
+			<name>Émeraude des forêts</name>
+			<icon>00004462.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des émeraudes resplendissantes et du polisseur de gemme, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>4459</id>
+			<name>Topaze en or</name>
+			<icon>00004459.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des topazes resplendissantes et du polisseur de gemme, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>4456</id>
+			<name>Saphir d&apos;océan</name>
+			<icon>00004456.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des saphirs resplendissants et du polisseur de gemme, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>4453</id>
+			<name>Rubis de sang</name>
+			<icon>00004453.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des rubis resplendissants et du polisseur de gemme, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

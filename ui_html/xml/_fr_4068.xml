@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4068</itemKey>
+	<itemName>Pierre polie</itemName>
+	<itemIcon>00004068.png</itemIcon>
+	<itemDesc>Une pierre brute utilisée en artisanat.\n\n- Obtention : s&apos;obtient en meulant de la pierre ordinaire.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4006</id>
+			<name>Pierre brute</name>
+			<icon>00004006.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être récolté avec une pioche sur n&apos;importe quel rocher au sol.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>3719</id>
+			<name>Ustensile de cuisine avancé</name>
+			<icon>Crafting_Cooking_03.png</icon>
+			<desc>Un outil de qualité servant en cuisine.\n- Vous pouvez l&apos;installer dans une résidence.\n- Effets supplémentaires appliqués plus tard</desc>
+		</item>
+		<item>
+			<id>3703</id>
+			<name>Outil d&apos;alchimie avancé</name>
+			<icon>Crafting_Alchemy_03.png</icon>
+			<desc>Un outil pouvant reconstruire la substance.\n- Vous pouvez l&apos;installer dans une résidence.\n- Des effets additionnels s&apos;ajoutent par la suite.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

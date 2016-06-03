@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4055</itemKey>
+	<itemName>Bleibarren</itemName>
+	<itemIcon>00004055.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Bleisplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4002</id>
+			<name>Bleierz</name>
+			<icon>00004002.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Sumpf bei Glisch, Quintenhügel, Wachposten der Riesen. Kann aus bleihaltigem Erz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4054</id>
+			<name>Geschmolzener Bleisplitter</name>
+			<icon>00004054.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Bleierz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4054</id>
+			<name>Geschmolzener Bleisplitter</name>
+			<icon>00004054.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Bleierz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>13005</id>
+			<name>Klingenanhänger</name>
+			<icon>00010706.png</icon>
+			<desc>Ein Anhänger, an dem eine dekorative Klinge befestigt ist.</desc>
+		</item>
+		<item>
+			<id>49401</id>
+			<name>Fährendekoration</name>
+			<icon>00049401.png</icon>
+			<desc>Eine Dekoration, die an einer Fähre angebracht werden kann. Dadurch verringert sich die Chance, Handelswaren zu beschädigen.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Ultimativer Klingenanhänger</name>
+			<icon>00010707.png</icon>
+			<desc>Ein maximal aufgerüsteter Klingenanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger der Zerstörung, Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Klingenanhänger der Versuchung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Klingenanhänger der Zerstörung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Zerstörung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Klingenanhänger der Purpurnen Flamme</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>4056</id>
+			<name>Reiner Bleikristall</name>
+			<icon>00004056.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Bleibarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Schiffslizenz: Fähre</name>
+			<icon>00049001.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Fähre』.\n– Inventarplätze: 8, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zur angezeigten Werft.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,61 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Frame_AwkSkillList" Pos="50 49" Size="425 392" Pan="0 0" Color="ffffffff" EnableArea="0 0 425 392">
+		<Control Type="Frame" Name="Frame_SkillList" Pos="Left Top" Size="425 392" Pan="10 115" Color="ffffffff" EnableArea="0 0 425 392">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="0 0" Size="425 400" Pan="0 0" Color="ffffffff" EnableArea="0 0 425 400">
+				<Control Type="Button" Name="Button_C_SkIconBG_0" Pos="10 5" Size="410 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 410 100" AutoDisableTime="1.000000" ClickSound="0 0">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="11 75 50 75 11 112 50 112" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Static" Name="Static_C_SkIcon_0" Pos="17 12" Size="42 42" Pan="0 149" Color="f9ffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/03_pew_skill/pew_skill_1009.dds</Texture>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_SkName_0" Pos="65 11" Size="150 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 20">
+					<Attribute Type="Ignore"/>
+					<Attribute Type="Hide"/>
+					<Text Value="바람 모아쏘기 V" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_AwkLv_0" Pos="65 31" Size="340 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 340 15">
+					<Attribute Type="Ignore"/>
+					<Attribute Type="Hide"/>
+					<Text Value="각성 가능 기술" Font="BaseFont_8_Bold" Color="fff08181" OverColor="fff08181" ClickColor="fff08181" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_AwkOp_0" Pos="18 57" Size="370 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 20">
+					<Attribute Type="Ignore"/>
+					<Attribute Type="Hide"/>
+					<Text Value="- 타격시 상대를 경직 시킨다." Font="BaseFont_8_Bold" Color="ffffd782" OverColor="ffffd782" ClickColor="ffffd782" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="425 Top" Size="20 390" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 390" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 383 390" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_DownButton" Pos="0 390" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_CtrlButton" Pos="Center 0" Size="13 65" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="0 392" Size="385 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 385 20">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="385 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="-5 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

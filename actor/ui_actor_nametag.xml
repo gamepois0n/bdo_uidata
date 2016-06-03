@@ -1,0 +1,341 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Copy_CharacterTag" Pos="0 0" Size="-1000 -1000" Pan="0 0" Color="  ffffff" EnableArea="0 0 -1000 -1000">
+		<Attribute Type="Ignore"/>
+		<Control Type="StaticText" Name="CharacterName" Pos="Center Bottom" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterName" Font="BaseFont" Color="fffdffef" OverColor="fffdffef" ClickColor="fffdffef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="KingsCharacterName" Pos="Center Bottom" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterName" Font="SubTitleFont_14" Color="fffdffef" OverColor="fffdffef" ClickColor="fffdffef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="CharacterGuild" Pos="Center Bottom" Size="150 20" Pan="0 60" Color="  ffffff" EnableArea="0 0 110 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterGuild" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="CharacterAlias" Pos="Center Bottom" Size="150 20" Pan="0 40" Color="  ffffff" EnableArea="0 0 110 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterAlias" Font="BaseFont" Color="ff24c4ff" OverColor="ff24c4ff" ClickColor="ff24c4ff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="CharacterWarPoint" Pos="Center Bottom" Size="150 20" Pan="0 60" Color="  ffffff" EnableArea="0 0 110 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterWarPoint" Font="BaseFont_10" Color="ff24c4ff" OverColor="ff24c4ff" ClickColor="ff24c4ff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="CharacterTitle" Pos="Center Bottom" Size="150 20" Pan="0 20" Color="  ffffff" EnableArea="0 0 110 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterTitle" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_nameTagGaugeAlert" Pos="Center Bottom" Size="105 11" Pan="0 -11" Color="ffffffff" EnableArea="0 0 105 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 144 246 144 1 163 246 163" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="99ffffff" EndColor="65ffffff" StartIntensity="1.50" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_nameTagAlertGauge0" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="180" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="efffffff" EndColor="85ffffff" StartIntensity="1.50" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_nameTagAlertGauge1" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<!-- 체력 -->
+		<Control Type="Static" Name="ProgressBack" Pos="Center Bottom" Size="105 11" Pan="0 -11" Color="ffffffff" EnableArea="0 0 105 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_HpLater" Pos="Center Bottom" Size="99 4" Pan="0 -8" Color="ffffffff" EnableArea="0 0 97 3">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 233 1 1 2 233 2" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_White" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Attribute Type="Smooth" Speed="12.000000"/>
+			<Control Type="Static" Name="Progress2_1_LaterBar_Head" Pos="-1 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 3">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="CharacterHPGageProgress" Pos="Center Bottom" Size="99 4" Pan="0 -8" Color="ffffffff" EnableArea="0 0 99 4">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 56 232 56 1 61 232 61" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="18" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_20" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_40" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="CharacterHPGage_Bar_Head" Pos="-1 0" Size="1 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 4">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="KingOrLordTentProgressBack" Pos="Center Bottom" Size="313 42" Pan="0 -40" Color="ffffffff" EnableArea="0 0 313 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 168 314 168 1 210 314 210" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="KingOrLordTentProgress2_HpLater" Pos="Center Bottom" Size="287 22" Pan="0 -30" Color="ffffffff" EnableArea="0 0 287 22">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 144 288 144 1 166 288 166" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_White" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="Progress2_1_LaterBar_Head" Pos="-3 0" Size="1 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 22">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="KingOrLordTentHPGageProgress" Pos="Center Bottom" Size="287 22" Pan="0 -30" Color="ffffffff" EnableArea="0 0 287 22">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 120 288 120 1 142 288 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="18" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_20" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="35ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_40" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="CharacterHPGage_Bar_Head" Pos="-3 0" Size="1 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 22">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<!-- 전투 자원 -->
+		<Control Type="Static" Name="ProgressBack_ManaResource" Pos="Center Bottom" Size="105 11" Pan="0 -20" Color="ffffffff" EnableArea="0 0 105 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Character_ManaResource" Pos="Center Bottom" Size="99 4" Pan="1 -17" Color="ffffffff" EnableArea="0 0 99 4">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 140 231 140 1 143 231 143" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="18" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="CharacterManaRes_Bar_Head" Pos="Center 0" Size="1 4" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 4">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<!-- 스턴 게이지 -->
+		<Control Type="Static" Name="ProgressBack_Stun" Pos="Center Bottom" Size="105 11" Pan="0 -29" Color="ffffffff" EnableArea="0 0 105 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="CharacterStunGageProgress" Pos="Center Bottom" Size="99 4" Pan="1 -26" Color="ffffffff" EnableArea="0 0 99 4">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 140 231 140 1 143 231 143" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="18" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="CharacterHPGage_Bar_Head" Pos="Center 0" Size="1 4" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 4">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_FirstTalk" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_talk.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildBackGround" Pos="Center Bottom" Size="42 42" Pan="-70 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 59 111 59 102 67 111 67" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildMark" Pos="Center Bottom" Size="20 20" Pan="-70 11" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 59 111 59 102 67 111 67" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildMaster" Pos="-6 254" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="52 176 102 176 52 226 102 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PreemptiveStrikeBeing" Pos="Center Bottom" Size="20 20" Pan="69 -1" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 219 185 219 154 250 185 250" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Quest_Mark" Pos="Center Bottom" Size="81 21" Pan="0 45" Color="ffffffff" EnableArea="0 0 81 21" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 81 0 0 21 81 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/questmon.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Quest_Mark_NoUse" Pos="Center Bottom" Size="81 21" Pan="0 45" Color="ffffffff" EnableArea="0 0 81 21">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 82 0 0 21 82 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/questmon2.dds</Texture>
+			<Text Value="의뢰 목표물" formatString="PANEL_NAMETAG_QUESTTARGET" Font="BaseFont_8_Bold" Color="ff1099bd" OverColor="ff1099bd" ClickColor="ff1099bd" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ImportantTalk" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_keytalk.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_General" Pos="Center Bottom" Size="49 49" Pan="0 40" Color="ffffffff" EnableArea="0 0 49 49" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 16 0 0 16 16 16" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/icon/minimap_icon_npc_general.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Skill" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_skill.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Repair" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_repair.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Store" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_shop.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stable" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_horseshop.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WareHouse" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_warehouse.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Trade" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_transport.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WorkerShop" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_workershop.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Auction" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_auction.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Inn" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_inn.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Guild" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_guild.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Intimacy" Pos="Center Bottom" Size="38 40" Pan="0 40" Color="ffffffff" EnableArea="0 0 38 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 38 0 0 40 38 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_intimacy.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_QuestIcon" Pos="Center Bottom" Size="47 47" Pan="0 35" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_QuestIconBorder" Pos="Center Bottom" Size="49 56" Pan="0 27" Color="ffffffff" EnableArea="0 0 49 56" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 65 0 0 75 65 75" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/headup_quest.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_QuestClear" Pos="Center Bottom" Size="44 44" Pan="0 37" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 184 98 184 1 267 98 267" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_QuestType" Pos="Center Bottom" Size="36 36" Pan="-2 37" Color="ffb4ff00" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="112 197 148 197 112 233 148 233" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Board" Pos="Center Bottom" Size="310 110" Pan="0 -36" Color="ffffffff" EnableArea="0 0 310 110" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 311 1 1 111 311 111" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Paper" Pos="Center Bottom" Size="281 56" Pan="0 2" Color="ffffffff" EnableArea="0 0 281 56" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="2 112 283 112 2 168 283 168" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Edit" Name="Edit_Txt" Pos="Center Bottom" Size="256 56" Pan="0 0" Color="ffffffff" EnableArea="0 0 256 56">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ff454545" OverColor="ff454545" ClickColor="ff454545" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_1" Pos="Center Bottom" Size="10 10" Pan="0 35" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_2" Pos="Center Bottom" Size="10 10" Pan="0 35" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_3" Pos="Center Bottom" Size="10 10" Pan="0 5" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_4" Pos="Center Bottom" Size="10 10" Pan="0 5" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Roll_L" Pos="Center Bottom" Size="29 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 60" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="312 1 341 1 312 61 341 61" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Roll_R" Pos="Center Bottom" Size="29 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 29 60" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="342 1 371 1 342 61 371 61" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ID" Pos="Center Bottom" Size="50 20" Pan="0 47" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="[???묓쉪吏??귥쮫??" Font="BaseFont" Color="ffe5e5e5" OverColor="ffe5e5e5" ClickColor="ffe5e5e5" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_LookAtMe" Pos="Center Bottom" Size="56 56" Pan="0 40" Color="ffffffff" EnableArea="0 0 56 56" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.030 0">new_ui_common_forlua/widget/quest/ui_quest_effect01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_LookAtMe2" Pos="Center Bottom" Size="64 64" Pan="0 40" Color="ffffffff" EnableArea="0 0 64 64" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.080 0">new_ui_common_forlua/widget/quest/ui_quest_effect01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UsePotion" Pos="Left Top" Size="310 23" Pan="-240 230" Color="b8ffffff" EnableArea="0 0 310 23" Grid="1" GridPosX="0 25 136 310" GridPosY="0 1 22 23" GridUVX="0 127 128 256" GridUVY="0 1 24 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="efffffff" EndColor="afffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="체력이 부족합니다. 회복 물약을 먹으세요." formatString="PANEL_UI_ACTOR_NAMETAG_TO_LOW_HP" Font="BaseFont_10" Color="efffa9a9" OverColor="efffa9a9" ClickColor="efffa9a9" AlignHorizon="Center" AlignVertical="Top" Span="15 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UseTab" Pos="Left Top" Size="310 23" Pan="-240 204" Color="d1ffffff" EnableArea="0 0 310 23" Grid="1" GridPosX="0 25 136 310" GridPosY="0 1 22 23" GridUVX="0 127 128 256" GridUVY="0 1 24 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="efffffff" EndColor="cfffffff" StartIntensity="1.00" EndIntensity="2.10" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="원활한 이동을 위해 &lt;PAColor0xefffeea0&gt;Tab키&lt;PAOldColor&gt;를 눌러 비전투 자세로 변환하세요." Font="BaseFont_10" Color="efc4bebe" OverColor="efc4bebe" ClickColor="efc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="15 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestTooltip" Pos="Center 0" Size="100 30" Pan="0 0" Color="ff000000" EnableArea="0 0 100 30" Grid="1" GridPosX="0 8 92 100" GridPosY="0 8 22 30" GridUVX="0 8 95 103" GridUVY="0 8 78 86">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="152 88 255 88 152 174 255 174" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+			<Text Value="???꾩㎛??귥쭦?????꾩㎚?귥㎣?귥ℓ" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_GuildMaster" Pos="Center Bottom" Size="23 19" Pan="0 60" Color="ffffffff" EnableArea="0 0 23 19" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="86 227 109 227 86 246 109 246" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_GuildSubMaster" Pos="Center Bottom" Size="23 16" Pan="0 0" Color="ffffffff" EnableArea="0 0 23 16" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="62 227 85 227 62 243 85 243" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

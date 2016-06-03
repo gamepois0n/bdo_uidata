@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9401</itemKey>
+	<itemName>Steak</itemName>
+	<itemIcon>00009401.png</itemIcon>
+	<itemDesc>Eine Scheibe gebratenes Fleisch.\n\n– Spezielle Wirkung: Max. LP +50 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

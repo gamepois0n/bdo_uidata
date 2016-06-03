@@ -1,0 +1,43 @@
+<UI>
+	<Control Type="Panel" Name="Panel_QuestDirect" Pos="0 Top" Size="200 50" Pan="0 242" Color="ffffffff" EnableArea="0 0 200 50">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_BG" Pos="Center Top" Size="1024 110" Pan="0 -10" Color="ffffffff" EnableArea="0 0 1024 110" Grid="1" GridPosX="0 0 1024 1024" GridPosY="0 2 108 110" GridUVX="0 0 256 256" GridUVY="0 2 23 25" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CountBG" Pos="Center Center" Size="500 200" Pan="0 20" Color="ffffffff" EnableArea="0 0 500 200" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="131 131 255 131 131 255 255 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BackEffect" Pos="-402 112" Size="1024 110" Pan="0 -10" Color="ffffffff" EnableArea="0 0 1024 110" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_QuestImg" Pos="Center Top" Size="64 64" Pan="10 -5" Color="ffffffff" EnableArea="0 0 64 64" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="170 1 234 1 170 65 234 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestAccept" Pos="Center Center" Size="200 45" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 45">
+			<Attribute Type="Ignore"/>
+			<Text Value="새로운 의뢰 '권호형을 때려라' " Font="TitleFont_22" Color="fffffdc0" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestTitle" Pos="Center 47" Size="600 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 600 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="권호형을 때려라" Font="BaseFont_12" Color="efffffff" OverColor="efffffff" ClickColor="efffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestDemand" Pos="Center 68" Size="720 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 720 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="권호형 타격 회수 ( 0 / 5 )" Font="BaseFont_10" Color="efffffff" OverColor="efffffff" ClickColor="efffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuestTitle_2" Pos="Center 47" Size="600 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 600 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="권호형을 때려라" Font="SubTitleFont_14" Color="ffffce22" OverColor="efffffff" ClickColor="efffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="MultilineText" Name="StaticText_QuestDemand_2" Pos="Center 68" Size="720 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 720 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="( 0 / 4445 )" Font="BaseFont_12" Color="ffffce22" OverColor="efffffff" ClickColor="efffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

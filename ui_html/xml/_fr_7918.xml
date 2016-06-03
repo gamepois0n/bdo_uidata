@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7918</itemKey>
+	<itemName>Viande séchée odorante</itemName>
+	<itemIcon>00007918.png</itemIcon>
+	<itemDesc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7903</id>
+			<name>Viande de renard</name>
+			<icon>00007903.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un renard mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7911</id>
+			<name>Viande de belette</name>
+			<icon>00007911.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant une belette morte.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7912</id>
+			<name>Viande d&apos;ours</name>
+			<icon>00007912.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un ours mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7913</id>
+			<name>Viande de loup</name>
+			<icon>00007913.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un loup mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

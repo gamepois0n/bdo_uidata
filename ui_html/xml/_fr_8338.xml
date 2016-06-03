@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8338</itemKey>
+	<itemName>Lançon</itemName>
+	<itemIcon>00008338.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8638</id>
+			<name>Sandeel séché</name>
+			<icon>00008605.png</icon>
+			<desc>Un lançon obtenu par séchage.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

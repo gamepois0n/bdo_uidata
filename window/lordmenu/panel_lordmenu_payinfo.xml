@@ -1,0 +1,222 @@
+<UI>
+	<Control Type="Panel" Name="Panel_LordMenu_PayInfo" Pos="Center Center" Size="400 465" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 465">
+		<Control Type="StaticText" Name="StaticText_Pay_Title_0" Pos="Center Top" Size="400 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="280 1 293 1 280 16 293 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="주간 징수 현황" formatString="PANEL_LORDMENU_PAY_TITLE_0" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ConsTax_Now_BG" Pos="Left Top" Size="7 103" Pan="50 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ConsTax_Bef_BG" Pos="Left Top" Size="7 103" Pan="70 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_IncomeTax_Now_BG" Pos="Center Top" Size="7 103" Pan="-10 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_IncomeTax_Bef_BG" Pos="Center Top" Size="7 103" Pan="10 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Duty_Now_BG" Pos="Right Top" Size="7 103" Pan="50 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Duty_Bef_BG" Pos="Right Top" Size="7 103" Pan="70 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TransferTax_Now_BG" Pos="Center Top" Size="7 103" Pan="-10 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TransferTax_Bef_BG" Pos="Center Top" Size="7 103" Pan="10 40" Color="ffffffff" EnableArea="0 0 7 103" Grid="1" GridPosX="0 1 6 7" GridPosY="0 1 102 103" GridUVX="0 1 6 7" GridUVY="0 1 6 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="317 9 324 9 317 16 324 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_ConsTax_Now" Pos="Left Top" Size="5 100" Pan="51 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="311 8 316 8 311 11 316 11" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 15 316 15 311 16 316 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_ConsTax_Bef" Pos="Left Top" Size="5 100" Pan="71 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="311 2 316 2 311 5 316 5" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_2_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 13 316 13 311 14 316 14" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_IncomeTax_Now" Pos="Center Top" Size="5 100" Pan="-10 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="311 8 316 8 311 11 316 11" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 15 316 15 311 16 316 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_IncomeTax_Bef" Pos="Center Top" Size="5 100" Pan="10 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="311 2 316 2 311 5 316 5" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_2_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 13 316 13 311 14 316 14" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_Duty_Now" Pos="Right Top" Size="5 100" Pan="71 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="311 8 316 8 311 11 316 11" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 15 316 15 311 16 316 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_DutyTax_Bef" Pos="Right Top" Size="5 100" Pan="51 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="311 2 316 2 311 5 316 5" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_2_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 13 316 13 311 14 316 14" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_TransferTax_Now" Pos="Center Top" Size="5 100" Pan="-10 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="311 8 316 8 311 11 316 11" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 15 316 15 311 16 316 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_TransferTax_Bef" Pos="Center Top" Size="5 100" Pan="10 42" Color="ffffffff" EnableArea="0 0 5 100">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="311 2 316 2 311 5 316 5" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_4_Bar_Head" Pos="Center 101" Size="5 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 1">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="311 13 316 13 311 14 316 14" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ConsTax" Pos="Left Top" Size="100 20" Pan="15 148" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="소비세" formatString="PANEL_LORDMENU_PAY_CONSTAX" Font="BaseFont_8_Bold" Color="ff00baff" OverColor="ff00baff" ClickColor="ff00baff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_IncomeTax" Pos="Center Top" Size="100 20" Pan="0 148" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="소득세" formatString="PANEL_LORDMENU_PAY_INCOMETAX" Font="BaseFont_8_Bold" Color="ff00baff" OverColor="ff00baff" ClickColor="ff00baff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Duty" Pos="Right Top" Size="100 20" Pan="15 148" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="관세" formatString="PANEL_LORDMENU_PAY_DUTY" Font="BaseFont_8_Bold" Color="ff00baff" OverColor="ff00baff" ClickColor="ff00baff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TransferTax" Pos="Center Top" Size="100 20" Pan="0 148" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="거래세" formatString="PANEL_LORDMENU_PAY_TRADE" Font="BaseFont_8_Bold" Color="ff00baff" OverColor="ff00baff" ClickColor="ff00baff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ConsTax_Gold" Pos="Left Top" Size="12 15" Pan="95 170" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1,000" Font="BaseFont_10" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Right" AlignVertical="Bottom" Span="20 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_IncomeTax_Gold" Pos="Center Top" Size="12 15" Pan="36 170" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1,000" Font="BaseFont_10" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Right" AlignVertical="Bottom" Span="20 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Duty_Gold" Pos="Right Top" Size="12 15" Pan="20 170" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1,000" Font="BaseFont_10" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Right" AlignVertical="Bottom" Span="20 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TransferTax_Gold" Pos="Center Top" Size="12 15" Pan="36 170" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1,000" Font="BaseFont_10" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Right" AlignVertical="Bottom" Span="20 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TaxNow_Help" Pos="Left Top" Size="7 7" Pan="25 200" Color="ffffffff" EnableArea="0 0 7 7">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="325 1 332 1 325 8 332 8" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="현재의 영지에서 징수된 세금" formatString="PANEL_LORDMENU_PAY_TAXNOW_HELP" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="12 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TaxBef_Help" Pos="Left Top" Size="7 7" Pan="25 215" Color="ffffffff" EnableArea="0 0 7 7">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="317 1 324 1 317 8 324 8" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="타지에서 소속 주민들로부터 징수된 세금" formatString="PANEL_LORDMENU_PAY_TAXBEF_HELP" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="12 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Tax_Help" Pos="Left Top" Size="365 50" Pan="15 240" Color="ffffffff" EnableArea="0 0 365 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 공성전/ 성채전이 시작하는 시점부터 누적된 금액을 의미하며, 인출하더라도 위의 표시에 반영되지 않습니다.\n- 위의 표는 매주 공성전/성채전 시점에 초기화 됩니다." formatString="PANEL_LORDMENU_PAY_TAX_HELP" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Pay_Title_1" Pos="Center Top" Size="400 25" Pan="0 300" Color="ffffffff" EnableArea="0 0 400 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="280 1 293 1 280 16 293 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="잔고 현황" formatString="PANEL_LORDMENU_PAY_TITLE_1" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Balance" Pos="Left Top" Size="150 20" Pan="15 335" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="잔고량 :" formatString="PANEL_LORDMENU_PAY_BALANCE" Font="BaseFont_12" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Left" AlignVertical="Bottom" Span="0 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LocalTax" Pos="Left Top" Size="150 20" Pan="15 360" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="지방세 :" formatString="PANEL_LORDMENU_PAY_LOCALTAX" Font="BaseFont_12" Color="ff8136c1" OverColor="ff8136c1" ClickColor="ff8136c1" AlignHorizon="Left" AlignVertical="Bottom" Span="0 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Balance_Gold" Pos="Left Top" Size="12 15" Pan="230 339" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="22,000,000" Font="BaseFont_12" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Right" AlignVertical="Bottom" Span="20 -1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LocalTax_Gold" Pos="Left Top" Size="12 15" Pan="230 362" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="2,222,222" Font="BaseFont_12" Color="ff8136c1" OverColor="ff8136c1" ClickColor="ff8136c1" AlignHorizon="Right" AlignVertical="Bottom" Span="20 -1"/>
+		</Control>
+		<Control Type="Button" Name="Button_GetMoney" Pos="Right Top" Size="130 45" Pan="15 336" Color="ffffffff" EnableArea="0 0 130 45" Grid="1" GridPosX="0 5 125 130" GridPosY="0 5 40 45" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="인출 하기" formatString="PANEL_LORDMENU_PAY_BTN_GETMONEY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 12"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Balance_Help" Pos="Left Top" Size="365 70" Pan="15 390" Color="ffffffff" EnableArea="0 0 365 70">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 지방세의 징수는 성주가 책정한 지방세율에 따르며, 매주 특정 시간에 공물 마차에 실려 성주에게 전달합니다.\n- 지방세로 걷힌 금액은 인출할 수 없습니다.\n- 점령전 도중에는 인출이 불가능합니다." formatString="PANEL_LORDMENU_PAY_BAL_HELP" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

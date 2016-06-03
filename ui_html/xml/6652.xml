@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6652</itemKey>
+	<itemName>Bottle of Sea Water</itemName>
+	<itemIcon>00006652.png</itemIcon>
+	<itemDesc>Water Gathered from the sea using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Sea Water can be obtained by using an Empty Bottle by the sea.</itemDesc>
+	<makelist>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sun-Dried Salt</name>
+			<icon>00009008.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>16903</id>
+			<name>Organic Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

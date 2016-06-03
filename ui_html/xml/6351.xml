@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6351</itemKey>
+	<itemName>Legendary Beast&apos;s Blood</itemName>
+	<itemIcon>00006351.png</itemIcon>
+	<itemDesc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>6208</id>
+			<name>Lizard Blood</name>
+			<icon>00006208.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be extracted from a lizard corpse using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>5954</id>
+			<name>Trace of the Earth</name>
+			<icon>00005954.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</desc>
+		</item>
+		<item>
+			<id>5006</id>
+			<name>Spirit&apos;s Leaf</name>
+			<icon>00005006.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Spirit&apos;s Leaf requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>49302</id>
+			<name>Calpheon Ferry Prow</name>
+			<icon>00049302.png</icon>
+			<desc>A Calpheon prow that can be attached to a ferry. It allows the boat to sail faster when equipped.\nWhen 3 or more set items are equipped:\nMovement Speed +2%\nWeight Limit +100LT\n- Mounts Usable: Ferry\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53607</id>
+			<name>Noble Wagon Flag</name>
+			<icon>00053604.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53606</id>
+			<name>Merchant Wagon Flag</name>
+			<icon>00053606.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53605</id>
+			<name>Trade Wagon Flag</name>
+			<icon>00053605.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53604</id>
+			<name>Farm Wagon Flag</name>
+			<icon>00053604.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53603</id>
+			<name>White Wagon Flag</name>
+			<icon>00053603.png</icon>
+			<desc>A flag for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53602</id>
+			<name>Strong Wagon Flag</name>
+			<icon>00053602.png</icon>
+			<desc>A flag for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53601</id>
+			<name>Shabby Wagon Flag</name>
+			<icon>00053601.png</icon>
+			<desc>A flag for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Grade 2 Armor Reform Stone</name>
+			<icon>00004909.png</icon>
+			<desc>A material used in 2nd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

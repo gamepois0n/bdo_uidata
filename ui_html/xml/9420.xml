@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9420</itemKey>
+	<itemName>Stir-Fried Seafood</itemName>
+	<itemIcon>00009420.png</itemIcon>
+	<itemDesc>Stir-fried dish of seafood and vegetable. \n- Unique effect: Casting Speed Rank +1 for 30min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9003</id>
+			<name>White Sauce</name>
+			<icon>00009003.png</icon>
+			<desc>A white sauce used for Cooking.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Stir-Fried Seafood</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Squid</name>
+			<icon>00008211.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Hot Pepper</name>
+			<icon>00007305.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Stir-Fried Vegetables, Stir Fried Meat, etc.\n- How to Obtain: It can be obtained by Farming Hot Pepper Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Cabbage</name>
+			<icon>00007318.png</icon>
+			<desc>A plump cabbage used as an ingredient in Cooking.\nUsage: Stir-Fried Vegetables, Fried Vegetables, etc.\n- How to Obtain: It can be Gathered from Cabbage using Bare Hands.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>White Sauce</name>
+			<icon>00009003.png</icon>
+			<desc>A white sauce used for Cooking.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Stir-Fried Seafood</desc>
+		</item>
+	</cook>
+</itemInfo>
+

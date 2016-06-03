@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4053</itemKey>
+	<itemName>Pure Iron Crystal</itemName>
+	<itemIcon>00004053.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Iron Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4052</id>
+			<name>Iron Ingot</name>
+			<icon>00004052.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Melted Iron Shards. It requires knowledge of Heating: Beginner.\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4076</id>
+			<name>Metal Solvent</name>
+			<icon>00004076.png</icon>
+			<desc>A material used to change metals into a pure crystal form through Processing.\n\n- How to Obtain: It can be obtained through Alchemy.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10012</id>
+			<name>Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A longsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10102</id>
+			<name>Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A round shield made of strong iron.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10103</id>
+			<name>Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>A steel-plated shield used more for attacking than defending.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10105</id>
+			<name>Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A high-strength alloy shield that provides maximum defense.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10212</id>
+			<name>Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A longbow capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10304</id>
+			<name>Steel Dagger</name>
+			<icon>00010304.png</icon>
+			<desc>A sharp dagger made of steel.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10412</id>
+			<name>Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>An amulet capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10612</id>
+			<name>Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>An axe capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10703</id>
+			<name>Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>A handmade ornamental knot for an axe made of quality silk.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10704</id>
+			<name>Oros Ornamental Knot</name>
+			<icon>00010704.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with silver.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10705</id>
+			<name>Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with gold.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13212</id>
+			<name>Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13003</id>
+			<name>Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>A trinket with a pouch full of incense.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13004</id>
+			<name>Needle Trinket</name>
+			<icon>00013005.png</icon>
+			<desc>A trinket with a pouch full of needles.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13005</id>
+			<name>Blade Trinket</name>
+			<icon>00010706.png</icon>
+			<desc>A trinket with an ornamental knife attached.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14412</id>
+			<name>Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A staff capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16108</id>
+			<name>Shining Steel Lumbering Axe</name>
+			<icon>00016108.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16124</id>
+			<name>Shining Steel Tanning Knife</name>
+			<icon>00016124.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16120</id>
+			<name>Shining Steel Butcher Knife</name>
+			<icon>00016120.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16116</id>
+			<name>Shining Steel Hoe</name>
+			<icon>00016116.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16112</id>
+			<name>Shining Fluid Collector</name>
+			<icon>00016112.png</icon>
+			<desc>A Gathering Tool made for extracting animal blood or sap.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>49404</id>
+			<name>Fishing Boat Decoration</name>
+			<icon>00049404.png</icon>
+			<desc>A decoration that can be attached to a fishing boat. It lowers the chance of breaking trade items.\nWhen 3 or more set items are equipped:\nMovement Speed +2%\nAll DP +30\n- Mounts Usable: Fishing Boat\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>16163</id>
+			<name>Epheria Fishing Rod</name>
+			<icon>00016163.png</icon>
+			<desc>Epheria fishing rod. It is sturdier than other rods.\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>56013</id>
+			<name>Trina Cannon Assembly Kit</name>
+			<icon>00056002.png</icon>
+			<desc>Able to assemble Trina cannon.\nTakes 30 seconds to disassemble.\nAny loaded object in the cannon will be deleted after disassembly.\nThis model has average durability and faster loading speed.\nAble to adjust firing angle between 5 different states.\nBase Damage: 750\nInstalled cannons will be deleted after server maintenance.</desc>
+		</item>
+		<item>
+			<id>56012</id>
+			<name>Lynch Cannon Assembly Kit</name>
+			<icon>00056002.png</icon>
+			<desc>Able to assemble Lynch cannon.\nTakes 30 seconds to disassemble.\nAny loaded object in the cannon will be deleted after disassembly.\nThis model has more durability and average loading speed.\nAble to adjust firing angle between 4 different states.\nBase Damage: 1000\nInstalled cannons will be deleted after server maintenance.</desc>
+		</item>
+		<item>
+			<id>56002</id>
+			<name>Old Serendia Cannon Assembly Kit</name>
+			<icon>00056002.png</icon>
+			<desc>Able to assemble old Serendian cannon.\nTakes 30 seconds to disassemble.\nAny loaded object in the cannon will be deleted after disassembly.\nOld model has less durability and slower loading speed.\nAble to adjust firing angle between 3 different states.\nBase Damage: 500\nInstalled cannons will be deleted after server maintenance.</desc>
+		</item>
+		<item>
+			<id>53704</id>
+			<name>Farm Wagon Badge</name>
+			<icon>00053610.png</icon>
+			<desc>A banner for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53702</id>
+			<name>Strong Wagon Badge</name>
+			<icon>00053608.png</icon>
+			<desc>A banner for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>16128</id>
+			<name>Shining Steel Pickaxe</name>
+			<icon>00016128.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>13235</id>
+			<name>Ultimate Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Kalis Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Crimson Flame, Kalis Shortsword of Destruction, Kalis Shortsword of Temptation, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Kalis Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Temptation, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Destruction, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Crimson Flame, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>10304</id>
+			<name>Steel Dagger</name>
+			<icon>00010304.png</icon>
+			<desc>A sharp dagger made of steel.</desc>
+		</item>
+		<item>
+			<id>10313</id>
+			<name>Ultimate Steel Dagger</name>
+			<icon>00010304.png</icon>
+			<desc>A Steel Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Steel Dagger of Crimson Flame, Steel Dagger of Destruction, Steel Dagger of Temptation, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Steel Dagger of Temptation</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Temptation is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Temptation, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Steel Dagger of Destruction</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Destruction is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Destruction, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Steel Dagger of Crimson Flame</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Crimson Flame, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Kalis Axe of Crimson Flame</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Crimson Flame, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>An amulet capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10435</id>
+			<name>Ultimate Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>A Kalis Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Crimson Flame, Kalis Amulet of Destruction, Kalis Amulet of Temptation, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis Amulet of Temptation</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Temptation, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis Amulet of Destruction</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Destruction, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis Amulet of Crimson Flame</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Crimson Flame, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>13012</id>
+			<name>Needle Trinket of Temptation</name>
+			<icon>00013005.png</icon>
+			<desc>The energy of Temptation is contained within this Needle Trinket.\n\n- Repair to Max. Durability: Needle Trinket of Temptation, Needle Trinket</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Needle Trinket of Destruction</name>
+			<icon>00013005.png</icon>
+			<desc>The energy of Destruction is contained within this Needle Trinket.\n\n- Repair to Max. Durability: Needle Trinket of Destruction, Needle Trinket</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Needle Trinket of Crimson Flame</name>
+			<icon>00013005.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Needle Trinket.\n\n- Repair to Max. Durability: Needle Trinket of Crimson Flame, Needle Trinket</desc>
+		</item>
+		<item>
+			<id>13009</id>
+			<name>Ultimate Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>An Incense Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Incense Trinket of Crimson Flame, Incense Trinket of Destruction, Incense Trinket of Temptation, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Incense Trinket of Temptation</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Temptation is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Temptation, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Ultimate Blade Trinket</name>
+			<icon>00010707.png</icon>
+			<desc>A Blade Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket of Destruction, Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Blade Trinket of Temptation</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Temptation is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Blade Trinket of Destruction</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Destruction is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Destruction, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Blade Trinket of Crimson Flame</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13013</id>
+			<name>Ultimate Needle Trinket</name>
+			<icon>00013005.png</icon>
+			<desc>A Needle Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Needle Trinket of Crimson Flame, Needle Trinket of Destruction, Needle Trinket of Temptation, Needle Trinket</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Incense Trinket of Destruction</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Destruction is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Destruction, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Incense Trinket of Crimson Flame</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Crimson Flame, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Blade Trinket</name>
+			<icon>00010706.png</icon>
+			<desc>A trinket with an ornamental knife attached.</desc>
+		</item>
+		<item>
+			<id>13004</id>
+			<name>Needle Trinket</name>
+			<icon>00013005.png</icon>
+			<desc>A trinket with a pouch full of needles.</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>A trinket with a pouch full of incense.</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Kalis Longsword of Destruction</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Destruction, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Kalis Longsword of Crimson Flame</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Crimson Flame, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A longsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10035</id>
+			<name>Ultimate Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A Kalis Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Crimson Flame, Kalis Longsword of Destruction, Kalis Longsword of Temptation, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Kalis Longsword of Temptation</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Temptation, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Vangertz Shield of Destruction</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Destruction is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Destruction, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz Shield of Crimson Flame</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Crimson Flame, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A high-strength alloy shield that provides maximum defense.</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>A steel-plated shield used more for attacking than defending.</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A round shield made of strong iron.</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion Shield of Destruction</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Destruction is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Destruction, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion Shield of Crimson Flame</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Crimson Flame, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10109</id>
+			<name>Ultimate Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A Vangertz Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Vangertz Shield of Crimson Flame, Vangertz Shield of Destruction, Vangertz Shield of Temptation, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz Shield of Temptation</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Temptation is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Temptation, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Kite Shield of Destruction</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Destruction is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Destruction, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Kite Shield of Crimson Flame</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Crimson Flame, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10113</id>
+			<name>Ultimate Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>An Axion Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Axion Shield of Crimson Flame, Axion Shield of Destruction, Axion Shield of Temptation, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion Shield of Temptation</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Temptation is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Temptation, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10117</id>
+			<name>Ultimate Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A Kite Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Kite Shield of Crimson Flame, Kite Shield of Destruction, Kite Shield of Temptation, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Kite Shield of Temptation</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Temptation is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Temptation, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Ultimate Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A Kalis Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow of Destruction, Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis Longbow of Temptation</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis Longbow of Destruction</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Destruction, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis Longbow of Crimson Flame</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A longbow capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>An axe capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10635</id>
+			<name>Ultimate Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>A Kalis Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Crimson Flame, Kalis Axe of Destruction, Kalis Axe of Temptation, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Kalis Axe of Temptation</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Temptation, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Kalis Axe of Destruction</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Destruction, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with gold.</desc>
+		</item>
+		<item>
+			<id>10704</id>
+			<name>Oros Ornamental Knot</name>
+			<icon>00010704.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with silver.</desc>
+		</item>
+		<item>
+			<id>10711</id>
+			<name>Oros Ornamental Knot of Destruction</name>
+			<icon>00010704.png</icon>
+			<desc>The energy of Destruction is contained within this Oros Ornamental Knot.\n\n- Repair to Max. Durability: Oros Ornamental Knot of Destruction, Oros Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10710</id>
+			<name>Oros Ornamental Knot of Crimson Flame</name>
+			<icon>00010704.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Oros Ornamental Knot.\n\n- Repair to Max. Durability: Oros Ornamental Knot of Crimson Flame, Oros Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimate Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>Saiyer Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer Ornamental Knot of Temptation</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Temptation is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer Ornamental Knot of Destruction</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Destruction is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer Ornamental Knot of Crimson Flame</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10717</id>
+			<name>Ultimate Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>Theos Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Crimson Flame, Theos Ornamental Knot of Destruction, Theos Ornamental Knot of Temptation, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos Ornamental Knot of Temptation</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Temptation is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Temptation, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos Ornamental Knot of Destruction</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Destruction is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Destruction, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos Ornamental Knot of Crimson Flame</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Crimson Flame, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10713</id>
+			<name>Ultimate Oros Ornamental Knot</name>
+			<icon>00010704.png</icon>
+			<desc>Oros Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Oros Ornamental Knot of Crimson Flame, Oros Ornamental Knot of Destruction, Oros Ornamental Knot of Temptation, Oros Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10712</id>
+			<name>Oros Ornamental Knot of Temptation</name>
+			<icon>00010704.png</icon>
+			<desc>The energy of Temptation is contained within this Oros Ornamental Knot.\n\n- Repair to Max. Durability: Oros Ornamental Knot of Temptation, Oros Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>A handmade ornamental knot for an axe made of quality silk.</desc>
+		</item>
+		<item>
+			<id>16808</id>
+			<name>Lucky Shining Steel Lumbering Axe</name>
+			<icon>00016808.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16828</id>
+			<name>Lucky Shining Steel Pickaxe</name>
+			<icon>00016828.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16824</id>
+			<name>Lucky Shining Steel Tanning Knife</name>
+			<icon>00016824.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16820</id>
+			<name>Lucky Shining Steel Butcher Knife</name>
+			<icon>00016820.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16816</id>
+			<name>Lucky Shining Steel Hoe</name>
+			<icon>00016816.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16812</id>
+			<name>Lucky Shining Fluid Collector</name>
+			<icon>00016812.png</icon>
+			<desc>A Gathering Tool made for extracting animal blood or sap. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9404</itemKey>
+	<itemName>Fleischkrokette</itemName>
+	<itemIcon>00009404.png</itemIcon>
+	<itemDesc>Ein frittiertes Gericht aus Getreide und Fleisch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +5 % für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

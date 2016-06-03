@@ -1,0 +1,259 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Challenge" Pos="0 0" Size="730 560" Pan="0 0" Color="ffffffff" EnableArea="0 0 730 560">
+		<Texture Type="Special" UV="1 0 64 0 1 64 64 1" Ani="1 1 0.000 0">new_ui_common_forlua/default/mask_gradient_toright.dds</Texture>
+		<UIAni CalcParentRotate="False">
+			<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Show_Color" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+			<UIAniItem Type="Move" StartPos="-274 238" EndPos="200 238" Align="3 1 3 1" StartSpan="-274 0" EndSpan="200 0" ID="Show_Move" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="7" AdvanceType="3" HideAtEnd="False"/>
+			<UIAniItem Type="Move" StartPos="230 238" EndPos="200 238" Align="3 1 3 1" StartSpan="230 0" EndSpan="200 0" ID="Show_Move2" Activity="True" Replay="False" RunOnBoot="False" StartFrame="7" EndFrame="10" AdvanceType="2" HideAtEnd="False"/>
+			<UIAniItem Type="Move" StartPos="200 238" EndPos="230 238" Align="3 1 3 1" StartSpan="200 0" EndSpan="230 0" ID="Hide_Move" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="5" AdvanceType="3" HideAtEnd="False"/>
+			<UIAniItem Type="Move" StartPos="200 238" EndPos="-274 238" Align="3 1 3 1" StartSpan="200 0" EndSpan="-274 0" ID="Hide_Move2" Activity="False" Replay="False" RunOnBoot="False" StartFrame="5" EndFrame="10" AdvanceType="2" HideAtEnd="False"/>
+		</UIAni>
+		<Attribute Type="Drag" Area="4 10 763 45"/>
+		<Control Type="Static" Name="Static_ChallengeBG" Pos="0 1" Size="730 560" Pan="0 0" Color="ffffffff" EnableArea="0 0 730 560" Grid="1" GridPosX="0 10 720 730" GridPosY="0 10 550 560" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ChallengeTopBG" Pos="Center Top" Size="720 90" Pan="0 5" Color="ffffffff" EnableArea="0 0 720 90" Grid="1" GridPosX="0 10 710 720" GridPosY="0 10 80 90" GridUVX="0 10 54 64" GridUVY="0 10 48 58" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 123 65 123 1 181 65 181" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ChallengeTitleBG" Pos="Center 12" Size="720 25" Pan="0 10" Color="ccffffff" EnableArea="0 0 720 25" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="107 2 118 2 107 13 118 13" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Tap" Pos="5 Top" Size="100 35" Pan="5 100" Color="ffffffff" EnableArea="0 0 100 35" UseDefaultSound="1" Group="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="211 5 311 5 211 40 311 40" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+			<Texture Type="On" UV="211 43 311 43 211 78 311 78" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+			<Texture Type="Click" UV="211 81 311 81 211 116 311 116" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+			<Text Value="단 기" Font="BaseFont_10" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="45 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChallengeText" Pos="Center Top" Size="50 20" Pan="0 12" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="도전 과제" formatString="PANEL_CHARACTERINFO_CHALLENGE_CHALLENGETEXT" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_ChallengeExplainBG" Pos="Left Top" Size="705 45" Pan="10 42" Color="b3ffffff" EnableArea="0 0 705 45" Grid="1" GridPosX="0 10 695 705" GridPosY="0 10 35 45" GridUVX="0 10 53 63" GridUVY="0 10 53 63" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 63 0 0 63 63 63" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="과제 크게 목표형 시간형으로 나뉘며, 조건이 만족되면 보상을 드립니다.\n&lt;PAColor0xFFE49800&gt;이벤트 도전과제는 특정 기간에만 한시적으로 제공됩니다.&lt;PAOldColor&gt;" formatString="PANEL_CHALLENGE_EXPLAIN" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ff888888" ClickColor="ff888888" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<!-- <Control Type="StaticText" Name="StaticText_ChallengeExplain" Pos="Left Top" Size="50 20" Pan="20 55" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			
+		</Control> -->
+		<Control Type="Static" Name="Static_VerticalLine_1" Pos="Right Top" Size="2 54" Pan="200 38" Color="ffffffff" EnableArea="0 0 2 54" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 182 2 182 1 118 2 118" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_VerticalLine_2" Pos="Right Top" Size="2 54" Pan="110 38" Color="ffffffff" EnableArea="0 0 2 54" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 182 2 182 1 118 2 118" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ShortClearCountText" Pos="Right Top" Size="155 20" Pan="180 40" Color="ffffffff" EnableArea="0 0 155 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="단기 과제 완료 수" formatString="PANEL_CHARACTERINFO_CHALLENGE_SHORTCLEARCOUNTTEXT" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DailyChallengeText" Pos="Right Top" Size="160 20" Pan="75 40" Color="ffffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="일일 과제" formatString="PANEL_CHARACTERINFO_CHALLENGE_DAILYCHALLENGETEXT" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ff888888" ClickColor="ff888888" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ClearCountText" Pos="Right Top" Size="160 20" Pan="35 45" Color="ffffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="완료된 과제" formatString="PANEL_CHARACTERINFO_CHALLENGE_CLEARCOUNTTEXT" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ff888888" ClickColor="ff888888" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ShortClearCount_Value" Pos="Right Top" Size="155 30" Pan="180 55" Color="ffffffff" EnableArea="0 0 155 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="2000 회" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DailyChallenge_Value" Pos="Right Top" Size="160 30" Pan="75 55" Color="ffffffff" EnableArea="0 0 160 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="5 / 1000" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ClearCountValue" Pos="Right 55" Size="160 30" Pan="-20 55" Color="ffffffff" EnableArea="0 0 160 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="50 / 1000" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CallengeBodyBG" Pos="Center Top" Size="710 420" Pan="-5 135" Color="8cffffff" EnableArea="0 0 710 420" Grid="1" GridPosX="0 10 700 710" GridPosY="0 10 410 420" GridUVX="0 10 253 263" GridUVY="0 10 28 38" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="17 261 280 261 17 299 280 299" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="VerticalScroll" Pos="Right Top" Size="20 410" Pan="-8 140" Color="ffffffff" EnableArea="0 0 20 410" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 403 410" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="VerticalScroll_DownButton" Pos="0 410" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="VerticalScroll_CtrlButton" Pos="-2 0" Size="13 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_ChallengeContent_BG" Pos="Center 145" Size="692 96" Pan="0 0" Color="ffffffff" EnableArea="0 0 692 96" Grid="1" GridPosX="0 10 682 692" GridPosY="0 10 86 96" GridUVX="0 10 14 24" GridUVY="0 10 14 24" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="206 1 230 1 206 25 230 25" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="On" UV="231 1 255 1 231 25 255 25" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="Click" UV="231 26 255 26 231 50 255 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_RewardBG" Pos="Right Top" Size="202 90" Pan="3 3" Color="b3ffffff" EnableArea="0 0 202 90" Grid="1" GridPosX="0 10 192 202" GridPosY="0 10 80 90" GridUVX="0 10 53 63" GridUVY="0 10 53 63" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 63 0 0 63 63 63" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChallengeContent_Type" Pos="Left Top" Size="50 20" Pan="10 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="일일 과제" Font="BaseFont_8_Bold" Color="ff9abb82" OverColor="ff9abb82" ClickColor="ff9abb82" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChallengeContent_Title" Pos="Left Top" Size="50 20" Pan="10 5" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="- 오늘도 접속 하셨군요!" Font="BaseFont_12" Color="fff0ef9d" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChallengeContent_Desc" Pos="Left Top" Size="430 20" Pan="13 27" Color="ffffffff" EnableArea="0 0 430 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="매일매일 7일간 접속해준 당신에게 주는 자그마한 펄 마일리지! 우리는 당신의 노력을 존중하며\n사랑합니다." Font="BaseFont_8_Line" Color="ff999999" OverColor="ff999999" ClickColor="ff999999" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_ChallengeReward" Pos="857 116" Size="85 85" Pan="5 0" Color="ffffffff" EnableArea="0 0 85 85" Grid="1" GridPosX="0 10 75 85" GridPosY="0 10 75 85" GridUVX="0 10 19 29" GridUVY="0 10 19 29" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="보상 확인" Font="BaseFont_10" Color="ffffce22" OverColor="fffff3b0" ClickColor="fffff3b0" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ChallengeContent_Icon" Pos="Left Top" Size="103 95" Pan="25 2" Color="ffffffff" EnableArea="0 0 103 95" AutoDisableTime="1.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 386 104 386 1 481 104 481" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ChallengeCompleteIcon" Pos="Right Top" Size="85 85" Pan="210 5" Color="ffffffff" EnableArea="0 0 85 85" AutoDisableTime="1.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="30 2 131 2 30 93 131 93" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RemailRewardCount" Pos="Right Top" Size="50 20" Pan="30 105" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 도전 과제 보상 : 0 개" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_ChallengeReward_Show" Pos="415 97" Size="90 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 90 26" Grid="1" GridPosX="0 10 80 90" GridPosY="0 10 16 26" GridUVX="0 10 19 29" GridUVY="0 10 19 29" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="보상 받기" Font="BaseFont_10" Color="ffffce22" OverColor="fffff3b0" ClickColor="fffff3b0" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ResultSlot0" Pos="Right Top" Size="44 44" Pan="125 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ResultSlot1" Pos="Right Top" Size="44 44" Pan="75 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ResultSlot2" Pos="Right Top" Size="44 44" Pan="25 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ResultSlot3" Pos="Right Top" Size="44 44" Pan="-25 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SlotIcon0" Pos="Right Top" Size="44 44" Pan="125 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SlotIcon1" Pos="Right Top" Size="44 44" Pan="75 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SlotIcon2" Pos="Right Top" Size="44 44" Pan="25 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SlotIcon3" Pos="Right Top" Size="44 44" Pan="-25 8" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectSlot0" Pos="Right Top" Size="30 30" Pan="170 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SelectSlot1" Pos="Right Top" Size="30 30" Pan="137 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SelectSlot2" Pos="Right Top" Size="30 30" Pan="104 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SelectSlot3" Pos="Right Top" Size="30 30" Pan="71 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SelectSlot4" Pos="Right Top" Size="30 30" Pan="38 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SelectSlot5" Pos="Right Top" Size="30 30" Pan="5 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SelectItemIcon0" Pos="Right Top" Size="30 30" Pan="170 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectItemIcon1" Pos="Right Top" Size="30 30" Pan="137 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectItemIcon2" Pos="Right Top" Size="30 30" Pan="104 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectItemIcon3" Pos="Right Top" Size="30 30" Pan="71 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectItemIcon4" Pos="Right Top" Size="30 30" Pan="38 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectItemIcon5" Pos="Right Top" Size="30 30" Pan="5 58" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Template_Static_SlotSelectBG" Pos="28 117" Size="44 45" Pan="0 0" Color="f1ffffff" EnableArea="0 0 44 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="197 209 239 209 197 251 239 251" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="baffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="15" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NormalReward" Pos="Right Top" Size="50 20" Pan="190 18" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="기본 ▶" formatString="PANEL_CHARACTERINFO_CHALLENGE_NORMALREWARD" Font="BaseFont_7_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SelectReward" Pos="Right Top" Size="50 20" Pan="190 63" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="선택 ▶" formatString="PANEL_CHARACTERINFO_CHALLENGE_SELECTREWARD" Font="BaseFont_7_Bold" Color="ffc4b163" OverColor="ffc4b163" ClickColor="ffc4b163" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

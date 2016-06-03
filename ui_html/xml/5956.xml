@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5956</itemKey>
+	<itemName>Trace of Savagery</itemName>
+	<itemIcon>00005956.png</itemIcon>
+	<itemDesc>A material used for Crafting equipment.\nIt can be Excavated at Lynch Farm Ruins.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10006</id>
+			<name>Demihuman Longsword</name>
+			<icon>00010006.png</icon>
+			<desc>A longsword made for fighting threats to Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10206</id>
+			<name>Demihuman Longbow</name>
+			<icon>00010206.png</icon>
+			<desc>A longbow made for fighting threats to Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10406</id>
+			<name>Demihuman Amulet</name>
+			<icon>00010406.png</icon>
+			<desc>An amulet made for fighting threats to Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10606</id>
+			<name>Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>An axe made for fighting threats to Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13206</id>
+			<name>Demihuman Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword made for fighting threats to Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14406</id>
+			<name>Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A staff made for fighting threats to Humankind.</desc>
+		</item>
+	</manufacture>
+	<node region="Lynch Farm Ruins - Excavation"/>
+	<makelist>
+		<item>
+			<id>14427</id>
+			<name>Ultimate Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A Demihuman staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Demihuman staff.\n\n- Restore Max Durability: Demihuman Staff of Crimson Flame, Demihuman Staff of Destruction, Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Demihuman Staff of Temptation</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Demihuman Staff of Destruction</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Destruction, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Demihuman Staff of Crimson Flame</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Crimson Flame, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>13206</id>
+			<name>Demihuman Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>13227</id>
+			<name>Ultimate Demihuman Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Demihuman Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Crimson Flame, Demihuman Shortsword of Destruction, Demihuman Shortsword of Temptation, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13226</id>
+			<name>Demihuman Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Temptation, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13225</id>
+			<name>Demihuman Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Destruction, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13224</id>
+			<name>Demihuman Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Crimson Flame, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>10427</id>
+			<name>Ultimate Demihuman Amulet</name>
+			<icon>00010406.png</icon>
+			<desc>A Demihuman Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Crimson Flame, Demihuman Amulet of Destruction, Demihuman Amulet of Temptation, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10426</id>
+			<name>Demihuman Amulet of Temptation</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Temptation, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10425</id>
+			<name>Demihuman Amulet of Destruction</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Destruction, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10424</id>
+			<name>Demihuman Amulet of Crimson Flame</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Crimson Flame, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10627</id>
+			<name>Ultimate Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>A Demihuman Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Crimson Flame, Demihuman Axe of Destruction, Demihuman Axe of Temptation, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10406</id>
+			<name>Demihuman Amulet</name>
+			<icon>00010406.png</icon>
+			<desc>An amulet made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A staff made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10006</id>
+			<name>Demihuman Longsword</name>
+			<icon>00010006.png</icon>
+			<desc>A longsword made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10025</id>
+			<name>Demihuman Longsword of Destruction</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Destruction, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10024</id>
+			<name>Demihuman Longsword of Crimson Flame</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Crimson Flame, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10027</id>
+			<name>Ultimate Demihuman Longsword</name>
+			<icon>00010006.png</icon>
+			<desc>A Demihuman Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Crimson Flame, Demihuman Longsword of Destruction, Demihuman Longsword of Temptation, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10026</id>
+			<name>Demihuman Longsword of Temptation</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Temptation, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Demihuman Longbow</name>
+			<icon>00010206.png</icon>
+			<desc>A longbow made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10227</id>
+			<name>Ultimate Demihuman Longbow</name>
+			<icon>00010206.png</icon>
+			<desc>A Demihuman Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow of Destruction, Demihuman Longbow of Temptation, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Demihuman Longbow of Temptation</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Temptation, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Demihuman Longbow of Destruction</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Destruction, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Demihuman Longbow of Crimson Flame</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10606</id>
+			<name>Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>An axe made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10626</id>
+			<name>Demihuman Axe of Temptation</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Temptation, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10625</id>
+			<name>Demihuman Axe of Destruction</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Destruction, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10624</id>
+			<name>Demihuman Axe of Crimson Flame</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Crimson Flame, Demihuman Axe</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

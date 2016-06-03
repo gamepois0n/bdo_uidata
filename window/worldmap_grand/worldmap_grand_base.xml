@@ -1,0 +1,647 @@
+<UI>
+	<Control Type="Panel" Name="Worldmap_Grand_Base" Pos="0 0" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_3DMap" Pos="0 0" Size="0 0" Pan="0 0" Color="ffffffff" EnableArea="0 0 314 6" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_3DMap_UI_Global" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_3DMap_UI_Explore" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_3DMap_UI_Region" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_3DMap_UI_Water" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_3DMap_UI_Celcius" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_3DMap_UI_Humidity" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_3DMap_UI_Oil" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Normal" Pos="1239 217" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="171 203 340 203 171 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_00.dds</Texture>
+			<Texture Type="On" UV="171 4 340 4 171 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Village" Pos="1050 450" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_02.dds</Texture>
+			<Texture Type="On" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_City" Pos="1682 27" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="344 203 511 203 344 399 511 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_01.dds</Texture>
+			<Texture Type="On" UV="344 4 511 4 344 200 511 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Gate" Pos="1543 22" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_00.dds</Texture>
+			<Texture Type="On" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Farm" Pos="1034 43" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_01.dds</Texture>
+			<Texture Type="On" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Trade" Pos="1543 162" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="344 203 512 203 344 399 512 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_03.dds</Texture>
+			<Texture Type="On" UV="344 4 511 4 344 200 511 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_03.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Collect" Pos="1220 30" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_01.dds</Texture>
+			<Texture Type="On" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Quarry" Pos="1220 170" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="171 203 340 203 171 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_02.dds</Texture>
+			<Texture Type="On" UV="171 4 340 4 171 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_02.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Logging" Pos="1220 310" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_03.dds</Texture>
+			<Texture Type="On" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_03.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Dangerous" Pos="1050 168" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 203 167 203 0 398 167 398" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_04.dds</Texture>
+			<Texture Type="On" UV="0 4 167 4 0 199 167 199" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_04.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_Finance" Pos="252 294" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="172 203 341 203 172 398 341 398" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_05.dds</Texture>
+			<Texture Type="On" UV="172 4 341 4 172 199 341 199" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_05.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_FishTrap" Pos="252 294" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="344 203 512 203 344 398 512 398" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_05.dds</Texture>
+			<Texture Type="On" UV="344 4 512 4 344 199 512 199" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_05.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_MinorFinance" Pos="252 294" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="172 203 341 203 172 398 341 398" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_05.dds</Texture>
+			<Texture Type="On" UV="172 4 341 4 172 199 341 199" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_05.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_MonopolyFarm" Pos="1034 43" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 160" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_06.dds</Texture>
+			<Texture Type="On" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_06.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SecondNodeIcon" Pos="1111 Top" Size="26 26" Pan="0 -35" Color="ffffffff" EnableArea="0 0 26 26" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="453 65 479 65 453 91 479 91" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SecondNode_WorkBG" Pos="Center Center" Size="36 36" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="416 65 452 65 416 101 452 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="Progress_SecondNode_Work" Pos="Center Center" Size="36 36" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 36" StartRadian="1.570796" CenterPos="18.00 18.00">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="379 65 415 65 379 101 415 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="0.000000"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_NodeLevel_BG" Pos="Center Top" Size="26 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 26 26">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="93 204 119 204 93 230 119 230" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="9" Font="BaseFont_8" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="CircularProgress" Name="Progress_NodeLevel" Pos="Center Center" Size="26 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 26 26" StartRadian="1.570796" CenterPos="13.00 13.00">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="120 204 146 204 120 230 146 230" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Attribute Type="Smooth" Speed="0.000000"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_GuildMark_BG" Pos="Center Top" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 40 40">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 40 0 0 40 40 40" Ani="1 1 0.000 0">new_ui_common_forlua/default/blankguildmark.dds</Texture>
+			<Text Value="9" Font="BaseFont_8" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Selected" Pos="0 0" Size="84 43" Pan="50 0" Color="ffcdcdcd" EnableArea="0 0 84 43" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 128 0 0 64 128 64" Ani="4 8 0.030 0">new_ui_common_forlua/widget/worldmap/worldmap_ani_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffbfbfbf" StartIntensity="1.50" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_A_Construction" Pos="Center Top" Size="32 32" Pan="0 -50" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="4 4 0.010 0">new_ui_common_forlua/widget/worldmap/worldmap_ani_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RemainTime" Pos="912 539" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="남은 시간 : 0초" Font="BaseFont" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_H_Cons_GaugeBG" Pos="-1000 734" Size="55 43" Pan="0 0" Color="ffffffff" EnableArea="0 0 55 43" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 190 56 190 1 233 56 233" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="Progress2_H_Cons_Gauge" Pos="Right Top" Size="29 29" Pan="6 7" Color="ffffffff" EnableArea="0 0 29 29" StartRadian="1.570796" CenterPos="14.00 14.00">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="57 190 86 190 57 219 86 219" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="0.000000"/>
+		</Control>
+		<Control Type="Static" Name="Static_H_Cons_GuildMark" Pos="611 806" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 59 111 59 102 67 111 67" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Node_MyHouse_OnlyOne" Pos="1520 668" Size="125 71" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 71" Grid="1" GridPosX="0 0 125 125" GridPosY="0 61 61 71" GridUVX="0 0 168 168" GridUVY="0 88 190 200" AutoDisableTime="0.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 4 168 4 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_MyHouse_Bottom" Pos="1678 820" Size="125 43" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 43" AutoDisableTime="0.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 142 168 142 0 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 341 168 341 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_MyHouse_Center" Pos="1678 782" Size="125 38" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 38" AutoDisableTime="0.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 92 168 92 0 142 168 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 291 168 291 0 341 168 341" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Node_MyHouse_Top" Pos="1678 717" Size="125 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 65" AutoDisableTime="0.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 4 168 4 0 92 168 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 291 168 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="e3ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Mental_Human" Pos="919 310" Size="36 36" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="38 197 74 197 38 233 74 233" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Mental_Territory" Pos="875 312" Size="36 36" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 197 37 197 1 233 37 233" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Mental_Object" Pos="954 311" Size="36 36" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="75 197 111 197 75 233 111 233" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_MentalCard_Que" Pos="Center Top" Size="26 35" Pan="0 -30" Color="ffffffff" EnableArea="0 0 26 70" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="130 128 156 128 130 163 156 163" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MentalCard_Hint" Pos="Center Top" Size="189 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 189 70" Grid="1" GridPosX="0 20 169 189" GridPosY="0 0 32 32" GridUVX="0 20 169 189" GridUVY="0 0 32 32">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 164 190 164 1 196 190 196" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="지식 힌트" formatString="UI_NEW_WORLDMAP_TEMPLATE_MENTALCARDHINT" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Center" AlignVertical="Top" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SupportPoint" Pos="965 218" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="지지도~" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_CitadelPosition" Pos="1318 346" Size="240 280" Pan="0 0" Color="ffffffff" EnableArea="0 0 240 280" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="171 4 340 4 171 200 340 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_04.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_GuildKeep" Pos="1543 348" Size="240 280" Pan="0 0" Color="ffffffff" EnableArea="0 0 240 280" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 4 167 4 0 199 167 199" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_05.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_Sun" Pos="7 600" Size="128 128" Pan="0 0" Color="ffffffff" EnableArea="0 0 128 128" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_weathericon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sun" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="360" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Rotate" StartRot="0" EndRot="15" RotateCount="0" ID="Ani_Rotate_Sun" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="12000" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_Moon" Pos="7 600" Size="128 128" Pan="0 0" Color="ffffffff" EnableArea="0 0 128 128" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_weathericon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sun" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="360" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Rotate" StartRot="0" EndRot="15" RotateCount="0" ID="Ani_Rotate_Sun" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="12000" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_Cloud" Pos="144 600" Size="150 128" Pan="0 0" Color="fffefefe" EnableArea="0 0 150 128" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 128 150 128 0 255 150 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_weathericon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffdfdfdf" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Cloud" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="180" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_Tornado" Pos="292 600" Size="128 128" Pan="0 0" Color="ffffffff" EnableArea="0 0 128 128" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="128 0 256 0 128 128 256 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_weathericon_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Rotate" StartRot="0" EndRot="60" RotateCount="-25" ID="Ani_Rotate_Tornado" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="6080" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SunTime" Pos="919 212" Size="100 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="PM 01:00" Font="BaseFont_12" Color="aadddddd" OverColor="aadddddd" ClickColor="aadddddd" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LocationN" Pos="894 390" Size="10 10" Pan="0 0" Color="d8ffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 11 1 1 11 11 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="cfffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="N" formatString="WORLDMAP_MAIN_TXT_LOC_N" Font="HeaderFont_26" Color="d8dddddd" OverColor="d8ffffff" ClickColor="d8ffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 20"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LocationE" Pos="921 390" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 11 1 1 11 11 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="cfffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="E" formatString="WORLDMAP_MAIN_TXT_LOC_E" Font="HeaderFont_26" Color="ffdddddd" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 20"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LocationW" Pos="955 390" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 11 1 1 11 11 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="cfffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="W" formatString="WORLDMAP_MAIN_TXT_LOC_W" Font="HeaderFont_26" Color="ffdddddd" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 20"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LocationS" Pos="991 389" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 11 1 1 11 11 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="cfffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="S" formatString="WORLDMAP_MAIN_TXT_LOC_S" Font="HeaderFont_26" Color="ffdddddd" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 20"/>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_Wagon" Pos="860 585" Size="25 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 25 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="43 127 84 127 43 160 84 160" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ExploreTerritory" Pos="917 160" Size="300 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="지역명" Font="TitleFont_18" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="StaticText_Image" Pos="849 150" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/territory/territorymark_selendia_large.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AffiliatedUserRate" Pos="965 318" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="비율" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_GuildMark" Pos="Left Top" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 40 0 0 40 40 40" Ani="1 1 0.000 0">new_ui_common_forlua/default/blankguildmark.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_AffiliatedTerritoryMark" Pos="860 585" Size="19 19" Pan="0 0" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 28 227 28 190 65 227 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AffiliatedTerritory" Pos="965 318" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 11 1 1 11 11 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="소속 영지" formatString="CHARACTERINFO_TEXT_AFFILIATEDTERRITORY" Font="BaseFont" Color="ffc1ffc2" OverColor="ffc1ffc2" ClickColor="ffc1ffc2" AlignHorizon="Center" AlignVertical="Top" Span="0 -25"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildWar" Pos="955 177" Size="300 30" Pan="0 0" Color="ffefefef" EnableArea="0 0 300 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="점령" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_DeadPosition" Pos="1196 723" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 350 300 350" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_dieposition.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_GuildDeadPosition" Pos="1196 723" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 350 300 350" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_dieposition.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_AdvancedBasePosition" Pos="1196 723" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 350 300 350" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_riviverposition.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TentPosition" Pos="1288 723" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 350 300 350" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_tentposition.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_VehiclePosition" Pos="1381 721" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 350 300 350" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_horseposition.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CamelPosition" Pos="1381 721" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 348 300 348" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_camelposition.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ElephantPosition" Pos="1381 721" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 348 300 348" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_elephantposition.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ShipPosition" Pos="1474 721" Size="63 73" Pan="0 0" Color="ffffffff" EnableArea="0 0 63 73" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 300 0 0 350 300 350" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_shipposition.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PartyPosition" Pos="1391 27" Size="85 99" Pan="0 0" Color="ffffffff" EnableArea="0 0 85 99" AutoDisableTime="1.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="344 4 512 4 344 199 512 199" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_04.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BanditPosition" Pos="-20 -20" Size="42 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 51" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 125 0 0 142 125 142" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_plunder_icon.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WhalePosition" Pos="-20 -20" Size="42 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 51" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 100 0 0 128 100 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/WorldMap_whale_navi_icon.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TerritoryTrade_Icon" Pos="-21 -21" Size="42 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 48" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="172 203 341 203 172 398 341 398" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/WorldMap_Icon_03.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_VillageArrow" Pos="874 587" Size="43 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 43 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="187 24 230 24 187 64 230 64" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LocationVillage" Pos="-19 -10" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="LocationVillage" Font="BaseFont_10" Color="ffdddddd" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 20"/>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_Guild" Pos="-20 -20" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.020 0">new_ui_common_forlua/widget/worldmap/ui_flag_guild.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_GuildMine" Pos="-20 -20" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.020 0">new_ui_common_forlua/widget/worldmap/ui_flag_guild_mine.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildMaster" Pos="-20 -20" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.020 0">new_ui_common_forlua/widget/worldmap/ui_red_flag.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_Party" Pos="-20 -20" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.020 0">new_ui_common_forlua/widget/worldmap/ui_green_arrowmark.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_PartyMine" Pos="-20 -20" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.020 0">new_ui_common_forlua/widget/worldmap/ui_blue_arrowmark.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_Bubble" Pos="-20 -20" Size="114 31" Pan="0 0" Color="ffffffff" EnableArea="0 0 114 31" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="379 33 493 33 379 64 493 64" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GetthePoint" Pos="1017 121" Size="256 256" Pan="0 0" Color="ffffffff" EnableArea="0 0 256 256" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Pin_ID" Pos="-30 -20" Size="114 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 114 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="여친은세계제일" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_KeyGuide" Pos="147 400" Size="180 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 180 80" Grid="1" GridPosX="0 10 170 180" GridPosY="0 10 70 80" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 64 63 64 0 127 63 127" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="SHIFT : 파티원에게 위치 알리기\nCTRL : 길드원에게 위치 알리기\nALT+우클릭 : 자동 이동 설정하기\n좌클릭 : 위치 알리기\n더블 클릭 : 깃발 표시" formatString="PANEL_WIN_WORLDMAP_KEYGUIDE" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_H_GuildHouse" Pos="1061 879" Size="168 196" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 196" AutoDisableTime="0.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 4 168 4 1 200 168 200" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_08.dds</Texture>
+			<Texture Type="On" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_08.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="88ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TradeNpc_Human" Pos="919 310" Size="36 36" Pan="0 0" Color="ffffffff" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="438 149 474 149 438 185 474 185" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradeNpc_Name" Pos="Center Top" Size="189 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 189 70" Grid="1" GridPosX="0 20 169 189" GridPosY="0 0 32 32" GridUVX="0 20 169 189" GridUVY="0 0 32 32">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 164 190 164 1 196 190 196" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="Name_TEST" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Center" AlignVertical="Top" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildName" Pos="0 0" Size="100 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+			<Text Value="GuildName" Font="BaseFont_12_Bold" Color="ffdddddd" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_NormalTrade" Pos="389 542" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="401 149 437 149 401 185 437 185" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_TerritoryTrade" Pos="439 541" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="364 149 400 149 364 185 400 185" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_TerritorySupply" Pos="489 538" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="364 112 400 112 364 148 400 148" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_TradeItemMarket" Pos="Right Top" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="364 186 400 186 364 222 400 222" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="On" UV="401 186 437 186 401 222 437 222" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NodeNowWorkingIcon" Pos="Center Center" Size="90 90" Pan="0 -10" Color="ddffffff" EnableArea="0 0 90 90" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="8 4 0.020 0">new_ui_common_forlua/widget/worldmap/nodeicon_nowworking.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticIcon_OfferingCarrier" Pos="-276 125" Size="42 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 52" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="48 168 90 168 48 220 90 220" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_transporicon_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticIcon_TradingShip" Pos="-290 162" Size="42 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 52" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 113 45 113 3 165 45 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_transporicon_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticIcon_TransportShip" Pos="-170 167" Size="42 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 52" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 58 45 58 3 110 45 110" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_transporicon_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticIcon_Wagon" Pos="-292 314" Size="42 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 52" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 3 45 3 3 55 45 55" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_transporicon_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="StaticIcon_WagonForPerson" Pos="-252 279" Size="42 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 52" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="93 3 135 3 93 55 135 55" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_transporicon_02.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_NodeWarGuildIconMark" Pos="0 0" Size="120 140" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 140" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 120 0 0 140 120 140" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_nodewarguildicon_nomal.dds</Texture>
+			<Texture Type="On" UV="0 0 120 0 0 140 120 140" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_nodewarguildicon.dds</Texture>
+			<Texture Type="Click" UV="0 0 120 0 0 140 120 140" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_nodewarguildicon_click.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NodeGuildMark" Pos="Left Top" Size="32 32" Pan="45 71" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 40 0 0 40 40 40" Ani="1 1 0.000 0">new_ui_common_forlua/default/blankguildmark.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NodeVillageWarIcon" Pos="Left Bottom" Size="128 128" Pan="-30 -10" Color="ffffffff" EnableArea="0 0 128 128" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="4 3 0.100 0">new_ui_common_forlua/widget/worldmap/worldmap_villagewar.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_QuadrangleGuildMarkBG" Pos="Left Top" Size="40 40" Pan="8 63" Color="ffffffff" EnableArea="0 0 40 40" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 40 0 0 40 40 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nowarguildbackground.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_QuadrangleGuildMark" Pos="Left Top" Size="36 36" Pan="10 65" Color="ffffffff" EnableArea="0 0 36 36" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 96 0 0 96 96 96" Ani="1 1 0.000 0">icon/quest/5_giant.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TopRanker" Pos="-1 410" Size="73 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 73 60" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 143 0 0 130 143 130" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_topranker.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BlackIcon_LocalWar" Pos="324 283" Size="128 128" Pan="0 0" Color="ffffffff" EnableArea="36 36 92 92" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="8 4 0.000 0">new_ui_common_forlua/widget/localwar/localwar_balckicon.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_RedIcon_LocalWar" Pos="382 346" Size="128 128" Pan="0 0" Color="ffffffff" EnableArea="36 36 92 92" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="8 4 0.000 0">new_ui_common_forlua/widget/localwar/localwar_redicon.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_H_Villa" Pos="556 620" Size="256 270" Pan="0 0" Color="ffffffff" EnableArea="0 0 256 270" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 270 256 270" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_villa_normal.dds</Texture>
+			<Texture Type="On" UV="0 0 256 0 0 270 256 270" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/houseicon/worldmap_houseicon_villa_over.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="88ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_Exit" Pos="Right Bottom" Size="60 60" Pan="10 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 372 338 372 278 432 338 432" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 372 400 372 340 432 400 432" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 372 462 372 402 432 462 432" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="닫기" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_HelpMovie" Pos="Right Bottom" Size="60 60" Pan="70 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 311 338 311 278 371 338 371" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 311 400 311 340 371 400 371" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 311 462 311 402 371 462 371" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="영상\n도움말" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_WorkerList" Pos="Right Bottom" Size="60 60" Pan="130 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 250 338 250 278 310 338 310" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 250 400 250 340 310 400 310" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 250 462 250 402 310 462 310" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="일꾼관리" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_ItemMarket" Pos="Right Bottom" Size="60 60" Pan="190 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.500000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 189 338 189 278 249 338 249" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 189 400 189 340 249 400 249" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 189 462 189 402 249 462 249" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="아이템\n거래소" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_Transport" Pos="Right Bottom" Size="60 60" Pan="250 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 128 338 128 278 188 338 188" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 128 400 128 340 188 400 188" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 128 462 128 402 188 462 188" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="수송" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_Quest" Pos="Right Bottom" Size="60 60" Pan="310 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 433 338 433 278 493 338 493" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 433 400 433 340 493 400 493" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 433 462 433 402 493 462 493" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="의뢰" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_WareHouse" Pos="Right Bottom" Size="60 60" Pan="370 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 67 338 67 278 127 338 127" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 67 400 67 340 127 400 127" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 67 462 67 402 127 462 127" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="창고" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="BottomMenu_ServantStable" Pos="Right Bottom" Size="60 60" Pan="430 10" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 0 60 60" GridPosY="0 0 60 60" GridUVX="0 0 60 60" GridUVY="0 0 60 60" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 6 338 6 278 66 338 66" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="340 6 400 6 340 66 400 66" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="402 6 462 6 402 66 462 66" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="마구간" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

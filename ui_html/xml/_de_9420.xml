@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9420</itemKey>
+	<itemName>Meeresfrüchtepfanne</itemName>
+	<itemIcon>00009420.png</itemIcon>
+	<itemDesc>Ein Gericht aus angebratenen Meeresfrüchten und Gemüse.\n\n– Spezielle Wirkung: Wirkgeschwindigkeit +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+	</cook>
+</itemInfo>
+

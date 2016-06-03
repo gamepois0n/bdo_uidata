@@ -1,0 +1,18 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CustomizationMesh" Pos="0 0" Size="300 170" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 170">
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_SelectMark" Pos="0 0" Size="49 49" Pan="0 0" Color="ffffffff" EnableArea="0 0 49 49">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 48 0 0 48 48 48" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/imageselectmark.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Frame_Content_Image" Pos="0 0" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PayMark" Pos="0 0" Size="12 12" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 12">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="2 376 14 376 2 388 14 388" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/Housing_01.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

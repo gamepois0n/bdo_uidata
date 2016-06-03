@@ -1,0 +1,76 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GameOption_Language" Pos="50 0" Size="560 600" Pan="0 0" Color="ffffffff" EnableArea="0 0 560 600" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Control Type="Frame" Name="Frame_Language" Pos="Right Top" Size="560 380" Pan="42 100" Color="ffffffff" EnableArea="0 0 560 380">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="Center Top" Size="560 340" Pan="0 0" Color="ffffffff" EnableArea="0 0 560 340">
+				<Attribute Type="Ignore"/>
+				<Control Type="StaticText" Name="StaticText_LanguageSetting" Pos="Center Top" Size="560 30" Pan="0 5" Color="ffffffff" EnableArea="0 0 560 30">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="292 200 306 200 292 214 306 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+					<Text Value="언어 설정" formatString="OPTION_TEXT_LANGUAGE" Font="BaseFont_12" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_Language" Pos="Center Top" Size="560 20" Pan="0 50" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="국가별 언어 설정 ( 게임 재실행 필요 )" formatString="LUA_OPTION_TEXT_LANGUAGE" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_ServiceResourceType" Pos="25 80" Size="23 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" UseDefaultSound="1" Group="100">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="언어 설정 RadioButton" formatString="PANEL_GAMEOPTION_LANGUAGE_DEFAULT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="Static_LanguageCommentBG" Pos="Center 1258" Size="545 110" Pan="0 0" Color="ffffffff" EnableArea="0 0 545 110" Grid="1" GridPosX="0 10 535 545" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_ChannelChat_Language" Pos="Center Top" Size="560 20" Pan="0 110" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="Channel Chat: Send &amp; Receive" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_ChannelChat_Language" Pos="25 140" Size="23 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" UseDefaultSound="1" Group="101">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="언어 설정 RadioButton" formatString="PANEL_GAMEOPTION_LANGUAGE_DEFAULT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="Static_ChattingLanguageCommentBG" Pos="Center 1330" Size="545 110" Pan="0 0" Color="ffffffff" EnableArea="0 0 545 110" Grid="1" GridPosX="0 10 535 545" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="Right 0" Size="20 380" Pan="-23 0" Color="ff333333" EnableArea="0 0 20 380" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 373 380" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_DownButton" Pos="0 380" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_CtrlButton" Pos="Center 0" Size="13 100" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 91 100" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="21 525" Size="520 20" Pan="0 0" Color="ff333333" EnableArea="0 0 520 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="520 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="0 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

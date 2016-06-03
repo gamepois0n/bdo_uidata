@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4261</itemKey>
+	<itemName>Pierre guérisseuse</itemName>
+	<itemIcon>00004261.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4205</id>
+			<name>Pierre guérisseuse brute</name>
+			<icon>00004205.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.Il faut un certain niveau de compétence pour collecter des pierres guérisseuses brutes.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8526</itemKey>
+	<itemName>Baudroie séchée</itemName>
+	<itemIcon>00008526.png</itemIcon>
+	<itemDesc>Une baudroie obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8226</id>
+			<name>Baudroie</name>
+			<icon>00008226.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55926</id>
+			<name>Baudroie séchée sous vide</name>
+			<icon>00055926.png</icon>
+			<desc>Un objet de commerce contenant 10 baudroies séchées.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

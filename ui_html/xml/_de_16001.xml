@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16001</itemKey>
+	<itemName>Schwarzstein (Waffe)</itemName>
+	<itemIcon>00000008.png</itemIcon>
+	<itemDesc>Waffen können durch den Schwarzgeist verstärkt werden.\n\n– Kann verstärken: Waffe, Sekundärwaffe</itemDesc>
+	<collect>
+		<character>
+			<name>Schatzkiste</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<house type="10">
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>6352</id>
+			<name>Blut des Tyrannen</name>
+			<icon>00006352.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>6603</id>
+			<name>Öl der Tapferkeit</name>
+			<icon>00006603.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

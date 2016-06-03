@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4463</itemKey>
+	<itemName>Diamant</itemName>
+	<itemIcon>00004463.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohdiamant gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Diamant</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grabgolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steingolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildnisgolem</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4405</id>
+			<name>Rohdiamant</name>
+			<icon>00004405.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohdiamant erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11601</id>
+			<name>Yuria-Halskette</name>
+			<icon>00011601.png</icon>
+			<desc>Eine Halskette voller Hass gegen die Menschheit.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11801</id>
+			<name>Yuria-Ohrring</name>
+			<icon>00011801.png</icon>
+			<desc>Ein Ohrring voller Hass gegen die Menschheit.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12001</id>
+			<name>Yuria-Ring</name>
+			<icon>00012001.png</icon>
+			<desc>Ein Ring voller Hass gegen die Menschheit.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12201</id>
+			<name>Yuria-Gürtel</name>
+			<icon>00012201.png</icon>
+			<desc>Ein Gürtel voller Hass gegen die Menschheit.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11723</id>
+			<name>Sterndiamanthalskette</name>
+			<icon>00011723.png</icon>
+			<desc>Eine mit einem Sternenlichtdiamanten verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11722</id>
+			<name>Glänzende Diamanthalskette</name>
+			<icon>00011722.png</icon>
+			<desc>Eine mit einem Funkelnden Diamanten verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4464</id>
+			<name>Glänzender Diamant</name>
+			<icon>00004464.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohdiamant gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

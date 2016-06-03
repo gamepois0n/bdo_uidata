@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6160</itemKey>
+	<itemName>Fine Tough Hide</itemName>
+	<itemIcon>00006160.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6004</id>
+			<name>Rhino Hide</name>
+			<icon>00006004.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted rhino corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6005</id>
+			<name>Pig Hide</name>
+			<icon>00006005.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted pig corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6006</id>
+			<name>Ox Hide</name>
+			<icon>00006006.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted cow corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6152</id>
+			<name>Tough Hide</name>
+			<icon>00006152.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10820</id>
+			<name>Zereth Shoes</name>
+			<icon>00010820.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10819</id>
+			<name>Zereth Gloves</name>
+			<icon>00010819.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10818</id>
+			<name>Zereth Armor</name>
+			<icon>00010818.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10817</id>
+			<name>Zereth Helmet</name>
+			<icon>00010817.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>52802</id>
+			<name>Light Hide Stirrups</name>
+			<icon>00052802.png</icon>
+			<desc>Sturdier and lighter stirrup made of high-quality leather\nMakes you able to attack while riding.\n- Able to attach on : Horse &amp; Camel\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>52702</id>
+			<name>Light Hide Saddle</name>
+			<icon>00052702.png</icon>
+			<desc>Sturdier and lighter saddle made of high-quality leather\nIncreases stability for faster riding.\n- Able to attach on : Horse &amp; Camel &amp; Donkey\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>52602</id>
+			<name>Light Hide Barding</name>
+			<icon>00052602.png</icon>
+			<desc>Horse helmet made of high-quality leather. Stronger than normal leather helmet.\n- Able to attach on : Horse &amp; Camel\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Grunil Armor</name>
+			<icon>00010934.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Grunil Helmet</name>
+			<icon>00010933.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Grunil Gloves of Iron Wall</name>
+			<icon>00010935.png</icon>
+			<desc>Iron Wall energy is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Iron Wall, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Grunil Armor of Iron Wall</name>
+			<icon>00010934.png</icon>
+			<desc>Iron Wall energy is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Iron Wall, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Grunil Helmet of Iron Wall</name>
+			<icon>00010933.png</icon>
+			<desc>Iron Wall energy is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Iron Wall, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Grunil Shoes</name>
+			<icon>00010936.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Grunil Gloves</name>
+			<icon>00010935.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>13207</id>
+			<name>Seleth Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>13206</id>
+			<name>Demihuman Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>13205</id>
+			<name>Azwell Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10962</id>
+			<name>Ultimate Grunil Armor</name>
+			<icon>00010934.png</icon>
+			<desc>Grunil Armor developed to its maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Iron Wall, Grunil Armor of Agility, Grunil Armor of Intimidation, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10961</id>
+			<name>Ultimate Grunil Helmet</name>
+			<icon>00010933.png</icon>
+			<desc>A Grunil Helmet developed to its maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Iron Wall, Grunil Helmet of Agility, Grunil Helmet of Intimidation, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Grunil Gloves of Agility</name>
+			<icon>00010935.png</icon>
+			<desc>The energy of Agility is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Agility, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Grunil Armor of Agility</name>
+			<icon>00010934.png</icon>
+			<desc>The energy of Agility is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Agility, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Grunil Helmet of Agility</name>
+			<icon>00010933.png</icon>
+			<desc>The energy of Agility is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Agility, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Grunil Shoes of Iron Wall</name>
+			<icon>00010936.png</icon>
+			<desc>Iron Wall energy is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Iron Wall, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Ultimate Grunil Shoes</name>
+			<icon>00010936.png</icon>
+			<desc>Grunil Shoes developed to their maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Iron Wall, Grunil Shoes of Agility, Grunil Shoes of Intimidation, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10963</id>
+			<name>Ultimate Grunil Gloves</name>
+			<icon>00010935.png</icon>
+			<desc>Grunil Gloves developed to their maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Iron Wall, Grunil Gloves of Agility, Grunil Gloves of Intimidation, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>13214</id>
+			<name>Yuria Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>13213</id>
+			<name>Bares Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>13237</id>
+			<name>Bares Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Shortsword.\nIt can be developed by Refining a common Bares Shortsword.\n\n- Repair to Max. Durability: Bares Shortsword of Destruction, Bares Shortsword</desc>
+		</item>
+		<item>
+			<id>13236</id>
+			<name>Bares Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Shortsword.\nIt can be developed by Refining a common Bares Shortsword.\n\n- Repair to Max. Durability: Bares Shortsword of Crimson Flame, Bares Shortsword</desc>
+		</item>
+		<item>
+			<id>13235</id>
+			<name>Ultimate Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Kalis Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Crimson Flame, Kalis Shortsword of Destruction, Kalis Shortsword of Temptation, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Kalis Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Temptation, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Destruction, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Crimson Flame, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13243</id>
+			<name>Ultimate Yuria Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Yuria Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Crimson Flame, Yuria Shortsword of Destruction, Yuria Shortsword of Temptation, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13242</id>
+			<name>Yuria Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Temptation, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13241</id>
+			<name>Yuria Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Destruction, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13240</id>
+			<name>Yuria Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Crimson Flame, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13239</id>
+			<name>Ultimate Bares Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Bares Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Shortsword.\n\n- Repair to Max. Durability: Bares Shortsword of Crimson Flame, Bares Shortsword of Destruction, Bares Shortsword of Temptation, Bares Shortsword</desc>
+		</item>
+		<item>
+			<id>13238</id>
+			<name>Bares Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Shortsword.\nIt can be developed by Refining a common Bares Shortsword.\n\n- Repair to Max. Durability: Bares Shortsword of Temptation, Bares Shortsword</desc>
+		</item>
+		<item>
+			<id>13223</id>
+			<name>Ultimate Azwell Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>An Azwell Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Azwell Shortsword.\n\n- Repair to Max. Durability: Azwell Shortsword of Crimson Flame, Azwell Shortsword of Destruction, Azwell Shortsword of Temptation, Azwell Shortsword</desc>
+		</item>
+		<item>
+			<id>13222</id>
+			<name>Azwell Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Shortsword.\nIt can be developed by Refining a common Azwell Shortsword.\n\n- Repair to Max. Durability: Azwell Shortsword of Temptation, Azwell Shortsword</desc>
+		</item>
+		<item>
+			<id>13221</id>
+			<name>Azwell Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Shortsword.\nIt can be developed by Refining a common Azwell Shortsword.\n\n- Repair to Max. Durability: Azwell Shortsword of Destruction, Azwell Shortsword</desc>
+		</item>
+		<item>
+			<id>13220</id>
+			<name>Azwell Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Shortsword.\nIt can be developed by Refining a common Azwell Shortsword.\n\n- Repair to Max. Durability: Azwell Shortsword of Crimson Flame, Azwell Shortsword</desc>
+		</item>
+		<item>
+			<id>13229</id>
+			<name>Seleth Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Destruction, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13228</id>
+			<name>Seleth Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Crimson Flame, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13227</id>
+			<name>Ultimate Demihuman Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Demihuman Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Crimson Flame, Demihuman Shortsword of Destruction, Demihuman Shortsword of Temptation, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13226</id>
+			<name>Demihuman Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Temptation, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13225</id>
+			<name>Demihuman Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Destruction, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13224</id>
+			<name>Demihuman Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Crimson Flame, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Grunil Shoes of Intimidation</name>
+			<icon>00010936.png</icon>
+			<desc>The energy of Intimidation is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Intimidation, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Grunil Gloves of Intimidation</name>
+			<icon>00010935.png</icon>
+			<desc>The energy of Intimidation is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Intimidation, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Grunil Armor of Intimidation</name>
+			<icon>00010934.png</icon>
+			<desc>The energy of Intimidation is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Intimidation, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Grunil Helmet of Intimidation</name>
+			<icon>00010933.png</icon>
+			<desc>The energy of Intimidation is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Intimidation, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Grunil Shoes of Agility</name>
+			<icon>00010936.png</icon>
+			<desc>The energy of Agility is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Agility, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10460</id>
+			<name>Krea Amulet of Temptation</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Temptation, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10459</id>
+			<name>Krea Amulet of Destruction</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Destruction, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10458</id>
+			<name>Krea Amulet of Crimson Flame</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Crimson Flame, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10456</id>
+			<name>Krea Amulet</name>
+			<icon>00010456.png</icon>
+			<desc>An amulet crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13231</id>
+			<name>Ultimate Seleth Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Seleth Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Crimson Flame, Seleth Shortsword of Destruction, Seleth Shortsword of Temptation, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13230</id>
+			<name>Seleth Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Temptation, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13256</id>
+			<name>Krea Shortsword</name>
+			<icon>00013256.png</icon>
+			<desc>A Shortsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13263</id>
+			<name>Ultimate Krea Shortsword</name>
+			<icon>00013256.png</icon>
+			<desc>A Krea Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Crimson Flame, Krea Shortsword of Destruction, Krea Shortsword of Temptation, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13260</id>
+			<name>Krea Shortsword of Temptation</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Temptation, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13259</id>
+			<name>Krea Shortsword of Destruction</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Destruction, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13258</id>
+			<name>Krea Shortsword of Crimson Flame</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Crimson Flame, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>10303</id>
+			<name>Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A dagger cast in bronze.</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea Dagger of Temptation</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Temptation, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea Dagger of Destruction</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Destruction, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea Dagger of Crimson Flame</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Crimson Flame, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A dagger crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10308</id>
+			<name>Bronze Dagger of Temptation</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Temptation is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Temptation, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Bronze Dagger of Destruction</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Destruction is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Destruction, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Bronze Dagger of Crimson Flame</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Crimson Flame, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10305</id>
+			<name>Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A dagger made for parrying attacks.</desc>
+		</item>
+		<item>
+			<id>10304</id>
+			<name>Steel Dagger</name>
+			<icon>00010304.png</icon>
+			<desc>A sharp dagger made of steel.</desc>
+		</item>
+		<item>
+			<id>10331</id>
+			<name>Ultimate Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A Krea Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Dagger of Crimson Flame, Krea Dagger of Destruction, Krea Dagger of Temptation, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parrying Dagger of Crimson Flame</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Crimson Flame, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10313</id>
+			<name>Ultimate Steel Dagger</name>
+			<icon>00010304.png</icon>
+			<desc>A Steel Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Steel Dagger of Crimson Flame, Steel Dagger of Destruction, Steel Dagger of Temptation, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Steel Dagger of Temptation</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Temptation is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Temptation, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Steel Dagger of Destruction</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Destruction is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Destruction, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Steel Dagger of Crimson Flame</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Crimson Flame, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10309</id>
+			<name>Ultimate Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A Bronze Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Bronze Dagger of Crimson Flame, Bronze Dagger of Destruction, Bronze Dagger of Temptation, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Ultimate Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A Parrying Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Parrying Dagger of Crimson Flame, Parrying Dagger of Destruction, Parrying Dagger of Temptation, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parrying Dagger of Temptation</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Temptation is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Temptation, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parrying Dagger of Destruction</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Destruction is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Destruction, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10428</id>
+			<name>Seleth Amulet of Crimson Flame</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Crimson Flame, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10431</id>
+			<name>Ultimate Seleth Amulet</name>
+			<icon>00010407.png</icon>
+			<desc>A Seleth Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Crimson Flame, Seleth Amulet of Destruction, Seleth Amulet of Temptation, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10430</id>
+			<name>Seleth Amulet of Temptation</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Temptation, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10429</id>
+			<name>Seleth Amulet of Destruction</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Destruction, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Kalis Axe of Crimson Flame</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Crimson Flame, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10631</id>
+			<name>Ultimate Seleth Axe</name>
+			<icon>00010607.png</icon>
+			<desc>A Seleth Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Crimson Flame, Seleth Axe of Destruction, Seleth Axe of Temptation, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10630</id>
+			<name>Seleth Axe of Temptation</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Temptation, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10629</id>
+			<name>Seleth Axe of Destruction</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Destruction, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10628</id>
+			<name>Seleth Axe of Crimson Flame</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Crimson Flame, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10627</id>
+			<name>Ultimate Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>A Demihuman Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Crimson Flame, Demihuman Axe of Destruction, Demihuman Axe of Temptation, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10407</id>
+			<name>Seleth Amulet</name>
+			<icon>00010407.png</icon>
+			<desc>An amulet possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10463</id>
+			<name>Ultimate Krea Amulet</name>
+			<icon>00010456.png</icon>
+			<desc>A Krea Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Crimson Flame, Krea Amulet of Destruction, Krea Amulet of Temptation, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Zereth Shoe of Agility</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of agility is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Agility, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10872</id>
+			<name>Ultimate Zereth Shoes</name>
+			<icon>00010820.png</icon>
+			<desc>Zereth Shoes with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10871</id>
+			<name>Ultimate Zereth Gloves</name>
+			<icon>00010819.png</icon>
+			<desc>Zereth Gloves with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>10870</id>
+			<name>Ultimate Zereth Armor</name>
+			<icon>00010818.png</icon>
+			<desc>Zereth Armor with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10869</id>
+			<name>Ultimate Zereth Helmet</name>
+			<icon>00010817.png</icon>
+			<desc>Zereth Helmet with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Zereth Shoes of Intimidation</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Duress, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Zereth Gloves of Intimidation</name>
+			<icon>00010819.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Gloves of Duress, Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>10866</id>
+			<name>Zereth Armor of Intimidation</name>
+			<icon>00010818.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Armor of Duress, Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10865</id>
+			<name>Zereth Helmet of Intimidation</name>
+			<icon>00010817.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Helmet of Duress, Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10007</id>
+			<name>Seleth Longsword</name>
+			<icon>00010007.png</icon>
+			<desc>A longsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10006</id>
+			<name>Demihuman Longsword</name>
+			<icon>00010006.png</icon>
+			<desc>A longsword made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10005</id>
+			<name>Azwell Longsword</name>
+			<icon>00010005.png</icon>
+			<desc>A longsword custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Kalis Longsword of Destruction</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Destruction, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Kalis Longsword of Crimson Flame</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Crimson Flame, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10014</id>
+			<name>Yuria Longsword</name>
+			<icon>00010014.png</icon>
+			<desc>A longsword possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10013</id>
+			<name>Bares Longsword</name>
+			<icon>00010013.png</icon>
+			<desc>A longsword possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A longsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10039</id>
+			<name>Ultimate Bares Longsword</name>
+			<icon>00010013.png</icon>
+			<desc>A Bares Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Longsword.\n\n- Repair to Max. Durability: Bares Longsword of Crimson Flame, Bares Longsword of Destruction, Bares Longsword of Temptation, Bares Longsword</desc>
+		</item>
+		<item>
+			<id>10038</id>
+			<name>Bares Longsword of Temptation</name>
+			<icon>00010013.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Longsword.\nIt can be developed by Refining a common Bares Longsword.\n\n- Repair to Max. Durability: Bares Longsword of Temptation, Bares Longsword</desc>
+		</item>
+		<item>
+			<id>10037</id>
+			<name>Bares Longsword of Destruction</name>
+			<icon>00010013.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Longsword.\nIt can be developed by Refining a common Bares Longsword.\n\n- Repair to Max. Durability: Bares Longsword of Destruction, Bares Longsword</desc>
+		</item>
+		<item>
+			<id>10036</id>
+			<name>Bares Longsword of Crimson Flame</name>
+			<icon>00010013.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Longsword.\nIt can be developed by Refining a common Bares Longsword.\n\n- Repair to Max. Durability: Bares Longsword of Crimson Flame, Bares Longsword</desc>
+		</item>
+		<item>
+			<id>10035</id>
+			<name>Ultimate Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A Kalis Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Crimson Flame, Kalis Longsword of Destruction, Kalis Longsword of Temptation, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Kalis Longsword of Temptation</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Temptation, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10043</id>
+			<name>Ultimate Yuria Longsword</name>
+			<icon>00010014.png</icon>
+			<desc>A Yuria Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Crimson Flame, Yuria Longsword of Destruction, Yuria Longsword of Temptation, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10042</id>
+			<name>Yuria Longsword of Temptation</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Temptation, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10041</id>
+			<name>Yuria Longsword of Destruction</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Destruction, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10040</id>
+			<name>Yuria Longsword of Crimson Flame</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Crimson Flame, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10862</id>
+			<name>Zereth Armor of Agility</name>
+			<icon>00010818.png</icon>
+			<desc>Energy of agility is contained within this Zereth Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Armor of Agility, Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10861</id>
+			<name>Zereth Helmet of Agility</name>
+			<icon>00010817.png</icon>
+			<desc>Energy of agility is contained within this Zereth Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Helmet of Agility, Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Zereth Shoes of Iron Wall</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Iron wall, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Zereth Gloves of Iron Wall</name>
+			<icon>00010819.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Gloves of Iron wall, Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>10858</id>
+			<name>Zereth Armor of Iron Wall</name>
+			<icon>00010818.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Armor of Iron wall, Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10857</id>
+			<name>Zereth Helmet of Iron Wall</name>
+			<icon>00010817.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Helmet of Iron wall, Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10863</id>
+			<name>Zereth Gloves of Agility</name>
+			<icon>00010819.png</icon>
+			<desc>Energy of agility is contained within this Zereth Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Gloves of Agility, Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>10025</id>
+			<name>Demihuman Longsword of Destruction</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Destruction, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10024</id>
+			<name>Demihuman Longsword of Crimson Flame</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Crimson Flame, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10023</id>
+			<name>Ultimate Azwell Longsword</name>
+			<icon>00010005.png</icon>
+			<desc>An Azwell Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Azwell Longsword.\n\n- Repair to Max. Durability: Azwell Longsword of Crimson Flame, Azwell Longsword of Destruction, Azwell Longsword of Temptation, Azwell Longsword</desc>
+		</item>
+		<item>
+			<id>10022</id>
+			<name>Azwell Longsword of Temptation</name>
+			<icon>00010005.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Longsword.\nIt can be developed by Refining a common Azwell Longsword.\n\n- Repair to Max. Durability: Azwell Longsword of Temptation, Azwell Longsword</desc>
+		</item>
+		<item>
+			<id>10021</id>
+			<name>Azwell Longsword of Destruction</name>
+			<icon>00010005.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Longsword.\nIt can be developed by Refining a common Azwell Longsword.\n\n- Repair to Max. Durability: Azwell Longsword of Destruction, Azwell Longsword</desc>
+		</item>
+		<item>
+			<id>10020</id>
+			<name>Azwell Longsword of Crimson Flame</name>
+			<icon>00010005.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Longsword.\nIt can be developed by Refining a common Azwell Longsword.\n\n- Repair to Max. Durability: Azwell Longsword of Crimson Flame, Azwell Longsword</desc>
+		</item>
+		<item>
+			<id>6168</id>
+			<name>Supreme Tough Hide</name>
+			<icon>00006168.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking Fine Tough Hide and Leather Glaze, an ingredient made through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>10031</id>
+			<name>Ultimate Seleth Longsword</name>
+			<icon>00010007.png</icon>
+			<desc>A Seleth Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Crimson Flame, Seleth Longsword of Destruction, Seleth Longsword of Temptation, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10030</id>
+			<name>Seleth Longsword of Temptation</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Temptation, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10029</id>
+			<name>Seleth Longsword of Destruction</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Destruction, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10028</id>
+			<name>Seleth Longsword of Crimson Flame</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Crimson Flame, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10027</id>
+			<name>Ultimate Demihuman Longsword</name>
+			<icon>00010006.png</icon>
+			<desc>A Demihuman Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Crimson Flame, Demihuman Longsword of Destruction, Demihuman Longsword of Temptation, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10026</id>
+			<name>Demihuman Longsword of Temptation</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Temptation, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10058</id>
+			<name>Krea Longsword of Crimson Flame</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Crimson Flame, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10056</id>
+			<name>Krea Longsword</name>
+			<icon>00010056.png</icon>
+			<desc>A longsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10063</id>
+			<name>Ultimate Krea Longsword</name>
+			<icon>00010056.png</icon>
+			<desc>A Krea Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Crimson Flame, Krea Longsword of Destruction, Krea Longsword of Temptation, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10060</id>
+			<name>Krea Longsword of Temptation</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Temptation, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10059</id>
+			<name>Krea Longsword of Destruction</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Destruction, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10207</id>
+			<name>Seleth Longbow</name>
+			<icon>00010207.png</icon>
+			<desc>A longbow possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Demihuman Longbow</name>
+			<icon>00010206.png</icon>
+			<desc>A longbow made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10205</id>
+			<name>Azwell Longbow</name>
+			<icon>00010205.png</icon>
+			<desc>A longbow custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Seleth Longbow of Destruction</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Destruction, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Seleth Longbow of Crimson Flame</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Crimson Flame, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10227</id>
+			<name>Ultimate Demihuman Longbow</name>
+			<icon>00010206.png</icon>
+			<desc>A Demihuman Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow of Destruction, Demihuman Longbow of Temptation, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Demihuman Longbow of Temptation</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Temptation, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Demihuman Longbow of Destruction</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Destruction, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Demihuman Longbow of Crimson Flame</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Ultimate Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A Kalis Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow of Destruction, Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis Longbow of Temptation</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis Longbow of Destruction</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Destruction, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis Longbow of Crimson Flame</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10231</id>
+			<name>Ultimate Seleth Longbow</name>
+			<icon>00010207.png</icon>
+			<desc>A Seleth Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Crimson Flame, Seleth Longbow of Destruction, Seleth Longbow of Temptation, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Seleth Longbow of Temptation</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Temptation, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10239</id>
+			<name>Ultimate Bares Longbow</name>
+			<icon>00010213.png</icon>
+			<desc>A Bares Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow of Destruction, Bares Longbow of Temptation, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10238</id>
+			<name>Bares Longbow of Temptation</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Temptation, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Bares Longbow of Destruction</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Destruction, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Bares Longbow of Crimson Flame</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Yuria Longbow</name>
+			<icon>00010214.png</icon>
+			<desc>A longbow possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Bares Longbow</name>
+			<icon>00010213.png</icon>
+			<desc>A longbow possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A longbow capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10222</id>
+			<name>Azwell Longbow of Temptation</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Temptation, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10221</id>
+			<name>Azwell Longbow of Destruction</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Destruction, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10220</id>
+			<name>Azwell Longbow of Crimson Flame</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Crimson Flame, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10223</id>
+			<name>Ultimate Azwell Longbow</name>
+			<icon>00010205.png</icon>
+			<desc>An Azwell Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Crimson Flame, Azwell Longbow of Destruction, Azwell Longbow of Temptation, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10613</id>
+			<name>Bares Axe</name>
+			<icon>00010613.png</icon>
+			<desc>An axe possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>An axe capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10614</id>
+			<name>Yuria Axe</name>
+			<icon>00010614.png</icon>
+			<desc>An axe possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10623</id>
+			<name>Ultimate Azwell Axe</name>
+			<icon>00010605.png</icon>
+			<desc>An Azwell Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Azwell Axe.\n\n- Repair to Max. Durability: Azwell Axe of Crimson Flame, Azwell Axe of Destruction, Azwell Axe of Temptation, Azwell Axe</desc>
+		</item>
+		<item>
+			<id>10622</id>
+			<name>Azwell Axe of Temptation</name>
+			<icon>00010605.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Axe.\nIt can be developed by Refining a common Azwell Axe.\n\n- Repair to Max. Durability: Azwell Axe of Temptation, Azwell Axe</desc>
+		</item>
+		<item>
+			<id>10621</id>
+			<name>Azwell Axe of Destruction</name>
+			<icon>00010605.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Axe.\nIt can be developed by Refining a common Azwell Axe.\n\n- Repair to Max. Durability: Azwell Axe of Destruction, Azwell Axe</desc>
+		</item>
+		<item>
+			<id>10620</id>
+			<name>Azwell Axe of Crimson Flame</name>
+			<icon>00010605.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Axe.\nIt can be developed by Refining a common Azwell Axe.\n\n- Repair to Max. Durability: Azwell Axe of Crimson Flame, Azwell Axe</desc>
+		</item>
+		<item>
+			<id>10640</id>
+			<name>Yuria Axe of Crimson Flame</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Crimson Flame, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10607</id>
+			<name>Seleth Axe</name>
+			<icon>00010607.png</icon>
+			<desc>An axe possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10606</id>
+			<name>Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>An axe made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10605</id>
+			<name>Azwell Axe</name>
+			<icon>00010605.png</icon>
+			<desc>An axe custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10643</id>
+			<name>Ultimate Yuria Axe</name>
+			<icon>00010614.png</icon>
+			<desc>A Yuria Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Crimson Flame, Yuria Axe of Destruction, Yuria Axe of Temptation, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10642</id>
+			<name>Yuria Axe of Temptation</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Temptation, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10641</id>
+			<name>Yuria Axe of Destruction</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Destruction, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10626</id>
+			<name>Demihuman Axe of Temptation</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Temptation, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10625</id>
+			<name>Demihuman Axe of Destruction</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Destruction, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10624</id>
+			<name>Demihuman Axe of Crimson Flame</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Crimson Flame, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10638</id>
+			<name>Bares Axe of Temptation</name>
+			<icon>00010613.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Axe.\nIt can be developed by Refining a common Bares Axe.\n\n- Repair to Max. Durability: Bares Axe of Temptation, Bares Axe</desc>
+		</item>
+		<item>
+			<id>10637</id>
+			<name>Bares Axe of Destruction</name>
+			<icon>00010613.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Axe.\nIt can be developed by Refining a common Bares Axe.\n\n- Repair to Max. Durability: Bares Axe of Destruction, Bares Axe</desc>
+		</item>
+		<item>
+			<id>10636</id>
+			<name>Bares Axe of Crimson Flame</name>
+			<icon>00010613.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Axe.\nIt can be developed by Refining a common Bares Axe.\n\n- Repair to Max. Durability: Bares Axe of Crimson Flame, Bares Axe</desc>
+		</item>
+		<item>
+			<id>10635</id>
+			<name>Ultimate Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>A Kalis Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Crimson Flame, Kalis Axe of Destruction, Kalis Axe of Temptation, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Kalis Axe of Temptation</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Temptation, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Kalis Axe of Destruction</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Destruction, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10659</id>
+			<name>Krea Axe of Destruction</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Destruction, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10658</id>
+			<name>Krea Axe of Crimson Flame</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Crimson Flame, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10656</id>
+			<name>Krea Axe</name>
+			<icon>00010656.png</icon>
+			<desc>An axe crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10639</id>
+			<name>Ultimate Bares Axe</name>
+			<icon>00010613.png</icon>
+			<desc>A Bares Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Axe.\n\n- Repair to Max. Durability: Bares Axe of Crimson Flame, Bares Axe of Destruction, Bares Axe of Temptation, Bares Axe</desc>
+		</item>
+		<item>
+			<id>10663</id>
+			<name>Ultimate Krea Axe</name>
+			<icon>00010656.png</icon>
+			<desc>A Krea Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Crimson Flame, Krea Axe of Destruction, Krea Axe of Temptation, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10660</id>
+			<name>Krea Axe of Temptation</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Temptation, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Krea Longbow of Crimson Flame</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Crimson Flame, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A longbow crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10263</id>
+			<name>Ultimate Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A Krea Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Crimson Flame, Krea Longbow of Destruction, Krea Longbow of Temptation, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Krea Longbow of Temptation</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Temptation, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Krea Longbow of Destruction</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Destruction, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10243</id>
+			<name>Ultimate Yuria Longbow</name>
+			<icon>00010214.png</icon>
+			<desc>A Yuria Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Crimson Flame, Yuria Longbow of Destruction, Yuria Longbow of Temptation, Longbow Temptation</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Yuria Longbow of Temptation</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Temptation, Yuria Longbow</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Yuria Longbow of Destruction</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Destruction, Yuria Longbow</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Yuria Longbow of Crimson Flame</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Crimson Flame, Yuria Longbow</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

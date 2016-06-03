@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>51007</itemKey>
+	<itemName>Wagon Registration: Merchant Wagon</itemName>
+	<itemIcon>00051007.png</itemIcon>
+	<itemDesc>Proof of ownership of a &lt;Merchant Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 18, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</itemDesc>
+	<house type="14">
+		<item>
+			<id>53901</id>
+			<name>Wagon Horse</name>
+			<icon>00053901.png</icon>
+			<desc>The horse for pulling a wagon. It’s essential for Crafting a wagon.\n\n- Usage: Wagon Crafting</desc>
+		</item>
+		<item>
+			<id>4681</id>
+			<name>Acacia Plywood</name>
+			<icon>00004681.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Acacia Timber. It requires the knowledge of Chopping: Beginner.\n\n※ Find Lebyos in Heidel and complete the Working the Ash Tree Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4066</id>
+			<name>Brass Ingot</name>
+			<icon>00004066.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper and Zinc together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6151</id>
+			<name>Soft Hide</name>
+			<icon>00006151.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+</itemInfo>
+

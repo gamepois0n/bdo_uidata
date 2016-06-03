@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7002</itemKey>
+	<itemName>Gerste</itemName>
+	<itemIcon>00007002.png</itemIcon>
+	<itemDesc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden beim Nördlichen Getreidehof. Kann ebenfalls durch Anbau von Gerstensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Gerste</name>
+		</character>
+	</collect>
+	<node region="Nördliche Getreideplantage – Gerstenanbau"/>
+	<makelist>
+		<item>
+			<id>7424</id>
+			<name>Gerstenkiste</name>
+			<icon>00007424.png</icon>
+			<desc>Feldfrüchte, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>7102</id>
+			<name>Gerstenmehl</name>
+			<icon>00007102.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Gerste gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Anorganischer Dünger</name>
+			<icon>00016901.png</icon>
+			<desc>Wird verwendet, um die Wachstumsrate von Feldfrüchten in der Nähe zu steigern. Wenn Ihr Dünger vor dem Anpflanzen verwendet, reduziert das die Zeit, die eine Feldfrucht zum Heranwachsen benötigt.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Konzentrierter Feldsaft</name>
+			<icon>00000567.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Feldsaft</name>
+			<icon>00000566.png</icon>
+			<desc>Stellt bei Verwendung sofort +75 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

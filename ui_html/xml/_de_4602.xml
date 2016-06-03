@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4602</itemKey>
+	<itemName>Ahornholz</itemName>
+	<itemIcon>00004602.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Wald der Abgeschiedenheit, in den Schlossruinen, dem Blutkloster, der Nördlichen Ebene von Serendia und im Nördlichen Hochland von Mediah hergestellt werden. Kann außerdem durch Fällen von Ahornbäumen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Ahorn</name>
+		</character>
+	</collect>
+	<node region="Wald der Abgeschiedenheit – Holzfällen"/>
+	<node region="Schlossruinen – Holzfällen"/>
+	<node region="Blutkloster – Holzfällen"/>
+	<node region="Nördliche Ebene von Serendia – Holzfällen"/>
+	<node region="Nördliches Hochland von Mediah – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>14439</id>
+			<name>Ultimativer Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab der Zerstörung, Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Baris-Stab der Versuchung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>53404</id>
+			<name>Rad für Hofwagen</name>
+			<icon>00053404.png</icon>
+			<desc>Ein Rad für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53402</id>
+			<name>Rad für Robusten Wagen</name>
+			<icon>00053402.png</icon>
+			<desc>Ein Rad für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53604</id>
+			<name>Flagge für Hofwagen</name>
+			<icon>00053604.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53602</id>
+			<name>Flagge für Robusten Wagen</name>
+			<icon>00053602.png</icon>
+			<desc>Eine Flagge für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16168</id>
+			<name>Ahornholzfloß</name>
+			<icon>00016168.png</icon>
+			<desc>Ein aus Ahornholz gefertigtes Floß. Für den Fang seltener Fische geeignet.\n\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55831</id>
+			<name>Ahornholzkiste</name>
+			<icon>00055831.png</icon>
+			<desc>Handelsware, die 10 Ahornholz enthält.</desc>
+		</item>
+		<item>
+			<id>16108</id>
+			<name>Glänzende Stahlholzfälleraxt</name>
+			<icon>00016108.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16107</id>
+			<name>Stahlholzfälleraxt</name>
+			<icon>00016107.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16127</id>
+			<name>Stahlspitzhacke</name>
+			<icon>00016127.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Erz aus Gestein gewonnen wird.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16124</id>
+			<name>Glänzendes Stahlgerbermesser</name>
+			<icon>00016124.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16123</id>
+			<name>Stahlgerbermesser</name>
+			<icon>00016123.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16120</id>
+			<name>Glänzendes Stahlschlachtermesser</name>
+			<icon>00016120.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16119</id>
+			<name>Stahlschlachtermesser</name>
+			<icon>00016119.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16116</id>
+			<name>Glänzende Stahlhacke</name>
+			<icon>00016116.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16115</id>
+			<name>Stahlhacke</name>
+			<icon>00016115.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16128</id>
+			<name>Glänzende Stahlspitzhacke</name>
+			<icon>00016128.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Erz aus Gestein gewonnen wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedeter Stab.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein Stab, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Baris-Stab der Zerstörung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Zerstörung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Baris-Stab der Purpurnen Flamme</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Ultimativer Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab der Zerstörung, Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis-Stab der Versuchung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis-Stab der Zerstörung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Zerstörung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis-Zauberstab der Purpurnen Flamme</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Halbmenschen-Langbogen</name>
+			<icon>00010206.png</icon>
+			<desc>Ein Langbogen zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10227</id>
+			<name>Ultimativer Halbmenschen-Langbogen</name>
+			<icon>00010206.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Purpurnen Flamme, Halbmenschen-Langbogen der Zerstörung, Halbmenschen-Langbogen der Versuchung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Halbmenschen-Langbogen der Versuchung</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Versuchung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Halbmenschen-Langbogen der Zerstörung</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Zerstörung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Halbmenschen-Langbogen der Purpurnen Flamme</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Purpurnen Flamme, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>4655</id>
+			<name>Ahornschichtholz</name>
+			<icon>00004655.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>16808</id>
+			<name>Glückbringende glänzende Stahlholzfälleraxt</name>
+			<icon>00016808.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16807</id>
+			<name>Glückbringende Stahlholzfälleraxt</name>
+			<icon>00016807.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16828</id>
+			<name>Glückbringende glänzende Stahlspitzhacke</name>
+			<icon>00016828.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem aus Gestein Erz gewonnen wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16827</id>
+			<name>Glückbringende Stahlspitzhacke</name>
+			<icon>00016827.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem aus Gestein Erz gewonnen wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16824</id>
+			<name>Glückbringendes glänzendes Stahlgerbermesser</name>
+			<icon>00016824.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16823</id>
+			<name>Glückbringendes Stahlgerbermesser</name>
+			<icon>00016823.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16820</id>
+			<name>Glückbringendes glänzendes Stahlschlachtermesser</name>
+			<icon>00016820.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16819</id>
+			<name>Glückbringende Stahlschlachtermesser</name>
+			<icon>00016819.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16816</id>
+			<name>Glückbringende glänzende Stahlhacke</name>
+			<icon>00016816.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16815</id>
+			<name>Glückbringende Stahlhacke</name>
+			<icon>00016815.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>2302</id>
+			<name>Handgemachter Stuhl aus Heidel</name>
+			<icon>InHouse_B_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>4654</id>
+			<name>Ahornbrett</name>
+			<icon>00004654.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4605</itemKey>
+	<itemName>Holzscheit</itemName>
+	<itemIcon>00004605.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Fällen von Bäumen aus allen Regionen gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Ahorn</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Akazie</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birke</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Esche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pinie</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tanne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Weißzeder</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zeder</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>16150</id>
+			<name>Alte Angelrute</name>
+			<icon>00016150.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem an einem Fluss oder am Meer Fische gefangen werden.</desc>
+		</item>
+		<item>
+			<id>16911</id>
+			<name>Wasserweg</name>
+			<icon>00016911.png</icon>
+			<desc>Wenn Ihr in einem Garten einen Wasserweg installiert, vermindert das den Verbrauch des Wasservorrats.\n(Rechtsklickt, um den nächsten Ort anzuzeigen, an dem Ihr Zäune erhalten könnt.)</desc>
+		</item>
+		<item>
+			<id>16910</id>
+			<name>Vogelscheuche</name>
+			<icon>00016910.png</icon>
+			<desc>Wenn Ihr in einem Garten eine Vogelscheuche aufstellt, vermindert das die Vogelangriffe.\n(Rechtsklickt, um den nächsten Ort anzuzeigen, an dem Ihr Zäune erhalten könnt.)</desc>
+		</item>
+		<item>
+			<id>2302</id>
+			<name>Handgemachter Stuhl aus Heidel</name>
+			<icon>InHouse_B_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Handgemachter Esstisch aus Calpheon</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2204</id>
+			<name>Handgemachter Esstisch aus Velia</name>
+			<icon>InHouse_D_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2202</id>
+			<name>Handgemachter Esstisch aus Heidel</name>
+			<icon>InHouse_B_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2014</id>
+			<name>Handgemachter hochwertiger Nachttisch aus Velia</name>
+			<icon>InHouse_D_DFF_Chest_01.png</icon>
+			<desc>Ein hochwertiger, handgemachter Nachttisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2012</id>
+			<name>Handgemachter hochwertiger Nachttisch aus Heidel</name>
+			<icon>InHouse_B_DFF_Chest_01.png</icon>
+			<desc>Ein hochwertiger, handgemachter Nachttisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Handgemachte Kommode aus Calpheon</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2004</id>
+			<name>Handgemachte hochwertige Kommode aus Velia</name>
+			<icon>InHouse_D_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2002</id>
+			<name>Handgemachte hochwertige Kommode aus Heidel</name>
+			<icon>InHouse_B_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Handgemachter Kleiderschrank aus Calpheon</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2104</id>
+			<name>Handgemachter Kleiderschrank aus Velia</name>
+			<icon>InHouse_D_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2102</id>
+			<name>Handgemachter Kleiderschrank aus Heidel</name>
+			<icon>InHouse_B_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Handgemachter Stuhl aus Calpheon</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2304</id>
+			<name>Handgemachter Stuhl aus Velia</name>
+			<icon>InHouse_D_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Handgemachter Schrank aus Calpheon</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>Ein handgemachter Nachttisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>3718</id>
+			<name>Kochnische für Laien</name>
+			<icon>Crafting_Cooking_02.png</icon>
+			<desc>Ein mittelwertiges Werkzeug, das für das Kochen verwendet wird.\n– Es kann in einem Haus angebracht werden.</desc>
+		</item>
+		<item>
+			<id>3702</id>
+			<name>Alchemietisch für Laien</name>
+			<icon>Crafting_Alchemy_02.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz aufgestellt werden.</desc>
+		</item>
+		<item>
+			<id>4669</id>
+			<name>Nutzbares Kantholz</name>
+			<icon>00004669.png</icon>
+			<desc>Holz, das als Bauholz verwendet wird.\n\n– Gewinnung: Kann durch das Hacken von Holzscheiten eines beliebigen Baums gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>49005</id>
+			<name>Schiffslizenz: Floß</name>
+			<icon>00049005.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz eines 『Floßes 』.\n– Inventarplätze: 4, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

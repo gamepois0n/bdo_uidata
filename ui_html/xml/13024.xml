@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>13024</itemKey>
+	<itemName>Krea Trinket</itemName>
+	<itemIcon>00010724.png</itemIcon>
+	<itemDesc>A trinket crafted to meet the strict requirements of adventurers.</itemDesc>
+	<shop>
+		<character>
+			<name>Tulem</name>
+		</character>
+	</shop>
+	<house type="6">
+		<item>
+			<id>4066</id>
+			<name>Brass Ingot</name>
+			<icon>00004066.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper and Zinc together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4253</id>
+			<name>Pure Silver Crystal</name>
+			<icon>00004253.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Silver Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>5853</id>
+			<name>Silk Thread</name>
+			<icon>00005853.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Silkworm Cocoons.</desc>
+		</item>
+		<item>
+			<id>4803</id>
+			<name>Powder of Crevice</name>
+			<icon>00004803.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>13028</id>
+			<name>Krea Trinket of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Temptation, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea Trinket of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Destruction, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea Trinket of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Crimson Flame, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Ultimate Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A Krea Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Trinket of Crimson Flame, Krea Trinket of Destruction, Krea Trinket of Temptation, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>4253</id>
+			<name>Pure Silver Crystal</name>
+			<icon>00004253.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Silver Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Melted Zinc Shard</name>
+			<icon>00004063.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Zinc Ore.</desc>
+		</item>
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

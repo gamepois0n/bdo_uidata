@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16910</itemKey>
+	<itemName>Épouvantail</itemName>
+	<itemIcon>00016910.png</itemIcon>
+	<itemDesc>Installer un épouvantail dans un jardin réduit la fréquence des attaques d&apos;oiseaux.\n(Effectuez un clic droit pour afficher le marché de barrières le plus proche.)</itemDesc>
+	<house type="7">
+		<item>
+			<id>4605</id>
+			<name>Rondin</name>
+			<icon>00004605.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en débitant des arbres poussant dans chaque région.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

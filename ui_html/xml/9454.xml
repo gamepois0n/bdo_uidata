@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9454</itemKey>
+	<itemName>Sour Pickled Fish</itemName>
+	<itemIcon>00009454.png</itemIcon>
+	<itemDesc>A pickled fish with a sour taste. \n\n- Unique Effect: Amity Gain +5% for 75 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Mudskipper</name>
+			<icon>00008201.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinegar</name>
+			<icon>00009066.png</icon>
+			<desc>A sour liquid made of fermented grains and fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit and Vegetable Salad, Pickled Vegetables, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

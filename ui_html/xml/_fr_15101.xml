@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15101</itemKey>
+	<itemName>Cristal magique d&apos;infinité - Précision</itemName>
+	<itemIcon>00045001.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +2\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15001</id>
+			<name>Cristal magique de la flamme pourpre - Précision</name>
+			<icon>00045001.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>5201</id>
+			<name>Fruit de la flamme pourpre</name>
+			<icon>00005201.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Cristal magique de la flamme pourpre - Précision</name>
+			<icon>00045001.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Fragment de fer fondu</name>
+			<icon>00004051.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de fer.</desc>
+		</item>
+		<item>
+			<id>6203</id>
+			<name>Sang de renard</name>
+			<icon>00006203.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un renard mort.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Cristal magique de la flamme pourpre - Précision</name>
+			<icon>00045001.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

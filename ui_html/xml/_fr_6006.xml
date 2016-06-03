@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6006</itemKey>
+	<itemName>Peau de bœuf</itemName>
+	<itemIcon>00006006.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un cochon tué à la chasse.</itemDesc>
+	<collect>
+		<character>
+			<name>Bison crâneroche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bison queue-de-pierre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bison à poil long</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Jeune bœuf des trolls</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Petit bison crâneroche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Petite salamandre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Vache-troll</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6152</id>
+			<name>Peau résistante</name>
+			<icon>00006152.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en séchant une peau de rhino, de cochon ou de vache.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Peau résistante délicate</name>
+			<icon>00006160.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de rhino, de cochon ou de vache. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

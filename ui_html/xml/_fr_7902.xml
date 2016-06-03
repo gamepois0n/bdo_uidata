@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7902</itemKey>
+	<itemName>Viande d&apos;agneau</itemName>
+	<itemIcon>00007902.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un mouton mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Agneau</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Chèvre de Mediah</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Jeune mouflon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Jeune mouflon de Mediah</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mouflon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mouflon de Serendia</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mouton</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Viande séchée à point</name>
+			<icon>00007919.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

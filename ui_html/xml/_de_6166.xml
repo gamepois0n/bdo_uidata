@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6166</itemKey>
+	<itemName>Feine Schmuckfeder</itemName>
+	<itemIcon>00006166.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Schmuckfedern gewonnen werden. Dies erfordert die Kenntnis Sieben.</itemDesc>
+	<shop>
+		<character>
+			<name>Lavientia Batian</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6018</id>
+			<name>Flamingofeder</name>
+			<icon>00006018.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Flamingokadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6158</id>
+			<name>Schmuckfeder</name>
+			<icon>00006158.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Flamingofedern gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14219</id>
+			<name>[Magier] Adeligen-Anzug aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n- Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Anzug mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie das Perlenkostüm.\nTauscht Ihr ihn in ein Kostüm um, könnt Ihr ihn nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14202</id>
+			<name>[Berserker] Adeligen-Anzug aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Anzug mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr ihn für ein Kostüm um, könnt Ihr ihn nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14201</id>
+			<name>[Krieger] Adeligen-Anzug aus Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Ein Anzug, wie er von calpheonischen Aristokraten getragen wird. Er ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Anzug mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr ihn für ein Kostüm um, könnt Ihr ihn nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>6174</id>
+			<name>Exzellente Schmuckfeder</name>
+			<icon>00006174.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinen ausgefallenen Federn mit durch Alchemie gewonnene Lederversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

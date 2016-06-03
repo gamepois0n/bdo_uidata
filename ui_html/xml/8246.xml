@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8246</itemKey>
+	<itemName>Crawfish</itemName>
+	<itemIcon>00008246.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8546</id>
+			<name>Dried Crawfish</name>
+			<icon>00008546.png</icon>
+			<desc>A dried crawfish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

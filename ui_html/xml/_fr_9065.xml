@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9065</itemKey>
+	<itemName>Lait</itemName>
+	<itemIcon>00009065.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</itemDesc>
+	<makelist>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

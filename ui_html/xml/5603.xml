@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5603</itemKey>
+	<itemName>Herbal Poison</itemName>
+	<itemIcon>00005603.png</itemIcon>
+	<itemDesc>A lethal plant toxin obtained through Alchemy and used as an ingredient.\n- How to Obtain: It can be obtained by refining Insectivore Plant Sap through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5602</id>
+			<name>Insectivore Plant Sap</name>
+			<icon>00005602.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Processing an Insectivore Plant Stalk or an Insectivore Plant Root. It can also be Gathered from Insectivore Plants using Bare Hands or a Hoe. Insectivore Plants require a certain level of skill to collect.</desc>
+		</item>
+		<item>
+			<id>5602</id>
+			<name>Insectivore Plant Sap</name>
+			<icon>00005602.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Processing an Insectivore Plant Stalk or an Insectivore Plant Root. It can also be Gathered from Insectivore Plants using Bare Hands or a Hoe. Insectivore Plants require a certain level of skill to collect.</desc>
+		</item>
+		<item>
+			<id>5419</id>
+			<name>Amanita Mushroom</name>
+			<icon>00005419.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: Amanita Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

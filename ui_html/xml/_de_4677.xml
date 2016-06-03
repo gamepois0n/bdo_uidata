@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4677</itemKey>
+	<itemName>Weißzederschichtholz</itemName>
+	<itemIcon>00004677.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Weißzederholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4608</id>
+			<name>Weißzederholz</name>
+			<icon>00004608.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Nördlichen Hochland von Mediah und im Elricschrein hergestellt werden. Kann außerdem durch Fällen von Weißzedern erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4676</id>
+			<name>Weißzederbrett</name>
+			<icon>00004676.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Weißzederholz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4676</id>
+			<name>Weißzederbrett</name>
+			<icon>00004676.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Weißzederholz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>53503</id>
+			<name>Plane für Weißen Wagen</name>
+			<icon>00053503.png</icon>
+			<desc>Eine Plane für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55841</id>
+			<name>Mediahholzkiste</name>
+			<icon>00055841.png</icon>
+			<desc>Handelsware, die 5 Akazienschichthölzer und 5 Weißzederschichthölzer enthält.</desc>
+		</item>
+		<item>
+			<id>51003</id>
+			<name>Wagenregistrierung: Weißer Wagen</name>
+			<icon>00051003.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Weißen Wagens』.\n– Inventarplätze: 12, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>4678</id>
+			<name>Stabiles Weißzederschichtholz</name>
+			<icon>00004678.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Weißzederschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>2210</id>
+			<name>Handgemachter Tisch aus Mediah</name>
+			<icon>InHouse_H_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2208</id>
+			<name>Handgemachter Esstisch aus Mediah</name>
+			<icon>InHouse_H_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2010</id>
+			<name>Handgemachter Nachttisch aus Mediah</name>
+			<icon>InHouse_H_DFF_Chest_01.png</icon>
+			<desc>Ein handgemachter Nachttisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2008</id>
+			<name>Handgemachte Kommode aus Mediah</name>
+			<icon>InHouse_H_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2108</id>
+			<name>Handgemachter Wandschrank aus Mediah</name>
+			<icon>InHouse_H_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>49004</id>
+			<name>Schiffslizenz: Mediah-Fähre</name>
+			<icon>00049004.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Mediah-Fähre』.\n– Inventarplätze: 8, Beschleunigung: 100 %, Geschwindigkeit: 110 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

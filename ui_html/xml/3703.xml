@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>3703</itemKey>
+	<itemName>Advanced Alchemy Tool</itemName>
+	<itemIcon>Crafting_Alchemy_03.png</itemIcon>
+	<itemDesc>A tool that can reconstruct the substance.\n- It can be installed in a residence.\n- Additional effects applied later</itemDesc>
+	<house type="9">
+		<item>
+			<id>4068</id>
+			<name>Polished Stone</name>
+			<icon>00004068.png</icon>
+			<desc>A Crude Stone used as material for Crafting.\n\n- How to Obtain: It can be obtained by Grinding Rough Stones.</desc>
+		</item>
+		<item>
+			<id>4669</id>
+			<name>Usable Scantling</name>
+			<icon>00004669.png</icon>
+			<desc>Timber required for Construction.\n\n- How to Obtain: It can be also be obtained by Chopping Logs received from trees Lumbered in any region.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Melted Iron Shard</name>
+			<icon>00004051.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Iron Ore.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+</itemInfo>
+

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4058</itemKey>
+	<itemName>Copper Ingot</itemName>
+	<itemIcon>00004058.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Copper Shards. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4003</id>
+			<name>Copper Ore</name>
+			<icon>00004003.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Goblin Cave, Imp Cave, Coastal Cave, Forest of Seclusion, Thermian Cliff, Northern Heidel Quarry, and Mediah Shore. It can be directly obtained from Ore containing Copper.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Melted Copper Shard</name>
+			<icon>00004057.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper Ore.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>16109</id>
+			<name>Fluid Collector</name>
+			<icon>00016109.png</icon>
+			<desc>A Gathering Tool made for extracting animal blood or sap.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16105</id>
+			<name>Lumbering Axe</name>
+			<icon>00016105.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16125</id>
+			<name>Pickaxe</name>
+			<icon>00016125.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16121</id>
+			<name>Tanning Knife</name>
+			<icon>00016121.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16117</id>
+			<name>Butcher Knife</name>
+			<icon>00016117.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16113</id>
+			<name>Hoe</name>
+			<icon>00016113.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16154</id>
+			<name>Thin Harpoon</name>
+			<icon>00016154.png</icon>
+			<desc>A Gathering Tool made for catching deep sea fish. Some fish can only be caught with a harpoon. \n- It requires a Fishing Boat to use.</desc>
+		</item>
+		<item>
+			<id>16147</id>
+			<name>Thick Fishing Rod</name>
+			<icon>00016147.png</icon>
+			<desc>A Gathering Tool made for catching fish in rivers or oceans. The chances of catching good fish are higher than with a regular fishing rod.\n\n- Item Effect: Fishing Speed +1 Level</desc>
+		</item>
+		<item>
+			<id>4059</id>
+			<name>Pure Copper Crystal</name>
+			<icon>00004059.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Copper Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>2809</id>
+			<name>Copper Decorated Beeswax Chandelier (Fluorescent)</name>
+			<icon>InHouse_X_DPC_Chandelier_05_on_light.png</icon>
+			<desc>A fluorescent wax chandelier decorated with copper.</desc>
+		</item>
+		<item>
+			<id>16809</id>
+			<name>Lucky Fluid Collector</name>
+			<icon>00016809.png</icon>
+			<desc>A Gathering Tool made for extracting animal blood or sap. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16805</id>
+			<name>Lucky Lumbering Axe</name>
+			<icon>00016805.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16825</id>
+			<name>Lucky Pickaxe</name>
+			<icon>00016825.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16821</id>
+			<name>Lucky Tanning Knife</name>
+			<icon>00016821.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16817</id>
+			<name>Lucky Butcher Knife</name>
+			<icon>00016817.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16813</id>
+			<name>Lucky Hoe</name>
+			<icon>00016813.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

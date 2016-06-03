@@ -1,0 +1,110 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Mail_Detail" Pos="Right Center" Size="350 550" Pan="500 0" Color="ffffffff" EnableArea="5 3 345 545" Grid="1" GridPosX="0 5 345 350" GridPosY="0 5 545 550" GridUVX="0 5 178 183" GridUVY="0 5 217 222" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="5 3 345 30"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="50 20" Pan="0 5" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="편지 읽기" formatString="MAIL_POPUP_TEXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Title" Pos="Center Top" Size="340 35" Pan="0 60" Color="ffffffff" EnableArea="0 0 340 35" Grid="1" GridPosX="0 13 326 340" GridPosY="0 10 25 35" GridUVX="0 13 242 256" GridUVY="0 10 246 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Subtitle" Pos="Left Top" Size="320 35" Pan="15 60" Color="ffffffff" EnableArea="0 0 320 35">
+			<Attribute Type="Ignore"/>
+			<Text Value="행운의 편지" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Content" Pos="Center Top" Size="340 375" Pan="0 100" Color="ffffffff" EnableArea="0 0 340 375" Grid="1" GridPosX="0 13 326 340" GridPosY="0 52 351 375" GridUVX="0 13 242 256" GridUVY="0 52 232 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Itemicon" Pos="Right Bottom" Size="50 50" Pan="10 25" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="103 176 153 176 103 226 153 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Sender_Title" Pos="Left Top" Size="50 20" Pan="15 35" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="보낸이 :" formatString="MAIL_POPUP_SENDER" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Sender" Pos="Left Top" Size="270 20" Pan="65 35" Color="ffffffff" EnableArea="0 0 270 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="운영팀" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Item_Message" Pos="Left Bottom" Size="50 20" Pan="30 40" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="편지에 동봉된 물품이 있습니다" formatString="MAIL_POPUP_TEXT_MESSAGE" Font="BaseFont_12" Color="ffdcb416" OverColor="ffdcb416" ClickColor="ffdcb416" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Bottom" Size="90 20" Pan="110 5" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 15 20" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="답 장" formatString="MAIL_POPUP_BTN_REPLY" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="31 7" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Delete" Pos="Right Bottom" Size="90 20" Pan="15 5" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 15 20" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="삭 제" formatString="MAIL_POPUP_BTN_DELETE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Receive" Pos="Right Bottom" Size="90 20" Pan="110 5" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 15 20" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="받 기" formatString="PANEL_MAIL_DETAIL_BTN_RECEIVE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="7 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Date" Pos="Left Bottom" Size="50 20" Pan="15 5" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="2013/ 12/ 2 22:20" Font="BaseFont_10" Color="ffbf6464" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Apply" Pos="Right Bottom" Size="90 20" Pan="15 5" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 15 20" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="수 락" formatString="MAIL_POPUP_BTN_APPLY" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_PartLine" Pos="Right Top" Size="350 6" Pan="0 27" Color="ffffffff" EnableArea="0 0 350 6" Grid="1" GridPosX="0 95 255 350" GridPosY="0 0 6 6" GridUVX="0 95 374 469" GridUVY="0 0 6 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Frame" Name="Frame_MailText" Pos="Left Top" Size="322 365" Pan="10 105" Color="ffffffff" EnableArea="0 0 322 365" IgnoreHScroll="true">
+			<Control Type="FrameContent" Name="Frame_Contents" Pos="0 0" Size="322 365" Pan="0 0" Color="ffffffff" EnableArea="0 0 322 365">
+				<Control Type="StaticText" Name="StaticText_Content" Pos="Left Top" Size="322 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 322 60">
+					<Attribute Type="Ignore"/>
+					<Text Value="이 편지는 영국에서 시작되어.." Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_Scroll" Pos="Right 0" Size="10 365" Pan="-15 0" Color="ffffffff" EnableArea="0 0 10 365" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 358 365" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_Scroll_DownButton" Pos="0 365" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Scroll_Bar_CtrlButton" Pos="Center Top" Size="13 250" Pan="-2 0" Color="ffffffff" EnableArea="0 0 13 250" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 238 248" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

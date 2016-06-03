@@ -1,0 +1,86 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GameOption_Key" Pos="Right Top" Size="560 400" Pan="15 130" Color="ffffffff" EnableArea="0 0 560 400">
+		<Control Type="StaticText" Name="StaticText_ControlSetting" Pos="Center Top" Size="560 30" Pan="-3 105" Color="ffffffff" EnableArea="0 0 560 30">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="309 200 323 200 309 214 323 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+			<Text Value="입력버튼 설정" formatString="OPTION_TEXT_KEYSETTING" Font="BaseFont_12" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_KeyboardSet" Pos="Center Top" Size="180 340" Pan="-25 145" Color="ffffffff" EnableArea="0 0 180 340" Grid="1" GridPosX="0 12 163 180" GridPosY="0 13 321 340" GridUVX="0 12 239 256" GridUVY="0 13 237 256">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+			<Text Value="키보드 입력 설정" formatString="OPTION_TEXT_KEYBOARDSET" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GamePadSet" Pos="Right Top" Size="180 340" Pan="55 145" Color="ffffffff" EnableArea="0 0 180 340" Grid="1" GridPosX="0 12 163 180" GridPosY="0 13 321 340" GridUVX="0 12 239 256" GridUVY="0 13 237 256">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+			<Text Value="게임패드 입력 설정" formatString="OPTION_TEXT_GAMEPADSET" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+		</Control>
+		<Control Type="Frame" Name="Frame_KeyConfig" Pos="Right Top" Size="560 310" Pan="42 170" Color="ffffffff" EnableArea="0 0 560 310">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="Center Top" Size="560 600" Pan="0 0" Color="ffffffff" EnableArea="0 0 560 600">
+				<Attribute Type="Ignore"/>
+				<Control Type="StaticText" Name="StaticText_Key_0" Pos="Left Top" Size="130 20" Pan="15 0" Color="ffffffff" EnableArea="0 0 130 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="Func 1" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_Key_1" Pos="Left Top" Size="130 20" Pan="15 25" Color="ffffffff" EnableArea="0 0 130 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="Func 2" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Key_0" Pos="Center Top" Size="150 22" Pan="-20 1" Color="ffffffff" EnableArea="0 0 150 22" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 17 22" GridUVX="0 5 149 154" GridUVY="0 5 27 32" UseDefaultSound="1" Group="3">
+					<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Pad_0" Pos="Right Top" Size="150 22" Pan="29 1" Color="ffffffff" EnableArea="0 0 150 22" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 17 22" GridUVX="0 5 149 154" GridUVY="0 5 27 32" UseDefaultSound="1" Group="3">
+					<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Pad_1" Pos="Right Top" Size="150 22" Pan="29 26" Color="ffffffff" EnableArea="0 0 150 22" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 17 22" GridUVX="0 5 149 154" GridUVY="0 5 27 32" UseDefaultSound="1" Group="3">
+					<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="Right Bottom" Size="20 340" Pan="-23 0" Color="ff333333" EnableArea="0 0 20 340" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 333 340" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_DownButton" Pos="0 340" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_CtrlButton" Pos="Center 0" Size="13 65" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="729 463" Size="520 20" Pan="0 0" Color="ff333333" EnableArea="0 0 520 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="520 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="83 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="Button" Name="Button_Reset_Key" Pos="Right Top" Size="100 25" Pan="50 108" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 20 25" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="초기화" formatString="PANEL_GAMEOPTION_KEY_BTN_RESET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>

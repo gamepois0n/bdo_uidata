@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7309</itemKey>
+	<itemName>Olive</itemName>
+	<itemIcon>00007309.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, légumes frits, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;olives dans un jardin ou en ramassant des olives à la main ou à l&apos;aide d&apos;une houe.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</itemDesc>
+	<collect>
+		<character>
+			<name>Olivier</name>
+		</character>
+	</collect>
+	<node region="Ferme Wale : olives"/>
+	<makelist>
+		<item>
+			<id>7409</id>
+			<name>Caisse d&apos;olives</name>
+			<icon>00007409.png</icon>
+			<desc>Une récolte transformée pour être vendue à bon prix. Elle peut être vendue à des marchands.\n- Obtention : elle peut être préparée à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

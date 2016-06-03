@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11902</itemKey>
+	<itemName>Glänzende Rubinohrringe</itemName>
+	<itemIcon>00011902.png</itemIcon>
+	<itemDesc>Ein mit einem Funkelnden Rubin verzierter Ohrring.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11901</id>
+			<name>Rubinohrringe</name>
+			<icon>00011901.png</icon>
+			<desc>Ein mit einem Rubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Geschmolzener Eisensplitter</name>
+			<icon>00004051.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubin</name>
+			<icon>00004451.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11903</id>
+			<name>Blutrubinohrringe</name>
+			<icon>00011903.png</icon>
+			<desc>Ein mit einem Blutrubin verzierter Ohrring.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

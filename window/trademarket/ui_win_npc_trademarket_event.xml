@@ -1,0 +1,79 @@
+<UI>
+	<Control Type="Panel" Name="Panel_TradeMarket_EventInfo" Pos="Center Center" Size="400 470" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 470" Grid="1" GridPosX="0 20 380 400" GridPosY="0 20 450 470" GridUVX="0 20 395 415" GridUVY="0 20 530 550">
+		<Texture Type="Base" UV="0 0 415 0 0 550 415 550" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/inven_main.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 290 50"/>
+		<Attribute Type="NotFront"/>
+		<Control Type="Static" Name="Static_PartLine" Pos="Center Top" Size="384 46" Pan="0 7" Color="ffffffff" EnableArea="0 0 384 46" Grid="1" GridPosX="0 50 334 384" GridPosY="0 30 40 46" GridUVX="0 50 350 400" GridUVY="0 30 40 46" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 400 0 0 46 400 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="50 20" Pan="0 20" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="무역 정보" formatString="PANEL_TRADEMARKET_EVENTINFO_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="22 22" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradeEvent" Pos="Left Top" Size="50 20" Pan="25 60" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="상단 이벤트" formatString="PANEL_TRADEMARKET_EVENTINFO_SUBTITLE_1" Font="BaseFont_10" Color="ffc4a68a" OverColor="ffffefca" ClickColor="ffffefca" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_TradeEvent_Navi" Pos="100 62" Size="18 18" Pan="100 220" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="56 2 81 2 56 27 81 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="56 29 81 29 56 54 81 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="56 56 81 56 56 81 81 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont_8" Color="ffffefca" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TradeEventDescBG" Pos="Center Top" Size="360 100" Pan="0 85" Color="ffffffff" EnableArea="0 0 360 100" Grid="1" GridPosX="0 10 350 360" GridPosY="0 10 90 100" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradeEventDesc" Pos="Left Top" Size="345 20" Pan="25 90" Color="ffffffff" EnableArea="0 0 345 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ 시안 상단이 사치품을 사들이고 있다(벨리아 마을)\n※ 잡화 180% 식료품 150% ....." Font="BaseFont_8" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradeEventAlert" Pos="Left Top" Size="50 20" Pan="25 105" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="※ 아직 거대 상단의 움직임을 포착하지 못했습니다." Font="BaseFont_8" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TerritorySupply" Pos="Left Top" Size="50 20" Pan="25 195" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="황실 납품" formatString="PANEL_TRADEMARKET_EVENTINFO_SUBTITLE_2" Font="BaseFont_10" Color="ffc4a68a" OverColor="ffffefca" ClickColor="ffffefca" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TerritorySupplyBG" Pos="Center Top" Size="360 45" Pan="0 220" Color="ffffffff" EnableArea="0 0 360 45" Grid="1" GridPosX="0 10 350 360" GridPosY="0 10 35 45" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TerritorySupply_Town" Pos="Left Top" Size="50 20" Pan="30 225" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="벨리아 마을" Font="BaseFont_8" Color="ffffefca" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Supply_Navi" Pos="97 224" Size="18 18" Pan="100 220" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="56 2 81 2 56 27 81 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="56 29 81 29 56 54 81 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="56 56 81 56 56 81 81 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont_8" Color="ffffefca" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SlotBG" Pos="Left Top" Size="48 48" Pan="30 250" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="Disable" Color="Off"/>
+			<Texture Type="Base" UV="257 737 301 737 257 781 301 781" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/inventory_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemPanel" Pos="Left Top" Size="44 44" Pan="32 252" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TerritorySupplyAlert" Pos="Left Top" Size="50 20" Pan="25 230" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ 아직 황실납품이 시작되지 않았습니다." formatString="PANEL_TRADEMARKET_EVENTINFO_NOTEVENT" Font="BaseFont_8" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

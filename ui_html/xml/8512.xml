@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8512</itemKey>
+	<itemName>Dried Octopus</itemName>
+	<itemIcon>00008512.png</itemIcon>
+	<itemDesc>A dried octopus obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8212</id>
+			<name>Octopus</name>
+			<icon>00008212.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55912</id>
+			<name>Packaged Dried Octopus</name>
+			<icon>00055912.png</icon>
+			<desc>A Trade Item containing 10 Dried Octopus.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4406</itemKey>
+	<itemName>Durchsichtiger Rohkristall</itemName>
+	<itemIcon>00004406.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Durchsichtiger Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe der Goblinhöhle gesammelt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Bergkristall</name>
+		</character>
+	</collect>
+	<node region="Goblinhöhle – Bergbau"/>
+	<makelist>
+		<item>
+			<id>4466</id>
+			<name>Durchsichtiger Kristall</name>
+			<icon>00004466.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe der Goblinhöhle gefundenem Durchsichtigen Rohkristall gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

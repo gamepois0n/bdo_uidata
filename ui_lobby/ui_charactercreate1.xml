@@ -1,0 +1,45 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Customization" Pos="Right Top" Size="1280 720" Pan="0 0" Color="ff555555" EnableArea="0 0 1280 720">
+		<Attribute Type="Ignore"/>
+		<Control Type="Button" Name="Button_CharacterCreateStart" Pos="Right Bottom" Size="190 30" Pan="25 75" Color="ffffffff" EnableArea="0 0 190 30" Grid="1" GridPosX="0 3 186 190" GridPosY="0 4 25 30" GridUVX="0 5 25 29" GridUVY="0 4 23 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="1 2">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="생성 완료" formatString="UI_CHARACTERCREATE1_BTN_CHARACTERCREATESTART" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_SelectClass" Pos="Right Bottom" Size="190 30" Pan="25 45" Color="ffffffff" EnableArea="0 0 190 30" Grid="1" GridPosX="0 3 186 190" GridPosY="0 4 25 30" GridUVX="0 5 25 29" GridUVY="0 4 23 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 7">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="클래스 선택으로" formatString="UI_CHARACTERCREATE1_BTN_SELECTCLASS" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Back" Pos="Right Bottom" Size="190 30" Pan="25 15" Color="ffffffff" EnableArea="0 0 190 30" Grid="1" GridPosX="0 3 186 190" GridPosY="0 4 25 30" GridUVX="0 5 25 29" GridUVY="0 4 23 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="캐릭터 선택으로" formatString="UI_CHARACTERCREATE1_BTN_SELECTCHARACTER" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharacterName" Pos="Right Top" Size="210 27" Pan="60 90" Color="ffffffff" EnableArea="0 0 210 27">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 69 256 69 0 94 256 94" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="캐릭터 이름" formatString="CHARACTER_CREATE_TXT_NAME" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_CharacterName" Pos="Right Top" Size="250 30" Pan="40 120" Color="ffffffff" EnableArea="0 0 250 30" Grid="1" GridPosX="0 12 233 250" GridPosY="0 13 11 30" GridUVX="0 12 239 256" GridUVY="0 13 237 256">
+			<Texture Type="Base" UV="0 0 245 0 0 33 245 33" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel_whiteline.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="7 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FamilyNameTitle" Pos="Right Top" Size="210 27" Pan="60 20" Color="ffffffff" EnableArea="0 0 210 27">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 69 256 69 0 94 256 94" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="가문명" formatString="UI_CHARACTERCREATE1_STCTXT_FAMILYNAMETITLE" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FamilyName" Pos="Right Top" Size="210 20" Pan="60 50" Color="ffffffff" EnableArea="0 0 210 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="한글은많이나올수있다" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5002</itemKey>
+	<itemName>Maple Sap</itemName>
+	<itemIcon>00005002.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Maple Trees with a Fluid Collector.</itemDesc>
+	<collect>
+		<character>
+			<name>Maple</name>
+		</character>
+	</collect>
+	<node region="Castle Ruins - Lumbering"/>
+	<node region="Mediah Northern Highlands - Lumbering"/>
+	<makelist>
+		<item>
+			<id>14413</id>
+			<name>Bares Staff</name>
+			<icon>00014413.png</icon>
+			<desc>A staff possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Bares Staff of Destruction</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Destruction, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Bares Staff of Crimson Flame</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Crimson Flame, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Ultimate Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A Kalis staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Kalis staff.\n\n- Restore Max Durability: Kalis Staff of Crimson Flame, Kalis Staff of Destruction, Kalis Staff of Temptation, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis Staff of Temptation</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Temptation, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis Staff of Destruction</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Destruction, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis Staff of Crimson Flame</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Crimson Flame, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14439</id>
+			<name>Ultimate Bares Staff</name>
+			<icon>00014413.png</icon>
+			<desc>A Bares staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Bares staff.\n\n- Restore Max Durability: Bares Staff of Crimson Flame, Bares Staff of Destruction, Bares Staff of Temptation, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Bares Staff of Temptation</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Temptation, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A staff capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

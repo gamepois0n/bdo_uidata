@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14443</itemKey>
+	<itemName>Ultimativer Yuria-Stab</itemName>
+	<itemIcon>00014414.png</itemIcon>
+	<itemDesc>Ein maximal aufgerüsteter Yuria-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab der Zerstörung, Yuria-Stab der Versuchung, Yuria-Stab</itemDesc>
+	<house type="6">
+		<item>
+			<id>4065</id>
+			<name>Reiner Zinkkristall</name>
+			<icon>00004065.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Zinkbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Piniensaft</name>
+			<icon>00005003.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Pinie erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4603</id>
+			<name>Pinienholz</name>
+			<icon>00004603.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Serendiaschrein und in der Marihöhle hergestellt werden. Kann außerdem durch Fällen von Pinien erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Mönchszweig</name>
+			<icon>00005007.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Mönchszweig erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Spur des Aufstiegs</name>
+			<icon>00005955.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei der Uralten Steinkammer gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14440</id>
+			<name>Yuria-Stab der Purpurnen Flamme</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Stabs gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Waffen-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004910.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14442</id>
+			<name>Yuria-Stab der Versuchung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria-Stab der Zerstörung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Zerstörung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria-Stab der Purpurnen Flamme</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Stabs gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein Stab, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

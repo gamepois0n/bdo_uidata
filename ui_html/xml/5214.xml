@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5214</itemKey>
+	<itemName>Essence of Perfection</itemName>
+	<itemIcon>00005214.png</itemIcon>
+	<itemDesc>An essence extracted from Fruit of Perfection, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n- How to Obtain: Can be made by combining other ingredients with Fruit of Perfection using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5213</id>
+			<name>Fruit of Perfection</name>
+			<icon>00005213.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5213</id>
+			<name>Fruit of Perfection</name>
+			<icon>00005213.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5002</id>
+			<name>Maple Sap</name>
+			<icon>00005002.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Maple Trees with a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Powder of Flame</name>
+			<icon>00004802.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5401</id>
+			<name>Sunrise Herb</name>
+			<icon>00005401.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be Produced at Cron Castle Site and Balenos Forest. It can also be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

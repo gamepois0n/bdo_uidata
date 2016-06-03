@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4058</itemKey>
+	<itemName>Lingot de cuivre</itemName>
+	<itemIcon>00004058.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre fondu. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4003</id>
+			<name>Minerai de cuivre</name>
+			<icon>00004003.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la grotte des gobelins, grotte des éfrits, grotte côtière, forêt de la Solitude, falaise de Thermian, carrière nord d&apos;Heidel, rives de Mediah. S&apos;obtient à partir de minerai contenant du cuivre.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Fragment de cuivre fondu</name>
+			<icon>00004057.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de cuivre.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Fragment de cuivre fondu</name>
+			<icon>00004057.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de cuivre.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>16109</id>
+			<name>Collecteur de liquides</name>
+			<icon>00016109.png</icon>
+			<desc>Un outil de récolte utilisé pour extraire du sang animal ou de la sève.\n- Durée de récolte basique.\n-Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16105</id>
+			<name>Hache de bûcheron</name>
+			<icon>00016105.png</icon>
+			<desc>Un outil de récolte utilisé pour découper du bois de manière efficace.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16125</id>
+			<name>Pioche</name>
+			<icon>00016125.png</icon>
+			<desc>Un outil de récolte utilisé pour extraire le minerai et les minéraux d&apos;une roche.\n- Durée de récolte basique.\n-Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16121</id>
+			<name>Couteau de tanneur</name>
+			<icon>00016121.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la peau de dépouilles d&apos;animaux.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16117</id>
+			<name>Couteau de boucher</name>
+			<icon>00016117.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la viande de dépouilles d&apos;animaux.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16113</id>
+			<name>Houe</name>
+			<icon>00016113.png</icon>
+			<desc>Un outil de récolte utilisé pour récolter des plantes ou herbes sauvages.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16154</id>
+			<name>Harpon fin</name>
+			<icon>00016154.png</icon>
+			<desc>Un outil utilisé pour capturer des poissons d&apos;eau profonde. Certains poissons peuvent uniquement être attrapés à l&apos;aide d&apos;un harpon. \n- Nécessite l&apos;utilisation d&apos;un bateau de pêche.</desc>
+		</item>
+		<item>
+			<id>16147</id>
+			<name>Canne à pêche épaisse</name>
+			<icon>00016147.png</icon>
+			<desc>Un outil de récolte utilisé pour capturer des poissons dans une rivière ou une mer. Les chances de faire une bonne prise sont meilleures qu&apos;avec une canne standard.\n\n- Effet d&apos;objet : vitesse de pêche +1</desc>
+		</item>
+		<item>
+			<id>4059</id>
+			<name>Cristal de cuivre pur</name>
+			<icon>00004059.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de cuivre. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>2809</id>
+			<name>Lustre en cire d&apos;abeille orné en cuivre (jour)</name>
+			<icon>InHouse_X_DPC_Chandelier_05_on_light.png</icon>
+			<desc>Un lustre fluorescent en cire orné de cuivre.</desc>
+		</item>
+		<item>
+			<id>16809</id>
+			<name>Collecteur de fluides porte-bonheur</name>
+			<icon>00016809.png</icon>
+			<desc>Un outil de récolte utilisé pour extraire du sang ou de la sève. Son utilisation augmente la chance.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16805</id>
+			<name>Hache de bûcheron porte-bonheur</name>
+			<icon>00016805.png</icon>
+			<desc>Un outil de récolte utilisé pour découper du bois de manière efficace. Son utilisation augmente la chance.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16825</id>
+			<name>Pioche porte-bonheur</name>
+			<icon>00016825.png</icon>
+			<desc>Un outil de récolte utilisé pour extraire du minerai de la roche. Son utilisation augmente la chance.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16821</id>
+			<name>Couteau de tanneur porte-bonheur</name>
+			<icon>00016821.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la peau de dépouilles d&apos;animaux. Son utilisation augmente la chance.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16817</id>
+			<name>Couteau de boucher porte-bonheur</name>
+			<icon>00016817.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la viande de dépouilles d&apos;animaux. Son utilisation augmente la chance.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16813</id>
+			<name>Houe porte-bonheur</name>
+			<icon>00016813.png</icon>
+			<desc>Un outil de récolte utilisé pour récolter des plantes ou herbes sauvages. Son utilisation augmente la chance.\n- Durée de récolte basique.\n- Réparation impossible.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,163 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Guild_Quest" Pos="65 31" Size="715 625" Pan="0 0" Color="ffffffff" EnableArea="0 0 715 625" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Control Type="StaticText" Name="StaticText_M_ProgressQuest" Pos="0 Top" Size="715 25" Pan="0 45" Color="ffffffff" EnableArea="0 0 715 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="200 10 240 10 200 50 240 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="진행 중인 임무" formatString="FRAME_GUILD_QUEST_M_PROGRESSQUEST" Font="BaseFont_10" Color="fff8e9bb" OverColor="fff8e9bb" ClickColor="fff8e9bb" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_QuestList" Pos="0 Top" Size="715 25" Pan="0 181" Color="ffffffff" EnableArea="0 0 715 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="200 10 240 10 200 50 240 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="임무 목록" formatString="FRAME_GUILD_QUEST_M_QUESTLIST" Font="BaseFont_10" Color="fff8e9bb" OverColor="fff8e9bb" ClickColor="fff8e9bb" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_QuestCount" Pos="Right Top" Size="200 25" Pan="10 181" Color="ffffffff" EnableArea="0 0 200 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 수 : " Font="BaseFont_10" Color="fff8e9bb" OverColor="fff8e9bb" ClickColor="fff8e9bb" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Progress_BG" Pos="Left Top" Size="670 105" Pan="0 72" Color="ffffffff" EnableArea="0 0 670 105" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_QuestList_BG" Pos="Left Top" Size="670 412" Pan="0 208" Color="ffffffff" EnableArea="0 0 670 412" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_List_Preocc" Pos="Left Top" Size="125 23" Pan="15 215" Color="ffffffff" EnableArea="0 0 125 23" Grid="1" GridPosX="0 5 120 125" GridPosY="0 5 18 23" GridUVX="0 5 25 30" GridUVY="0 5 25 30" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="선점 임무" formatString="FRAME_GUILD_QUEST_BTN_LIST_PREOCC" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_List_Wide" Pos="Left Top" Size="125 23" Pan="145 215" Color="ffffffff" EnableArea="0 0 125 23" Grid="1" GridPosX="0 5 120 125" GridPosY="0 5 18 23" GridUVX="0 5 25 30" GridUVY="0 5 25 30" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="범용 임무" formatString="FRAME_GUILD_QUEST_BTN_LIST_WIDE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_List_PreoccInfo" Pos="Left Top" Size="125 23" Pan="275 215" Color="ffffffff" EnableArea="0 0 125 23" Grid="1" GridPosX="0 5 120 125" GridPosY="0 5 18 23" GridUVX="0 5 25 30" GridUVY="0 5 25 30" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="선점 임무 현황" formatString="FRAME_GUILD_QUEST_BTN_LIST_PREOCCINFO" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_List_Left" Pos="Right Top" Size="18 18" Pan="101 215" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 19 1 1 19 19 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 1 38 1 20 19 38 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 1 57 1 39 19 57 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_List_Right" Pos="Right Top" Size="18 18" Pan="10 215" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 20 19 20 1 38 19 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 20 38 20 20 38 38 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 20 57 20 39 38 57 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_List" Pos="Right Top" Size="74 20" Pan="28 213" Color="ffffffff" EnableArea="0 0 74 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 226 61 226 1 247 61 247" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Pro_Title" Pos="Left Top" Size="280 25" Pan="0 70" Color="ffffffff" EnableArea="0 0 280 25" Grid="1" GridPosX="0 30 280 280" GridPosY="0 0 25 25" GridUVX="0 30 194 194" GridUVY="0 0 23 23">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 268 195 268 1 291 195 291" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="권호형 소탕작전" Font="BaseFont_12" Color="ffd8ae64" OverColor="ffd8ae64" ClickColor="ffd8ae64" AlignHorizon="Left" AlignVertical="Top" Span="20 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Pro_Count" Pos="Left 100" Size="160 15" Pan="70 15" Color="ffffffff" EnableArea="0 0 160 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="권호 족장 처치 ( 2 / 10 )" Font="BaseFont_8_Bold" Color="ffeaeaea" OverColor="ffeaeaea" ClickColor="ffeaeaea" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Pro_Time" Pos="Right Top" Size="150 20" Pan="5 75" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 시간 : 59분 59초" Font="BaseFont_10" Color="ffed9c9c" OverColor="ffed9c9c" ClickColor="ffed9c9c" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Pro_Desc" Pos="Right Top" Size="375 70" Pan="10 100" Color="ffffffff" EnableArea="0 0 375 70" Grid="1" GridPosX="0 10 365 375" GridPosY="0 10 60 70" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 127 63 127 1 189 63 189" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="발레노스 전역이 김권 무리로부터 안전을 위협받고 있다. 크론성 성터\n와 발레노스 숲에 서식하는 권호 고블린 무리들을 처치하고, 사건의 \n원흉인 권호 족장을 처치하자!" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="5 2"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_Navi" Pos="Left Top" Size="18 18" Pan="150 72" Color="ffffffff" EnableArea="0 0 18 18" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="292 328 310 328 292 346 310 346" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="On" UV="292 347 310 347 292 365 310 365" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="Click" UV="292 366 310 366 292 384 310 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Giveup" Pos="Left Top" Size="18 18" Pan="175 72" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="273 328 291 328 273 346 291 346" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="On" UV="273 347 291 347 273 365 291 365" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="Click" UV="273 366 291 366 273 384 291 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Reward" Pos="Left Top" Size="18 18" Pan="200 72" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="292 385 310 385 292 403 310 403" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="On" UV="292 404 310 404 292 422 310 422" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="Click" UV="292 423 310 423 292 441 310 441" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cleared" Pos="Right Top" Size="150 27" Pan="5 72" Color="ffffffff" EnableArea="0 0 150 27" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 22 27" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="4 2">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="임무 완수" formatString="FRAME_GUILD_QUEST_COMPLETEQUEST" Font="BaseFont_10" Color="ff7bd2ff" OverColor="ffbee9ff" ClickColor="ffbee9ff" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_List_BG" Pos="Left 35" Size="703 80" Pan="5 0" Color="ffffffff" EnableArea="0 0 703 80" Grid="1" GridPosX="0 10 693 703" GridPosY="0 10 70 80" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_List_Title" Pos="Left 3" Size="250 22" Pan="3 0" Color="ffffffff" EnableArea="0 0 250 22" Grid="1" GridPosX="0 15 250 250" GridPosY="0 0 22 22" GridUVX="0 15 234 234" GridUVY="0 0 22 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="고블린 소탕작전" Font="BaseFont_10" Color="fffff2cc" OverColor="fffff2cc" ClickColor="fffff2cc" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_List_Desc" Pos="Left 25" Size="420 50" Pan="12 0" Color="ffffffff" EnableArea="0 0 420 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="발레노스 전역이 고블린 무리로부터 안전을 위협받고 있다. 크론성 성토와 발레노스 숲에 \n서식하는 고블린 무리들을 처치하고, 사건의 원흉인 고블린 족장을 처치하자." Font="BaseFont_8_Bold" Color="ff8d8d8d" OverColor="ff8d8d8d" ClickColor="ff8d8d8d" AlignHorizon="Left" AlignVertical="Center" Span="5 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_List_Time" Pos="Right Top" Size="150 20" Pan="7 5" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="제한 시간 : 1시간 30분" Font="BaseFont_10" Color="ffed9c9c" OverColor="ffed9c9c" ClickColor="ffed9c9c" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_List_Gold" Pos="Right Top" Size="150 20" Pan="7 25" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="선수금 : 50,000 실버" Font="BaseFont_10" Color="fff1e4b2" OverColor="fff1e4b2" ClickColor="fff1e4b2" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_List_C_Accept" Pos="Right Bottom" Size="150 27" Pan="5 5" Color="ffffffff" EnableArea="0 0 150 27" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 22 27" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="4 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="임무 수락" formatString="FRAME_GUILD_QUEST_BTN_LIST_C_ACCEPT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Pro_NoQuest" Pos="Center 105" Size="400 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="현재 진행 중인 임무가 없습니다." Font="SubTitleFont_14" Color="ffb8b4a2" OverColor="ffb8b4a2" ClickColor="ffb8b4a2" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_helpAccept" Pos="Center 138" Size="700 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ 선금은 길드 자금이 부족할 때 수락자의 소지금으로도 지불할 수 있습니다." formatString="LUA_GUILDQUEST_PAYMYMONEY" Font="BaseFont_10" Color="fff1e4b2" OverColor="fff1e4b2" ClickColor="fff1e4b2" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_List_NoQuest" Pos="Center 0" Size="400 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 40">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="SubTitleFont_14" Color="ffb8b4a2" OverColor="ffb8b4a2" ClickColor="ffb8b4a2" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_QuestIcon" Pos="Left Top" Size="38 38" Pan="22 121" Color="ffffffff" EnableArea="0 0 38 38" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_IconBackground" Pos="Left Top" Size="42 42" Pan="20 118" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="454 1 504 1 454 51 504 51" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/Quests_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildQuestCompleteAlert" Pos="Left Top" Size="680 20" Pan="20 585" Color="ffffffff" EnableArea="0 0 680 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="선점 임무 안내" Font="BaseFont_10" Color="fff26a6a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildMoney" Pos="Right Top" Size="180 15" Pan="125 217" Color="ffffffff" EnableArea="0 0 180 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드 자금 : 1,000,000,000" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

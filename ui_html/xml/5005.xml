@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5005</itemKey>
+	<itemName>Bloody Tree Knot</itemName>
+	<itemIcon>00005005.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Bloody Tree Knot requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ash Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cedar Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fir</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Maple</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pine Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>White Cedar</name>
+		</character>
+	</collect>
+	<node region="Treant Forest - Lumbering"/>
+	<node region="Elric Shrine - Lumbering"/>
+	<node region="Stonetail Wasteland - Lumbering"/>
+	<makelist>
+		<item>
+			<id>4907</id>
+			<name>Grade 1 Armor Reform Stone</name>
+			<icon>00004907.png</icon>
+			<desc>A material used in 1st-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

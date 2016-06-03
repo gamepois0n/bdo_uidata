@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4410</itemKey>
+	<itemName>Schwarzer Rohkristall</itemName>
+	<itemIcon>00004410.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Schwarzem Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe der Verlassenen Eisenmine in Mediah gesammelt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Schwarzquarz</name>
+		</character>
+	</collect>
+	<node region="Verlassene Eisenmine – Bergbau"/>
+	<makelist>
+		<item>
+			<id>4470</id>
+			<name>Schwarzkristall</name>
+			<icon>00004470.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von Schwarzem Rohkristall gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

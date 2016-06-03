@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4803</itemKey>
+	<itemName>Spaltenpulver</itemName>
+	<itemIcon>00004803.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Rubin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Saphir</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Topas</name>
+		</character>
+	</collect>
+	<node region="Wachposten der Riesen – Bergbau"/>
+	<node region="Keplansteinbruch – Bergbau"/>
+	<node region="Glutonihöhle – Bergbau"/>
+	<node region="Omar-Lavahöhle – Bergbau"/>
+	<makelist>
+		<item>
+			<id>10331</id>
+			<name>Ultimativer Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Dolch.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch der Zerstörung, Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea-Talisman der Zerstörung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Zerstörung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea-Talisman der Purpurnen Flamme</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein Talisman, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea-Talisman der Versuchung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Krea-Anhänger der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea-Anhänger der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Zerstörung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea-Anhänger der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Anhänger, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>52903</id>
+			<name>Stahlhufeisen für die Schlacht</name>
+			<icon>00052903.png</icon>
+			<desc>Beständige, schwere Kampfhufeisen aus Stahl.\n\n– Ausrüstung für Pferde und Esel\n\nKönnen mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52503</id>
+			<name>Kampf-Stahlrosskopf</name>
+			<icon>00052503.png</icon>
+			<desc>Ein Pferdehelm aus Stahl. Beständig, aber ziemlich schwer.\n\n– Ausrüstung für Pferde\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Ultimativer Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman der Zerstörung, Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea-Dolch der Versuchung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea-Dolch der Zerstörung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Zerstörung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea-Dolch der Purpurnen Flamme</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein Dolch, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Ultimativer Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Anhänger.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger der Zerstörung, Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>14021</id>
+			<name>Silberbestickte Händlerkleidung</name>
+			<icon>00014016.png</icon>
+			<desc>Edle Kleidung für Händler.</desc>
+		</item>
+		<item>
+			<id>10128</id>
+			<name>Krea-Schild der Versuchung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10131</id>
+			<name>Ultimativer Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild der Zerstörung, Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea-Schild der Zerstörung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Zerstörung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea-Schild der Purpurnen Flamme</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

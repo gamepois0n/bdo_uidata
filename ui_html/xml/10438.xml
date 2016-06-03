@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10438</itemKey>
+	<itemName>Bares Amulet of Temptation</itemName>
+	<itemIcon>00010413.png</itemIcon>
+	<itemDesc>The energy of Temptation is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Temptation, Bares Amulet</itemDesc>
+	<house type="6">
+		<item>
+			<id>4077</id>
+			<name>Steel</name>
+			<icon>00004077.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Iron Shards and Coal together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4259</id>
+			<name>Pure Platinum Crystal</name>
+			<icon>00004259.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Platinum Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6164</id>
+			<name>Fine Fancy Fur</name>
+			<icon>00006164.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying waragon or cheetah hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>5958</id>
+			<name>Trace of Battle</name>
+			<icon>00005958.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Bernianto Farm.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10413</id>
+			<name>Bares Amulet</name>
+			<icon>00010413.png</icon>
+			<desc>An amulet possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10413</id>
+			<name>Bares Amulet</name>
+			<icon>00010413.png</icon>
+			<desc>An amulet possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10439</id>
+			<name>Ultimate Bares Amulet</name>
+			<icon>00010413.png</icon>
+			<desc>A Bares Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Crimson Flame, Bares Amulet of Destruction, Bares Amulet of Temptation, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10438</id>
+			<name>Bares Amulet of Temptation</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Temptation, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10437</id>
+			<name>Bares Amulet of Destruction</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Destruction, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10436</id>
+			<name>Bares Amulet of Crimson Flame</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Crimson Flame, Bares Amulet</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

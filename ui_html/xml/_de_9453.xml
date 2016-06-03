@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9453</itemKey>
+	<itemName>Weicher Wüstenknödel</itemName>
+	<itemIcon>00009453.png</itemIcon>
+	<itemDesc>Ein Wüstenknödel aus bestem Teig.\n\n– Spezielle Wirkung: Max. Ausdauer +200 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>7348</id>
+			<name>Zimt</name>
+			<icon>00007348.png</icon>
+			<desc>Zimt ist ein Spezialprodukt aus Mediah.\nVerwendung: Borschtsch, Wüstenknödel etc.\n– Gewinnung: Kann beim Hof Kasula gewonnen werden. Zimt aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>7908</id>
+			<name>Echsenfleisch</name>
+			<icon>00007908.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Echsenkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Zimt</name>
+			<icon>00007348.png</icon>
+			<desc>Zimt ist ein Spezialprodukt aus Mediah.\nVerwendung: Borschtsch, Wüstenknödel etc.\n– Gewinnung: Kann beim Hof Kasula gewonnen werden. Zimt aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,12 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Start" Pos="260 51" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720">
+		<Control Type="StaticText" Name="StaticText_Start" Pos="Center 499" Size="250 30" Pan="0 0" Color="  ffffff" EnableArea="0 0 250 30">
+			<Attribute Type="Ignore"/>
+			<UIAni FrameVelocity="0.03" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.0" EndIntensity="1.0" ChangeChild="False" ColorOperator="0" ID="Ani_Color_START" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="100" AdvanceType="1"/>
+			</UIAni>
+			<Text Value="PRESS ANY KEY TO START" Font="TitleFont_22" Color="26ffffff" OverColor="26ffffff" ClickColor="26ffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

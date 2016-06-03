@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>54003</itemKey>
+	<itemName>Morceau de sucre brut</itemName>
+	<itemIcon>00054003.png</itemIcon>
+	<itemDesc>Augmente les chances de dompter un cheval sauvage à l&apos;utilisation.\nUtilisable en s&apos;approchant d&apos;un cheval sauvage ayant été capturé avec une corde de domptage.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

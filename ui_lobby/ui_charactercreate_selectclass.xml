@@ -1,0 +1,359 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CharacterCreateSelectClass" Pos="3 -5" Size="1280 720" Pan="0 0" Color="ff555555" EnableArea="0 0 1280 720">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_BG" Pos="Right Center" Size="450 720" Pan="5 0" Color="ffffffff" EnableArea="0 0 450 720" Grid="1" GridPosX="0 10 440 450" GridPosY="0 10 710 720" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Left Top" Size="250 35" Pan="35 20" Color="ffffffff" EnableArea="0 0 250 35">
+			<Attribute Type="Ignore"/>
+			<Text Value="직업 선택" formatString="CHARACTER_CREATECLASS_TXT_TITLE" Font="TitleFont_18" Color="ffffe397" OverColor="ffffe397" ClickColor="ffffe397" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_SelectClass" Pos="Center Bottom" Size="50 50" Pan="0 80" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 31 50 31 1 80 50 80" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="52 31 101 31 52 80 101 80" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="103 31 152 31 103 80 152 80" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="SubTitleFont_14" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ClassName" Pos="Right Top" Size="320 30" Pan="71 8" Color="ffffffff" EnableArea="0 0 320 30" Grid="1" GridPosX="0 5 315 320" GridPosY="0 5 25 30" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="클래스 이름" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_PartLine" Pos="Right Top" Size="400 6" Pan="20 40" Color="ffffffff" EnableArea="0 0 400 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_MovieSize" Pos="Right Bottom" Size="422 237" Pan="19 135" Color="ffffffff" EnableArea="0 0 422 237" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="11 11 50 11 11 50 50 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Back" Pos="Right Bottom" Size="154 32" Pan="240 7" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 307 155 307 1 339 155 339" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_btn_00.dds</Texture>
+			<Texture Type="On" UV="1 340 155 340 1 372 155 372" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_btn_00.dds</Texture>
+			<Texture Type="Click" UV="1 373 155 373 1 405 155 405" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_btn_00.dds</Texture>
+			<Text Value="이전으로" formatString="CHARACTER_CREATECLASS_BTN_BACK" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Desc_BG" Pos="Right Bottom" Size="422 90" Pan="19 42" Color="ffffffff" EnableArea="0 0 422 90" Grid="1" GridPosX="0 10 412 422" GridPosY="0 10 80 90" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Description" Pos="Right Bottom" Size="398 82" Pan="30 45" Color="ffffffff" EnableArea="0 0 398 82">
+			<Attribute Type="Ignore"/>
+			<Text Value="클래스 설명" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_CharacterCreateStart" Pos="Right Bottom" Size="154 32" Pan="63 7" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="1 2">
+			<Texture Type="Base" UV="1 406 155 406 1 438 155 438" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_btn_00.dds</Texture>
+			<Texture Type="On" UV="1 439 155 439 1 471 155 471" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_btn_00.dds</Texture>
+			<Texture Type="Click" UV="1 472 155 472 1 504 155 504" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_btn_00.dds</Texture>
+			<Text Value="캐릭터 생성" formatString="CHARACTER_CREATECLASS_BTN_CREATE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_Warrior" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_Ranger" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_Sorcerer" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_Giant" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_03.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_BeastMaster" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_04.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_BladerMaster" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_05.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_BladerMasterWomen" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_05.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_Valkyrie" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_06.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_Wizard" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_07.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_NinjaWomen" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_08.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Stat_Temp" Pos="Right Bottom" Size="310 310" Pan="480 0" Color="ffffffff" EnableArea="0 0 310 310" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 310 0 0 310 310 310" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/charselect_status_08.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Stat_Ctrl" Pos="Right Bottom" Size="50 20" Pan="610 280" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="조작 난이도" formatString="CHARACTER_CREATECLASS_DIFF" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Stat_Att" Pos="Right Bottom" Size="50 20" Pan="762 180" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="공격 성향" formatString="CHARACTER_CREATECLASS_ATT" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Stat_Def" Pos="Right Bottom" Size="50 20" Pan="460 180" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="방어 성향" formatString="CHARACTER_CREATECLASS_DEF" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Stat_Evd" Pos="Right Bottom" Size="50 20" Pan="700 10" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="회피 성향" formatString="CHARACTER_CREATECLASS_EVADE" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Stat_Cmb" Pos="Right Bottom" Size="50 20" Pan="530 10" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="연계 성향" formatString="CHARACTER_CREATECLASS_COMBO" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Frame" Name="Frame_CharacterSelect" Pos="Right Top" Size="450 295" Pan="10 50" Color="ffffffff" EnableArea="0 0 450 295">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="0 0" Size="450 600" Pan="0 0" Color="ffffffff" EnableArea="0 0 450 600">
+				<Control Type="Radiobutton" Name="RadioButton_Copy" Pos="Right Top" Size="95 144" Pan="340 0" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="1 1 96 1 1 145 96 145" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="SubTitleFont_14_Bold" Color="ff96d4fc" OverColor="ff96d4fc" ClickColor="ff96d4fc" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Warrior" Pos="0 0" Size="95 144" Pan="340 0" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="1 1 96 1 1 145 96 145" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="SubTitleFont_14_Bold" Color="ff96d4fc" OverColor="ff96d4fc" ClickColor="ff96d4fc" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Ranger" Pos="0 0" Size="95 144" Pan="231 0" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="97 1 192 1 97 145 192 145" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="SubTitleFont_14_Bold" Color="ff96d4fc" OverColor="ff96d4fc" ClickColor="ff96d4fc" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Sorcer" Pos="0 0" Size="95 144" Pan="122 0" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="193 1 288 1 193 145 288 145" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="SubTitleFont_14_Bold" Color="ff96d4fc" OverColor="ff96d4fc" ClickColor="ff96d4fc" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Giant" Pos="0 0" Size="95 144" Pan="13 0" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="289 1 384 1 289 145 384 145" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="SubTitleFont_14_Bold" Color="ff96d4fc" OverColor="ff96d4fc" ClickColor="ff96d4fc" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Tamer" Pos="0 0" Size="95 144" Pan="340 150" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="385 1 480 1 385 145 480 145" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_BladeMaster" Pos="0 0" Size="95 144" Pan="122 150" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="1 146 96 146 1 290 96 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Valkyrie" Pos="0 0" Size="95 144" Pan="231 150" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="97 146 192 146 97 290 192 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Wizard" Pos="0 0" Size="95 144" Pan="231 300" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="289 146 384 146 289 290 384 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_WizardWomen" Pos="0 0" Size="95 144" Pan="340 300" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="385 146 480 146 385 290 480 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_BladeMasterWomen" Pos="0 0" Size="95 144" Pan="13 150" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="193 146 288 146 193 290 288 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_NinjaWomen" Pos="0 0" Size="95 144" Pan="122 300" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="1 291 96 291 1 435 96 435" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_ShyWomen" Pos="0 0" Size="95 144" Pan="340 450" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="385 146 480 146 385 290 480 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Shy" Pos="0 0" Size="95 144" Pan="231 450" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="289 146 384 146 289 290 384 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Temp" Pos="0 0" Size="95 144" Pan="231 450" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="289 146 384 146 289 290 384 290" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_Select_Kunoichi" Pos="0 0" Size="95 144" Pan="13 300" Color="ffffffff" EnableArea="0 0 95 144" UseDefaultSound="1" ClickSound="0 1" Group="0">
+					<Texture Type="Base" UV="97 291 192 291 97 435 192 435" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_00.dds</Texture>
+					<UIAni CalcParentRotate="False">
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.50" EndIntensity="0.90" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+						<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Reset" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+					</UIAni>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_WarriorName" Pos="0 0" Size="88 20" Pan="343 122" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="워리어" formatString="UI_CHARACTERCREATE_SELECTCLASS_WARRIOR" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_RangerName" Pos="0 0" Size="88 20" Pan="235 122" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="레인저" formatString="UI_CHARACTERCREATE_SELECTCLASS_RANGER" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_SorcerName" Pos="0 0" Size="88 20" Pan="126 122" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="소서러" formatString="UI_CHARACTERCREATE_SELECTCLASS_SOCERER" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_GiantName" Pos="0 0" Size="88 20" Pan="16 122" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="자이언트" formatString="UI_CHARACTERCREATE_SELECTCLASS_GIANT" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_TamerName" Pos="0 0" Size="88 20" Pan="343 271" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="금수랑" formatString="UI_CHARACTERCREATE_SELECTCLASS_TAMER" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_BladeMasterName" Pos="0 0" Size="88 20" Pan="126 271" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="무사" formatString="UI_CHARACTERCREATE_SELECTCLASS_BLADERMASTER" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_ValkyrieName" Pos="0 0" Size="88 20" Pan="235 271" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="발키리" formatString="UI_CHARACTERCREATE_SELECTCLASS_VALKYRIE" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_WizardName" Pos="0 0" Size="88 20" Pan="235 420" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="위자드" formatString="UI_CHARACTERCREATE_SELECTCLASS_WIZARD" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_WizardWomenName" Pos="0 0" Size="88 20" Pan="343 420" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="위치" formatString="UI_CHARACTERCREATE_SELECTCLASS_WIZARDWOMEN" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_BladeMasterWomenName" Pos="0 0" Size="88 20" Pan="16 271" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="매화" formatString="UI_CHARACTERCREATE_SELECTCLASS_BLADERMASTERWOMEN" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_NinjaWomenName" Pos="0 0" Size="88 20" Pan="126 420" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="쿠노이치" formatString="UI_CHARACTERCREATE_SELECTCLASS_KUNOICHI" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_ShyWomenName" Pos="0 0" Size="88 20" Pan="343 569" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="여자 샤이족" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_ShyName" Pos="0 0" Size="88 20" Pan="235 569" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="남자 샤이족" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_TempName" Pos="0 0" Size="88 20" Pan="235 569" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="매화 임시" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_KunoichiName" Pos="0 0" Size="88 20" Pan="16 420" Color="ffffffff" EnableArea="0 0 88 20" Grid="1" GridPosX="0 10 78 88" GridPosY="0 10 10 20" GridUVX="0 20 42 62" GridUVY="0 20 42 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="닌자" formatString="UI_CHARACTERCREATE_SELECTCLASS_NINJA" Font="BaseFont_10" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Center" AlignVertical="Top" Span="0 1"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="Right Top" Size="10 300" Pan="0 0" Color="ff333333" EnableArea="0 0 10 300" Grid="1" GridPosX="0 1 6 7" GridPosY="0 4 293 300" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_DownButton" Pos="0 300" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="VerticalScroll_CtrlButton" Pos="Right 0" Size="13 65" Pan="-2 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="0 295" Size="410 20" Pan="0 0" Color="ff333333" EnableArea="0 0 410 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="410 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="-5 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10441</itemKey>
+	<itemName>Yuria-Fokusreif der Zerstörung</itemName>
+	<itemIcon>00010414.png</itemIcon>
+	<itemDesc>Dieser Yuria-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif</itemDesc>
+	<house type="6">
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4065</id>
+			<name>Reiner Zinkkristall</name>
+			<icon>00004065.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Zinkbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6164</id>
+			<name>Feines ausgefallenes Fell</name>
+			<icon>00006164.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Kriegram- oder Gepardendrachenhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Spur des Aufstiegs</name>
+			<icon>00005955.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei der Uralten Steinkammer gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10414</id>
+			<name>Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10414</id>
+			<name>Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Yuria-Fokusreif der Zerstörung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Yuria-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Purpurnen Flamme, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10443</id>
+			<name>Ultimativer Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Purpurnen Flamme, Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif der Versuchung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Yuria-Fokusreif der Versuchung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Versuchung, Yuria-Fokusreif</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

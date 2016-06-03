@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6153</itemKey>
+	<itemName>Hartes Leder</itemName>
+	<itemIcon>00006153.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Dinosaurier-, Echsen- oder Wurmhaut gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Blauechse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Calpheonwurm</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Dreieckskopfechse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fliegenfallen-Höhlenwurm</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Furchterregender Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Großer Horndreieckskopf-Salama</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kleiner Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Langschwanz-Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Leguan</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Nashorn-Echse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Regenbogenechse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinlochwurm</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ödland-Leguan</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6007</id>
+			<name>Dinosaurierhaut</name>
+			<icon>00006007.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Dinosaurierkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6008</id>
+			<name>Echsenhaut</name>
+			<icon>00006008.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wolfskadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6009</id>
+			<name>Wurmhaut</name>
+			<icon>00006009.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wurmkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16123</id>
+			<name>Stahlgerbermesser</name>
+			<icon>00016123.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16119</id>
+			<name>Stahlschlachtermesser</name>
+			<icon>00016119.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16823</id>
+			<name>Glückbringendes Stahlgerbermesser</name>
+			<icon>00016823.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16819</id>
+			<name>Glückbringende Stahlschlachtermesser</name>
+			<icon>00016819.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -8 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>6161</id>
+			<name>Feines hartes Leder</name>
+			<icon>00006161.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Dinosaurier-, Echsen- oder Wurmhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

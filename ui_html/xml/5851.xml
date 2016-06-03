@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5851</itemKey>
+	<itemName>Cotton Yarn</itemName>
+	<itemIcon>00005851.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Cotton.</itemDesc>
+	<collect>
+		<character>
+			<name>Bedding</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cotton</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry Rack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tent</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>5801</id>
+			<name>Cotton</name>
+			<icon>00005801.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Ahto Farm and Kasula Farm. It can also be obtained by Gathering in rarely seen Wild Cotton plants.</desc>
+		</item>
+	</manufacture>
+	<node region="Ahto Farm - Cotton Farming"/>
+	<node region="Kasula Farm - Cotton Farming"/>
+	<makelist>
+		<item>
+			<id>13017</id>
+			<name>Ultimate Blade Trinket</name>
+			<icon>00010707.png</icon>
+			<desc>A Blade Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket of Destruction, Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Blade Trinket of Temptation</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Temptation is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Blade Trinket of Destruction</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Destruction is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Destruction, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Blade Trinket of Crimson Flame</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Blade Trinket</name>
+			<icon>00010706.png</icon>
+			<desc>A trinket with an ornamental knife attached.</desc>
+		</item>
+		<item>
+			<id>5855</id>
+			<name>Cotton Fabric</name>
+			<icon>00005855.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Cotton Yarn. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>24132</id>
+			<name>White Sheep Hide Cushion</name>
+			<icon>InHouse_X_DPFO_Cushion_01.png</icon>
+			<desc>A white cushion made of Sheep Hide.</desc>
+		</item>
+		<item>
+			<id>24109</id>
+			<name>Square Basket with Cover</name>
+			<icon>InHouse_X_DPFO_Basket_12.png</icon>
+			<desc>A square straw basket with a lid.</desc>
+		</item>
+		<item>
+			<id>24108</id>
+			<name>Straw Pot</name>
+			<icon>InHouse_X_DPFO_Basket_08.png</icon>
+			<desc>A straw pot.</desc>
+		</item>
+		<item>
+			<id>24107</id>
+			<name>Two-Handled Basket</name>
+			<icon>InHouse_X_DPFO_Basket_07.png</icon>
+			<desc>A straw basket with two handles.</desc>
+		</item>
+		<item>
+			<id>24106</id>
+			<name>Straw Basket With Handles</name>
+			<icon>InHouse_X_DPFO_Basket_06.png</icon>
+			<desc>A straw basket with a handle.</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimate Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>Saiyer Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer Ornamental Knot of Temptation</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Temptation is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer Ornamental Knot of Destruction</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Destruction is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer Ornamental Knot of Crimson Flame</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>A handmade ornamental knot for an axe made of quality silk.</desc>
+		</item>
+		<item>
+			<id>24817</id>
+			<name>Serendian Carpet</name>
+			<icon>InHouse_X_DPF_Carpet_09.png</icon>
+			<desc>A Serendian carpet.</desc>
+		</item>
+		<item>
+			<id>24193</id>
+			<name>Doll</name>
+			<icon>InHouse_X_DPFO_Doll_01.png</icon>
+			<desc>A doll.</desc>
+		</item>
+		<item>
+			<id>25623</id>
+			<name>Cotton Tab Drapeless Curtain</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Tied.png</icon>
+			<desc>A cotton tab curtain without drapes.</desc>
+		</item>
+		<item>
+			<id>25620</id>
+			<name>Cotton Drapeless Curtain</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Back.png</icon>
+			<desc>A cotton curtain without drapes.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

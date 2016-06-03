@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5801</itemKey>
+	<itemName>Coton</itemName>
+	<itemIcon>00005801.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : produit aux fermes Atho et Kasula. Faible chance de l&apos;obtenir en récoltant du coton sauvage.</itemDesc>
+	<collect>
+		<character>
+			<name>Coton</name>
+		</character>
+	</collect>
+	<node region="Culture de coton de la ferme Ahto"/>
+	<node region="Culture de coton de la ferme Kasula"/>
+	<makelist>
+		<item>
+			<id>5851</id>
+			<name>Fil de coton</name>
+			<icon>00005851.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant du coton.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

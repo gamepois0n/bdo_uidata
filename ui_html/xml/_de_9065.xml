@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9065</itemKey>
+	<itemName>Milch</itemName>
+	<itemIcon>00009065.png</itemIcon>
+	<itemDesc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</itemDesc>
+	<makelist>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

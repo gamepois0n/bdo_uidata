@@ -1,0 +1,54 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GuildManager" Pos="Center Center" Size="450 300" Pan="0 0" Color="ffffffff" EnableArea="0 0 450 300" Grid="1" GridPosX="0 10 440 450" GridPosY="0 10 290 300" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="Static" Name="Static_BG" Pos="Center Center" Size="430 220" Pan="0 0" Color="ffffffff" EnableArea="0 0 430 220" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Apply" Pos="Left Bottom" Size="108 30" Pan="100 7" Color="ffffffff" EnableArea="0 0 108 30" Grid="1" GridPosX="0 5 103 108" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="창 설" formatString="GUILD_MANAGER_BTN_APPLY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="Right Bottom" Size="108 30" Pan="100 7" Color="ffffffff" EnableArea="0 0 108 30" Grid="1" GridPosX="0 5 103 108" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="GUILD_MANAGER_BTN_CANCEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Comment" Pos="Center Top" Size="350 160" Pan="0 80" Color="ffffffff" EnableArea="0 0 350 160">
+			<Attribute Type="Ignore"/>
+			<Text Value="자기들끼리 해먹는 집단" Font="BaseFont_10" Color="ffb3aeae" OverColor="ffb3aeae" ClickColor="ffb3aeae" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_CreateGuild" Pos="Right Top" Size="154 32" Pan="30 50" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 17 137 154" GridPosY="0 6 27 32" GridUVX="0 17 137 154" GridUVY="0 6 27 32" Group="0" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 1 310 1 156 33 310 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 1 465 1 311 33 465 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="길드 창설" Font="BaseFont_10" Color="ffede9d0" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_CreateUnion" Pos="Right Top" Size="154 32" Pan="30 100" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 17 137 154" GridPosY="0 6 27 32" GridUVX="0 17 137 154" GridUVY="0 6 27 32" Group="0" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 1 310 1 156 33 310 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 1 465 1 311 33 465 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="연합 길드 창설" formatString="GUILD_MANAGER_BTN_CREATEUNION" Font="BaseFont_10" Color="ffede9d0" OverColor="ffede9d0" ClickColor="ffede9d0" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubTitle" Pos="Left Top" Size="180 20" Pan="50 50" Color="ffffffff" EnableArea="0 0 180 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드란?" Font="BaseFont_12" Color="ffede9d0" OverColor="ffede9d0" ClickColor="ffede9d0" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildManager" Pos="Center Top" Size="450 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 450 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="길드 관리" formatString="GUILD_MANAGER_TEXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Create" Pos="Center Bottom" Size="180 20" Pan="0 50" Color="ffffffff" EnableArea="0 0 180 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드를 창설하시겠습니까?" Font="BaseFont_10" Color="ffd27777" OverColor="ffb3aeae" ClickColor="ffb3aeae" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

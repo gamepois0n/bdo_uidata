@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9430</itemKey>
+	<itemName>Steak saignant</itemName>
+	<itemIcon>00009430.png</itemIcon>
+	<itemDesc>Un steak grillé à la perfection.\n\n- Effet unique : PV max. +50 pendant 75 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

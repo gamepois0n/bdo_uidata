@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8211</itemKey>
+	<itemName>Kalmar</itemName>
+	<itemIcon>00008211.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</itemDesc>
+	<fishing/>
+	<node region="Insel Pujara – Fischreuse 2"/>
+	<node region="Insel Paratama – Fischreuse"/>
+	<node region="Insel Mariveno – Fischreuse"/>
+	<node region="Insel Serca – Fischreuse"/>
+	<node region="Insel Oben – Fischreuse 1"/>
+	<node region="Insel Barater – Fischreuse 1"/>
+	<node region="Insel Weita – Fischreuse"/>
+	<makelist>
+		<item>
+			<id>8511</id>
+			<name>Getrockneter Kalmar</name>
+			<icon>00008511.png</icon>
+			<desc>Ein Getrockneter Kalmar, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

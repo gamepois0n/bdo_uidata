@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4659</itemKey>
+	<itemName>Stabiles Pinienschichtholz</itemName>
+	<itemIcon>00004659.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Pinienschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4658</id>
+			<name>Pinienschichtholz</name>
+			<icon>00004658.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Pinienholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4684</id>
+			<name>Schichtholz-Härter</name>
+			<icon>00004684.png</icon>
+			<desc>Ein Material, das genutzt wird, um Schichthölzer durch Verarbeitung zu verstärken.\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>56012</id>
+			<name>Lynch-Kanonenbausatz</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Lynch-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nSie ist eine sehr lange haltbare Kanone aus Stahl. Sie hält moderate Hitze aus und feuert mit durchschnittlicher Geschwindigkeit.\nDer Schusswinkel kann in 4 Stufen geregelt werden.\nBasis-Kanonenschaden: 1000\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>51008</id>
+			<name>Wagenregistrierung: Adelswagen</name>
+			<icon>00051008.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Adelswagens』.\n– Inventarplätze: 20, Beschleunigung: 95 %, Geschwindigkeit: 95 %, Wenden: 95 %, Bremse: 95 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

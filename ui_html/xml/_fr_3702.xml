@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>3702</itemKey>
+	<itemName>Outil d&apos;alchimie intermédiaire</itemName>
+	<itemIcon>Crafting_Alchemy_02.png</itemIcon>
+	<itemDesc>Un outil pouvant reconstruire les composants d&apos;une substance.\n- Vous pouvez l&apos;installer dans une résidence.</itemDesc>
+	<house type="9">
+		<item>
+			<id>4006</id>
+			<name>Pierre brute</name>
+			<icon>00004006.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être récolté avec une pioche sur n&apos;importe quel rocher au sol.</desc>
+		</item>
+		<item>
+			<id>4605</id>
+			<name>Rondin</name>
+			<icon>00004605.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en débitant des arbres poussant dans chaque région.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Fragment de fer fondu</name>
+			<icon>00004051.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de fer.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

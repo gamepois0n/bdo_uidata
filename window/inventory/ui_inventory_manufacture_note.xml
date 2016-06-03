@@ -1,0 +1,20 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Invertory_Manufacture_BG" Pos="1200 382" Size="162 74" Pan="0 0" Color="ffffffff" EnableArea="0 0 162 74" Grid="1" GridPosX="0 5 157 162" GridPosY="0 5 69 74" GridUVX="0 5 178 183" GridUVY="0 5 217 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="Button" Name="Button_Manufacture" Pos="4 4" Size="154 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 262 155 262 1 294 155 294" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="156 262 310 262 156 294 310 294" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="311 262 465 262 311 294 465 294" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="가공 시작" formatString="ALCHEMY_MANUFACTURE_BTN_MANUFACTURE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="50 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Note" Pos="4 38" Size="154 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 229 155 229 1 261 155 261" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="156 229 310 229 156 261 310 261" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="311 229 465 229 311 261 465 261" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="제작 노트" formatString="PRODUCTNOTE_BTN" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="50 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

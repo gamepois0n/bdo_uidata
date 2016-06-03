@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6173</itemKey>
+	<itemName>Supreme Lightweight Plume</itemName>
+	<itemIcon>00006173.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking Fine Lightweight Plumes and Leather Glaze, an ingredient made through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>6165</id>
+			<name>Fine Lightweight Plume</name>
+			<icon>00006165.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Thinning Lightweight Plumes. It requires knowledge of Thinning.</desc>
+		</item>
+		<item>
+			<id>6183</id>
+			<name>Leather Glaze</name>
+			<icon>00006183.png</icon>
+			<desc>A material used to reinforce leather, fur, and feathers through Processing.\n\n- How to Obtain: It can be obtained through Alchemy.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

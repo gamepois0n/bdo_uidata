@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8229</itemKey>
+	<itemName>Poisson volant</itemName>
+	<itemIcon>00008229.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8529</id>
+			<name>Poisson volant séché</name>
+			<icon>00008529.png</icon>
+			<desc>Un poisson volant obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

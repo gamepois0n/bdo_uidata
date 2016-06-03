@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11716</itemKey>
+	<itemName>Emerald Necklace</itemName>
+	<itemIcon>00011716.png</itemIcon>
+	<itemDesc>A necklace decorated with an Emerald.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4201</id>
+			<name>Silver Ore</name>
+			<icon>00004201.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Silver Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Silver.</desc>
+		</item>
+		<item>
+			<id>4404</id>
+			<name>Rough Emerald</name>
+			<icon>00004404.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Emerald requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11717</id>
+			<name>Resplendent Emerald Necklace</name>
+			<icon>00011717.png</icon>
+			<desc>A necklace decorated with a Resplendent Emerald.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

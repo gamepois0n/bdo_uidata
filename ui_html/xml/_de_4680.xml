@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4680</itemKey>
+	<itemName>Akazienbrett</itemName>
+	<itemIcon>00004680.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Akazienholz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Akazie</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4609</id>
+			<name>Akazienholz</name>
+			<icon>00004609.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Steinschweif-Ödland hergestellt werden. Kann außerdem durch Fällen von Akazien erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4681</id>
+			<name>Akazienschichtholz</name>
+			<icon>00004681.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Akazienholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

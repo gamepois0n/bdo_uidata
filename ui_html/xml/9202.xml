@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9202</itemKey>
+	<itemName>Pickled Vegetables</itemName>
+	<itemIcon>00009202.png</itemIcon>
+	<itemDesc>Vegetable soaked in vinegar. \n- Unique effect: Gathering Speed Rank +1 for 60min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Vinegar</name>
+			<icon>00009066.png</icon>
+			<desc>A sour liquid made of fermented grains and fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit and Vegetable Salad, Pickled Vegetables, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Cabbage</name>
+			<icon>00007318.png</icon>
+			<desc>A plump cabbage used as an ingredient in Cooking.\nUsage: Stir-Fried Vegetables, Fried Vegetables, etc.\n- How to Obtain: It can be Gathered from Cabbage using Bare Hands.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinegar</name>
+			<icon>00009066.png</icon>
+			<desc>A sour liquid made of fermented grains and fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit and Vegetable Salad, Pickled Vegetables, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

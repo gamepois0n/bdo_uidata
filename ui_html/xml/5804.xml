@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5804</itemKey>
+	<itemName>Fleece</itemName>
+	<itemIcon>00005804.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Lynch Ranch.</itemDesc>
+	<node region="Lynch Ranch - Fleece Production"/>
+	<makelist>
+		<item>
+			<id>5854</id>
+			<name>Knitting Yarn</name>
+			<icon>00005854.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Fleece.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

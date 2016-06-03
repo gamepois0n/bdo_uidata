@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6353</itemKey>
+	<itemName>Blut des Clowns</itemName>
+	<itemIcon>00006353.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>6214</id>
+			<name>Wolfsblut</name>
+			<icon>00006214.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Wolfskadaver erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Pulver der Dunkelheit</name>
+			<icon>00004801.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5006</id>
+			<name>Geisterblatt</name>
+			<icon>00005006.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Geisterblatt erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>49303</id>
+			<name>Bug der Altinova-Fähre</name>
+			<icon>00049303.png</icon>
+			<desc>Ein Bug aus Mediah, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, schneller zu segeln.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +3 %\nGesamte VK +30\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Waffen-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004910.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

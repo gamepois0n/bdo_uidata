@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5851</itemKey>
+	<itemName>Baumwollgarn</itemName>
+	<itemIcon>00005851.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Baumwolle gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Baumwolle</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bettwäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäscheständer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zelt</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>5801</id>
+			<name>Baumwolle</name>
+			<icon>00005801.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf dem Ahtohof und Hof Kasula hergestellt werden. Kann außerdem durch Sammeln der seltenen Wilden Baumwolle erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<node region="Ahtohof – Baumwollanbau"/>
+	<node region="Hof Kasula – Baumwollanbau"/>
+	<makelist>
+		<item>
+			<id>13005</id>
+			<name>Klingenanhänger</name>
+			<icon>00010706.png</icon>
+			<desc>Ein Anhänger, an dem eine dekorative Klinge befestigt ist.</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Ultimativer Klingenanhänger</name>
+			<icon>00010707.png</icon>
+			<desc>Ein maximal aufgerüsteter Klingenanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger der Zerstörung, Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Klingenanhänger der Versuchung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Klingenanhänger der Zerstörung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Zerstörung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Klingenanhänger der Purpurnen Flamme</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimativer Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein maximal aufgerüsteter Saiyer-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer-Schmuckknoten der Versuchung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer-Schmuckknoten der Zerstörung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten aus hochwertiger Seide.</desc>
+		</item>
+		<item>
+			<id>5855</id>
+			<name>Baumwollstoff</name>
+			<icon>00005855.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Baumwollgarn gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>24132</id>
+			<name>Kissen aus weißem Schafsfell</name>
+			<icon>InHouse_X_DPFO_Cushion_01.png</icon>
+			<desc>Ein weißes Kissen aus Schafsfell.</desc>
+		</item>
+		<item>
+			<id>24109</id>
+			<name>Viereckiger Korb mit Deckel</name>
+			<icon>InHouse_X_DPFO_Basket_12.png</icon>
+			<desc>Ein eckiger Strohkorb mit Deckel.</desc>
+		</item>
+		<item>
+			<id>24108</id>
+			<name>Strohgefäß</name>
+			<icon>InHouse_X_DPFO_Basket_08.png</icon>
+			<desc>Ein Strohgefäß.</desc>
+		</item>
+		<item>
+			<id>24107</id>
+			<name>Korb mit zwei Henkeln</name>
+			<icon>InHouse_X_DPFO_Basket_07.png</icon>
+			<desc>Ein Strohkorb mit zwei Henkeln.</desc>
+		</item>
+		<item>
+			<id>24106</id>
+			<name>Strohkorb mit Henkeln</name>
+			<icon>InHouse_X_DPFO_Basket_06.png</icon>
+			<desc>Ein Strohkorb mit Henkel.</desc>
+		</item>
+		<item>
+			<id>24817</id>
+			<name>Teppich aus Serendia</name>
+			<icon>InHouse_X_DPF_Carpet_09.png</icon>
+			<desc>Ein Teppich aus Serendia.</desc>
+		</item>
+		<item>
+			<id>24193</id>
+			<name>Puppe</name>
+			<icon>InHouse_X_DPFO_Doll_01.png</icon>
+			<desc>Eine Puppe.</desc>
+		</item>
+		<item>
+			<id>25623</id>
+			<name>Baumwollvorhang mit Schlaufen</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Tied.png</icon>
+			<desc>Ein einfacher Schlaufenvorhang aus Baumwolle.</desc>
+		</item>
+		<item>
+			<id>25620</id>
+			<name>Baumwollvorhang</name>
+			<icon>InHouse_X_DPW_Curtain_01_01_Back.png</icon>
+			<desc>Ein einfacher Vorhang aus Baumwolle.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

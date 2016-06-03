@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9059</itemKey>
+	<itemName>Mineralwasser</itemName>
+	<itemIcon>00009059.png</itemIcon>
+	<itemDesc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</itemDesc>
+	<shop>
+		<character>
+			<name>Hannes</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fredelles Herba</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Nadia Rowen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vangelas</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Konstantin</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Deborah</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fatoos</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Weikid Taha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Edman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Broman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ekta</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Pasenia</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Graurab</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Adin</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dyleoyen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ivan DeRose</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Izella</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>David Finto</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Paola Toscani</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>54003</id>
+			<name>Zuckerwürfel</name>
+			<icon>00054003.png</icon>
+			<desc>Bei Verwendung steigt die Chance, ein wildes Pferd zu zähmen.\nKann verwendet werden, nachdem ein Pferd mit einem Lasso gefangen wurde und Ihr nah an es herangetreten seid.</desc>
+		</item>
+		<item>
+			<id>7205</id>
+			<name>Maisteig</name>
+			<icon>00007205.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Maismehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7204</id>
+			<name>Süßkartoffelteig</name>
+			<icon>00007204.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Süßkartoffelmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7203</id>
+			<name>Kartoffelteig</name>
+			<icon>00007203.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Kartoffelmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7202</id>
+			<name>Gerstenteig</name>
+			<icon>00007202.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Gerstenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Konzentrierter Kräutersaft</name>
+			<icon>00000570.png</icon>
+			<desc>Stellt bei Verwendung sofort +175 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Kräutersaft</name>
+			<icon>00000569.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Konzentrierter Feldsaft</name>
+			<icon>00000567.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Feldsaft</name>
+			<icon>00000566.png</icon>
+			<desc>Stellt bei Verwendung sofort +75 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

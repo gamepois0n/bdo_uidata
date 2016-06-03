@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14458</itemKey>
+	<itemName>Krea-Stab der Purpurnen Flamme</itemName>
+	<itemIcon>00014456.png</itemIcon>
+	<itemDesc>Dieser Krea-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab</itemDesc>
+	<house type="6">
+		<item>
+			<id>4253</id>
+			<name>Reiner Silberkristall</name>
+			<icon>00004253.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Silberbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>5004</id>
+			<name>Birkensaft</name>
+			<icon>00005004.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Birke erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4604</id>
+			<name>Birkenholz</name>
+			<icon>00004604.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf dem Quintenhügel, in den Breebaumruinen und Alt-Löwenzahn hergestellt werden. Kann außerdem durch Fällen von Birken erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Mönchszweig</name>
+			<icon>00005007.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Mönchszweig erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5952</id>
+			<name>Spur der Verzweiflung</name>
+			<icon>00005952.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung beim Rhuabaumstumpf und beim Manshawald gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14456</id>
+			<name>Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein Stab, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14456</id>
+			<name>Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein Stab, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimativer Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab der Zerstörung, Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea-Stab der Versuchung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea-Stab der Zerstörung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Zerstörung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea-Stab der Purpurnen Flamme</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

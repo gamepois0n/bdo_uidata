@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8235</itemKey>
+	<itemName>Skorpionfisch</itemName>
+	<itemIcon>00008235.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<fishing/>
+	<node region="Insel Delinghart – Fischreuse 2"/>
+	<node region="Insel Angie – Fischreuse 3"/>
+	<node region="Insel Teyamal – Fischreuse 2"/>
+	<node region="Insel Staren – Fischreuse 2"/>
+	<makelist>
+		<item>
+			<id>8535</id>
+			<name>Getrockneter Skorpionfisch</name>
+			<icon>00008535.png</icon>
+			<desc>Ein Getrockneter Skorpionfisch, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

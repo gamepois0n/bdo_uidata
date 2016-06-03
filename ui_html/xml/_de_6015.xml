@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6015</itemKey>
+	<itemName>Kriegramhaut</itemName>
+	<itemIcon>00006015.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Kriegramkadavers gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Explosiver Kriegram</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kriegram</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kriegramjunges</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6156</id>
+			<name>Ausgefallenes Fell</name>
+			<icon>00006156.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Kriegram- oder Gepardendrachenhaut gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>6164</id>
+			<name>Feines ausgefallenes Fell</name>
+			<icon>00006164.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Kriegram- oder Gepardendrachenhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

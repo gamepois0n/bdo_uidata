@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4466</itemKey>
+	<itemName>Durchsichtiger Kristall</itemName>
+	<itemIcon>00004466.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe der Goblinhöhle gefundenem Durchsichtigen Rohkristall gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4406</id>
+			<name>Durchsichtiger Rohkristall</name>
+			<icon>00004406.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Durchsichtiger Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe der Goblinhöhle gesammelt werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10809</id>
+			<name>Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10810</id>
+			<name>Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10811</id>
+			<name>Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10812</id>
+			<name>Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16167</id>
+			<name>Eschenholzfloß</name>
+			<icon>00016167.png</icon>
+			<desc>Ein aus Eschenholz gefertigtes Floß. Für den Fang großer Fische geeignet.\n\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Agerian-Rüstung der Eisenmauer</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Eisenmauer, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Agerian-Helm der Eisenmauer</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Eisenmauer, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>55861</id>
+			<name>Durchsichtiges Kristallamulett der Glückseligkeit</name>
+			<icon>00055861.png</icon>
+			<desc>Schmuck aus durchsichtigem Kristall. Jene, die nach Glückseligkeit streben, tragen ihn als Glücksbringer.</desc>
+		</item>
+		<item>
+			<id>10840</id>
+			<name>Ultimative Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Maximal aufgerüstete Agerian-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Eisenmauer, Agerian-Schuhe der Beweglichkeit, Agerian-Schuhe der Einschüchterung, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10839</id>
+			<name>Ultimative Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Maximal aufgerüstete Agerian-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Eisenmauer, Agerian-Handschuhe der Beweglichkeit, Agerian-Handschuhe der Einschüchterung, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10838</id>
+			<name>Ultimative Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maximal aufgerüstete Agerian-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Eisenmauer, Agerian-Rüstung der Beweglichkeit, Agerian-Rüstung der Einschüchterung, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10837</id>
+			<name>Ultimativer Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Ein maximal aufgerüsteter Agerian-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Eisenmauer, Agerian-Helm der Beweglichkeit, Agerian-Helm der Einschüchterung, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Agerian-Schuhe der Einschüchterung</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Einschüchterung, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Agerian-Handschuhe der Einschüchterung</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Einschüchterung, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Agerian-Handschuhe der Beweglichkeit</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Beweglichkeit, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Agerian-Rüstung der Beweglichkeit</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Beweglichkeit, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Agerian-Helm der Beweglichkeit</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Beweglichkeit, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Agerian-Schuhe der Eisenmauer</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Eisenmauer, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Agerian-Handschuhe der Eisenmauer</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Eisenmauer, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10812</id>
+			<name>Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10811</id>
+			<name>Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10810</id>
+			<name>Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10809</id>
+			<name>Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Agerian-Rüstung der Einschüchterung</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Einschüchterung, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Agerian-Helm der Einschüchterung</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Einschüchterung, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Agerian-Schuhe der Beweglichkeit</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Beweglichkeit, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

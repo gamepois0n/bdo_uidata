@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6603</itemKey>
+	<itemName>Öl der Tapferkeit</itemName>
+	<itemIcon>00006603.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6353</id>
+			<name>Blut des Clowns</name>
+			<icon>00006353.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>6353</id>
+			<name>Blut des Clowns</name>
+			<icon>00006353.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>5205</id>
+			<name>Frucht der Natur</name>
+			<icon>00005205.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Flammenpulver</name>
+			<icon>00004802.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Mönchszweig</name>
+			<icon>00005007.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Mönchszweig erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16001</id>
+			<name>Schwarzstein (Waffe)</name>
+			<icon>00000008.png</icon>
+			<desc>Waffen können durch den Schwarzgeist verstärkt werden.\n\n– Kann verstärken: Waffe, Sekundärwaffe</desc>
+		</item>
+		<item>
+			<id>52503</id>
+			<name>Kampf-Stahlrosskopf</name>
+			<icon>00052503.png</icon>
+			<desc>Ein Pferdehelm aus Stahl. Beständig, aber ziemlich schwer.\n\n– Ausrüstung für Pferde\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52502</id>
+			<name>Leichter rotgefiederter Rosskopf</name>
+			<icon>00052502.png</icon>
+			<desc>Ein Pferdehelm mit roten Federn. Widerstandsfähig und leicht.\n\n– Ausrüstung für Pferde\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

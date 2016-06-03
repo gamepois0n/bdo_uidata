@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4401</itemKey>
+	<itemName>Rohrubin</itemName>
+	<itemIcon>00004401.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohrubin erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ausgewachsener Steingeist</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bergbau</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blutstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diorit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ebenen-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faustwald-Kräutersteinrückenkr</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Faustwald-Wurzelsteinrückenkre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Feldspat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Granit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grasrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Hochkopf-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Hofsteinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Käfer-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Königin der Steinrückenkrebse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Moos-Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Moospflanze</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rauhsteinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Regenbogenstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rubin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Schlammstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinkiste</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinrückenkrebs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Winziger Faustwald-Steinrücken</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zäher Faustwald-Steinrückenkre</name>
+		</character>
+	</collect>
+	<node region="Omar-Lavahöhle – Bergbau"/>
+	<makelist>
+		<item>
+			<id>11901</id>
+			<name>Rubinohrringe</name>
+			<icon>00011901.png</icon>
+			<desc>Ein mit einem Rubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11701</id>
+			<name>Rubinhalskette</name>
+			<icon>00011701.png</icon>
+			<desc>Eine mit einem Rubin verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>12101</id>
+			<name>Rubinring</name>
+			<icon>00012101.png</icon>
+			<desc>Ein mit einem Rubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Rubin-Kürbisflasche</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>Eine Rubin-Kürbisflasche.</desc>
+		</item>
+		<item>
+			<id>4452</id>
+			<name>Glänzender Rubin</name>
+			<icon>00004452.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubin</name>
+			<icon>00004451.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

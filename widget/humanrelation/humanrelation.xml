@@ -1,0 +1,11 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Copy_HumanRelation" Pos="-1000 -1000" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 823 580" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Control Type="StaticText" Name="StaticText_Point" Pos="Center Center" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="LocationVillage" Font="BaseFont_10" Color="ffdddddd" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 20"/>
+		</Control>
+	</Control>
+</UI>
+

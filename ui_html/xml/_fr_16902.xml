@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16902</itemKey>
+	<itemName>Engrais dérivé</itemName>
+	<itemIcon>00016901.png</itemIcon>
+	<itemDesc>Augmente la croissance des cultures alentours. Utiliser un engrais à proximité d&apos;un jardin réduit le temps de pousse des cultures.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Engrais minéral</name>
+			<icon>00016901.png</icon>
+			<desc>Augmente la croissance des cultures alentours. Utiliser un engrais avant de planter réduit le temps de pousse des cultures.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16903</id>
+			<name>Engrais organique</name>
+			<icon>00016901.png</icon>
+			<desc>Augmente la croissance des cultures alentours. Utiliser un engrais à proximité d&apos;un jardin réduit le temps de pousse des cultures.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

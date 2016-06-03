@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8629</itemKey>
+	<itemName>Getrocknete Muräne</itemName>
+	<itemIcon>00008596.png</itemIcon>
+	<itemDesc>Eine Getrocknete Muräne, die durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8329</id>
+			<name>Muräne</name>
+			<icon>00008329.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

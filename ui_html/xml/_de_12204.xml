@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12204</itemKey>
+	<itemName>Elisha-Gürtel</itemName>
+	<itemIcon>00012204.png</itemIcon>
+	<itemDesc>Ein Gürtel, der dem Träger Gelassenheit gibt.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</itemDesc>
+	<shop>
+		<character>
+			<name>Tachros</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>4251</id>
+			<name>Geschmolzener Silbersplitter</name>
+			<icon>00004251.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Silbererz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubin</name>
+			<icon>00004451.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

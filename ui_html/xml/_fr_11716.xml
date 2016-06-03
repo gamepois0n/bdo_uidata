@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11716</itemKey>
+	<itemName>Collier d&apos;émeraude</itemName>
+	<itemIcon>00011716.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;une émeraude.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4201</id>
+			<name>Minerai d&apos;argent</name>
+			<icon>00004201.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un minerai d&apos;argent demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant de l&apos;argent.</desc>
+		</item>
+		<item>
+			<id>4404</id>
+			<name>Émeraude brute</name>
+			<icon>00004404.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer une émeraude brute demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11717</id>
+			<name>Collier d&apos;émeraude resplendissant</name>
+			<icon>00011717.png</icon>
+			<desc>Un collier décoré d&apos;une émeraude brillante.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

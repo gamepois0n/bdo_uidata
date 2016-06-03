@@ -1,0 +1,25 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Adrenallin" Pos="Center Bottom" Size="75 75" Pan="225 76" Color="ffffffff" EnableArea="0 0 75 75">
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="10 10 0.030 0">new_ui_common_forlua/default/blackstone_ani_00.dds</Texture>
+		<Control Type="Progress2" Name="CircularProgress_Adrenallin" Pos="Center Center" Size="75 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 75 75">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="10 10 0.030 0">new_ui_common_forlua/default/blackstone_ani.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="54 12" Size="96 128" Pan="0 0" Color="cc000044" EnableArea="0 0 96 128">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AdPercent" Pos="Center Center" Size="75 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 75 75">
+			<Attribute Type="Ignore"/>
+			<Text Value="0%" Font="BaseFont_10_Line" Color="ffffe363" OverColor="ffffe363" ClickColor="ffffe363" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="-17 0" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7304</itemKey>
+	<itemName>Strawberry</itemName>
+	<itemIcon>00007304.png</itemIcon>
+	<itemDesc>This Cooking ingredient can be obtained by Farming.\nUsage: Fruit Juice, Fruit Pudding, etc.\n- How to Obtain: It can be obtained by Farming Strawberry Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</itemDesc>
+	<shop>
+		<character>
+			<name>Milano Belucci</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>7404</id>
+			<name>Strawberry Crate</name>
+			<icon>00007404.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

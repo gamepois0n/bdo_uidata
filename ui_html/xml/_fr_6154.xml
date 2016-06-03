@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6154</itemKey>
+	<itemName>Peau fine</itemName>
+	<itemIcon>00006154.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en séchant une peau de raton laveur, de singe ou de belette.</itemDesc>
+	<collect>
+		<character>
+			<name>Belette</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Belette féroce</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Guenon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Raton laveur marron</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6010</id>
+			<name>Peau de raton laveur</name>
+			<icon>00006010.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un raton laveur tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6011</id>
+			<name>Peau de singe</name>
+			<icon>00006011.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un singe tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6012</id>
+			<name>Fourrure de belette</name>
+			<icon>00006012.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant une belette tuée à la chasse.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10806</id>
+			<name>Armure de Reblath</name>
+			<icon>00010806.png</icon>
+			<desc>Un modèle d&apos;armure produit en grande quantité pour la milice.</desc>
+		</item>
+		<item>
+			<id>10805</id>
+			<name>Casque de Reblath</name>
+			<icon>00010805.png</icon>
+			<desc>Un modèle d&apos;armure produit en grande quantité pour la milice.</desc>
+		</item>
+		<item>
+			<id>10808</id>
+			<name>Chaussures de Reblath</name>
+			<icon>00010808.png</icon>
+			<desc>Un modèle d&apos;armure produit en grande quantité pour la milice.</desc>
+		</item>
+		<item>
+			<id>10807</id>
+			<name>Gants de Reblath</name>
+			<icon>00010807.png</icon>
+			<desc>Un modèle d&apos;armure produit en grande quantité pour la milice.</desc>
+		</item>
+		<item>
+			<id>6162</id>
+			<name>Peau fine délicate</name>
+			<icon>00006162.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de raton laveur, de singe ou de belette. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

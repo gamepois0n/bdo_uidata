@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5955</itemKey>
+	<itemName>Trace d&apos;ascension</itemName>
+	<itemIcon>00005955.png</itemIcon>
+	<itemDesc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10014</id>
+			<name>Épée longue de Yuria</name>
+			<icon>00010014.png</icon>
+			<desc>Une épée longue possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10214</id>
+			<name>Arc long de Yuria</name>
+			<icon>00010214.png</icon>
+			<desc>Un arc long possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10414</id>
+			<name>Amulette de Yuria</name>
+			<icon>00010414.png</icon>
+			<desc>Une amulette possédée par une haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10614</id>
+			<name>Hache de Yuria</name>
+			<icon>00010614.png</icon>
+			<desc>Une hache possédée par une haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13214</id>
+			<name>Épée courte de Yuria</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte possédée par une haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14414</id>
+			<name>Bâton de Yuria</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<node region="Salle de pierre ancestrale : excavation"/>
+	<makelist>
+		<item>
+			<id>13243</id>
+			<name>Épée courte de Yuria ultime</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte de Yuria qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée courte de Yuria.\n\n- Rétablir la durabilité maximale : épée courte de Yuria de la flamme pourpre, épée courte de Yuria de destruction, épée courte de Yuria de tentation, épée courte de Yuria</desc>
+		</item>
+		<item>
+			<id>13242</id>
+			<name>Épée courte de Yuria de tentation</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Yuria renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée courte de Yuria.\n\n- Rétablir la durabilité maximale : épée courte de Yuria de tentation, épée courte de Yuria</desc>
+		</item>
+		<item>
+			<id>13241</id>
+			<name>Épée courte de Yuria de destruction</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Yuria renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée courte de Yuria.\n\n- Rétablir la durabilité maximale : épée courte de Yuria de destruction, épée courte de Yuria</desc>
+		</item>
+		<item>
+			<id>13240</id>
+			<name>Épée courte de Yuria de la flamme pourpre</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Yuria renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée courte de Yuria.\n\n- Rétablir la durabilité maximale : épée courte de Yuria de la flamme pourpre, épée courte de Yuria</desc>
+		</item>
+		<item>
+			<id>13214</id>
+			<name>Épée courte de Yuria</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte possédée par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>14443</id>
+			<name>Bâton de Yuria ultime</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton de Yuria ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria de destruction, bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Bâton de Yuria de tentation</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Bâton de Yuria de destruction</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de destruction, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Bâton de Yuria de la flamme pourpre</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>10640</id>
+			<name>Hache de Yuria de la flamme pourpre</name>
+			<icon>00010614.png</icon>
+			<desc>Cette hache de Yuria renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache de Yuria.\n\n- Rétablir la durabilité maximale : hache de Yuria de la flamme pourpre, hache de Yuria</desc>
+		</item>
+		<item>
+			<id>10414</id>
+			<name>Amulette de Yuria</name>
+			<icon>00010414.png</icon>
+			<desc>Une amulette possédée par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10643</id>
+			<name>Hache de Yuria ultime</name>
+			<icon>00010614.png</icon>
+			<desc>Une hache de Yuria qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une hache de Yuria.\n\n- Rétablir la durabilité maximale : hache de Yuria de la flamme pourpre, hache de Yuria de destruction, hache de Yuria de tentation, hache de Yuria</desc>
+		</item>
+		<item>
+			<id>10642</id>
+			<name>Hache de Yuria de tentation</name>
+			<icon>00010614.png</icon>
+			<desc>Cette hache de Yuria renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une hache de Yuria.\n\n- Rétablir la durabilité maximale : hache de Yuria de tentation, hache de Yuria</desc>
+		</item>
+		<item>
+			<id>10641</id>
+			<name>Hache de Yuria de destruction</name>
+			<icon>00010614.png</icon>
+			<desc>Cette hache de Yuria renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une hache de Yuria.\n\n- Rétablir la durabilité maximale : hache de Yuria de destruction, hache de Yuria</desc>
+		</item>
+		<item>
+			<id>10614</id>
+			<name>Hache de Yuria</name>
+			<icon>00010614.png</icon>
+			<desc>Une hache possédée par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Bâton de Yuria</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Amulette de Yuria de destruction</name>
+			<icon>00010414.png</icon>
+			<desc>Cette amulette de Yuria renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une amulette de Yuria.\n\n- Rétablir la durabilité maximale : amulette de Yuria de destruction, amulette de Yuria</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Amulette de Yuria de la flamme pourpre</name>
+			<icon>00010414.png</icon>
+			<desc>Cette amulette de Yuria renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de Yuria.\n\n- Rétablir la durabilité maximale : amulette de Yuria de la flamme pourpre, amulette de Yuria</desc>
+		</item>
+		<item>
+			<id>10443</id>
+			<name>Amulette de Yuria ultime</name>
+			<icon>00010414.png</icon>
+			<desc>Une amulette de Yuria qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une amulette de Yuria.\n\n- Rétablir la durabilité maximale : amulette de Yuria de la flamme pourpre, amulette de Yuria de destruction, amulette de Yuria de tentation, amulette de Yuria</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Amulette de Yuria de tentation</name>
+			<icon>00010414.png</icon>
+			<desc>Cette amulette de Yuria renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une amulette de Yuria.\n\n- Rétablir la durabilité maximale : amulette de Yuria de tentation, amulette de Yuria</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Arc long de Yuria</name>
+			<icon>00010214.png</icon>
+			<desc>Un arc long possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10243</id>
+			<name>Arc long de Yuria ultime</name>
+			<icon>00010214.png</icon>
+			<desc>Un arc long de Yuria qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de Yuria.\n\n- Rétablir la durabilité maximale : arc long de Yuria de la flamme pourpre, arc long de Yuria de destruction, arc long de Yuria de tentation, arc long de Yuria, arc long de tentation</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Arc long de Yuria de tentation</name>
+			<icon>00010214.png</icon>
+			<desc>Cet arc long de Yuria renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de Yuria.\n\n- Rétablir la durabilité maximale : arc long de Yuria de tentation, arc long de Yuria</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Arc long de Yuria de destruction</name>
+			<icon>00010214.png</icon>
+			<desc>Cet arc long de Yuria renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de Yuria.\n\n- Rétablir la durabilité maximale : arc long de Yuria de destruction, arc long de Yuria</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Arc long de Yuria de la flamme pourpre</name>
+			<icon>00010214.png</icon>
+			<desc>Cet arc long de Yuria renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Yuria.\n\n- Rétablir la durabilité maximale : arc long de Yuria de la flamme pourpre, arc long de Yuria</desc>
+		</item>
+		<item>
+			<id>10043</id>
+			<name>Épée longue de Yuria ultime</name>
+			<icon>00010014.png</icon>
+			<desc>Une épée longue de Yuria qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée longue de Yuria.\n\n- Rétablir la durabilité maximale : épée longue de Yuria de la flamme pourpre, épée longue de Yuria de destruction, épée longue de Yuria de tentation, épée longue de Yuria</desc>
+		</item>
+		<item>
+			<id>10042</id>
+			<name>Épée longue de Yuria de tentation</name>
+			<icon>00010014.png</icon>
+			<desc>Cette épée longue de Yuria renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée longue de Yuria.\n\n- Rétablir la durabilité maximale : épée longue de Yuria de tentation, épée longue de Yuria</desc>
+		</item>
+		<item>
+			<id>10041</id>
+			<name>Épée longue de Yuria de destruction</name>
+			<icon>00010014.png</icon>
+			<desc>Cette épée longue de Yuria renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée longue de Yuria.\n\n- Rétablir la durabilité maximale : épée longue de Yuria de destruction, épée longue de Yuria</desc>
+		</item>
+		<item>
+			<id>10040</id>
+			<name>Épée longue de Yuria de la flamme pourpre</name>
+			<icon>00010014.png</icon>
+			<desc>Cette épée longue de Yuria renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée longue de Yuria.\n\n- Rétablir la durabilité maximale : épée longue de Yuria de la flamme pourpre, épée longue de Yuria</desc>
+		</item>
+		<item>
+			<id>10014</id>
+			<name>Épée longue de Yuria</name>
+			<icon>00010014.png</icon>
+			<desc>Une épée longue possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

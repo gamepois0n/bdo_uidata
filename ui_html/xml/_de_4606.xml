@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4606</itemKey>
+	<itemName>Tannenholz</itemName>
+	<itemIcon>00004606.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Manshawald, bei Phoniels Hütte und im Treantwald hergestellt werden. Kann außerdem durch Fällen von Tannen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Tanne</name>
+		</character>
+	</collect>
+	<node region="Manshawald – Holzfällen"/>
+	<node region="Phoniels Hütte – Holzfällen"/>
+	<node region="Treantwald – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>16164</id>
+			<name>Calpheon-Angelrute</name>
+			<icon>00016164.png</icon>
+			<desc>Calpheon-Angelrute. … Das ist sehr effektiv!\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55834</id>
+			<name>Tannenholzkiste</name>
+			<icon>00055834.png</icon>
+			<desc>Handelsware, die 10 Tannenholz enthält.</desc>
+		</item>
+		<item>
+			<id>10243</id>
+			<name>Ultimativer Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen der Zerstörung, Yuria-Langbogen der Versuchung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Yuria-Langbogen der Versuchung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Versuchung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Yuria-Langbogen der Zerstörung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Zerstörung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Yuria-Langbogen der Purpurnen Flamme</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein Langbogen, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>4664</id>
+			<name>Tannenschichtholz</name>
+			<icon>00004664.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4663</id>
+			<name>Tannenbrett</name>
+			<icon>00004663.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

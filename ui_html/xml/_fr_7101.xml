@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7101</itemKey>
+	<itemName>Farine de blé</itemName>
+	<itemIcon>00007101.png</itemIcon>
+	<itemDesc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7006</id>
+			<name>Blé de haute qualité</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7011</id>
+			<name>Blé spécial</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

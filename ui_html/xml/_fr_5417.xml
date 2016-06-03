@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5417</itemKey>
+	<itemName>Champignon bluffé</itemName>
+	<itemIcon>00005417.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les champignons bluffés peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</itemDesc>
+	<collect>
+		<character>
+			<name>Champignon bluffé</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7517</id>
+			<name>Caisse de champignons bluffés</name>
+			<icon>00007517.png</icon>
+			<desc>Un champignon transformé pour être vendu à meilleur prix. Il peut être vendu à des marchands.\n- Obtention : il peut être préparé grâce à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

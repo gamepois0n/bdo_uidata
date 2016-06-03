@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6355</itemKey>
+	<itemName>Sang de sage</itemName>
+	<itemIcon>00006355.png</itemIcon>
+	<itemDesc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6203</id>
+			<name>Sang de renard</name>
+			<icon>00006203.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un renard mort.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace d&apos;ascension</name>
+			<icon>00005955.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Branche de moine</name>
+			<icon>00005007.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une branche de moine demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4908</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 2</name>
+			<icon>00004908.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 2.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

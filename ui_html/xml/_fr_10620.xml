@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10620</itemKey>
+	<itemName>Hache d&apos;Azwell de la flamme pourpre</itemName>
+	<itemIcon>00010605.png</itemIcon>
+	<itemDesc>Cette hache d&apos;Azwell renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache d&apos;Azwell.\n\n- Rétablir la durabilité maximale : hache d&apos;Azwell de la flamme pourpre, hache d&apos;Azwell</itemDesc>
+	<house type="4">
+		<item>
+			<id>4077</id>
+			<name>Lingot d&apos;acier</name>
+			<icon>00004077.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant des fragments de fer fondu et du charbon. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4059</id>
+			<name>Cristal de cuivre pur</name>
+			<icon>00004059.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de cuivre. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Peau résistante délicate</name>
+			<icon>00006160.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de rhino, de cochon ou de vache. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10605</id>
+			<name>Hache d&apos;Azwell</name>
+			<icon>00010605.png</icon>
+			<desc>Une hache conçue spécialement pour le chef de la milice.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10605</id>
+			<name>Hache d&apos;Azwell</name>
+			<icon>00010605.png</icon>
+			<desc>Une hache conçue spécialement pour le chef de la milice.</desc>
+		</item>
+		<item>
+			<id>10623</id>
+			<name>Hache d&apos;Azwell ultime</name>
+			<icon>00010605.png</icon>
+			<desc>Une hache d&apos;Azwell qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une hache d&apos;Azwell.\n\n- Rétablir la durabilité maximale : hache d&apos;Azwell de la flamme pourpre, hache d&apos;Azwell de destruction, hache d&apos;Azwell de tentation, hache d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>10622</id>
+			<name>Hache d&apos;Azwell de tentation</name>
+			<icon>00010605.png</icon>
+			<desc>Cette hache d&apos;Azwell renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une hache d&apos;Azwell.\n\n- Rétablir la durabilité maximale : hache d&apos;Azwell de tentation, hache d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>10621</id>
+			<name>Hache d&apos;Azwell de destruction</name>
+			<icon>00010605.png</icon>
+			<desc>Cette hache d&apos;Azwell renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une hache d&apos;Azwell.\n\n- Rétablir la durabilité maximale : hache d&apos;Azwell de destruction, hache d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>10620</id>
+			<name>Hache d&apos;Azwell de la flamme pourpre</name>
+			<icon>00010605.png</icon>
+			<desc>Cette hache d&apos;Azwell renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache d&apos;Azwell.\n\n- Rétablir la durabilité maximale : hache d&apos;Azwell de la flamme pourpre, hache d&apos;Azwell</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

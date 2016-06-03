@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9403</itemKey>
+	<itemName>Fried Bird</itemName>
+	<itemIcon>00009403.png</itemIcon>
+	<itemDesc>Bird meat fried with grain powder. \n\n- Unique Effect: HP Recovery +5 for 60 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Egg</name>
+			<icon>00009064.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest.\n\n- Usage: Soft Bread, Omelet, etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Chicken Meat</name>
+			<icon>00007921.png</icon>
+			<desc>An ingredient used in Cooking.\n- How to Obtain: It can be Produced at Bartali Farm, Finto Farm\n\n- Usage: Fried Bird, Steamed Bird, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Egg</name>
+			<icon>00009064.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest.\n\n- Usage: Soft Bread, Omelet, etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pepper</name>
+			<icon>00007301.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Grilled Sausage, Seafood Pasta, Meat Soup, etc.\n- How to Obtain: It can be obtained by Farming Pepper Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

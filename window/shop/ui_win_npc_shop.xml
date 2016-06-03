@@ -1,0 +1,189 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_NpcShop" Pos="Center Center" Size="804 627" Pan="0 18" Color="ffffffff" EnableArea="10 15 790 620" Grid="1" GridPosX="0 50 754 804" GridPosY="-3 47 577 627" GridUVX="0 50 770 820" GridUVY="0 50 535 585" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 820 0 0 585 820 585" Ani="1 1 0.000 0">new_ui_common_forlua/window/characterinfo/my_info_back_wide.dds</Texture>
+		<Attribute Type="Drag" Area="10 15 790 45"/>
+		<Control Type="Static" Name="Static_PartLine" Pos="Center Top" Size="790 46" Pan="0 3" Color="ffffffff" EnableArea="0 0 790 46" Grid="1" GridPosX="0 50 740 790" GridPosY="0 30 40 46" GridUVX="0 50 350 400" GridUVY="0 30 40 46" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 400 0 0 46 400 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="blackpanel" Pos="Center Top" Size="759 402" Pan="0 85" Color="ffffffff" EnableArea="0 0 759 402" Grid="1" GridPosX="0 10 749 759" GridPosY="0 10 392 402" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="400 23" Pan="0 15" Color="ffffffff" EnableArea="0 0 400 23">
+			<Attribute Type="Ignore"/>
+			<Text Value="NPC 상점" formatString="SHOP_TEXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Texture_Money_Background" Pos="168 Bottom" Size="134 20" Pan="-20 48" Color="ffffffff" EnableArea="0 0 134 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Button" Name="Button_List" Pos="1018 189" Size="365 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 365 52" Grid="1" GridPosX="0 53 354 365" GridPosY="0 7 45 52" GridUVX="0 53 239 250" GridUVY="0 7 46 53" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="261 202 511 202 261 255 511 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="On" UV="261 256 511 256 261 309 511 309" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="Click" UV="261 310 511 310 261 363 511 363" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="아이템 이름" Font="BaseFont_10" Color="fff3f3f3" OverColor="fff3f3f3" ClickColor="fff3f3f3" AlignHorizon="Left" AlignVertical="Top" Span="60 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Effect" Pos="1023 251" Size="46 46" Pan="0 0" Color="ffffffff" EnableArea="0 0 46 46" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="197 209 239 209 197 251 239 251" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CurrentPrice" Pos="1280 220" Size="12 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="888.888.888" Font="BaseFont_10" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Right" AlignVertical="Top" Span="-75 -3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RemainCount" Pos="1060 215" Size="100 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="남은 수량 : 3개" Font="BaseFont_8_Bold" Color="ff3bd3ff" OverColor="ff3bd3ff" ClickColor="ff3bd3ff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Trend" Pos="1280 203" Size="100 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="지역 세율 적용" formatString="SHOP_TEXT_TEX" Font="BaseFont_8_Bold" Color="fface400" OverColor="fface400" ClickColor="fface400" AlignHorizon="Right" AlignVertical="Center" Span="15 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_InventoryCount" Pos="1274 191" Size="100 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="2개" Font="BaseFont_8_Bold" Color="ffed9c9c" OverColor="ffed9c9c" ClickColor="ffed9c9c" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Button_List_Effect" Pos="1021 311" Size="365 52" Pan="0 0" Color="ffffffff" EnableArea="0 0 365 52" Grid="1" GridPosX="0 53 354 365" GridPosY="0 7 45 52" GridUVX="0 53 239 250" GridUVY="0 7 46 53" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="261 148 511 148 261 201 511 201" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="20 20" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="41 20" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Tab_Buy" Pos="Center Top" Size="120 32" Pan="-130 49" Color="ffffffff" EnableArea="0 0 120 32" Grid="1" GridPosX="0 28 115 120" GridPosY="0 0 32 32" GridUVX="0 28 147 154" GridUVY="0 0 32 32" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<Texture Type="On" UV="1 232 155 232 1 264 155 264" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<Texture Type="Click" UV="1 265 155 265 1 297 155 297" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sprite" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="1" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="사 기" formatString="SHOP_BTN_TAPBUY" Font="BaseFont_10_Bold" Color="ffb3aeae" OverColor="ffb3aeae" ClickColor="ffb3aeae" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Tab_Sell" Pos="Center Top" Size="120 32" Pan="0 49" Color="ffffffff" EnableArea="0 0 120 32" Grid="1" GridPosX="0 28 115 120" GridPosY="0 0 32 32" GridUVX="1 28 147 154" GridUVY="0 0 32 32" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<Texture Type="On" UV="1 34 155 34 1 66 155 66" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<Texture Type="Click" UV="1 67 155 67 1 99 155 99" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sprite" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="1" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="팔 기" formatString="SHOP_BTN_TAPSELL" Font="BaseFont_10_Bold" Color="ffb3aeae" OverColor="ffb3aeae" ClickColor="ffb3aeae" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Tab_Repurchase" Pos="Center Top" Size="120 32" Pan="130 49" Color="ffffffff" EnableArea="0 0 120 32" Grid="1" GridPosX="0 28 115 120" GridPosY="0 0 32 32" GridUVX="1 28 147 154" GridUVY="0 0 32 32" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="1 100 155 100 1 132 155 132" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<Texture Type="On" UV="1 133 155 133 1 165 155 165" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<Texture Type="Click" UV="1 166 155 166 1 198 155 198" Ani="1 1 0.000 0">new_ui_common_forlua/window/shop/shop_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sprite" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="1" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="재구매" formatString="SHOP_BTN_TAPREBUY" Font="BaseFont_10_Bold" Color="ffb3aeae" OverColor="ffb3aeae" ClickColor="ffb3aeae" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_Slot_List" Pos="Right Top" Size="10 400" Pan="12 85" Color="ffffffff" EnableArea="0 0 10 400" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 393 400" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_1_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Hide"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_DownButton" Pos="0 400" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Hide"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_CtrlButton" Pos="Center 0" Size="13 120" Pan="-2 0" Color="ffffffff" EnableArea="0 0 13 120" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 111 120" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Button" Name="Button_Command" Pos="Right Bottom" Size="154 32" Pan="20 15" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="0.200000" UseDefaultSound="1" ClickSound="0 3">
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/window/trade/trade_btn_02.dds</Texture>
+			<Texture Type="On" UV="1 34 155 34 1 66 155 66" Ani="1 1 0.000 0">new_ui_common_forlua/window/trade/trade_btn_02.dds</Texture>
+			<Texture Type="Click" UV="1 67 155 67 1 99 155 99" Ani="1 1 0.000 0">new_ui_common_forlua/window/trade/trade_btn_02.dds</Texture>
+			<Text Value="구 매" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_SellAll" Pos="Right Bottom" Size="154 32" Pan="200 15" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 5 149 154" GridPosY="0 5 27 32" GridUVX="0 5 149 154" GridUVY="0 5 27 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="선택 아이템 모두 판매" formatString="PANEL_NPCSHOP_BTN_SELLALL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_BuySome" Pos="Right Bottom" Size="154 32" Pan="200 15" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 5 149 154" GridPosY="0 5 27 32" GridUVX="0 5 149 154" GridUVY="0 5 27 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="여러 개 구매" formatString="PANEL_NPCSHOP_BTN_BUYSOME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_InputCart" Pos="173 612" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Text Value="바구니" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_NpcShopDesc_BG" Pos="Center Bottom" Size="759 60" Pan="0 80" Color="ffffffff" EnableArea="0 0 759 60" Grid="1" GridPosX="0 10 749 759" GridPosY="0 10 50 60" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 63 64 63 1 126 64 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NpcShopDesc" Pos="Center Bottom" Size="740 55" Pan="0 80" Color="ffffffff" EnableArea="0 0 740 55">
+			<Attribute Type="Ignore"/>
+			<Text Value="상점들은 각각 특성에 맞는 물건들을 사고 팔기에, 지역 혹은 NPC에 따라 취급하는 품목이 다를 수 있습니다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Money" Pos="Left Bottom" Size="23 23" Pan="22 50" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="가방 보유 금액" formatString="SHOP_TXT_MYMONEY" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="23 3"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Money2" Pos="Left Bottom" Size="23 23" Pan="22 20" Color="ffffffff" EnableArea="0 0 12 15" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="창고 보유 금액" formatString="PANEL_ITEMMARKET_ICON_MONEY2" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="23 3"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Money" Pos="Left Bottom" Size="12 15" Pan="150 55" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1,000" Font="BaseFont_12" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Right" AlignVertical="Top" Span="-100 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Money2" Pos="Left Bottom" Size="12 15" Pan="150 25" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1,000,000,000" Font="BaseFont_12" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Right" AlignVertical="Top" Span="-100 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Texture_Money_Background2" Pos="Left Bottom" Size="116 17" Pan="200 25" Color="ffffffff" EnableArea="0 0 116 17">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_12" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Inven" Pos="Left Bottom" Size="100 20" Pan="270 53" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="가방에 있는 돈으로 지불" formatString="PANEL_NPCSHOP_INVEN" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Warehouse" Pos="Left Bottom" Size="100 20" Pan="270 22" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="창고에 있는 돈으로 지불" formatString="PANEL_NPCSHOP_WAREHOUSE" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

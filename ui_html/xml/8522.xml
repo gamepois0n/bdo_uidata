@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8522</itemKey>
+	<itemName>Dried Cherry Salmon</itemName>
+	<itemIcon>00008522.png</itemIcon>
+	<itemDesc>A dried cherry salmon obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8222</id>
+			<name>Cherry Salmon</name>
+			<icon>00008222.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55922</id>
+			<name>Packaged Dried Cherry Salmon</name>
+			<icon>00055922.png</icon>
+			<desc>A Trade Item containing 10 Dried Cherry Salmon.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

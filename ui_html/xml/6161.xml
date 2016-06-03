@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6161</itemKey>
+	<itemName>Fine Hard Hide</itemName>
+	<itemIcon>00006161.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying dinosaur, lizard, or worm hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6007</id>
+			<name>Dinosaur Hide</name>
+			<icon>00006007.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted dinosaur corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6008</id>
+			<name>Lizard Hide</name>
+			<icon>00006008.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted wolf corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6009</id>
+			<name>Worm Hide</name>
+			<icon>00006009.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted worm corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6153</id>
+			<name>Hard Hide</name>
+			<icon>00006153.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying dinosaur, lizard, or worm hide.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16124</id>
+			<name>Shining Steel Tanning Knife</name>
+			<icon>00016124.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16120</id>
+			<name>Shining Steel Butcher Knife</name>
+			<icon>00016120.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>14124</id>
+			<name>Ultimate Steel Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Steel Taritas Shoes with maximum potential.\nLighter than ordinary Ultimate Taritas shoes, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>52803</id>
+			<name>Combat Hide Saddle</name>
+			<icon>00052803.png</icon>
+			<desc>Durable heavy stirrup made of hard leather that is purpose built for battle.\nMakes you able to attack while riding.\n- Able to attach on : Horse &amp; Camel\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>52703</id>
+			<name>Combat Hide Saddle</name>
+			<icon>00052703.png</icon>
+			<desc>Durable heavy saddle made of hard leather that is purpose built for battle.\nIncreases stability for faster riding.\n- Able to attach on : Horse &amp; Camel &amp; Donkey\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>52603</id>
+			<name>Combat Steel Barding</name>
+			<icon>00052603.png</icon>
+			<desc>Specially made steel horse helmet that can be used in battle. It is very heavy.\n- Able to attach on : Horse &amp; Camel\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>14123</id>
+			<name>Ultimate Steel Taritas Gloves</name>
+			<icon>00010815.png</icon>
+			<desc>Steel Taritas Gloves with maximum potential\nLighter than ordinary Ultimate Taritas gloves, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14122</id>
+			<name>Ultimate Steel Taritas Armor</name>
+			<icon>00010814.png</icon>
+			<desc>Steel Taritas Armor with maximum potential.\nLighter than ordinary Ultimate Taritas armor, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14121</id>
+			<name>Ultimate Steel Taritas Helmet</name>
+			<icon>00010813.png</icon>
+			<desc>Steel Taritas Helmet with maximum potential.\nLighter than ordinary Ultimate Taritas helmet, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14105</id>
+			<name>Steel Taritas Helmet of Iron Wall</name>
+			<icon>00010813.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Helmet\nLighter than ordinary Taritas Helmet of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Helmet of Iron wall, Steel Taritas Helmet, Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14104</id>
+			<name>Steel Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Steel Taritas Shoes made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Shoes.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14103</id>
+			<name>Steel Taritas Gloves</name>
+			<icon>00010815.png</icon>
+			<desc>Steel Taritas Gloves made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Gloves.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14102</id>
+			<name>Steel Taritas Armor</name>
+			<icon>00010814.png</icon>
+			<desc>Steel Taritas Armor made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Armor.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14101</id>
+			<name>Steel Taritas Helmet</name>
+			<icon>00010813.png</icon>
+			<desc>Steel Taritas Helmet made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Helmet.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14111</id>
+			<name>Steel Taritas Gloves of Agility</name>
+			<icon>00010815.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Gloves\nLighter than ordinary Taritas Gloves of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Gloves of Agility, Steel Taritas Gloves, Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14110</id>
+			<name>Steel Taritas Armor of Agility</name>
+			<icon>00010814.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Armor\nLighter than ordinary Taritas Armor of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Armor of Agility, Steel Taritas Armor, Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14109</id>
+			<name>Steel Taritas Helmet of Agility</name>
+			<icon>00010813.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Helmet\nLighter than ordinary Taritas Helmet of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Helmet of Agility, Steel Taritas Helmet, Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14108</id>
+			<name>Steel Taritas Shoes of Iron Wall</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Shoes\nLighter than ordinary Taritas Shoes of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Iron wall, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>14107</id>
+			<name>Steel Taritas Gloves of Iron Wall</name>
+			<icon>00010815.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Gloves\nLighter than ordinary Taritas Gloves of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Gloves of Iron wall, Steel Taritas Gloves, Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14106</id>
+			<name>Steel Taritas Armor of Iron Wall</name>
+			<icon>00010814.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Armor\nLighter than ordinary Taritas Armor of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Armor of Iron wall, Steel Taritas Armor, Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14116</id>
+			<name>Steel Taritas Shoes of Intimidation</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Shoes\nLighter than ordinary Taritas Shoes of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Duress, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>14115</id>
+			<name>Steel Taritas Gloves of Intimidation</name>
+			<icon>00010815.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Gloves\nLighter than ordinary Taritas Gloves of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Gloves of Duress, Steel Taritas Gloves, Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14114</id>
+			<name>Steel Taritas Armor of Intimidation</name>
+			<icon>00010814.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Armor\nLighter than ordinary Taritas Armor of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Armor of Duress, Steel Taritas Armor, Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14113</id>
+			<name>Steel Taritas Helm of Intimidation</name>
+			<icon>00010813.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Helmet\nLighter than ordinary Taritas Helmet of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Helmet of Duress, Steel Taritas Helmet, Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14112</id>
+			<name>Steel Taritas Shoes of Agility</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Shoes\nLighter than ordinary Taritas Shoes of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Agility, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>6169</id>
+			<name>Supreme Hard Hide</name>
+			<icon>00006169.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking Fine Hard Hide and Leather Glaze, an ingredient made through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>16824</id>
+			<name>Lucky Shining Steel Tanning Knife</name>
+			<icon>00016824.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16820</id>
+			<name>Lucky Shining Steel Butcher Knife</name>
+			<icon>00016820.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 10 sec \n- Cannot be Repaired</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

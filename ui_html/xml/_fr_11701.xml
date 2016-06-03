@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11701</itemKey>
+	<itemName>Collier de rubis</itemName>
+	<itemIcon>00011701.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;un rubis.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4401</id>
+			<name>Rubis brut</name>
+			<icon>00004401.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un rubis brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+		<item>
+			<id>4201</id>
+			<name>Minerai d&apos;argent</name>
+			<icon>00004201.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un minerai d&apos;argent demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant de l&apos;argent.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11702</id>
+			<name>Collier de rubis resplendissant</name>
+			<icon>00011702.png</icon>
+			<desc>Un collier décoré d&apos;un rubis brillant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

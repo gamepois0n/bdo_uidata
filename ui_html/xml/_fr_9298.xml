@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9298</itemKey>
+	<itemName>Profusion de plats d&apos;accompagnement assortis</itemName>
+	<itemIcon>00009298.png</itemIcon>
+	<itemDesc>De délicieux encas à consommer avec de l&apos;alcool.\n\n- Effet unique : gain d&apos;EXP de vie +5 % pendant 110 min.\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>8511</id>
+			<name>Calamar séché</name>
+			<icon>00008511.png</icon>
+			<desc>Un calamar obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9403</id>
+			<name>Oiseau frit</name>
+			<icon>00009403.png</icon>
+			<desc>De la viande d&apos;oiseau frite avec de la panure de céréales.\n\n- Effet unique : récupération de PV +5 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

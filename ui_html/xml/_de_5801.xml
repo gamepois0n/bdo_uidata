@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5801</itemKey>
+	<itemName>Baumwolle</itemName>
+	<itemIcon>00005801.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf dem Ahtohof und Hof Kasula hergestellt werden. Kann außerdem durch Sammeln der seltenen Wilden Baumwolle erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Baumwolle</name>
+		</character>
+	</collect>
+	<node region="Ahtohof – Baumwollanbau"/>
+	<node region="Hof Kasula – Baumwollanbau"/>
+	<makelist>
+		<item>
+			<id>5851</id>
+			<name>Baumwollgarn</name>
+			<icon>00005851.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Baumwolle gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

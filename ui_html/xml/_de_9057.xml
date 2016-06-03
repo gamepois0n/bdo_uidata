@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9057</itemKey>
+	<itemName>Liköressenz</itemName>
+	<itemIcon>00009057.png</itemIcon>
+	<itemDesc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</itemDesc>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

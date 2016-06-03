@@ -1,0 +1,10 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Fade_Screen" Pos="1 3" Size="200 200" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 200">
+		<Texture Type="Base" UV="1 53 257 53 1 103 257 103" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_FieldName" Pos="Center Center" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Test Text" Font="TitleFont_18" Color="fff6f3f0" OverColor="fff6f3f0" ClickColor="fff6f3f0" AlignHorizon="Center" AlignVertical="Center" Span="0 200"/>
+		</Control>
+	</Control>
+</UI>
+

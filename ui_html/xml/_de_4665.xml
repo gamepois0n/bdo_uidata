@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4665</itemKey>
+	<itemName>Stabiles Tannenschichtholz</itemName>
+	<itemIcon>00004665.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Tannenschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4664</id>
+			<name>Tannenschichtholz</name>
+			<icon>00004664.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Tannenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4684</id>
+			<name>Schichtholz-Härter</name>
+			<icon>00004684.png</icon>
+			<desc>Ein Material, das genutzt wird, um Schichthölzer durch Verarbeitung zu verstärken.\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>49202</id>
+			<name>Frachtbehälter der Calpheon-Fähre</name>
+			<icon>00049202.png</icon>
+			<desc>Ein Frachtbehälter aus Calpheon, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, größere Lasten zu transportieren.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nMax. Traglast +100 kg (noch nicht verfügbar)\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>49302</id>
+			<name>Bug der Calpheon-Fähre</name>
+			<icon>00049302.png</icon>
+			<desc>Ein Bug aus Calpheon, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, schneller zu segeln.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nMax. Traglast +100 kg(noch nicht verfügbar)\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

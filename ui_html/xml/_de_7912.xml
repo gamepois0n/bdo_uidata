@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7912</itemKey>
+	<itemName>Bärenfleisch</itemName>
+	<itemIcon>00007912.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Bärenkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Balenosbär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Braunbär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rotbär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendiabär</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7918</id>
+			<name>Stinkendes Trockenfleisch</name>
+			<icon>00007918.png</icon>
+			<desc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

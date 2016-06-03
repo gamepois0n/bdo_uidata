@@ -1,0 +1,22 @@
+<UI>
+	<Control Type="Panel" Name="Panel_TerritoryAuth_Message" Pos="Center Center" Size="217 90" Pan="0 -100" Color="ffffffff" EnableArea="0 0 217 90" ShowSound="3 2">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_TerrityryAuth_Msg_L" Pos="Left Center" Size="-2000 143" Pan="0 -174" Color="ffffffff" EnableArea="0 0 -2000 143" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 3 0 0 143 3 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/territoryauth/territoryauth_message01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TerrityryAuth_Msg_R" Pos="Right Center" Size="-2000 143" Pan="0 -174" Color="ffffffff" EnableArea="0 0 -2000 143" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 3 0 0 143 3 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/territoryauth/territoryauth_message01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TerrityryAuth_MsgBorder" Pos="Center Center" Size="217 143" Pan="0 -174" Color="ffffffff" EnableArea="0 0 217 143" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 217 0 0 143 217 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/territoryauth/territoryauth_message01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TerritoryAuth_Message" Pos="Center Center" Size="50 20" Pan="0 -160" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="여기에 메시지가 출력됩니다. " Font="TitleFont_18" Color="fffafa99" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

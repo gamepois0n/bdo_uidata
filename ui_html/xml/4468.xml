@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4468</itemKey>
+	<itemName>Red Crystal</itemName>
+	<itemIcon>00004468.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Red Crystals found near Khuruto Cave.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4408</id>
+			<name>Rough Red Crystal</name>
+			<icon>00004408.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Red Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Khuruto Cave.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10821</id>
+			<name>Talis Helmet</name>
+			<icon>00010821.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10822</id>
+			<name>Talis Armor</name>
+			<icon>00010822.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10823</id>
+			<name>Talis Gloves</name>
+			<icon>00010823.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10824</id>
+			<name>Talis Shoes</name>
+			<icon>00010824.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16168</id>
+			<name>Maple Float</name>
+			<icon>00016168.png</icon>
+			<desc>A float made of maple wood. Good for catching rare fishes.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>10824</id>
+			<name>Talis Shoes</name>
+			<icon>00010824.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10823</id>
+			<name>Talis Gloves</name>
+			<icon>00010823.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10822</id>
+			<name>Talis Armor</name>
+			<icon>00010822.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10821</id>
+			<name>Talis Helmet</name>
+			<icon>00010821.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>55860</id>
+			<name>Red Crystal Amulet of Lovers</name>
+			<icon>00055860.png</icon>
+			<desc>An accessory made of Red Crystal. Those who want to win someone&apos;s love carry this around with them as a charm.</desc>
+		</item>
+		<item>
+			<id>10888</id>
+			<name>Ultimate Talis Shoes</name>
+			<icon>00010824.png</icon>
+			<desc>Talis Shoes with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Talis Shoes</desc>
+		</item>
+		<item>
+			<id>10887</id>
+			<name>Ultimate Talis Gloves</name>
+			<icon>00010823.png</icon>
+			<desc>Talis Gloves with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Talis Gloves</desc>
+		</item>
+		<item>
+			<id>10886</id>
+			<name>Ultimate Talis Armor</name>
+			<icon>00010822.png</icon>
+			<desc>Talis Armor with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Talis Armor</desc>
+		</item>
+		<item>
+			<id>10885</id>
+			<name>Ultimate Talis Helmet</name>
+			<icon>00010821.png</icon>
+			<desc>Talis Helmet with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Talis Helmet</desc>
+		</item>
+		<item>
+			<id>10884</id>
+			<name>Talis Shoes of Intimidation</name>
+			<icon>00010824.png</icon>
+			<desc>Energy of intimidation is contained within this Talis Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Shoes of Duress, Talis Shoes</desc>
+		</item>
+		<item>
+			<id>10883</id>
+			<name>Talis Gloves of Intimidation</name>
+			<icon>00010823.png</icon>
+			<desc>Energy of intimidation is contained within this Talis Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Gloves of Duress, Talis Gloves</desc>
+		</item>
+		<item>
+			<id>10882</id>
+			<name>Talis Armor of Intimidation</name>
+			<icon>00010822.png</icon>
+			<desc>Energy of intimidation is contained within this Talis Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Armor of Duress, Talis Armor</desc>
+		</item>
+		<item>
+			<id>10881</id>
+			<name>Talis Helmet of Intimidation</name>
+			<icon>00010821.png</icon>
+			<desc>Energy of intimidation is contained within this Talis Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Helmet of Duress, Talis Helmet</desc>
+		</item>
+		<item>
+			<id>10880</id>
+			<name>Talis Shoes of Agility</name>
+			<icon>00010824.png</icon>
+			<desc>Energy of agility is contained within this Talis Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Shoes of Agility, Talis Shoes</desc>
+		</item>
+		<item>
+			<id>10876</id>
+			<name>Talis Shoes of Iron Wall</name>
+			<icon>00010824.png</icon>
+			<desc>Energy of iron wall is contained within this Talis Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Shoes of Iron wall, Talis Shoes</desc>
+		</item>
+		<item>
+			<id>10875</id>
+			<name>Talis Gloves of Iron Wall</name>
+			<icon>00010823.png</icon>
+			<desc>Energy of iron wall is contained within this Talis Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Gloves of Iron wall, Talis Gloves</desc>
+		</item>
+		<item>
+			<id>10874</id>
+			<name>Talis Armor of Iron Wall</name>
+			<icon>00010822.png</icon>
+			<desc>Energy of iron wall is contained within this Talis Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Armor of Iron wall, Talis Armor</desc>
+		</item>
+		<item>
+			<id>10873</id>
+			<name>Talis Helmet of Iron Wall</name>
+			<icon>00010821.png</icon>
+			<desc>Energy of iron wall is contained within this Talis Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Helmet of Iron wall, Talis Helmet</desc>
+		</item>
+		<item>
+			<id>10879</id>
+			<name>Talis Gloves of Agility</name>
+			<icon>00010823.png</icon>
+			<desc>Energy of agility is contained within this Talis Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Gloves of Agility, Talis Gloves</desc>
+		</item>
+		<item>
+			<id>10878</id>
+			<name>Talis Armor of Agility</name>
+			<icon>00010822.png</icon>
+			<desc>Energy of agility is contained within this Talis Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Armor of Agility, Talis Armor</desc>
+		</item>
+		<item>
+			<id>10877</id>
+			<name>Talis Helmet of Agility</name>
+			<icon>00010821.png</icon>
+			<desc>Energy of agility is contained within this Talis Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Helmet of Agility, Talis Helmet</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Grade 2 Weapon Reform Stone</name>
+			<icon>00004908.png</icon>
+			<desc>A material used in 2nd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

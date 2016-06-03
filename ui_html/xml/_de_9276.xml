@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9276</itemKey>
+	<itemName>Verfeinerter Haferbrei</itemName>
+	<itemIcon>00009276.png</itemIcon>
+	<itemDesc>Haferbrei aus sehr hochwertigem Getreide.\n\n– Spezielle Wirkung: Stellt +6 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

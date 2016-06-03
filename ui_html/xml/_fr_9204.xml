@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9204</itemKey>
+	<itemName>Yaourt à l&apos;aloès</itemName>
+	<itemIcon>00009204.png</itemIcon>
+	<itemDesc>Un mélange sain de lait fermenté et d&apos;aloès.\n\n- Effet unique : vitesse de pêche +1 pendant 30 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloès</name>
+			<icon>00007347.png</icon>
+			<desc>L&apos;aloès est un produit typique de Mediah.\nUtilisation : biscuit à l&apos;aloès, yaourt à l&apos;aloès, etc.\n- Obtention : s&apos;obtient à la ferme Ahto. L&apos;aloès de Mediah peut s&apos;obtenir en le ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

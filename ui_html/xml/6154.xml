@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6154</itemKey>
+	<itemName>Thin Hide</itemName>
+	<itemIcon>00006154.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying raccoon, monkey, or weasel hide.</itemDesc>
+	<collect>
+		<character>
+			<name>Brown Raccoon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ferocious Weasel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Guenon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Weasel</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6010</id>
+			<name>Raccoon Hide</name>
+			<icon>00006010.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted raccoon corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6011</id>
+			<name>Monkey Hide</name>
+			<icon>00006011.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted monkey corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6012</id>
+			<name>Weasel Hide</name>
+			<icon>00006012.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted weasel corpse.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10808</id>
+			<name>Reblath Shoes</name>
+			<icon>00010808.png</icon>
+			<desc>A class of armor mass produced for the Militia.</desc>
+		</item>
+		<item>
+			<id>10807</id>
+			<name>Reblath Gloves</name>
+			<icon>00010807.png</icon>
+			<desc>A class of armor mass produced for the Militia.</desc>
+		</item>
+		<item>
+			<id>10806</id>
+			<name>Reblath Armor</name>
+			<icon>00010806.png</icon>
+			<desc>A class of armor mass produced for the Militia.</desc>
+		</item>
+		<item>
+			<id>10805</id>
+			<name>Reblath Helmet</name>
+			<icon>00010805.png</icon>
+			<desc>A class of armor mass produced for the Militia.</desc>
+		</item>
+		<item>
+			<id>6162</id>
+			<name>Fine Thin Hide</name>
+			<icon>00006162.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying raccoon, monkey, or weasel hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

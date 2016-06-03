@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6152</itemKey>
+	<itemName>Robustes Leder</itemName>
+	<itemIcon>00006152.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Felskopfwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Graues Wildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Hofwildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Junger Trollwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Junges Rotwildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kleiner Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kleiner Steinkopfwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Langhaarwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rotwildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stahlnashorn</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinkopfwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinnashorn</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinnashorn-Jungtier</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinschwanzwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Trollwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildschwein-Frischling</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6004</id>
+			<name>Nashornhaut</name>
+			<icon>00006004.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Nashornkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6005</id>
+			<name>Schweinehaut</name>
+			<icon>00006005.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Schweinekadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6006</id>
+			<name>Ochsenhaut</name>
+			<icon>00006006.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Kuhkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16122</id>
+			<name>Scharfes Gerbermesser</name>
+			<icon>00016122.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16118</id>
+			<name>Scharfes Schlachtermesser</name>
+			<icon>00016118.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>51002</id>
+			<name>Wagenregistrierung: Robuster Wagen</name>
+			<icon>00051002.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Robusten Wagens』.\n– Inventarplätze: 10, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>16822</id>
+			<name>Glückbringendes scharfes Gerbermesser</name>
+			<icon>00016822.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16818</id>
+			<name>Glückbringendes scharfes Schlachtermesser</name>
+			<icon>00016818.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

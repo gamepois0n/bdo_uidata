@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7311</itemKey>
+	<itemName>Tomate</itemName>
+	<itemIcon>00007311.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, légumes frits, etc.\nObtention : s&apos;obtient en cultivant des graines de tomate dans un jardin ou en ramassant des tomates à la main ou à l&apos;aide d&apos;une houe.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</itemDesc>
+	<collect>
+		<character>
+			<name>Tomate</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7411</id>
+			<name>Caisse de tomates</name>
+			<icon>00007411.png</icon>
+			<desc>Une récolte transformée pour être vendue à bon prix. Elle peut être vendue à des marchands.\n- Obtention : elle peut être préparée à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4061</itemKey>
+	<itemName>Tin Ingot</itemName>
+	<itemIcon>00004061.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Tin Shard. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4004</id>
+			<name>Tin Ore</name>
+			<icon>00004004.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Khuruto Cave, Rhutum Outstation, and Behr Riverhead. It can be directly obtained from Ore containing Tin.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4060</id>
+			<name>Melted Tin Shard</name>
+			<icon>00004060.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Tin Ore.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4060</id>
+			<name>Melted Tin Shard</name>
+			<icon>00004060.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Tin Ore.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>49402</id>
+			<name>Calpheon Ferry Decoration</name>
+			<icon>00049402.png</icon>
+			<desc>A Calpheon decoration that can be attached to a ferry. It lowers the chance of breaking trade items.\nWhen 3 or more set items are equipped:\nMovement Speed +2%\nWeight Limit +100LT\n- Mounts Usable: Ferry\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>24129</id>
+			<name>Tin Candelabra with Four Candles</name>
+			<icon>InHouse_X_DPFO_Candlestick_03_light.png</icon>
+			<desc>A tin candelabra with 4 candles attached.</desc>
+		</item>
+		<item>
+			<id>4062</id>
+			<name>Pure Tin Crystal</name>
+			<icon>00004062.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Tin Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>2808</id>
+			<name>Tin Decorated Beeswax Chandelier (Fluorescent)</name>
+			<icon>InHouse_X_DPC_Chandelier_04_on_light.png</icon>
+			<desc>A fluorescent wax chandelier decorated with tin.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,111 @@
+<!-- XHTML5 -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<title>ProductNote</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densitydpi=medium-dpi;" />
+
+<link rel="stylesheet" href="../../daumgames/css/base.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../daumgames/css/board.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../daumgames/css/layout.css" type="text/css" media="all" />
+<script type="text/javascript" src="../../daumgames/javascript/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../daumgames/javascript/common.js"></script>
+<script type="text/javascript" src="../../javascript/coherent.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="topm">  
+			<table class="tab-top-step">
+				<tr>
+					<td id="nodeProduct" class="category_tab tab-on"><a class="show_category" data-category="nodeProduct" href="javascript:;"><span data-string="0"></span></a></td>
+					<td id="fishing" class="category_tab"><a class="show_category" data-category="fishing" href="javascript:;"><span data-string="1"></span></a></td>
+					<td id="alchemy" class="category_tab"><a class="show_category" data-category="alchemy" href="javascript:;"><span data-string="2"></span></a></td>
+					<td id="cooking" class="category_tab"><a class="show_category" data-category="cooking" href="javascript:;"><span data-string="3"></span></a></td>
+					<td id="manufacture" class="category_tab"><a class="show_category" data-category="manufacture" href="javascript:;"><span data-string="4"></span></a></td>
+					<td id="houseCraft" class="category_tab"><a class="show_category" data-category="houseCraft" href="javascript:;"><span data-string="5"></span></a></td>
+					<td id="collect" class="category_tab last"><a class="show_category" data-category="collect" href="javascript:;"><span data-string="6"></span></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="container">  
+		<!-- content -->
+		<div id="content">
+			<div class="block-page" id="subtitle" data-string="0"></div>
+			<div class="top-search">
+				<div class="left">
+					<em data-string="100">itemName</em>
+					<input type="text" id="txt_search" name="txt_search" class="tx" data-string="200" /><label></label>
+					<input type="button" id="btn_search" name="btn_search" data-string="207" />
+				</div>	
+			</div>
+			<div id="search_result"></div>
+			<table width="100%">
+			<colgroup>
+			<col width="27%" /> 
+			<col width="2%" /> 
+			<col width="" />
+			</colgroup>
+			<tbody>
+			<tr valign="top">
+				<td>
+					<table class="board-list"> 
+						<thead>
+							<tr>  
+								<th scope="col" colspan="2" data-string="101"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<div id="itemList" style="overflow-x:hidden;overflow-y:scroll;width: 220px;height:395px;">
+										<table></table>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td>
+				</td>
+				<td>
+					<table class="board-write">  
+						<tbody> 
+							<tr>  
+								<th scope="col" data-string="102"></th>
+							</tr>
+							<tr>
+								<table class="board-write" style="word-break: break-all">
+								<colgroup>
+								<col width="20%" /> 
+								<col />
+								</colgroup>
+								<tbody id="itemDisplay">
+									<tr>
+										<td>
+											<div id="itemInfo" style="overflow-x:hidden;overflow-y:auto;width:100%;height:400px;">
+											<p align="center" style="margin-top:30px"><b data-string="201"></b></p>
+											</div>
+										</td>
+									</tr>	
+								</tbody>
+								</table>
+							</tr>  
+						</tbody>	
+					</table>
+				</td>	
+			</tr>
+			</tbody>
+			</table>
+		</div>
+		<!-- //content -->
+	</div> 
+	<!-- //container -->
+</div>	
+</body>
+</html>
+<script>
+	//alert(document.getElementById("collect").offsetWidth);
+</script>

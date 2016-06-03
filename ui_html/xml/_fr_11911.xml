@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11911</itemKey>
+	<itemName>Boucles d&apos;oreille en topaze</itemName>
+	<itemIcon>00011911.png</itemIcon>
+	<itemDesc>Une boucle d&apos;oreille décorée d&apos;une topaze.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4001</id>
+			<name>Minerai de fer</name>
+			<icon>00004001.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la grotte côtière, falaise côtière, carrière nord d&apos;Heidel, Cienaga sud, mur de pierre d&apos;Hexe et la mine de fer abandonnée. S&apos;obtient à partir de minerai contenant du fer.</desc>
+		</item>
+		<item>
+			<id>4403</id>
+			<name>Topaze brute</name>
+			<icon>00004403.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un minerai de topaze demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11912</id>
+			<name>Boucles d&apos;oreille en topaze resplendissantes</name>
+			<icon>00011912.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;une topaze brillante.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

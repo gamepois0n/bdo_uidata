@@ -1,0 +1,282 @@
+<UI>
+	<Control Type="Panel" Name="Worldmap_Grand_GuildHouseControl" Pos="Center Center" Size="643 579" Pan="0 0" Color="ffffffff" EnableArea="3 3 640 575" Grid="1" GridPosX="0 10 633 643" GridPosY="0 10 569 579" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="3 3 640 35"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="655 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 655 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="벨리아 1번지" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="7 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="31 7" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UseType_Title" Pos="Left Top" Size="234 21" Pan="10 105" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 용도 목록" formatString="PANEL_HOUSECONTROL_TITLE_USETYPE" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_HouseControl_BG" Pos="Left Top" Size="300 200" Pan="10 129" Color="ffffffff" EnableArea="0 0 300 200" Grid="1" GridPosX="0 10 290 300" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_Smithy" Pos="Left Top" Size="300 25" Pan="10 139" Color="eaffffff" EnableArea="0 0 300 25" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Texture Type="Base" UV="114 1 126 1 114 16 126 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<Texture Type="On" UV="129 1 144 1 129 16 144 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<Texture Type="Click" UV="19 19 30 19 19 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="99ffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="대장간" formatString="HOUSECONTROL_SMITHY" Font="BaseFont_10" Color="eac4bebe" OverColor="eaffffff" ClickColor="eaffffff" AlignHorizon="Left" AlignVertical="Top" Span="22 3"/>
+		</Control>
+		<Control Type="Static" Name="Static_A_Construction" Pos="Left Top" Size="20 20" Pan="11 141" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Disable" Color="Off"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="4 4 0.010 0">new_ui_common_forlua/widget/worldmap/worldmap_ani_01.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Smithy_1" Pos="Left Top" Size="19 19" Pan="195 143" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="0.000000" UseDefaultSound="1">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 33 20 33 1 52 20 52" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Smithy_Mask" Pos="Left Top" Size="19 19" Pan="195 143" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="8 4 0.010 0">new_ui_common_forlua/window/houseinfo/ui_arrowmark_sequence.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_ScrollBar" Pos="Left Top" Size="10 200" Pan="313 129" Color="ffffffff" EnableArea="0 0 10 200" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 193 200" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 200" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="ScrollBar_CtrlButton" Pos="Center 39" Size="13 65" Pan="-2 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_CostBG" Pos="Left Top" Size="300 200" Pan="10 363" Color="ffffffff" EnableArea="0 0 300 200" Grid="1" GridPosX="0 10 290 300" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<!-- <Control Type="StaticText" Name="StaticText_Cost_BuySell" Pos="Left Top" Size="100 20" Pan="25 460" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="필요 스킬" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Cost_BuySell_Value" Pos="Left Top" Size="100 20" Pan="195 460" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="황실 무역 납품 3" Font="BaseFont_10" Color="ffa3df00" OverColor="ffa3df00" ClickColor="ffa3df00" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control> -->
+		<Control Type="Button" Name="Button_Close" Pos="Left Bottom" Size="135 32" Pan="475 10" Color="ffffffff" EnableArea="0 0 135 32" Grid="1" GridPosX="0 5 130 135" GridPosY="0 5 27 32" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="닫 기" formatString="HOUSE_INSTALLATION_BTN_CLOSE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_HouseInfo_BG" Pos="Center Top" Size="626 60" Pan="0 40" Color="ffffffff" EnableArea="0 0 626 60" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 137 626 137 1 204 626 204" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/houseinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_HouseInfo_UseType_Icon" Pos="Left Top" Size="42 42" Pan="23 53" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 43 1 1 43 43 43" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/houseicon.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HouseInfo_UseType_Name" Pos="Left Top" Size="100 20" Pan="78 42" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="정제소" Font="BaseFont_10" Color="ffff9900" OverColor="ffff9900" ClickColor="ffff9900" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HouseInfo_UseType_Desc" Pos="Left Top" Size="545 40" Pan="78 62" Color="ffffffff" EnableArea="0 0 545 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="이 집은 트라난 언더포가 풋내기 시절 대장간으로 이용했던 집이라고 한다. 이 집에서 대장간 설비를 이용한다면\n훌륭한 대장장이가 될 수 있다고 한다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HouseInfo_Name" Pos="Left Top" Size="100 20" Pan="18 43" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="하울의 성" Font="BaseFont_10" Color="ffff9900" OverColor="ffff9900" ClickColor="ffff9900" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HouseInfo_Desc" Pos="Center Top" Size="610 40" Pan="0 62" Color="ffffffff" EnableArea="0 0 610 40">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="이 집은 트라난 언더포가 풋내기 시절 대장간으로 이용했던 집이라고 한다. 이 집에서 대장간 설비를 이용한다면 훌륭한\n대장장이가 될 수 있다고 한다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HouseImage_Title" Pos="Left Top" Size="234 21" Pan="325 339" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 내부 구조" formatString="PANEL_HOUSECONTROL_TITLE_IMAGE" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_HouseImage_BG" Pos="Left Top" Size="300 200" Pan="325 363" Color="ffffffff" EnableArea="0 0 300 200" Grid="1" GridPosX="0 10 290 300" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_HouseImage_Image" Pos="Left Top" Size="292 168" Pan="329 379" Color="ffffffff" EnableArea="0 0 292 168" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 292 0 0 168 292 168" Ani="1 1 0.000 0">icon/new_icon/03_etc/06_housing/2103-1.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_IconHelper" Pos="682 -11" Size="120 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 30" Grid="1" GridPosX="0 10 110 120" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="5등급" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ContributePlus" Pos="Left Center" Size="25 21" Pan="4 0" Color="ffffffff" EnableArea="0 0 25 21" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="278 61 303 61 278 82 303 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ContributeMinus" Pos="Left Center" Size="25 21" Pan="4 0" Color="ffffffff" EnableArea="0 0 25 21" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="304 61 329 61 304 82 329 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Smithy" Pos="Left Center" Size="13 13" Pan="2 0" Color="ffffffff" EnableArea="0 0 13 13" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 71 14 71 1 84 14 84" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Smithy" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 85 31 85 1 115 31 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Carpenter" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="32 85 62 85 32 115 62 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Foundry" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="63 85 93 85 63 115 93 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Inn" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="94 85 124 85 94 115 124 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Loader" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="125 85 155 85 125 115 155 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Special" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="156 85 186 85 156 115 186 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_MyHouse" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="187 85 217 85 187 115 217 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Ranch" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="218 85 248 85 218 115 248 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Empty" Pos="Left Top" Size="30 30" Pan="6 4" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="218 85 248 85 218 115 248 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/houseinfo/housecontrol_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WorkList_BG" Pos="Left Top" Size="298 200" Pan="325 129" Color="ffffffff" EnableArea="0 0 298 200" Grid="1" GridPosX="0 10 288 298" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WorkList_Title" Pos="Left Top" Size="234 21" Pan="325 105" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 상세 용도" formatString="PANEL_HOUSECONTROL_TITLE_WORKLIST" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WorkList_Level" Pos="Left Top" Size="234 21" Pan="5 0" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="1 단계_craft" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_WorkList_Icon" Pos="Left Top" Size="42 42" Pan="5 6" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Button_WorkList" Pos="Left Top" Size="50 50" Pan="2 3" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="1.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WorkList_Border" Pos="Left Top" Size="50 50" Pan="2 3" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="172 44 214 44 172 86 214 86" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_ui_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WorkList_Over" Pos="Left Top" Size="44 45" Pan="3 4" Color="ffffffff" EnableArea="0 0 44 45" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 357 0 357 0 357 0 357" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="On" UV="163 0 283 0 163 123 283 123" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_WorkList_Count" Pos="Left Top" Size="44 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 44 44">
+			<Attribute Type="Ignore"/>
+			<Text Value="0" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Bottom" Span="4 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WorkList_Level_nonCraft" Pos="Left Top" Size="234 21" Pan="5 0" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="1 단계_nonCraft" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WorkList_Guide" Pos="Left Top" Size="185 16" Pan="16 0" Color="  ffffff" EnableArea="0 0 185 16">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="Disable" Color="Off"/>
+			<Text Value="숙소는 레벨당 1" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MyHouse_Guide" Pos="Left Top" Size="280 50" Pan="345 134" Color="ffffffff" EnableArea="0 0 280 50">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="- 플레이어 캐릭터가 직접 꾸밀 수 있으며, 각종 가구나\n가공 도구들을 설치하여 다양한 연구를 할 수 있습니다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Scroll" Name="WorkList_ScrollBar" Pos="Left Top" Size="10 200" Pan="626 129" Color="ffffffff" EnableArea="0 0 10 200" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 193 200" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Frame_Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Frame_Scroll_DownButton" Pos="0 200" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Frame_ScrollBar_thumb" Pos="Center 75" Size="13 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ProgressSection_Title" Pos="Left Top" Size="234 21" Pan="10 339" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 소유 길드" formatString="PANEL_WORLDMAP_GUILDHOUSECONTROL_OWNGUILD_TITLE" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WorkName" Pos="Left Top" Size="220 40" Pan="75 382" Color="ffffffff" EnableArea="0 0 220 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명" Font="BaseFont_12" Color="ffffeea0" OverColor="ffffeea0" ClickColor="ffffeea0" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Working_IconBG" Pos="Left Top" Size="47 47" Pan="23 378" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Working_Icon" Pos="Left Top" Size="42 42" Pan="25 380" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000"/>
+		<Control Type="StaticText" Name="StaticText_OnGoing_Text" Pos="Left Top" Size="70 20" Pan="24 432" Color="ffffffff" EnableArea="0 0 70 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드 대장" formatString="PANEL_WORLDMAP_GUILDHOUSECONTROL_OWNGUILD_MASTER_TITLE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OnGoing_Value" Pos="Left Top" Size="140 20" Pan="158 432" Color="ffffffff" EnableArea="0 0 140 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="캐릭터명은열글자까지" Font="BaseFont_10" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_LargeCraft" Pos="Left Top" Size="292 32" Pan="15 525" Color="ffffffff" EnableArea="0 0 292 32" Grid="1" GridPosX="0 5 287 292" GridPosY="0 4 25 32" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="제작 관리" formatString="PANEL_HOUSECONTROL_MAIN_BTN_LARGECRAFT" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffde8585" ClickColor="ffde8585" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9437</itemKey>
+	<itemName>Frischer Bratvogel</itemName>
+	<itemIcon>00009437.png</itemIcon>
+	<itemDesc>Frittiertes Geflügelfleisch für ein heiliges Ritual.\n\n– Spezielle Wirkung: LP-Regeneration +5 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

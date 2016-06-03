@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12102</itemKey>
+	<itemName>Glänzender Rubinring</itemName>
+	<itemIcon>00012102.png</itemIcon>
+	<itemDesc>Ein mit einem Funkelnden Rubin verzierter Ring.</itemDesc>
+	<house type="8">
+		<item>
+			<id>12101</id>
+			<name>Rubinring</name>
+			<icon>00012101.png</icon>
+			<desc>Ein mit einem Rubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>4257</id>
+			<name>Geschmolzener Platinsplitter</name>
+			<icon>00004257.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubin</name>
+			<icon>00004451.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12103</id>
+			<name>Blutrubinring</name>
+			<icon>00012103.png</icon>
+			<desc>Ein mit einem Blutrubin verzierter Ring.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

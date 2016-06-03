@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12101</itemKey>
+	<itemName>Rubinring</itemName>
+	<itemIcon>00012101.png</itemIcon>
+	<itemDesc>Ein mit einem Rubin verzierter Ring.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4001</id>
+			<name>Eisenerz</name>
+			<icon>00004001.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Küstenhöhle, Küstenfelsen, Steinbruch von Nordheidel, Süd-Cienaga, Verwunschener Steinwall, Verlassene Eisenmine. Kann aus eisenhaltigem Erz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4401</id>
+			<name>Rohrubin</name>
+			<icon>00004401.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohrubin erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12102</id>
+			<name>Glänzender Rubinring</name>
+			<icon>00012102.png</icon>
+			<desc>Ein mit einem Funkelnden Rubin verzierter Ring.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

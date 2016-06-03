@@ -1,0 +1,49 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CarriageEndurance" Pos="400 200" Size="120 120" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 120">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_Carriage_Flag" Pos="Center Center" Size="108 71" Pan="0 0" Color="ff000000" EnableArea="0 0 108 71" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="113 229 221 229 113 300 221 300" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Carriage_Cover" Pos="Center Center" Size="108 71" Pan="0 0" Color="ff000000" EnableArea="0 0 108 71" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="224 229 332 229 224 300 332 300" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Carriage_Wheel" Pos="Center Center" Size="108 71" Pan="0 0" Color="ff000000" EnableArea="0 0 108 71" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="335 229 443 229 335 300 443 300" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Carriage_Curtain" Pos="Center Center" Size="108 71" Pan="0 0" Color="ff000000" EnableArea="0 0 108 71" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="2 302 110 302 2 373 110 373" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Carriage_Lamp" Pos="Center Center" Size="108 71" Pan="0 0" Color="ff000000" EnableArea="0 0 108 71" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="113 302 221 302 113 373 221 373" Ani="1 1 0.000 0">new_ui_common_forlua/widget/endurance/endurance_01.dds</Texture>
+		</Control>
+		<Control Type="MultilineText" Name="StaticText_NoticeEndurance" Pos="Left Top" Size="250 40" Pan="-290 -2" Color="ffffffff" EnableArea="0 0 250 40">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="b8ffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="가까운 마을에서 수리할 수 있습니다.\n(내구도가 0인 장비는 어떤 기능도 낼 수 없습니다)" formatString="ENDURANCE_TXT_NOTICE" Font="BaseFont_8_Line" Color="fff16f6f" OverColor="fff16f6f" ClickColor="fff16f6f" AlignHorizon="Right" AlignVertical="Center" Span="5 5"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Repair_AutoNavi" Pos="Left Top" Size="18 18" Pan="-20 7" Color="ffffffff" EnableArea="0 0 18 18" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="83 2 108 2 83 27 108 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="83 29 108 29 83 54 108 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="83 56 108 56 83 81 108 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_Repair_Navi" Pos="Left Top" Size="18 18" Pan="-40 7" Color="ffffffff" EnableArea="0 0 18 18" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="56 2 81 2 56 27 81 27" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="On" UV="56 29 81 29 56 54 81 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Texture Type="Click" UV="56 56 81 56 56 81 81 81" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CarriageEffect" Pos="0 0" Size="120 120" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 120" AutoDisableTime="0.000000"/>
+	</Control>
+</UI>
+

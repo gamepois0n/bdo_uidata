@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6354</itemKey>
+	<itemName>Sang de pécheur</itemName>
+	<itemIcon>00006354.png</itemIcon>
+	<itemDesc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6205</id>
+			<name>Sang de cochon</name>
+			<icon>00006205.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un cochon mort.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Poudre de flamme</name>
+			<icon>00004802.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Nœud d&apos;arbre ensanglanté</name>
+			<icon>00005005.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer un nœud d&apos;arbre ensanglanté demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16002</id>
+			<name>Pierre noire (armure)</name>
+			<icon>00000007.png</icon>
+			<desc>Les armes peuvent être optimisées grâce à l&apos;esprit occulte.\n\n- Optimisation possible pour : casques, armures, gants, chaussures</desc>
+		</item>
+		<item>
+			<id>49304</id>
+			<name>Proue de bateau de pêche</name>
+			<icon>00049304.png</icon>
+			<desc>Une proue pouvant être attachée à un bateau de pêche. Elle permet au bateau de voguer plus vite.\nEffet à partir de 3 objets d&apos;ensemble :\nvitesse de mouvement +2 %\ntous les types de PD +30(actuellement indisponible)\n\n- Utilisable sur : bateau de pêche\n\nPeut être améliorée avec une pierre noire (armure)</desc>
+		</item>
+		<item>
+			<id>49301</id>
+			<name>Proue de barque</name>
+			<icon>00049301.png</icon>
+			<desc>Une proue pouvant être attachée à une barque. Elle permet au bateau de voguer plus vite.\nEffet à partir de 3 objets d&apos;ensemble :\nvitesse de mouvement +2 %\n\n- Utilisable sur : barque\n\nPeut être améliorée avec une pierre noire (armure)</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 1</name>
+			<icon>00004907.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

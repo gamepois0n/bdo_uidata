@@ -1,0 +1,93 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Worldmap_Information" Pos="0 0" Size="230 150" Pan="130 50" Color="ffffffff" EnableArea="0 0 230 150">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_InfoDesc_Title" Pos="Left Top" Size="230 6" Pan="0 35" Color="ffffffff" EnableArea="0 0 230 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="요 약" formatString="WORLDMAP_MENU_INFO" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_InfoDesc_BG" Pos="Left Top" Size="210 60" Pan="10 45" Color="ffffffff" EnableArea="0 0 210 60" Grid="1" GridPosX="0 10 200 210" GridPosY="0 10 50 60" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_InfoDesc" Pos="Left Top" Size="200 50" Pan="20 50" Color="ffffffff" EnableArea="0 0 200 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="이것은 그러한 것이" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Graph_0" Pos="Left Top" Size="7 7" Pan="20 70" Color="ffffffff" EnableArea="0 0 7 7">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="379 25 386 25 379 32 386 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+			<Text Value="농장 자원" formatString="WORLDMAP_MENU_GRAPH_FARM" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="13 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Graph_1" Pos="Left Top" Size="7 7" Pan="20 70" Color="ffffffff" EnableArea="0 0 7 7">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="387 25 394 25 387 32 394 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+			<Text Value="어장 자원" formatString="WORLDMAP_MENU_GRAPH_FISH" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="13 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Graph_2" Pos="Left Top" Size="7 7" Pan="20 70" Color="ffffffff" EnableArea="0 0 7 7">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="395 25 402 25 395 32 402 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+			<Text Value="민 심" formatString="WORLDMAP_MENU_GRAPH_PEOPLE" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="13 -5"/>
+		</Control>
+		<Control Type="Static" Name="Static_Gauge_Water" Pos="Left Top" Size="132 7" Pan="35 70" Color="ffffffff" EnableArea="0 0 132 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="379 1 511 1 379 8 511 8" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Gauge_Temperature" Pos="Left Top" Size="132 7" Pan="35 70" Color="ffffffff" EnableArea="0 0 132 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="379 9 511 9 379 16 511 16" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Gauge_Humidity" Pos="Left Top" Size="132 7" Pan="35 70" Color="ffffffff" EnableArea="0 0 132 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="379 17 511 17 379 24 511 24" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Low" Pos="Left Top" Size="50 20" Pan="15 70" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="낮 음" formatString="WORLDMAP_MENU_GRAPH_LOW" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_High" Pos="Left Top" Size="50 20" Pan="135 38" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="높 음" formatString="WORLDMAP_MENU_GRAPH_HIGH" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Info_Node_City" Pos="Left Top" Size="24 28" Pan="17 142" Color="ffffffff" EnableArea="0 0 24 28">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="344 203 511 203 344 399 511 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_01.dds</Texture>
+			<Text Value="중심 마을" formatString="WORLDMAP_MENU_NOD_0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="30 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Info_Node_Gate" Pos="Left Top" Size="24 28" Pan="17 166" Color="ffffffff" EnableArea="0 0 24 28">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_00.dds</Texture>
+			<Text Value="관문" formatString="WORLDMAP_MENU_NOD_2" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="30 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Info_Node_Village" Pos="Left Top" Size="24 28" Pan="125 142" Color="ffffffff" EnableArea="0 0 24 28">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 203 168 203 0 399 168 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_02.dds</Texture>
+			<Text Value="마을" formatString="WORLDMAP_MENU_NOD_1" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="30 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Info_Node_Trade" Pos="Left Top" Size="24 28" Pan="125 166" Color="ffffffff" EnableArea="0 0 24 28">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="344 203 511 203 344 399 511 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_03.dds</Texture>
+			<Text Value="무역 거점" formatString="WORLDMAP_MENU_NOD_3" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="30 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Info_Node_Dangerous" Pos="Left Top" Size="24 28" Pan="17 190" Color="ffffffff" EnableArea="0 0 24 28">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 203 167 203 0 398 167 398" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_04.dds</Texture>
+			<Text Value="위험 지역" formatString="WORLDMAP_MENU_NOD_4" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="30 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Info_Node_Empty" Pos="Left Top" Size="24 28" Pan="125 190" Color="ffffffff" EnableArea="0 0 24 28">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="171 203 340 203 171 399 340 399" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_icon_00.dds</Texture>
+			<Text Value="연결로" formatString="WORLDMAP_MENU_NOD_5" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="30 2"/>
+		</Control>
+	</Control>
+</UI>
+

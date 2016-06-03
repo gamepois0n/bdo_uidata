@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7103</itemKey>
+	<itemName>Farine de pomme de terre</itemName>
+	<itemIcon>00007103.png</itemIcon>
+	<itemDesc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant des pommes de terre.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7003</id>
+			<name>Pomme de terre</name>
+			<icon>00007003.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient aux fermes Bartali, Finto et Loggia. Et peut être aussi obtenu en cultivantdes graines de pommes de terre dans un jardin ou en récoltant des pommes de terre à la main ou avec une houe..\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7008</id>
+			<name>Pomme de terre de haute qualité</name>
+			<icon>00007003.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7013</id>
+			<name>Pomme de terre spéciale</name>
+			<icon>00007003.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7203</id>
+			<name>Pâte de pomme de terre</name>
+			<icon>00007203.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de pommes de terre obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

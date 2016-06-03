@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6602</itemKey>
+	<itemName>Huile de tempête</itemName>
+	<itemIcon>00006602.png</itemIcon>
+	<itemDesc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6352</id>
+			<name>Sang de tyran</name>
+			<icon>00006352.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6352</id>
+			<name>Sang de tyran</name>
+			<icon>00006352.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5203</id>
+			<name>Fruit d&apos;abondance</name>
+			<icon>00005203.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>4805</id>
+			<name>Poudre du temps</name>
+			<icon>00004805.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>5008</id>
+			<name>Écorce de vieil arbre</name>
+			<icon>00005008.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une écorce de vieil arbre demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

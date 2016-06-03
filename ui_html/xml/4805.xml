@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4805</itemKey>
+	<itemName>Powder of Time</itemName>
+	<itemIcon>00004805.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</itemDesc>
+	<collect>
+		<character>
+			<name>Beryl</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diamond</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gold</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Platinum</name>
+		</character>
+	</collect>
+	<node region="Glish Swamp - Mining"/>
+	<node region="Quint Hill - Mining"/>
+	<node region="Omar Lava Cave - Mining"/>
+	<node region="Abandoned Iron Mine - Mining"/>
+	<node region="Ancient Fissure - Mining"/>
+	<makelist>
+		<item>
+			<id>14020</id>
+			<name>Silver Embroidered Fisher&apos;s Clothes</name>
+			<icon>00014069.png</icon>
+			<desc>A noble outfit made for Fishers.</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimate Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>Saiyer Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer Ornamental Knot of Temptation</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Temptation is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer Ornamental Knot of Destruction</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Destruction is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer Ornamental Knot of Crimson Flame</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>A handmade ornamental knot for an axe made of quality silk.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

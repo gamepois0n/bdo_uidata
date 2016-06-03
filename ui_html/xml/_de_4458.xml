@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4458</itemKey>
+	<itemName>Glänzender Topas</itemName>
+	<itemIcon>00004458.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohtopas gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4403</id>
+			<name>Rohtopas</name>
+			<icon>00004403.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Topaserz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4457</id>
+			<name>Topas</name>
+			<icon>00004457.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohtopas gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11914</id>
+			<name>Glänzende Goldtopasohrringe</name>
+			<icon>00011914.png</icon>
+			<desc>Ein mit einem Glänzenden Goldtopas verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>12114</id>
+			<name>Glänzender Goldtopasring</name>
+			<icon>00012114.png</icon>
+			<desc>Ein mit einem Glänzenden Goldtopas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>11714</id>
+			<name>Glänzende Goldtopashalskette</name>
+			<icon>00011714.png</icon>
+			<desc>Eine mit einem Glänzenden Goldtopas verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4459</id>
+			<name>Goldtopas</name>
+			<icon>00004459.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Glänzenden Topasen mit durch Alchemie gewonnene Edelsteinpolitur gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

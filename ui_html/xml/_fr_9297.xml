@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9297</itemKey>
+	<itemName>Filet de poisson pané alléchant</itemName>
+	<itemIcon>00009297.png</itemIcon>
+	<itemDesc>Un filet de poisson cuit de taille parfaite pour le manger.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +6 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</itemDesc>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

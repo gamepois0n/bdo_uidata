@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6167</itemKey>
+	<itemName>Supreme Soft Hide</itemName>
+	<itemIcon>00006167.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking Fine Soft Hide and Leather Glaze, an ingredient made through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>6159</id>
+			<name>Fine Soft Hide</name>
+			<icon>00006159.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6183</id>
+			<name>Leather Glaze</name>
+			<icon>00006183.png</icon>
+			<desc>A material used to reinforce leather, fur, and feathers through Processing.\n\n- How to Obtain: It can be obtained through Alchemy.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

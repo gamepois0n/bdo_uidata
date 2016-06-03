@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4652</itemKey>
+	<itemName>Eschenschichtholz</itemName>
+	<itemIcon>00004652.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Eschenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4601</id>
+			<name>Eschenholz</name>
+			<icon>00004601.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann in der Goblinhöhle, auf dem Ehwazhügel, im Balenoswald und auf dem Wolfshügel hergestellt werden. Kann außerdem durch Holzfällen von Eschen erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4651</id>
+			<name>Eschenbrett</name>
+			<icon>00004651.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Eschenholz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4651</id>
+			<name>Eschenbrett</name>
+			<icon>00004651.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Eschenholz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>53501</id>
+			<name>Plane für Schäbigen Wagen</name>
+			<icon>00053501.png</icon>
+			<desc>Eine Plane für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55838</id>
+			<name>Balenosholzkiste</name>
+			<icon>00055838.png</icon>
+			<desc>Handelsware, die 5 Eschenschichthölzer und 5 Ahornschichthölzer enthält.</desc>
+		</item>
+		<item>
+			<id>51009</id>
+			<name>Wagenregistrierung: Leichter Wagen</name>
+			<icon>00051009.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Leichten Wagens』.\n– Inventarplätze: 6, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51001</id>
+			<name>Wagenregistrierung: Schäbiger Wagen</name>
+			<icon>00051001.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Schäbigen Wagens』.\n– Inventarplätze: 8, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>2214</id>
+			<name>Handgemachter Tisch aus Velia</name>
+			<icon>InHouse_D_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2204</id>
+			<name>Handgemachter Esstisch aus Velia</name>
+			<icon>InHouse_D_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2014</id>
+			<name>Handgemachter hochwertiger Nachttisch aus Velia</name>
+			<icon>InHouse_D_DFF_Chest_01.png</icon>
+			<desc>Ein hochwertiger, handgemachter Nachttisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2004</id>
+			<name>Handgemachte hochwertige Kommode aus Velia</name>
+			<icon>InHouse_D_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2104</id>
+			<name>Handgemachter Kleiderschrank aus Velia</name>
+			<icon>InHouse_D_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>4653</id>
+			<name>Stabiles Eschenschichtholz</name>
+			<icon>00004653.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Eschenschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Schiffslizenz: Fähre</name>
+			<icon>00049001.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Fähre』.\n– Inventarplätze: 8, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zur angezeigten Werft.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

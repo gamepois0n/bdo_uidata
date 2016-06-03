@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8300</itemKey>
+	<itemName>Rock Hind</itemName>
+	<itemIcon>00008300.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<node region="Pilava Island - Fish Trap 2"/>
+	<node region="Angie Island - Fish Trap 1"/>
+	<node region="Modric Island - Fish Trap"/>
+	<node region="Albresser Island - Fish Trap"/>
+	<makelist>
+		<item>
+			<id>8600</id>
+			<name>Dried Rock Hind</name>
+			<icon>00008600.png</icon>
+			<desc>A dried rock hind obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

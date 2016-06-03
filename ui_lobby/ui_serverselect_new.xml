@@ -1,0 +1,256 @@
+<UI>
+	<Control Type="Panel" Name="Panel_ServerSelect_New" Pos="0 0" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720">
+		<Control Type="Static" Name="Static_Back_1" Pos="70 741" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_2" Pos="150 743" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_3" Pos="227 738" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_03.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_4" Pos="307 734" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_04.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_5" Pos="381 743" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_05.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_6" Pos="446 748" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_06.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_7" Pos="530 750" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_07.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_8" Pos="607 750" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_08.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_9" Pos="696 752" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_09.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_10" Pos="705 739" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_10.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_11" Pos="705 739" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_11.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_12" Pos="756 748" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_12.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_13" Pos="705 739" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_13.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_14" Pos="705 799" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_14.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_15" Pos="771 806" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_15.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_16" Pos="847 809" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_16.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_17" Pos="847 809" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_17.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_18" Pos="847 809" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_18.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ServerSelect" Pos="Left Top" Size="380 300" Pan="10 10" Color="ffffffff" EnableArea="0 0 380 300" Grid="1" GridPosX="0 7 374 380" GridPosY="0 6 294 300" GridUVX="0 7 177 183" GridUVY="0 6 216 222">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+			<Text Value="서버선택" formatString="UI_SERVERSELECT_NEW_STCTXT_SERVERSELECT" Font="SubTitleFont_14" Color="fffffac3" OverColor="fffffac3" ClickColor="fffffac3" AlignHorizon="Center" AlignVertical="Top" Span="0 15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Frame" Name="FrameServerList" Pos="13 16" Size="380 300" Pan="0 0" Color="ffffffff" EnableArea="0 0 380 300">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="Center Center" Size="380 300" Pan="0 0" Color="ffffffff" EnableArea="0 0 380 300">
+				<Attribute Type="Ignore"/>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="Right Top" Size="5 743" Pan="-10 0" Color="ffffffff" EnableArea="0 0 5 743" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 736 743" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Scroll_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Scroll_DownButton" Pos="0 743" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Scroll_CtrlButton" Pos="Center 416" Size="10 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 90 100" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="0 288" Size="428 20" Pan="0 0" Color="ff333333" EnableArea="0 0 428 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="428 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="-5 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="Button" Name="Button_Server" Pos="Center Top" Size="360 65" Pan="0 55" Color="ffffffff" EnableArea="0 0 360 65" Grid="1" GridPosX="0 4 355 360" GridPosY="0 4 60 65" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ServerName" Pos="Left Top" Size="50 20" Pan="40 68" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="절대죽지않는서버" Font="BaseFont_12" Color="fffff5b4" OverColor="fffffad7" ClickColor="fffffad7" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ServerEvent" Pos="0 0" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="-" Font="BaseFont_8" Color="ffafd6d6" OverColor="ffafd6d6" ClickColor="ffafd6d6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharacterCount" Pos="Left Top" Size="50 20" Pan="200 68" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="(9)" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_ServerStatus" Pos="Left Top" Size="50 20" Pan="290 68" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="만원" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ChannelBG" Pos="Left Top" Size="350 50" Pan="25 110" Color="ffffffff" EnableArea="0 0 350 50" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 40 50" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Channel" Pos="Left Top" Size="70 35" Pan="305 117" Color="ffffffff" EnableArea="0 0 70 35" Grid="1" GridPosX="0 4 65 70" GridPosY="0 4 30 35" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="입 장" formatString="UI_SERVERSELECT_NEW_BTN_CHANNEL" Font="BaseFont_10" Color="ff48d6ff" OverColor="ff9feaff" ClickColor="ff9feaff" AlignHorizon="Center" AlignVertical="Top" Span="0 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChannelName" Pos="Left Top" Size="50 20" Pan="40 122" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="겁나게빠른채널" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_ChannelStatus" Pos="Left Top" Size="50 20" Pan="200 122" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="만원" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_UnableCreate" Pos="Left Top" Size="27 27" Pan="240 118" Color="ffffffff" EnableArea="0 0 27 27" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="139 44 166 44 139 71 166 71" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_MainChannelIcon" Pos="Left Top" Size="14 14" Pan="135 124" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 17 0 0 17 17 17" Ani="1 1 0.000 0">new_ui_common_forlua/default/main_channel_icon.dds</Texture>
+		</Control>
+		<Control Type="MultilineText" Name="MultilineText_ChangeChannel" Pos="Left Top" Size="80 35" Pan="305 117" Color="ffffffff" EnableArea="0 0 80 35">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="15분 99초" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_WarInfo" Pos="11 327" Size="380 275" Pan="10 0" Color="ffffffff" EnableArea="0 0 380 275" Grid="1" GridPosX="0 4 376 380" GridPosY="0 10 270 280" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WarInfo_Title" Pos="20 366" Size="360 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 360 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="점령전/거점전" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_WarInfo_BG" Pos="20 370" Size="360 220" Pan="10 40" Color="ffffffff" EnableArea="0 0 360 220" Grid="1" GridPosX="0 10 350 360" GridPosY="0 10 215 225" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WarListBG" Pos="25 375" Size="350 35" Pan="14 43" Color="ffffffff" EnableArea="0 0 350 35" Grid="1" GridPosX="0 5 345 350" GridPosY="0 5 30 35" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeWar_Name" Pos="40 385" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 219 185 219 154 250 185 250" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="세렌디아 북부 자치령 " Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="20 -3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WarStatus" Pos="190 385" Size="100 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="(점령전 진행중)" Font="BaseFont_8" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WarGuide" Pos="20 540" Size="360 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 360 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="- 점령전/거점전은 각 자치령의 1채널에서 참가 가능합니다." Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SiegeBG" Pos="24 375" Size="350 135" Pan="10 40" Color="ffffffff" EnableArea="0 0 350 135" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 125 135" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Channel" Pos="35 385" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="154 219 185 219 154 250 185 250" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="영지별 점령전/거점전 진행 채널" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Top" Span="20 -3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Siege_Balenos" Pos="40 405" Size="300 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 발레노스 자치령 : 발레노스 1채널" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Siege_Serendia" Pos="40 425" Size="300 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 세렌디아 자치령 : 세렌디아 1채널" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Siege_Calpheon" Pos="40 445" Size="300 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 칼페온 직할령 : 칼페온 1채널" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Siege_Media" Pos="40 465" Size="300 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 메디아 직할령 : 메디아 1채널" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Siege_Valencia" Pos="40 485" Size="300 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 발렌시아 직할령 : 발렌시아 1채널" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NodeWarBG" Pos="25 515" Size="350 70" Pan="10 40" Color="ffffffff" EnableArea="0 0 350 70" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 65 75" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Schedule" Pos="35 525" Size="15 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="154 219 185 219 154 250 185 250" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="점령전/거점전 진행 일정" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Top" Span="20 -3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Schedule_Siege" Pos="40 545" Size="300 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 점령전 : 매주 토요일 오후 8시 ~ 12시" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Schedule_Nodewar" Pos="40 565" Size="300 20" Pan="16 19" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 거점전 : 매주 수/일요일 오후 8시 ~ 10시" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_PrimiumIcon" Pos="Left Top" Size="27 27" Pan="240 118" Color="ffffffff" EnableArea="0 0 27 27" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 35 0 0 35 35 35" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/primium_server.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ChannelSelectMainBG" Pos="448 331" Size="380 135" Pan="10 0" Color="ffffffff" EnableArea="0 0 380 135" Grid="1" GridPosX="0 4 376 380" GridPosY="0 10 130 140" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ChannelSelectSubBG" Pos="458 373" Size="360 80" Pan="10 40" Color="ffffffff" EnableArea="0 0 360 80" Grid="1" GridPosX="0 10 350 360" GridPosY="0 10 75 85" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChannelSelectDesc" Pos="468 380" Size="340 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 340 70">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 검은사막은 단일 월드(서버)로 구성됩니다.\n- 채널은 자유롭게 선택해 플레이할 수 있으며, 원할 때 언제든지\n   변경할 수 있습니다.\n- 대신 채널 이동에는 15분의 대기시간이 있습니다." formatString="PANEL_SERVERSELECT_CHANNELSELECTDESC" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChannelSelectTitle" Pos="456 366" Size="360 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 360 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="- 단일 월드 시스템 -" formatString="PANEL_SERVERSELECT_CHANNELSELECTTITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+	</Control>
+</UI>
+

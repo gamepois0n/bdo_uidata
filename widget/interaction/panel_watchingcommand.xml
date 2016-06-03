@@ -1,0 +1,93 @@
+<UI>
+	<Control Type="Panel" Name="Panel_WatchingMode" Pos="Center Center" Size="200 285" Pan="350 0" Color="ff000000" EnableArea="0 0 200 285">
+		<Attribute Type="Drag" Area="0 -25 200 255"/>
+		<Control Type="Static" Name="Static_CommandBG" Pos="Center Bottom" Size="200 255" Pan="0 0" Color="cc000000" EnableArea="0 0 -10 50" Grid="1" GridPosX="0 5 195 200" GridPosY="0 5 250 255" GridUVX="0 5 224 229" GridUVY="0 5 37 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 188 230 188 1 230 230 230" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_W" Pos="Left Top" Size="26 26" Pan="10 10" Color="ffe6e6e6" EnableArea="0 0 26 26" Grid="1" GridPosX="0 5 21 26" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="W" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_A" Pos="Left Top" Size="26 26" Pan="10 40" Color="ffe6e6e6" EnableArea="0 0 26 26" Grid="1" GridPosX="0 5 21 26" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="A" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_S" Pos="Left Top" Size="26 26" Pan="10 70" Color="ffe6e6e6" EnableArea="0 0 26 26" Grid="1" GridPosX="0 5 21 26" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="S" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_D" Pos="Left Top" Size="26 26" Pan="10 100" Color="ffe6e6e6" EnableArea="0 0 26 26" Grid="1" GridPosX="0 5 21 26" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="D" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_Q" Pos="Left Top" Size="26 26" Pan="10 130" Color="ffe6e6e6" EnableArea="0 0 26 26" Grid="1" GridPosX="0 5 21 26" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="Q" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_E" Pos="Left Top" Size="26 26" Pan="10 160" Color="ffe6e6e6" EnableArea="0 0 26 26" Grid="1" GridPosX="0 5 21 26" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="E" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_R" Pos="Left Top" Size="26 26" Pan="10 190" Color="ffe6e6e6" EnableArea="0 0 26 26" Grid="1" GridPosX="0 5 21 26" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="R" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Key_Shift" Pos="Left Top" Size="50 26" Pan="10 220" Color="ffe6e6e6" EnableArea="0 0 50 26" Grid="1" GridPosX="0 5 45 50" GridPosY="0 5 21 26" GridUVX="0 5 27 32" GridUVY="0 5 27 32">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 34 33 34 1 66 33 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_key.dds</Texture>
+			<Text Value="Shift" Font="BaseFont_8_Bold" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Forward" Pos="Right Top" Size="80 21" Pan="50 11" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="앞으로 이동" formatString="PANEL_WATCHINGCOMMAND_FORWARD" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Left" Pos="Right Top" Size="80 21" Pan="50 41" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="왼쪽으로 이동" formatString="PANEL_WATCHINGCOMMAND_LEFT" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Back" Pos="Right Top" Size="80 21" Pan="50 71" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="뒤로 이동" formatString="PANEL_WATCHINGCOMMAND_BACK" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Right" Pos="Right Top" Size="80 21" Pan="50 101" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="오른쪽으로 이동" formatString="PANEL_WATCHINGCOMMAND_RIGHT" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Small" Pos="Right Top" Size="80 21" Pan="50 131" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="카메라 기준 위로 이동" formatString="PANEL_WATCHINGCOMMAND_SMALL" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Big" Pos="Right Top" Size="80 21" Pan="50 161" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="카메라 기준 아래로 이동" formatString="PANEL_WATCHINGCOMMAND_BIG" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Exit" Pos="Right Top" Size="80 21" Pan="50 191" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="관전 모드 종료" formatString="PANEL_WATCHINGCOMMAND_EXIT" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Speed" Pos="Right Top" Size="80 21" Pan="50 221" Color="ffe6e6e6" EnableArea="0 0 80 21">
+			<Attribute Type="Ignore"/>
+			<Text Value="이동 속도 빠르게" formatString="PANEL_WATCHINGCOMMAND_SPEED" Font="BaseFont_8_Bold" Color="ffe6e6e6" OverColor="ffe6e6e6" ClickColor="ffe6e6e6" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ShowCommandBG" Pos="Left Top" Size="120 23" Pan="80 0" Color="cc000000" EnableArea="0 0 120 23" Grid="1" GridPosX="0 5 115 120" GridPosY="0 5 18 23" GridUVX="0 5 224 229" GridUVY="0 5 37 42" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 188 230 188 1 230 230 230" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/skillcommand_00.dds</Texture>
+		</Control>
+		<Control Type="Checkbox" Name="Button_ShowCommand" Pos="Left Top" Size="24 18" Pan="90 2" Color="ffffffff" EnableArea="0 0 100 18" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="206 85 230 85 206 103 230 103" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="On" UV="231 66 255 66 231 84 255 84" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="Click" UV="206 66 230 66 206 84 230 84" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Text Value="키 도움말 표시" formatString="PANEL_WATCHINGMODE_KEYHELP" Font="BaseFont_8_Bold" Color="ffa3df00" OverColor="fffaed7d" ClickColor="fffaed7d" AlignHorizon="Left" AlignVertical="Top" Span="25 1"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

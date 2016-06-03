@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9293</itemKey>
+	<itemName>Thick Aloe Yogurt</itemName>
+	<itemIcon>00009293.png</itemIcon>
+	<itemDesc>Thick yogurt with lots of aloe in it.\n- Unique effect: Fishing Speed Rank +1 for 45min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloe</name>
+			<icon>00007347.png</icon>
+			<desc>Aloe is a specialty of Mediah.\nUsage: Aloe Cookie, Aloe Yogurt, etc.\n- How to Obtain: It can be obtained at Ahto Farm. Mediah Aloe can also be Gathered using Bare Hands or a Hoe.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14443</itemKey>
+	<itemName>Ultimate Yuria Staff</itemName>
+	<itemIcon>00014414.png</itemIcon>
+	<itemDesc>A Yuria staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Yuria staff.\n\n- Restore Max Durability: Yuria Staff of Crimson Flame, Yuria Staff of Destruction, Yuria Staff of Temptation, Yuria Staff</itemDesc>
+	<house type="6">
+		<item>
+			<id>4065</id>
+			<name>Pure Zinc Crystal</name>
+			<icon>00004065.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Zinc Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Pine Sap</name>
+			<icon>00005003.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Pine Trees with a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>4603</id>
+			<name>Pine Timber</name>
+			<icon>00004603.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Serendia Shrine and Marie Cave. It can be also be obtained by Lumbering Pine Trees.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Monk&apos;s Branch</name>
+			<icon>00005007.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Monk&apos;s Branch requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace of Ascension</name>
+			<icon>00005955.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14440</id>
+			<name>Yuria Staff of Crimson Flame</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Crimson Flame, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Grade 3 Weapon Reform Stone</name>
+			<icon>00004910.png</icon>
+			<desc>A material used in 3rd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14414</id>
+			<name>Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A staff possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria Staff of Temptation</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria Staff of Destruction</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Destruction, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria Staff of Crimson Flame</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Crimson Flame, Yuria Staff</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

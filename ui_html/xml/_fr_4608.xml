@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4608</itemKey>
+	<itemName>Bois d&apos;œuvre de cèdre blanc</itemName>
+	<itemIcon>00004608.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans les hautes terres de Mediah Nord et le sanctuaire d&apos;Elric. S&apos;obtient également en débitant des cèdres blancs.</itemDesc>
+	<collect>
+		<character>
+			<name>Cèdre blanc</name>
+		</character>
+	</collect>
+	<node region="Hautes-terres septentrionales de Mediah : débit de bois"/>
+	<node region="Sanctuaire d'Elric : débit de bois"/>
+	<makelist>
+		<item>
+			<id>55836</id>
+			<name>Caisse enbois d&apos;œuvre de cèdre blanc</name>
+			<icon>00055836.png</icon>
+			<desc>Un objet de commerce contenant 10 planches de bois de cèdre blanc.</desc>
+		</item>
+		<item>
+			<id>53603</id>
+			<name>Drapeau de wagon blanc</name>
+			<icon>00053603.png</icon>
+			<desc>Un drapeau de wagon.\n\n- Utilisable sur : wagon\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>53403</id>
+			<name>Roue de wagon blanc</name>
+			<icon>00053403.png</icon>
+			<desc>Une roue de wagon.\n\n- Utilisable sur : wagon\n\nPeut être améliorée avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>16165</id>
+			<name>Mediah Fishing Rod</name>
+			<icon>00016165.png</icon>
+			<desc>Ash tree float. It shortens the auto-fishing time.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>4677</id>
+			<name>Contreplaqué de cèdre blanc</name>
+			<icon>00004677.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de cèdre blanc. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la quête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4676</id>
+			<name>Planche de cèdre blanc</name>
+			<icon>00004676.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de cèdre blanc.</desc>
+		</item>
+		<item>
+			<id>2315</id>
+			<name>Chaise de Mediah fabriquée main</name>
+			<icon>InHouse_H_DFF_Chair_01.png</icon>
+			<desc>Une chaise fabriquée à la main à Mediah.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

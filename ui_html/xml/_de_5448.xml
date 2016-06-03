@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5448</itemKey>
+	<itemName>Hochwertiges Seidenhoniggras</itemName>
+	<itemIcon>00005405.png</itemIcon>
+	<itemDesc>Ein Anbauprodukt, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</itemDesc>
+	<makelist>
+		<item>
+			<id>7563</id>
+			<name>Kiste hochwertigen Seidenhoniggrases</name>
+			<icon>00007505.png</icon>
+			<desc>Kräuter, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Konzentrierter Kräutersaft</name>
+			<icon>00000570.png</icon>
+			<desc>Stellt bei Verwendung sofort +175 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Kräutersaft</name>
+			<icon>00000569.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

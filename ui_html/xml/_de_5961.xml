@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5961</itemKey>
+	<itemName>Spur der Gewalt</itemName>
+	<itemIcon>00005961.png</itemIcon>
+	<itemDesc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung beim Manshawald gefunden werden.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10012</id>
+			<name>Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Langschwert.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10212</id>
+			<name>Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Langbogen.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10412</id>
+			<name>Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Fokusreif.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10612</id>
+			<name>Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine zu höchster Perfektion geschmiedete Axt.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13212</id>
+			<name>Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Kurzschwert.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14412</id>
+			<name>Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedeter Stab.</desc>
+		</item>
+	</manufacture>
+	<node region="Manshawald – Ausgrabung"/>
+	<makelist>
+		<item>
+			<id>10412</id>
+			<name>Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Fokusreif.</desc>
+		</item>
+		<item>
+			<id>10435</id>
+			<name>Ultimativer Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Purpurnen Flamme, Kalis-Fokusreif der Zerstörung, Kalis-Fokusreif der Versuchung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis-Fokusreif der Versuchung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Versuchung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis-Fokusreif der Zerstörung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Zerstörung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Purpurnen Flamme, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>13235</id>
+			<name>Ultimatives Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein maximal aufgerüstetes Kalis-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert der Zerstörung, Kalis-Kurzschwert der Versuchung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Kalis-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Versuchung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Zerstörung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Kurzschwert.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine zu höchster Perfektion geschmiedete Axt.</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedeter Stab.</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Ultimativer Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab der Zerstörung, Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis-Stab der Versuchung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis-Stab der Zerstörung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Zerstörung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis-Zauberstab der Purpurnen Flamme</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Ultimativer Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Purpurnen Flamme, Kalis-Langbogen der Zerstörung, Kalis-Langbogen der Versuchung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis-Langbogen der Versuchung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Versuchung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis-Langbogen der Zerstörung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Zerstörung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis-Langbogen der Purpurnen Flamme</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Langbogens gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Purpurnen Flamme, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Langbogen.</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Kalis-Axt der Purpurnen Flamme</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Purpurnen Flamme, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10635</id>
+			<name>Ultimative Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine maximal aufgerüstete Kalis-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Purpurnen Flamme, Kalis-Axt der Zerstörung, Kalis-Axt der Versuchung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Kalis-Axt der Versuchung</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Versuchung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Kalis-Axt der Zerstörung</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Zerstörung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Kalis-Langschwert der Zerstörung</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Zerstörung, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Kalis-Langschwert der Purpurnen Flamme</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Purpurnen Flamme, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Langschwert.</desc>
+		</item>
+		<item>
+			<id>10035</id>
+			<name>Ultimatives Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein maximal aufgerüstetes Kalis-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Purpurnen Flamme, Kalis-Langschwert der Zerstörung, Kalis-Langschwert der Versuchung, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Kalis-Langschwert der Versuchung</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Versuchung, Kalis-Langschwert</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

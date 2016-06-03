@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9001</itemKey>
+	<itemName>Salt</itemName>
+	<itemIcon>00009001.png</itemIcon>
+	<itemDesc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</itemDesc>
+	<shop>
+		<character>
+			<name>Izella</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fredelles Herba</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Hannes</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Deborah</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fatoos</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Nadia Rowen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vangelas</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Constante</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>David Finto</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Paola Toscani</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Weikid Taha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Edman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Broman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ekta</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Pasenia</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Galutboar</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Adin</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dyleoyen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ivan DeRose</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6652</id>
+			<name>Bottle of Sea Water</name>
+			<icon>00006652.png</icon>
+			<desc>Water Gathered from the sea using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Sea Water can be obtained by using an Empty Bottle by the sea.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>An ingredient used in Cooking. It can be created by Shaking salt with the cream obtained from Shaking milk.\n\n- Usage: Cheese Pie, Seafood Grilled with Butter</desc>
+		</item>
+		<item>
+			<id>579</id>
+			<name>Refined Herbal Juice</name>
+			<icon>00000573.png</icon>
+			<desc>MP/WP/SP is recovered by 325.\n- Cooldown time: 6 sec.\n- It is lighter than an ordinary potion.</desc>
+		</item>
+		<item>
+			<id>571</id>
+			<name>Highly Concentrated Herbal Juice</name>
+			<icon>00000571.png</icon>
+			<desc>Immediately heals MP/WP/SP by +250.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Concentrated Herbal Juice</name>
+			<icon>00000570.png</icon>
+			<desc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

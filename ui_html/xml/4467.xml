@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4467</itemKey>
+	<itemName>Mud Crystal</itemName>
+	<itemIcon>00004467.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Mud Crystals found near Glish Ruins.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4407</id>
+			<name>Rough Mud Crystal</name>
+			<icon>00004407.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Mud Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Glish Ruins.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14101</id>
+			<name>Steel Taritas Helmet</name>
+			<icon>00010813.png</icon>
+			<desc>Steel Taritas Helmet made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Helmet.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14102</id>
+			<name>Steel Taritas Armor</name>
+			<icon>00010814.png</icon>
+			<desc>Steel Taritas Armor made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Armor.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14103</id>
+			<name>Steel Taritas Gloves</name>
+			<icon>00010815.png</icon>
+			<desc>Steel Taritas Gloves made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Gloves.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14104</id>
+			<name>Steel Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Steel Taritas Shoes made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Shoes.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14124</id>
+			<name>Ultimate Steel Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Steel Taritas Shoes with maximum potential.\nLighter than ordinary Ultimate Taritas shoes, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>55859</id>
+			<name>Mud Crystal Amulet of Curses</name>
+			<icon>00055859.png</icon>
+			<desc>An accessory made by Processing a Mud Crystal. Those wanting a curse to befall someone else carry around this as a charm.</desc>
+		</item>
+		<item>
+			<id>14123</id>
+			<name>Ultimate Steel Taritas Gloves</name>
+			<icon>00010815.png</icon>
+			<desc>Steel Taritas Gloves with maximum potential\nLighter than ordinary Ultimate Taritas gloves, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14122</id>
+			<name>Ultimate Steel Taritas Armor</name>
+			<icon>00010814.png</icon>
+			<desc>Steel Taritas Armor with maximum potential.\nLighter than ordinary Ultimate Taritas armor, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14121</id>
+			<name>Ultimate Steel Taritas Helmet</name>
+			<icon>00010813.png</icon>
+			<desc>Steel Taritas Helmet with maximum potential.\nLighter than ordinary Ultimate Taritas helmet, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : All Taritas and Steel Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14105</id>
+			<name>Steel Taritas Helmet of Iron Wall</name>
+			<icon>00010813.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Helmet\nLighter than ordinary Taritas Helmet of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Helmet of Iron wall, Steel Taritas Helmet, Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14104</id>
+			<name>Steel Taritas Shoes</name>
+			<icon>00010816.png</icon>
+			<desc>Steel Taritas Shoes made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Shoes.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14103</id>
+			<name>Steel Taritas Gloves</name>
+			<icon>00010815.png</icon>
+			<desc>Steel Taritas Gloves made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Gloves.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14102</id>
+			<name>Steel Taritas Armor</name>
+			<icon>00010814.png</icon>
+			<desc>Steel Taritas Armor made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Armor.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14101</id>
+			<name>Steel Taritas Helmet</name>
+			<icon>00010813.png</icon>
+			<desc>Steel Taritas Helmet made by master blacksmith\nIt is lighter and more durable than normal one. It can also be used for durability restoration of normal Taritas Helmet.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>14111</id>
+			<name>Steel Taritas Gloves of Agility</name>
+			<icon>00010815.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Gloves\nLighter than ordinary Taritas Gloves of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Gloves of Agility, Steel Taritas Gloves, Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14110</id>
+			<name>Steel Taritas Armor of Agility</name>
+			<icon>00010814.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Armor\nLighter than ordinary Taritas Armor of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Armor of Agility, Steel Taritas Armor, Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14109</id>
+			<name>Steel Taritas Helmet of Agility</name>
+			<icon>00010813.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Helmet\nLighter than ordinary Taritas Helmet of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Helmet of Agility, Steel Taritas Helmet, Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14108</id>
+			<name>Steel Taritas Shoes of Iron Wall</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Shoes\nLighter than ordinary Taritas Shoes of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Iron wall, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>14107</id>
+			<name>Steel Taritas Gloves of Iron Wall</name>
+			<icon>00010815.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Gloves\nLighter than ordinary Taritas Gloves of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Gloves of Iron wall, Steel Taritas Gloves, Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14106</id>
+			<name>Steel Taritas Armor of Iron Wall</name>
+			<icon>00010814.png</icon>
+			<desc>Energy of iron wall is contained within this Steel Taritas Armor\nLighter than ordinary Taritas Armor of Iron Wall, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Armor of Iron wall, Steel Taritas Armor, Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14116</id>
+			<name>Steel Taritas Shoes of Intimidation</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Shoes\nLighter than ordinary Taritas Shoes of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Duress, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>14115</id>
+			<name>Steel Taritas Gloves of Intimidation</name>
+			<icon>00010815.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Gloves\nLighter than ordinary Taritas Gloves of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Gloves of Duress, Steel Taritas Gloves, Taritas Gloves</desc>
+		</item>
+		<item>
+			<id>14114</id>
+			<name>Steel Taritas Armor of Intimidation</name>
+			<icon>00010814.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Armor\nLighter than ordinary Taritas Armor of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Armor of Duress, Steel Taritas Armor, Taritas Armor</desc>
+		</item>
+		<item>
+			<id>14113</id>
+			<name>Steel Taritas Helm of Intimidation</name>
+			<icon>00010813.png</icon>
+			<desc>Energy of intimidation is contained within this Steel Taritas Helmet\nLighter than ordinary Taritas Helmet of Duress, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Helmet of Duress, Steel Taritas Helmet, Taritas Helmet</desc>
+		</item>
+		<item>
+			<id>14112</id>
+			<name>Steel Taritas Shoes of Agility</name>
+			<icon>00010816.png</icon>
+			<desc>Energy of agility is contained within this Steel Taritas Shoes\nLighter than ordinary Taritas Shoes of Agility, and more durable.\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Steel Taritas Shoes of Agility, Steel Taritas Shoes, Taritas Shoes</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Grade 1 Armor Reform Stone</name>
+			<icon>00004907.png</icon>
+			<desc>A material used in 1st-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>24212</id>
+			<name>Imperial Platinum Kettle</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>An imperial platinum kettle.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Golden Hand Vase</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>A golden hand vase.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Beautiful Opal Vase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>A beautiful opal vase.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Fancy Topaz Kettle</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>A fancy topaz kettle.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Emerald Gourd-Shaped Bottle</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>An emerald gourd-shaped bottle.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

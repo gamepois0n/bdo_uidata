@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8534</itemKey>
+	<itemName>Poisson-lime séché</itemName>
+	<itemIcon>00008534.png</itemIcon>
+	<itemDesc>Un poisson-lime obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8234</id>
+			<name>Poisson-lime</name>
+			<icon>00008234.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55934</id>
+			<name>Poisson-lime séché sous vide</name>
+			<icon>00055934.png</icon>
+			<desc>Un objet de commerce contenant 10 poissons-limes séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

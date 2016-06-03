@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5415</itemKey>
+	<itemName>Nebelpilz</itemName>
+	<itemIcon>00005415.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Nebelpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</itemDesc>
+	<collect>
+		<character>
+			<name>Nebelpilz</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7515</id>
+			<name>Nebelpilzkiste</name>
+			<icon>00007515.png</icon>
+			<desc>Pilze, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

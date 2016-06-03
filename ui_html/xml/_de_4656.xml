@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4656</itemKey>
+	<itemName>Stabiles Ahornschichtholz</itemName>
+	<itemIcon>00004656.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Ahornschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4655</id>
+			<name>Ahornschichtholz</name>
+			<icon>00004655.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4684</id>
+			<name>Schichtholz-Härter</name>
+			<icon>00004684.png</icon>
+			<desc>Ein Material, das genutzt wird, um Schichthölzer durch Verarbeitung zu verstärken.\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>56002</id>
+			<name>Kanonenbausatz für Alte Kanone von Serendia</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Alten Serendia-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nDa sie ein älteres Modell ist, ist sie weniger beständig und feuert langsamer.\nDer Schusswinkel kann in 3 Stufen geregelt werden.\nBasis-Kanonenschaden: 500\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>2309</id>
+			<name>Handgemachtes Kanapee aus Heidel</name>
+			<icon>InHouse_B_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2702</id>
+			<name>Handgemachtes Bett aus Heidel</name>
+			<icon>InHouse_B_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

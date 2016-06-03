@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5952</itemKey>
+	<itemName>Trace de désespoir</itemName>
+	<itemIcon>00005952.png</itemIcon>
+	<itemDesc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait au site d&apos;excavation de la souche de Rhua et dans la forêt des manshas.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10056</id>
+			<name>Épée longue de Krea</name>
+			<icon>00010056.png</icon>
+			<desc>Une épée longue conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10256</id>
+			<name>Arc long de Krea</name>
+			<icon>00010256.png</icon>
+			<desc>Un arc long conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10456</id>
+			<name>Amulette de Krea</name>
+			<icon>00010456.png</icon>
+			<desc>Une amulette conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10656</id>
+			<name>Hache de Krea</name>
+			<icon>00010656.png</icon>
+			<desc>Une hache conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13256</id>
+			<name>Épée courte de Krea</name>
+			<icon>00013256.png</icon>
+			<desc>Une épée courte conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14456</id>
+			<name>Bâton de Krea</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<node region="Forêt des manshas : excavation"/>
+	<node region="Souche de l'Arbre de Rhua : excavation"/>
+	<makelist>
+		<item>
+			<id>13256</id>
+			<name>Épée courte de Krea</name>
+			<icon>00013256.png</icon>
+			<desc>Une épée courte conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>13263</id>
+			<name>Épée courte de Krea ultime</name>
+			<icon>00013256.png</icon>
+			<desc>Une épée courte de Krea qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée courte de Krea.\n\n- Rétablir la durabilité maximale : épée courte de Krea de la flamme pourpre, épée courte de Krea de destruction, épée courte de Krea de tentation, épée courte de Krea</desc>
+		</item>
+		<item>
+			<id>13260</id>
+			<name>Épée courte de Krea de tentation</name>
+			<icon>00013256.png</icon>
+			<desc>Cette épée courte de Krea renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée courte de Krea.\n\n- Rétablir la durabilité maximale : épée courte de Krea de tentation, épée courte de Krea</desc>
+		</item>
+		<item>
+			<id>13259</id>
+			<name>Épée courte de Krea de destruction</name>
+			<icon>00013256.png</icon>
+			<desc>Cette épée courte de Krea renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée courte de Krea.\n\n- Rétablir la durabilité maximale : épée courte de Krea de destruction, épée courte de Krea</desc>
+		</item>
+		<item>
+			<id>13258</id>
+			<name>Épée courte de Krea de la flamme pourpre</name>
+			<icon>00013256.png</icon>
+			<desc>Cette épée courte de Krea renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée courte de Krea.\n\n- Rétablir la durabilité maximale : épée courte de Krea de la flamme pourpre, épée courte de Krea</desc>
+		</item>
+		<item>
+			<id>10463</id>
+			<name>Amulette de Krea ultime</name>
+			<icon>00010456.png</icon>
+			<desc>Une amulette de Krea qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de la flamme pourpre, amulette de Krea de destruction, amulette de Krea de tentation, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10663</id>
+			<name>Hache de Krea ultime</name>
+			<icon>00010656.png</icon>
+			<desc>Une hache de Krea qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une hache de Krea.\n\n- Rétablir la durabilité maximale : hache de Krea de la flamme pourpre, hache de Krea de destruction, hache de Krea de tentation, hache de Krea</desc>
+		</item>
+		<item>
+			<id>10660</id>
+			<name>Hache de Krea de tentation</name>
+			<icon>00010656.png</icon>
+			<desc>Cette hache de Krea renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une hache de Krea.\n\n- Rétablir la durabilité maximale : hache de Krea de tentation, hache de Krea</desc>
+		</item>
+		<item>
+			<id>10659</id>
+			<name>Hache de Krea de destruction</name>
+			<icon>00010656.png</icon>
+			<desc>Cette hache de Krea renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une hache de Krea.\n\n- Rétablir la durabilité maximale : hache de Krea de destruction, hache de Krea</desc>
+		</item>
+		<item>
+			<id>10658</id>
+			<name>Hache de Krea de la flamme pourpre</name>
+			<icon>00010656.png</icon>
+			<desc>Cette hache de Krea renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache de Krea.\n\n- Rétablir la durabilité maximale : hache de Krea de la flamme pourpre, hache de Krea</desc>
+		</item>
+		<item>
+			<id>10656</id>
+			<name>Hache de Krea</name>
+			<icon>00010656.png</icon>
+			<desc>Une hache conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Bâton de Krea</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Bâton de Krea ultime</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton de Krea ayant atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea de destruction, bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Bâton de Krea de tentation</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Bâton de Krea de destruction</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de destruction, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Bâton de Krea de la flamme pourpre</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>10460</id>
+			<name>Amulette de Krea de tentation</name>
+			<icon>00010456.png</icon>
+			<desc>Cette amulette de Krea renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de tentation, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10459</id>
+			<name>Amulette de Krea de destruction</name>
+			<icon>00010456.png</icon>
+			<desc>Cette amulette de Krea renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de destruction, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10458</id>
+			<name>Amulette de Krea de la flamme pourpre</name>
+			<icon>00010456.png</icon>
+			<desc>Cette amulette de Krea renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de la flamme pourpre, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10456</id>
+			<name>Amulette de Krea</name>
+			<icon>00010456.png</icon>
+			<desc>Une amulette conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Arc long de Krea de la flamme pourpre</name>
+			<icon>00010256.png</icon>
+			<desc>Cet arc long de Krea renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Krea.\n\n- Rétablir la durabilité maximale : arc long de Krea de la flamme pourpre, arc long de Krea</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Arc long de Krea</name>
+			<icon>00010256.png</icon>
+			<desc>Un arc long conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10263</id>
+			<name>Arc long de Krea ultime</name>
+			<icon>00010256.png</icon>
+			<desc>Un arc long de Krea qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de Krea.\n\n- Rétablir la durabilité maximale : arc long de Krea de la flamme pourpre, arc long de Krea de destruction, arc long de Krea de tentation, arc long de Krea</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Arc long de Krea de tentation</name>
+			<icon>00010256.png</icon>
+			<desc>Cet arc long de Krea renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de Krea.\n\n- Rétablir la durabilité maximale : arc long de Krea de tentation, arc long de Krea</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Arc long de Krea de destruction</name>
+			<icon>00010256.png</icon>
+			<desc>Cet arc long de Krea renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de Krea.\n\n- Rétablir la durabilité maximale : arc long de Krea de destruction, arc long de Krea</desc>
+		</item>
+		<item>
+			<id>10058</id>
+			<name>Épée longue de Krea de la flamme pourpre</name>
+			<icon>00010056.png</icon>
+			<desc>Cette épée longue de Krea renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée longue de Krea.\n\n- Rétablir la durabilité maximale : épée longue de Krea de la flamme pourpre, épée longue de Krea</desc>
+		</item>
+		<item>
+			<id>10056</id>
+			<name>Épée longue de Krea</name>
+			<icon>00010056.png</icon>
+			<desc>Une épée longue conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10063</id>
+			<name>Épée longue de Krea ultime</name>
+			<icon>00010056.png</icon>
+			<desc>Une épée longue de Krea qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée longue de Krea.\n\n- Rétablir la durabilité maximale : épée longue de Krea de la flamme pourpre, épée longue de Krea de destruction, épée longue de Krea de tentation, épée longue de Krea</desc>
+		</item>
+		<item>
+			<id>10060</id>
+			<name>Épée longue de Krea de tentation</name>
+			<icon>00010056.png</icon>
+			<desc>Cette épée longue de Krea renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée longue de Krea.\n\n- Rétablir la durabilité maximale : épée longue de Krea de tentation, épée longue de Krea</desc>
+		</item>
+		<item>
+			<id>10059</id>
+			<name>Épée longue de Krea de destruction</name>
+			<icon>00010056.png</icon>
+			<desc>Cette épée longue de Krea renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée longue de Krea.\n\n- Rétablir la durabilité maximale : épée longue de Krea de destruction, épée longue de Krea</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

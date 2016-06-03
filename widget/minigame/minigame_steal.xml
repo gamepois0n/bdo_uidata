@@ -1,0 +1,26 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MiniGame_Steal" Pos="Center Center" Size="320 320" Pan="-280 20" Color="ffffffff" EnableArea="0 0 320 320">
+		<Texture Type="Special" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/mask_gradient_center.dds</Texture>
+		<Control Type="Static" Name="Static_MyPocket" Pos="Right Bottom" Size="150 150" Pan="80 40" Color="ffffffff" EnableArea="0 0 150 150">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="152 1 302 1 152 151 302 151" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Move" StartPos="90 130" EndPos="114 130" Align="0 0 0 0" StartSpan="0 0" EndSpan="0 0" ID="Ani_Move_Pos_New" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="4" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_TheifHand_0" Pos="36 84" Size="150 150" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 150">
+			<Texture Type="Base" UV="1 1 151 1 1 151 151 151" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Move" StartPos="-148 -94" EndPos="36 84" Align="0 0 0 0" StartSpan="0 0" EndSpan="0 0" ID="Ani_Move_Pos_New" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="50" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MyHand" Pos="83 111" Size="213 150" Pan="0 0" Color="ffffffff" EnableArea="0 0 213 150">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 152 214 152 1 302 214 302" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Move" StartPos="3 314" EndPos="83 111" Align="0 0 0 0" StartSpan="0 0" EndSpan="0 0" ID="Ani_Move_Pos_New" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+	</Control>
+</UI>
+

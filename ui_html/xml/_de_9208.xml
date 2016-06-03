@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9208</itemKey>
+	<itemName>Fischfilethappen</itemName>
+	<itemIcon>00009208.png</itemIcon>
+	<itemDesc>Ein getrockneter Fisch, der mit Getreidemehl angebraten wurde.\n\n– Spezielle Wirkung: Stellt +5 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</itemDesc>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

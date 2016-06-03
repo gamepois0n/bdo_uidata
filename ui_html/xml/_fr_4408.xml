@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4408</itemKey>
+	<itemName>Cristal rouge brut</itemName>
+	<itemIcon>00004408.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal rouge brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près de la grotte des khurutos.</itemDesc>
+	<collect>
+		<character>
+			<name>Quartz rouge</name>
+		</character>
+	</collect>
+	<node region="Grotte des khurutos : extraction minière"/>
+	<node region="Fissure des Sages : extraction minière"/>
+	<makelist>
+		<item>
+			<id>4468</id>
+			<name>Cristal rouge</name>
+			<icon>00004468.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux rouges bruts trouvés près de la grotte des khurutos.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

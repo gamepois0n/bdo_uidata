@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4005</itemKey>
+	<itemName>Minerai de zinc</itemName>
+	<itemIcon>00004005.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la grotte de lave d&apos;Omar, la mine de fer abandonnée et la fissure des Sages. S&apos;obtient à partir de minerai contenant du zinc.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grès</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pierre de sang</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pierre de terre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zinc</name>
+		</character>
+	</collect>
+	<node region="Grotte de lave d'Omar : extraction minière"/>
+	<node region="Mine de fer abandonnée : extraction minière"/>
+	<node region="Fissure des Sages : extraction minière"/>
+	<makelist>
+		<item>
+			<id>55846</id>
+			<name>Caisse de minerai de zinc</name>
+			<icon>00055846.png</icon>
+			<desc>Un objet de commerce contenant 10 minerais de zinc.</desc>
+		</item>
+		<item>
+			<id>4064</id>
+			<name>Lingot de zinc</name>
+			<icon>00004064.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de zinc fondu. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Fragment de zinc fondu</name>
+			<icon>00004063.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de zinc.</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 1</name>
+			<icon>00004907.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

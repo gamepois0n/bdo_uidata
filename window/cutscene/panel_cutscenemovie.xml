@@ -1,0 +1,34 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Cutscene_Movie" Pos="0 1" Size="1280 720" Pan="0 0" Color="ff555555" EnableArea="0 0 1280 720">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_LetterBoxTop" Pos="Left Top" Size="50 20" Pan="0 0" Color="ff000000" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 28 0 0 28 28 28" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_palette.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_LetterBoxBottom" Pos="Left Bottom" Size="50 20" Pan="0 0" Color="ff000000" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 28 0 0 28 28 28" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_palette.dds</Texture>
+		</Control>
+		<Control Type="MultilineText" Name="MultilineText_Subtitle" Pos="Center Bottom" Size="1280 140" Pan="0 100" Color="ffffffff" EnableArea="0 0 1280 140">
+			<Attribute Type="Ignore"/>
+			<Text Value="TEST" Font="TitleFont_18" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_FadeScreen" Pos="Left Center" Size="50 20" Pan="0 0" Color="ff000000" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 28 0 0 28 28 28" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_palette.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_LetterBoxLeft" Pos="Left Center" Size="50 20" Pan="0 0" Color="ff000000" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 28 0 0 28 28 28" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_palette.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_LetterBoxRight" Pos="Right Center" Size="50 20" Pan="0 0" Color="ff000000" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 28 0 0 28 28 28" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_palette.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SupportVoice" Pos="Left Top" Size="300 25" Pan="20 10" Color="ffffffff" EnableArea="0 0 300 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="음성은 추후 지원 예정입니다. " Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

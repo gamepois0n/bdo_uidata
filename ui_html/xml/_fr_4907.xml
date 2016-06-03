@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4907</itemKey>
+	<itemName>Pierre d&apos;optimisation d&apos;armure de niveau 1</itemName>
+	<itemIcon>00004907.png</itemIcon>
+	<itemDesc>Matériau d&apos;amélioration d&apos;armure de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</itemDesc>
+	<house type="10">
+		<item>
+			<id>4005</id>
+			<name>Minerai de zinc</name>
+			<icon>00004005.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la grotte de lave d&apos;Omar, la mine de fer abandonnée et la fissure des Sages. S&apos;obtient à partir de minerai contenant du zinc.</desc>
+		</item>
+		<item>
+			<id>4467</id>
+			<name>Cristal de terre</name>
+			<icon>00004467.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux de boue bruts trouvés près des ruines de Glish.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Nœud d&apos;arbre ensanglanté</name>
+			<icon>00005005.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer un nœud d&apos;arbre ensanglanté demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+		<item>
+			<id>6354</id>
+			<name>Sang de pécheur</name>
+			<icon>00006354.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10852</id>
+			<name>Chaussures de Taritas d&apos;intimidation</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas d&apos;intimidation en acier, chaussures de Taritas d&apos;intimidation, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>10851</id>
+			<name>Gants de Taritas d&apos;intimidation</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas d&apos;intimidation en acier, gants de Taritas d&apos;intimidation, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>10850</id>
+			<name>Armure de Taritas d&apos;intimidation</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas d&apos;intimidation en acier, armure de Taritas d&apos;intimidation, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>10849</id>
+			<name>Casque de Taritas d&apos;intimidation</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas d&apos;intimidation en acier, casque de Taritas d&apos;intimidation, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>10848</id>
+			<name>Chaussures de Taritas d&apos;agilité</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas d&apos;agilité en acier, chaussures de Taritas d&apos;agilité, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>10879</id>
+			<name>Gants de Talis d&apos;agilité</name>
+			<icon>00010823.png</icon>
+			<desc>Ces gants de Talis renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Talis d&apos;agilité, gants de Talis</desc>
+		</item>
+		<item>
+			<id>10878</id>
+			<name>Armure de Talis d&apos;agilité</name>
+			<icon>00010822.png</icon>
+			<desc>Cette armure de Talis renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Talis d&apos;agilité, armure de Talis</desc>
+		</item>
+		<item>
+			<id>10877</id>
+			<name>Casque de Talis d&apos;agilité</name>
+			<icon>00010821.png</icon>
+			<desc>Ce casque de Talis renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Talis d&apos;agilité, casque de Talis</desc>
+		</item>
+		<item>
+			<id>10862</id>
+			<name>Armure de Zereth d&apos;agilité</name>
+			<icon>00010818.png</icon>
+			<desc>Cette armure de Zereth renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Zereth d&apos;agilité, armure de Zereth</desc>
+		</item>
+		<item>
+			<id>10861</id>
+			<name>Casque de Zereth d&apos;agilité</name>
+			<icon>00010817.png</icon>
+			<desc>Ce casque de Zereth renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Zereth d&apos;agilité, casque de Zereth</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Chaussures de Zereth du mur de fer</name>
+			<icon>00010820.png</icon>
+			<desc>Ces chaussures de Zereth renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Zereth du mur de fer, chaussures de Zereth</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Gants de Zereth du mur de fer</name>
+			<icon>00010819.png</icon>
+			<desc>Ces gants de Zereth renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Zereth du mur de fer, gants de Zereth</desc>
+		</item>
+		<item>
+			<id>10858</id>
+			<name>Armure de Zereth du mur de fer</name>
+			<icon>00010818.png</icon>
+			<desc>Cette armure de Zereth renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Zereth du mur de fer, armure de Zereth</desc>
+		</item>
+		<item>
+			<id>10857</id>
+			<name>Casque de Zereth du mur de fer</name>
+			<icon>00010817.png</icon>
+			<desc>Ce casque de Zereth renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Zereth du mur de fer, casque de Zereth</desc>
+		</item>
+		<item>
+			<id>10863</id>
+			<name>Gants de Zereth d&apos;agilité</name>
+			<icon>00010819.png</icon>
+			<desc>Ces gants de Zereth renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Zereth d&apos;agilité, gants de Zereth</desc>
+		</item>
+		<item>
+			<id>10884</id>
+			<name>Chaussures de Talis d&apos;intimidation</name>
+			<icon>00010824.png</icon>
+			<desc>Ces chaussures de Talis renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Talis d&apos;intimidation, chaussures de Talis</desc>
+		</item>
+		<item>
+			<id>10883</id>
+			<name>Gants de Talis d&apos;intimidation</name>
+			<icon>00010823.png</icon>
+			<desc>Ces gants de Talis renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Talis d&apos;intimidation, gants de Talis</desc>
+		</item>
+		<item>
+			<id>10882</id>
+			<name>Armure de Talis d&apos;intimidation</name>
+			<icon>00010822.png</icon>
+			<desc>Cette armure de Talis renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Talis d&apos;intimidation, armure de Talis</desc>
+		</item>
+		<item>
+			<id>10881</id>
+			<name>Casque de Talis d&apos;intimidation</name>
+			<icon>00010821.png</icon>
+			<desc>Ce casque de Talis renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Talis d&apos;intimidation, casque de Talis</desc>
+		</item>
+		<item>
+			<id>10880</id>
+			<name>Chaussures de Talis d&apos;agilité</name>
+			<icon>00010824.png</icon>
+			<desc>Ces chaussures de Talis renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Talis d&apos;agilité, chaussures de Talis</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Armure de Grunil</name>
+			<icon>00010934.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Casque de Grunil</name>
+			<icon>00010933.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Gants de Grunil du mur de fer</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil du mur de fer, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Armure de Grunil du mur de fer</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil du mur de fer, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Casque de Grunil du mur de fer</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil du mur de fer, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Chaussures de Grunil</name>
+			<icon>00010936.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Gants de Grunil</name>
+			<icon>00010935.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Gants de Grunil d&apos;agilité</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil d&apos;agilité, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Armure de Grunil d&apos;agilité</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil d&apos;agilité, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Casque de Grunil d&apos;agilité</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil d&apos;agilité, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Chaussures de Grunil du mur de fer</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil du mur de fer, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>14105</id>
+			<name>Casque de Taritas en acier du mur de fer</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas en acier renferme l&apos;énergie du mur de fer.\nIl est plus léger et plus solide qu&apos;un casque de Taritas du mur de fer classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas du mur de fer en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>14104</id>
+			<name>Chaussures de Taritas en acier</name>
+			<icon>00010816.png</icon>
+			<desc>Des chaussures de Taritas en acier fabriquées par un maître forgeron.\nElles sont plus légères et plus solides que des chaussures de Taritas classiques. Elles peuvent également être utilisées pour rétablir la durabilité de chaussures de Taritas classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14103</id>
+			<name>Gants de Taritas en acier</name>
+			<icon>00010815.png</icon>
+			<desc>Des gants de Taritas en acier fabriqués par un maître forgeron.\nIls sont plus légers et plus solides que des gants de Taritas classiques. Ils peuvent également être utilisés pour rétablir la durabilité de gants de Taritas classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14102</id>
+			<name>Armure de Taritas en acier</name>
+			<icon>00010814.png</icon>
+			<desc>Une armure de Taritas en acier fabriquée par un maître forgeron.\nElle est plus légère et plus solide qu&apos;une armure de Taritas classique. Elle peut également être utilisée pour rétablir la durabilité d&apos;une armure de Taritas classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14101</id>
+			<name>Casque de Taritas en acier</name>
+			<icon>00010813.png</icon>
+			<desc>Un casque de Taritas en acier fabriqué par un maître forgeron.\nIl est plus léger et plus solide qu&apos;un casque de Taritas classique. Il peut également être utilisé pour rétablir la durabilité d&apos;un casque de Taritas classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14111</id>
+			<name>Gants de Taritas en acier d&apos;agilité</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie de l&apos;agilité.\nIls sont plus légers et plus solides que des gants de Taritas d&apos;agilité classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas d&apos;agilité en acier, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>14110</id>
+			<name>Armure de Taritas en acier d&apos;agilité</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie de l&apos;agilité.\nElle est plus légère et plus solide qu&apos;une armure de Taritas d&apos;agilité classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas d&apos;agilité en acier, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>14109</id>
+			<name>Casque de Taritas en acier d&apos;agilité</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas en acier renferme l&apos;énergie de l&apos;agilité.\nIl est plus léger et plus solide qu&apos;un casque de Taritas d&apos;agilité classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas d&apos;agilité en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>14108</id>
+			<name>Chaussures de Taritas en acier du mur de fer</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie du mur de fer.\nElles sont plus légères et plus solides que des chaussures de Taritas du mur de fer classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas du mur de fer en acier, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>14107</id>
+			<name>Gants de Taritas en acier du mur de fer</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie du mur de fer.\nIls sont plus légers et plus solides que des gants de Taritas du mur de fer classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas du mur de fer en acier, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>14106</id>
+			<name>Armure de Taritas en acier du mur de fer</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie du mur de fer.\nElle est plus légère et plus solide qu&apos;une armure de Taritas du mur de fer classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas du mur de fer en acier, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>14116</id>
+			<name>Chaussures de Taritas en acier d&apos;intimidation</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie de l&apos;intimidation.\nElles sont plus légères et plus solides que des chaussures de Taritas d&apos;intimidation classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas d&apos;intimidation en acier, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>14115</id>
+			<name>Gants de Taritas en acier d&apos;intimidation</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie de l&apos;intimidation.\nIls sont plus légers et plus solides que des gants de Taritas d&apos;intimidation classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas d&apos;intimidation en acier, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>14114</id>
+			<name>Armure de Taritas en acier d&apos;intimidation</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie de l&apos;intimidation.\nElle est plus légère et plus solide qu&apos;une armure de Taritas d&apos;intimidation classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas d&apos;intimidation en acier, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>14113</id>
+			<name>Casque de Taritas en acier d&apos;intimidation</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas en acier renferme l&apos;énergie de l&apos;intimidation.\nIl est plus léger et plus solide qu&apos;un casque de Taritas d&apos;intimidation classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas d&apos;intimidation en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>14112</id>
+			<name>Chaussures de Taritas en acier d&apos;agilité</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie de l&apos;agilité.\nElles sont plus légères et plus solides que des chaussures de Taritas d&apos;agilité classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas d&apos;agilité en acier, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Chaussures de Grunil d&apos;intimidation</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil d&apos;intimidation, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Gants de Grunil d&apos;intimidation</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil d&apos;intimidation, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Armure de Grunil d&apos;intimidation</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil d&apos;intimidation, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Casque de Grunil d&apos;intimidation</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil d&apos;intimidation, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Chaussures de Grunil d&apos;agilité</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil d&apos;agilité, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Armure d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010810.png</icon>
+			<desc>Cette armure d&apos;Agerian renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure d&apos;Agerian d&apos;intimidation, armure d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Casque d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010809.png</icon>
+			<desc>Ce casque d&apos;Agerian renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque d&apos;Agerian d&apos;intimidation, casque d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Chaussures d&apos;Agerian d&apos;agilité</name>
+			<icon>00010812.png</icon>
+			<desc>Ces chaussures d&apos;Agerian renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures d&apos;Agerian d&apos;agilité, chaussures d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10815</id>
+			<name>Gants de Taritas</name>
+			<icon>00010815.png</icon>
+			<desc>Armure portée par les guerriers endurcis. Des proverbes encourageants sont inscrits à l&apos;intérieur.\n-- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas en acier</desc>
+		</item>
+		<item>
+			<id>10814</id>
+			<name>Armure de Taritas</name>
+			<icon>00010814.png</icon>
+			<desc>Armure portée par les guerriers endurcis. Des proverbes encourageants sont inscrits à l&apos;intérieur.\n-- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas en acier</desc>
+		</item>
+		<item>
+			<id>10813</id>
+			<name>Casque de Taritas</name>
+			<icon>00010813.png</icon>
+			<desc>Armure portée par les guerriers endurcis. Des proverbes encourageants sont inscrits à l&apos;intérieur.\n-- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas en acier</desc>
+		</item>
+		<item>
+			<id>10812</id>
+			<name>Chaussures d&apos;Agerian</name>
+			<icon>00010812.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10811</id>
+			<name>Gants d&apos;Agerian</name>
+			<icon>00010811.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10810</id>
+			<name>Armure d&apos;Agerian</name>
+			<icon>00010810.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10809</id>
+			<name>Casque d&apos;Agerian</name>
+			<icon>00010809.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Chaussures d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010812.png</icon>
+			<desc>Ces chaussures d&apos;Agerian renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures d&apos;Agerian d&apos;intimidation, chaussures d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Gants d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010811.png</icon>
+			<desc>Ces gants d&apos;Agerian renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants d&apos;Agerian d&apos;intimidation, gants d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10846</id>
+			<name>Armure de Taritas d&apos;agilité</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas d&apos;agilité en acier, armure de Taritas d&apos;agilité, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>10845</id>
+			<name>Casque de Taritas d&apos;agilité</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas d&apos;agilité en acier, casque de Taritas d&apos;agilité, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>10844</id>
+			<name>Chaussures de Taritas du mur de fer</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas du mur de fer en acier, chaussures de Taritas du mur de fer, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>10843</id>
+			<name>Gants de Taritas du mur de fer</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas du mur de fer en acier, gants de Taritas du mur de fer, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>10842</id>
+			<name>Armure de Taritas du mur de fer</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas du mur de fer en acier, armure de Taritas du mur de fer, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>10841</id>
+			<name>Casque de Taritas du mur de fer</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas en acier renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas du mur de fer en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>10820</id>
+			<name>Chaussures de Zereth</name>
+			<icon>00010820.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10819</id>
+			<name>Gants de Zereth</name>
+			<icon>00010819.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10818</id>
+			<name>Armure de Zereth</name>
+			<icon>00010818.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10817</id>
+			<name>Casque de Zereth</name>
+			<icon>00010817.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10816</id>
+			<name>Chaussures de Taritas</name>
+			<icon>00010816.png</icon>
+			<desc>Armure portée par les guerriers endurcis. Des proverbes encourageants sont inscrits à l&apos;intérieur.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas en acier</desc>
+		</item>
+		<item>
+			<id>10847</id>
+			<name>Gants de Taritas d&apos;agilité</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas d&apos;agilité en acier, gants de Taritas d&apos;agilité, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Armure d&apos;Agerian du mur de fer</name>
+			<icon>00010810.png</icon>
+			<desc>Cette armure d&apos;Agerian renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure d&apos;Agerian du mur de fer, armure d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Casque d&apos;Agerian du mur de fer</name>
+			<icon>00010809.png</icon>
+			<desc>Ce casque d&apos;Agerian renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque d&apos;Agerian du mur de fer, casque d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10824</id>
+			<name>Chaussures de Talis</name>
+			<icon>00010824.png</icon>
+			<desc>Une armure qui privilégie la flexibilité à la défense. Portée principalement par les nobles.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10823</id>
+			<name>Gants de Talis</name>
+			<icon>00010823.png</icon>
+			<desc>Une armure qui privilégie la flexibilité à la défense. Portée principalement par les nobles.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10822</id>
+			<name>Armure de Talis</name>
+			<icon>00010822.png</icon>
+			<desc>Une armure qui privilégie la flexibilité à la défense. Portée principalement par les nobles.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10821</id>
+			<name>Casque de Talis</name>
+			<icon>00010821.png</icon>
+			<desc>Une armure qui privilégie la flexibilité à la défense. Portée principalement par les nobles.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Chaussures de Zereth d&apos;agilité</name>
+			<icon>00010820.png</icon>
+			<desc>Ces chaussures de Zereth renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Zereth d&apos;agilité, chaussures de Zereth</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Gants d&apos;Agerian d&apos;agilité</name>
+			<icon>00010811.png</icon>
+			<desc>Ces gants d&apos;Agerian renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants d&apos;Agerian d&apos;agilité, gants d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Armure d&apos;Agerian d&apos;agilité</name>
+			<icon>00010810.png</icon>
+			<desc>Cette armure d&apos;Agerian renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure d&apos;Agerian d&apos;agilité, armure d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Casque d&apos;Agerian d&apos;agilité</name>
+			<icon>00010809.png</icon>
+			<desc>Ce casque d&apos;Agerian renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque d&apos;Agerian d&apos;agilité, casque d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Chaussures d&apos;Agerian du mur de fer</name>
+			<icon>00010812.png</icon>
+			<desc>Ces chaussures d&apos;Agerian renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures d&apos;Agerian du mur de fer, chaussures d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Gants d&apos;Agerian du mur de fer</name>
+			<icon>00010811.png</icon>
+			<desc>Ces gants d&apos;Agerian renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants d&apos;Agerian du mur de fer, gants d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Chaussures de Zereth d&apos;intimidation</name>
+			<icon>00010820.png</icon>
+			<desc>Ces chaussures de Zereth renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Zereth d&apos;intimidation, chaussures de Zereth</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Gants de Zereth d&apos;intimidation</name>
+			<icon>00010819.png</icon>
+			<desc>Ces gants de Zereth renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Zereth d&apos;intimidation, gants de Zereth</desc>
+		</item>
+		<item>
+			<id>10866</id>
+			<name>Armure de Zereth d&apos;intimidation</name>
+			<icon>00010818.png</icon>
+			<desc>Cette armure de Zereth renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Zereth d&apos;intimidation, armure de Zereth</desc>
+		</item>
+		<item>
+			<id>10865</id>
+			<name>Casque de Zereth d&apos;intimidation</name>
+			<icon>00010817.png</icon>
+			<desc>Ce casque de Zereth renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Zereth d&apos;intimidation, casque de Zereth</desc>
+		</item>
+		<item>
+			<id>10876</id>
+			<name>Chaussures de Talis du mur de fer</name>
+			<icon>00010824.png</icon>
+			<desc>Ces chaussures de Talis renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Talis du mur de fer, chaussures de Talis</desc>
+		</item>
+		<item>
+			<id>10875</id>
+			<name>Gants de Talis du mur de fer</name>
+			<icon>00010823.png</icon>
+			<desc>Ces gants de Talis renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Talis du mur de fer, gants de Talis</desc>
+		</item>
+		<item>
+			<id>10874</id>
+			<name>Armure de Talis du mur de fer</name>
+			<icon>00010822.png</icon>
+			<desc>Cette armure de Talis renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Talis du mur de fer, armure de Talis</desc>
+		</item>
+		<item>
+			<id>10873</id>
+			<name>Casque de Talis du mur de fer</name>
+			<icon>00010821.png</icon>
+			<desc>Ce casque de Talis renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Talis du mur de fer, casque de Talis</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

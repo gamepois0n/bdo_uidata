@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11716</itemKey>
+	<itemName>Smaragdhalskette</itemName>
+	<itemIcon>00011716.png</itemIcon>
+	<itemDesc>Eine mit einem Smaragd verzierte Halskette.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4201</id>
+			<name>Silbererz</name>
+			<icon>00004201.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Silbererz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus silberhaltigem Fels gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4404</id>
+			<name>Rohsmaragd</name>
+			<icon>00004404.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohsmaragd erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11717</id>
+			<name>Glänzende Smaragdhalskette</name>
+			<icon>00011717.png</icon>
+			<desc>Eine mit einem Funkelnden Smaragd verzierte Halskette.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

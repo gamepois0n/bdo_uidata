@@ -1,0 +1,315 @@
+<UI>
+	<Control Type="Panel" Name="Panel_UIMain" Pos="Right Bottom" Size="100 38" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 38" ApplyGlobalScale="False">
+		<Control Type="Button" Name="Button_Keyboard" Pos="467 -1" Size="40 40" Pan="468 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 83 41 83 1 123 41 123" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_PlayerInfo" Pos="432 0" Size="40 40" Pan="432 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="83 83 123 83 83 123 123 123" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_WorldMap" Pos="396 0" Size="40 40" Pan="396 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="42 1 82 1 42 41 82 41" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Quest" Pos="360 0" Size="40 40" Pan="360 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="83 1 123 1 83 41 123 41" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_BlackStone" Pos="324 0" Size="40 40" Pan="324 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Texture Type="Base" UV="124 1 164 1 124 41 164 41" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Skill" Pos="288 0" Size="40 40" Pan="288 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="165 1 205 1 165 41 205 41" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Inventory" Pos="252 1" Size="40 40" Pan="252 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="206 1 246 1 206 41 246 41" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_ProductNote" Pos="216 0" Size="40 40" Pan="216 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="83 42 123 42 83 82 123 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="f0ffffff" OverColor="f0ffffff" ClickColor="f0ffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Knowledge" Pos="180 0" Size="40 40" Pan="216 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 42 41 42 1 82 41 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="f0ffffff" OverColor="f0ffffff" ClickColor="f0ffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_houseList" Pos="180 0" Size="40 40" Pan="180 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="83 42 123 42 83 82 123 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Mail" Pos="144 0" Size="40 40" Pan="144 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Texture Type="Base" UV="42 83 82 83 42 123 82 123" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_FriendList" Pos="0 0" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Texture Type="Base" UV="124 42 164 42 124 82 164 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Select" Pos="72 0" Size="40 40" Pan="72 0" Color="ffffffff" EnableArea="7 0 33 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="83 83 123 83 83 123 123 123" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Setting" Pos="36 1" Size="40 40" Pan="36 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Texture Type="Base" UV="165 42 205 42 165 82 205 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_GameExit" Pos="2 0" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Texture Type="Base" UV="206 42 246 42 206 82 246 82" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Pet" Pos="467 -42" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 40 40" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 161 41 161 1 201 41 201" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Guild" Pos="343 0" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 41 1 1 41 41 41" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_MainGauge_Ctrl" Pos="0 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_ExpGauge_Ctrl" Pos="0 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Pet_Ctrl" Pos="Right Bottom" Size="20 20" Pan="190 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_House_Ctrl" Pos="Right Bottom" Size="20 20" Pan="230 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_QuickSlot_Ctrl" Pos="Right Bottom" Size="20 20" Pan="370 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Rader_Ctrl" Pos="Right Bottom" Size="20 20" Pan="55 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_QuestList_Ctrl" Pos="Right Bottom" Size="20 20" Pan="280 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Chat_Ctrl" Pos="Right Bottom" Size="20 20" Pan="325 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_PVP_Ctrl" Pos="Right Bottom" Size="20 20" Pan="145 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Clock_Ctrl" Pos="Right Bottom" Size="20 20" Pan="100 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Party_Ctrl" Pos="Right Bottom" Size="20 20" Pan="10 45" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_ActionGuide_Ctrl" Pos="Right Bottom" Size="20 20" Pan="10 65" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Poten_Ctrl" Pos="Right Bottom" Size="20 20" Pan="10 105" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Craft_Ctrl" Pos="Right Bottom" Size="20 20" Pan="10 125" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Phantom_Ctrl" Pos="Right Bottom" Size="20 20" Pan="10 165" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Adrenallin_Ctrl" Pos="Right Bottom" Size="20 20" Pan="10 205" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0" OverSound="0 13">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Notice" Pos="142 -136" Size="70 50" Pan="0 0" Color="ff000000" EnableArea="0 0 70 50">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 262 151 262 1 348 151 348" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+			<Text Value="±â¼ú" Font="BaseFont_10_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 12"/>
+		</Control>
+		<Control Type="Button" Name="Button_OnOff" Pos="0 Center" Size="32 32" Pan="0 5" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 12">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="42 125 74 125 42 157 74 157" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Number" Pos="0 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="196 1 216 1 196 21 216 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/character_main/knowledge_00.dds</Texture>
+			<Text Value="50" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NewEffect_Ani" Pos="2 -47" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 40 40" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 40 0 0 40 40 40" Ani="4 4 0.050 0">new_ui_common_forlua/widget/uicontrol/newmessage_sequence.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Friend_Bell" Pos="95 -29" Size="64 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 64 64" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 64 0 0 64 64 64" Ani="8 4 0.015 0">new_ui_common_forlua/widget/uicontrol/ui_sequence_alarmbell_g.dds</Texture>
+		</Control>
+		<Control Type="Checkbox" Name="Button_SkillCoolTime_Ctrl" Pos="Right Bottom" Size="20 20" Pan="10 125" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="166 138 186 138 166 158 186 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="187 138 207 138 187 158 207 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="208 138 228 138 208 158 228 158" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Dye" Pos="375 -92" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="42 161 82 161 42 201 82 201" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_CashShop" Pos="322 -91" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12">
+			<Texture Type="Base" UV="83 161 123 161 83 201 123 201" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Beauty" Pos="260 -102" Size="40 40" Pan="0 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12">
+			<Texture Type="Base" UV="124 161 164 161 124 201 164 201" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Menu" Pos="80 0" Size="40 40" Pan="36 0" Color="ffffffff" EnableArea="5 5 33 33" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 12">
+			<Texture Type="Base" UV="1 202 41 202 1 242 41 242" Ani="1 1 0.000 0">new_ui_common_forlua/widget/uicontrol/ui_control_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="effafafa" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_UIControl_Bright" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BlackSpritCall" Pos="324 -25" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="ÈæÁ¤·É(/)" formatString="UI_NEWQUEST_ALARM_CALLINGYOU_B" Font="BaseFont_8_Line" Color="fff7eaa4" OverColor="fff7eaa4" ClickColor="fff7eaa4" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

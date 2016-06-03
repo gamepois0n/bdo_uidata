@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8221</itemKey>
+	<itemName>Snakehead</itemName>
+	<itemIcon>00008221.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8521</id>
+			<name>Dried Snakehead</name>
+			<icon>00008521.png</icon>
+			<desc>A dried snakehead obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

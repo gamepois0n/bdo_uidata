@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9518</itemKey>
+	<itemName>Modèle : Robe de noble de Calpheon - Magicienne</itemName>
+	<itemIcon>00009501.png</itemIcon>
+	<itemDesc>Un modèle requis pour fabriquer un costume de noble de Calpheon. Il est utilisé pour le costume de magicienne.\n- Obtention : se trouve dans la boutique d&apos;amitié du tailleur de Calpheon.</itemDesc>
+	<shop>
+		<character>
+			<name>Merv</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>14220</id>
+			<name>[Magicienne] Robe de noble de Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Une robe portée par les aristocrates de Calpheon. Elle est fabuleuse, mais également pratique.\n- Effet d&apos;objet : Amitié +15 % depuis une conversation\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans le même emplacement qu&apos;un costume Pearl.\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le Marché.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

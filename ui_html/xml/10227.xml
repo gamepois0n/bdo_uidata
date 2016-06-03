@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10227</itemKey>
+	<itemName>Ultimate Demihuman Longbow</itemName>
+	<itemIcon>00010206.png</itemIcon>
+	<itemDesc>A Demihuman Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow of Destruction, Demihuman Longbow of Temptation, Demihuman Longbow</itemDesc>
+	<house type="7">
+		<item>
+			<id>4602</id>
+			<name>Maple Timber</name>
+			<icon>00004602.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Forest of Seclusion, Castle Ruins, Bloody Monastery, Northern Plain of Serendia, and Mediah Northern Highlands. It can be also be obtained by Lumbering Maple Trees.</desc>
+		</item>
+		<item>
+			<id>4062</id>
+			<name>Pure Tin Crystal</name>
+			<icon>00004062.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Tin Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Fine Tough Hide</name>
+			<icon>00006160.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Trace of Savagery</name>
+			<icon>00005956.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Lynch Farm Ruins.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10224</id>
+			<name>Demihuman Longbow of Crimson Flame</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Grade 3 Weapon Reform Stone</name>
+			<icon>00004910.png</icon>
+			<desc>A material used in 3rd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10206</id>
+			<name>Demihuman Longbow</name>
+			<icon>00010206.png</icon>
+			<desc>A longbow made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Demihuman Longbow of Temptation</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Temptation, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Demihuman Longbow of Destruction</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Destruction, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Demihuman Longbow of Crimson Flame</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

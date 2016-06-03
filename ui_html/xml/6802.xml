@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6802</itemKey>
+	<itemName>Sunflower Seed</itemName>
+	<itemIcon>00006802.png</itemIcon>
+	<itemDesc>A seed used to obtain Sunflowers, a Cooking ingredient, by Farming. You can begin Farming after using a Fence to create a Garden. This produce takes up 1 space in a Garden.\n- How to Obtain: It can be Gathered from Fruit Trees using Bare Hands or a Hoe.\n(Right-click to display the closest Fence Exchange location)</itemDesc>
+	<collect>
+		<character>
+			<name>Fruit Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sunflower</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Ahr</name>
+		</character>
+	</shop>
+</itemInfo>
+

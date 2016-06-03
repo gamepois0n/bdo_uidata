@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8216</itemKey>
+	<itemName>Karpfen</itemName>
+	<itemIcon>00008216.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8516</id>
+			<name>Getrockneter Karpfen</name>
+			<icon>00008516.png</icon>
+			<desc>Ein Getrockneter Karpfen, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

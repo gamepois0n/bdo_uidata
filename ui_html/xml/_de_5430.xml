@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5430</itemKey>
+	<itemName>Großer Himmelspilz</itemName>
+	<itemIcon>00005430.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann abhängig von der Sammelstufe des Charakters durch Sammeln mit bloßen Händen oder mithilfe einer Hacke von Himmelspilzen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Himmelspilz</name>
+		</character>
+	</collect>
+	<node region="Epheriatal – Sammeln"/>
+	<node region="Elricschrein – Sammeln"/>
+</itemInfo>
+

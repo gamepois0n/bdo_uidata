@@ -1,0 +1,19 @@
+<UI>
+	<Control Type="Panel" Name="Panel_TerritoryWar_Caution" Pos="Center 0" Size="370 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 50">
+		<Attribute Type="Ignore"/>
+		<Control Type="StaticText" Name="Static_Content" Pos="0 0" Size="370 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 50">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 370 0 0 35 370 35" Ani="1 1 0.000 0">new_ui_common_forlua/widget/warinfomessage/score_killingenemy.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="fff26a6a" OverColor="fff26a6a" ClickColor="fff26a6a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Desc1" Pos="Center Top" Size="50 20" Pan="0 8" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령전/거점전 비참여자입니다." formatString="PANEL_TERRITORYWAR_CAUTION_DESC_1" Font="BaseFont_8_Bold" Color="fff26a6a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Desc2" Pos="Center Top" Size="50 20" Pan="0 25" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="참여자에 의해 일방적으로 공격받을 수 있으니 주의가 필요합니다." formatString="PANEL_TERRITORYWAR_CAUTION_DESC_2" Font="BaseFont_8_Bold" Color="fff26a6a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

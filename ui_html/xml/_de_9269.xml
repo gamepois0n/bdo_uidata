@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9269</itemKey>
+	<itemName>Omelette</itemName>
+	<itemIcon>00009269.png</itemIcon>
+	<itemDesc>Ein Gericht aus leicht gekochten Eiern.\n\n– Spezielle Wirkung: Gesamte VK +2 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

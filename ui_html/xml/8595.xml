@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8595</itemKey>
+	<itemName>Dried Rosy Bitterling</itemName>
+	<itemIcon>00008595.png</itemIcon>
+	<itemDesc>A dried rosy bitterling obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8295</id>
+			<name>Rosy Bitterling</name>
+			<icon>00008295.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55995</id>
+			<name>Packaged Dried Rosy Bitterling</name>
+			<icon>00055995.png</icon>
+			<desc>A Trade Item containing 10 Dried Rosy Bitterlings.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

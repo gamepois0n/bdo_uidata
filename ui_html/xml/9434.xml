@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9434</itemKey>
+	<itemName>Special Meat Soup</itemName>
+	<itemIcon>00009434.png</itemIcon>
+	<itemDesc>Soup made with quality meat. \n- Unique effect: Critical Hit Rate +1 for 45 min.\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Pork</name>
+			<icon>00007905.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a pig corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pepper</name>
+			<icon>00007301.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Grilled Sausage, Seafood Pasta, Meat Soup, etc.\n- How to Obtain: It can be obtained by Farming Pepper Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Pork</name>
+			<icon>00007905.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a pig corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pepper</name>
+			<icon>00007301.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Grilled Sausage, Seafood Pasta, Meat Soup, etc.\n- How to Obtain: It can be obtained by Farming Pepper Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

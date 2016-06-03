@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5013</itemKey>
+	<itemName>Sève d&apos;acacia</itemName>
+	<itemIcon>00005013.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un acacia.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia</name>
+		</character>
+	</collect>
+	<node region="Désert de Queue-de-Pierre : débit de bois"/>
+	<makelist>
+		<item>
+			<id>49004</id>
+			<name>Permis bateau : barque de Mediah</name>
+			<icon>00049004.png</icon>
+			<desc>Preuve de propriété d&apos;une [barque de Mediah] sur les quais.\n- Emplacement d&apos;inventaire : 8, accélération : 100 %, vitesse : 110 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis bateau\n 1. Effectuez un clic droit sur le permis bateau et déplacez-le vers le quai sélectionné.\n 2. Adressez-vous au gardien de la traversée en barque et sélectionnez le menu du quai.\n 3. Cliquez sur le menu d&apos;enregistrement des bateaux puis effectuez un clic droit sur le permis bateau.\n 4. Saisissez le nom du bateau puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le bateau enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

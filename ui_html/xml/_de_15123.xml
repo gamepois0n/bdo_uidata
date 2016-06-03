@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15123</itemKey>
+	<itemName>Magiekristall der Unendlichkeit – Sichtweite</itemName>
+	<itemIcon>00045043.png</itemIcon>
+	<itemDesc>Ein Schwarzsteinkristall, der in Helm-Sockel übertragen werden kann.\n– Gegenstandseffekt: Sichtweite +15 m\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15019</id>
+			<name>Magiekristall der Verzauberung – Sichtweite</name>
+			<icon>00045043.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Helm-Sockel übertragen werden kann.\n– Gegenstandseffekt: Sichtweite +10 m\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+		<item>
+			<id>5205</id>
+			<name>Frucht der Natur</name>
+			<icon>00005205.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Magiekristall der Purpurnen Flamme – Präzision</name>
+			<icon>00045001.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Waffen-Sockel übertragen werden kann.\n– Gegenstandseffekt: Gesamte Genauigkeit +1\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+		<item>
+			<id>4469</id>
+			<name>Grüner Kristall</name>
+			<icon>00004469.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe des Rhutum-Außenpostens gefundenem Grünen Rohkristall gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5409</id>
+			<name>Zwergenpilz</name>
+			<icon>00005409.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann in Nord-Cienaga hergestellt werden. Zwergenpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>15019</id>
+			<name>Magiekristall der Verzauberung – Sichtweite</name>
+			<icon>00045043.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Helm-Sockel übertragen werden kann.\n– Gegenstandseffekt: Sichtweite +10 m\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

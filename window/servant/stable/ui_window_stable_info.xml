@@ -1,0 +1,404 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Stable_Info" Pos="Right Top" Size="500 340" Pan="20 30" Color="ffffffff" EnableArea="0 0 500 340">
+		<Control Type="Static" Name="Stable_Info_Ability" Pos="Left Top" Size="350 250" Pan="-230 0" Color="ffffffff" EnableArea="0 0 350 250" Grid="1" GridPosX="0 8 342 350" GridPosY="0 8 242 250" GridUVX="0 8 175 183" GridUVY="0 8 214 222" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_VehicleInfo_Title" Pos="Left Top" Size="350 6" Pan="-230 25" Color="ffffffff" EnableArea="0 0 350 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="탑승물 정보" formatString="PANEL_STABLE_INFO_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 7"/>
+		</Control>
+		<Control Type="Static" Name="Static_AbilityBG" Pos="Left Top" Size="334 155" Pan="-223 35" Color="ffffffff" EnableArea="0 0 334 155" Grid="1" GridPosX="0 10 324 334" GridPosY="0 10 150 155" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Name" Pos="Left Top" Size="215 20" Pan="-160 35" Color="ffffffff" EnableArea="0 0 215 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="적토마의 정보" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="5 0"/>
+		</Control>
+		<Control Type="StaticText" Name="HP" Pos="Left Top" Size="80 20" Pan="-215 60" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="생명력" formatString="STABLE_INFO_TEXT_HP" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="HP_Gauge_Back" Pos="Left Top" Size="250 6" Pan="-150 70" Color="ffffffff" EnableArea="0 0 250 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="HP_GaugeBar" Pos="Left Top" Size="250 6" Pan="-150 70" Color="ffffffff" EnableArea="0 0 250 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 121 141 121 1 127 141 127" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="MP" Pos="Left Top" Size="80 20" Pan="-215 80" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="지구력" formatString="STABLE_INFO_TEXT_STAMINA" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="MP_Gauge_Back" Pos="Left Top" Size="250 6" Pan="-150 90" Color="ffffffff" EnableArea="0 0 250 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="MP_GaugeBar" Pos="Left Top" Size="250 6" Pan="-150 90" Color="ffffffff" EnableArea="0 0 250 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 128 141 128 1 134 141 134" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="EXP" Pos="Left Top" Size="80 20" Pan="-215 120" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="경험치" formatString="STABLE_INFO_TEXT_EXP" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="EXP_Gauge_Back" Pos="Left Top" Size="250 6" Pan="-150 130" Color="ffffffff" EnableArea="0 0 250 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="EXP_GaugeBar" Pos="Left Top" Size="250 6" Pan="-150 130" Color="ffffffff" EnableArea="0 0 250 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 142 141 142 1 148 141 148" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Weight" Pos="Left Top" Size="80 20" Pan="-215 100" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="무게" formatString="STABLE_INFO_TEXT_WEIGHT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Progress2" Name="Weight_GaugeBar" Pos="Left Top" Size="250 6" Pan="-150 110" Color="ffffffff" EnableArea="0 0 250 6">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 135 141 135 1 141 141 141" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress2_Money_Bar_Head" Pos="-4 0" Size="2 5" Pan="0 0" Color="ffffffff" EnableArea="0 0 2 5">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_Texture_Weight_Background" Pos="Left Top" Size="250 6" Pan="-150 110" Color="ffffffff" EnableArea="0 0 250 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="MaxMoveSpeed" Pos="Left Top" Size="80 20" Pan="-215 140" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="속도" formatString="STABLE_INFO_TEXT_MAXSPEED" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Acceleration" Pos="Left Top" Size="80 20" Pan="-215 160" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="가속도" formatString="STABLE_INFO_TEXT_ACCELERATION" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="CorneringSpeed" Pos="Left Top" Size="80 20" Pan="-60 140" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="회전력" formatString="STABLE_INFO_TEXT_CORNERING" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="BrakeSpeed" Pos="Left Top" Size="80 20" Pan="-60 160" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="제동" formatString="STABLE_INFO_TEXT_BRAKE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="MaxMoveSpeedValue" Pos="Left Top" Size="50 15" Pan="-150 143" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="329" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="AccelerationValue" Pos="Left Top" Size="50 15" Pan="-150 163" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="340" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="CorneringSpeedValue" Pos="Left Top" Size="50 15" Pan="5 143" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="329" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="BrakeSpeedValue" Pos="Left Top" Size="50 15" Pan="5 163" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="340" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="HP_CountData" Pos="Left Top" Size="50 15" Pan="45 56" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="329000/340000" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="MP_CountData" Pos="Left Top" Size="50 15" Pan="45 76" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="329000/340000" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="EXP_CountData" Pos="Left Top" Size="50 15" Pan="45 116" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="329000/340000" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="WHT_CountData" Pos="Left Top" Size="50 15" Pan="45 96" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="329000/340000" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Level" Pos="Left Top" Size="40 20" Pan="50 35" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Lv.10" Font="BaseFont_12" Color="fffff3b1" OverColor="fffff3b1" ClickColor="fffff3b1" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_FemaleIcon" Pos="Left Top" Size="30 30" Pan="-225 30" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="183 54 235 54 183 106 235 106" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_MaleIcon" Pos="Left Top" Size="30 30" Pan="-225 30" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="130 54 182 54 130 106 182 106" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_MatingTime" Pos="Left Top" Size="220 25" Pan="-230 250" Color="ffffffff" EnableArea="0 0 220 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+			<Text Value="남은 교배 시간" formatString="PANEL_STABLE_INFO_MATINGTIME" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="5 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_MatingCount" Pos="Left Top" Size="80 20" Pan="-220 220" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 교배 횟수" formatString="PANEL_STABLE_INFO_MATINGCOUNT" Font="BaseFont_10" Color="ffff9e9e" OverColor="ffff9e9e" ClickColor="ffff9e9e" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_LifeCount" Pos="Left Top" Size="80 20" Pan="-7 195" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 수명" formatString="PANEL_STABLE_INFO_LIFECOUNT" Font="BaseFont_10" Color="ffff9e9e" OverColor="ffff9e9e" ClickColor="ffff9e9e" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_LifeCountValue" Pos="Left Top" Size="50 20" Pan="60 195" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="무제한" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Imprint" Pos="Left Top" Size="50 20" Pan="-1 220" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="각 인" formatString="PANEL_STABLE_INFO_IMPRINT" Font="BaseFont_10" Color="ffff9e9e" OverColor="ffff9e9e" ClickColor="ffff9e9e" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_ImprintValue" Pos="Left Top" Size="50 20" Pan="60 220" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="가능" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_MatingCountValue" Pos="Left Top" Size="50 20" Pan="-122 220" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="0" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_MatingTimeValue" Pos="Left Top" Size="100 21" Pan="-120 253" Color="ffffffff" EnableArea="0 0 100 21">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="0초" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_MatingImmediately" Pos="Left Top" Size="100 30" Pan="-8 248" Color="ffffffff" EnableArea="0 0 100 30" Grid="1" GridPosX="0 5 95 100" GridPosY="0 4 23 30" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="즉시 완료" formatString="PANEL_STABLE_INFO_BTN_MATINGIMMEDIATELY" Font="BaseFont_10" Color="fffefefe" OverColor="fffefefe" ClickColor="fffefefe" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ReceiveChildServant" Pos="Left Top" Size="127 32" Pan="-10 222" Color="ffffffff" EnableArea="0 0 127 32" Grid="1" GridPosX="0 28 121 127" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 397 155 397 1 429 155 429" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 397 310 397 156 429 310 429" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 397 465 397 311 429 465 429" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="망아지 수령" formatString="PANEL_STABLE_INFO_BTN_RECEIVECHILDSERVANT" Font="BaseFont_10" Color="ffe9e4e4" OverColor="ffe9e4e4" ClickColor="ffe9e4e4" AlignHorizon="Left" AlignVertical="Center" Span="45 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Panel_Skill" Pos="Right Top" Size="350 320" Pan="10 0" Color="ffffffff" EnableArea="0 0 350 320" Grid="1" GridPosX="0 8 342 350" GridPosY="0 8 312 320" GridUVX="0 8 175 183" GridUVY="0 8 214 222" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Skill_Title" Pos="Right Top" Size="350 6" Pan="10 25" Color="ffffffff" EnableArea="0 0 350 6">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="기술" formatString="PANEL_STABLE_INFO_SKILL_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_SkillBG" Pos="115 256" Size="334 268" Pan="17 33" Color="ffffffff" EnableArea="0 0 334 268" Grid="1" GridPosX="0 10 324 334" GridPosY="0 10 258 268" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SkillIChange_EffectPanel" Pos="-206 150" Size="350 320" Pan="0 0" Color="ffffffff" EnableArea="0 0 350 320" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_Skill" Pos="Right Top" Size="5 250" Pan="20 40" Color="ffffffff" EnableArea="0 0 5 250" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 243 250" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_2_UpButton" Pos="0 -20" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_2_DownButton" Pos="0 250" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_2_CtrlButton" Pos="-2 100" Size="10 100" Pan="-1 0" Color="ffffffff" EnableArea="0 0 10 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 90 100" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Button_Skill" Pos="144 533" Size="314 62" Pan="0 0" Color="ffffffff" EnableArea="0 0 314 62" Grid="1" GridPosX="0 10 304 314" GridPosY="0 10 52 62" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SkillIcon" Pos="146 537" Size="42 42" Pan="5 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/01_phm_skill/phm_skill_1141.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SkillExpBG" Pos="154 581" Size="54 54" Pan="0 0" Color="ffffffff" EnableArea="0 0 54 54" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 3 57 3 3 57 57 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/stable_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="Gauge_SkillExp" Pos="154 585" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" StartRadian="1.570796" CenterPos="25.00 25.00">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="60 3 110 3 60 53 110 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/stable_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="SkillLearn_PercentString" Pos="-207 -67" Size="30 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_SkillName" Pos="194 536" Size="180 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 180 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="뒷 발차기" Font="BaseFont_10" Color="fffff3b1" OverColor="fffff3b1" ClickColor="fffff3b1" AlignHorizon="Left" AlignVertical="Top" Span="5 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_SkillCondition" Pos="197 560" Size="100 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="S + F" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="5 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_SkillChange" Pos="396 534" Size="50 29" Pan="0 200" Color="ffffffff" EnableArea="0 0 50 29" Grid="1" GridPosX="0 4 45 50" GridPosY="0 4 24 29" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="변 경" formatString="PANEL_STABLE_INFO_BTN_SKILLCHANGE" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_SkillDelete" Pos="424 550" Size="50 29" Pan="0 200" Color="ffffffff" EnableArea="0 0 50 29" Grid="1" GridPosX="0 4 45 50" GridPosY="0 4 24 29" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="삭 제" formatString="MAIL_POPUP_BTN_DELETE" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DeadCount" Pos="Left Top" Size="80 20" Pan="-220 195" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="죽은 횟수" formatString="PANEL_STABLE_INFO_DEADCOUNT" Font="BaseFont_10" Color="ffff9e9e" OverColor="ffff9e9e" ClickColor="ffff9e9e" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DeadCountValue" Pos="Left Top" Size="50 20" Pan="-122 195" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="0 (초기화 불가능)" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_SkillLock" Pos="420 554" Size="50 60" Pan="0 200" Color="ffffffff" EnableArea="0 0 50 60" Grid="1" GridPosX="0 4 45 50" GridPosY="0 4 55 60" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="변 경\n불 가" formatString="PANEL_STABLE_INFO_BTN_SKILLLOCK" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_SkillTarget" Pos="418 559" Size="50 60" Pan="0 200" Color="ffffffff" EnableArea="0 0 50 60" Grid="1" GridPosX="0 4 45 50" GridPosY="0 4 55 60" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="희 망" formatString="PANEL_STABLE_INFO_BTN_SKILLTARGET" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_SkillTraining" Pos="460 599" Size="50 60" Pan="0 200" Color="ffffffff" EnableArea="0 0 50 60" Grid="1" GridPosX="0 4 45 50" GridPosY="0 4 55 60" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 3">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="훈 련" formatString="PANEL_STABLELIST_SKILLTRAINING" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_WantSkillBG" Pos="Right Top" Size="350 155" Pan="10 330" Color="ffffffff" EnableArea="0 0 350 155" Grid="1" GridPosX="0 8 342 350" GridPosY="0 8 147 155" GridUVX="0 8 175 183" GridUVY="0 8 214 222" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ChangeSkillBG" Pos="Right Top" Size="334 55" Pan="18 370" Color="ffffffff" EnableArea="0 0 334 55" Grid="1" GridPosX="0 10 324 334" GridPosY="0 10 50 55" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChangeSkillTitle" Pos="Right Top" Size="350 6" Pan="10 360" Color="ffffffff" EnableArea="0 0 350 6">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="희망 기술 변경 목록" formatString="PANEL_STABLE_INFO_CHANGESKILLTITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChangeSkillCount" Pos="424 390" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="99회" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ChangeSkillIcon" Pos="156 377" Size="42 42" Pan="5 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/01_phm_skill/phm_skill_1141.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChangeSkillName" Pos="214 387" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="말이 스스로 자가 교배" Font="BaseFont_10" Color="fffff3af" OverColor="fffff3af" ClickColor="fffff3af" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Carriage_Info" Pos="Right Top" Size="350 350" Pan="10 0" Color="ffffffff" EnableArea="0 0 350 350" Grid="1" GridPosX="0 8 342 350" GridPosY="0 8 342 350" GridUVX="0 8 175 183" GridUVY="0 8 214 222" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_CarriageInfo_Title" Pos="Right Top" Size="350 6" Pan="10 25" Color="ffffffff" EnableArea="0 0 350 6">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="마차 정보" formatString="UI_WINDOW_STABLE_INFO_CARRIAGEINFO" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 7"/>
+		</Control>
+		<Control Type="Static" Name="Static_AddHorseBG" Pos="Right Top" Size="334 275" Pan="18 35" Color="ffffffff" EnableArea="0 0 334 275" Grid="1" GridPosX="0 10 324 334" GridPosY="0 10 270 275" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CarriageHorse" Pos="Right Top" Size="60 60" Pan="290 40" Color="ffffffff" EnableArea="0 0 60 60" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CarriageHorse_Name" Pos="Right Top" Size="50 20" Pan="230 40" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="말 이름" Font="BaseFont_12" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Horse_Level" Pos="Right Top" Size="40 20" Pan="100 40" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="Lv.10" Font="BaseFont_12" Color="fffff3b1" OverColor="fffff3b1" ClickColor="fffff3b1" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_ReleaseHorse" Pos="Right Top" Size="60 60" Pan="25 40" Color="ffffffff" EnableArea="0 0 60 60" Grid="1" GridPosX="0 5 55 60" GridPosY="0 4 53 60" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="해제" formatString="UI_WINDOW_STABLE_INFO_BTN_RELEASEHORSE" Font="BaseFont_10" Color="fffefefe" OverColor="fffefefe" ClickColor="fffefefe" AlignHorizon="Center" AlignVertical="Center" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="Horse_EXP_CountData" Pos="Right Top" Size="70 15" Pan="95 70" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="329000/340000" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Horse_EXP_Bg" Pos="Right Top" Size="190 6" Pan="90 85" Color="ffffffff" EnableArea="0 0 190 6" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Horse_EXP_GaugeBar" Pos="Right Top" Size="190 6" Pan="90 85" Color="ffffffff" EnableArea="0 0 190 6" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 142 141 142 1 148 141 148" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CarriageSlotMaxCount" Pos="350 323" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="말 연결 현황" formatString="UI_WINDOW_STABLE_INFO_CARRIAGESLOTMAXCOUNT" Font="BaseFont_10" Color="ffff9e9e" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MaxCountValue" Pos="440 323" Size="30 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 / 4" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ChangeSkillDesc" Pos="153 431" Size="325 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 325 50">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="※ 희망 기술 변경 횟수는 다른 희망 기술을 선택해도 공유됩니다.\n※ 희망 기술 변경 횟수가 증가할 수록 해당 기술을 배울 확률이\n    증가합니다." formatString="PANEL_STABLE_INFO_CHANGESKILLDESC" Font="BaseFont_8" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_TrainingTime" Pos="Left Top" Size="200 25" Pan="290 320" Color="ffffffff" EnableArea="0 0 200 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+			<Text Value="남은 훈련 시간" formatString="PANEL_STABLELIST_TRAININGTIME" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="5 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_TrainingTimeValue" Pos="Left Top" Size="100 21" Pan="400 323" Color="ffffffff" EnableArea="0 0 100 21">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="0초" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

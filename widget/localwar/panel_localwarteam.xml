@@ -1,0 +1,46 @@
+<UI>
+	<Control Type="Panel" Name="Panel_LocalWarTeam" Pos="514 50" Size="672 200" Pan="0 0" Color="b3ffffff" EnableArea="0 0 672 200">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_ScoreBG" Pos="Center Top" Size="521 73" Pan="0 115" Color="ffffffff" EnableArea="0 0 521 73" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 521 0 0 73 521 73" Ani="1 1 0.000 0">new_ui_common_forlua/widget/alert/redbattlefield.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ScoreIcon" Pos="Center Top" Size="14 14" Pan="0 137" Color="ffffffff" EnableArea="0 0 14 14" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="123 193 137 193 123 207 137 207" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TeamBlackDesert" Pos="Center Top" Size="200 20" Pan="-80 137" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="검은사막 : 9999" Font="SubTitleFont_14" Color="fff5b248" OverColor="fff5b248" ClickColor="fff5b248" AlignHorizon="Left" AlignVertical="Top" Span="0 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TeamRedDesert" Pos="Center Top" Size="200 20" Pan="80 137" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="9999 : 붉은사막" Font="SubTitleFont_14" Color="ffd43232" OverColor="ffd43232" ClickColor="ffd43232" AlignHorizon="Right" AlignVertical="Top" Span="0 -5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TimeLine" Pos="Center Top" Size="100 20" Pan="0 153" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="준비중" formatString="UI_WINDOW_DELIVERY_INFORMATIONVIEW_BTN_READY" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MyTeamBlack" Pos="Left Top" Size="90 20" Pan="150 163" Color="ffffffff" EnableArea="0 0 90 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 53 257 53 1 103 257 103" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<Text Value="소속팀" formatString="PANEL_LOCALWARTEAM_MYTEAM" Font="BaseFont_10" Color="ff33f96f" OverColor="ff33f96f" ClickColor="ff33f96f" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MyTeamRed" Pos="Right Top" Size="90 20" Pan="150 163" Color="ffffffff" EnableArea="0 0 90 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 53 257 53 1 103 257 103" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<Text Value="소속팀" formatString="PANEL_LOCALWARTEAM_MYTEAM" Font="BaseFont_10" Color="ff33f96f" OverColor="ff33f96f" ClickColor="ff33f96f" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_BlackTeamBuff" Pos="Left Top" Size="32 32" Pan="120 130" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/03_buff/adventage.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_RedTeamBuff" Pos="Right Top" Size="32 32" Pan="120 130" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/03_buff/adventage.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

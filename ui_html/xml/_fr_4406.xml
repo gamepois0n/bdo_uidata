@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4406</itemKey>
+	<itemName>Cristal translucide brut</itemName>
+	<itemIcon>00004406.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal translucide demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près de la grotte des gobelins.</itemDesc>
+	<collect>
+		<character>
+			<name>Quartz clair</name>
+		</character>
+	</collect>
+	<node region="Grotte des gobelins : extraction minière"/>
+	<makelist>
+		<item>
+			<id>4466</id>
+			<name>Cristal translucide</name>
+			<icon>00004466.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux translucides bruts trouvés près de la grotte des gobelins.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

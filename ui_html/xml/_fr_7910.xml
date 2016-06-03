@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7910</itemKey>
+	<itemName>Viande de raton laveur</itemName>
+	<itemIcon>00007910.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un raton laveur mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Raton laveur marron</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Viande séchée à point</name>
+			<icon>00007919.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

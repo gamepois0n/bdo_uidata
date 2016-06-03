@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9281</itemKey>
+	<itemName>Süß und sauer eingelegtes Gemüse</itemName>
+	<itemIcon>00009281.png</itemIcon>
+	<itemDesc>Eingelegtes Gemüse.\n\n– Spezielle Wirkung: Sammelgeschwindigkeit +1 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

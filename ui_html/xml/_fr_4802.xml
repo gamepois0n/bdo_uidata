@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4802</itemKey>
+	<itemName>Poudre de flamme</itemName>
+	<itemIcon>00004802.png</itemIcon>
+	<itemDesc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</itemDesc>
+	<collect>
+		<character>
+			<name>Cuivre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Étain</name>
+		</character>
+	</collect>
+	<node region="Littoral de Mediah : extraction minière"/>
+	<node region="Grotte des éfrits : extraction minière"/>
+	<node region="Grotte des éfrits : extraction minière"/>
+	<node region="Grotte côtière : extraction minière"/>
+	<node region="Forêt de la Solitude : extraction minière"/>
+	<node region="Carrière nord d'Heidel"/>
+	<makelist>
+		<item>
+			<id>13012</id>
+			<name>Colifichet d&apos;aiguille de tentation</name>
+			<icon>00013005.png</icon>
+			<desc>Ce colifichet d&apos;aiguille renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de tentation, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Colifichet d&apos;aiguille de destruction</name>
+			<icon>00013005.png</icon>
+			<desc>Ce colifichet d&apos;aiguille renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de destruction, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Colifichet d&apos;aiguille de la flamme pourpre</name>
+			<icon>00013005.png</icon>
+			<desc>Ce colifichet d&apos;aiguille renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de la flamme pourpre, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>10304</id>
+			<name>Dague en acier</name>
+			<icon>00010304.png</icon>
+			<desc>Une dague tranchante en acier.</desc>
+		</item>
+		<item>
+			<id>10313</id>
+			<name>Dague en acier ultime</name>
+			<icon>00010304.png</icon>
+			<desc>Une dague en acier qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : dague en acier de la flamme pourpre, dague en acier de destruction, dague en acier de tentation, dague en acier</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Dague en acier de tentation</name>
+			<icon>00010304.png</icon>
+			<desc>Cette dague en acier renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : dague en acier de tentation, dague en acier</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Dague en acier de destruction</name>
+			<icon>00010304.png</icon>
+			<desc>Cette dague en acier renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : dague en acier de destruction, dague en acier</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Dague en acier de la flamme pourpre</name>
+			<icon>00010304.png</icon>
+			<desc>Cette dague en acier renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : dague en acier de la flamme pourpre, dague en acier</desc>
+		</item>
+		<item>
+			<id>10704</id>
+			<name>Nœud décoratif d&apos;Oros</name>
+			<icon>00010704.png</icon>
+			<desc>Un nœud décoratif fait main pour une hache plaquée d&apos;argent.</desc>
+		</item>
+		<item>
+			<id>13013</id>
+			<name>Colifichet d&apos;aiguille ultime</name>
+			<icon>00013005.png</icon>
+			<desc>Un colifichet d&apos;aiguille qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de la flamme pourpre, colifichet d&apos;aiguille de destruction, colifichet d&apos;aiguille de tentation, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>13004</id>
+			<name>Colifichet d&apos;aiguille</name>
+			<icon>00013005.png</icon>
+			<desc>Un colifichet avec une poche pleine d&apos;aiguilles.</desc>
+		</item>
+		<item>
+			<id>14026</id>
+			<name>Vêtements d&apos;artisan brodés d&apos;argent</name>
+			<icon>00014004.png</icon>
+			<desc>Un habit noble fait pour les artisans.</desc>
+		</item>
+		<item>
+			<id>10511</id>
+			<name>Talisman de Jubre de destruction</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman de Jubre renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman de Jubre de destruction, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10510</id>
+			<name>Talisman de Jubre de la flamme pourpre</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman de Jubre renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman de Jubre de la flamme pourpre, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10513</id>
+			<name>Talisman de Jubre ultime</name>
+			<icon>00010504.png</icon>
+			<desc>Un talisman de Jubre qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman de Jubre de la flamme pourpre, talisman de Jubre de destruction, talisman de Jubre de tentation, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10512</id>
+			<name>Talisman de Jubre de tentation</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman de Jubre renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman de Jubre de tentation, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10504</id>
+			<name>Talisman de Jubre</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman porte une inscription dans une langue ancienne inconnue.</desc>
+		</item>
+		<item>
+			<id>10711</id>
+			<name>Nœud décoratif d&apos;Oros de destruction</name>
+			<icon>00010704.png</icon>
+			<desc>Ce nœud décoratif d&apos;Oros renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : nœud décoratif d&apos;Oros de destruction, nœud décoratif d&apos;Oros</desc>
+		</item>
+		<item>
+			<id>10710</id>
+			<name>Nœud décoratif d&apos;Oros de la flamme pourpre</name>
+			<icon>00010704.png</icon>
+			<desc>Ce nœud décoratif d&apos;Oros renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : nœud décoratif d&apos;Oros de la flamme pourpre, nœud décoratif d&apos;Oros</desc>
+		</item>
+		<item>
+			<id>10713</id>
+			<name>Nœud décoratif d&apos;Oros ultime</name>
+			<icon>00010704.png</icon>
+			<desc>Un nœud décoratif d&apos;Oros qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : nœud décoratif d&apos;Oros de la flamme pourpre, nœud décoratif d&apos;Oros de destruction, nœud décoratif d&apos;Oros de tentation, nœud décoratif d&apos;Oros</desc>
+		</item>
+		<item>
+			<id>10712</id>
+			<name>Nœud décoratif d&apos;Oros de tentation</name>
+			<icon>00010704.png</icon>
+			<desc>Ce nœud décoratif d&apos;Oros renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : nœud décoratif d&apos;Oros de tentation, nœud décoratif d&apos;Oros</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Bouclier d&apos;Axion</name>
+			<icon>00010103.png</icon>
+			<desc>Un bouclier en plaques d&apos;acier plus généralement utilisé pour l&apos;attaque.</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Bouclier d&apos;Axion de destruction</name>
+			<icon>00010103.png</icon>
+			<desc>Ce bouclier d&apos;Axion renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : bouclier d&apos;Axion de destruction, bouclier d&apos;Axion</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Bouclier d&apos;Axion de la flamme pourpre</name>
+			<icon>00010103.png</icon>
+			<desc>Ce bouclier d&apos;Axion renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : bouclier d&apos;Axion de la flamme pourpre, bouclier d&apos;Axion</desc>
+		</item>
+		<item>
+			<id>10113</id>
+			<name>Bouclier d&apos;Axion ultime</name>
+			<icon>00010103.png</icon>
+			<desc>Un bouclier d&apos;Axion qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : bouclier d&apos;Axion de la flamme pourpre, bouclier d&apos;Axion de destruction, bouclier d&apos;Axion de tentation, bouclier d&apos;Axion</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Bouclier d&apos;Axion de tentation</name>
+			<icon>00010103.png</icon>
+			<desc>Ce bouclier d&apos;Axion renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : bouclier d&apos;Axion de tentation, bouclier d&apos;Axion</desc>
+		</item>
+		<item>
+			<id>24212</id>
+			<name>Bouilloire impériale en platine</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>Bouilloire impériale en platine.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Vase de main doré</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>Vase de main doré.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Vase en opale magnifique</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Vase en opale magnifique.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

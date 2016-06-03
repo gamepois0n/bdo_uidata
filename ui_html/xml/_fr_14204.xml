@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14204</itemKey>
+	<itemName>[Dompteuse] Tenue de noble de Calpheon</itemName>
+	<itemIcon>00014203.png</itemIcon>
+	<itemDesc>Une robe portée par les aristocrates de Calpheon. Elle est fabuleuse, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</itemDesc>
+	<house type="18">
+		<item>
+			<id>9504</id>
+			<name>Modèle : Robe de noble de Calpheon - Dompteuse</name>
+			<icon>00009501.png</icon>
+			<desc>Un modèle requis pour fabriquer un costume de noble de Calpheon. Il est utilisé pour le costume de dompteuse. \n\n- Obtention : se trouve dans la boutique d&apos;amitié du tailleur de Calpheon.</desc>
+		</item>
+		<item>
+			<id>5856</id>
+			<name>Tissu en lin</name>
+			<icon>00005856.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant du fil de lin. Nécessite des connaissances en meulage (débutant).\n\n※ Trouvez Ornella à Heidel et terminez la quête de matériaux de réparation d&apos;équipement pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubis</name>
+			<icon>00004451.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un rubis brut.</desc>
+		</item>
+	</house>
+</itemInfo>
+

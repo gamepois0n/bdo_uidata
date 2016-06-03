@@ -1,0 +1,32 @@
+<UI>
+	<Control Type="Panel" Name="Panel_LocalWar" Pos="Center Top" Size="190 30" Pan="0 10" Color="b3ffffff" EnableArea="0 0 190 30" Grid="1" GridPosX="0 5 185 190" GridPosY="0 5 25 30" GridUVX="1 5 225 229" GridUVY="1 5 15 19">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="3 294 232 294 3 313 232 313" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_MyTeam" Pos="Left Center" Size="100 20" Pan="10 0" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="¼Ò¼ÓÆÀ : ºí·ç" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AccumulateKillCountIcon" Pos="Left Center" Size="21 25" Pan="190 0" Color="ffffffff" EnableArea="0 0 21 25">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="334 143 359 143 334 168 359 168" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+			<Text Value="30" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CurrentContinuityKillCountIcon" Pos="Left Center" Size="21 25" Pan="130 0" Color="ffffffff" EnableArea="0 0 21 25">
+			<Texture Type="Base" UV="360 143 385 143 360 168 385 168" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+			<Text Value="40" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MaxContinuityKillCountIcon" Pos="Left Center" Size="21 25" Pan="250 0" Color="ffffffff" EnableArea="0 0 21 25">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="334 169 359 169 334 194 359 194" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+			<Text Value="100" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Center" Size="14 18" Pan="5 0" Color="ffffffff" EnableArea="0 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

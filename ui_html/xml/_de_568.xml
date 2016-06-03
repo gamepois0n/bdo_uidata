@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>568</itemKey>
+	<itemName>Hochkonzentrierter Feldsaft</itemName>
+	<itemIcon>00000568.png</itemIcon>
+	<itemDesc>Stellt bei Verwendung sofort +200 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</itemDesc>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>567</id>
+			<name>Konzentrierter Feldsaft</name>
+			<icon>00000567.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>567</id>
+			<name>Konzentrierter Feldsaft</name>
+			<icon>00000567.png</icon>
+			<desc>Stellt bei Verwendung sofort +125 LP wieder her.\n– Abklingzeit: 4 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>578</id>
+			<name>Gefilterter Feldsaft</name>
+			<icon>00000572.png</icon>
+			<desc>Stellt 275 LP wieder her.\n– Abklingzeit: 5 Sek.\n– Leichter als ein gewöhnlicher Trank.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

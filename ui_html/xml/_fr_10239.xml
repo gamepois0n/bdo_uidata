@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10239</itemKey>
+	<itemName>Arc long de Bares ultime</itemName>
+	<itemIcon>00010213.png</itemIcon>
+	<itemDesc>Un arc long de Bares qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de la flamme pourpre, arc long de Bares de destruction, arc long de Bares de tentation, arc long de Bares</itemDesc>
+	<house type="7">
+		<item>
+			<id>4607</id>
+			<name>Bois de cèdre</name>
+			<icon>00004607.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans l&apos;aire de repos du bûcheron, la forêt de Longuefeuille, le col d&apos;Oze. S&apos;obtient également en débitant des cèdres.</desc>
+		</item>
+		<item>
+			<id>4259</id>
+			<name>Cristal de platine pur</name>
+			<icon>00004259.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de platine. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Peau résistante délicate</name>
+			<icon>00006160.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de rhino, de cochon ou de vache. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5958</id>
+			<name>Trace de bataille</name>
+			<icon>00005958.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait à la ferme Bernianto.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10236</id>
+			<name>Arc long de Bares de la flamme pourpre</name>
+			<icon>00010213.png</icon>
+			<desc>Cet arc long de Bares renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de la flamme pourpre, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 3</name>
+			<icon>00004910.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 3.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10238</id>
+			<name>Arc long de Bares de tentation</name>
+			<icon>00010213.png</icon>
+			<desc>Cet arc long de Bares renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de tentation, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Arc long de Bares de destruction</name>
+			<icon>00010213.png</icon>
+			<desc>Cet arc long de Bares renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de destruction, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Arc long de Bares de la flamme pourpre</name>
+			<icon>00010213.png</icon>
+			<desc>Cet arc long de Bares renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Bares.\n\n- Rétablir la durabilité maximale : arc long de Bares de la flamme pourpre, arc long de Bares</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Arc long de Bares</name>
+			<icon>00010213.png</icon>
+			<desc>Un arc long possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

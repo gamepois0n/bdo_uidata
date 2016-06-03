@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4805</itemKey>
+	<itemName>Pulver der Zeit</itemName>
+	<itemIcon>00004805.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Beryll</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diamant</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gold</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Platin</name>
+		</character>
+	</collect>
+	<node region="Sumpf bei Glisch – Bergbau"/>
+	<node region="Quintenhügel – Bergbau"/>
+	<node region="Omar-Lavahöhle – Bergbau"/>
+	<node region="Verlassene Eisenmine – Bergbau"/>
+	<node region="Antiker Riss – Bergbau"/>
+	<makelist>
+		<item>
+			<id>14020</id>
+			<name>Silberbestickte Fischerkleidung</name>
+			<icon>00014069.png</icon>
+			<desc>Edle Kleidung für Fischer.</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimativer Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein maximal aufgerüsteter Saiyer-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer-Schmuckknoten der Versuchung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer-Schmuckknoten der Zerstörung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten aus hochwertiger Seide.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

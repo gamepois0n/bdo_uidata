@@ -1,0 +1,262 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Housing" Pos="9 13" Size="1024 500" Pan="10 10" Color="ffffffff" EnableArea="0 0 1024 500">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_FixingBG" Pos="358 343" Size="112 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 112 80" Grid="1" GridPosX="0 5 107 112" GridPosY="0 5 75 80" GridUVX="0 5 178 183" GridUVY="0 5 217 222" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_ObjectRotationLeft" Pos="Left Bottom" Size="55 30" Pan="-130 230" Color="ffffffff" EnableArea="0 0 55 30" Grid="1" GridPosX="0 3 51 55" GridPosY="0 4 25 30" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="◀" Font="BaseFont_10" Color="fffff6ac" OverColor="fffff9ca" ClickColor="fffff9ca" AlignHorizon="Center" AlignVertical="Bottom" Span="0 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ObjectRotationRight" Pos="Center Bottom" Size="55 30" Pan="130 230" Color="ffffffff" EnableArea="0 0 55 30" Grid="1" GridPosX="0 3 51 55" GridPosY="0 4 25 30" GridUVX="0 5 25 30" GridUVY="0 4 23 30" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="▶" Font="BaseFont_10" Color="fffff6ac" OverColor="fffff9ca" ClickColor="fffff9ca" AlignHorizon="Center" AlignVertical="Bottom" Span="0 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ObjectFixing" Pos="406 291" Size="101 32" Pan="-65 230" Color="ffffffff" EnableArea="0 0 101 32" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Texture Type="Base" UV="1 39 102 39 1 71 102 71" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="1 72 102 72 1 104 102 104" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="1 105 102 105 1 137 102 137" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="설 치" formatString="HOUSING_BTN_SET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="40 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ObjectDelete" Pos="523 320" Size="101 32" Pan="-65 230" Color="ffffffff" EnableArea="0 0 101 32" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Texture Type="Base" UV="1 39 102 39 1 71 102 71" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="1 72 102 72 1 104 102 104" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="1 105 102 105 1 137 102 137" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="회 수" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="40 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ObjectTranslation" Pos="450 238" Size="101 32" Pan="65 230" Color="ffffffff" EnableArea="0 0 101 32" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="103 39 204 39 103 71 204 71" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="103 72 204 72 103 104 204 104" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="103 105 204 105 103 137 204 137" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="이 동" formatString="HOUSING_BTN_MOVE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="40 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ObjectCancel" Pos="551 274" Size="101 32" Pan="65 230" Color="ffffffff" EnableArea="0 0 101 32" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Texture Type="Base" UV="1 138 102 138 1 170 102 170" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="1 171 102 171 1 203 102 203" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="1 204 102 204 1 236 102 236" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="취 소" formatString="HOUSING_BTN_CANCEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="40 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Housing" Pos="Left Bottom" Size="154 32" Pan="10 30" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="끝내기" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_CameraRotateLeft" Pos="300 291" Size="154 32" Pan="-65 230" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Texture Type="Base" UV="1 298 155 298 1 330 155 330" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 298 310 298 156 330 310 330" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 298 465 298 311 330 465 330" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="카메라 회전(시계)" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="10 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_CameraRotateRight" Pos="406 291" Size="154 32" Pan="-65 230" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" ClickSound="0 0" OverSound="0 4">
+			<Texture Type="Base" UV="1 298 155 298 1 330 155 330" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 298 310 298 156 330 310 330" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 298 465 298 311 330 465 330" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="카메라 회전(반시계)" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="5 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Installations" Pos="Right Top" Size="160 500" Pan="25 0" Color="ffffffff" EnableArea="0 0 160 500" Grid="1" GridPosX="0 10 150 160" GridPosY="0 10 490 500" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BackSlot" Pos="736 525" Size="114 114" Pan="0 0" Color="ffffffff" EnableArea="0 0 114 114" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="282 1 396 1 282 115 396 115" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ImageSlot" Pos="871 526" Size="116 116" Pan="0 0" Color="ffffffff" EnableArea="0 0 116 116" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/mask_gradient_center.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_SlotAni" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="90" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_BackCheck" Pos="500 10" Size="160 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 100" Grid="1" GridPosX="0 10 150 160" GridPosY="0 10 90 100" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_InvenInst" Pos="Center Top" Size="160 30" Pan="0 3" Color="ffffffff" EnableArea="0 0 160 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="분류" Font="BaseFont_12" Color="ffe0ccaa" OverColor="ffe0ccaa" ClickColor="ffe0ccaa" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="36 31" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_helpMouse" Pos="0 0" Size="250 35" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 35">
+			<Texture Type="Base" UV="1 162 251 162 1 197 251 197" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="'[' 또는 ']' 키를 이용하여 설치물을 회전시킵니다." formatString="HOUSING_TXT_HELPTEXT" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -18"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Help_Move" Pos="605 20" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="이동" formatString="HOUSING_TXT_HELPMOVE" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Help_Rot" Pos="673 20" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="회전" formatString="HOUSING_TXT_HELPROTATE" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Help_Zoom" Pos="749 20" Size="80 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="확대 / 축소" formatString="HOUSING_TXT_HELPZOOM" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CheckBG" Pos="Left Top" Size="50 20" Pan="7 32" Color="ffffffff" EnableArea="0 0 50 20" Grid="1" GridPosX="0 10 40 50" GridPosY="0 10 10 20" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_All" Pos="Right Top" Size="154 32" Pan="10 35" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 1 310 1 156 33 310 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 1 465 1 311 33 465 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="전체 설치물" formatString="HOUSING_TXT_ALL" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_Bottom" Pos="Right Top" Size="154 32" Pan="10 70" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0" OverSound="0 13">
+			<Texture Type="Base" UV="1 34 155 34 1 66 155 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 34 310 34 156 66 310 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 34 465 34 311 66 465 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="바닥 설치물" formatString="HOUSING_TXT_BOTTOM" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_Wall" Pos="Right Top" Size="154 32" Pan="10 105" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0" OverSound="0 13">
+			<Texture Type="Base" UV="1 67 155 67 1 99 155 99" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 67 310 67 156 99 310 99" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 67 465 67 311 99 465 99" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="벽면 설치물" formatString="HOUSING_TXT_WALL" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_Out" Pos="Right Top" Size="154 32" Pan="10 140" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0" OverSound="0 13">
+			<Texture Type="Base" UV="1 100 155 100 1 132 155 132" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 100 310 100 156 132 310 132" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 100 465 100 311 132 465 132" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="테이블 소품" formatString="HOUSING_TXT_TABLE" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_Top" Pos="Right Top" Size="154 32" Pan="10 175" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="천장 설치물" formatString="HOUSING_TXT_TOP" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_Curtain" Pos="Right Top" Size="154 32" Pan="10 210" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 331 155 331 1 363 155 363" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 331 310 331 156 363 310 363" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 331 465 331 311 363 465 363" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="커 튼" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_WallPaper" Pos="Right Top" Size="154 32" Pan="10 245" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 133 155 133 1 165 155 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 133 310 133 156 165 310 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 133 465 133 311 165 465 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="벽 지" formatString="HOUSING_TXT_WALLPAPER" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="CheckButton_Capet" Pos="Right Top" Size="154 32" Pan="10 280" Color="ffffffff" EnableArea="0 0 154 32" Group="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 166 155 166 1 198 155 198" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 166 310 166 156 198 310 198" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 166 465 166 311 198 465 198" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="바닥재" formatString="HOUSING_TXT_CAPET" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Installed" Pos="741 Top" Size="19 19" Pan="0 10" Color="ffffffff" EnableArea="0 0 19 19" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="설치된 목록 보기" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="25 -2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Static_Button_DeleteAll" Pos="Right Top" Size="154 32" Pan="10 315" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 364 155 364 1 396 155 396" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 364 310 364 156 396 310 396" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 364 465 364 311 396 465 396" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_btn_00.dds</Texture>
+			<Text Value="전체 설치물 회수" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="35 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Rotation" Pos="Center 100" Size="19 19" Pan="0 10" Color="ffffffff" EnableArea="0 0 19 19" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="설치물 45도씩 회전" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="25 -2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_SlotBorder" Pos="543 514" Size="160 160" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 160" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 161 1 1 161 161 161" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.50" ChangeChild="True" ColorOperator="0" ID="Ani_Color_BorderAni" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="190" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_SlotFront" Pos="393 533" Size="119 119" Pan="0 0" Color="ffffffff" EnableArea="0 0 119 119" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="162 1 281 1 162 120 281 120" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="afffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="True" ColorOperator="0" ID="Ani_Color_CursorAni" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="Static_SlotArrow" Pos="342 587" Size="15 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="162 121 177 121 162 146 177 146" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.80" ChangeChild="False" ColorOperator="0" ID="Ani_Color_ArrowAni" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="아이템 이름" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="28 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_BackFloor" Pos="Left Top" Size="160 160" Pan="32 5" Color="ffffffff" EnableArea="0 0 160 160" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_FirstFloor" Pos="Left Top" Size="91 32" Pan="65 116" Color="ffffffff" EnableArea="0 0 91 32" Group="0" ClickSound="0 0" OverSound="0 13">
+			<Texture Type="Base" UV="1 239 100 239 1 284 100 284" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="On" UV="124 198 223 198 124 243 223 243" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="Click" UV="124 244 223 244 124 289 223 289" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="1 층" formatString="HOUSING_BTN_FIRSTFLR" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_SecondFloor" Pos="Left Top" Size="91 32" Pan="65 83" Color="ffffffff" EnableArea="0 0 91 32" Group="0" ClickSound="0 0" OverSound="0 13">
+			<Texture Type="Base" UV="1 239 100 239 1 284 100 284" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="On" UV="124 198 223 198 124 243 223 243" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="Click" UV="124 244 223 244 124 289 223 289" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="2 층" formatString="HOUSING_BTN_SECONDFLR" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_ThirdFloor" Pos="Left Top" Size="91 32" Pan="65 50" Color="ffffffff" EnableArea="0 0 91 32" Group="0" ClickSound="0 0" OverSound="0 13">
+			<Texture Type="Base" UV="1 239 100 239 1 284 100 284" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="On" UV="124 198 223 198 124 243 223 243" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Texture Type="Click" UV="124 244 223 244 124 289 223 289" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="3 층" formatString="HOUSING_BTN_THIRDFLR" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Floor" Pos="Left Top" Size="122 40" Pan="50 10" Color="ffffffff" EnableArea="0 0 122 40">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 198 123 198 1 238 123 238" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="층 수" Font="BaseFont_8_Bold" Color="ffe0ccaa" OverColor="ffe0ccaa" ClickColor="ffe0ccaa" AlignHorizon="Center" AlignVertical="Bottom" Span="0 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_InstalledCount" Pos="Right Top" Size="160 30" Pan="15 10" Color="ffffffff" EnableArea="0 0 160 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="텐트 설치 가능 개수 : 10개" Font="BaseFont_12" Color="ffe0ccaa" OverColor="ffe0ccaa" ClickColor="ffe0ccaa" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MaxTentCount" Pos="Right Top" Size="160 30" Pan="15 40" Color="ffffffff" EnableArea="0 0 160 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="현재 설치된 개수 : 5개" Font="BaseFont_12" Color="ffe0ccaa" OverColor="ffe0ccaa" ClickColor="ffe0ccaa" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

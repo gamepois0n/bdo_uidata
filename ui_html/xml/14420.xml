@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14420</itemKey>
+	<itemName>Azwell Staff of Crimson Flame</itemName>
+	<itemIcon>00014405.png</itemIcon>
+	<itemDesc>The energy of Crimson Flame is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Crimson Flame, Azwell Staff</itemDesc>
+	<house type="6">
+		<item>
+			<id>4059</id>
+			<name>Pure Copper Crystal</name>
+			<icon>00004059.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Copper Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Ash Sap</name>
+			<icon>00005001.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from an Ash Tree using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>4601</id>
+			<name>Ash Timber</name>
+			<icon>00004601.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Goblin Cave, Ehwaz Hill, Balenos Forest, and Wolf Hills. It can be also be obtained by Lumbering Ash Trees.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Monk&apos;s Branch</name>
+			<icon>00005007.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Monk&apos;s Branch requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14405</id>
+			<name>Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>A staff custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14405</id>
+			<name>Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>A staff custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Ultimate Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>An Azwell staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Azwell staff.\n\n- Restore Max Durability: Azwell Staff of Crimson Flame, Azwell Staff of Destruction, Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Azwell Staff of Temptation</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Azwell Staff of Destruction</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Destruction, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Azwell Staff of Crimson Flame</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Crimson Flame, Azwell Staff</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

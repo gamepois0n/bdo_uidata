@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9452</itemKey>
+	<itemName>Borsch odorant</itemName>
+	<itemIcon>00009452.png</itemIcon>
+	<itemDesc>Un plat de borscht parfaitement préparé.\n\n- Effet unique : énergie max. +20 pendant 75 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7918</id>
+			<name>Viande séchée odorante</name>
+			<icon>00007918.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Cannelle</name>
+			<icon>00007348.png</icon>
+			<desc>La cannelle est un produit typique de Mediah.\nUtilisation : borscht, ravioli du désert, etc.\n- Obtention : s&apos;obtient à la ferme Kasula. La cannelle de Mediah peut s&apos;obtenir en la ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

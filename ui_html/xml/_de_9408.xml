@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9408</itemKey>
+	<itemName>Borschtsch</itemName>
+	<itemIcon>00009408.png</itemIcon>
+	<itemDesc>Trockenfleischscheiben in gekochtem Wasser.\n\n– Spezielle Wirkung: Max. Energie +10 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7918</id>
+			<name>Stinkendes Trockenfleisch</name>
+			<icon>00007918.png</icon>
+			<desc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Zimt</name>
+			<icon>00007348.png</icon>
+			<desc>Zimt ist ein Spezialprodukt aus Mediah.\nVerwendung: Borschtsch, Wüstenknödel etc.\n– Gewinnung: Kann beim Hof Kasula gewonnen werden. Zimt aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8540</itemKey>
+	<itemName>Poisson-mandarin séché</itemName>
+	<itemIcon>00008540.png</itemIcon>
+	<itemDesc>Un poisson-mandarin obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8240</id>
+			<name>Poisson-mandarin</name>
+			<icon>00008240.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55940</id>
+			<name>Poisson-mandarin séché sous vide</name>
+			<icon>00055940.png</icon>
+			<desc>Un objet de commerce contenant 10 poissons-mandarins séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

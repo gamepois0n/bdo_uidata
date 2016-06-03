@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5210</itemKey>
+	<itemName>Verzauberungsessenz</itemName>
+	<itemIcon>00005210.png</itemIcon>
+	<itemDesc>Eine aus der Frucht der Verzauberung extrahierte Essenz, die selten in einem Garten gefunden werden kann. Sie wird als Zutat in der Alchemie verwendet.\n– Gewinnung: Kann in der Alchemie durch die Kombination bestimmter Zutaten mit einer Frucht der Verzauberung hergestellt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5209</id>
+			<name>Frucht der Verzauberung</name>
+			<icon>00005209.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5209</id>
+			<name>Frucht der Verzauberung</name>
+			<icon>00005209.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Eschensaft</name>
+			<icon>00005001.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Esche erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Pulver der Dunkelheit</name>
+			<icon>00004801.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5403</id>
+			<name>Feuerblattblume</name>
+			<icon>00005403.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

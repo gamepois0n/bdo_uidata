@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9268</itemKey>
+	<itemName>Käsekuchen</itemName>
+	<itemIcon>00009268.png</itemIcon>
+	<itemDesc>Ein Getreideteig gefüllt mit Käse.\n\n– Spezielle Wirkung: Stellt +7 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

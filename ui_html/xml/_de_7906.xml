@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7906</itemKey>
+	<itemName>Rindfleisch</itemName>
+	<itemIcon>00007906.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Kuhkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Felskopfwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Junger Trollwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kleiner Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kleiner Steinkopfwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Langhaarwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinkopfwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steinschwanzwisent</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Trollwisent</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Seltenes Trockenfleisch</name>
+			<icon>00007920.png</icon>
+			<desc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

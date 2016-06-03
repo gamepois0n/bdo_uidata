@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6656</itemKey>
+	<itemName>Gesäubertes Wasser</itemName>
+	<itemIcon>00006656.png</itemIcon>
+	<itemDesc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</itemDesc>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6653</id>
+			<name>Flasche Flusswasser</name>
+			<icon>00006653.png</icon>
+			<desc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in einem Fluss gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einem Fluss mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche Flusswasser im Garten angewendet, steigt der Wasservorrat an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6654</id>
+			<name>Flasche trübes Wasser</name>
+			<icon>00006654.png</icon>
+			<desc>Eine Flasche mit trübem Wasser, das mithilfe einer leeren Flasche in einer schmutzigen Wasserquelle gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einer schmutzigen Wasserquelle mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche trübes Wasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6655</id>
+			<name>Flasche sauberes Wasser</name>
+			<icon>00006655.png</icon>
+			<desc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in klarem Wasser gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus klarem Wasser mithilfe einer Leeren Flasche gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6657</id>
+			<name>Beutel mit schlammigem Wasser</name>
+			<icon>00006657.png</icon>
+			<desc>Water collected from desert using a shovel. It can be filtered to make Purified Water.\n- How to Obtain : Use Shabby Shovel in the desert to obtain a bag of muddy water.\n※Using this item on the garden will increase the amount of water deposit.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16903</id>
+			<name>Biodünger</name>
+			<icon>00016901.png</icon>
+			<desc>Wird verwendet, um die Wachstumsrate von Feldfrüchten in der Nähe zu steigern. Wenn Ihr Dünger bei einem Garten verwendet, reduziert das die Zeit, die eine Feldfrucht zum Heranwachsen benötigt.</desc>
+		</item>
+		<item>
+			<id>24212</id>
+			<name>Kaiserlicher Platinkessel</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>Ein kaiserlicher Platinkessel.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Goldklauenvase</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>Eine goldene handgemachte Vase.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Wunderschöne Opalvase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Eine wunderschöne Opalvase.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Ausgefallener Topaskessel</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>Ein ausgefallener Topaskessel.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Smaragd-Kürbisflasche</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>Eine Smaragd-Kürbisflasche.</desc>
+		</item>
+		<item>
+			<id>24207</id>
+			<name>Ausgefallene Saphirvase</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>Eine ausgefallene Saphirvase.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Rubin-Kürbisflasche</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>Eine Rubin-Kürbisflasche.</desc>
+		</item>
+		<item>
+			<id>24205</id>
+			<name>Längliche Töpferware</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Längliche Töpferware.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Sumpf-Töpferware</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Sumpf-Töpferware.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Runde Töpferware</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Runde Töpferware.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

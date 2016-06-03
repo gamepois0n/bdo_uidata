@@ -1,0 +1,3914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9709</itemKey>
+	<itemName>Plat préparé à l&apos;aide d&apos;ingrédients médiocres</itemName>
+	<itemIcon>00009709.png</itemIcon>
+	<itemDesc>Le produit dérivé de la cuisine.\n- Obtention : vous pouvez l&apos;obtenir aléatoirement lorsque vous réussissez une recette de cuisine. \n\n&lt;Ferme Alejandro&gt;\n- 5 contre : points de contribution\n\n&lt;Plantation de blé du nord&gt;\n- 5 contre : points de contribution\n(Effectuez un clic droit pour en savoir plus sur le lieu d&apos;échange)</itemDesc>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Vin aux herbes exotiques</name>
+			<icon>00009262.png</icon>
+			<desc>Une liqueur exotique provenant d&apos;un pays lointain.\n\n- Effet unique : vitesse de pêche +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Vin aux herbes exotiques</name>
+			<icon>00009262.png</icon>
+			<desc>Une liqueur exotique provenant d&apos;un pays lointain.\n\n- Effet unique : vitesse de pêche +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Saucisse grillée</name>
+			<icon>00009427.png</icon>
+			<desc>Une saucisse rôtie à la perfection.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloès</name>
+			<icon>00007347.png</icon>
+			<desc>L&apos;aloès est un produit typique de Mediah.\nUtilisation : biscuit à l&apos;aloès, yaourt à l&apos;aloès, etc.\n- Obtention : s&apos;obtient à la ferme Ahto. L&apos;aloès de Mediah peut s&apos;obtenir en le ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloès</name>
+			<icon>00007347.png</icon>
+			<desc>L&apos;aloès est un produit typique de Mediah.\nUtilisation : biscuit à l&apos;aloès, yaourt à l&apos;aloès, etc.\n- Obtention : s&apos;obtient à la ferme Ahto. L&apos;aloès de Mediah peut s&apos;obtenir en le ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloès</name>
+			<icon>00007347.png</icon>
+			<desc>L&apos;aloès est un produit typique de Mediah.\nUtilisation : biscuit à l&apos;aloès, yaourt à l&apos;aloès, etc.\n- Obtention : s&apos;obtient à la ferme Ahto. L&apos;aloès de Mediah peut s&apos;obtenir en le ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9270</id>
+			<name>Thé au parfum délicat</name>
+			<icon>00009270.png</icon>
+			<desc>C&apos;est préparé en faisant macérer des fleurs ou des fruits dans de l&apos;eau.\n\n- Effet unique : PM max. +50 pendant 60 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9270</id>
+			<name>Thé au parfum délicat</name>
+			<icon>00009270.png</icon>
+			<desc>C&apos;est préparé en faisant macérer des fleurs ou des fruits dans de l&apos;eau.\n\n- Effet unique : PM max. +50 pendant 60 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9292</id>
+			<name>Thé au parfum fort</name>
+			<icon>00009292.png</icon>
+			<desc>Un thé aux saveurs riches infusé avec les meilleurs ingrédients.\n\n- Effet unique : PM +50 pendant 75 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9292</id>
+			<name>Thé au parfum fort</name>
+			<icon>00009292.png</icon>
+			<desc>Un thé aux saveurs riches infusé avec les meilleurs ingrédients.\n\n- Effet unique : PM +50 pendant 75 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>8511</id>
+			<name>Calamar séché</name>
+			<icon>00008511.png</icon>
+			<desc>Un calamar obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9403</id>
+			<name>Oiseau frit</name>
+			<icon>00009403.png</icon>
+			<desc>De la viande d&apos;oiseau frite avec de la panure de céréales.\n\n- Effet unique : récupération de PV +5 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+		<item>
+			<id>7908</id>
+			<name>Viande de lézard</name>
+			<icon>00007908.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un lézard mort.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7918</id>
+			<name>Viande séchée odorante</name>
+			<icon>00007918.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Cannelle</name>
+			<icon>00007348.png</icon>
+			<desc>La cannelle est un produit typique de Mediah.\nUtilisation : borscht, ravioli du désert, etc.\n- Obtention : s&apos;obtient à la ferme Kasula. La cannelle de Mediah peut s&apos;obtenir en la ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7348</id>
+			<name>Cannelle</name>
+			<icon>00007348.png</icon>
+			<desc>La cannelle est un produit typique de Mediah.\nUtilisation : borscht, ravioli du désert, etc.\n- Obtention : s&apos;obtient à la ferme Kasula. La cannelle de Mediah peut s&apos;obtenir en la ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+		<item>
+			<id>7908</id>
+			<name>Viande de lézard</name>
+			<icon>00007908.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un lézard mort.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Cannelle</name>
+			<icon>00007348.png</icon>
+			<desc>La cannelle est un produit typique de Mediah.\nUtilisation : borscht, ravioli du désert, etc.\n- Obtention : s&apos;obtient à la ferme Kasula. La cannelle de Mediah peut s&apos;obtenir en la ramassant à la main ou à l&apos;aide d&apos;une houe.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54004</id>
+			<name>Carotte de haute qualité</name>
+			<icon>00054004.png</icon>
+			<desc>Rétablit [3 000] points d&apos;énergie et [1 000] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>54004</id>
+			<name>Carotte de haute qualité</name>
+			<icon>00054004.png</icon>
+			<desc>Rétablit [3 000] points d&apos;énergie et [1 000] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54004</id>
+			<name>Carotte de haute qualité</name>
+			<icon>00054004.png</icon>
+			<desc>Rétablit [3 000] points d&apos;énergie et [1 000] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>54004</id>
+			<name>Carotte de haute qualité</name>
+			<icon>00054004.png</icon>
+			<desc>Rétablit [3 000] points d&apos;énergie et [1 000] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54005</id>
+			<name>Carotte spéciale</name>
+			<icon>00054005.png</icon>
+			<desc>Rétablit [7 500] points d&apos;énergie et [1 500] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>54005</id>
+			<name>Carotte spéciale</name>
+			<icon>00054005.png</icon>
+			<desc>Rétablit [7 500] points d&apos;énergie et [1 500] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54005</id>
+			<name>Carotte spéciale</name>
+			<icon>00054005.png</icon>
+			<desc>Rétablit [7 500] points d&apos;énergie et [1 500] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>54005</id>
+			<name>Carotte spéciale</name>
+			<icon>00054005.png</icon>
+			<desc>Rétablit [7 500] points d&apos;énergie et [1 500] PV de votre cheval.\nClic droit sur la monture pour l&apos;utiliser.\n- Temps de recharge : 5 min.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9203</id>
+			<name>Gratin au fromage</name>
+			<icon>00009203.png</icon>
+			<desc>Un ensemble d&apos;ingrédients rôtis avec du fromage sur le dessus.\n\n- Effet unique : PV max. +70 pendant 90 min.\nVitesse d&apos;attaque +1 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9203</id>
+			<name>Gratin au fromage</name>
+			<icon>00009203.png</icon>
+			<desc>Un ensemble d&apos;ingrédients rôtis avec du fromage sur le dessus.\n\n- Effet unique : PV max. +70 pendant 90 min.\nVitesse d&apos;attaque +1 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Croquettes à la viande</name>
+			<icon>00009404.png</icon>
+			<desc>Un plat frit avec des céréales et de la viande.\n\n- Effet unique : gain d&apos;EXP de combat +5 % pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9417</id>
+			<name>Tranche de poisson fumé</name>
+			<icon>00009417.png</icon>
+			<desc>Un plat à base de poisson fumé.\n\n- Effet unique : vitesse d&apos;attaque +1 pendant 60 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9241</id>
+			<name>Légumes au wok</name>
+			<icon>00009241.png</icon>
+			<desc>Un plat épicé avec des piments et des légumes au wok.\n\n- Effet unique : augmentation de la hauteur de saut pendant 30 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9213</id>
+			<name>Bière</name>
+			<icon>00009213.png</icon>
+			<desc>Une liqueur légère avec des céréales.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +2 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9282</id>
+			<name>Gratin au fromage mou</name>
+			<icon>00009282.png</icon>
+			<desc>Un gratin préparé avec du fromage de qualité.\n\n- Effet unique : PV max. +70 pendant 110 min.\nVitesse d&apos;attaque +1 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9282</id>
+			<name>Gratin au fromage mou</name>
+			<icon>00009282.png</icon>
+			<desc>Un gratin préparé avec du fromage de qualité.\n\n- Effet unique : PV max. +70 pendant 110 min.\nVitesse d&apos;attaque +1 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Croquettes à la viande</name>
+			<icon>00009404.png</icon>
+			<desc>Un plat frit avec des céréales et de la viande.\n\n- Effet unique : gain d&apos;EXP de combat +5 % pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9417</id>
+			<name>Tranche de poisson fumé</name>
+			<icon>00009417.png</icon>
+			<desc>Un plat à base de poisson fumé.\n\n- Effet unique : vitesse d&apos;attaque +1 pendant 60 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9241</id>
+			<name>Légumes au wok</name>
+			<icon>00009241.png</icon>
+			<desc>Un plat épicé avec des piments et des légumes au wok.\n\n- Effet unique : augmentation de la hauteur de saut pendant 30 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9213</id>
+			<name>Bière</name>
+			<icon>00009213.png</icon>
+			<desc>Une liqueur légère avec des céréales.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +2 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9267</id>
+			<name>Sandwich au jambon</name>
+			<icon>00009267.png</icon>
+			<desc>Un pain moelleux avec une saucisse dedans.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nTous types de précision +8 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9267</id>
+			<name>Sandwich au jambon</name>
+			<icon>00009267.png</icon>
+			<desc>Un pain moelleux avec une saucisse dedans.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nTous types de précision +8 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9266</id>
+			<name>Biscuit au miel</name>
+			<icon>00009266.png</icon>
+			<desc>Une pâte à grains cuite avec du miel.\n\n- Effet unique : limite de poids +50 LT pendant 90 min.\nVitesse de pêche +1 pendant 90 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Vin de fruits</name>
+			<icon>00009201.png</icon>
+			<desc>Une liqueur douce faite à partir de fruits.\n\n- Effet unique : vitesse de pêche +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9402</id>
+			<name>Œufs d&apos;oiseaux bouillis</name>
+			<icon>00009402.png</icon>
+			<desc>Un œuf d&apos;oiseau dur.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9265</id>
+			<name>Tourte à la viande</name>
+			<icon>00009265.png</icon>
+			<desc>Une pâte à grains cuite et fourrée à la viande.\n\n- Effet unique : endurance max. +200 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9290</id>
+			<name>Sandwich au jambon de haute qualité</name>
+			<icon>00009290.png</icon>
+			<desc>Un sandwich préparé avec des ingrédients de qualité supérieure.\n\n- Effet unique : tous types de PA +3 pendant 110 min.\nTous types de précision +8 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9290</id>
+			<name>Sandwich au jambon de haute qualité</name>
+			<icon>00009290.png</icon>
+			<desc>Un sandwich préparé avec des ingrédients de qualité supérieure.\n\n- Effet unique : tous types de PA +3 pendant 110 min.\nTous types de précision +8 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9266</id>
+			<name>Biscuit au miel</name>
+			<icon>00009266.png</icon>
+			<desc>Une pâte à grains cuite avec du miel.\n\n- Effet unique : limite de poids +50 LT pendant 90 min.\nVitesse de pêche +1 pendant 90 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Vin de fruits</name>
+			<icon>00009201.png</icon>
+			<desc>Une liqueur douce faite à partir de fruits.\n\n- Effet unique : vitesse de pêche +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9402</id>
+			<name>Œufs d&apos;oiseaux bouillis</name>
+			<icon>00009402.png</icon>
+			<desc>Un œuf d&apos;oiseau dur.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9265</id>
+			<name>Tourte à la viande</name>
+			<icon>00009265.png</icon>
+			<desc>Une pâte à grains cuite et fourrée à la viande.\n\n- Effet unique : endurance max. +200 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9263</id>
+			<name>Thé au lait</name>
+			<icon>00009263.png</icon>
+			<desc>Un thé parfumé avec du lait.\n\n- Effet unique : gain d&apos;EXP de combat +8 % pendant 90 min.\nRécupération de PV +5 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9263</id>
+			<name>Thé au lait</name>
+			<icon>00009263.png</icon>
+			<desc>Un thé parfumé avec du lait.\n\n- Effet unique : gain d&apos;EXP de combat +8 % pendant 90 min.\nRécupération de PV +5 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9268</id>
+			<name>Tarte au fromage</name>
+			<icon>00009268.png</icon>
+			<desc>Une pâte à grains cuite et fourrée au fromage.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +7 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9416</id>
+			<name>Pâtes à la viande</name>
+			<icon>00009416.png</icon>
+			<desc>Des pâtes à base de sauce à la viande.\n\n- Effet unique : limite de poids +40 LT pendant 60 min.\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Pain moelleux</name>
+			<icon>00009260.png</icon>
+			<desc>Une pâte aux céréales fermentée avant la cuisson.\n\n- Effet unique : endurance max. +100 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9423</id>
+			<name>Salade au filet de poisson</name>
+			<icon>00009423.png</icon>
+			<desc>Une salade fraîche avec du poisson non transformé.\n\n- Effet unique : vitesse de mouvement +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9277</id>
+			<name>Thé au lait doux</name>
+			<icon>00009277.png</icon>
+			<desc>Le meilleur thé au lait possible.\n\n- Effet unique : gain d&apos;EXP de combat +8 % pendant 110 min.\nRécupération de PV +5 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9277</id>
+			<name>Thé au lait doux</name>
+			<icon>00009277.png</icon>
+			<desc>Le meilleur thé au lait possible.\n\n- Effet unique : gain d&apos;EXP de combat +8 % pendant 110 min.\nRécupération de PV +5 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9268</id>
+			<name>Tarte au fromage</name>
+			<icon>00009268.png</icon>
+			<desc>Une pâte à grains cuite et fourrée au fromage.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +7 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9416</id>
+			<name>Pâtes à la viande</name>
+			<icon>00009416.png</icon>
+			<desc>Des pâtes à base de sauce à la viande.\n\n- Effet unique : limite de poids +40 LT pendant 60 min.\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Pain moelleux</name>
+			<icon>00009260.png</icon>
+			<desc>Une pâte aux céréales fermentée avant la cuisson.\n\n- Effet unique : endurance max. +100 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9423</id>
+			<name>Salade au filet de poisson</name>
+			<icon>00009423.png</icon>
+			<desc>Une salade fraîche avec du poisson non transformé.\n\n- Effet unique : vitesse de mouvement +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9422</id>
+			<name>Pudding noir</name>
+			<icon>00009422.png</icon>
+			<desc>Un pudding préparé avec des ingrédients douteux.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nDégâts contre les humains +2 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9422</id>
+			<name>Pudding noir</name>
+			<icon>00009422.png</icon>
+			<desc>Un pudding préparé avec des ingrédients douteux.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nDégâts contre les humains +2 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9425</id>
+			<name>Salade de viande maigre</name>
+			<icon>00009425.png</icon>
+			<desc>Une salade fraîche avec des morceaux de viande.\n\n- Effet unique : tous types de PD +3 pendant 90 min\n Récupération de PV +5 pendant 90 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Flocons d&apos;avoine</name>
+			<icon>00009261.png</icon>
+			<desc>Un mélange de poudre de céréales et de lait.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +5 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Vin aux herbes exotiques</name>
+			<icon>00009262.png</icon>
+			<desc>Une liqueur exotique provenant d&apos;un pays lointain.\n\n- Effet unique : vitesse de pêche +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Saucisse grillée</name>
+			<icon>00009427.png</icon>
+			<desc>Une saucisse rôtie à la perfection.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9448</id>
+			<name>Pudding rouge sang</name>
+			<icon>00009448.png</icon>
+			<desc>Un pudding préparé avec des ingrédients très douteux.\n\n- Effet unique : tous types de PA +3 pendant 110 min.\nDégâts contre les humains +2 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9448</id>
+			<name>Pudding rouge sang</name>
+			<icon>00009448.png</icon>
+			<desc>Un pudding préparé avec des ingrédients très douteux.\n\n- Effet unique : tous types de PA +3 pendant 110 min.\nDégâts contre les humains +2 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9425</id>
+			<name>Salade de viande maigre</name>
+			<icon>00009425.png</icon>
+			<desc>Une salade fraîche avec des morceaux de viande.\n\n- Effet unique : tous types de PD +3 pendant 90 min\n Récupération de PV +5 pendant 90 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Flocons d&apos;avoine</name>
+			<icon>00009261.png</icon>
+			<desc>Un mélange de poudre de céréales et de lait.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +5 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Vin aux herbes exotiques</name>
+			<icon>00009262.png</icon>
+			<desc>Une liqueur exotique provenant d&apos;un pays lointain.\n\n- Effet unique : vitesse de pêche +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Saucisse grillée</name>
+			<icon>00009427.png</icon>
+			<desc>Une saucisse rôtie à la perfection.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Huile de friture</name>
+			<icon>00009016.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence de liqueur</name>
+			<icon>00009057.png</icon>
+			<desc>Peut s&apos;extraire à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : vin de fruits, vin aux herbes exotiques, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9270</id>
+			<name>Thé au parfum délicat</name>
+			<icon>00009270.png</icon>
+			<desc>C&apos;est préparé en faisant macérer des fleurs ou des fruits dans de l&apos;eau.\n\n- Effet unique : PM max. +50 pendant 60 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9270</id>
+			<name>Thé au parfum délicat</name>
+			<icon>00009270.png</icon>
+			<desc>C&apos;est préparé en faisant macérer des fleurs ou des fruits dans de l&apos;eau.\n\n- Effet unique : PM max. +50 pendant 60 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9292</id>
+			<name>Thé au parfum fort</name>
+			<icon>00009292.png</icon>
+			<desc>Un thé aux saveurs riches infusé avec les meilleurs ingrédients.\n\n- Effet unique : PM +50 pendant 75 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9292</id>
+			<name>Thé au parfum fort</name>
+			<icon>00009292.png</icon>
+			<desc>Un thé aux saveurs riches infusé avec les meilleurs ingrédients.\n\n- Effet unique : PM +50 pendant 75 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Sucre brut</name>
+			<icon>00009009.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7701</id>
+			<name>Ruche sauvage</name>
+			<icon>00007701.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche.\n\n- Utilisation : biscuit au miel, etc.</desc>
+		</item>
+		<item>
+			<id>7701</id>
+			<name>Ruche sauvage</name>
+			<icon>00007701.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche.\n\n- Utilisation : biscuit au miel, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9427</id>
+			<name>Saucisse grillée</name>
+			<icon>00009427.png</icon>
+			<desc>Une saucisse rôtie à la perfection.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Saucisse grillée</name>
+			<icon>00009427.png</icon>
+			<desc>Une saucisse rôtie à la perfection.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Pain moelleux</name>
+			<icon>00009260.png</icon>
+			<desc>Une pâte aux céréales fermentée avant la cuisson.\n\n- Effet unique : endurance max. +100 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9431</id>
+			<name>Saucisse fumée</name>
+			<icon>00009431.png</icon>
+			<desc>Une saucisse fumée.\n\n- Effet unique : tous types de PA +1 pendant 45 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9431</id>
+			<name>Saucisse fumée</name>
+			<icon>00009431.png</icon>
+			<desc>Une saucisse fumée.\n\n- Effet unique : tous types de PA +1 pendant 45 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Pain moelleux</name>
+			<icon>00009260.png</icon>
+			<desc>Une pâte aux céréales fermentée avant la cuisson.\n\n- Effet unique : endurance max. +100 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Pain moelleux</name>
+			<icon>00009260.png</icon>
+			<desc>Une pâte aux céréales fermentée avant la cuisson.\n\n- Effet unique : endurance max. +100 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7323</id>
+			<name>Poivre de haute qualité</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : saucisse grillée, pâtes aux fruits de mer, soupe à la viande etc.\nObtention : s&apos;obtient en cultivant dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7335</id>
+			<name>Poivre spécial</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine et produit par le biais de la culture.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, soupe à la viande, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5407</id>
+			<name>Champignon du devin</name>
+			<icon>00005407.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit à la colline d&apos;Ehwaz et à la falaise côtière. Les champignons du devin peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5408</id>
+			<name>Champignon flèche</name>
+			<icon>00005408.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit dans la forêt du Pillage. Les champignons flèche peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5409</id>
+			<name>Champignon nain</name>
+			<icon>00005409.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit à Cienaga Nord. Les champignons nains peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5410</id>
+			<name>Champignon nuage</name>
+			<icon>00005410.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit au marécage de Glish et à Cienaga Sud. Les champignons nuages peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5411</id>
+			<name>Champignon céleste</name>
+			<icon>00005411.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit dans la vallée d&apos;Epheria et au sanctuaire d&apos;Elric. Les champignons célestes peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5412</id>
+			<name>Champignon tigre</name>
+			<icon>00005412.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit dans les ruines de l&apos;Arbre de Bree et au temple de Kamasilve. Les champignons tigre peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5413</id>
+			<name>Champignon impérial</name>
+			<icon>00005413.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit à la souche de Rhua et dans la grotte des glutonis. Les champignons impériaux peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5414</id>
+			<name>Champignon fantôme</name>
+			<icon>00005414.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit dans la grotte de Marie. Les champignons fantômes peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner ! !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5415</id>
+			<name>Champignon brume</name>
+			<icon>00005415.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les champignons-brume peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5416</id>
+			<name>Champignon bossu</name>
+			<icon>00005416.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les champignons à bosse peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5417</id>
+			<name>Champignon bluffé</name>
+			<icon>00005417.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les champignons bluffés peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5418</id>
+			<name>Champignon ancestral</name>
+			<icon>00005418.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les champignons ancestraux peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5419</id>
+			<name>Amanite</name>
+			<icon>00005419.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les amanites peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>5420</id>
+			<name>Truffe</name>
+			<icon>00005420.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les truffes peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9261</id>
+			<name>Flocons d&apos;avoine</name>
+			<icon>00009261.png</icon>
+			<desc>Un mélange de poudre de céréales et de lait.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +5 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Flocons d&apos;avoine</name>
+			<icon>00009261.png</icon>
+			<desc>Un mélange de poudre de céréales et de lait.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +5 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>6205</id>
+			<name>Sang de cochon</name>
+			<icon>00006205.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un cochon mort.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>9202</id>
+			<name>Légumes marinés dans le vinaigre</name>
+			<icon>00009202.png</icon>
+			<desc>Une liqueur douce faite à partir de fruits.\n\n- Effet unique : vitesse de pêche +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9276</id>
+			<name>Flocons d&apos;avoine raffinés</name>
+			<icon>00009276.png</icon>
+			<desc>Des flocons d&apos;avoine préparés avec des céréales de qualité supérieure.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +6 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9276</id>
+			<name>Flocons d&apos;avoine raffinés</name>
+			<icon>00009276.png</icon>
+			<desc>Des flocons d&apos;avoine préparés avec des céréales de qualité supérieure.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +6 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>6205</id>
+			<name>Sang de cochon</name>
+			<icon>00006205.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un cochon mort.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+		<item>
+			<id>9202</id>
+			<name>Légumes marinés dans le vinaigre</name>
+			<icon>00009202.png</icon>
+			<desc>Une liqueur douce faite à partir de fruits.\n\n- Effet unique : vitesse de pêche +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9422</id>
+			<name>Pudding noir</name>
+			<icon>00009422.png</icon>
+			<desc>Un pudding préparé avec des ingrédients douteux.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nDégâts contre les humains +2 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9422</id>
+			<name>Pudding noir</name>
+			<icon>00009422.png</icon>
+			<desc>Un pudding préparé avec des ingrédients douteux.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nDégâts contre les humains +2 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9267</id>
+			<name>Sandwich au jambon</name>
+			<icon>00009267.png</icon>
+			<desc>Un pain moelleux avec une saucisse dedans.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nTous types de précision +8 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Croquettes à la viande</name>
+			<icon>00009404.png</icon>
+			<desc>Un plat frit avec des céréales et de la viande.\n\n- Effet unique : gain d&apos;EXP de combat +5 % pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Vin de fruits</name>
+			<icon>00009201.png</icon>
+			<desc>Une liqueur douce faite à partir de fruits.\n\n- Effet unique : vitesse de pêche +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9448</id>
+			<name>Pudding rouge sang</name>
+			<icon>00009448.png</icon>
+			<desc>Un pudding préparé avec des ingrédients très douteux.\n\n- Effet unique : tous types de PA +3 pendant 110 min.\nDégâts contre les humains +2 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9448</id>
+			<name>Pudding rouge sang</name>
+			<icon>00009448.png</icon>
+			<desc>Un pudding préparé avec des ingrédients très douteux.\n\n- Effet unique : tous types de PA +3 pendant 110 min.\nDégâts contre les humains +2 pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9267</id>
+			<name>Sandwich au jambon</name>
+			<icon>00009267.png</icon>
+			<desc>Un pain moelleux avec une saucisse dedans.\n\n- Effet unique : tous types de PA +3 pendant 90 min.\nTous types de précision +8 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Croquettes à la viande</name>
+			<icon>00009404.png</icon>
+			<desc>Un plat frit avec des céréales et de la viande.\n\n- Effet unique : gain d&apos;EXP de combat +5 % pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Vin de fruits</name>
+			<icon>00009201.png</icon>
+			<desc>Une liqueur douce faite à partir de fruits.\n\n- Effet unique : vitesse de pêche +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7319</id>
+			<name>Rose</name>
+			<icon>00007319.png</icon>
+			<desc>Une rose au parfum délicat. Utilisée principalement en cuisine.\nUtilisation : thé au parfum délicat.\nObtention : vous pouvez la cueillir dans les rosiers autour de la plantation.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7319</id>
+			<name>Rose</name>
+			<icon>00007319.png</icon>
+			<desc>Une rose au parfum délicat. Utilisée principalement en cuisine.\nUtilisation : thé au parfum délicat.\nObtention : vous pouvez la cueillir dans les rosiers autour de la plantation.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9261</id>
+			<name>Flocons d&apos;avoine</name>
+			<icon>00009261.png</icon>
+			<desc>Un mélange de poudre de céréales et de lait.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +5 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Flocons d&apos;avoine</name>
+			<icon>00009261.png</icon>
+			<desc>Un mélange de poudre de céréales et de lait.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +5 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9276</id>
+			<name>Flocons d&apos;avoine raffinés</name>
+			<icon>00009276.png</icon>
+			<desc>Des flocons d&apos;avoine préparés avec des céréales de qualité supérieure.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +6 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>9276</id>
+			<name>Flocons d&apos;avoine raffinés</name>
+			<icon>00009276.png</icon>
+			<desc>Des flocons d&apos;avoine préparés avec des céréales de qualité supérieure.\n\n- Effet unique : restaure l&apos;endurance d&apos;ouvrier par +6 (utiliser dans le menu Ouvrier de la carte du monde)\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 1 sec.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Viande de poulet</name>
+			<icon>00007921.png</icon>
+			<desc>Un ingrédient naturel utilisé en cuisine.\n- Obtention : produit aux fermes de Bartali et Finto.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

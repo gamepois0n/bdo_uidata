@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8229</itemKey>
+	<itemName>Flying Fish</itemName>
+	<itemIcon>00008229.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8529</id>
+			<name>Dried Flying Fish</name>
+			<icon>00008529.png</icon>
+			<desc>A dried flying fish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

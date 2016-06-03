@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6652</itemKey>
+	<itemName>Flasche Meerwasser</itemName>
+	<itemIcon>00006652.png</itemIcon>
+	<itemDesc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche im Meer gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus dem Meer mithilfe einer Leeren Flasche gewonnen werden.</itemDesc>
+	<makelist>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>16903</id>
+			<name>Biodünger</name>
+			<icon>00016901.png</icon>
+			<desc>Wird verwendet, um die Wachstumsrate von Feldfrüchten in der Nähe zu steigern. Wenn Ihr Dünger bei einem Garten verwendet, reduziert das die Zeit, die eine Feldfrucht zum Heranwachsen benötigt.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

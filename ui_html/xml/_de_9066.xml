@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9066</itemKey>
+	<itemName>Essig</itemName>
+	<itemIcon>00009066.png</itemIcon>
+	<itemDesc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</itemDesc>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

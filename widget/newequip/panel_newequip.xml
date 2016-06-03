@@ -1,0 +1,37 @@
+<UI>
+	<Control Type="Panel" Name="Panel_NewEquip" Pos="Right Top" Size="165 56" Pan="40 326" Color="ffffffff" EnableArea="0 0 165 56">
+		<Control Type="Static" Name="Static_BG" Pos="Left Top" Size="165 33" Pan="10 25" Color="ffffffff" EnableArea="0 0 165 33" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 166 1 1 34 166 34" Ani="1 1 0.000 0">new_ui_common_forlua/widget/newequip/newequip_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Left Top" Size="185 56" Pan="0 0" Color="ffffffff" EnableArea="0 0 185 56">
+			<Attribute Type="Ignore"/>
+			<Text Value="»óÀ§ ¾ÆÀÌÅÛ È¹µæ" Font="BaseFont_10_Normal" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="20 2"/>
+		</Control>
+		<Control Type="Static" Name="Static_Sword" Pos="10 25" Size="27 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 27 26" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 34 28 34 1 60 28 60" Ani="1 1 0.000 0">new_ui_common_forlua/widget/newequip/newequip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Shield" Pos="41 25" Size="22 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 22 26" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="29 34 51 34 29 60 51 60" Ani="1 1 0.000 0">new_ui_common_forlua/widget/newequip/newequip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Armor" Pos="66 25" Size="24 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 24 26" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="52 34 76 34 52 60 76 60" Ani="1 1 0.000 0">new_ui_common_forlua/widget/newequip/newequip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Boots" Pos="96 25" Size="21 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 21 26" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="77 34 98 34 77 60 98 60" Ani="1 1 0.000 0">new_ui_common_forlua/widget/newequip/newequip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Glove" Pos="124 25" Size="22 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 22 26" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="99 34 121 34 99 60 121 60" Ani="1 1 0.000 0">new_ui_common_forlua/widget/newequip/newequip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Helm" Pos="152 25" Size="21 26" Pan="0 0" Color="ffffffff" EnableArea="0 0 21 26" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="122 34 143 34 122 60 143 60" Ani="1 1 0.000 0">new_ui_common_forlua/widget/newequip/newequip_00.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

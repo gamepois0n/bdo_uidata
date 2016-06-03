@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5602</itemKey>
+	<itemName>Sève de plante insectivore</itemName>
+	<itemIcon>00005602.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en transformant une tige de plante carnivore ou une racine de plante carnivore. Peut aussi être récolté à la main ou à l&apos;aide d&apos;une houe à partir des plantes carnivores. Récolter une plante carnivore demande un certain niveau de compétence.</itemDesc>
+	<collect>
+		<character>
+			<name>Plante insectivore</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5442</id>
+			<name>Tige de plante carnivore</name>
+			<icon>00005442.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient par les plantes vénéneuses du marais des nagas.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5443</id>
+			<name>Racine de plante carnivore</name>
+			<icon>00005443.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient par les plantes vénéneuses du marais des nagas.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

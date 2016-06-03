@@ -1,0 +1,177 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Guild_Warfare" Pos="0 0" Size="715 625" Pan="0 0" Color="ffffffff" EnableArea="0 0 715 625">
+		<Control Type="Static" Name="Static_Warfare_BG" Pos="0 Top" Size="715 25" Pan="0 48" Color="ffffffff" EnableArea="0 0 715 25" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="200 10 240 10 200 50 240 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PartLineY" Pos="Left Top" Size="5 572" Pan="340 48" Color="99ffffff" EnableArea="0 0 5 572" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="130 12 141 12 130 55 141 55" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_CharName" Pos="Left Top" Size="333 20" Pan="5 50" Color="ffffffff" EnableArea="0 0 333 20">
+			<Text Value="가문명 (캐릭터명)" formatString="FRAME_GUILD_M_CHARNAME" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="20 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_M_CommandCenter" Pos="Left Top" Size="20 20" Pan="362 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="187 1 207 1 187 21 207 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Tower" Pos="Left Top" Size="20 20" Pan="394 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="166 1 186 1 166 21 186 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_CastleGate" Pos="Left Top" Size="20 20" Pan="426 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="208 1 228 1 208 21 228 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Help" Pos="Left Top" Size="20 20" Pan="458 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="229 1 249 1 229 21 249 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Summons" Pos="Left Top" Size="20 20" Pan="490 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="250 1 270 1 250 21 270 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Installation" Pos="Left Top" Size="20 20" Pan="522 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="271 1 291 1 271 21 291 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Master" Pos="Left Top" Size="20 20" Pan="554 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="292 1 312 1 292 21 312 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Commander" Pos="Left Top" Size="20 20" Pan="586 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="313 1 333 1 313 21 333 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Member" Pos="Left Top" Size="20 20" Pan="618 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="334 1 354 1 334 21 354 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_M_Death" Pos="Left Top" Size="20 20" Pan="650 50" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="355 1 375 1 355 21 375 21" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_00.dds</Texture>
+		</Control>
+		<Control Type="Frame" Name="Frame_GuildWarfare" Pos="Right Top" Size="715 555" Pan="0 70" Color="ffffffff" EnableArea="0 0 715 555">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="Left Top" Size="744 555" Pan="0 0" Color="ffffffff" EnableArea="0 0 744 555">
+				<Texture Type="Base" UV="102 60 110 60 102 68 110 68" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+				<Control Type="StaticText" Name="StaticText_C_CharName" Pos="Left 5" Size="340 20" Pan="5 0" Color="ffffffff" EnableArea="0 0 353 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="남에게피해를주지말자(와씨잠깐만)" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Tower" Pos="Left 5" Size="20 20" Pan="393 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_CommandCenter" Pos="Left 5" Size="20 20" Pan="361 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_CastleGate" Pos="Left 5" Size="20 20" Pan="425 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Help" Pos="Left 5" Size="20 20" Pan="457 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Summons" Pos="Left 5" Size="20 20" Pan="489 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Installation" Pos="Left 5" Size="20 20" Pan="521 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Master" Pos="Left 5" Size="20 20" Pan="553 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Commander" Pos="Left 5" Size="20 20" Pan="585 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Member" Pos="Left 5" Size="20 20" Pan="617 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_C_Death" Pos="Left 5" Size="20 20" Pan="649 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Static" Name="Static_C_PartLine" Pos="Center 25" Size="750 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 750 6" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="VerticalScroll" Pos="Right Top" Size="7 550" Pan="5 7" Color="ffffffff" EnableArea="0 0 7 550" Grid="1" GridPosX="0 1 6 7" GridPosY="0 4 543 550" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="VerticalScroll_DownButton" Pos="0 550" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="VerticalScroll_CtrlButton" Pos="Center 0" Size="13 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="0 555" Size="675 20" Pan="0 0" Color="ff333333" EnableArea="0 0 675 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="675 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="-5 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_IconHelper" Pos="737 96" Size="120 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 30" Grid="1" GridPosX="0 10 110 120" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="성채 파괴" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_CharName" Pos="Left Top" Size="10 10" Pan="226 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_CommandCenter" Pos="Left Top" Size="10 10" Pan="380 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Tower" Pos="Left Top" Size="10 10" Pan="412 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_CastleGate" Pos="Left Top" Size="10 10" Pan="444 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Help" Pos="Left Top" Size="10 10" Pan="476 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Summons" Pos="Left Top" Size="10 10" Pan="508 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Installation" Pos="Left Top" Size="10 10" Pan="540 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Master" Pos="Left Top" Size="10 10" Pan="572 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Commander" Pos="Left Top" Size="10 10" Pan="604 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Member" Pos="Left Top" Size="10 10" Pan="636 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S_Death" Pos="Left Top" Size="10 10" Pan="668 54" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="▲" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

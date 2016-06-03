@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8515</itemKey>
+	<itemName>Getrocknete Miesmuschel</itemName>
+	<itemIcon>00008515.png</itemIcon>
+	<itemDesc>Eine Getrocknete Miesmuschel, die durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8215</id>
+			<name>Miesmuschel</name>
+			<icon>00008215.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

@@ -1,0 +1,98 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CustomizationMainSlide" Pos="0 0" Size="1280 720" Pan="0 0" Color="ff555555" EnableArea="0 0 1280 720">
+		<Attribute Type="Ignore"/>
+		<Control Type="Button" Name="Button_MainButton" Pos="363 372" Size="108 108" Pan="0 0" Color="ffffffff" EnableArea="0 0 108 108" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="10 10 118 10 10 118 118 118" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/mainbutton2.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Group" Pos="723 341" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="15 15 65 65" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_part_final_resize_button.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Weather" Pos="128 299" Size="70 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 70">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 70 0 0 70 70 70" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_weather_middlesize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Customization" Pos="68 467" Size="70 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 70">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 70 0 0 70 70 70" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_body_middlesize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pose" Pos="221 289" Size="70 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 70">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 70 0 0 70 70 70" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_pose_middlesize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BG" Pos="215 458" Size="70 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 70 70">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 70 0 0 70 70 70" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_bg_middlesize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Hair" Pos="835 231" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_hair_resize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Face" Pos="867 295" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_face_resize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Form" Pos="910 354" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_form_resize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_facial" Pos="964 197" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_facial_resize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_look" Pos="992 272" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_look_resize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_costume" Pos="1031 340" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_costume_resize.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_01" Pos="184 113" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_icon_weather01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_02" Pos="212 122" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_icon_weather02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_03" Pos="236 129" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_icon_weather03.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_04" Pos="265 138" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_icon_weather04.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_05" Pos="296 143" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_icon_weather05.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_06" Pos="320 150" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_icon_weather06.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Weather_07" Pos="350 153" Size="80 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 80">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 80 0 0 80 80 80" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_icon_weather07.dds</Texture>
+		</Control>
+		
+	</Control>
+</UI>
+

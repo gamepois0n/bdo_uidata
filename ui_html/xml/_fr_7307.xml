@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7307</itemKey>
+	<itemName>Vigne</itemName>
+	<itemIcon>00007307.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé en cuisine.\n- Utilisation : jus de fruits, pudding aux fruits, etc.\nObtention : s&apos;obtient en cultivant des graines de raisin dans un jardin ou en ramassant des raisins à la main ou à l&apos;aide d&apos;une houe.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</itemDesc>
+	<collect>
+		<character>
+			<name>Vigne</name>
+		</character>
+	</collect>
+	<node region="Ferme Casta : raisin"/>
+	<makelist>
+		<item>
+			<id>7407</id>
+			<name>Caisse de raisins</name>
+			<icon>00007407.png</icon>
+			<desc>Une récolte transformée pour être vendue à bon prix. Elle peut être vendue à des marchands.\n- Obtention : elle peut être préparée à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

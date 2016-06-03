@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15112</itemKey>
+	<itemName>Cristal magique d&apos;infinité (Adamantine)</itemName>
+	<itemIcon>00045022.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être transposé dans des châsses de chaussure. \n- Effet d&apos;objet : résistance au repoussement/à la poussée +10 %\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15012</id>
+			<name>Cristal magique de la nature (Adamantine)</name>
+			<icon>00045022.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de chaussure. \n- Effet d&apos;objet : résistance au repoussement/à la poussé +5 %\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>5205</id>
+			<name>Fruit de la nature</name>
+			<icon>00005205.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Cristal magique de la flamme pourpre - Précision</name>
+			<icon>00045001.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>4454</id>
+			<name>Saphir</name>
+			<icon>00004454.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un saphir brut.</desc>
+		</item>
+		<item>
+			<id>5402</id>
+			<name>Azalée argentée</name>
+			<icon>00005402.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : peut être produit dans la plaine Nord de Serendia et dans les ruines de la ferme Lynch. Peut également être récolté directement sur des herbes sauvages à mains nues ou à l&apos;aide d&apos;une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>15012</id>
+			<name>Cristal magique de la nature (Adamantine)</name>
+			<icon>00045022.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de chaussure. \n- Effet d&apos;objet : résistance au repoussement/à la poussé +5 %\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

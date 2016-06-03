@@ -1,0 +1,172 @@
+<UI>
+	<Control Type="Panel" Name="Worldmap_Grand_OutSideNode" Pos="0 0" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="MainMenu_Bg" Pos="Left Top" Size="200 230" Pan="10 10" Color="ffffffff" EnableArea="0 0 200 230" Grid="1" GridPosX="0 10 190 200" GridPosY="0 10 220 230" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="MainMenu_Title" Pos="Left Top" Size="240 6" Pan="-15 43" Color="ffffffff" EnableArea="0 0 240 6" Grid="1" GridPosX="0 80 180 240" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="월드맵" formatString="UICONTROL_BTN_WORLDMAP" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Radiobutton" Name="MainMenu_Button_1" Pos="Left Top" Size="29 29" Pan="7 40" Color="ffffffff" EnableArea="0 0 29 29" Grid="1" GridPosX="0 0 29 29" GridPosY="0 0 29 29" GridUVX="0 0 29 29" GridUVY="0 0 29 29" UseDefaultSound="1" ClickSound="0 0" Group="0">
+			<Texture Type="Base" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="MainMenu_Edit_NodeName" Pos="16 0" Size="140 30" Pan="16 116" Color="ffffffff" EnableArea="0 0 140 30" Grid="1" GridPosX="0 5 135 140" GridPosY="0 5 25 30" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="거점명" Font="BaseFont" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Button" Name="MainMenu_Button_NodeSearch" Pos="158 0" Size="45 30" Pan="158 115" Color="ffffffff" EnableArea="0 0 45 30" Grid="1" GridPosX="0 4 40 45" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="찾기" formatString="PANEL_COMMON_SEARCH" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="MainMenu_Edit_ItemName" Pos="16 0" Size="140 30" Pan="16 146" Color="ffffffff" EnableArea="0 0 140 30" Grid="1" GridPosX="0 5 135 140" GridPosY="0 5 25 30" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="아이템명" Font="BaseFont" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Button" Name="MainMenu_Button_ItemSearch" Pos="158 0" Size="45 30" Pan="158 145" Color="ffffffff" EnableArea="0 0 45 30" Grid="1" GridPosX="0 4 40 45" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="찾기" formatString="PANEL_COMMON_SEARCH" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+
+		<Control Type="Edit" Name="MainMenu_Edit_UseType" Pos="16 0" Size="140 30" Pan="16 146" Color="ffffffff" EnableArea="0 0 140 30" Grid="1" GridPosX="0 5 135 140" GridPosY="0 5 25 30" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="용도명" Font="BaseFont" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Button" Name="MainMenu_Button_UseTypeSearch" Pos="158 0" Size="45 30" Pan="158 145" Color="ffffffff" EnableArea="0 0 45 30" Grid="1" GridPosX="0 4 40 45" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="찾기" formatString="PANEL_COMMON_SEARCH" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+
+		<Control Type="Static" Name="MainMenu_Static_Partline" Pos="-15 0" Size="240 6" Pan="-15 180" Color="ffffffff" EnableArea="0 0 240 6" Grid="1" GridPosX="0 80 180 240" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="MainMenu_Static_ExplorePoint_Bg" Pos="15 0" Size="190 40" Pan="15 190" Color="ffffffff" EnableArea="0 0 190 40" Grid="1" GridPosX="0 10 180 190" GridPosY="0 10 30 40" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="MainMenu_ExplorePoint_Icon" Pos="30 0" Size="20 20" Pan="20 195" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="88 44 109 44 88 65 109 65" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="MainMenu_StaticText_ExplorePoint_Value" Pos="55 0" Size="50 20" Pan="55 199" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="990/999" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="MainMenu_Static_ExplorePoint_Progress_BG" Pos="108 0" Size="75 8" Pan="108 206" Color="ffffffff" EnableArea="0 0 75 8" Grid="1" GridPosX="0 1 74 75" GridPosY="0 1 7 8" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="MainMenu_Static_ExplorePoint_Progress" Pos="109 0" Size="73 6" Pan="109 207" Color="ffffffff" EnableArea="0 0 73 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 186 255 186 1 189 255 189" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Left Top" Size="7 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 7 6">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="MainMenu_Static_ExplorePoint_Help" Pos="182 0" Size="20 20" Pan="182 199" Color="ffffffff" EnableArea="0 0 20 20">
+			<Text Value="?" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="MainMenu_Button_Memo_Load" Pos="Left Top" Size="45 30" Pan="225 282" Color="ffffffff" EnableArea="0 0 45 30" Grid="1" GridPosX="0 4 40 45" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="열기" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="MainMenu_Button_Memo_Save" Pos="Left Top" Size="45 30" Pan="270 282" Color="ffffffff" EnableArea="0 0 45 30" Grid="1" GridPosX="0 4 40 45" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="저장" formatString="PANEL_UI_SETTING_BTN_SAVE" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="MainMenu_Button_Memo_Delete" Pos="Left Top" Size="45 30" Pan="315 282" Color="ffffffff" EnableArea="0 0 45 30" Grid="1" GridPosX="0 4 40 45" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="삭제" formatString="PANEL_INGAMECASHSHOP_NEWCART_DELETEITEM" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="MainMenu_Button_Memo_Add" Pos="Left Top" Size="45 30" Pan="360 282" Color="ffffffff" EnableArea="0 0 45 30" Grid="1" GridPosX="0 4 40 45" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="추가" formatString="PANEL_COMMON_ADD" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Mode_Bg" Pos="Right Top" Size="300 70" Pan="10 10" Color="ffffffff" EnableArea="0 0 300 70" Grid="1" GridPosX="0 10 290 300" GridPosY="0 10 60 70" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="Mode_Button" Pos="Right Top" Size="29 29" Pan="7 40" Color="ffffffff" EnableArea="0 0 29 29" Grid="1" GridPosX="0 0 29 29" GridPosY="0 0 29 29" GridUVX="0 0 29 29" GridUVY="0 0 29 29" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Texture Type="Base" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<!-- <Text Value="1" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/> -->
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="Mode_ToggleButton" Pos="Right Top" Size="29 29" Pan="7 40" Color="ffffffff" EnableArea="0 0 29 29" Grid="1" GridPosX="0 0 29 29" GridPosY="0 0 29 29" GridUVX="0 0 29 29" GridUVY="0 0 29 29" UseDefaultSound="1" ClickSound="0 0" Group="0">
+			<Texture Type="Base" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="On" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Texture Type="Click" UV="6 6 35 6 6 35 35 35" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/WorldMap/WorldMap_Etc_05.dds</Texture>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="List_Bg" Pos="Left Top" Size="200 255" Pan="216 10" Color="ffffffff" EnableArea="0 0 200 255" Grid="1" GridPosX="0 10 190 200" GridPosY="0 10 245 255" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<!-- <Attribute Type="Ignore"/> -->
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="List_Title" Pos="Left Top" Size="240 6" Pan="190 42" Color="ffffffff" EnableArea="0 0 240 6" Grid="1" GridPosX="0 80 180 240" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="거점 목록" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="List_KeyWord" Pos="Left Top" Size="190 30" Pan="221 49" Color="ffffffff" EnableArea="0 0 190 30" Grid="1" GridPosX="0 10 180 190" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="검색어 : " Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 10"/>
+		</Control>
+		<Control Type="Static" Name="List_SearchListBG" Pos="Left Top" Size="190 175" Pan="221 84" Color="ffffffff" EnableArea="0 0 190 175" Grid="1" GridPosX="0 10 180 190" GridPosY="0 10 165 175" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="List_itemName" Pos="214 77" Size="175 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 175 25" Grid="1" GridPosX="0 10 165 175" GridPosY="0 10 15 25" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffede699" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 10"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_List" Pos="Left Top" Size="5 165" Pan="402 84" Color="ffffffff" EnableArea="0 0 5 165" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 158 165" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 190" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_CtrlButton" Pos="Center 0" Size="10 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 30" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 36 46" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+	</Control>
+</UI>

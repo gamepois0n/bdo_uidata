@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4468</itemKey>
+	<itemName>Roter Kristall</itemName>
+	<itemIcon>00004468.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe der Khurutohöhle gefundenem Roten Rohkristall gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4408</id>
+			<name>Roter Rohkristall</name>
+			<icon>00004408.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rotem Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe der Khurutohöhle gesammelt werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10821</id>
+			<name>Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10822</id>
+			<name>Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10823</id>
+			<name>Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10824</id>
+			<name>Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16168</id>
+			<name>Ahornholzfloß</name>
+			<icon>00016168.png</icon>
+			<desc>Ein aus Ahornholz gefertigtes Floß. Für den Fang seltener Fische geeignet.\n\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>10824</id>
+			<name>Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10823</id>
+			<name>Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10822</id>
+			<name>Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10821</id>
+			<name>Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>55860</id>
+			<name>Rotes Kristallamulett der Liebenden</name>
+			<icon>00055860.png</icon>
+			<desc>Schmuck aus Rotem Kristall. Jene, die jemandes Liebe gewinnen wollen, tragen ihn als Glücksbringer.</desc>
+		</item>
+		<item>
+			<id>10876</id>
+			<name>Talis-Schuhe der Eisenmauer</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Eisenmauer, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10875</id>
+			<name>Talis-Handschuhe der Eisenmauer</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Eisenmauer, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10874</id>
+			<name>Talis-Rüstung der Eisenmauer</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Eisenmauer, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10873</id>
+			<name>Talis-Helm der Eisenmauer</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Eisenmauer, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10879</id>
+			<name>Talis-Handschuhe der Beweglichkeit</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Beweglichkeit, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10878</id>
+			<name>Talis-Rüstung der Beweglichkeit</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Beweglichkeit, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10877</id>
+			<name>Talis-Helm der Beweglichkeit</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Beweglichkeit, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10884</id>
+			<name>Talis-Schuhe der Einschüchterung</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Einschüchterung, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10883</id>
+			<name>Talis-Handschuhe der Einschüchterung</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Einschüchterung, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10882</id>
+			<name>Talis-Rüstung der Einschüchterung</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Einschüchterung, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10881</id>
+			<name>Talis-Helm der Einschüchterung</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Einschüchterung, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10880</id>
+			<name>Talis-Schuhe der Beweglichkeit</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Beweglichkeit, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10888</id>
+			<name>Ultimative Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Maximal aufgerüstete Talis-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Eisenmauer, Talis-Schuhe der Beweglichkeit, Talis-Schuhe der Einschüchterung, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10887</id>
+			<name>Ultimative Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Maximal aufgerüstete Talis-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Eisenmauer, Talis-Handschuhe der Beweglichkeit, Talis-Handschuhe der Einschüchterung, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10886</id>
+			<name>Ultimative Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine maximal aufgerüstete Talis-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Eisenmauer, Talis-Rüstung der Beweglichkeit, Talis-Rüstung der Einschüchterung, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10885</id>
+			<name>Ultimativer Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Ein maximal aufgerüsteter Talis-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Eisenmauer, Talis-Helm der Beweglichkeit, Talis-Helm der Einschüchterung, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Waffen-Verbesserungsstein (Stufe 2)</name>
+			<icon>00004908.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

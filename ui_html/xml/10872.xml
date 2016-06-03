@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10872</itemKey>
+	<itemName>Ultimate Zereth Shoes</itemName>
+	<itemIcon>00010820.png</itemIcon>
+	<itemDesc>Zereth Shoes with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Shoes</itemDesc>
+	<house type="5">
+		<item>
+			<id>4052</id>
+			<name>Iron Ingot</name>
+			<icon>00004052.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Melted Iron Shards. It requires knowledge of Heating: Beginner.\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Fine Tough Hide</name>
+			<icon>00006160.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+		<item>
+			<id>4469</id>
+			<name>Green Crystal</name>
+			<icon>00004469.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Green Crystals found near Rhutum Outstation.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10860</id>
+			<name>Zereth Shoes of Iron Wall</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Iron wall, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Grade 3 Armor Reform Stone</name>
+			<icon>00004911.png</icon>
+			<desc>A material used in 3rd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10820</id>
+			<name>Zereth Shoes</name>
+			<icon>00010820.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Zereth Shoe of Agility</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of agility is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Agility, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Zereth Shoes of Intimidation</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Duress, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Zereth Shoes of Iron Wall</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Iron wall, Zereth Shoes</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

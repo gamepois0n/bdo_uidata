@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8532</itemKey>
+	<itemName>Hippocampe séché</itemName>
+	<itemIcon>00008532.png</itemIcon>
+	<itemDesc>Un hippocampe obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8232</id>
+			<name>Hippocampe</name>
+			<icon>00008232.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55932</id>
+			<name>Hippocampe séché sous vide</name>
+			<icon>00055932.png</icon>
+			<desc>Un objet de commerce contenant 10 hippocampes séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

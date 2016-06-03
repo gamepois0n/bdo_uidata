@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6355</itemKey>
+	<itemName>Blut des Weisen</itemName>
+	<itemIcon>00006355.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>6203</id>
+			<name>Fuchsblut</name>
+			<icon>00006203.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Fuchskadaver erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Spur des Aufstiegs</name>
+			<icon>00005955.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei der Uralten Steinkammer gefunden werden.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Mönchszweig</name>
+			<icon>00005007.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Mönchszweig erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4908</id>
+			<name>Waffen-Verbesserungsstein (Stufe 2)</name>
+			<icon>00004908.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

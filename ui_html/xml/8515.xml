@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8515</itemKey>
+	<itemName>Dried Shellfish</itemName>
+	<itemIcon>00008515.png</itemIcon>
+	<itemDesc>A dried shellfish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8215</id>
+			<name>Shellfish</name>
+			<icon>00008215.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

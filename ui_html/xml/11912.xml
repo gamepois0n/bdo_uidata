@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11912</itemKey>
+	<itemName>Resplendent Topaz Earrings</itemName>
+	<itemIcon>00011912.png</itemIcon>
+	<itemDesc>An earring decorated with a Resplendent Topaz.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11911</id>
+			<name>Topaz Earrings</name>
+			<icon>00011911.png</icon>
+			<desc>An earring decorated with a Topaz.</desc>
+		</item>
+		<item>
+			<id>4257</id>
+			<name>Melted Platinum Shard</name>
+			<icon>00004257.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Platinum Ore.</desc>
+		</item>
+		<item>
+			<id>4457</id>
+			<name>Topaz</name>
+			<icon>00004457.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Rough Topaz.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11913</id>
+			<name>Gold Topaz Earrings</name>
+			<icon>00011913.png</icon>
+			<desc>An earring decorated with a Gold Topaz.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

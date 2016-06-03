@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4909</itemKey>
+	<itemName>Rüstungs-Verbesserungsstein (Stufe 2)</itemName>
+	<itemIcon>00004909.png</itemIcon>
+	<itemDesc>Ein Material, das für die Rüstungsaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</itemDesc>
+	<house type="10">
+		<item>
+			<id>4067</id>
+			<name>Bronzebarren</name>
+			<icon>00004067.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zinn gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4469</id>
+			<name>Grüner Kristall</name>
+			<icon>00004469.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe des Rhutum-Außenpostens gefundenem Grünen Rohkristall gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5006</id>
+			<name>Geisterblatt</name>
+			<icon>00005006.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Geisterblatt erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>6351</id>
+			<name>Blut eines legendären Biests</name>
+			<icon>00006351.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10852</id>
+			<name>Taritas-Schuhe der Einschüchterung</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Einschüchterung, Taritas-Schuhe der Einschüchterung, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>10851</id>
+			<name>Taritas-Handschuhe der Einschüchterung</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Einschüchterung, Taritas-Handschuhe der Einschüchterung, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10863</id>
+			<name>Zeres-Handschuhe der Beweglichkeit</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10862</id>
+			<name>Zeres-Rüstung der Beweglichkeit</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Beweglichkeit, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10861</id>
+			<name>Zeres-Helm der Beweglichkeit</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Beweglichkeit, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Zeres-Schuhe der Eisenmauer</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Eisenmauer, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Zeres-Handschuhe der Eisenmauer</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Eisenmauer, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10858</id>
+			<name>Zeres-Rüstung der Eisenmauer</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Eisenmauer, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10857</id>
+			<name>Zeres-Helm der Eisenmauer</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Eisenmauer, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Agerian-Rüstung der Eisenmauer</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Eisenmauer, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Agerian-Helm der Eisenmauer</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Eisenmauer, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10876</id>
+			<name>Talis-Schuhe der Eisenmauer</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Eisenmauer, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10875</id>
+			<name>Talis-Handschuhe der Eisenmauer</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Eisenmauer, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10874</id>
+			<name>Talis-Rüstung der Eisenmauer</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Eisenmauer, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10873</id>
+			<name>Talis-Helm der Eisenmauer</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Eisenmauer, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10846</id>
+			<name>Taritas-Rüstung der Beweglichkeit</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Beweglichkeit, Taritas-Rüstung der Beweglichkeit, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>10845</id>
+			<name>Taritas-Helm der Beweglichkeit</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Beweglichkeit, Taritas-Helm der Beweglichkeit, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>10844</id>
+			<name>Taritas-Schuhe der Eisenmauer</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Eisenmauer, Taritas-Schuhe der Eisenmauer, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>10843</id>
+			<name>Taritas-Handschuhe der Eisenmauer</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Eisenmauer, Taritas-Handschuhe der Eisenmauer, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10842</id>
+			<name>Taritas-Rüstung der Eisenmauer</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Eisenmauer, Taritas-Rüstung der Eisenmauer, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>10841</id>
+			<name>Taritas-Helm der Eisenmauer</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Eisenmauer, Taritas-Helm der Eisenmauer, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Agerian-Schuhe der Einschüchterung</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Einschüchterung, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Agerian-Handschuhe der Einschüchterung</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Einschüchterung, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10850</id>
+			<name>Taritas-Rüstung der Einschüchterung</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Einschüchterung, Taritas-Rüstung der Einschüchterung, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>10849</id>
+			<name>Taritas-Helm der Einschüchterung</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Einschüchterung, Taritas-Helm der Einschüchterung, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>10848</id>
+			<name>Taritas-Schuhe der Beweglichkeit</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Beweglichkeit, Taritas-Schuhe der Beweglichkeit, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>10879</id>
+			<name>Talis-Handschuhe der Beweglichkeit</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Beweglichkeit, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10878</id>
+			<name>Talis-Rüstung der Beweglichkeit</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Beweglichkeit, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10877</id>
+			<name>Talis-Helm der Beweglichkeit</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Beweglichkeit, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Zeres-Schuhe der Beweglichkeit</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Beweglichkeit, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Agerian-Handschuhe der Beweglichkeit</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Beweglichkeit, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Agerian-Rüstung der Beweglichkeit</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Beweglichkeit, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Agerian-Helm der Beweglichkeit</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Beweglichkeit, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Agerian-Schuhe der Eisenmauer</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Eisenmauer, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Agerian-Handschuhe der Eisenmauer</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Eisenmauer, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Zeres-Schuhe der Einschüchterung</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Einschüchterung, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Zeres-Handschuhe der Einschüchterung</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Einschüchterung, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10866</id>
+			<name>Zeres-Rüstung der Einschüchterung</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Einschüchterung, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10865</id>
+			<name>Zeres-Helm der Einschüchterung</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Einschüchterung, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>14105</id>
+			<name>Taritas-Stahlhelm der Eisenmauer</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Stahlhelm enthält die Energie der Eisenmauer.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Eisenmauer, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>14111</id>
+			<name>Taritas-Stahlhandschuhe der Beweglichkeit</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Stahlhandschuhe enthalten die Energie der Beweglichkeit.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Beweglichkeit, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>14110</id>
+			<name>Taritas-Stahlrüstung der Beweglichkeit</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Beweglichkeit.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Beweglichkeit, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14109</id>
+			<name>Taritas-Stahlhelm der Beweglichkeit</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Stahlhelm enthält die Energie der Beweglichkeit.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Beweglichkeit, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>14108</id>
+			<name>Taritas-Stahlschuhe der Eisenmauer</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Stahlschuhe enthalten die Energie der Eisenmauer.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Eisenmauer, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>14107</id>
+			<name>Taritas-Stahlhandschuhe der Eisenmauer</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Stahlhandschuhe enthalten die Energie der Eisenmauer.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Eisenmauer, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>14106</id>
+			<name>Taritas-Stahlrüstung der Eisenmauer</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Eisenmauer.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Eisenmauer, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14116</id>
+			<name>Taritas-Stahlschuhe der Einschüchterung</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Stahlschuhe enthalten die Energie der Einschüchterung.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Einschüchterung, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>14115</id>
+			<name>Taritas-Stahlhandschuhe der Einschüchterung</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Stahlhandschuhe enthalten die Energie der Einschüchterung.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Einschüchterung, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>14114</id>
+			<name>Taritas-Stahlrüstung der Einschüchterung</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Einschüchterung.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Einschüchterung, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14113</id>
+			<name>Taritas-Stahlhelm der Einschüchterung</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Stahlhelm enthält die Energie der Einschüchterung.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Einschüchterung, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>14112</id>
+			<name>Taritas-Stahlschuhe der Beweglichkeit</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Stahlschuhe enthalten die Energie der Beweglichkeit.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Beweglichkeit, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>10884</id>
+			<name>Talis-Schuhe der Einschüchterung</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Einschüchterung, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10883</id>
+			<name>Talis-Handschuhe der Einschüchterung</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Einschüchterung, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10882</id>
+			<name>Talis-Rüstung der Einschüchterung</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Einschüchterung, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10881</id>
+			<name>Talis-Helm der Einschüchterung</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Einschüchterung, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10880</id>
+			<name>Talis-Schuhe der Beweglichkeit</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Beweglichkeit, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Grunil-Handschuhe der Eisenmauer</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Eisenmauer, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Grunil-Rüstung der Eisenmauer</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Eisenmauer, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Grunil-Helm der Eisenmauer</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Eisenmauer, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Grunil-Handschuhe der Beweglichkeit</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Beweglichkeit, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Grunil-Rüstung der Beweglichkeit</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Beweglichkeit, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Grunil-Helm der Beweglichkeit</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Beweglichkeit, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Grunil-Schuhe der Eisenmauer</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Eisenmauer, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Grunil-Schuhe der Einschüchterung</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Einschüchterung, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Grunil-Handschuhe der Einschüchterung</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Einschüchterung, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Grunil-Rüstung der Einschüchterung</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Einschüchterung, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Grunil-Helm der Einschüchterung</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Einschüchterung, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Grunil-Schuhe der Beweglichkeit</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Agerian-Rüstung der Einschüchterung</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Einschüchterung, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Agerian-Helm der Einschüchterung</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Einschüchterung, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Agerian-Schuhe der Beweglichkeit</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Beweglichkeit, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10847</id>
+			<name>Taritas-Handschuhe der Beweglichkeit</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Beweglichkeit, Taritas-Handschuhe der Beweglichkeit, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

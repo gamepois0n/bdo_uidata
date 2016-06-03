@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7908</itemKey>
+	<itemName>Echsenfleisch</itemName>
+	<itemIcon>00007908.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Echsenkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Blauechse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Dreieckskopfechse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Furchterregender Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Großer Horndreieckskopf-Salama</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kleiner Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Langschwanz-Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Leguan</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Nashorn-Echse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Regenbogenechse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ödland-Leguan</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Hochwertiges Trockenfleisch</name>
+			<icon>00007919.png</icon>
+			<desc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

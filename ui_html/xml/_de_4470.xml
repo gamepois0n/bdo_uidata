@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4470</itemKey>
+	<itemName>Schwarzkristall</itemName>
+	<itemIcon>00004470.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von Schwarzem Rohkristall gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4410</id>
+			<name>Schwarzer Rohkristall</name>
+			<icon>00004410.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Schwarzem Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe der Verlassenen Eisenmine in Mediah gesammelt werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10933</id>
+			<name>Grunil-Helm</name>
+			<icon>00010933.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10934</id>
+			<name>Grunil-Rüstung</name>
+			<icon>00010934.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10935</id>
+			<name>Grunil-Handschuhe</name>
+			<icon>00010935.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10936</id>
+			<name>Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55857</id>
+			<name>Schwarzkristallamulett der Autorität</name>
+			<icon>00055857.png</icon>
+			<desc>Schmuck aus Schwarzkristall. Jene, die nach Macht streben, tragen ihn als Glücksbringer.</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Grunil-Rüstung</name>
+			<icon>00010934.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Grunil-Helm</name>
+			<icon>00010933.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Grunil-Handschuhe der Eisenmauer</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Eisenmauer, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Grunil-Rüstung der Eisenmauer</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Eisenmauer, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Grunil-Helm der Eisenmauer</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Eisenmauer, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Grunil-Handschuhe</name>
+			<icon>00010935.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10962</id>
+			<name>Ultimative Grunil-Rüstung</name>
+			<icon>00010934.png</icon>
+			<desc>Eine maximal aufgerüstete Grunil-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Eisenmauer, Grunil-Rüstung der Beweglichkeit, Grunil-Rüstung der Einschüchterung, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10961</id>
+			<name>Ultimativer Grunil-Helm</name>
+			<icon>00010933.png</icon>
+			<desc>Ein maximal aufgerüsteter Grunil-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Eisenmauer, Grunil-Helm der Beweglichkeit, Grunil-Helm der Einschüchterung, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Grunil-Handschuhe der Beweglichkeit</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Beweglichkeit, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Grunil-Rüstung der Beweglichkeit</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Beweglichkeit, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Grunil-Helm der Beweglichkeit</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Beweglichkeit, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Grunil-Schuhe der Eisenmauer</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Eisenmauer, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Ultimative Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Maximal aufgerüstete Grunil-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Eisenmauer, Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe der Einschüchterung, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10963</id>
+			<name>Ultimative Grunil-Handschuhe</name>
+			<icon>00010935.png</icon>
+			<desc>Maximal aufgerüstete Grunil-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Eisenmauer, Grunil-Handschuhe der Beweglichkeit, Grunil-Handschuhe der Einschüchterung, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Grunil-Schuhe der Einschüchterung</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Einschüchterung, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Grunil-Handschuhe der Einschüchterung</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Einschüchterung, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Grunil-Rüstung der Einschüchterung</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Einschüchterung, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Grunil-Helm der Einschüchterung</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Einschüchterung, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Grunil-Schuhe der Beweglichkeit</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004911.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Waffen-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004910.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

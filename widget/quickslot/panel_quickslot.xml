@@ -1,0 +1,30 @@
+<UI>
+	<Control Type="Panel" Name="Panel_QuickSlot" Pos="572 274" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50">
+		<Control Type="Static" Name="Static_Effect_0" Pos="113 3" Size="64 64" Pan="0 0" Color="6dffffff" EnableArea="0 0 64 64">
+			<Texture Type="Base" UV="0 0 61 0 0 61 61 61" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quickslot/quickslot_eff_0.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="0" StartScale="2.00" EndScale="1.00" BasePosition="32 32" ScaleChild="False" ID="Ani_Scale_Eff_0" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="25" AdvanceType="0"/>
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.50" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Eff_0" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="25" AdvanceType="0"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_3" Pos="206 3" Size="64 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 64 64">
+			<Texture Type="Base" UV="0 0 61 0 0 61 61 61" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quickslot/quickslot_eff_1.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="0" StartScale="1.50" EndScale="1.00" BasePosition="32 32" ScaleChild="False" ID="Ani_Scale_Eff_0" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="25" AdvanceType="0"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SlotIcon" Pos="Center Center" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 53 0 0 53 53 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quickslot/quickslot_sampleicon.dds</Texture>
+			<Text Value="격진 지르기" Font="BaseFont_10" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -20"/>
+		</Control>
+		<Control Type="Static" Name="Static_Effect_Circle" Pos="303 -42" Size="128 128" Pan="0 0" Color="  ffffff" EnableArea="0 0 128 128">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/widget/levelup/levelup_circle.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="2.00" BasePosition="32 32" ScaleChild="True" ID="Ani_Scale_Circle" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="45" AdvanceType="0"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.25" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Circle" Activity="True" Replay="False" RunOnBoot="True" StartFrame="25" EndFrame="45" AdvanceType="0"/>
+			</UIAni>
+		</Control>
+	</Control>
+</UI>
+

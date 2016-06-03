@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6157</itemKey>
+	<itemName>Leichte Feder</itemName>
+	<itemIcon>00006157.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Kukuvogelfedern gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Kukuvogel</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6017</id>
+			<name>Weiche Kukuvogelfeder</name>
+			<icon>00006017.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Kukuvogelkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>6165</id>
+			<name>Feine leichte Feder</name>
+			<icon>00006165.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Leichten Federn gewonnen werden. Dies erfordert die Kenntnis Sieben.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5856</itemKey>
+	<itemName>Flax Fabric</itemName>
+	<itemIcon>00005856.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Flax Thread. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<collect>
+		<character>
+			<name>Bedding</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry Rack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tent</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5852</id>
+			<name>Flax Thread</name>
+			<icon>00005852.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Flax.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14023</id>
+			<name>Silver Embroidered Trainer&apos;s Clothes</name>
+			<icon>00014010.png</icon>
+			<desc>A noble outfit made for Trainers.</desc>
+		</item>
+		<item>
+			<id>14022</id>
+			<name>Silver Embroidered Gatherer&apos;s Clothes</name>
+			<icon>00014048.png</icon>
+			<desc>A noble outfit made for Gatherers.</desc>
+		</item>
+		<item>
+			<id>14020</id>
+			<name>Silver Embroidered Fisher&apos;s Clothes</name>
+			<icon>00014069.png</icon>
+			<desc>A noble outfit made for Fishers.</desc>
+		</item>
+		<item>
+			<id>14220</id>
+			<name>[Witch] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress for Calpheon aristocrats. It&apos;s both fabulous and practical.\n- Item effect: Amity +15% from a conversation\n※ If you use a costume exchange coupon, you&apos;ll get the same dress with an additional effect of moving speed +2. The costume can be equipped in the same slot as the pearl costume.\nIf you exchange it for a costume, you cannot register it to the Marketplace.</desc>
+		</item>
+		<item>
+			<id>14207</id>
+			<name>[Valkyrie] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14205</id>
+			<name>[Ranger] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14204</id>
+			<name>[Tamer] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14203</id>
+			<name>[Sorceress] Calpheon Noble Dress</name>
+			<icon>00014203.png</icon>
+			<desc>A dress worn by Calpheon aristocrats. It&apos;s both fabulous and practical.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same dress with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>53503</id>
+			<name>White Wagon Cover</name>
+			<icon>00053503.png</icon>
+			<desc>A cover for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53502</id>
+			<name>Strong Wagon Cover</name>
+			<icon>00053502.png</icon>
+			<desc>A cover for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53707</id>
+			<name>Noble Wagon Badge</name>
+			<icon>00053609.png</icon>
+			<desc>A banner for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53706</id>
+			<name>Merchant Wagon Badge</name>
+			<icon>00053610.png</icon>
+			<desc>A banner for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53705</id>
+			<name>Trade Wagon Badge</name>
+			<icon>00053610.png</icon>
+			<desc>A banner for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53704</id>
+			<name>Farm Wagon Badge</name>
+			<icon>00053610.png</icon>
+			<desc>A banner for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53703</id>
+			<name>White Wagon Badge</name>
+			<icon>00053609.png</icon>
+			<desc>A banner for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53702</id>
+			<name>Strong Wagon Badge</name>
+			<icon>00053608.png</icon>
+			<desc>A banner for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53701</id>
+			<name>Shabby Wagon Badge</name>
+			<icon>00053607.png</icon>
+			<desc>A banner for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53607</id>
+			<name>Noble Wagon Flag</name>
+			<icon>00053604.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53606</id>
+			<name>Merchant Wagon Flag</name>
+			<icon>00053606.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53605</id>
+			<name>Trade Wagon Flag</name>
+			<icon>00053605.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53604</id>
+			<name>Farm Wagon Flag</name>
+			<icon>00053604.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53603</id>
+			<name>White Wagon Flag</name>
+			<icon>00053603.png</icon>
+			<desc>A flag for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53602</id>
+			<name>Strong Wagon Flag</name>
+			<icon>00053602.png</icon>
+			<desc>A flag for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53601</id>
+			<name>Shabby Wagon Flag</name>
+			<icon>00053601.png</icon>
+			<desc>A flag for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53504</id>
+			<name>Farm Wagon Cover</name>
+			<icon>00053504.png</icon>
+			<desc>A cover for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

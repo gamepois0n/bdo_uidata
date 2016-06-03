@@ -1,0 +1,202 @@
+<UI>
+	<Control Type="Panel" Name="Panel_RallyRanking" Pos="0 0" Size="750 685" Pan="0 0" Color="ffffffff" EnableArea="0 0 750 685" Grid="1" GridPosX="0 50 700 750" GridPosY="0 50 635 685" GridUVX="0 50 770 820" GridUVY="0 50 535 585">
+		<Texture Type="Base" UV="0 0 820 0 0 585 820 585" Ani="1 1 0.000 0">new_ui_common_forlua/window/characterinfo/my_info_back_wide.dds</Texture>
+		<Attribute Type="Drag" Area="25 15 875 50"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="736 46" Pan="0 6" Color="ffffffff" EnableArea="0 0 736 46" Grid="1" GridPosX="0 50 686 736" GridPosY="0 30 40 46" GridUVX="0 50 350 400" GridUVY="0 30 40 46">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 400 0 0 46 400 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+			<Text Value="대회 순위" formatString="PANEL_RALLYRANKING_STATICTEXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 12"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="23 20" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="46 20" Color="ffffffff" EnableArea="0 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_MyRankingBG" Pos="Center Top" Size="715 72" Pan="0 100" Color="ffffffff" EnableArea="0 0 715 72" Grid="1" GridPosX="0 10 705 715" GridPosY="0 10 62 72" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Tab_PartyPvP" Pos="Left Top" Size="154 32" Pan="35 60" Color="ffffffff" EnableArea="0 0 154 32" UseDefaultSound="1" ClickSound="1 0" Group="0">
+			<Texture Type="Base" UV="1 397 155 397 1 429 155 429" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<Texture Type="On" UV="156 397 310 397 156 429 310 429" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<Texture Type="Click" UV="311 397 465 397 311 429 465 429" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sprite" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="1" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="결투장" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="65 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Tab_Race" Pos="Left Top" Size="154 32" Pan="190 60" Color="ffffffff" EnableArea="0 0 154 32" UseDefaultSound="1" ClickSound="1 0" Group="0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 430 155 430 1 462 155 462" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<Texture Type="On" UV="156 430 310 430 156 462 310 462" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<Texture Type="Click" UV="311 430 465 430 311 462 465 462" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_07.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sprite" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="1" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="말 경주" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="63 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MyRanking" Pos="48 107" Size="375 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 375 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="99위. 캐릭명은열자까지나옴/가문명은열자까지나옴 " Font="BaseFont_12" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Comment" Pos="Right Top" Size="250 20" Pan="40 105" Color="ffffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ 대회 순위는 일정 시간마다 갱신됩니다." formatString="PANEL_RALLYRANKING_STATICTEXT_COMMENT" Font="BaseFont_10" Color="fff26a6a" OverColor="fff26a6a" ClickColor="fff26a6a" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Red" Pos="92 146" Size="120 6" Pan="0 0" Color="ffc2313d" EnableArea="0 0 120 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="309 200 322 200 309 213 322 213" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Green" Pos="332 146" Size="120 6" Pan="0 0" Color="ff62b15b" EnableArea="0 0 120 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="326 200 339 200 326 213 339 213" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Orange" Pos="212 146" Size="120 6" Pan="0 0" Color="ffd16400" EnableArea="0 0 120 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="292 200 305 200 292 213 305 213" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Blue" Pos="452 146" Size="120 6" Pan="0 0" Color="ff468ada" EnableArea="0 0 120 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="258 200 271 200 258 213 271 213" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Gray" Pos="572 146" Size="120 6" Pan="0 0" Color="ffdbb038" EnableArea="0 0 120 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="275 200 288 200 275 213 288 213" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Grade_A" Pos="125 152" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="A" Font="BaseFont_10" Color="ffc2313d" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Grade_B" Pos="247 152" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="B" Font="BaseFont_10" Color="ffd16400" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Grade_C" Pos="369 152" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="C" Font="BaseFont_10" Color="ff62b15b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Grade_D" Pos="485 152" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="D" Font="BaseFont_10" Color="ff468ada" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Grade_E" Pos="608 152" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="E" Font="BaseFont_10" Color="ffdbb038" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HighPercent" Pos="Left Top" Size="50 20" Pan="35 140" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="상위" formatString="PANEL_LIFERANKING_HIGHPERCENT" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LowPercent" Pos="Right Top" Size="50 20" Pan="35 140" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="하위" formatString="PANEL_LIFERANKING_LOWPERCENT" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_InMyRankBG" Pos="Center 133" Size="400 8" Pan="0 0" Color="fff41313" EnableArea="0 0 400 8" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="33 38 215 38 33 46 215 46" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BG" Pos="Center Top" Size="715 490" Pan="0 175" Color="ffffffff" EnableArea="0 0 715 490" Grid="1" GridPosX="0 10 705 715" GridPosY="0 10 480 490" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_RankingList" Pos="Right Top" Size="5 490" Pan="35 135" Color="ffffffff" EnableArea="0 0 5 490" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 483 490" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Hide"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 490" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_CtrlButton" Pos="Center 0" Size="10 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 90 100" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Slider" Name="Slider_InMyRank" Pos="Center Top" Size="600 8" Pan="0 145" Color="ffcc00ff" EnableArea="0 0 600 8" Interval="0">
+			<Attribute Type="Ignore"/>
+			<Control Type="Button" AutoDisableTime="1.000000" UseDefaultSound="1" Name="Slider_1_Button" Pos="-6 -14" Size="15 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 15 22">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="12 50 25 50 12 72 25 72" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_First_Rank" Pos="45 180" Size="35 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 35 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="1위." Font="SubTitleFont_14" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FirstCharacterName" Pos="86 180" Size="370 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 20">
+			<Text Value="캐릭명은열자까지나옴/가문명은열자까지나옴" Font="SubTitleFont_14" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FirstGuildName" Pos="466 180" Size="185 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 185 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명은열자까지나옴" Font="SubTitleFont_14" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FirstPoint" Pos="Right 180" Size="80 20" Pan="45 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점수 24000" Font="SubTitleFont_14" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Second_Rank" Pos="47 200" Size="35 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 35 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2위." Font="BaseFont_12_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SecondCharacterName" Pos="86 200" Size="370 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 20">
+			<Text Value="캐릭명은열자까지나옴/가문명은열자까지나옴" Font="BaseFont_12_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SecondGuildName" Pos="467 200" Size="185 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 185 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명은열자까지나옴" Font="BaseFont_12_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SecondPoint" Pos="Right 200" Size="80 20" Pan="45 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점수 20000" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Third_Rank" Pos="48 220" Size="30 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="3위." Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ThirdCharacterName" Pos="86 220" Size="370 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 20">
+			<Text Value="캐릭명은열자까지나옴/가문명은열자까지나옴" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ThirdGuildName" Pos="468 220" Size="185 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 185 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명은열자까지나옴" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ThirdPoint" Pos="Right 220" Size="80 20" Pan="46 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점수 18000" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PlayerRank" Pos="48 235" Size="30 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="4위." Font="BaseFont_8_Line" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PlayerName" Pos="86 235" Size="370 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 20">
+			<Text Value="캐릭명은열자까지나옴/가문명은열자까지나옴" Font="BaseFont_8_Line" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PlayerGuildName" Pos="468 236" Size="185 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 185 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명은열자까지나옴" Font="BaseFont_8_Line" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PlayerPoint" Pos="Right 235" Size="100 20" Pan="48 0" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점수 10000" Font="BaseFont_8_Line" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

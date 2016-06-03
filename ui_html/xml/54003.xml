@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>54003</itemKey>
+	<itemName>Lump of Raw Sugar</itemName>
+	<itemIcon>00054003.png</itemIcon>
+	<itemDesc>When used, the chance of taming a wild horse increases.\nIt can only be used after catching a horse using a Capturing Rope and then moving close to the steed.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>9009</id>
+			<name>Raw Sugar</name>
+			<icon>00009009.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

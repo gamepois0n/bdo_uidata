@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5010</itemKey>
+	<itemName>Cedar Sap</itemName>
+	<itemIcon>00005010.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Cedar Trees with a Fluid Collector.</itemDesc>
+	<collect>
+		<character>
+			<name>Cedar Tree</name>
+		</character>
+	</collect>
+	<node region="Longleaf Tree Forest - Lumbering"/>
+	<makelist>
+		<item>
+			<id>49003</id>
+			<name>Ship License: Calpheon Ferry</name>
+			<icon>00049003.png</icon>
+			<desc>Proof of ownership of a &lt;Calpheon Ferry&gt; at the Wharf.\n- Inventory Slot(s): 10, Acceleration: 100%, Speed: 105%, Turn: 105%, Braking: 105%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

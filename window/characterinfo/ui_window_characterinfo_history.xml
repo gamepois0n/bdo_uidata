@@ -1,0 +1,124 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_CharInfo_HistoryInfo" Pos="0 0" Size="730 560" Pan="0 0" Color="ffffffff" EnableArea="0 0 730 560">
+		<Control Type="Static" Name="Static_HistoryBG" Pos="0 0" Size="730 560" Pan="0 0" Color="ffffffff" EnableArea="0 0 730 560" Grid="1" GridPosX="0 10 720 730" GridPosY="0 10 550 560" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_HistoryInnerBG" Pos="Left Top" Size="710 550" Pan="5 4" Color="ffffffff" EnableArea="0 0 710 550" Grid="1" GridPosX="0 10 700 710" GridPosY="0 10 540 550" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DateLine" Pos="Left Top" Size="711 25" Pan="4 12" Color="ffffffff" EnableArea="0 0 711 25" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="309 200 323 200 309 214 323 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_YearStic" Pos="10 19" Size="6 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 6 18" UseDefaultSound="1" Group="5">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="5 102 11 102 5 120 11 120" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+			<Texture Type="On" UV="17 102 24 102 17 120 24 120" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+			<Texture Type="Click" UV="32 99 39 99 32 120 39 120" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Bottom" Span="10 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_YearSticText" Pos="45 16" Size="30 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2022" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Year_Left" Pos="20 18" Size="18 18" Pan="20 16" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 1 19 1 1 19 19 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 1 38 1 20 19 38 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 1 57 1 39 19 57 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Year_Right" Pos="85 18" Size="18 18" Pan="40 16" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 20 19 20 1 38 19 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 20 38 20 20 38 38 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 20 57 20 39 38 57 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SelectYearValue" Pos="290 13" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2022년" Font="SubTitleFont_14" Color="ffffeea0" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Month" Pos="Right 14" Size="20 20" Pan="20 0" Color="ffffffff" EnableArea="0 0 20 20" UseDefaultSound="1" ClickSound="1 0" OverSound="0 4" Group="3">
+			<Attribute Type="Hide"/>
+			<Text Value="1월" Font="BaseFont_10" Color="ff888888" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MainMonth" Pos="Center 5" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="12월" Font="TitleFont_18" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_HorizontalCenter" Pos="Center 30" Size="64 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 64 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="22 155 86 155 22 165 86 165" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_VerticalLine" Pos="Center 31" Size="12 480" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 480" Grid="1" GridPosX="0 1 11 12" GridPosY="0 4 476 480" GridUVX="0 1 11 12" GridUVY="0 4 110 114" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="3 126 15 126 3 240 15 240" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_HorizontalLeft" Pos="Center 0" Size="97 10" Pan="-46 0" Color="ffffffff" EnableArea="0 0 97 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="18 127 115 127 18 137 115 137" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_HorizontalRight" Pos="Center 0" Size="97 10" Pan="46 0" Color="ffffffff" EnableArea="0 0 97 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="18 140 115 140 18 150 115 150" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DayLeft_Value" Pos="Center 80" Size="50 20" Pan="-70 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="31일" Font="BaseFont_12" Color="ff6dc6ff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DayRight_Value" Pos="Center 110" Size="50 20" Pan="70 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="30일" Font="BaseFont_12" Color="ff6dc6ff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HistoryLeftList" Pos="Right 0" Size="200 20" Pan="380 0" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="'퍼러비스' 길드 탈퇴 ..." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HistoryRightList" Pos="Left 0" Size="200 20" Pan="380 0" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="'퍼러비스' 길드에서 팀킬 칭호 습득" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleText" Pos="0 0" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Frame" Name="Frame_HistoryList" Pos="Left Top" Size="710 520" Pan="5 35" Color="ffffffff" EnableArea="0 0 710 520">
+			<Attribute Type="Ignore"/>
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="0 0" Size="710 520" Pan="0 0" Color="ffffffff" EnableArea="0 0 710 520"/>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="714 10" Size="7 505" Pan="5 7" Color="ffffffff" EnableArea="0 0 7 505" Grid="1" GridPosX="0 1 6 7" GridPosY="0 4 498 505" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_1_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_DownButton" Pos="0 505" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_CtrlButton" Pos="-3 0" Size="13 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="0 520" Size="670 20" Pan="0 0" Color="ff333333" EnableArea="0 0 670 20">
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="670 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="492 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

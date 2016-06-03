@@ -1,0 +1,49 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CustomizationStatic" Pos="Left Top" Size="230 75" Pan="15 15" Color="ff555555" EnableArea="0 0 230 75">
+		<Control Type="StaticText" Name="StaticText_CameraLook" Pos="11 65" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_CameraLook" Pos="1 0" Size="72 72" Pan="0 0" Color="ffffffff" EnableArea="0 0 72 72" Grid="1" GridPosX="1 1 72 72" GridPosY="1 1 72 72" GridUVX="1 1 72 72" GridUVY="1 1 72 72" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_leftup_lookcamera_disabled.dds</Texture>
+			<Texture Type="On" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/Window/Lobby/cus_leftup_lookcamera.dds</Texture>
+			<Texture Type="Click" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_leftup_lookcamera.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ToggleUi" Pos="85 65" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_ToggleUi" Pos="75 0" Size="72 72" Pan="0 0" Color="ffffffff" EnableArea="0 0 72 72" Grid="1" GridPosX="1 1 72 72" GridPosY="1 1 72 72" GridUVX="1 1 72 72" GridUVY="1 1 72 72" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_leftup_showui_disabled.dds</Texture>
+			<Texture Type="On" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/Window/Lobby/cus_leftup_showui.dds</Texture>
+			<Texture Type="Click" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/cus_leftup_showui.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ImagePreset" Pos="159 65" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_ImagePreset" Pos="150 0" Size="72 72" Pan="0 0" Color="ffffffff" EnableArea="0 0 72 72" Grid="1" GridPosX="1 1 72 72" GridPosY="1 1 72 72" GridUVX="1 1 72 72" GridUVY="1 1 72 72" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/openimage_over.dds</Texture>
+			<Texture Type="On" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/openimage.dds</Texture>
+			<Texture Type="Click" UV="1 1 72 1 1 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/openimage.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ScreenShot" Pos="149 0" Size="72 72" Pan="0 0" Color="ffffffff" EnableArea="0 0 72 72" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 72 0 0 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_screenshot_button.dds</Texture>
+		</Control>
+		<Control Type="MultilineText" Name="StaticText_ScreenShot" Pos="148 65" Size="75 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ScreenShotFolder" Pos="223 0" Size="72 72" Pan="0 0" Color="ffffffff" EnableArea="0 0 72 72" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 72 0 0 72 72 72" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/customizing_fileopen_button.dds</Texture>
+		</Control>
+		<Control Type="MultilineText" Name="StaticText_ScreenShotFolder" Pos="223 65" Size="75 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

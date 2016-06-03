@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6003</itemKey>
+	<itemName>Fox Hide</itemName>
+	<itemIcon>00006003.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted fox corpse.</itemDesc>
+	<collect>
+		<character>
+			<name>Fox</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gray Fox</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rainbow Fox</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>51009</id>
+			<name>Wagon Registration: Flimsy Wagon</name>
+			<icon>00051009.png</icon>
+			<desc>Proof of ownership of a &lt;Flimsy Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 6, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51004</id>
+			<name>Wagon Registration: Farm Wagon</name>
+			<icon>00051004.png</icon>
+			<desc>Proof of ownership of a &lt;Farm Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 14, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51001</id>
+			<name>Wagon Registration: Shabby Wagon</name>
+			<icon>00051001.png</icon>
+			<desc>Proof of ownership of a &lt;Shabby Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 8, Acceleration: 110%, Speed: 110%, Turn: 120%, Braking: 120%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>6151</id>
+			<name>Soft Hide</name>
+			<icon>00006151.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide.</desc>
+		</item>
+		<item>
+			<id>6159</id>
+			<name>Fine Soft Hide</name>
+			<icon>00006159.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

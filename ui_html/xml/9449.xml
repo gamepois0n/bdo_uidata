@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9449</itemKey>
+	<itemName>Fresh Fish Fillet Salad</itemName>
+	<itemIcon>00009449.png</itemIcon>
+	<itemDesc>Fresh salad with quality fish meat. \n- Unique effect: Movement Speed Rank +1 for 75 min.\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Mudskipper</name>
+			<icon>00008201.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Onion</name>
+			<icon>00007303.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Oatmeal, Stir-Fried Meat, etc.\n- How to Obtain: It can be obtained by Farming Onion Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Dressing</name>
+			<icon>00009006.png</icon>
+			<desc>A sauce with soft flavor and texture.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Seafood Mushroom Salad, Fish Filet Salad, etc. </desc>
+		</item>
+	</cook>
+</itemInfo>
+

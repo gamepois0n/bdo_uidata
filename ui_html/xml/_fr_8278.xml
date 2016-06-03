@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8278</itemKey>
+	<itemName>Thazard</itemName>
+	<itemIcon>00008278.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8578</id>
+			<name>Thazard séché</name>
+			<icon>00008578.png</icon>
+			<desc>Un thazard obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

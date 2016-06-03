@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10948</itemKey>
+	<itemName>Grunil-Schuhe der Beweglichkeit</itemName>
+	<itemIcon>00010936.png</itemIcon>
+	<itemDesc>Diese Grunil-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe</itemDesc>
+	<house type="5">
+		<item>
+			<id>4066</id>
+			<name>Messingbarren</name>
+			<icon>00004066.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zink gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4470</id>
+			<name>Schwarzkristall</name>
+			<icon>00004470.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von Schwarzem Rohkristall gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10936</id>
+			<name>Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004907.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10936</id>
+			<name>Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Grunil-Schuhe der Eisenmauer</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Eisenmauer, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Ultimative Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Maximal aufgerüstete Grunil-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Eisenmauer, Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe der Einschüchterung, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Grunil-Schuhe der Einschüchterung</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Einschüchterung, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Grunil-Schuhe der Beweglichkeit</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

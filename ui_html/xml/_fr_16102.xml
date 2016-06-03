@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16102</itemKey>
+	<itemName>Bouteille vide transparente</itemName>
+	<itemIcon>00016102.png</itemIcon>
+	<itemDesc>Un outil de récolte utilisé pour stocker de l&apos;eau.\n- Utilisation :permet de récupérer de l&apos;eau d&apos;une rivière ou d&apos;une mer.\n- Durée de récolte : -7 sec.</itemDesc>
+	<house type="9">
+		<item>
+			<id>16101</id>
+			<name>Bouteille vide</name>
+			<icon>00016101.png</icon>
+			<desc>Un outil de récolte utilisé pour stocker de l&apos;eau.\n- Utilisation :permet de récupérer de l&apos;eau d&apos;une rivière ou d&apos;une mer.\n- Durée de récolte basique.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="9">
+		<item>
+			<id>16101</id>
+			<name>Bouteille vide</name>
+			<icon>00016101.png</icon>
+			<desc>Un outil de récolte utilisé pour stocker de l&apos;eau.\n- Utilisation :permet de récupérer de l&apos;eau d&apos;une rivière ou d&apos;une mer.\n- Durée de récolte basique.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

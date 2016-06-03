@@ -1,0 +1,18 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Specific_Target" Pos="Center Top" Size="650 180" Pan="0 0" Color="ffffffff" EnableArea="0 0 650 180">
+		<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/engauge_background.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Name" Pos="Center Top" Size="50 20" Pan="0 20" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Name" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ProgressBack" Pos="Center Top" Size="425 18" Pan="0 50" Color="ffffffff" EnableArea="0 0 425 18" Grid="1" GridPosX="0 10 415 425" GridPosY="0 3 15 18" GridUVX="0 181 328 512" GridUVY="0 21 99 128" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 1 426 1 1 19 426 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_Hp" Pos="Center Top" Size="399 12" Pan="0 70" Color="ffffffff" EnableArea="0 0 399 12">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 20 400 20 1 32 400 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<Control Type="Static" Name="Progress2_Bar_Head" Pos="-5 0" Size="3 12" Pan="0 0" Color="cc000044" EnableArea="0 0 3 12"/>
+		</Control>
+	</Control>
+</UI>
+

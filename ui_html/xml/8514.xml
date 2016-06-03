@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8514</itemKey>
+	<itemName>Dried Jellyfish</itemName>
+	<itemIcon>00008514.png</itemIcon>
+	<itemDesc>A dried jellyfish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8214</id>
+			<name>Jellyfish</name>
+			<icon>00008214.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55914</id>
+			<name>Packaged Dried Jellyfish</name>
+			<icon>00055914.png</icon>
+			<desc>A Trade Item containing 10 Dried Jellyfish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

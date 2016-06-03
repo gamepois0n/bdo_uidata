@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>730</itemKey>
+	<itemName>Blutstillungselixier</itemName>
+	<itemIcon>00000730.png</itemIcon>
+	<itemDesc>Heilt eine Blutung sofort.\n– Abklingzeit: 30 Sek.\n Buff wird auf die gesamte Gruppe ausgeweitet, wenn „Atem von Aalh“ verwendet wird.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Eschensaft</name>
+			<icon>00005001.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Esche erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5410</id>
+			<name>Wolkenpilz</name>
+			<icon>00005410.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Sumpf bei Glisch und in Süd-Cienaga hergestellt werden. Wolkenpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

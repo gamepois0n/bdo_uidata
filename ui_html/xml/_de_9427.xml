@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9427</itemKey>
+	<itemName>Grillwurst</itemName>
+	<itemIcon>00009427.png</itemIcon>
+	<itemDesc>Ein perfekt gegrilltes Würstchen.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

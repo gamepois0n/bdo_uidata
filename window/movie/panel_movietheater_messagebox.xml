@@ -1,0 +1,32 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MovieTheater_MessageBox" Pos="Center Center" Size="350 195" Pan="0 0" Color="ffffffff" EnableArea="0 0 350 195">
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_MessageBox" Pos="Center Top" Size="350 195" Pan="0 0" Color="ffffffff" EnableArea="0 0 350 195" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 185 195" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="200 26" Pan="0 4" Color="ffffffff" EnableArea="0 0 200 26">
+			<Attribute Type="Ignore"/>
+			<Text Value="알   림" formatString="MESSAGEBOX_TEXT_TITLE" Font="BaseFont_12" Color="ffff7979" OverColor="ffff7979" ClickColor="ffff7979" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text" Pos="Center Top" Size="334 120" Pan="0 35" Color="ffffffff" EnableArea="0 0 334 120" Grid="1" GridPosX="0 10 324 334" GridPosY="0 10 110 120" GridUVX="0 10 14 24" GridUVY="0 10 14 24">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="231 1 255 1 231 25 255 25" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Text Value="연계기 영상 가이드를 더 이상 표시하지 않겠습니까?\n\n&lt;PAColor0xffff9898&gt;※ 게임 설정에서 다시 활성화할 수 있습니다.&lt;PAOldColor&gt;" formatString="PANEL_MOVIETHEATHER_MESSAGEBOX_TEXT" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Yes" Pos="Center Top" Size="100 30" Pan="-70 160" Color="ffffffff" EnableArea="0 0 100 30" Grid="1" GridPosX="0 4 96 100" GridPosY="0 4 26 30" GridUVX="0 4 26 30" GridUVY="0 4 26 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="예" formatString="PANEL_MOVIETHEATHER_MESSAGEBOX_BTN_YES" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_No" Pos="Center Top" Size="100 30" Pan="70 160" Color="ffffffff" EnableArea="0 0 100 30" Grid="1" GridPosX="0 4 96 100" GridPosY="0 4 26 30" GridUVX="0 4 26 30" GridUVY="0 4 26 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="아니오" formatString="PANEL_MOVIETHEATHER_MESSAGEBOX_BTN_NO" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

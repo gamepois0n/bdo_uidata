@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4252</itemKey>
+	<itemName>Silberbarren</itemName>
+	<itemIcon>00004252.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Silbererz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4201</id>
+			<name>Silbererz</name>
+			<icon>00004201.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Silbererz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus silberhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4251</id>
+			<name>Geschmolzener Silbersplitter</name>
+			<icon>00004251.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Silbererz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4251</id>
+			<name>Geschmolzener Silbersplitter</name>
+			<icon>00004251.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Silbererz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>55850</id>
+			<name>Schmuckkiste</name>
+			<icon>00055850.png</icon>
+			<desc>Handelsware, die 5 Silberbarren, 5 Goldbarren und 5 Platinbarren enthält.</desc>
+		</item>
+		<item>
+			<id>11719</id>
+			<name>Friedliche Waldsmaragd-Halskette</name>
+			<icon>00011719.png</icon>
+			<desc>Eine mit einem Friedlichen Waldsmaragd verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11718</id>
+			<name>Waldsmaragd-Halskette</name>
+			<icon>00011718.png</icon>
+			<desc>Eine mit einem Waldsmaragd verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11704</id>
+			<name>Dunkle Blutrubinhalskette</name>
+			<icon>00011704.png</icon>
+			<desc>Eine mit einem Dunklen Blutrubin verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11703</id>
+			<name>Blutrubinhalskette</name>
+			<icon>00011703.png</icon>
+			<desc>Eine mit einem Blutrubin verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4253</id>
+			<name>Reiner Silberkristall</name>
+			<icon>00004253.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Silberbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

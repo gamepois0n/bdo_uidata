@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7203</itemKey>
+	<itemName>Kartoffelteig</itemName>
+	<itemIcon>00007203.png</itemIcon>
+	<itemDesc>Wird durch Schütteln von durch Mahlen gewonnenem Kartoffelmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>7103</id>
+			<name>Kartoffelmehl</name>
+			<icon>00007103.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Kartoffeln gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

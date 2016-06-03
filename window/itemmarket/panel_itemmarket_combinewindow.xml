@@ -1,0 +1,8 @@
+<UI>
+	<Control Type="Panel" Name="Panel_ItemMarket_CombineWindow" Pos="Center Center" Size="890 740" Pan="0 -35" Color="ffffffff" EnableArea="0 0 890 740">
+		<Attribute Type="Drag" Area="0 0 1200 30"/>
+		<Control Type="Static" Name="Static_WorldMap_ItemMarket" Pos="Left Top" Size="890 740" Pan="0 0" Color="ffffffff" EnableArea="0 0 890 740" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_WorldMap_ItemMarket_SetItem" Pos="Left Top" Size="720 650" Pan="85 45" Color="ffffffff" EnableArea="0 0 720 650" AutoDisableTime="0.000000"/>
+	</Control>
+</UI>
+

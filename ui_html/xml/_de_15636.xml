@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15636</itemKey>
+	<itemName>Kristall vom Roten Schlachtfeld: Viper</itemName>
+	<itemIcon>00015636.png</itemIcon>
+	<itemDesc>Ein Schwarzsteinkristall, der in Handschuh-Sockel übertragen werden kann.\n– Gegenstandseffekt: Angriffsgeschwindigkeit &amp; Wirkgeschwindigkeit +1 sowie Bonusschaden gegen Menschen +2\n※ Dieser Kristall kann beim Tod zersplittern.\n\n– Das Potenzial des Kristalls kann durch den Schwarzgeist auf Ausrüstungsgegenstände übertragen werden.n– Gewinnung: Betretet das Rote Schlachtfeld durch den Schwarzgeist und verdient Rote Siegel durch schwere Kämpfe.\nErhitzt die Rote Essenz mit einem Uralten Magiekristall – Viper.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4989</id>
+			<name>Rote Essenz</name>
+			<icon>00004989.png</icon>
+			<desc>Die konzentrierte Essenz von rotem Blut.\nDurch Erhitzung zusammen mit Uralter Magiekristall – Macht und Uralter Magiekristall – Stahlhart lässt sich ein erweckter Kristall erschaffen.</desc>
+		</item>
+		<item>
+			<id>15603</id>
+			<name>Uralter Magiekristall – Viper</name>
+			<icon>00045013.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Handschuh-Sockel übertragen werden kann.\n– Gegenstandseffekt: Angriffs- &amp; Wirkgeschwindigkeit +1\n※ Es ist unwahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

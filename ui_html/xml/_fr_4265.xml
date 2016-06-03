@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4265</itemKey>
+	<itemName>Opale brillante</itemName>
+	<itemIcon>00004265.png</itemIcon>
+	<itemDesc>Une ressource naturelle transformée. Elle est utilisée en alchimie et en transformation.\n\n- Obtention : chauffez plusieurs fois une opale brute. Nécessite des connaissances en chauffage (intermédiaire).\n\n※ Allez voir Plabiano à Heidel pour terminer la quête De l&apos;eau pure pour une expérience pour acquérir les connaissances nécessaires.\n\n※ Pour poursuivre la quête, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et aller voir Ficy à Heidel pour terminer la chaîne de quêtes. Invoquez l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4260</id>
+			<name>Opale polie</name>
+			<icon>00004260.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4266</id>
+			<name>Opale de clair de lune</name>
+			<icon>00004266.png</icon>
+			<desc>Une ressource naturelle transformée. Elle est utilisée en alchimie et en transformation.\n\n- Obtention : chauffez du solvant métallique et une opale scintillante. Nécessite des connaissances en chauffage (intermédiaire).\n\n※ Allez voir Vatudun à Keplan pour terminer la quête Matériau particulier cherche compétence particulière pour acquérir les connaissances nécessaires.\n\n※ Pour poursuivre la quête, vous devez avoir atteint le niveau de récolte professionnel 10 et le niveau de transformation professionnel 5. Invoquez l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

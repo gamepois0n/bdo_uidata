@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6653</itemKey>
+	<itemName>Flasche Flusswasser</itemName>
+	<itemIcon>00006653.png</itemIcon>
+	<itemDesc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in einem Fluss gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einem Fluss mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche Flusswasser im Garten angewendet, steigt der Wasservorrat an.</itemDesc>
+	<makelist>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>16911</id>
+			<name>Wasserweg</name>
+			<icon>00016911.png</icon>
+			<desc>Wenn Ihr in einem Garten einen Wasserweg installiert, vermindert das den Verbrauch des Wasservorrats.\n(Rechtsklickt, um den nächsten Ort anzuzeigen, an dem Ihr Zäune erhalten könnt.)</desc>
+		</item>
+		<item>
+			<id>16903</id>
+			<name>Biodünger</name>
+			<icon>00016901.png</icon>
+			<desc>Wird verwendet, um die Wachstumsrate von Feldfrüchten in der Nähe zu steigern. Wenn Ihr Dünger bei einem Garten verwendet, reduziert das die Zeit, die eine Feldfrucht zum Heranwachsen benötigt.</desc>
+		</item>
+		<item>
+			<id>6651</id>
+			<name>Destilliertes Wasser</name>
+			<icon>00006651.png</icon>
+			<desc>Klares, destilliertes Wasser.\n– Gewinnung: Kann durch Erhitzung einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Destilliertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>4902</id>
+			<name>Schwemmgold</name>
+			<icon>00004902.png</icon>
+			<desc>Ein seltener Bestandteil, der aus Flusswasser gefiltert und dann erhitzt werden kann, um Gold zu erzeugen.\n– Gewinnung: Kann gewonnen werden durch Sieben des Inhalts einer Flasche mit Flusswasser.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11722</itemKey>
+	<itemName>Glänzende Diamanthalskette</itemName>
+	<itemIcon>00011722.png</itemIcon>
+	<itemDesc>Eine mit einem Funkelnden Diamanten verzierte Halskette.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11721</id>
+			<name>Diamanthalskette</name>
+			<icon>00011721.png</icon>
+			<desc>Eine mit einem Diamanten verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Geschmolzener Goldsplitter</name>
+			<icon>00004254.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Golderz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4463</id>
+			<name>Diamant</name>
+			<icon>00004463.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohdiamant gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11723</id>
+			<name>Sterndiamanthalskette</name>
+			<icon>00011723.png</icon>
+			<desc>Eine mit einem Sternenlichtdiamanten verzierte Halskette.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

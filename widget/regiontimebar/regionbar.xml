@@ -1,0 +1,22 @@
+<UI>
+	<Control Type="Panel" Name="Panel_RegionBar" Pos="Right Top" Size="243 24" Pan="0 0" Color="ffffffff" EnableArea="0 0 243 24">
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="0 0 243 0 0 24 243 24" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/region_namebar.dds</Texture>
+		<Control Type="StaticText" Name="regionName" Pos="Left 1" Size="100 20" Pan="55 0" Color="  ffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="벨리아 마을" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="regionType" Pos="Left 1" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="안전지대" Font="BaseFont_8_Bold" Color="ff76caff" OverColor="ff76caff" ClickColor="ff76caff" AlignHorizon="Right" AlignVertical="Bottom" Span="0 2"/>
+		</Control>
+		<Control Type="Static" Name="timeBar_spot" Pos="Right 3" Size="74 17" Pan="7 0" Color="ffffffff" EnableArea="0 0 74 17">
+			<Texture Type="Base" UV="0 0 74 0 0 17 74 17" Ani="1 1 0.000 0">new_ui_common_forlua/widget/minimap/region_namebar_timebar.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="timeNum" Pos="Right Center" Size="60 17" Pan="15 0" Color="  ffffff" EnableArea="0 0 60 17">
+			<Attribute Type="Ignore"/>
+			<Text Value="12 : 12" Font="DEBUG_굴림체_9" Color="ffffba42" OverColor="ffffba42" ClickColor="ffffba42" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

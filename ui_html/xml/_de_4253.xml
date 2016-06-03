@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4253</itemKey>
+	<itemName>Reiner Silberkristall</itemName>
+	<itemIcon>00004253.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Silberbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4076</id>
+			<name>Metall-Lösungsmittel</name>
+			<icon>00004076.png</icon>
+			<desc>Ein Material, das für eine Verarbeitungsmethode genutzt wird, bei der Metalle in Kristalle verwandelt werden.\n\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4252</id>
+			<name>Silberbarren</name>
+			<icon>00004252.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Silbererz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10056</id>
+			<name>Krea-Langschwert</name>
+			<icon>00010056.png</icon>
+			<desc>Ein Langeschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10256</id>
+			<name>Krea-Langbogen</name>
+			<icon>00010256.png</icon>
+			<desc>Ein Langbogen, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10324</id>
+			<name>Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein Dolch, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10456</id>
+			<name>Krea-Fokusreif</name>
+			<icon>00010456.png</icon>
+			<desc>Ein Fokusreif, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10524</id>
+			<name>Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein Talisman, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10656</id>
+			<name>Krea-Axt</name>
+			<icon>00010656.png</icon>
+			<desc>Eine Axt, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10724</id>
+			<name>Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Schmuckknoten, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13256</id>
+			<name>Krea-Kurzschwert</name>
+			<icon>00013256.png</icon>
+			<desc>Ein Kurzschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13024</id>
+			<name>Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Anhänger, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14456</id>
+			<name>Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein Stab, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10331</id>
+			<name>Ultimativer Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Dolch.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch der Zerstörung, Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10460</id>
+			<name>Krea-Fokusreif der Versuchung</name>
+			<icon>00010456.png</icon>
+			<desc>Dieser Krea-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Fokusreif der Versuchung, Krea-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10459</id>
+			<name>Krea-Fokusreif der Zerstörung</name>
+			<icon>00010456.png</icon>
+			<desc>Dieser Krea-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Fokusreif der Zerstörung, Krea-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10458</id>
+			<name>Krea-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010456.png</icon>
+			<desc>Dieser Krea-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Fokusreif der Purpurnen Flamme, Krea-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10456</id>
+			<name>Krea-Fokusreif</name>
+			<icon>00010456.png</icon>
+			<desc>Ein Fokusreif, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10463</id>
+			<name>Ultimativer Krea-Fokusreif</name>
+			<icon>00010456.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Fokusreif der Purpurnen Flamme, Krea-Fokusreif der Zerstörung, Krea-Fokusreif der Versuchung, Krea-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea-Talisman der Zerstörung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Zerstörung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea-Talisman der Purpurnen Flamme</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein Talisman, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea-Talisman der Versuchung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Krea-Anhänger der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea-Anhänger der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Zerstörung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea-Anhänger der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Anhänger, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>11905</id>
+			<name>Verderbte Rubinohrringe</name>
+			<icon>00011905.png</icon>
+			<desc>Ein mit einem Rubin der Verderbnis verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein Stab, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Ultimativer Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman der Zerstörung, Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10263</id>
+			<name>Ultimativer Krea-Langbogen</name>
+			<icon>00010256.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Purpurnen Flamme, Krea-Langbogen der Zerstörung, Krea-Langbogen der Versuchung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Krea-Langbogen der Versuchung</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Versuchung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Krea-Langbogen der Zerstörung</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Zerstörung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea-Dolch der Versuchung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea-Dolch der Zerstörung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Zerstörung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea-Dolch der Purpurnen Flamme</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein Dolch, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Ultimativer Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Anhänger.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger der Zerstörung, Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimativer Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab der Zerstörung, Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea-Stab der Versuchung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea-Stab der Zerstörung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Zerstörung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea-Stab der Purpurnen Flamme</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>12115</id>
+			<name>Topasring der Regeneration</name>
+			<icon>00012115.png</icon>
+			<desc>Ein mit einem Topas der Wiederherstellung verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>11720</id>
+			<name>Smaragdhalskette der Gelassenheit</name>
+			<icon>00011720.png</icon>
+			<desc>Eine mit einem Smaragd der Gelassenheit verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11705</id>
+			<name>Verderbte Rubinhalskette</name>
+			<icon>00011705.png</icon>
+			<desc>Eine mit einem Rubin der Verderbnis verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>13256</id>
+			<name>Krea-Kurzschwert</name>
+			<icon>00013256.png</icon>
+			<desc>Ein Kurzschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>13263</id>
+			<name>Ultimatives Krea-Kurzschwert</name>
+			<icon>00013256.png</icon>
+			<desc>Ein maximal aufgerüstetes Krea-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Kurzschwert der Purpurnen Flamme, Krea-Kurzschwert der Zerstörung, Krea-Kurzschwert der Versuchung, Krea-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13260</id>
+			<name>Krea-Kurzschwert der Versuchung</name>
+			<icon>00013256.png</icon>
+			<desc>Dieses Krea-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Kurzschwert der Versuchung, Krea-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13259</id>
+			<name>Krea-Kurzschwert der Zerstörung</name>
+			<icon>00013256.png</icon>
+			<desc>Dieses Krea-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Kurzschwert der Zerstörung, Krea-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13258</id>
+			<name>Krea-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013256.png</icon>
+			<desc>Dieses Krea-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Kurzschwert der Purpurnen Flamme, Krea-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>10128</id>
+			<name>Krea-Schild der Versuchung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10131</id>
+			<name>Ultimativer Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild der Zerstörung, Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea-Schild der Zerstörung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Zerstörung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea-Schild der Purpurnen Flamme</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10659</id>
+			<name>Krea-Axt der Zerstörung</name>
+			<icon>00010656.png</icon>
+			<desc>Diese Krea-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Krea-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Axt der Zerstörung, Krea-Axt</desc>
+		</item>
+		<item>
+			<id>10658</id>
+			<name>Krea-Axt der Purpurnen Flamme</name>
+			<icon>00010656.png</icon>
+			<desc>Diese Krea-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Krea-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Axt der Purpurnen Flamme, Krea-Axt</desc>
+		</item>
+		<item>
+			<id>10656</id>
+			<name>Krea-Axt</name>
+			<icon>00010656.png</icon>
+			<desc>Eine Axt, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10663</id>
+			<name>Ultimative Krea-Axt</name>
+			<icon>00010656.png</icon>
+			<desc>Eine maximal aufgerüstete Krea-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Krea-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Axt der Purpurnen Flamme, Krea-Axt der Zerstörung, Krea-Axt der Versuchung, Krea-Axt</desc>
+		</item>
+		<item>
+			<id>10660</id>
+			<name>Krea-Axt der Versuchung</name>
+			<icon>00010656.png</icon>
+			<desc>Diese Krea-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Krea-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Axt der Versuchung, Krea-Axt</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea-Schmuckknoten der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Zerstörung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Purpurnen Flamme, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Schmuckknoten, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Krea-Langbogen der Purpurnen Flamme</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Purpurnen Flamme, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Krea-Langbogen</name>
+			<icon>00010256.png</icon>
+			<desc>Ein Langbogen, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Ultimativer Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Purpurnen Flamme, Krea-Schmuckknoten der Zerstörung, Krea-Schmuckknoten der Versuchung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea-Schmuckknoten der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Versuchung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10058</id>
+			<name>Krea-Langschwert der Purpurnen Flamme</name>
+			<icon>00010056.png</icon>
+			<desc>Dieses Krea-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langschwert der Purpurnen Flamme, Krea-Langschwert</desc>
+		</item>
+		<item>
+			<id>10056</id>
+			<name>Krea-Langschwert</name>
+			<icon>00010056.png</icon>
+			<desc>Ein Langeschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10063</id>
+			<name>Ultimatives Krea-Langschwert</name>
+			<icon>00010056.png</icon>
+			<desc>Ein maximal aufgerüstetes Krea-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Krea-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langschwert der Purpurnen Flamme, Krea-Langschwert der Zerstörung, Krea-Langschwert der Versuchung, Krea-Langschwert</desc>
+		</item>
+		<item>
+			<id>10060</id>
+			<name>Krea-Langschwert der Versuchung</name>
+			<icon>00010056.png</icon>
+			<desc>Dieses Krea-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langschwert der Versuchung, Krea-Langschwert</desc>
+		</item>
+		<item>
+			<id>10059</id>
+			<name>Krea-Langschwert der Zerstörung</name>
+			<icon>00010056.png</icon>
+			<desc>Dieses Krea-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langschwert der Zerstörung, Krea-Langschwert</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

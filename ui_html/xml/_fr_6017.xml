@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6017</itemKey>
+	<itemName>Plume douce de coucou</itemName>
+	<itemIcon>00006017.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un coucou tué à la chasse.</itemDesc>
+	<collect>
+		<character>
+			<name>Coucou</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6165</id>
+			<name>Plume légère délicate</name>
+			<icon>00006165.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes légères.</desc>
+		</item>
+		<item>
+			<id>6157</id>
+			<name>Plume légère</name>
+			<icon>00006157.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes de coucou.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

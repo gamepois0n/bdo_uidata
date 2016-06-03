@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8544</itemKey>
+	<itemName>Dried Terrapin</itemName>
+	<itemIcon>00008544.png</itemIcon>
+	<itemDesc>A dried terrapin obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8244</id>
+			<name>Terrapin</name>
+			<icon>00008244.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55944</id>
+			<name>Packaged Dried Terrapin</name>
+			<icon>00055944.png</icon>
+			<desc>A Trade Item containing 10 Dried Terrapin.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

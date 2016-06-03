@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4669</itemKey>
+	<itemName>Nutzbares Kantholz</itemName>
+	<itemIcon>00004669.png</itemIcon>
+	<itemDesc>Holz, das als Bauholz verwendet wird.\n\n– Gewinnung: Kann durch das Hacken von Holzscheiten eines beliebigen Baums gewonnen werden.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4605</id>
+			<name>Holzscheit</name>
+			<icon>00004605.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Fällen von Bäumen aus allen Regionen gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>24005</id>
+			<name>[Musikautomat] Gebet der Zeit</name>
+			<icon>InHouse_X_DPF_JukeBox_02.png</icon>
+			<desc>Ein Musikautomat, der das Titellied des Gebets der Zeit spielt.</desc>
+		</item>
+		<item>
+			<id>2216</id>
+			<name>Handgemachter Tisch aus Calpheon</name>
+			<icon>InHouse_F_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2214</id>
+			<name>Handgemachter Tisch aus Velia</name>
+			<icon>InHouse_D_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2212</id>
+			<name>Handgemachter Tisch aus Heidel</name>
+			<icon>InHouse_B_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2210</id>
+			<name>Handgemachter Tisch aus Mediah</name>
+			<icon>InHouse_H_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2208</id>
+			<name>Handgemachter Esstisch aus Mediah</name>
+			<icon>InHouse_H_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2010</id>
+			<name>Handgemachter Nachttisch aus Mediah</name>
+			<icon>InHouse_H_DFF_Chest_01.png</icon>
+			<desc>Ein handgemachter Nachttisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2008</id>
+			<name>Handgemachte Kommode aus Mediah</name>
+			<icon>InHouse_H_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2108</id>
+			<name>Handgemachter Wandschrank aus Mediah</name>
+			<icon>InHouse_H_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2316</id>
+			<name>Handgemachtes Kanapee aus Mediah</name>
+			<icon>InHouse_H_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2315</id>
+			<name>Handgemachter Stuhl aus Mediah</name>
+			<icon>InHouse_H_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2313</id>
+			<name>Handgemachtes Kanapee aus Calpheon</name>
+			<icon>InHouse_F_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2311</id>
+			<name>Handgemachtes Kanapee aus Velia</name>
+			<icon>InHouse_D_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2309</id>
+			<name>Handgemachtes Kanapee aus Heidel</name>
+			<icon>InHouse_B_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>3719</id>
+			<name>Kochnische für Fortgeschrittene</name>
+			<icon>Crafting_Cooking_03.png</icon>
+			<desc>Ein hochwertiges Kochutensil.\n– Es kann in einem Wohnsitz angebracht werden.\n– Nachträglich hinzugefügte Zusatzeffekte</desc>
+		</item>
+		<item>
+			<id>3703</id>
+			<name>Alchemietisch für Fortgeschrittene</name>
+			<icon>Crafting_Alchemy_03.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz angebracht werden.\n– Nachträglich hinzugefügte Zusatzeffekte</desc>
+		</item>
+		<item>
+			<id>2702</id>
+			<name>Handgemachtes Bett aus Heidel</name>
+			<icon>InHouse_B_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2708</id>
+			<name>Handgemachtes Bett aus Mediah</name>
+			<icon>InHouse_H_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2706</id>
+			<name>Handgemachtes Bett aus Calpheon</name>
+			<icon>InHouse_F_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2704</id>
+			<name>Handgemachtes Bett aus Velia</name>
+			<icon>InHouse_D_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Schiffslizenz: Fischerboot</name>
+			<icon>00049005.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz eines 『Fischerboots 』.\n– Inventarplätze: 12, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>49004</id>
+			<name>Schiffslizenz: Mediah-Fähre</name>
+			<icon>00049004.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Mediah-Fähre』.\n– Inventarplätze: 8, Beschleunigung: 100 %, Geschwindigkeit: 110 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>49003</id>
+			<name>Schiffslizenz: Calpheon-Fähre</name>
+			<icon>00049003.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Calpheon-Fähre』.\n– Inventarplätze: 10, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 105 %, Anhalten: 105 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Schiffslizenz: Fähre</name>
+			<icon>00049001.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Fähre』.\n– Inventarplätze: 8, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zur angezeigten Werft.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

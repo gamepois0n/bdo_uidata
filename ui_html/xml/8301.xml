@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8301</itemKey>
+	<itemName>Butterflyfish</itemName>
+	<itemIcon>00008301.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8601</id>
+			<name>Dried Butterflyfish</name>
+			<icon>00008601.png</icon>
+			<desc>A dried butterflyfish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

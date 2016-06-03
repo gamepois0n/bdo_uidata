@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8548</itemKey>
+	<itemName>Crapet arlequin séché</itemName>
+	<itemIcon>00008548.png</itemIcon>
+	<itemDesc>Un crapet arlequin obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8248</id>
+			<name>Crapet arlequin</name>
+			<icon>00008248.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55948</id>
+			<name>Crapet arlequin séché sous vide</name>
+			<icon>00055948.png</icon>
+			<desc>Un objet de commerce contenant 10 crapets arlequins séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

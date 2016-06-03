@@ -1,0 +1,77 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MentalGame_Select" Pos="534 186" Size="103 103" Pan="0 0" Color="ffffffff" EnableArea="0 0 103 103">
+		<Texture Type="Base" UV="0 1 256 1 0 257 256 257" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Interest" Pos="Left Bottom" Size="80 17" Pan="0 -15" Color="ffffffff" EnableArea="0 0 80 17">
+			<Attribute Type="Ignore"/>
+			<Text Value="흥미도 : 100" Font="BaseFont_10_Bold" Color="fff0e29b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Worth" Pos="Left Bottom" Size="110 17" Pan="0 -35" Color="ffffffff" EnableArea="0 0 110 17">
+			<Attribute Type="Ignore"/>
+			<Text Value="가치 : 100 ~ 100" Font="BaseFont_10_Bold" Color="fff0e29b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_InterestAdd" Pos="Center Bottom" Size="50 15" Pan="50 -15" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="+ 30" Font="BaseFont_10_Bold" Color="ffbf6464" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WorthAdd" Pos="Center Bottom" Size="50 15" Pan="75 -35" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="+ 30" Font="BaseFont_10_Bold" Color="ffbf6464" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Name" Pos="Center Bottom" Size="50 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="벨리아 마을" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Number" Pos="Center Top" Size="50 15" Pan="0 -15" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="1" Font="SubTitleFont_14_Bold" Color="ffd7cc8c" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Interest" Pos="Left Bottom" Size="17 17" Pan="-17 -15" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="406 195 426 195 406 215 426 215" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Worth" Pos="Left Bottom" Size="17 17" Pan="-17 -35" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="385 195 405 195 385 215 405 215" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AddInterest" Pos="809 198" Size="20 20" Pan="0 0" Color="cc1ed1fd" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 11 1 1 11 11 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="흥미도 + 30" Font="BaseFont" Color="ffbf6464" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Bottom" Span="0 20"/>
+		</Control>
+		<Control Type="Static" Name="Static_Combo" Pos="Center Top" Size="195 53" Pan="0 -40" Color="ffffffff" EnableArea="0 0 195 53" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 258 245 258 1 325 245 325" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="0.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="100" AdvanceType="2" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="100" EndFrame="120" AdvanceType="2" HideAtEnd="False"/>
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.00" EndScale="1.20" BasePosition="98 21" ScaleChild="False" ID="Ani_Scale_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="15" AdvanceType="2" HideAtEnd="False"/>
+				<UIAniItem Type="Scale" ScaleType="0" StartScale="1.20" EndScale="1.00" BasePosition="98 21" ScaleChild="False" ID="Ani_Scale_1" Activity="False" Replay="False" RunOnBoot="False" StartFrame="15" EndFrame="35" AdvanceType="2" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_ProgressBG" Pos="Center Center" Size="100 100" Pan="0 0" Color="ff000000" EnableArea="0 0 100 100" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="256 129 384 129 256 257 384 257" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_Progress" Pos="Center Center" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100" StartRadian="1.570796" CenterPos="50.00 50.00">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="256 129 384 129 256 257 384 257" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+		</Control>
+		<Control Type="Static" Name="Static_Success" Pos="-50 16" Size="45 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 45 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="246 394 331 394 246 485 331 485" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Move" StartPos="-37 -14" EndPos="-50 16" Align="0 0 0 0" StartSpan="0 0" EndSpan="0 0" ID="Ani_Move_Pos_New" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="15" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Failed" Pos="89 16" Size="45 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 45 48" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="332 394 417 394 332 485 417 485" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Move" StartPos="67 -16" EndPos="89 16" Align="0 0 0 0" StartSpan="0 0" EndSpan="0 0" ID="Ani_Move_Pos_New" Activity="True" Replay="False" RunOnBoot="True" StartFrame="0" EndFrame="15" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8547</itemKey>
+	<itemName>Getrockneter Häsling</itemName>
+	<itemIcon>00008547.png</itemIcon>
+	<itemDesc>Ein Getrockneter Häsling, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8247</id>
+			<name>Häsling</name>
+			<icon>00008247.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55947</id>
+			<name>Verpackter getrockneter Häsling</name>
+			<icon>00055947.png</icon>
+			<desc>Handelsware, die 10 getrocknete Häslinge enthält.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

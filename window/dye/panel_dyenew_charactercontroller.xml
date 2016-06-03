@@ -1,0 +1,80 @@
+<UI>
+	<Control Type="Panel" Name="Panel_DyeNew_CharacterController" Pos="0 0" Size="200 200" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 200">
+		<Control Type="Checkbox" Name="CheckButton_EyeSee" Pos="Right Top" Size="46 46" Pan="60 22" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="396 262 442 262 396 308 442 308" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Texture Type="On" UV="444 262 490 262 444 308 490 308" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Texture Type="Click" UV="396 310 442 310 396 356 442 356" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="25 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_ShowUI" Pos="Right Top" Size="46 46" Pan="10 22" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1">
+			<Texture Type="Base" UV="321 457 367 457 321 503 367 503" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Texture Type="On" UV="369 457 415 457 369 503 415 503" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Texture Type="Click" UV="417 457 463 457 417 503 463 503" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Weather" Pos="Right Top" Size="46 46" Pan="110 22" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1">
+			<Texture Type="Base" UV="60 70 106 70 60 116 106 116" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Texture Type="On" UV="108 70 154 70 108 116 154 116" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Texture Type="Click" UV="156 70 202 70 156 116 202 116" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_pose" Pos="Right Top" Size="46 46" Pan="160 22" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<!-- <Attribute Type="Hide"/> -->
+			<Texture Type="Base" UV="206 1 252 1 206 47 252 47" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="254 1 300 1 254 47 300 47" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="302 1 348 1 302 47 348 47" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffff4729" AlignHorizon="Right" AlignVertical="Bottom" Span="10 14"/>
+		</Control>
+		<Control Type="Button" Name="Button_pose6" Pos="Right Top" Size="46 46" Pan="110 70" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="353 241 399 241 353 287 399 287" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="401 241 447 241 401 287 447 287" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="449 241 495 241 449 287 495 287" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffff4729" AlignHorizon="Right" AlignVertical="Bottom" Span="10 14"/>
+		</Control>
+		<Control Type="Button" Name="Button_pose5" Pos="Right Top" Size="46 46" Pan="160 70" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="353 193 399 193 353 239 399 239" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="401 193 447 193 401 239 447 239" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="449 193 495 193 449 239 495 239" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ff888888" OverColor="ffc4bebe" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Bottom" Span="10 14"/>
+		</Control>
+		<Control Type="Button" Name="Button_pose4" Pos="Right Top" Size="46 46" Pan="210 70" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="353 145 399 145 353 191 399 191" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="401 145 447 145 401 191 447 191" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="449 145 495 145 449 191 495 191" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffff4729" AlignHorizon="Right" AlignVertical="Bottom" Span="10 14"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_pose3" Pos="Right Top" Size="46 46" Pan="260 70" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="353 97 399 97 353 143 399 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="401 97 447 97 401 143 447 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="449 97 495 97 449 143 495 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffff4729" AlignHorizon="Right" AlignVertical="Bottom" Span="10 14"/>
+		</Control>
+		<Control Type="Button" Name="Button_pose2" Pos="Right Top" Size="46 46" Pan="310 70" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="353 49 399 49 353 95 399 95" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="401 49 447 49 401 95 447 95" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="449 49 495 49 449 95 495 95" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffff4729" AlignHorizon="Right" AlignVertical="Bottom" Span="10 14"/>
+		</Control>
+		<Control Type="Button" Name="Button_pose1" Pos="Right Top" Size="46 46" Pan="360 70" Color="ffffffff" EnableArea="0 0 46 46" UseDefaultSound="1" ClickSound="0 0" Group="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="353 1 399 1 353 47 399 47" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="On" UV="401 1 447 1 401 47 447 47" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Texture Type="Click" UV="449 1 495 1 449 47 495 47" Ani="1 1 0.000 0">new_ui_common_forlua/window/dye/dye_new_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffff4729" AlignHorizon="Right" AlignVertical="Bottom" Span="10 14"/>
+		</Control>
+		<Control Type="Button" Name="Button_Exit" Pos="Right Bottom" Size="160 32" Pan="10 10" Color="ffffffff" EnableArea="0 0 160 32" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="Á¾·á" formatString="PANEL_DYENEW_CHARACTERCONTROLLER_BTN_EXIT" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+	</Control>
+</UI>
+

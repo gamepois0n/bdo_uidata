@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9504</itemKey>
+	<itemName>Modèle : Robe de noble de Calpheon - Dompteuse</itemName>
+	<itemIcon>00009501.png</itemIcon>
+	<itemDesc>Un modèle requis pour fabriquer un costume de noble de Calpheon. Il est utilisé pour le costume de dompteuse. \n\n- Obtention : se trouve dans la boutique d&apos;amitié du tailleur de Calpheon.</itemDesc>
+	<shop>
+		<character>
+			<name>Merv</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>14204</id>
+			<name>[Dompteuse] Tenue de noble de Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Une robe portée par les aristocrates de Calpheon. Elle est fabuleuse, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

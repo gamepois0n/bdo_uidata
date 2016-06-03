@@ -1,0 +1,61 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MiniGame_Gradient_Y" Pos="Center 307" Size="19 264" Pan="150 0" Color="ffffffff" EnableArea="0 0 19 264">
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_GradientY_BG" Pos="0 0" Size="19 264" Pan="0 0" Color="ffffffff" EnableArea="0 0 19 264">
+			<Texture Type="Base" UV="1 113 20 113 1 377 20 377" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GradientY_Cur" Pos="-41 123" Size="100 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 18">
+			<Texture Type="Base" UV="352 55 452 55 352 73 452 73" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.50" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Cursor" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="15" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Key_Up" Pos="Center Top" Size="27 28" Pan="0 -35" Color="ddffffff" EnableArea="0 0 27 28">
+			<Texture Type="Base" UV="338 5 365 5 338 33 365 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/command_commandkeys.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ddffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Up" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Key_Down" Pos="Center Bottom" Size="27 28" Pan="0 -35" Color="ddffffff" EnableArea="0 0 27 28">
+			<Texture Type="Base" UV="338 34 365 34 338 62 365 62" Ani="1 1 0.000 0">new_ui_common_forlua/widget/skillcommand/command_commandkeys.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ddffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Down" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Key_Up_Eff" Pos="Center Top" Size="35 36" Pan="0 -39" Color="ffffffff" EnableArea="0 0 35 36">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="427 1 463 1 427 37 463 37" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_UpEff" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Key_Down_Eff" Pos="Center Bottom" Size="35 36" Pan="0 -39" Color="ddffffff" EnableArea="0 0 35 36">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="427 1 463 1 427 37 463 37" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_DownEff" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Result_Good" Pos="Center Center" Size="141 47" Pan="120 -45" Color="ffffffff" EnableArea="0 0 141 47">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="370 254 511 254 370 301 511 301" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Good_Ani" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.00" EndScale="1.00" BasePosition="70 30" ScaleChild="False" ID="Good_ScaleAni" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="3" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Result_Bad" Pos="Center Center" Size="141 47" Pan="120 -45" Color="ffffffff" EnableArea="0 0 141 47">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="370 206 511 206 370 253 511 253" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffefefef" StartIntensity="1.00" EndIntensity="1.50" ChangeChild="False" ColorOperator="0" ID="Bad_Ani" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="15" AdvanceType="4" HideAtEnd="False"/>
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.00" EndScale="1.00" BasePosition="70 30" ScaleChild="False" ID="Bad_ScaleAni" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="3" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Purpose" Pos="60 4" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="W 와 S키를 이용해\n균형을 잡아 말을 진정시키세요" formatString="PANEL_MINIGAME_GRADIENT_Y_PURPOSE" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

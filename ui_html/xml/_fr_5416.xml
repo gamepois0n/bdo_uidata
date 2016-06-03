@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5416</itemKey>
+	<itemName>Champignon bossu</itemName>
+	<itemIcon>00005416.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les champignons à bosse peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</itemDesc>
+	<collect>
+		<character>
+			<name>Champignon bossu</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7516</id>
+			<name>Caisse de champignons bossus</name>
+			<icon>00007516.png</icon>
+			<desc>Un champignon transformé pour être vendu à meilleur prix. Il peut être vendu à des marchands.\n- Obtention : il peut être préparé grâce à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,20 @@
+<UI>
+	<Control Type="Panel" Name="Panel_BreathGauge" Pos="Center Bottom" Size="194 18" Pan="0 300" Color="ffffffff" EnableArea="0 0 194 18">
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="200 176 225 176 200 207 225 207" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		<Control Type="Progress2" Name="HorseMpBar" Pos="1 3" Size="194 12" Pan="0 0" Color="ff32a2cc" EnableArea="0 0 194 12">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 214 200 214 1 228 200 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Static" Name="HorseMpBar_Head" Pos="184 0" Size="20 12" Pan="0 0" Color="cc000044" EnableArea="0 0 20 12">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_2" Pos="Left Center" Size="13 24" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 24">
+			<Texture Type="Base" UV="142 46 156 46 142 67 156 67" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_1" Pos="Right Center" Size="13 24" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 24">
+			<Texture Type="Base" UV="157 46 171 46 157 67 171 67" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

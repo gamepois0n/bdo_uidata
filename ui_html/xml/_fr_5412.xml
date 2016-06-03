@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5412</itemKey>
+	<itemName>Champignon tigre</itemName>
+	<itemIcon>00005412.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit dans les ruines de l&apos;Arbre de Bree et au temple de Kamasilve. Les champignons tigre peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</itemDesc>
+	<collect>
+		<character>
+			<name>Champignon tigre</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Ruines de l'Arbre de Bree : récoltes"/>
+	<node region="Temple de Kamasilve : récoltes"/>
+	<makelist>
+		<item>
+			<id>7512</id>
+			<name>Caisse de champignons tigre</name>
+			<icon>00007512.png</icon>
+			<desc>Un champignon transformé pour être vendu à meilleur prix. Il peut être vendu à des marchands.\n- Obtention : il peut être préparé grâce à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

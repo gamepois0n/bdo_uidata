@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15127</itemKey>
+	<itemName>Cristal magique d&apos;infinité (Absorption)</itemName>
+	<itemIcon>00045002.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : récupération de PV +1 lors des attaques\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5204</id>
+			<name>Essence d&apos;abondance</name>
+			<icon>00005204.png</icon>
+			<desc>Essence extraite d&apos;un fruit d&apos;abondance pouvant être parfois obtenu dans un jardin. Utilisé en tant qu&apos;ingrédient en alchimie.\n- Obtention : s&apos;obtient en combinant certains ingrédients avec un fruit d&apos;abondance en alchimie.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Cristal magique de la flamme pourpre - Précision</name>
+			<icon>00045001.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>6355</id>
+			<name>Sang de sage</name>
+			<icon>00006355.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>4054</id>
+			<name>Fragment de plomb fondu</name>
+			<icon>00004054.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de plomb.</desc>
+		</item>
+		<item>
+			<id>5204</id>
+			<name>Essence d&apos;abondance</name>
+			<icon>00005204.png</icon>
+			<desc>Essence extraite d&apos;un fruit d&apos;abondance pouvant être parfois obtenu dans un jardin. Utilisé en tant qu&apos;ingrédient en alchimie.\n- Obtention : s&apos;obtient en combinant certains ingrédients avec un fruit d&apos;abondance en alchimie.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>55926</itemKey>
+	<itemName>Packaged Dried Angler</itemName>
+	<itemIcon>00055926.png</itemIcon>
+	<itemDesc>A Trade Item containing 10 Dried Anglers.</itemDesc>
+	<house type="17">
+		<item>
+			<id>8526</id>
+			<name>Dried Angler</name>
+			<icon>00008526.png</icon>
+			<desc>A dried angler obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+</itemInfo>
+

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4466</itemKey>
+	<itemName>Translucent Crystal</itemName>
+	<itemIcon>00004466.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Translucent Crystals found near Goblin Cave.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4406</id>
+			<name>Rough Translucent Crystal</name>
+			<icon>00004406.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Translucent Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Goblin Cave.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10809</id>
+			<name>Agerian Helmet</name>
+			<icon>00010809.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10810</id>
+			<name>Agerian Armor</name>
+			<icon>00010810.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10811</id>
+			<name>Agerian Gloves</name>
+			<icon>00010811.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10812</id>
+			<name>Agerian Shoes</name>
+			<icon>00010812.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16167</id>
+			<name>Ash Tree Float</name>
+			<icon>00016167.png</icon>
+			<desc>A float made of ash wood. Good for catching big fishes.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>10840</id>
+			<name>Ultimate Agerian Shoes</name>
+			<icon>00010812.png</icon>
+			<desc>Agerian Shoes with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>10839</id>
+			<name>Ultimate Agerian Gloves</name>
+			<icon>00010811.png</icon>
+			<desc>Agerian Gloves with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>10838</id>
+			<name>Ultimate Agerian Armor</name>
+			<icon>00010810.png</icon>
+			<desc>Agerian Armor with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10837</id>
+			<name>Ultimate Agerian Helmet</name>
+			<icon>00010809.png</icon>
+			<desc>Agerian Helmet with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Agerian Shoes of Intimidation</name>
+			<icon>00010812.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Shoes of Duress, Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Agerian Gloves of Intimidation</name>
+			<icon>00010811.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Gloves of Duress, Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>10812</id>
+			<name>Agerian Shoes</name>
+			<icon>00010812.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10811</id>
+			<name>Agerian Gloves</name>
+			<icon>00010811.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10810</id>
+			<name>Agerian Armor</name>
+			<icon>00010810.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10809</id>
+			<name>Agerian Helmet</name>
+			<icon>00010809.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Agerian Armor of Iron Wall</name>
+			<icon>00010810.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Armor of Iron wall, Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Agerian Helmet of Iron Wall</name>
+			<icon>00010809.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Helmet of Iron wall, Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Agerian Armor of Intimidation</name>
+			<icon>00010810.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Armor of Duress, Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Agerian Helmet of Intimidation</name>
+			<icon>00010809.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Helmet of Duress, Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Agerian Shoes of Agility</name>
+			<icon>00010812.png</icon>
+			<desc>Energy of agility is contained within this Agerian Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Shoes of Agility, Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>55861</id>
+			<name>Translucent Crystal Amulet of Happiness</name>
+			<icon>00055861.png</icon>
+			<desc>Accessory made of Translucent Crystal. Those who want happiness carry this around with them as a charm.</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Agerian Gloves of Agility</name>
+			<icon>00010811.png</icon>
+			<desc>Energy of agility is contained within this Agerian Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Gloves of Agility, Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Agerian Armor of Agility</name>
+			<icon>00010810.png</icon>
+			<desc>Energy of agility is contained within this Agerian Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Armor of Agility, Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Agerian Helmet of Agility</name>
+			<icon>00010809.png</icon>
+			<desc>Energy of agility is contained within this Agerian Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Helmet of Agility, Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Agerian Shoes of Iron Wall</name>
+			<icon>00010812.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Shoes of Iron wall, Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Agerian Gloves of Iron Wall</name>
+			<icon>00010811.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Gloves of Iron wall, Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

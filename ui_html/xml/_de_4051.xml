@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4051</itemKey>
+	<itemName>Geschmolzener Eisensplitter</itemName>
+	<itemIcon>00004051.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blutstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Eisen</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Feldspat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grabgolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steingolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildnisgolem</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4001</id>
+			<name>Eisenerz</name>
+			<icon>00004001.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Küstenhöhle, Küstenfelsen, Steinbruch von Nordheidel, Süd-Cienaga, Verwunschener Steinwall, Verlassene Eisenmine. Kann aus eisenhaltigem Erz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10006</id>
+			<name>Halbmenschen-Langschwert</name>
+			<icon>00010006.png</icon>
+			<desc>Ein Langschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10007</id>
+			<name>Seles-Langschwert</name>
+			<icon>00010007.png</icon>
+			<desc>Ein Langschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10012</id>
+			<name>Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Langschwert.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10013</id>
+			<name>Baris-Langschwert</name>
+			<icon>00010013.png</icon>
+			<desc>Ein Langschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10014</id>
+			<name>Yuria-Langschwert</name>
+			<icon>00010014.png</icon>
+			<desc>Ein Langschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10056</id>
+			<name>Krea-Langschwert</name>
+			<icon>00010056.png</icon>
+			<desc>Ein Langeschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10102</id>
+			<name>Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein Rundschild aus hartem Eisen.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10103</id>
+			<name>Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein stahlüberzogener Schild, der für gewöhnlich zum Angriff genutzt wird.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10105</id>
+			<name>Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein starker Legierungsschild, der den größten Schutz bietet.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10304</id>
+			<name>Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein scharfer Dolch aus Stahl.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10406</id>
+			<name>Halbmenschen-Fokusreif</name>
+			<icon>00010406.png</icon>
+			<desc>Ein Fokusreif zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10407</id>
+			<name>Seles-Fokusreif</name>
+			<icon>00010407.png</icon>
+			<desc>Ein Fokusreif, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10412</id>
+			<name>Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Fokusreif.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10413</id>
+			<name>Baris-Fokusreif</name>
+			<icon>00010413.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10414</id>
+			<name>Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10456</id>
+			<name>Krea-Fokusreif</name>
+			<icon>00010456.png</icon>
+			<desc>Ein Fokusreif, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10504</id>
+			<name>Jubre-Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>Ein Talisman, auf dem in einer fremden Ursprache etwas geschrieben steht.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10606</id>
+			<name>Halbmenschen-Axt</name>
+			<icon>00010606.png</icon>
+			<desc>Eine Axt zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10607</id>
+			<name>Seles-Axt</name>
+			<icon>00010607.png</icon>
+			<desc>Eine Axt, die von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10612</id>
+			<name>Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine zu höchster Perfektion geschmiedete Axt.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10613</id>
+			<name>Baris-Axt</name>
+			<icon>00010613.png</icon>
+			<desc>Eine Axt, die von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10614</id>
+			<name>Yuria-Axt</name>
+			<icon>00010614.png</icon>
+			<desc>Eine Axt, die von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10656</id>
+			<name>Krea-Axt</name>
+			<icon>00010656.png</icon>
+			<desc>Eine Axt, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10704</id>
+			<name>Oros-Schmuckknoten</name>
+			<icon>00010704.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Silber.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13206</id>
+			<name>Halbmenschen-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13207</id>
+			<name>Seles-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13212</id>
+			<name>Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Kurzschwert.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13213</id>
+			<name>Baris-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13214</id>
+			<name>Yuria-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13256</id>
+			<name>Krea-Kurzschwert</name>
+			<icon>00013256.png</icon>
+			<desc>Ein Kurzschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13004</id>
+			<name>Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Nadeln.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10809</id>
+			<name>Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10810</id>
+			<name>Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10811</id>
+			<name>Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10812</id>
+			<name>Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14101</id>
+			<name>Taritas-Stahlhelm</name>
+			<icon>00010813.png</icon>
+			<desc>Ein von einem Meisterschmied gefertigter Taritas-Stahlhelm.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm und kann auch verwendet werden, um die Haltbarkeit eines normalen Taritas-Helms wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14102</id>
+			<name>Taritas-Stahlrüstung</name>
+			<icon>00010814.png</icon>
+			<desc>Eine von einem Meisterschmied gefertigte Taritas-Stahlrüstung.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung und kann auch verwendet werden, um die Haltbarkeit einer normalen Taritas-Rüstung wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14103</id>
+			<name>Taritas-Stahlhandschuhe</name>
+			<icon>00010815.png</icon>
+			<desc>Von einem Meisterschmied gefertigte Taritas-Stahlhandschuhe.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe und können auch verwendet werden, um die Haltbarkeit normaler Taritas-Handschuhe wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14104</id>
+			<name>Taritas-Stahlschuhe</name>
+			<icon>00010816.png</icon>
+			<desc>Von einem Meisterschmied gefertigte Taritas-Stahlschuhe.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe und können auch verwendet werden, um die Haltbarkeit normaler Taritas-Schuhe wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10817</id>
+			<name>Zeres-Helm</name>
+			<icon>00010817.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10818</id>
+			<name>Zeres-Rüstung</name>
+			<icon>00010818.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10819</id>
+			<name>Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10820</id>
+			<name>Zeres-Schuhe</name>
+			<icon>00010820.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10821</id>
+			<name>Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10822</id>
+			<name>Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10823</id>
+			<name>Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10824</id>
+			<name>Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10933</id>
+			<name>Grunil-Helm</name>
+			<icon>00010933.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10934</id>
+			<name>Grunil-Rüstung</name>
+			<icon>00010934.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10935</id>
+			<name>Grunil-Handschuhe</name>
+			<icon>00010935.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10936</id>
+			<name>Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11902</id>
+			<name>Glänzende Rubinohrringe</name>
+			<icon>00011902.png</icon>
+			<desc>Ein mit einem Funkelnden Rubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>10806</id>
+			<name>Reblas-Rüstung</name>
+			<icon>00010806.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>10805</id>
+			<name>Reblas-Helm</name>
+			<icon>00010805.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>10808</id>
+			<name>Reblas-Schuhe</name>
+			<icon>00010808.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>10807</id>
+			<name>Reblas-Handschuhe</name>
+			<icon>00010807.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>12112</id>
+			<name>Glänzender Topasring</name>
+			<icon>00012112.png</icon>
+			<desc>Ein mit einem Funkelnden Topas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>3719</id>
+			<name>Kochnische für Fortgeschrittene</name>
+			<icon>Crafting_Cooking_03.png</icon>
+			<desc>Ein hochwertiges Kochutensil.\n– Es kann in einem Wohnsitz angebracht werden.\n– Nachträglich hinzugefügte Zusatzeffekte</desc>
+		</item>
+		<item>
+			<id>3718</id>
+			<name>Kochnische für Laien</name>
+			<icon>Crafting_Cooking_02.png</icon>
+			<desc>Ein mittelwertiges Werkzeug, das für das Kochen verwendet wird.\n– Es kann in einem Haus angebracht werden.</desc>
+		</item>
+		<item>
+			<id>3717</id>
+			<name>Kochnische</name>
+			<icon>Crafting_Cooking_01.png</icon>
+			<desc>Ein Werkzeug, das für das Kochen verwendet wird.\n– Es kann in einem Haus angebracht werden.</desc>
+		</item>
+		<item>
+			<id>3703</id>
+			<name>Alchemietisch für Fortgeschrittene</name>
+			<icon>Crafting_Alchemy_03.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz angebracht werden.\n– Nachträglich hinzugefügte Zusatzeffekte</desc>
+		</item>
+		<item>
+			<id>3702</id>
+			<name>Alchemietisch für Laien</name>
+			<icon>Crafting_Alchemy_02.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz aufgestellt werden.</desc>
+		</item>
+		<item>
+			<id>3701</id>
+			<name>Alchemietisch</name>
+			<icon>Crafting_Alchemy_01.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz aufgestellt werden.</desc>
+		</item>
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4052</id>
+			<name>Eisenbarren</name>
+			<icon>00004052.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Eisensplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

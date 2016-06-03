@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9057</itemKey>
+	<itemName>Essence of Liquor</itemName>
+	<itemIcon>00009057.png</itemIcon>
+	<itemDesc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</itemDesc>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apple</name>
+			<icon>00007313.png</icon>
+			<desc>A tasty apple used as an ingredient in Cooking.\nUsage: Fruit Juice, Fruit Pudding, etc.\n- How to Obtain: It can be Gathered from Apple Trees using Bare Hands or purchased from a special Merchant.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

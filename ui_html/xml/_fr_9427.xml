@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9427</itemKey>
+	<itemName>Saucisse grillée</itemName>
+	<itemIcon>00009427.png</itemIcon>
+	<itemDesc>Une saucisse rôtie à la perfection.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sel séché au soleil</name>
+			<icon>00009008.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

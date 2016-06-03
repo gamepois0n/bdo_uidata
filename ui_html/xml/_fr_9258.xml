@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9258</itemKey>
+	<itemName>Salade de fruits et légumes</itemName>
+	<itemIcon>00009258.png</itemIcon>
+	<itemDesc>Une salade de fruits et de légumes.\n\n- Effet unique : récupération de PM +5 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinaigre</name>
+			<icon>00009066.png</icon>
+			<desc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

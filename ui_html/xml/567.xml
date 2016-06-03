@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>567</itemKey>
+	<itemName>Concentrated Grain Juice</itemName>
+	<itemIcon>00000567.png</itemIcon>
+	<itemDesc>Immediately heals HP by+125.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</itemDesc>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7001</id>
+			<name>Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Costa Farm, Moretti Plantation, and Northern Wheat Plantation. It can also be obtained by Farming Wheat Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7002</id>
+			<name>Barley</name>
+			<icon>00007002.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Northern Wheat Plantation. It can also be obtained by Farming Barley Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7003</id>
+			<name>Potato</name>
+			<icon>00007003.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Bartali Farm, Finto Farm, and Loggia Farm. It can also be obtained by Farming Potato Seeds using a Garden or by Gathering Potatoes using Bare Hands or a Hoe..\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7004</id>
+			<name>Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Shuri Farm. It can also be obtained by Farming Sweet Potato Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7005</id>
+			<name>Corn</name>
+			<icon>00007005.png</icon>
+			<desc>Grow it from the corn seed. Mostly used as an ingredient for cooking.\n - How to Obtain : Toscani Farm. Can be obtained from corns or cultivated from the garden.\n- Usage : beer, grain soup, vinegar, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7006</id>
+			<name>High-Quality Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7007</id>
+			<name>High-Quality Barley</name>
+			<icon>00007002.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7008</id>
+			<name>High-Quality Potato</name>
+			<icon>00007003.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7009</id>
+			<name>High-Quality Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7010</id>
+			<name>High-Quality Corn</name>
+			<icon>00007005.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7011</id>
+			<name>Special Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7012</id>
+			<name>Special Barley</name>
+			<icon>00007002.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7013</id>
+			<name>Special Potato</name>
+			<icon>00007003.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7014</id>
+			<name>Special Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>7015</id>
+			<name>Special Corn</name>
+			<icon>00007005.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>566</id>
+			<name>Grain Juice</name>
+			<icon>00000566.png</icon>
+			<desc>Immediately heals HP by+75.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>566</id>
+			<name>Grain Juice</name>
+			<icon>00000566.png</icon>
+			<desc>Immediately heals HP by+75.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>568</id>
+			<name>Highly Concentrated Grain Juice</name>
+			<icon>00000568.png</icon>
+			<desc>Immediately heals HP by+200.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

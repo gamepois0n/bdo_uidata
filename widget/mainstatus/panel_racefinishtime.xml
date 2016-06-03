@@ -1,0 +1,9 @@
+<UI>
+	<Control Type="Panel" Name="Panel_RaceFinishTime" Pos="Center Top" Size="180 50" Pan="0 210" Color="ffffffff" EnableArea="0 0 180 50">
+		<Control Type="StaticText" Name="StaticText_FinishTime" Pos="Center Center" Size="150 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="종료 30 초 전!" Font="TitleFont_18" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

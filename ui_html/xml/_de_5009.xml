@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5009</itemKey>
+	<itemName>Tannennadelsaft</itemName>
+	<itemIcon>00005009.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Tanne erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Tanne</name>
+		</character>
+	</collect>
+	<node region="Manshawald – Holzfällen"/>
+	<node region="Phoniels Hütte – Holzfällen"/>
+</itemInfo>
+

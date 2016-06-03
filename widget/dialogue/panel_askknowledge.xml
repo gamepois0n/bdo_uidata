@@ -1,0 +1,37 @@
+<UI>
+	<Control Type="Panel" Name="Panel_AskKnowledge" Pos="Center Center" Size="404 290" Pan="0 -100" Color="ffffffff" EnableArea="0 0 404 290">
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Control Type="Static" Name="Static_BackGround" Pos="0 4" Size="404 280" Pan="0 0" Color="ffffffff" EnableArea="0 0 404 280" Grid="1" GridPosX="0 5 399 404" GridPosY="0 5 275 280" GridUVX="0 5 178 183" GridUVY="0 5 217 222">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Style_Button" Pos="Center 36" Size="340 43" Pan="0 0" Color="ffffffff" EnableArea="0 0 340 43" Grid="1" GridPosX="0 4 336 340" GridPosY="0 4 39 43" GridUVX="0 4 150 154" GridUVY="0 4 28 32" ClickSound="0 0" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="50 20" Pan="0 8" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="어떤 이야기를 들어볼까?" formatString="PANEL_ASKKNOWLEDGE_STCTXT_TITLE" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Partline" Pos="Center Top" Size="404 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 404 6">
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="VerticalScroll" Pos="Right Top" Size="20 225" Pan="-7 37" Color="ffffffff" EnableArea="0 0 20 225" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 218 225" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="VerticalScroll_DownButton" Pos="0 550" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="VerticalScroll_CtrlButton" Pos="Center 0" Size="13 65" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

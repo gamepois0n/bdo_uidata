@@ -1,0 +1,27 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CastleInfo" Pos="671 273" Size="280 180" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 180" Grid="1" GridPosX="0 10 270 280" GridPosY="0 10 170 180" GridUVX="0 10 172 183" GridUVY="0 10 212 222" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_CastleName" Pos="Center Top" Size="280 6" Pan="0 30" Color="ffffffff" EnableArea="0 0 280 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="하이델" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 8"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CastleGuild" Pos="Left Top" Size="175 16" Pan="20 40" Color="  ffffff" EnableArea="0 0 175 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 길드 : 펄어비스" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CastleMaster" Pos="Left Top" Size="175 16" Pan="20 70" Color="  ffffff" EnableArea="0 0 175 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 길드장 : 나도좀해먹자제발" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CastleTime" Pos="Left Top" Size="175 16" Pan="20 100" Color="  ffffff" EnableArea="0 0 175 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 기간 : 11년 11개월 11일" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Notice" Pos="Left Top" Size="175 16" Pan="20 140" Color="  ffffff" EnableArea="0 0 175 16">
+			<Attribute Type="Ignore"/>
+			<Text Value="현재 소속된 거주지에서 세금 감면의 혜택을 받습니다." Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

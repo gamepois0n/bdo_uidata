@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4002</itemKey>
+	<itemName>Lead Ore</itemName>
+	<itemIcon>00004002.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Glish Swamp, Quint Hill, and Primal Giant Post. It can be directly obtained from Ore containing Lead.</itemDesc>
+	<collect>
+		<character>
+			<name>Diorite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lead</name>
+		</character>
+	</collect>
+	<node region="Glish Swamp - Mining"/>
+	<node region="Quint Hill - Mining"/>
+	<node region="Primal Giant Post - Mining"/>
+	<makelist>
+		<item>
+			<id>55844</id>
+			<name>Lead Ore Crate</name>
+			<icon>00055844.png</icon>
+			<desc>A Trade Item containing 10 Lead Ore.</desc>
+		</item>
+		<item>
+			<id>4055</id>
+			<name>Lead Ingot</name>
+			<icon>00004055.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Lead Shards. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4054</id>
+			<name>Melted Lead Shard</name>
+			<icon>00004054.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Lead Ore.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,61 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Knowledge_Info" Pos="Right Top" Size="560 630" Pan="10 5" Color="ffffffff" EnableArea="0 0 560 630">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_Knowledge_Icon" Pos="Right Top" Size="360 360" Pan="15 10" Color="ffffffff" EnableArea="0 0 360 360" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 360 0 0 360 360 360" Ani="1 1 0.000 0">ui_artwork/ic_00006.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NamePanel" Pos="Right Top" Size="250 35" Pan="75 5" Color="ffffffff" EnableArea="0 0 250 35" Grid="1" GridPosX="0 10 240 250" GridPosY="0 10 25 35" GridUVX="0 10 172 182" GridUVY="0 10 212 222">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+			<Text Value="너는 누구냐아" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_StarBG" Pos="15 Top" Size="256 256" Pan="0 100" Color="ffffffff" EnableArea="0 0 256 256" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_starbg.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_StarName" Pos="42 Top" Size="200 20" Pan="0 270" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="별자리 : 죽을 자리" Font="BaseFont_8_Bold" Color="fffff9c3" OverColor="fffff9c3" ClickColor="fffff9c3" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_InfoBG" Pos="Center Bottom" Size="530 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 530 60" Grid="1" GridPosX="0 10 520 530" GridPosY="0 10 50 60" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Icon_Value" Pos="Right Bottom" Size="20 20" Pan="180 7" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="406 195 426 195 406 215 426 215" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<Text Value="가치 : 100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="30 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Icon_Interest" Pos="Left Bottom" Size="20 20" Pan="40 7" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="385 195 405 195 385 215 405 215" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<Text Value="흥미도 : 100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="30 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CardEffect" Pos="Center Top" Size="50 20" Pan="0 5" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="추가 효과 : 3턴간 흥미도가 4 상승한다." Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NpcInfo_BG" Pos="Right Top" Size="250 50" Pan="75 45" Color="ffffffff" EnableArea="0 0 250 50" Grid="1" GridPosX="0 10 240 250" GridPosY="0 10 40 50" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Knowledge_Story" Pos="Center Top" Size="500 200" Pan="0 320" Color="ffffffff" EnableArea="0 0 500 200">
+			<Attribute Type="Ignore"/>
+			<Text Value="아버지가 농민 반란군과 연루되어 실종된 지 오래다. 농장을 꾸려야 하는 일이 막막하지만, 씩씩하게 이겨내려 한다. 항상 긍정적이며, 상황이 개선될 것으로 믿는 아가씨다. 하이델 무도회에서 본 적 있는 조르다인이 이상형이지만, 현실적으로는 자신만 바라봐주고, 사랑해줄 사람을 찾고 있다. " Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OnlyNpc_Interest" Pos="Center Top" Size="220 20" Pan="0 5" Color="ffffffff" EnableArea="0 0 220 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="관심사 : 벨리아 특산품, 하이델 길거리, 칼페온으로 가는 길" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OnlyNpc_NpcInt" Pos="Left Top" Size="100 20" Pan="10 30" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="흥미도 : 50" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OnlyNpc_Value" Pos="Right Top" Size="100 20" Pan="10 30" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="가치 : 100" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4258</itemKey>
+	<itemName>Platinbarren</itemName>
+	<itemIcon>00004258.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4203</id>
+			<name>Platinerz</name>
+			<icon>00004203.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Platinerz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus platinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4257</id>
+			<name>Geschmolzener Platinsplitter</name>
+			<icon>00004257.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4257</id>
+			<name>Geschmolzener Platinsplitter</name>
+			<icon>00004257.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>55850</id>
+			<name>Schmuckkiste</name>
+			<icon>00055850.png</icon>
+			<desc>Handelsware, die 5 Silberbarren, 5 Goldbarren und 5 Platinbarren enthält.</desc>
+		</item>
+		<item>
+			<id>11914</id>
+			<name>Glänzende Goldtopasohrringe</name>
+			<icon>00011914.png</icon>
+			<desc>Ein mit einem Glänzenden Goldtopas verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11913</id>
+			<name>Goldtopasohrringe</name>
+			<icon>00011913.png</icon>
+			<desc>Ein mit einem Goldtopas verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11714</id>
+			<name>Glänzende Goldtopashalskette</name>
+			<icon>00011714.png</icon>
+			<desc>Eine mit einem Glänzenden Goldtopas verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11713</id>
+			<name>Goldtopashalskette</name>
+			<icon>00011713.png</icon>
+			<desc>Eine mit einem Goldtopas verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>12104</id>
+			<name>Dunkler Blutrubinring</name>
+			<icon>00012104.png</icon>
+			<desc>Ein mit einem Dunklen Blutrubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>12103</id>
+			<name>Blutrubinring</name>
+			<icon>00012103.png</icon>
+			<desc>Ein mit einem Blutrubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>4259</id>
+			<name>Reiner Platinkristall</name>
+			<icon>00004259.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Platinbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

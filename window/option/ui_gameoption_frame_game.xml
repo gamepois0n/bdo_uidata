@@ -1,0 +1,635 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GameOption_Game" Pos="0 0" Size="560 600" Pan="0 0" Color="ffffffff" EnableArea="0 0 560 600" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Control Type="Frame" Name="Frame_Game" Pos="Right Top" Size="560 380" Pan="42 100" Color="ffffffff" EnableArea="0 0 560 380">
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="Center -441" Size="560 1440" Pan="0 0" Color="ffffffff" EnableArea="0 0 560 1440">
+				<Attribute Type="Ignore"/>
+				<Control Type="StaticText" Name="StaticText_GameSetting" Pos="Center Top" Size="560 30" Pan="0 5" Color="ffffffff" EnableArea="0 0 560 30">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="292 200 306 200 292 214 306 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+					<Text Value="게임 설정" formatString="OPTION_TEXT_INGAMEOPTION" Font="BaseFont_12" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Button_Reset" Pos="Right Top" Size="100 25" Pan="10 8" Color="ffffffff" EnableArea="0 0 100 25" Grid="1" GridPosX="0 5 95 100" GridPosY="0 5 20 25" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="초기화" formatString="PANEL_GAMEOPTION_GAME_BTN_RESET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_SetGame" Pos="Center Top" Size="560 20" Pan="0 50" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="일반" formatString="OPTION_TEXT_GAMEOPTION" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_MouseInvisible" Pos="Left Top" Size="250 23" Pan="25 70" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="UI 편집 모드 종료 시 마우스 커서 자동 숨김" formatString="OPTION_BTN_MOUSEMODE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_ShowCharTag" Pos="Left Top" Size="23 23" Pan="25 100" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="캐릭터 이름 표시" formatString="OPTION_BTN_CHARACTERNAME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_AutoAim" Pos="Left Top" Size="250 23" Pan="25 75" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="조준 도우미 활성화" formatString="OPTION_BTN_TARGETHELP" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_HideUIWindow" Pos="Left Top" Size="250 23" Pan="290 75" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="피격 시 UI 창 감추기" formatString="OPTION_TEXT_HIDE_HIT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_ShowBottomMenu" Pos="Left Top" Size="23 23" Pan="25 120" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="하단 메뉴 표시" formatString="OPTION_BTN_BOTTOMMENU" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_GuildLogin" Pos="Left Top" Size="250 23" Pan="25 100" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="길드원 접속 정보 메시지 표시" formatString="PANEL_GAMEOPTION_GAME_GUILDLOGIN" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_RejectInvitation" Pos="Left Top" Size="250 23" Pan="290 100" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="파티, 길드 초대 거부" formatString="OPTION_BTN_REJECT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_SimpleUI" Pos="Left Top" Size="250 23" Pan="25 125" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="UI 간소화" formatString="OPTION_BTN_SIMPLE_UI" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_SpiritGuide" Pos="Left Top" Size="250 23" Pan="290 125" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="연계기 영상 가이드 보이기" formatString="PANEL_GAMEOPTION_GAME_SPRITGUIDE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckBox_MoveMouse" Pos="Left Top" Size="250 23" Pan="25 150" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="마우스 이동 사용" formatString="OPTION_BTN_MOUSEMOVE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckBox_Minimap" Pos="Left Top" Size="250 23" Pan="290 150" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="미니맵 회전 사용" formatString="PANEL_GAMEOPTION_MINIMAPROTATION" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckBox_ShowAttackEffect" Pos="Left Top" Size="250 23" Pan="25 175" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="공격 판정 이펙트 보기" formatString="PANEL_GAMEOPTION_GAME_SHOWATTACKEFFECT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_BlackSpirit_Alert" Pos="Left Top" Size="250 23" Pan="290 175" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="흑정령 알림" formatString="PANEL_GAMEOPTION_GAME_BLACKSPIRITALERT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_ScreenSaver" Pos="Left Top" Size="250 23" Pan="290 200" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="화면 보호기 기능 켜기" formatString="PANEL_GAMEOPTION_GAME_SCREENSAVER" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_UIModeMouseLock" Pos="Left Top" Size="250 23" Pan="25 225" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="UI모드 마우스 잠금" formatString="PANEL_GAMEOPTION_GAME_UIMODEMOUSELOCK" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_PvpRefuse" Pos="Left Top" Size="250 23" Pan="290 225" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="결투 신청 거부" formatString="PANEL_GAMEOPTION_GAME_PVP" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_NewQuickSlot" Pos="Left Top" Size="250 23" Pan="25 200" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="분리형 퀵슬롯 사용" formatString="PANEL_GAMEOPTION_QUICKSLOT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_SupportOculus" Pos="Left Top" Size="23 23" Pan="290 10" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Attribute Type="Ignore"/>
+					<Attribute Type="Hide"/>
+					<Attribute Type="Disable" Color="Off"/>
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="오큘러스(DK1/DK2) 지원 ( ※ Window XP에서는 동작하지 않습니다. )" formatString="OPTION_BTN_RENDER_OVR" Font="BaseFont_10" Color="ff746e6e" OverColor="ff746e6e" ClickColor="ff746e6e" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_CharacterNickName" Pos="Center Top" Size="560 20" Pan="0 250" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="캐릭터 이름 보기 설정" formatString="PANEL_GAMEOPTION_GAME_CHARACTERNICKNAME" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="CheckButton_SelfPlayer" Pos="Left Top" Size="165 23" Pan="25 275" Color="ffffffff" EnableArea="0 0 165 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="10">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="캐릭터 이름 상시 표시" formatString="PANEL_GAMEOPTION_GAME_SELFPLAYER" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="Checkbox_MyCharacterNickNameShow" Pos="Left Top" Size="165 23" Pan="200 275" Color="ffffffff" EnableArea="0 0 165 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="10">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="캐릭터 이름 상시 끄기" formatString="PANEL_GAMEOPTION_GAME_MYCHARACTERNICKNAME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="Checkbox_AttackNameShow" Pos="Left Top" Size="170 23" Pan="380 275" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="10">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="피격 시 캐릭터 이름 보기" formatString="PANEL_GAMEOPTION_GAME_ATTACKNAMESHOW" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_AnotherCharacterNickNameShow" Pos="Left Top" Size="170 23" Pan="25 300" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="다른 캐릭터 이름 보기" formatString="PANEL_GAMEOPTION_GAME_ANOTHERCHARACTERNICKNAME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_PartyNickName" Pos="Left Top" Size="170 23" Pan="200 300" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="파티원 이름 보기" formatString="PANEL_GAMEOPTION_GAME_PARTYNICKNAME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_GuildAndClanCharacterNickName" Pos="Left Top" Size="170 23" Pan="380 300" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="길드/클랜원 이름 보기" formatString="PANEL_GAMEOPTION_GAME_GUILDCHARNICKNAME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_NavGuideType" Pos="Center Top" Size="560 20" Pan="0 335" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="길안내 경로표시 방식" formatString="PANEL_OPTION_NAVPATH_TYPE" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_NavGuideNone" Pos="Left Top" Size="165 23" Pan="25 370" Color="ffffffff" EnableArea="0 0 165 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="30">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="경로표시 안함" formatString="PANEL_GAMEOPTION_NAVPATH_NONE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_NavGuideArrow" Pos="Left Top" Size="110 23" Pan="195 370" Color="ffffffff" EnableArea="0 0 110 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="30">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="화살표" formatString="PANEL_GAMEOPTION_NAVPATH_ARROW" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_NavGuideEffect" Pos="Left Top" Size="100 23" Pan="310 370" Color="ffffffff" EnableArea="0 0 100 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="30">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="이펙트" formatString="PANEL_GAMEOPTION_NAVPATH_EFFECT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_NavGuideFairy" Pos="Left Top" Size="130 23" Pan="420 370" Color="ffffffff" EnableArea="0 0 130 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="30">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="안내요정 소환" formatString="PANEL_GAMEOPTION_NAVPATH_FAIRY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_CharacterOutline" Pos="Center Top" Size="560 20" Pan="0 410" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="캐릭터 상태/피아 구분 윤곽선 효과 설정" formatString="PANEL_OPTION_CHARACTEROUTLINE" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_HumanRelation" Pos="Left Top" Size="165 23" Pan="380 440" Color="ffffffff" EnableArea="0 0 165 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="NPC 친밀도 상태 표시" formatString="PANEL_OPTION_CHARACTEROUTLINE_HUMANRELATION" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_ZoneChange" Pos="Left Top" Size="175 23" Pan="20 440" Color="ffffffff" EnableArea="0 0 175 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="안전/위험 지역 진입 표시" formatString="PANEL_OPTION_CHARACTEROUTLINE_ZONECHANGE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_QuestObjectLine" Pos="Left Top" Size="170 23" Pan="200 440" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="의뢰 NPC 상태 표시" formatString="PANEL_GAMEOPTION_GAME_QUEST" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_WarAlly" Pos="Left Top" Size="175 23" Pan="20 465" Color="ffffffff" EnableArea="0 0 175 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="점령전 피아 식별 표시" formatString="PANEL_OPTION_CHARACTEROUTLINE_WARALLY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_Enemy" Pos="Left Top" Size="170 23" Pan="380 465" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="길드전쟁 피아식별 표시" formatString="PANEL_OPTION_CHARACTEROUTLINE_ENEMY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_NonWarPlayer" Pos="Left Top" Size="170 23" Pan="200 465" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="점령전 비참여자 표시" formatString="PANEL_OPTION_CHARACTEROUTLINE_NONWARPLAYER" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_Guild" Pos="Left Top" Size="175 23" Pan="20 490" Color="ffffffff" EnableArea="0 0 175 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="내 길드원 표시" formatString="PANEL_OPTION_CHARACTEROUTLINE_GUILD" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_CharacterOutline_Party" Pos="Left Top" Size="170 23" Pan="200 490" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="내 파티원 표시" formatString="PANEL_OPTION_CHARACTEROUTLINE_PARTY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_AlertSet" Pos="Center Top" Size="560 20" Pan="0 540" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="시스템 알림 끄기 설정" formatString="OPTION_TEXT_SYSTEMALERT" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_Region" Pos="Left Top" Size="175 23" Pan="25 570" Color="ffffffff" EnableArea="0 0 175 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="전투/안전 지역" formatString="OPTION_CHK_REGION_INOUT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_TerritoryTrade" Pos="Left Top" Size="170 23" Pan="200 570" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="일반 무역" formatString="OPTION_CHK_NORMALTRADE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_RoyalTrade" Pos="Left Top" Size="170 23" Pan="380 570" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="황실 무역" formatString="OPTION_CHK_GOLDENTRADE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_FitnessLevelUp" Pos="Left Top" Size="170 23" Pan="25 595" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="단련 능력치 상승" formatString="OPTION_CHK_FITNESS" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_TerritoryWar" Pos="Left Top" Size="170 23" Pan="200 595" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="점령전" formatString="OPTION_CHK_SIEGE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_GuildWarStart" Pos="Left Top" Size="170 23" Pan="380 595" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="길드 전쟁" formatString="OPTION_CHK_GUILDWAR" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_AnotherPlayerGotItem" Pos="Left Top" Size="170 23" Pan="25 620" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="다른 모험가 아이템 획득" formatString="OPTION_CHK_ANOTHERGOTITEM" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_ItemMarket" Pos="Left Top" Size="170 23" Pan="200 620" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="거래소" formatString="OPTION_CHK_DEALMARKET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_LifeLevUp" Pos="Left Top" Size="170 23" Pan="380 620" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="다른 모험가 생활 레벨" formatString="OPTION_CHK_ANOTHERLIFELEVEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_GuildQuest" Pos="Left Top" Size="170 23" Pan="25 645" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="길드 의뢰 메시지" formatString="OPTION_CHK_ANOTHERGUILDQUEST" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_Alert_NearMonster" Pos="Left Top" Size="170 23" Pan="200 645" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="주변 몬스터" formatString="OPTION_CHK_NEARMONSTER" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PetSet" Pos="Center Top" Size="560 20" Pan="0 680" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="애완동물 설정" formatString="PANEL_GAMEOPTION_PETSET_TITLE" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_PetVisualAll" Pos="Left Top" Size="170 23" Pan="25 710" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="20">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="애완동물 모두 보기" formatString="PANEL_GAMEOPTION_PETVISUAL_ALL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_PetVisualMine" Pos="Left Top" Size="170 23" Pan="200 710" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="20">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="애완동물 나만 보기" formatString="PANEL_GAMEOPTION_PETVISUAL_MINE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_PetVisualHide" Pos="Left Top" Size="170 23" Pan="380 710" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0" Group="20">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="애완동물 모두 숨기기" formatString="PANEL_GAMEOPTION_PETVISUAL_HIDE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseSet" Pos="Center Top" Size="560 20" Pan="0 750" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="마우스 설정" formatString="OPTION_TEXT_MOUSE" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_MouseX" Pos="Left Top" Size="170 23" Pan="25 785" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="마우스 수평 반전" formatString="OPTION_BTN_MOUSEINVERTX" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_MouseY" Pos="Left Top" Size="170 23" Pan="200 785" Color="ffffffff" EnableArea="0 0 170 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="마우스 수직 반전" formatString="OPTION_BTN_MOUSEINVERTY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseXSen" Pos="Center Top" Size="560 20" Pan="0 825" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="마우스 수평 감도" formatString="OPTION_TEXT_MOUSESENSEX" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseXSen_0" Pos="Left Top" Size="23 23" Pan="25 850" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseXSen_50" Pos="Center Top" Size="23 23" Pan="0 850" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseXSen_100" Pos="Right Top" Size="23 23" Pan="25 850" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_MouseXSenControl" Pos="Center Top" Size="510 7" Pan="0 880" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_MouseXSen_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseYSen" Pos="Center Top" Size="560 20" Pan="0 910" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="마우스 수직 감도" formatString="OPTION_TEXT_MOUSESENSEY" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseYSen_0" Pos="Left Top" Size="23 23" Pan="25 935" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseYSen_50" Pos="Center Top" Size="23 23" Pan="0 935" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_MouseYSen_100" Pos="Right Top" Size="23 23" Pan="25 935" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_MouseYSenControl" Pos="Center Top" Size="510 7" Pan="0 965" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_MouseYSen_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_GamePadSet" Pos="Center Top" Size="560 20" Pan="0 995" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="게임 패드 설정" formatString="OPTION_TEXT_GAMEPAD" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_UsePad" Pos="Left Top" Size="23 23" Pan="25 1025" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="게임 패드 사용" formatString="OPTION_BTN_PADENABLE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_UseVibe" Pos="Left Top" Size="23 23" Pan="25 1050" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="게임 패드 진동 활성화" formatString="OPTION_BTN_PADVIBRATION" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_PadX" Pos="Left Top" Size="23 23" Pan="25 1075" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="게임 패드 수평 반전" formatString="OPTION_BTN_PADINVERTX" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="Checkbox_PadY" Pos="Left Top" Size="23 23" Pan="25 1100" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="게임 패드 수직 반전" formatString="OPTION_BTN_PADINVERTY" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadXSen" Pos="Center Top" Size="560 20" Pan="0 1140" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="게임 패드 수평 감도" formatString="OPTION_TEXT_PADSENSEX" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadXSen_0" Pos="Left Top" Size="23 23" Pan="25 1170" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadXSen_50" Pos="Center Top" Size="23 23" Pan="0 1170" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadXSen_100" Pos="Right Top" Size="23 23" Pan="25 1170" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_PadXSenControl" Pos="Center Top" Size="510 7" Pan="0 1200" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_PadXSen_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadYSen" Pos="Center Top" Size="560 20" Pan="0 1230" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="게임 패드 수직 감도" formatString="OPTION_TEXT_PADSENSEY" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadYSen_0" Pos="Left Top" Size="23 23" Pan="25 1260" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="0" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadYSen_50" Pos="Center Top" Size="23 23" Pan="0 1260" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="50" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_PadYSen_100" Pos="Right Top" Size="23 23" Pan="25 1260" Color="ffffffff" EnableArea="0 0 23 23">
+					<Attribute Type="Ignore"/>
+					<Text Value="100" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Slider" Name="Slider_PadYSenControl" Pos="Center Top" Size="510 7" Pan="0 1290" Color="ffffffff" EnableArea="0 0 510 7" Grid="1" GridPosX="0 2 508 510" GridPosY="0 0 7 7" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+					<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+					<Control Type="Button" Name="Slider_PadYSen_Button" Pos="0 Center" Size="36 13" Pan="0 -1" Color="ffffffff" EnableArea="0 0 36 13" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_GameSet_BottomBlank" Pos="Center Top" Size="560 20" Pan="0 1045" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_Language" Pos="Center Top" Size="560 20" Pan="0 1320" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="국가별 언어 설정 ( 게임 재실행 필요 )" formatString="LUA_OPTION_TEXT_LANGUAGE" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_ServiceResourceType" Pos="25 1350" Size="23 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" UseDefaultSound="1" Group="100">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="언어 설정 RadioButton" formatString="PANEL_GAMEOPTION_LANGUAGE_DEFAULT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="StaticText" Name="Static_LanguageCommentBG" Pos="Center 1258" Size="545 110" Pan="0 0" Color="ffffffff" EnableArea="0 0 545 110" Grid="1" GridPosX="0 10 535 545" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+				</Control>
+				<Control Type="StaticText" Name="StaticText_ChannelChat_Language" Pos="Center Top" Size="560 20" Pan="0 1380" Color="ffffffff" EnableArea="0 0 560 20">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="15 75 47 75 15 110 47 110" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="Channel Chat: Send &amp; Receive" Font="BaseFont_10" Color="ffecdc9b" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Radiobutton" Name="RadioButton_ChannelChat_Language" Pos="25 1410" Size="23 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" UseDefaultSound="1" Group="101">
+					<Texture Type="Base" UV="3 205 26 205 3 228 26 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="On" UV="31 205 54 205 31 228 54 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Texture Type="Click" UV="59 205 82 205 59 228 82 228" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+					<Text Value="언어 설정 RadioButton" formatString="PANEL_GAMEOPTION_LANGUAGE_DEFAULT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>
+				<Control Type="Checkbox" Name="CheckButton_UseChattingFilter" Pos="280 1625" Size="250 23" Pan="25 225" Color="ffffffff" EnableArea="0 0 250 23" Grid="1" GridPosX="0 1 22 23" GridPosY="0 1 22 23" GridUVX="0 1 22 23" GridUVY="0 1 22 23" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+					<Text Value="채팅 필터링" formatString="PANEL_GAMEOPTION_CHATFILTERING" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+					<Attribute Type="ClickMoveText" Value="1 1"/>
+				</Control>				
+				<Control Type="StaticText" Name="Static_ChattingLanguageCommentBG" Pos="Center 1458" Size="545 110" Pan="0 0" Color="ffffffff" EnableArea="0 0 545 110" Grid="1" GridPosX="0 10 535 545" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+					<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_VerticalScroll" Pos="Right 0" Size="20 380" Pan="-23 0" Color="ff333333" EnableArea="0 0 20 380" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 373 380" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_DownButton" Pos="0 380" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_VerticalScroll_CtrlButton" Pos="Center 117" Size="13 100" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 91 100" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="21 525" Size="520 20" Pan="0 0" Color="ff333333" EnableArea="0 0 520 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="520 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="0 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>

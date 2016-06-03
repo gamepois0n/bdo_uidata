@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4457</itemKey>
+	<itemName>Topaze</itemName>
+	<itemIcon>00004457.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une topaze brute.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Topaze</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4403</id>
+			<name>Topaze brute</name>
+			<icon>00004403.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un minerai de topaze demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11606</id>
+			<name>Collier de Talis</name>
+			<icon>00011606.png</icon>
+			<desc>Un collier imprégné de l&apos;énergie de l&apos;acier.\nIl peut être optimisé avec un collier du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11806</id>
+			<name>Boucle d&apos;oreille de Talis</name>
+			<icon>00011806.png</icon>
+			<desc>Une paire de boucles d&apos;oreille imprégnées de l&apos;énergie de l&apos;acier.\nElles peuvent être optimisées avec une paire de boucles du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12006</id>
+			<name>Anneau de Talis</name>
+			<icon>00012006.png</icon>
+			<desc>Un anneau imprégné de l&apos;énergie de l&apos;acier.\nIl peut être optimisé avec un anneau du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12206</id>
+			<name>Ceinture de Talis</name>
+			<icon>00012206.png</icon>
+			<desc>Une ceinture imprégnée de l&apos;énergie de l&apos;acier.\nElle peut être optimisée avec une ceinture du même type, mais si l&apos;optimisation échoue, les deux objets seront perdus.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>12113</id>
+			<name>Bague en topaze et or</name>
+			<icon>00012113.png</icon>
+			<desc>Un anneau décoré d&apos;une topaze dorée.</desc>
+		</item>
+		<item>
+			<id>12112</id>
+			<name>Bague en topaze resplendissante</name>
+			<icon>00012112.png</icon>
+			<desc>Un anneau décoré d&apos;une topaze brillante.</desc>
+		</item>
+		<item>
+			<id>11713</id>
+			<name>Collier de topaze en or</name>
+			<icon>00011713.png</icon>
+			<desc>Un collier décoré d&apos;une topaze dorée.</desc>
+		</item>
+		<item>
+			<id>11712</id>
+			<name>Collier de topaze resplendissant</name>
+			<icon>00011712.png</icon>
+			<desc>Un collier décoré d&apos;une topaze brillante.</desc>
+		</item>
+		<item>
+			<id>11913</id>
+			<name>Boucles d&apos;oreille en topaze et or</name>
+			<icon>00011913.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;une topaze dorée.</desc>
+		</item>
+		<item>
+			<id>11912</id>
+			<name>Boucles d&apos;oreille en topaze resplendissantes</name>
+			<icon>00011912.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;une topaze brillante.</desc>
+		</item>
+		<item>
+			<id>24129</id>
+			<name>Candélabre en étain avec quatre bougies</name>
+			<icon>InHouse_X_DPFO_Candlestick_03_light.png</icon>
+			<desc>Un candélabre en étain avec quatre bougies.</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Candélabre en laiton avec quatre bougies</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>Un candélabre en laiton avec quatre bougies.</desc>
+		</item>
+		<item>
+			<id>4458</id>
+			<name>Topaze resplendissante</name>
+			<icon>00004458.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une topaze brute. Nécessite des connaissances en meulage (débutant).\n\n※ Trouvez Ornella à Heidel et terminez la quête de matériaux de réparation d&apos;équipement pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,23 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Icon_Maid" Pos="0 45" Size="60 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 60">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_IconSealPetBG" Pos="Center Center" Size="47 47" Pan="0 0" Color="ffffffff" EnableArea="0 0 47 47" Grid="1" GridPosX="0 10 37 47" GridPosY="0 10 37 47" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_MaidIcon" Pos="Center Center" Size="60 60" Pan="0 0" Color="ffffffff" EnableArea="5 5 55 55" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="62 184 122 184 62 244 122 244" Ani="1 1 0.000 0">new_ui_common_forlua/window/horse/servant_icon_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HungryAlert" Pos="60 140" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="b8ffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="포만감이 0이 되면 명령에 따르지 않습니다.\n사료를 먹여 포만감을 채워주세요." formatString="PANEL_PETCONTROL_HUNGRYALERT" Font="BaseFont" Color="bef16f6f" OverColor="bef16f6f" ClickColor="bef16f6f" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5008</itemKey>
+	<itemName>Écorce de vieil arbre</itemName>
+	<itemIcon>00005008.png</itemIcon>
+	<itemDesc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une écorce de vieil arbre demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bouleau</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre blanc</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Frêne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sapin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Érable</name>
+		</character>
+	</collect>
+	<node region="Hautes-terres septentrionales de Mediah : débit de bois"/>
+	<node region="Hautes-terres septentrionales de Mediah : débit de bois"/>
+	<makelist>
+		<item>
+			<id>4911</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 3</name>
+			<icon>00004911.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 3.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

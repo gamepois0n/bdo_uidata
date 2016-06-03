@@ -1,0 +1,15 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GameTipMask" Pos="0 0" Size="450 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 450 30">
+		<Texture Type="Special" UV="0 0 100 0 0 30 100 30" Ani="1 1 0.000 0">new_ui_common_forlua/widget/GameTip/GameTip_Mask.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_GameTips_Content1" Pos="42 0" Size="450 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 450 40">
+			<Text Value="게임팁이 노출됩니다." Font="BaseFont_10_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GameTips_Content2" Pos="42 0" Size="450 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 450 40">
+			<Text Value="게임팁이 노출됩니다." Font="BaseFont_10_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GameTips_Content3" Pos="42 0" Size="450 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 450 40">
+			<Text Value="게임팁이 노출됩니다." Font="BaseFont_10_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

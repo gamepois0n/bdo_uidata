@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6354</itemKey>
+	<itemName>Blut des Sünders</itemName>
+	<itemIcon>00006354.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>6205</id>
+			<name>Schweineblut</name>
+			<icon>00006205.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Schweinekadaver erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Flammenpulver</name>
+			<icon>00004802.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Blutast</name>
+			<icon>00005005.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Blutast erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16002</id>
+			<name>Schwarzstein (Rüstung)</name>
+			<icon>00000007.png</icon>
+			<desc>Rüstungsteile können durch den Schwarzgeist verstärkt werden.\n\n– Kann verstärken: Helm, Rüstung, Handschuhe, Schuhe</desc>
+		</item>
+		<item>
+			<id>49304</id>
+			<name>Fischerbootsbug</name>
+			<icon>00049304.png</icon>
+			<desc>Ein Bug, der an einem Fischerboot angebracht werden kann. Dies erlaubt dem Boot, schneller zu segeln.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nGesamte VK +30 (noch nicht verfügbar)\n\n– Ausrüstung für Fischerboote\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>49301</id>
+			<name>Fährenbug</name>
+			<icon>00049301.png</icon>
+			<desc>Ein Bug, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, schneller zu segeln.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004907.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5420</itemKey>
+	<itemName>Trüffel</itemName>
+	<itemIcon>00005420.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird. Das Sammeln von Trüffel erfordert eine gewisse Talentstufe.\n– Gewinnung: Trüffel können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</itemDesc>
+	<collect>
+		<character>
+			<name>Trüffel</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7520</id>
+			<name>Trüffelkiste</name>
+			<icon>00007520.png</icon>
+			<desc>Pilze, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

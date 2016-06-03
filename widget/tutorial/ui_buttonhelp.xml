@@ -1,0 +1,16 @@
+<UI>
+	<Control Type="Panel" Name="Panel_ButtonHelp" Pos="327 219" Size="500 400" Pan="-150 0" Color="ffffffff" EnableArea="0 0 500 400">
+		<UIAniSet Name="ANI_SET_Event_01" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="740945509" AniName="Ani_Color_Event_01" UIName="StaticText_Mouse_Left"/>
+		</UIAniSet>
+		<Control Type="StaticText" Name="Button_HELP" Pos="4 34" Size="50 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="R" Font="HeaderFont_26" Color="ffffff00" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Button_Arrow" Pos="3 2" Size="50 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="бщ" Font="SubTitleFont_14" Color="ffff0000" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

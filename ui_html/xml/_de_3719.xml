@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>3719</itemKey>
+	<itemName>Kochnische für Fortgeschrittene</itemName>
+	<itemIcon>Crafting_Cooking_03.png</itemIcon>
+	<itemDesc>Ein hochwertiges Kochutensil.\n– Es kann in einem Wohnsitz angebracht werden.\n– Nachträglich hinzugefügte Zusatzeffekte</itemDesc>
+	<house type="9">
+		<item>
+			<id>4068</id>
+			<name>Polierter Stein</name>
+			<icon>00004068.png</icon>
+			<desc>Ein grober Stein für die Herstellung.\n\n– Gewinnung:Kann durch Mahlen von Groben Steinen gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4669</id>
+			<name>Nutzbares Kantholz</name>
+			<icon>00004669.png</icon>
+			<desc>Holz, das als Bauholz verwendet wird.\n\n– Gewinnung: Kann durch das Hacken von Holzscheiten eines beliebigen Baums gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Geschmolzener Eisensplitter</name>
+			<icon>00004051.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+</itemInfo>
+

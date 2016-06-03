@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9066</itemKey>
+	<itemName>Vinaigre</itemName>
+	<itemIcon>00009066.png</itemIcon>
+	<itemDesc>Un liquide aigre obtenu à partir de céréales ou de fruits fermentés.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Utilisation : salade de fruits et de légumes, vin aux herbes exotiques, légumes marinés dans le vinaigre, etc.</itemDesc>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Blé</name>
+			<icon>00007001.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Costa, à la plantation Moretti et à la plantation de blé Nord. Et peut être aussi obtenu en cultivantdes graines de blé dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Agent de fermentation</name>
+			<icon>00009005.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

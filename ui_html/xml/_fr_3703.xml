@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>3703</itemKey>
+	<itemName>Outil d&apos;alchimie avancé</itemName>
+	<itemIcon>Crafting_Alchemy_03.png</itemIcon>
+	<itemDesc>Un outil pouvant reconstruire la substance.\n- Vous pouvez l&apos;installer dans une résidence.\n- Des effets additionnels s&apos;ajoutent par la suite.</itemDesc>
+	<house type="9">
+		<item>
+			<id>4068</id>
+			<name>Pierre polie</name>
+			<icon>00004068.png</icon>
+			<desc>Une pierre brute utilisée en artisanat.\n\n- Obtention : s&apos;obtient en meulant de la pierre ordinaire.</desc>
+		</item>
+		<item>
+			<id>4669</id>
+			<name>Bois équarri utilisable</name>
+			<icon>00004669.png</icon>
+			<desc>Du bois nécessaire à la construction.\n\n- Obtention : s&apos;obtient en découpant les rondins des arbres de chaque région.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Fragment de fer fondu</name>
+			<icon>00004051.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de fer.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

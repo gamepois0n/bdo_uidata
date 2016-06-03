@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10885</itemKey>
+	<itemName>Ultimate Talis Helmet</itemName>
+	<itemIcon>00010821.png</itemIcon>
+	<itemDesc>Talis Helmet with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Talis Helmet</itemDesc>
+	<house type="5">
+		<item>
+			<id>4052</id>
+			<name>Iron Ingot</name>
+			<icon>00004052.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Melted Iron Shards. It requires knowledge of Heating: Beginner.\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6159</id>
+			<name>Fine Soft Hide</name>
+			<icon>00006159.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+		<item>
+			<id>4468</id>
+			<name>Red Crystal</name>
+			<icon>00004468.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Red Crystals found near Khuruto Cave.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10873</id>
+			<name>Talis Helmet of Iron Wall</name>
+			<icon>00010821.png</icon>
+			<desc>Energy of iron wall is contained within this Talis Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Helmet of Iron wall, Talis Helmet</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Grade 3 Armor Reform Stone</name>
+			<icon>00004911.png</icon>
+			<desc>A material used in 3rd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10821</id>
+			<name>Talis Helmet</name>
+			<icon>00010821.png</icon>
+			<desc>This armor has reduced defense in return for better flexibility. Mostly worn by nobles.\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10881</id>
+			<name>Talis Helmet of Intimidation</name>
+			<icon>00010821.png</icon>
+			<desc>Energy of intimidation is contained within this Talis Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Helmet of Duress, Talis Helmet</desc>
+		</item>
+		<item>
+			<id>10873</id>
+			<name>Talis Helmet of Iron Wall</name>
+			<icon>00010821.png</icon>
+			<desc>Energy of iron wall is contained within this Talis Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Helmet of Iron wall, Talis Helmet</desc>
+		</item>
+		<item>
+			<id>10877</id>
+			<name>Talis Helmet of Agility</name>
+			<icon>00010821.png</icon>
+			<desc>Energy of agility is contained within this Talis Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Talis Helmet of Agility, Talis Helmet</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

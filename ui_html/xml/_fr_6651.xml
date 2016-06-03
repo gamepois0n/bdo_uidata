@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6651</itemKey>
+	<itemName>Eau distillée</itemName>
+	<itemIcon>00006651.png</itemIcon>
+	<itemDesc>De l&apos;eau claire qui a été distillée.\n- Obtention : peut être obtenue en chauffant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau distillée sur un jardin augmentera de façon importante la quantité d&apos;eau du réservoir.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6653</id>
+			<name>Bouteille d&apos;eau du fleuve</name>
+			<icon>00006653.png</icon>
+			<desc>Une bouteille vide qui a été remplie d&apos;eau de rivière. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une rivière.\n\n※ Utiliser de l&apos;eau de rivière sur un jardin augmentera la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6654</id>
+			<name>Bouteille d&apos;eau trouble</name>
+			<icon>00006654.png</icon>
+			<desc>Une bouteille d&apos;eau trouble obtenue à partir d&apos;une source d&apos;eau boueuse. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une source d&apos;eau boueuse.\n\n※ Utiliser de l&apos;eau trouble sur un jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6655</id>
+			<name>Bouteille d&apos;eau pure</name>
+			<icon>00006655.png</icon>
+			<desc>Une bouteille vide qui a été remplie d&apos;eau claire. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une source d&apos;eau claire.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16903</id>
+			<name>Engrais organique</name>
+			<icon>00016901.png</icon>
+			<desc>Augmente la croissance des cultures alentours. Utiliser un engrais à proximité d&apos;un jardin réduit le temps de pousse des cultures.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

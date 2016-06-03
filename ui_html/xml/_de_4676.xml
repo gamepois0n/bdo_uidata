@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4676</itemKey>
+	<itemName>Weißzederbrett</itemName>
+	<itemIcon>00004676.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Weißzederholz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Weißzeder</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4608</id>
+			<name>Weißzederholz</name>
+			<icon>00004608.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Nördlichen Hochland von Mediah und im Elricschrein hergestellt werden. Kann außerdem durch Fällen von Weißzedern erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4677</id>
+			<name>Weißzederschichtholz</name>
+			<icon>00004677.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Weißzederholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

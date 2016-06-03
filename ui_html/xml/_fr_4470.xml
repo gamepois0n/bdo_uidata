@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4470</itemKey>
+	<itemName>Cristal noir</itemName>
+	<itemIcon>00004470.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux noirs bruts.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4410</id>
+			<name>Cristal noir brut</name>
+			<icon>00004410.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal noir brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près de la mine de fer abandonnée de Mediah.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10933</id>
+			<name>Casque de Grunil</name>
+			<icon>00010933.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10934</id>
+			<name>Armure de Grunil</name>
+			<icon>00010934.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10935</id>
+			<name>Gants de Grunil</name>
+			<icon>00010935.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10936</id>
+			<name>Chaussures de Grunil</name>
+			<icon>00010936.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55857</id>
+			<name>Amulette d&apos;autorité en cristal noir</name>
+			<icon>00055857.png</icon>
+			<desc>Un accessoire fait de cristal noir. Il est porté par ceux qui recherchent la puissance.</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Armure de Grunil</name>
+			<icon>00010934.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Casque de Grunil</name>
+			<icon>00010933.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Gants de Grunil du mur de fer</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil du mur de fer, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Armure de Grunil du mur de fer</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil du mur de fer, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Casque de Grunil du mur de fer</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil du mur de fer, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Chaussures de Grunil</name>
+			<icon>00010936.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Gants de Grunil</name>
+			<icon>00010935.png</icon>
+			<desc>Une armure conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10962</id>
+			<name>Armure de Grunil ultime</name>
+			<icon>00010934.png</icon>
+			<desc>Une armure de Grunil qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil du mur de fer, armure de Grunil d&apos;agilité, armure de Grunil d&apos;intimidation, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10961</id>
+			<name>Casque de Grunil ultime</name>
+			<icon>00010933.png</icon>
+			<desc>Un casque de Grunil qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil du mur de fer, casque de Grunil d&apos;agilité, casque de Grunil d&apos;intimidation, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Gants de Grunil d&apos;agilité</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil d&apos;agilité, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Armure de Grunil d&apos;agilité</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil d&apos;agilité, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Casque de Grunil d&apos;agilité</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil d&apos;agilité, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Chaussures de Grunil du mur de fer</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil du mur de fer, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Chaussures de Grunil ultimes</name>
+			<icon>00010936.png</icon>
+			<desc>Des chaussures de Grunil qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil du mur de fer, chaussures de Grunil d&apos;agilité, chaussures de Grunil d&apos;intimidation, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10963</id>
+			<name>Gants de Grunil ultimes</name>
+			<icon>00010935.png</icon>
+			<desc>Des gants de Grunil qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil du mur de fer, gants de Grunil d&apos;agilité, gants de Grunil d&apos;intimidation, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Chaussures de Grunil d&apos;intimidation</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil d&apos;intimidation, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Gants de Grunil d&apos;intimidation</name>
+			<icon>00010935.png</icon>
+			<desc>Ces gants de Grunil renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Grunil d&apos;intimidation, gants de Grunil</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Armure de Grunil d&apos;intimidation</name>
+			<icon>00010934.png</icon>
+			<desc>Cette armure de Grunil renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Grunil d&apos;intimidation, armure de Grunil</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Casque de Grunil d&apos;intimidation</name>
+			<icon>00010933.png</icon>
+			<desc>Ce casque de Grunil renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Grunil d&apos;intimidation, casque de Grunil</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Chaussures de Grunil d&apos;agilité</name>
+			<icon>00010936.png</icon>
+			<desc>Ces chaussures de Grunil renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Grunil d&apos;agilité, chaussures de Grunil</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 3</name>
+			<icon>00004911.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 3.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 3</name>
+			<icon>00004910.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 3.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

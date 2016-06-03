@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5961</itemKey>
+	<itemName>Trace of Violence</itemName>
+	<itemIcon>00005961.png</itemIcon>
+	<itemDesc>A material used for Crafting equipment.\nIt can be Excavated at Mansha Forest.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10012</id>
+			<name>Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A longsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10212</id>
+			<name>Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A longbow capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10412</id>
+			<name>Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>An amulet capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10612</id>
+			<name>Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>An axe capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13212</id>
+			<name>Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14412</id>
+			<name>Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A staff capable of reaching the highest potential of its kind.</desc>
+		</item>
+	</manufacture>
+	<node region="Mansha Forest - Excavation"/>
+	<makelist>
+		<item>
+			<id>14435</id>
+			<name>Ultimate Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A Kalis staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Kalis staff.\n\n- Restore Max Durability: Kalis Staff of Crimson Flame, Kalis Staff of Destruction, Kalis Staff of Temptation, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis Staff of Temptation</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Temptation, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis Staff of Destruction</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Destruction, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis Staff of Crimson Flame</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Crimson Flame, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>13235</id>
+			<name>Ultimate Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Kalis Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Crimson Flame, Kalis Shortsword of Destruction, Kalis Shortsword of Temptation, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Kalis Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Temptation, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Destruction, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Crimson Flame, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Kalis Axe of Crimson Flame</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Crimson Flame, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>An amulet capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10435</id>
+			<name>Ultimate Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>A Kalis Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Crimson Flame, Kalis Amulet of Destruction, Kalis Amulet of Temptation, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis Amulet of Temptation</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Temptation, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis Amulet of Destruction</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Destruction, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis Amulet of Crimson Flame</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Crimson Flame, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A staff capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Kalis Longsword of Destruction</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Destruction, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Kalis Longsword of Crimson Flame</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Crimson Flame, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A longsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10035</id>
+			<name>Ultimate Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A Kalis Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Crimson Flame, Kalis Longsword of Destruction, Kalis Longsword of Temptation, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Kalis Longsword of Temptation</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Temptation, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Ultimate Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A Kalis Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow of Destruction, Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis Longbow of Temptation</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis Longbow of Destruction</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Destruction, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis Longbow of Crimson Flame</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A longbow capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>An axe capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10635</id>
+			<name>Ultimate Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>A Kalis Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Crimson Flame, Kalis Axe of Destruction, Kalis Axe of Temptation, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Kalis Axe of Temptation</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Temptation, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Kalis Axe of Destruction</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Destruction, Kalis Axe</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

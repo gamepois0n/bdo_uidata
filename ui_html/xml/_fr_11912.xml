@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11912</itemKey>
+	<itemName>Boucles d&apos;oreille en topaze resplendissantes</itemName>
+	<itemIcon>00011912.png</itemIcon>
+	<itemDesc>Une boucle d&apos;oreille décorée d&apos;une topaze brillante.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11911</id>
+			<name>Boucles d&apos;oreille en topaze</name>
+			<icon>00011911.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;une topaze.</desc>
+		</item>
+		<item>
+			<id>4257</id>
+			<name>Fragment de platine fondu</name>
+			<icon>00004257.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de platine.</desc>
+		</item>
+		<item>
+			<id>4457</id>
+			<name>Topaze</name>
+			<icon>00004457.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une topaze brute.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11913</id>
+			<name>Boucles d&apos;oreille en topaze et or</name>
+			<icon>00011913.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;une topaze dorée.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

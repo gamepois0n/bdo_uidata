@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemmaking>
+	<nodeProduct>
+		<item key="4602" name="Ahornholz" icon="00004602.png"/>
+		<item key="5002" name="Ahornsaft" icon="00005002.png"/>
+		<item key="4609" name="Akazienholz" icon="00004609.png"/>
+		<item key="5013" name="Akaziensaft" icon="00005013.png"/>
+		<item key="55826" name="Alejandros besonderer Honig" icon="00055826.png"/>
+		<item key="7347" name="Aloe" icon="00007347.png"/>
+		<item key="5008" name="Alte Baumrinde" icon="00005008.png"/>
+		<item key="55798" name="Asrans Heubeutel" icon="00055798.png"/>
+		<item key="5401" name="Aurorakraut" icon="00005401.png"/>
+		<item key="55838" name="Balenosholzkiste" icon="00055838.png"/>
+		<item key="5801" name="Baumwolle" icon="00005801.png"/>
+		<item key="5851" name="Baumwollgarn" icon="00005851.png"/>
+		<item key="7601" name="Besondere Ewigkrautkiste" icon="00007506.png"/>
+		<item key="7591" name="Besondere Kartoffelkiste" icon="00007423.png"/>
+		<item key="7584" name="Besondere Kürbiskiste" icon="00007406.png"/>
+		<item key="7594" name="Besondere Maiskiste" icon="00007426.png"/>
+		<item key="7587" name="Besondere Olivenkiste" icon="00007409.png"/>
+		<item key="7600" name="Besondere Seidenhoniggraskiste" icon="00007505.png"/>
+		<item key="7586" name="Besondere Sonnenblumenkiste" icon="00007408.png"/>
+		<item key="55797" name="Besondere Spinnenfadenstoffkiste" icon="00055797.png"/>
+		<item key="7014" name="Besondere Süßkartoffel" icon="00007004.png"/>
+		<item key="7595" name="Besondere Süßkartoffelkiste" icon="00007427.png"/>
+		<item key="7589" name="Besondere Tomatenkiste" icon="00007411.png"/>
+		<item key="7585" name="Besondere Traubenkiste" icon="00007407.png"/>
+		<item key="7593" name="Besondere Weizenkiste" icon="00007425.png"/>
+		<item key="7605" name="Besondere Wolkenpilzkiste" icon="00007510.png"/>
+		<item key="7604" name="Besondere Zwergenpilzkiste" icon="00007509.png"/>
+		<item key="4604" name="Birkenholz" icon="00004604.png"/>
+		<item key="5004" name="Birkensaft" icon="00005004.png"/>
+		<item key="4002" name="Bleierz" icon="00004002.png"/>
+		<item key="5005" name="Blutast" icon="00005005.png"/>
+		<item key="5425" name="Büschel Seidenhoniggras" icon="00005425.png"/>
+		<item key="55840" name="Calpheonholzkiste" icon="00055840.png"/>
+		<item key="4406" name="Durchsichtiger Rohkristall" icon="00004406.png"/>
+		<item key="55861" name="Durchsichtiges Kristallamulett der Glückseligkeit" icon="00055861.png"/>
+		<item key="9064" name="Ei" icon="00009064.png"/>
+		<item key="4001" name="Eisenerz" icon="00004001.png"/>
+		<item key="55823" name="Emmas gegrillte Kräuterhühnerschenkel" icon="00055823.png"/>
+		<item key="4804" name="Erdenpulver" icon="00004804.png"/>
+		<item key="4601" name="Eschenholz" icon="00004601.png"/>
+		<item key="5001" name="Eschensaft" icon="00005001.png"/>
+		<item key="55829" name="Federpfeil des Spähers" icon="00055829.png"/>
+		<item key="55824" name="Fintos süße Apfelmarmelade" icon="00055824.png"/>
+		<item key="55800" name="Fischfangset von der Platschstätte" icon="00055800.png"/>
+		<item key="5802" name="Flachs" icon="00005802.png"/>
+		<item key="5852" name="Flachsfaden" icon="00005852.png"/>
+		<item key="4802" name="Flammenpulver" icon="00004802.png"/>
+		<item key="55827" name="Geheimer Kultistenbrief" icon="00055827.png"/>
+		<item key="5006" name="Geisterblatt" icon="00005006.png"/>
+		<item key="5414" name="Geistpilz" icon="00005414.png"/>
+		<item key="7002" name="Gerste" icon="00007002.png"/>
+		<item key="8268" name="Gestreifter Wels" icon="00008268.png"/>
+		<item key="8267" name="Goldmakrele" icon="00008267.png"/>
+		<item key="5433" name="Großer Geistpilz" icon="00005433.png"/>
+		<item key="5430" name="Großer Himmelspilz" icon="00005430.png"/>
+		<item key="5432" name="Großer Kaiserpilz" icon="00005432.png"/>
+		<item key="5427" name="Großer Pfeilpilz" icon="00005427.png"/>
+		<item key="5431" name="Großer Tigerpilz" icon="00005431.png"/>
+		<item key="5426" name="Großer Wahrsagerpilz" icon="00005426.png"/>
+		<item key="5429" name="Großer Wolkenpilz" icon="00005429.png"/>
+		<item key="5428" name="Großer Zwergenpilz" icon="00005428.png"/>
+		<item key="4409" name="Grüner Rohkristall" icon="00004409.png"/>
+		<item key="55825" name="Harpunenamulett der Insel Iliya" icon="00055825.png"/>
+		<item key="5421" name="Haufen Aurorakräuter" icon="00005421.png"/>
+		<item key="5411" name="Himmelspilz" icon="00005411.png"/>
+		<item key="7009" name="Hochwertige Süßkartoffel" icon="00007004.png"/>
+		<item key="55799" name="Holzpuppe aus Abun" icon="00055799.png"/>
+		<item key="7921" name="Hühnerfleisch" icon="00007921.png"/>
+		<item key="5413" name="Kaiserpilz" icon="00005413.png"/>
+		<item key="8211" name="Kalmar" icon="00008211.png"/>
+		<item key="7003" name="Kartoffel" icon="00007003.png"/>
+		<item key="55795" name="Kasulas Handwerkskiste" icon="00055795.png"/>
+		<item key="7702" name="Kochhonig" icon="00007702.png"/>
+		<item key="4007" name="Kohle" icon="00004007.png"/>
+		<item key="8213" name="Krebs" icon="00008213.png"/>
+		<item key="4003" name="Kupfererz" icon="00004003.png"/>
+		<item key="7306" name="Kürbis" icon="00007306.png"/>
+		<item key="55794" name="Magisches Gefäß aus Tarif" icon="00055794.png"/>
+		<item key="7005" name="Mais" icon="00007005.png"/>
+		<item key="55828" name="Milchiges Maisbrot" icon="00055828.png"/>
+		<item key="55796" name="Montas verbesserter Saatbeutel" icon="00055796.png"/>
+		<item key="5007" name="Mönchszweig" icon="00005007.png"/>
+		<item key="7309" name="Oliven" icon="00007309.png"/>
+		<item key="7312" name="Paprika" icon="00007312.png"/>
+		<item key="5408" name="Pfeilpilz" icon="00005408.png"/>
+		<item key="4603" name="Pinienholz" icon="00004603.png"/>
+		<item key="5003" name="Piniensaft" icon="00005003.png"/>
+		<item key="4203" name="Platinerz" icon="00004203.png"/>
+		<item key="8260" name="Plattfisch" icon="00008260.png"/>
+		<item key="4801" name="Pulver der Dunkelheit" icon="00004801.png"/>
+		<item key="4805" name="Pulver der Zeit" icon="00004805.png"/>
+		<item key="4407" name="Roher Schlammkristall" icon="00004407.png"/>
+		<item key="4204" name="Rohopal" icon="00004204.png"/>
+		<item key="4401" name="Rohrubin" icon="00004401.png"/>
+		<item key="5011" name="Rotbaumbeule" icon="00005011.png"/>
+		<item key="4408" name="Roter Rohkristall" icon="00004408.png"/>
+		<item key="55860" name="Rotes Kristallamulett der Liebenden" icon="00055860.png"/>
+		<item key="8264" name="Rundhering" icon="00008264.png"/>
+		<item key="4410" name="Schwarzer Rohkristall" icon="00004410.png"/>
+		<item key="5405" name="Seidenhoniggras" icon="00005405.png"/>
+		<item key="5402" name="Silberazalee" icon="00005402.png"/>
+		<item key="5422" name="Silberazaleenstrauß" icon="00005422.png"/>
+		<item key="8235" name="Skorpionfisch" icon="00008235.png"/>
+		<item key="4803" name="Spaltenpulver" icon="00004803.png"/>
+		<item key="5954" name="Spur der Erde" icon="00005954.png"/>
+		<item key="5961" name="Spur der Gewalt" icon="00005961.png"/>
+		<item key="5959" name="Spur der Jagd" icon="00005959.png"/>
+		<item key="5952" name="Spur der Verzweiflung" icon="00005952.png"/>
+		<item key="5956" name="Spur der Wildheit" icon="00005956.png"/>
+		<item key="5955" name="Spur des Aufstiegs" icon="00005955.png"/>
+		<item key="5951" name="Spur des Chaos" icon="00005951.png"/>
+		<item key="5958" name="Spur des Kampfes" icon="00005958.png"/>
+		<item key="5957" name="Spur des Ursprungs" icon="00005957.png"/>
+		<item key="5960" name="Spur des Waldes" icon="00005960.png"/>
+		<item key="8300" name="Steinbarsch" icon="00008300.png"/>
+		<item key="5854" name="Strickgarn" icon="00005854.png"/>
+		<item key="7004" name="Süßkartoffel" icon="00007004.png"/>
+		<item key="4606" name="Tannenholz" icon="00004606.png"/>
+		<item key="5009" name="Tannennadelsaft" icon="00005009.png"/>
+		<item key="5412" name="Tigerpilz" icon="00005412.png"/>
+		<item key="7307" name="Trauben" icon="00007307.png"/>
+		<item key="55972" name="Verpackter getrockneter Kaninchenfisch" icon="00055972.png"/>
+		<item key="5804" name="Vlies" icon="00005804.png"/>
+		<item key="5407" name="Wahrsagerpilz" icon="00005407.png"/>
+		<item key="7001" name="Weizen" icon="00007001.png"/>
+		<item key="4608" name="Weißzederholz" icon="00004608.png"/>
+		<item key="5012" name="Weißzedersaft" icon="00005012.png"/>
+		<item key="8266" name="Wittling" icon="00008266.png"/>
+		<item key="5410" name="Wolkenpilz" icon="00005410.png"/>
+		<item key="4607" name="Zedernholz" icon="00004607.png"/>
+		<item key="5010" name="Zedernsaft" icon="00005010.png"/>
+		<item key="7348" name="Zimt" icon="00007348.png"/>
+		<item key="4005" name="Zinkerz" icon="00004005.png"/>
+		<item key="4004" name="Zinnerz" icon="00004004.png"/>
+		<item key="5409" name="Zwergenpilz" icon="00005409.png"/>
+	</nodeProduct>
+	<fishing>
+		<item key="8226" name="Anglerfisch" icon="00008226.png"/>
+		<item key="8242" name="Arowana" icon="00008242.png"/>
+		<item key="8333" name="Atka-Makrele" icon="00008333.png"/>
+		<item key="8243" name="Ayu" icon="00008243.png"/>
+		<item key="8289" name="Barbe" icon="00008289.png"/>
+		<item key="8245" name="Barsch" icon="00008245.png"/>
+		<item key="8253" name="Bitterling" icon="00008253.png"/>
+		<item key="8265" name="Blaue Sprotte" icon="00008265.png"/>
+		<item key="8248" name="Blauer Sonnenbarsch" icon="00008248.png"/>
+		<item key="8273" name="Blaufisch" icon="00008273.png"/>
+		<item key="8254" name="Bleekerfisch" icon="00008254.png"/>
+		<item key="8305" name="Brachsenmakrele" icon="00008305.png"/>
+		<item key="8274" name="Brandungsbarsch" icon="00008274.png"/>
+		<item key="24837" name="Bronzekelch" icon="InHouse_Cultivate_Glass_Bronze_01.png"/>
+		<item key="8269" name="Butterfisch" icon="00008269.png"/>
+		<item key="8249" name="Bürschling" icon="00008249.png"/>
+		<item key="8252" name="Elritze" icon="00008252.png"/>
+		<item key="8286" name="Fadenflosser" icon="00008286.png"/>
+		<item key="8301" name="Falterfisch" icon="00008301.png"/>
+		<item key="8234" name="Feilenfisch" icon="00008234.png"/>
+		<item key="8299" name="Flaggenschwanz" icon="00008299.png"/>
+		<item key="8229" name="Fliegender Fisch" icon="00008229.png"/>
+		<item key="8204" name="Flunder" icon="00008204.png"/>
+		<item key="8220" name="Flussaal" icon="00008220.png"/>
+		<item key="8218" name="Forelle" icon="00008218.png"/>
+		<item key="8255" name="Gelbflossengroppe" icon="00008255.png"/>
+		<item key="8293" name="Gelbkopfwels" icon="00008293.png"/>
+		<item key="8268" name="Gestreifter Wels" icon="00008268.png"/>
+		<item key="8291" name="Glupschauge" icon="00008291.png"/>
+		<item key="8267" name="Goldmakrele" icon="00008267.png"/>
+		<item key="24838" name="Goldmünze der Burg Cron" icon="InHouse_Cultivate_Coin_Cron_01.png"/>
+		<item key="8298" name="Grenadiersardelle" icon="00008298.png"/>
+		<item key="8285" name="Großauge" icon="00008285.png"/>
+		<item key="8261" name="Grunzer" icon="00008261.png"/>
+		<item key="8259" name="Grünling" icon="00008259.png"/>
+		<item key="8262" name="Hering" icon="00008262.png"/>
+		<item key="8247" name="Häsling" icon="00008247.png"/>
+		<item key="8209" name="Jackmakrele" icon="00008209.png"/>
+		<item key="8211" name="Kalmar" icon="00008211.png"/>
+		<item key="8272" name="Kaninchenfisch" icon="00008272.png"/>
+		<item key="8217" name="Karausche" icon="00008217.png"/>
+		<item key="8216" name="Karpfen" icon="00008216.png"/>
+		<item key="8250" name="Kerbenkieferfisch" icon="00008250.png"/>
+		<item key="8271" name="Knabberfisch" icon="00008271.png"/>
+		<item key="8279" name="Knurrhahn" icon="00008279.png"/>
+		<item key="8213" name="Krebs" icon="00008213.png"/>
+		<item key="8208" name="Kugelfisch" icon="00008208.png"/>
+		<item key="8256" name="Königsmakrele" icon="00008256.png"/>
+		<item key="8205" name="Lachs" icon="00008205.png"/>
+		<item key="8246" name="Languste" icon="00008246.png"/>
+		<item key="8241" name="Lenok" icon="00008241.png"/>
+		<item key="8228" name="Makrele" icon="00008228.png"/>
+		<item key="8240" name="Mandarinfisch" icon="00008240.png"/>
+		<item key="8277" name="Maomao" icon="00008277.png"/>
+		<item key="8222" name="Masu-Lachs" icon="00008222.png"/>
+		<item key="8207" name="Meerbrasse" icon="00008207.png"/>
+		<item key="8236" name="Meeräsche" icon="00008236.png"/>
+		<item key="8329" name="Muräne" icon="00008329.png"/>
+		<item key="8276" name="Mönchsfisch" icon="00008276.png"/>
+		<item key="8212" name="Oktopus" icon="00008212.png"/>
+		<item key="8292" name="Pacu" icon="00008292.png"/>
+		<item key="8281" name="Petersfisch" icon="00008281.png"/>
+		<item key="8278" name="Pintado" icon="00008278.png"/>
+		<item key="8239" name="Piranha" icon="00008239.png"/>
+		<item key="8260" name="Plattfisch" icon="00008260.png"/>
+		<item key="8214" name="Qualle" icon="00008214.png"/>
+		<item key="8452" name="Quastenflosser" icon="00008452.png"/>
+		<item key="8288" name="Regenbogenkarpfen" icon="00008288.png"/>
+		<item key="24836" name="Riesiges Fischskelett" icon="InHouse_Cultivate_Bone_BigFish_01.png"/>
+		<item key="8231" name="Rochen" icon="00008231.png"/>
+		<item key="8295" name="Rosiger Bitterling" icon="00008295.png"/>
+		<item key="8283" name="Rotbarsch" icon="00008283.png"/>
+		<item key="8264" name="Rundhering" icon="00008264.png"/>
+		<item key="8296" name="Rundschwanzmakropode" icon="00008296.png"/>
+		<item key="8338" name="Sandaal" icon="00008338.png"/>
+		<item key="8282" name="Sandfisch" icon="00008282.png"/>
+		<item key="8263" name="Sardine" icon="00008263.png"/>
+		<item key="8304" name="Schachbrett-Junker" icon="00008304.png"/>
+		<item key="8251" name="Schlammfisch" icon="00008251.png"/>
+		<item key="8201" name="Schlammspringer" icon="00008201.png"/>
+		<item key="8221" name="Schlangenkopffisch" icon="00008221.png"/>
+		<item key="8275" name="Schwarzflossen-Beilfisch" icon="00008275.png"/>
+		<item key="8227" name="Schwertfisch" icon="00008227.png"/>
+		<item key="8232" name="Seepferdchen" icon="00008232.png"/>
+		<item key="8233" name="Seestern" icon="00008233.png"/>
+		<item key="8332" name="Seezunge" icon="00008332.png"/>
+		<item key="8337" name="Silberpampel" icon="00008337.png"/>
+		<item key="8235" name="Skorpionfisch" icon="00008235.png"/>
+		<item key="8290" name="Soho-Bitterling" icon="00008290.png"/>
+		<item key="8210" name="Stachelkopf" icon="00008210.png"/>
+		<item key="8206" name="Stachelmakrele" icon="00008206.png"/>
+		<item key="8300" name="Steinbarsch" icon="00008300.png"/>
+		<item key="8270" name="Steinschnapper" icon="00008270.png"/>
+		<item key="8203" name="Strumpfbandfisch" icon="00008203.png"/>
+		<item key="8237" name="Swiri" icon="00008237.png"/>
+		<item key="24840" name="Turbanschnecke" icon="InHouse_Cultivate_Sea_Shell_01.png"/>
+		<item key="8258" name="Umberfisch" icon="00008258.png"/>
+		<item key="8244" name="Wasserschildkröte" icon="00008244.png"/>
+		<item key="8219" name="Wels" icon="00008219.png"/>
+		<item key="8266" name="Wittling" icon="00008266.png"/>
+		<item key="8225" name="Wolfsbarsch" icon="00008225.png"/>
+		<item key="8284" name="Zackenbarsch" icon="00008284.png"/>
+	</fishing>
+	<alchemy>
+		<item key="699" name="Adleraugenelixier" icon="00000699.png"/>
+		<item key="726" name="Anglerelixier" icon="00000726.png"/>
+		<item key="724" name="Arbeiterelixier" icon="00000724.png"/>
+		<item key="696" name="Attentatselixier" icon="00000696.png"/>
+		<item key="722" name="Ausdauerelixier" icon="00000722.png"/>
+		<item key="6353" name="Blut des Clowns" icon="00006353.png"/>
+		<item key="6354" name="Blut des Sünders" icon="00006354.png"/>
+		<item key="6352" name="Blut des Tyrannen" icon="00006352.png"/>
+		<item key="6355" name="Blut des Weisen" icon="00006355.png"/>
+		<item key="6351" name="Blut eines legendären Biests" icon="00006351.png"/>
+		<item key="730" name="Blutstillungselixier" icon="00000730.png"/>
+		<item key="728" name="Brandlöscherelixier" icon="00000728.png"/>
+		<item key="681" name="Brutales Durchdringungselixier" icon="00000681.png"/>
+		<item key="719" name="Brutales Massakerelixier" icon="00000719.png"/>
+		<item key="666" name="Dornenelixier" icon="00000666.png"/>
+		<item key="680" name="Durchdringungselixier" icon="00000680.png"/>
+		<item key="4481" name="Edelsteinpolitur" icon="00004481.png"/>
+		<item key="705" name="Elixier der endlosen Wut" icon="00000705.png"/>
+		<item key="712" name="Elixier des Sensenmanns" icon="00000712.png"/>
+		<item key="703" name="Elixier des unbeugsamen Willens" icon="00000703.png"/>
+		<item key="673" name="Endlose-Raserei-Elixier" icon="00000673.png"/>
+		<item key="682" name="Energieelixier" icon="00000682.png"/>
+		<item key="727" name="Erfahrener-Angler-Elixier" icon="00000727.png"/>
+		<item key="725" name="Erfahrener-Arbeiter-Elixier" icon="00000725.png"/>
+		<item key="714" name="Erfahrungselixier" icon="00000714.png"/>
+		<item key="5212" name="Essenz der Magischen Kraft" icon="00005212.png"/>
+		<item key="5206" name="Essenz der Natur" icon="00005206.png"/>
+		<item key="5214" name="Essenz der Perfektion" icon="00005214.png"/>
+		<item key="5202" name="Essenz der Purpurnen Flamme" icon="00005202.png"/>
+		<item key="5208" name="Essenz der Sonne" icon="00005208.png"/>
+		<item key="5216" name="Essenz der Zerstörung" icon="00005216.png"/>
+		<item key="5204" name="Essenz des Überflusses" icon="00005204.png"/>
+		<item key="689" name="Fließender-Wind-Elixier" icon="00000689.png"/>
+		<item key="684" name="Flügelelixier" icon="00000684.png"/>
+		<item key="664" name="Freundschaftselixier" icon="00000664.png"/>
+		<item key="729" name="Gegenmittelelixier" icon="00000729.png"/>
+		<item key="690" name="Geschwindigkeitselixier" icon="00000690.png"/>
+		<item key="9733" name="Glanzpuder" icon="00009733.png"/>
+		<item key="721" name="Gnadenloses Himmelselixier" icon="00000721.png"/>
+		<item key="674" name="Goldklauenelixier" icon="00000674.png"/>
+		<item key="678" name="Halbmenschenjagdelixier" icon="00000678.png"/>
+		<item key="715" name="Hervorragendes Erfahrungselixier" icon="00000715.png"/>
+		<item key="720" name="Himmelselixier" icon="00000720.png"/>
+		<item key="685" name="Himmelsflügelelixier" icon="00000685.png"/>
+		<item key="691" name="Hochgeschwindigkeitselixier" icon="00000691.png"/>
+		<item key="711" name="Klare-Mentalität-Elixier" icon="00000711.png"/>
+		<item key="5301" name="Klarflüssiges Reagenz" icon="00005301.png"/>
+		<item key="700" name="Konzentrationselixier" icon="00000700.png"/>
+		<item key="708" name="Lebenselixier" icon="00000708.png"/>
+		<item key="6183" name="Lederversiegelung" icon="00006183.png"/>
+		<item key="15127" name="Magiekristall der Unendlichkeit – Absorbieren" icon="00045002.png"/>
+		<item key="15130" name="Magiekristall der Unendlichkeit – Abwärtsangriff" icon="00045004.png"/>
+		<item key="15116" name="Magiekristall der Unendlichkeit – Angriff" icon="00045031.png"/>
+		<item key="15113" name="Magiekristall der Unendlichkeit – Aufstieg" icon="00045023.png"/>
+		<item key="15136" name="Magiekristall der Unendlichkeit – Ausweichen" icon="00045012.png"/>
+		<item key="15135" name="Magiekristall der Unendlichkeit – Belagerung" icon="00045011.png"/>
+		<item key="15124" name="Magiekristall der Unendlichkeit – Beweglichkeit" icon="00045044.png"/>
+		<item key="15122" name="Magiekristall der Unendlichkeit – Einschüchterung" icon="00045042.png"/>
+		<item key="15115" name="Magiekristall der Unendlichkeit – Energie" icon="00045023.png"/>
+		<item key="15146" name="Magiekristall der Unendlichkeit – Energie" icon="00045021.png"/>
+		<item key="15125" name="Magiekristall der Unendlichkeit – Erfahrung" icon="00045044.png"/>
+		<item key="15121" name="Magiekristall der Unendlichkeit – Erinnerung" icon="00045041.png"/>
+		<item key="15128" name="Magiekristall der Unendlichkeit – Extraktion" icon="00045003.png"/>
+		<item key="15114" name="Magiekristall der Unendlichkeit – Fall" icon="00045022.png"/>
+		<item key="15149" name="Magiekristall der Unendlichkeit – Fernkampfangriff" icon="00045032.png"/>
+		<item key="15138" name="Magiekristall der Unendlichkeit – Fernkampfverteidigung" icon="00045014.png"/>
+		<item key="15108" name="Magiekristall der Unendlichkeit – Geduld" icon="00045013.png"/>
+		<item key="15111" name="Magiekristall der Unendlichkeit – Geschwindigkeit" icon="00045021.png"/>
+		<item key="15126" name="Magiekristall der Unendlichkeit – Haltbarkeit" icon="00045001.png"/>
+		<item key="15109" name="Magiekristall der Unendlichkeit – Heilung" icon="00045014.png"/>
+		<item key="15129" name="Magiekristall der Unendlichkeit – Hinterangriff" icon="00045003.png"/>
+		<item key="15134" name="Magiekristall der Unendlichkeit – Konterangriff" icon="00045005.png"/>
+		<item key="15107" name="Magiekristall der Unendlichkeit – Kraft" icon="00045012.png"/>
+		<item key="15132" name="Magiekristall der Unendlichkeit – Kritisch" icon="00045003.png"/>
+		<item key="15131" name="Magiekristall der Unendlichkeit – Luftangriff" icon="00045005.png"/>
+		<item key="15102" name="Magiekristall der Unendlichkeit – Macht" icon="00045002.png"/>
+		<item key="15150" name="Magiekristall der Unendlichkeit – Magieangriff" icon="00045033.png"/>
+		<item key="15139" name="Magiekristall der Unendlichkeit – Magieverteidigung" icon="00045015.png"/>
+		<item key="15103" name="Magiekristall der Unendlichkeit – Massaker" icon="00045003.png"/>
+		<item key="15104" name="Magiekristall der Unendlichkeit – Massaker" icon="00045004.png"/>
+		<item key="15105" name="Magiekristall der Unendlichkeit – Massaker" icon="00045005.png"/>
+		<item key="15148" name="Magiekristall der Unendlichkeit – Nahkampfangriff" icon="00045031.png"/>
+		<item key="15137" name="Magiekristall der Unendlichkeit – Nahkampfverteidigung" icon="00045013.png"/>
+		<item key="15119" name="Magiekristall der Unendlichkeit – Präzision" icon="00045032.png"/>
+		<item key="15101" name="Magiekristall der Unendlichkeit – Präzision" icon="00045001.png"/>
+		<item key="15110" name="Magiekristall der Unendlichkeit – Resonanz" icon="00045015.png"/>
+		<item key="15117" name="Magiekristall der Unendlichkeit – Robustheit" icon="00045032.png"/>
+		<item key="15106" name="Magiekristall der Unendlichkeit – Rüstung" icon="00045011.png"/>
+		<item key="15133" name="Magiekristall der Unendlichkeit – Schnellangriff" icon="00045004.png"/>
+		<item key="15123" name="Magiekristall der Unendlichkeit – Sichtweite" icon="00045043.png"/>
+		<item key="15112" name="Magiekristall der Unendlichkeit – Stahlhart" icon="00045022.png"/>
+		<item key="15120" name="Magiekristall der Unendlichkeit – Stärke" icon="00045033.png"/>
+		<item key="15118" name="Magiekristall der Unendlichkeit – Tapferkeit" icon="00045033.png"/>
+		<item key="15147" name="Magiekristall der Unendlichkeit – Untertauchen" icon="00045022.png"/>
+		<item key="718" name="Massakerelixier" icon="00000718.png"/>
+		<item key="670" name="Menschenjagdelixier" icon="00000670.png"/>
+		<item key="710" name="Mentalitätselixier" icon="00000710.png"/>
+		<item key="4076" name="Metall-Lösungsmittel" icon="00004076.png"/>
+		<item key="697" name="Meuchelelixier" icon="00000697.png"/>
+		<item key="669" name="Mächtiges Wiederbelebungselixier" icon="00000669.png"/>
+		<item key="671" name="Perfektes Menschenjagdelixier" icon="00000671.png"/>
+		<item key="5603" name="Pflanzliches Gift" icon="00005603.png"/>
+		<item key="5604" name="Pflanzliches Schießpulver" icon="00005604.png"/>
+		<item key="676" name="Plünderelixier" icon="00000676.png"/>
+		<item key="687" name="Qualentodelixier" icon="00000687.png"/>
+		<item key="672" name="Rasereielixier" icon="00000672.png"/>
+		<item key="5302" name="Reines Pulverreagenz" icon="00005302.png"/>
+		<item key="4684" name="Schichtholz-Härter" icon="00004684.png"/>
+		<item key="693" name="Schnellzauberelixier" icon="00000693.png"/>
+		<item key="694" name="Seehundelixier" icon="00000694.png"/>
+		<item key="713" name="Seelenmann-Elixier" icon="00000713.png"/>
+		<item key="695" name="Seewindhundelixier" icon="00000695.png"/>
+		<item key="667" name="Spitzdornelixier" icon="00000667.png"/>
+		<item key="717" name="Stahlharte-Verteidigung-Elixier" icon="00000717.png"/>
+		<item key="679" name="Starkes Halbmenschenjagdelixier" icon="00000679.png"/>
+		<item key="701" name="Starkes Konzentrationselixier" icon="00000701.png"/>
+		<item key="709" name="Starkes Lebenselixier" icon="00000709.png"/>
+		<item key="677" name="Starkes Plünderelixier" icon="00000677.png"/>
+		<item key="707" name="Starkes Widerstandselixier" icon="00000707.png"/>
+		<item key="686" name="Todeselixier" icon="00000686.png"/>
+		<item key="45201" name="Unvollkommener Alchemiestein der Zerstörung" icon="00045201.png"/>
+		<item key="45265" name="Unvollkommener Alchemiestein des Lebens" icon="00045265.png"/>
+		<item key="45233" name="Unvollkommener Alchemiestein des Schutzes" icon="00045233.png"/>
+		<item key="665" name="Verbessertes Freundschaftselixier" icon="00000665.png"/>
+		<item key="716" name="Verteidigungselixier" icon="00000716.png"/>
+		<item key="5210" name="Verzauberungsessenz" icon="00005210.png"/>
+		<item key="698" name="Wahrnehmungselixier" icon="00000698.png"/>
+		<item key="706" name="Widerstandselixier" icon="00000706.png"/>
+		<item key="668" name="Wiederbelebungselixier" icon="00000668.png"/>
+		<item key="702" name="Willenselixier" icon="00000702.png"/>
+		<item key="688" name="Windelixier" icon="00000688.png"/>
+		<item key="683" name="Wogende-Energie-Elixier" icon="00000683.png"/>
+		<item key="675" name="Wunderbares Goldklauenelixier" icon="00000675.png"/>
+		<item key="704" name="Wutelixier" icon="00000704.png"/>
+		<item key="692" name="Zauberelixier" icon="00000692.png"/>
+		<item key="9734" name="Zerbrochener Alchemiesteinsplitter" icon="00009734.png"/>
+		<item key="6605" name="Öl der Gelassenheit" icon="00006605.png"/>
+		<item key="6601" name="Öl der Regeneration" icon="00006601.png"/>
+		<item key="6602" name="Öl der Stürme" icon="00006602.png"/>
+		<item key="6603" name="Öl der Tapferkeit" icon="00006603.png"/>
+		<item key="6604" name="Öl der Verderbtheit" icon="00006604.png"/>
+		<item key="723" name="Überwältigendes Ausdauerelixier" icon="00000723.png"/>
+		<item key="761" name="낙인의 시약" icon="00000761.png"/>
+	</alchemy>
+	<cooking>
+		<item key="9204" name="Aloejoghurt" icon="00009204.png"/>
+		<item key="9205" name="Aloekeks" icon="00009205.png"/>
+		<item key="9270" name="Aromatee" icon="00009270.png"/>
+		<item key="9407" name="Backfisch" icon="00009407.png"/>
+		<item key="9601" name="Balenos-Spezialität" icon="00009601.png"/>
+		<item key="9601" name="Balenos-Spezialität" icon="00009601.png"/>
+		<item key="9601" name="Balenos-Spezialität" icon="00009601.png"/>
+		<item key="9601" name="Balenos-Spezialität" icon="00009601.png"/>
+		<item key="9211" name="Besonderer Karottensaft" icon="00009211.png"/>
+		<item key="9213" name="Bier" icon="00009213.png"/>
+		<item key="54018" name="Bio-Futter" icon="00054018.png"/>
+		<item key="9422" name="Blutpudding" icon="00009422.png"/>
+		<item key="9408" name="Borschtsch" icon="00009408.png"/>
+		<item key="9403" name="Bratvogel" icon="00009403.png"/>
+		<item key="9605" name="Calpheon-Spezialität" icon="00009605.png"/>
+		<item key="9605" name="Calpheon-Spezialität" icon="00009605.png"/>
+		<item key="9605" name="Calpheon-Spezialität" icon="00009605.png"/>
+		<item key="9605" name="Calpheon-Spezialität" icon="00009605.png"/>
+		<item key="9406" name="Echsenkebab" icon="00009406.png"/>
+		<item key="9412" name="Eingelegter Fisch" icon="00009412.png"/>
+		<item key="9202" name="Eingelegtes Gemüse" icon="00009202.png"/>
+		<item key="9066" name="Essig" icon="00009066.png"/>
+		<item key="9262" name="Exotischer Kräuterwein" icon="00009262.png"/>
+		<item key="9255" name="Feldsuppe" icon="00009255.png"/>
+		<item key="9208" name="Fischfilethappen" icon="00009208.png"/>
+		<item key="9423" name="Fischfiletsalat" icon="00009423.png"/>
+		<item key="9418" name="Fischsuppe" icon="00009418.png"/>
+		<item key="9414" name="Fleischeintopf" icon="00009414.png"/>
+		<item key="9404" name="Fleischkrokette" icon="00009404.png"/>
+		<item key="9416" name="Fleischpasta" icon="00009416.png"/>
+		<item key="9265" name="Fleischpastete" icon="00009265.png"/>
+		<item key="9426" name="Fleischpfanne" icon="00009426.png"/>
+		<item key="9415" name="Fleischstulle" icon="00009415.png"/>
+		<item key="9424" name="Fleischsuppe" icon="00009424.png"/>
+		<item key="9256" name="Frittiertes Gemüse" icon="00009256.png"/>
+		<item key="9257" name="Fruchtsaft" icon="00009257.png"/>
+		<item key="9411" name="Gedünstete Meeresfrüchte" icon="00009411.png"/>
+		<item key="9409" name="Gedünsteter Fisch" icon="00009409.png"/>
+		<item key="9405" name="Gedünstetes Vogelfleisch" icon="00009405.png"/>
+		<item key="9402" name="Gekochte Vogeleier" icon="00009402.png"/>
+		<item key="9209" name="Gemischte Beilagen" icon="00009209.png"/>
+		<item key="9241" name="Gemüsepfanne" icon="00009241.png"/>
+		<item key="9427" name="Grillwurst" icon="00009427.png"/>
+		<item key="54017" name="Gutes Futter" icon="00054017.png"/>
+		<item key="9261" name="Haferbrei" icon="00009261.png"/>
+		<item key="9210" name="Hochwertiger Karottensaft" icon="00009210.png"/>
+		<item key="9266" name="Honigwabenkeks" icon="00009266.png"/>
+		<item key="9206" name="Honigwein" icon="00009206.png"/>
+		<item key="9421" name="In Butter gebratene Meeresfrüchte" icon="00009421.png"/>
+		<item key="9631" name="Kriegsration für Ritter" icon="00009631.png"/>
+		<item key="9203" name="Käsegratin" icon="00009203.png"/>
+		<item key="9268" name="Käsekuchen" icon="00009268.png"/>
+		<item key="9057" name="Liköressenz" icon="00009057.png"/>
+		<item key="9425" name="Magerfleischsalat" icon="00009425.png"/>
+		<item key="9607" name="Mediah-Spezialität" icon="00009607.png"/>
+		<item key="9607" name="Mediah-Spezialität" icon="00009607.png"/>
+		<item key="9607" name="Mediah-Spezialität" icon="00009607.png"/>
+		<item key="9607" name="Mediah-Spezialität" icon="00009607.png"/>
+		<item key="9419" name="Meeresfrüchte-Pilz-Salat" icon="00009419.png"/>
+		<item key="9420" name="Meeresfrüchtepfanne" icon="00009420.png"/>
+		<item key="9260" name="Milchbrot" icon="00009260.png"/>
+		<item key="9263" name="Milchtee" icon="00009263.png"/>
+		<item key="9258" name="Obst- und Gemüsesalat" icon="00009258.png"/>
+		<item key="9264" name="Obstkuchen" icon="00009264.png"/>
+		<item key="9259" name="Obstpudding" icon="00009259.png"/>
+		<item key="9201" name="Obstwein" icon="00009201.png"/>
+		<item key="9269" name="Omelette" icon="00009269.png"/>
+		<item key="9413" name="Pasta mit Meeresfrüchten" icon="00009413.png"/>
+		<item key="9004" name="Rote Soße" icon="00009004.png"/>
+		<item key="9417" name="Räucherfischsteak" icon="00009417.png"/>
+		<item key="9006" name="Salatsoße" icon="00009006.png"/>
+		<item key="9267" name="Schinkenstulle" icon="00009267.png"/>
+		<item key="9603" name="Serendia-Spezialität" icon="00009603.png"/>
+		<item key="9603" name="Serendia-Spezialität" icon="00009603.png"/>
+		<item key="9603" name="Serendia-Spezialität" icon="00009603.png"/>
+		<item key="9603" name="Serendia-Spezialität" icon="00009603.png"/>
+		<item key="9401" name="Steak" icon="00009401.png"/>
+		<item key="9207" name="Suutei Tsai" icon="00009207.png"/>
+		<item key="9003" name="Weiße Soße" icon="00009003.png"/>
+		<item key="9410" name="Wüstenknödel" icon="00009410.png"/>
+	</cooking>
+	<manufacture>
+		<item key="4654" name="Ahornbrett" icon="00004654.png"/>
+		<item key="4655" name="Ahornschichtholz" icon="00004655.png"/>
+		<item key="4680" name="Akazienbrett" icon="00004680.png"/>
+		<item key="4681" name="Akazienschichtholz" icon="00004681.png"/>
+		<item key="16901" name="Anorganischer Dünger" icon="00016901.png"/>
+		<item key="6156" name="Ausgefallenes Fell" icon="00006156.png"/>
+		<item key="5851" name="Baumwollgarn" icon="00005851.png"/>
+		<item key="5855" name="Baumwollstoff" icon="00005855.png"/>
+		<item key="16903" name="Biodünger" icon="00016901.png"/>
+		<item key="4660" name="Birkenbrett" icon="00004660.png"/>
+		<item key="4661" name="Birkenschichtholz" icon="00004661.png"/>
+		<item key="4055" name="Bleibarren" icon="00004055.png"/>
+		<item key="4453" name="Blutrubin" icon="00004453.png"/>
+		<item key="4067" name="Bronzebarren" icon="00004067.png"/>
+		<item key="9063" name="Butter" icon="00009063.png"/>
+		<item key="6651" name="Destilliertes Wasser" icon="00006651.png"/>
+		<item key="4463" name="Diamant" icon="00004463.png"/>
+		<item key="6155" name="Dickes Fell" icon="00006155.png"/>
+		<item key="4466" name="Durchsichtiger Kristall" icon="00004466.png"/>
+		<item key="6154" name="Dünnes Leder" icon="00006154.png"/>
+		<item key="4052" name="Eisenbarren" icon="00004052.png"/>
+		<item key="7704" name="Erlesener Honig" icon="00007704.png"/>
+		<item key="4651" name="Eschenbrett" icon="00004651.png"/>
+		<item key="4652" name="Eschenschichtholz" icon="00004652.png"/>
+		<item key="6174" name="Exzellente Schmuckfeder" icon="00006174.png"/>
+		<item key="6173" name="Exzellente leichte Feder" icon="00006173.png"/>
+		<item key="6172" name="Exzellentes ausgefallenes Fell" icon="00006172.png"/>
+		<item key="6171" name="Exzellentes dickes Fell" icon="00006171.png"/>
+		<item key="6170" name="Exzellentes dünnes Leder" icon="00006170.png"/>
+		<item key="6169" name="Exzellentes hartes Leder" icon="00006169.png"/>
+		<item key="6168" name="Exzellentes robustes Leder" icon="00006168.png"/>
+		<item key="6167" name="Exzellentes weiches Leder" icon="00006167.png"/>
+		<item key="6166" name="Feine Schmuckfeder" icon="00006166.png"/>
+		<item key="6165" name="Feine leichte Feder" icon="00006165.png"/>
+		<item key="6164" name="Feines ausgefallenes Fell" icon="00006164.png"/>
+		<item key="6163" name="Feines dickes Fell" icon="00006163.png"/>
+		<item key="6162" name="Feines dünnes Leder" icon="00006162.png"/>
+		<item key="6161" name="Feines hartes Leder" icon="00006161.png"/>
+		<item key="6160" name="Feines robustes Leder" icon="00006160.png"/>
+		<item key="6159" name="Feines weiches Leder" icon="00006159.png"/>
+		<item key="566" name="Feldsaft" icon="00000566.png"/>
+		<item key="5852" name="Flachsfaden" icon="00005852.png"/>
+		<item key="5856" name="Flachsstoff" icon="00005856.png"/>
+		<item key="4265" name="Funkelnder Opal" icon="00004265.png"/>
+		<item key="578" name="Gefilterter Feldsaft" icon="00000572.png"/>
+		<item key="579" name="Gefilterter Kräutersaft" icon="00000573.png"/>
+		<item key="7102" name="Gerstenmehl" icon="00007102.png"/>
+		<item key="7202" name="Gerstenteig" icon="00007202.png"/>
+		<item key="4054" name="Geschmolzener Bleisplitter" icon="00004054.png"/>
+		<item key="4051" name="Geschmolzener Eisensplitter" icon="00004051.png"/>
+		<item key="4254" name="Geschmolzener Goldsplitter" icon="00004254.png"/>
+		<item key="4057" name="Geschmolzener Kupfersplitter" icon="00004057.png"/>
+		<item key="4257" name="Geschmolzener Platinsplitter" icon="00004257.png"/>
+		<item key="4251" name="Geschmolzener Silbersplitter" icon="00004251.png"/>
+		<item key="4063" name="Geschmolzener Zinksplitter" icon="00004063.png"/>
+		<item key="4060" name="Geschmolzener Zinnsplitter" icon="00004060.png"/>
+		<item key="6656" name="Gesäubertes Wasser" icon="00006656.png"/>
+		<item key="8633" name="Getrocknete Atka-Makrele" icon="00008600.png"/>
+		<item key="8589" name="Getrocknete Barbe" icon="00008589.png"/>
+		<item key="8565" name="Getrocknete Blaue Sprotte" icon="00008565.png"/>
+		<item key="8605" name="Getrocknete Brachsenmakrele" icon="00008605.png"/>
+		<item key="8552" name="Getrocknete Elritze" icon="00008552.png"/>
+		<item key="8504" name="Getrocknete Flunder" icon="00008504.png"/>
+		<item key="8518" name="Getrocknete Forelle" icon="00008518.png"/>
+		<item key="8555" name="Getrocknete Gelbflossengroppe" icon="00008555.png"/>
+		<item key="8567" name="Getrocknete Goldmakrele" icon="00008567.png"/>
+		<item key="8598" name="Getrocknete Grenadiersardelle" icon="00008598.png"/>
+		<item key="8509" name="Getrocknete Jackmakrele" icon="00008509.png"/>
+		<item key="8517" name="Getrocknete Karausche" icon="00008517.png"/>
+		<item key="8556" name="Getrocknete Königsmakrele" icon="00008556.png"/>
+		<item key="8546" name="Getrocknete Languste" icon="00008546.png"/>
+		<item key="8528" name="Getrocknete Makrele" icon="00008528.png"/>
+		<item key="8507" name="Getrocknete Meerbrasse" icon="00008507.png"/>
+		<item key="8536" name="Getrocknete Meeräsche" icon="00008536.png"/>
+		<item key="8515" name="Getrocknete Miesmuschel" icon="00008515.png"/>
+		<item key="8629" name="Getrocknete Muräne" icon="00008596.png"/>
+		<item key="8514" name="Getrocknete Qualle" icon="00008514.png"/>
+		<item key="8596" name="Getrocknete Rundschwanzmakropode" icon="00008596.png"/>
+		<item key="8563" name="Getrocknete Sardine" icon="00008563.png"/>
+		<item key="8632" name="Getrocknete Seezunge" icon="00008599.png"/>
+		<item key="8506" name="Getrocknete Stachelmakrele" icon="00008506.png"/>
+		<item key="8594" name="Getrocknete Stinte" icon="00008594.png"/>
+		<item key="8544" name="Getrocknete Wasserschildkröte" icon="00008544.png"/>
+		<item key="8597" name="Getrocknete Äsche" icon="00008597.png"/>
+		<item key="8602" name="Getrockneter Anemonenfisch" icon="00008602.png"/>
+		<item key="8526" name="Getrockneter Anglerfisch" icon="00008526.png"/>
+		<item key="8542" name="Getrockneter Arowana" icon="00008542.png"/>
+		<item key="8543" name="Getrockneter Ayu" icon="00008543.png"/>
+		<item key="8545" name="Getrockneter Barsch" icon="00008545.png"/>
+		<item key="8553" name="Getrockneter Bitterling" icon="00008553.png"/>
+		<item key="8548" name="Getrockneter Blauer Sonnenbarsch" icon="00008548.png"/>
+		<item key="8573" name="Getrockneter Blaufisch" icon="00008573.png"/>
+		<item key="8603" name="Getrockneter Blautang" icon="00008603.png"/>
+		<item key="8554" name="Getrockneter Bleekerfisch" icon="00008554.png"/>
+		<item key="8574" name="Getrockneter Brandungsbarsch" icon="00008574.png"/>
+		<item key="8569" name="Getrockneter Butterfisch" icon="00008569.png"/>
+		<item key="8549" name="Getrockneter Bürschling" icon="00008549.png"/>
+		<item key="8530" name="Getrockneter Echter Bonito" icon="00008530.png"/>
+		<item key="8586" name="Getrockneter Fadenflosser" icon="00008586.png"/>
+		<item key="8601" name="Getrockneter Falterfisch" icon="00008601.png"/>
+		<item key="8534" name="Getrockneter Feilenfisch" icon="00008534.png"/>
+		<item key="8599" name="Getrockneter Flaggenschwanz" icon="00008599.png"/>
+		<item key="8529" name="Getrockneter Fliegender Fisch" icon="00008529.png"/>
+		<item key="8520" name="Getrockneter Flussaal" icon="00008520.png"/>
+		<item key="8523" name="Getrockneter Flösselhecht" icon="00008523.png"/>
+		<item key="8593" name="Getrockneter Gelbkopfwels" icon="00008593.png"/>
+		<item key="8568" name="Getrockneter Gestreifter Wels" icon="00008568.png"/>
+		<item key="8524" name="Getrockneter Gotteslachs" icon="00008524.png"/>
+		<item key="8561" name="Getrockneter Grunzer" icon="00008561.png"/>
+		<item key="8559" name="Getrockneter Grünling" icon="00008559.png"/>
+		<item key="8562" name="Getrockneter Hering" icon="00008562.png"/>
+		<item key="8636" name="Getrockneter Hornfisch" icon="00008603.png"/>
+		<item key="8547" name="Getrockneter Häsling" icon="00008547.png"/>
+		<item key="8631" name="Getrockneter Igelfisch" icon="00008598.png"/>
+		<item key="8511" name="Getrockneter Kalmar" icon="00008511.png"/>
+		<item key="8572" name="Getrockneter Kaninchenfisch" icon="00008572.png"/>
+		<item key="8516" name="Getrockneter Karpfen" icon="00008516.png"/>
+		<item key="8550" name="Getrockneter Kerbenkieferfisch" icon="00008550.png"/>
+		<item key="8571" name="Getrockneter Knabberfisch" icon="00008571.png"/>
+		<item key="8579" name="Getrockneter Knurrhahn" icon="00008579.png"/>
+		<item key="8513" name="Getrockneter Krebs" icon="00008513.png"/>
+		<item key="8508" name="Getrockneter Kugelfisch" icon="00008508.png"/>
+		<item key="8505" name="Getrockneter Lachs" icon="00008505.png"/>
+		<item key="8587" name="Getrockneter Lederkarpfen" icon="00008587.png"/>
+		<item key="8541" name="Getrockneter Lenok" icon="00008541.png"/>
+		<item key="8635" name="Getrockneter Makrelenhecht" icon="00008602.png"/>
+		<item key="8540" name="Getrockneter Mandarinfisch" icon="00008540.png"/>
+		<item key="8577" name="Getrockneter Maomao" icon="00008577.png"/>
+		<item key="8522" name="Getrockneter Masu-Lachs" icon="00008522.png"/>
+		<item key="8557" name="Getrockneter Meeraal" icon="00008557.png"/>
+		<item key="8576" name="Getrockneter Mönchsfisch" icon="00008576.png"/>
+		<item key="8512" name="Getrockneter Oktopus" icon="00008512.png"/>
+		<item key="8592" name="Getrockneter Pacu" icon="00008592.png"/>
+		<item key="8581" name="Getrockneter Petersfisch" icon="00008581.png"/>
+		<item key="8578" name="Getrockneter Pintado" icon="00008578.png"/>
+		<item key="8539" name="Getrockneter Piranha" icon="00008539.png"/>
+		<item key="8560" name="Getrockneter Plattfisch" icon="00008560.png"/>
+		<item key="8588" name="Getrockneter Regenbogenkarpfen" icon="00008588.png"/>
+		<item key="8531" name="Getrockneter Rochen" icon="00008531.png"/>
+		<item key="8595" name="Getrockneter Rosiger Bitterling" icon="00008595.png"/>
+		<item key="8583" name="Getrockneter Rotbarsch" icon="00008583.png"/>
+		<item key="8564" name="Getrockneter Rundhering" icon="00008564.png"/>
+		<item key="8638" name="Getrockneter Sandaal" icon="00008605.png"/>
+		<item key="8582" name="Getrockneter Sandfisch" icon="00008582.png"/>
+		<item key="8604" name="Getrockneter Schachbrett-Junker" icon="00008604.png"/>
+		<item key="8551" name="Getrockneter Schlammfisch" icon="00008551.png"/>
+		<item key="8501" name="Getrockneter Schlammspringer" icon="00008501.png"/>
+		<item key="8521" name="Getrockneter Schlangenkopffisch" icon="00008521.png"/>
+		<item key="8575" name="Getrockneter Schwarzflossen-Beilfisch" icon="00008575.png"/>
+		<item key="8527" name="Getrockneter Schwertfisch" icon="00008527.png"/>
+		<item key="8533" name="Getrockneter Seestern" icon="00008533.png"/>
+		<item key="8637" name="Getrockneter Silberpampel" icon="00008604.png"/>
+		<item key="8535" name="Getrockneter Skorpionfisch" icon="00008535.png"/>
+		<item key="8590" name="Getrockneter Soho-Bitterling" icon="00008590.png"/>
+		<item key="8510" name="Getrockneter Stachelkopf" icon="00008510.png"/>
+		<item key="8600" name="Getrockneter Steinbarsch" icon="00008600.png"/>
+		<item key="8570" name="Getrockneter Steinschnapper" icon="00008570.png"/>
+		<item key="8503" name="Getrockneter Strumpfbandfisch" icon="00008503.png"/>
+		<item key="8538" name="Getrockneter Stör" icon="00008538.png"/>
+		<item key="8537" name="Getrockneter Swiri" icon="00008537.png"/>
+		<item key="8502" name="Getrockneter Thunfisch" icon="00008502.png"/>
+		<item key="8634" name="Getrockneter Tintenfisch" icon="00008601.png"/>
+		<item key="8630" name="Getrockneter Torpedobarsch" icon="00008597.png"/>
+		<item key="8558" name="Getrockneter Umberfisch" icon="00008558.png"/>
+		<item key="8519" name="Getrockneter Wels" icon="00008519.png"/>
+		<item key="8566" name="Getrockneter Wittling" icon="00008566.png"/>
+		<item key="8525" name="Getrockneter Wolfsbarsch" icon="00008525.png"/>
+		<item key="8584" name="Getrockneter Zackenbarsch" icon="00008584.png"/>
+		<item key="8591" name="Getrocknetes Glupschauge" icon="00008591.png"/>
+		<item key="8585" name="Getrocknetes Großauge" icon="00008585.png"/>
+		<item key="8532" name="Getrocknetes Seepferdchen" icon="00008532.png"/>
+		<item key="4464" name="Glänzender Diamant" icon="00004464.png"/>
+		<item key="4452" name="Glänzender Rubin" icon="00004452.png"/>
+		<item key="4455" name="Glänzender Saphir" icon="00004455.png"/>
+		<item key="4461" name="Glänzender Smaragd" icon="00004461.png"/>
+		<item key="4458" name="Glänzender Topas" icon="00004458.png"/>
+		<item key="4255" name="Goldbarren" icon="00004255.png"/>
+		<item key="4459" name="Goldtopas" icon="00004459.png"/>
+		<item key="4469" name="Grüner Kristall" icon="00004469.png"/>
+		<item key="6153" name="Hartes Leder" icon="00006153.png"/>
+		<item key="4261" name="Heilstein" icon="00004261.png"/>
+		<item key="568" name="Hochkonzentrierter Feldsaft" icon="00000568.png"/>
+		<item key="571" name="Hochkonzentrierter Kräutersaft" icon="00000571.png"/>
+		<item key="7703" name="Hochwertiger Kochhonig" icon="00007703.png"/>
+		<item key="7919" name="Hochwertiges Trockenfleisch" icon="00007919.png"/>
+		<item key="5602" name="Insektenverdauender Pflanzensaft" icon="00005602.png"/>
+		<item key="7103" name="Kartoffelmehl" icon="00007103.png"/>
+		<item key="7203" name="Kartoffelteig" icon="00007203.png"/>
+		<item key="7702" name="Kochhonig" icon="00007702.png"/>
+		<item key="567" name="Konzentrierter Feldsaft" icon="00000567.png"/>
+		<item key="570" name="Konzentrierter Kräutersaft" icon="00000570.png"/>
+		<item key="15635" name="Kristall vom Roten Schlachtfeld: Anmut" icon="00015635.png"/>
+		<item key="15638" name="Kristall vom Roten Schlachtfeld: Carmae" icon="00015638.png"/>
+		<item key="15641" name="Kristall vom Roten Schlachtfeld: Geschwindigkeit" icon="00015637.png"/>
+		<item key="15634" name="Kristall vom Roten Schlachtfeld: Harsha" icon="00015634.png"/>
+		<item key="15637" name="Kristall vom Roten Schlachtfeld: Hysterie" icon="00015637.png"/>
+		<item key="15639" name="Kristall vom Roten Schlachtfeld: Macht" icon="00015638.png"/>
+		<item key="15640" name="Kristall vom Roten Schlachtfeld: Stahlhart" icon="00015637.png"/>
+		<item key="15636" name="Kristall vom Roten Schlachtfeld: Viper" icon="00015636.png"/>
+		<item key="569" name="Kräutersaft" icon="00000569.png"/>
+		<item key="4058" name="Kupferbarren" icon="00004058.png"/>
+		<item key="9062" name="Käse" icon="00009062.png"/>
+		<item key="519" name="LP-Trank (Groß)" icon="00000519.png"/>
+		<item key="518" name="LP-Trank (Mittel)" icon="00000518.png"/>
+		<item key="6157" name="Leichte Feder" icon="00006157.png"/>
+		<item key="522" name="MP-Trank (Groß)" icon="00000522.png"/>
+		<item key="521" name="MP-Trank (Mittel)" icon="00000521.png"/>
+		<item key="7105" name="Maismehl" icon="00007105.png"/>
+		<item key="7205" name="Maisteig" icon="00007205.png"/>
+		<item key="4066" name="Messingbarren" icon="00004066.png"/>
+		<item key="4266" name="Mondschein-Opal" icon="00004266.png"/>
+		<item key="16902" name="Nebenproduktdünger" icon="00016901.png"/>
+		<item key="4669" name="Nutzbares Kantholz" icon="00004669.png"/>
+		<item key="4456" name="Ozeansaphir" icon="00004456.png"/>
+		<item key="4657" name="Pinienbrett" icon="00004657.png"/>
+		<item key="4658" name="Pinienschichtholz" icon="00004658.png"/>
+		<item key="4258" name="Platinbarren" icon="00004258.png"/>
+		<item key="4260" name="Polierter Opal" icon="00004260.png"/>
+		<item key="4068" name="Polierter Stein" icon="00004068.png"/>
+		<item key="5601" name="Pulver der Insektenfressenden Pflanze" icon="00005601.png"/>
+		<item key="4056" name="Reiner Bleikristall" icon="00004056.png"/>
+		<item key="4053" name="Reiner Eisenkristall" icon="00004053.png"/>
+		<item key="4256" name="Reiner Goldkristall" icon="00004256.png"/>
+		<item key="4059" name="Reiner Kupferkristall" icon="00004059.png"/>
+		<item key="4259" name="Reiner Platinkristall" icon="00004259.png"/>
+		<item key="4253" name="Reiner Silberkristall" icon="00004253.png"/>
+		<item key="4065" name="Reiner Zinkkristall" icon="00004065.png"/>
+		<item key="4062" name="Reiner Zinnkristall" icon="00004062.png"/>
+		<item key="6152" name="Robustes Leder" icon="00006152.png"/>
+		<item key="15633" name="Roter Geistkristall" icon="00015633.png"/>
+		<item key="4468" name="Roter Kristall" icon="00004468.png"/>
+		<item key="4451" name="Rubin" icon="00004451.png"/>
+		<item key="9061" name="Sahne" icon="00009061.png"/>
+		<item key="9001" name="Salz" icon="00009001.png"/>
+		<item key="4454" name="Saphir" icon="00004454.png"/>
+		<item key="4467" name="Schlammkristall" icon="00004467.png"/>
+		<item key="6158" name="Schmuckfeder" icon="00006158.png"/>
+		<item key="4470" name="Schwarzkristall" icon="00004470.png"/>
+		<item key="4901" name="Schwarzsteinpulver" icon="00004901.png"/>
+		<item key="4902" name="Schwemmgold" icon="00004902.png"/>
+		<item key="5857" name="Seide" icon="00005857.png"/>
+		<item key="5853" name="Seidenfaden" icon="00005853.png"/>
+		<item key="7920" name="Seltenes Trockenfleisch" icon="00007920.png"/>
+		<item key="4252" name="Silberbarren" icon="00004252.png"/>
+		<item key="4460" name="Smaragd" icon="00004460.png"/>
+		<item key="9008" name="Sonnengetrocknetes Salz" icon="00009008.png"/>
+		<item key="5961" name="Spur der Gewalt" icon="00005961.png"/>
+		<item key="5952" name="Spur der Verzweiflung" icon="00005952.png"/>
+		<item key="5956" name="Spur der Wildheit" icon="00005956.png"/>
+		<item key="5955" name="Spur des Aufstiegs" icon="00005955.png"/>
+		<item key="5958" name="Spur des Kampfes" icon="00005958.png"/>
+		<item key="5962" name="Spur des Todes" icon="00005962.png"/>
+		<item key="4656" name="Stabiles Ahornschichtholz" icon="00004656.png"/>
+		<item key="4682" name="Stabiles Akazienschichtholz" icon="00004682.png"/>
+		<item key="4662" name="Stabiles Birkenschichtholz" icon="00004662.png"/>
+		<item key="4653" name="Stabiles Eschenschichtholz" icon="00004653.png"/>
+		<item key="4659" name="Stabiles Pinienschichtholz" icon="00004659.png"/>
+		<item key="4665" name="Stabiles Tannenschichtholz" icon="00004665.png"/>
+		<item key="4678" name="Stabiles Weißzederschichtholz" icon="00004678.png"/>
+		<item key="4668" name="Stabiles Zedernschichtholz" icon="00004668.png"/>
+		<item key="4077" name="Stahl" icon="00004077.png"/>
+		<item key="4465" name="Sterndiamant" icon="00004465.png"/>
+		<item key="7918" name="Stinkendes Trockenfleisch" icon="00007918.png"/>
+		<item key="5854" name="Strickgarn" icon="00005854.png"/>
+		<item key="7104" name="Süßkartoffelmehl" icon="00007104.png"/>
+		<item key="7204" name="Süßkartoffelteig" icon="00007204.png"/>
+		<item key="4663" name="Tannenbrett" icon="00004663.png"/>
+		<item key="4664" name="Tannenschichtholz" icon="00004664.png"/>
+		<item key="4457" name="Topas" icon="00004457.png"/>
+		<item key="4070" name="Verarbeitete Kohle" icon="00004070.png"/>
+		<item key="4462" name="Waldsmaragd" icon="00004462.png"/>
+		<item key="6151" name="Weiches Leder" icon="00006151.png"/>
+		<item key="7101" name="Weizenmehl" icon="00007101.png"/>
+		<item key="7201" name="Weizenteig" icon="00007201.png"/>
+		<item key="4676" name="Weißzederbrett" icon="00004676.png"/>
+		<item key="4677" name="Weißzederschichtholz" icon="00004677.png"/>
+		<item key="5858" name="Wolle" icon="00005858.png"/>
+		<item key="4666" name="Zedernbrett" icon="00004666.png"/>
+		<item key="4667" name="Zedernschichtholz" icon="00004667.png"/>
+		<item key="4064" name="Zinkbarren" icon="00004064.png"/>
+		<item key="4061" name="Zinnbarren" icon="00004061.png"/>
+		<item key="54003" name="Zuckerwürfel" icon="00054003.png"/>
+	</manufacture>
+	<houseCraft>
+		<item key="53707" name="Abzeichen für Adelswagen" icon="00053609.png"/>
+		<item key="53705" name="Abzeichen für Handelswagen" icon="00053610.png"/>
+		<item key="53704" name="Abzeichen für Hofwagen" icon="00053610.png"/>
+		<item key="53706" name="Abzeichen für Händlerwagen" icon="00053610.png"/>
+		<item key="53702" name="Abzeichen für Robusten Wagen" icon="00053608.png"/>
+		<item key="53701" name="Abzeichen für Schäbigen Wagen" icon="00053607.png"/>
+		<item key="53703" name="Abzeichen für Weißen Wagen" icon="00053609.png"/>
+		<item key="10811" name="Agerian-Handschuhe" icon="00010811.png"/>
+		<item key="10831" name="Agerian-Handschuhe der Beweglichkeit" icon="00010811.png"/>
+		<item key="10835" name="Agerian-Handschuhe der Einschüchterung" icon="00010811.png"/>
+		<item key="10827" name="Agerian-Handschuhe der Eisenmauer" icon="00010811.png"/>
+		<item key="10809" name="Agerian-Helm" icon="00010809.png"/>
+		<item key="10829" name="Agerian-Helm der Beweglichkeit" icon="00010809.png"/>
+		<item key="10833" name="Agerian-Helm der Einschüchterung" icon="00010809.png"/>
+		<item key="10825" name="Agerian-Helm der Eisenmauer" icon="00010809.png"/>
+		<item key="10810" name="Agerian-Rüstung" icon="00010810.png"/>
+		<item key="10830" name="Agerian-Rüstung der Beweglichkeit" icon="00010810.png"/>
+		<item key="10834" name="Agerian-Rüstung der Einschüchterung" icon="00010810.png"/>
+		<item key="10826" name="Agerian-Rüstung der Eisenmauer" icon="00010810.png"/>
+		<item key="10812" name="Agerian-Schuhe" icon="00010812.png"/>
+		<item key="10832" name="Agerian-Schuhe der Beweglichkeit" icon="00010812.png"/>
+		<item key="10836" name="Agerian-Schuhe der Einschüchterung" icon="00010812.png"/>
+		<item key="10828" name="Agerian-Schuhe der Eisenmauer" icon="00010812.png"/>
+		<item key="2810" name="Ahornbesetzter Bienenwachs-Kronleuchter (Tageslicht)" icon="InHouse_X_DPC_Chandelier_05_on_light.png"/>
+		<item key="16168" name="Ahornholzfloß" icon="00016168.png"/>
+		<item key="55831" name="Ahornholzkiste" icon="00055831.png"/>
+		<item key="4655" name="Ahornschichtholz" icon="00004655.png"/>
+		<item key="55837" name="Akazienholzkiste" icon="00055837.png"/>
+		<item key="4681" name="Akazienschichtholz" icon="00004681.png"/>
+		<item key="3701" name="Alchemietisch" icon="Crafting_Alchemy_01.png"/>
+		<item key="3703" name="Alchemietisch für Fortgeschrittene" icon="Crafting_Alchemy_03.png"/>
+		<item key="3702" name="Alchemietisch für Laien" icon="Crafting_Alchemy_02.png"/>
+		<item key="16150" name="Alte Angelrute" icon="00016150.png"/>
+		<item key="49403" name="Altinova-Fährendekoration" icon="00049403.png"/>
+		<item key="3705" name="Amboss" icon="Crafting_Anvil_01.png"/>
+		<item key="16141" name="Angelrute" icon="00016141.png"/>
+		<item key="10605" name="Aswell-Axt" icon="00010605.png"/>
+		<item key="10620" name="Aswell-Axt der Purpurnen Flamme" icon="00010605.png"/>
+		<item key="10622" name="Aswell-Axt der Versuchung" icon="00010605.png"/>
+		<item key="10621" name="Aswell-Axt der Zerstörung" icon="00010605.png"/>
+		<item key="10405" name="Aswell-Fokusreif" icon="00010405.png"/>
+		<item key="10420" name="Aswell-Fokusreif der Purpurnen Flamme" icon="00010405.png"/>
+		<item key="10422" name="Aswell-Fokusreif der Versuchung" icon="00010405.png"/>
+		<item key="10421" name="Aswell-Fokusreif der Zerstörung" icon="00010405.png"/>
+		<item key="13205" name="Aswell-Kurzschwert" icon="00013203.png"/>
+		<item key="13220" name="Aswell-Kurzschwert der Purpurnen Flamme" icon="00013203.png"/>
+		<item key="13222" name="Aswell-Kurzschwert der Versuchung" icon="00013203.png"/>
+		<item key="13221" name="Aswell-Kurzschwert der Zerstörung" icon="00013203.png"/>
+		<item key="10205" name="Aswell-Langbogen" icon="00010205.png"/>
+		<item key="10220" name="Aswell-Langbogen der Purpurnen Flamme" icon="00010205.png"/>
+		<item key="10222" name="Aswell-Langbogen der Versuchung" icon="00010205.png"/>
+		<item key="10221" name="Aswell-Langbogen der Zerstörung" icon="00010205.png"/>
+		<item key="10005" name="Aswell-Langschwert" icon="00010005.png"/>
+		<item key="10020" name="Aswell-Langschwert der Purpurnen Flamme" icon="00010005.png"/>
+		<item key="10022" name="Aswell-Langschwert der Versuchung" icon="00010005.png"/>
+		<item key="10021" name="Aswell-Langschwert der Zerstörung" icon="00010005.png"/>
+		<item key="14405" name="Aswell-Stab" icon="00014405.png"/>
+		<item key="14420" name="Aswell-Stab der Purpurnen Flamme" icon="00014405.png"/>
+		<item key="14422" name="Aswell-Stab der Versuchung" icon="00014405.png"/>
+		<item key="14421" name="Aswell-Stab der Zerstörung" icon="00014405.png"/>
+		<item key="7501" name="Aurorakrautkiste" icon="00007501.png"/>
+		<item key="24207" name="Ausgefallene Saphirvase" icon="Pot_Base_52.png"/>
+		<item key="24209" name="Ausgefallener Topaskessel" icon="Pot_Base_53.png"/>
+		<item key="10103" name="Axion-Schild" icon="00010103.png"/>
+		<item key="10110" name="Axion-Schild der Purpurnen Flamme" icon="00010103.png"/>
+		<item key="10112" name="Axion-Schild der Versuchung" icon="00010103.png"/>
+		<item key="10111" name="Axion-Schild der Zerstörung" icon="00010103.png"/>
+		<item key="16162" name="Balenos-Angelrute" icon="00016162.png"/>
+		<item key="55838" name="Balenosholzkiste" icon="00055838.png"/>
+		<item key="10613" name="Baris-Axt" icon="00010613.png"/>
+		<item key="10636" name="Baris-Axt der Purpurnen Flamme" icon="00010613.png"/>
+		<item key="10638" name="Baris-Axt der Versuchung" icon="00010613.png"/>
+		<item key="10637" name="Baris-Axt der Zerstörung" icon="00010613.png"/>
+		<item key="10413" name="Baris-Fokusreif" icon="00010413.png"/>
+		<item key="10436" name="Baris-Fokusreif der Purpurnen Flamme" icon="00010413.png"/>
+		<item key="10438" name="Baris-Fokusreif der Versuchung" icon="00010413.png"/>
+		<item key="10437" name="Baris-Fokusreif der Zerstörung" icon="00010413.png"/>
+		<item key="13213" name="Baris-Kurzschwert" icon="00013207.png"/>
+		<item key="13236" name="Baris-Kurzschwert der Purpurnen Flamme" icon="00013207.png"/>
+		<item key="13238" name="Baris-Kurzschwert der Versuchung" icon="00013207.png"/>
+		<item key="13237" name="Baris-Kurzschwert der Zerstörung" icon="00013207.png"/>
+		<item key="10213" name="Baris-Langbogen" icon="00010213.png"/>
+		<item key="10236" name="Baris-Langbogen der Purpurnen Flamme" icon="00010213.png"/>
+		<item key="10238" name="Baris-Langbogen der Versuchung" icon="00010213.png"/>
+		<item key="10237" name="Baris-Langbogen der Zerstörung" icon="00010213.png"/>
+		<item key="10013" name="Baris-Langschwert" icon="00010013.png"/>
+		<item key="10036" name="Baris-Langschwert der Purpurnen Flamme" icon="00010013.png"/>
+		<item key="10038" name="Baris-Langschwert der Versuchung" icon="00010013.png"/>
+		<item key="10037" name="Baris-Langschwert der Zerstörung" icon="00010013.png"/>
+		<item key="14413" name="Baris-Stab" icon="00014413.png"/>
+		<item key="14436" name="Baris-Stab der Purpurnen Flamme" icon="00014413.png"/>
+		<item key="14438" name="Baris-Stab der Versuchung" icon="00014413.png"/>
+		<item key="14437" name="Baris-Stab der Zerstörung" icon="00014413.png"/>
+		<item key="7596" name="Besondere Aurorakrautkiste" icon="00007501.png"/>
+		<item key="7612" name="Besondere Blufferpilzkiste" icon="00007517.png"/>
+		<item key="7611" name="Besondere Buckelpilzkiste" icon="00007516.png"/>
+		<item key="7422" name="Besondere Erdbeerkiste" icon="00007404.png"/>
+		<item key="7601" name="Besondere Ewigkrautkiste" icon="00007506.png"/>
+		<item key="7598" name="Besondere Feuerblattblumenkiste" icon="00007503.png"/>
+		<item key="7609" name="Besondere Geistpilzkiste" icon="00007514.png"/>
+		<item key="7592" name="Besondere Gerstenkiste" icon="00007424.png"/>
+		<item key="7606" name="Besondere Himmelspilzkiste" icon="00007511.png"/>
+		<item key="7608" name="Besondere Kaiserpilzkiste" icon="00007513.png"/>
+		<item key="7588" name="Besondere Karottenkiste" icon="00007410.png"/>
+		<item key="7591" name="Besondere Kartoffelkiste" icon="00007423.png"/>
+		<item key="7580" name="Besondere Knoblauchkiste" icon="00007402.png"/>
+		<item key="7614" name="Besondere Knollenblätterpilzkiste" icon="00007519.png"/>
+		<item key="7584" name="Besondere Kürbiskiste" icon="00007406.png"/>
+		<item key="7594" name="Besondere Maiskiste" icon="00007426.png"/>
+		<item key="7610" name="Besondere Nebelpilzkiste" icon="00007515.png"/>
+		<item key="7587" name="Besondere Olivenkiste" icon="00007409.png"/>
+		<item key="7590" name="Besondere Paprikakiste" icon="00007412.png"/>
+		<item key="7583" name="Besondere Peperonikiste" icon="00007405.png"/>
+		<item key="7579" name="Besondere Pfefferkiste" icon="00007401.png"/>
+		<item key="7603" name="Besondere Pfeilpilzkiste" icon="00007508.png"/>
+		<item key="7600" name="Besondere Seidenhoniggraskiste" icon="00007505.png"/>
+		<item key="7597" name="Besondere Silberazaleenkiste" icon="00007502.png"/>
+		<item key="7586" name="Besondere Sonnenblumenkiste" icon="00007408.png"/>
+		<item key="7595" name="Besondere Süßkartoffelkiste" icon="00007427.png"/>
+		<item key="7607" name="Besondere Tigerpilzkiste" icon="00007512.png"/>
+		<item key="7589" name="Besondere Tomatenkiste" icon="00007411.png"/>
+		<item key="7585" name="Besondere Traubenkiste" icon="00007407.png"/>
+		<item key="7599" name="Besondere Trockenmähnengraskiste" icon="00007504.png"/>
+		<item key="7615" name="Besondere Trüffelkiste" icon="00007520.png"/>
+		<item key="7613" name="Besondere Uraltpilzkiste" icon="00007518.png"/>
+		<item key="7602" name="Besondere Wahrsagerpilzkiste" icon="00007507.png"/>
+		<item key="7593" name="Besondere Weizenkiste" icon="00007425.png"/>
+		<item key="7605" name="Besondere Wolkenpilzkiste" icon="00007510.png"/>
+		<item key="7604" name="Besondere Zwergenpilzkiste" icon="00007509.png"/>
+		<item key="7581" name="Besondere Zwiebelkiste" icon="00007403.png"/>
+		<item key="55833" name="Birkenholzkiste" icon="00055833.png"/>
+		<item key="4661" name="Birkenschichtholz" icon="00004661.png"/>
+		<item key="4055" name="Bleibarren" icon="00004055.png"/>
+		<item key="55844" name="Bleierzkiste" icon="00055844.png"/>
+		<item key="7517" name="Blufferpilzkiste" icon="00007517.png"/>
+		<item key="11703" name="Blutrubinhalskette" icon="00011703.png"/>
+		<item key="11903" name="Blutrubinohrringe" icon="00011903.png"/>
+		<item key="12103" name="Blutrubinring" icon="00012103.png"/>
+		<item key="4067" name="Bronzebarren" icon="00004067.png"/>
+		<item key="55848" name="Bronzebarrenkiste" icon="00055848.png"/>
+		<item key="10303" name="Bronzedolch" icon="00010303.png"/>
+		<item key="10306" name="Bronzedolch der Purpurnen Flamme" icon="00010303.png"/>
+		<item key="10308" name="Bronzedolch der Versuchung" icon="00010303.png"/>
+		<item key="10307" name="Bronzedolch der Zerstörung" icon="00010303.png"/>
+		<item key="16114" name="Bronzehacke" icon="00016114.png"/>
+		<item key="7516" name="Buckelpilzkiste" icon="00007516.png"/>
+		<item key="49303" name="Bug der Altinova-Fähre" icon="00049303.png"/>
+		<item key="49302" name="Bug der Calpheon-Fähre" icon="00049302.png"/>
+		<item key="16164" name="Calpheon-Angelrute" icon="00016164.png"/>
+		<item key="49402" name="Calpheon-Fährendekoration" icon="00049402.png"/>
+		<item key="55840" name="Calpheonholzkiste" icon="00055840.png"/>
+		<item key="11721" name="Diamanthalskette" icon="00011721.png"/>
+		<item key="11725" name="Diamanthalskette der Tapferkeit" icon="00011725.png"/>
+		<item key="16147" name="Dicke Angelrute" icon="00016147.png"/>
+		<item key="16155" name="Dicke Harpune" icon="00016155.png"/>
+		<item key="10105" name="Drachenschild" icon="00010105.png"/>
+		<item key="10114" name="Drachenschild der Purpurnen Flamme" icon="00010105.png"/>
+		<item key="10116" name="Drachenschild der Versuchung" icon="00010105.png"/>
+		<item key="10115" name="Drachenschild der Zerstörung" icon="00010105.png"/>
+		<item key="11704" name="Dunkle Blutrubinhalskette" icon="00011704.png"/>
+		<item key="11904" name="Dunkle Blutrubinohrringe" icon="00011904.png"/>
+		<item key="12104" name="Dunkler Blutrubinring" icon="00012104.png"/>
+		<item key="11709" name="Durchsichtige Ozeansaphir-Halskette" icon="00011709.png"/>
+		<item key="16102" name="Durchsichtige leere Flasche" icon="00016102.png"/>
+		<item key="55861" name="Durchsichtiges Kristallamulett der Glückseligkeit" icon="00055861.png"/>
+		<item key="16154" name="Dünne Harpune" icon="00016154.png"/>
+		<item key="55864" name="Ein paar Kohlen" icon="00055864.png"/>
+		<item key="4052" name="Eisenbarren" icon="00004052.png"/>
+		<item key="55843" name="Eisenerzkiste" icon="00055843.png"/>
+		<item key="16163" name="Epheria-Angelrute" icon="00016163.png"/>
+		<item key="7404" name="Erdbeerkiste" icon="00007404.png"/>
+		<item key="16167" name="Eschenholzfloß" icon="00016167.png"/>
+		<item key="55830" name="Eschenholzkiste" icon="00055830.png"/>
+		<item key="4652" name="Eschenschichtholz" icon="00004652.png"/>
+		<item key="7506" name="Ewigkrautkiste" icon="00007506.png"/>
+		<item key="7503" name="Feuerblattblumenkiste" icon="00007503.png"/>
+		<item key="49204" name="Fischerboot-Frachtbehälter" icon="00049204.png"/>
+		<item key="49404" name="Fischerbootdekoration" icon="00049404.png"/>
+		<item key="49304" name="Fischerbootsbug" icon="00049304.png"/>
+		<item key="53607" name="Flagge für Adelswagen" icon="00053604.png"/>
+		<item key="53605" name="Flagge für Handelswagen" icon="00053605.png"/>
+		<item key="53604" name="Flagge für Hofwagen" icon="00053604.png"/>
+		<item key="53606" name="Flagge für Händlerwagen" icon="00053606.png"/>
+		<item key="53602" name="Flagge für Robusten Wagen" icon="00053602.png"/>
+		<item key="53601" name="Flagge für Schäbigen Wagen" icon="00053601.png"/>
+		<item key="53603" name="Flagge für Weißen Wagen" icon="00053603.png"/>
+		<item key="16109" name="Flüssigkeitssammler" icon="00016109.png"/>
+		<item key="49203" name="Frachtbehälter der Altinova-Fähre" icon="00049203.png"/>
+		<item key="49202" name="Frachtbehälter der Calpheon-Fähre" icon="00049202.png"/>
+		<item key="49201" name="Frachtbehälter der Fähre" icon="00049201.png"/>
+		<item key="11719" name="Friedliche Waldsmaragd-Halskette" icon="00011719.png"/>
+		<item key="49301" name="Fährenbug" icon="00049301.png"/>
+		<item key="49401" name="Fährendekoration" icon="00049401.png"/>
+		<item key="16103" name="Gehärtete leere Flasche" icon="00016103.png"/>
+		<item key="7514" name="Geistpilzkiste" icon="00007514.png"/>
+		<item key="16121" name="Gerbermesser" icon="00016121.png"/>
+		<item key="7424" name="Gerstenkiste" icon="00007424.png"/>
+		<item key="11722" name="Glänzende Diamanthalskette" icon="00011722.png"/>
+		<item key="11714" name="Glänzende Goldtopashalskette" icon="00011714.png"/>
+		<item key="11914" name="Glänzende Goldtopasohrringe" icon="00011914.png"/>
+		<item key="11702" name="Glänzende Rubinhalskette" icon="00011702.png"/>
+		<item key="11902" name="Glänzende Rubinohrringe" icon="00011902.png"/>
+		<item key="11707" name="Glänzende Saphirhalskette" icon="00011707.png"/>
+		<item key="11717" name="Glänzende Smaragdhalskette" icon="00011717.png"/>
+		<item key="16116" name="Glänzende Stahlhacke" icon="00016116.png"/>
+		<item key="16108" name="Glänzende Stahlholzfälleraxt" icon="00016108.png"/>
+		<item key="16128" name="Glänzende Stahlspitzhacke" icon="00016128.png"/>
+		<item key="11712" name="Glänzende Topashalskette" icon="00011712.png"/>
+		<item key="11912" name="Glänzende Topasohrringe" icon="00011912.png"/>
+		<item key="16104" name="Glänzende leere Flasche" icon="00016104.png"/>
+		<item key="16112" name="Glänzender Flüssigkeitssammler" icon="00016112.png"/>
+		<item key="12114" name="Glänzender Goldtopasring" icon="00012114.png"/>
+		<item key="12102" name="Glänzender Rubinring" icon="00012102.png"/>
+		<item key="12112" name="Glänzender Topasring" icon="00012112.png"/>
+		<item key="16124" name="Glänzendes Stahlgerbermesser" icon="00016124.png"/>
+		<item key="16120" name="Glänzendes Stahlschlachtermesser" icon="00016120.png"/>
+		<item key="16814" name="Glückbringende Bronzehacke" icon="00016814.png"/>
+		<item key="16813" name="Glückbringende Hacke" icon="00016813.png"/>
+		<item key="16805" name="Glückbringende Holzfälleraxt" icon="00016805.png"/>
+		<item key="16825" name="Glückbringende Spitzhacke" icon="00016825.png"/>
+		<item key="16815" name="Glückbringende Stahlhacke" icon="00016815.png"/>
+		<item key="16807" name="Glückbringende Stahlholzfälleraxt" icon="00016807.png"/>
+		<item key="16819" name="Glückbringende Stahlschlachtermesser" icon="00016819.png"/>
+		<item key="16827" name="Glückbringende Stahlspitzhacke" icon="00016827.png"/>
+		<item key="16816" name="Glückbringende glänzende Stahlhacke" icon="00016816.png"/>
+		<item key="16808" name="Glückbringende glänzende Stahlholzfälleraxt" icon="00016808.png"/>
+		<item key="16828" name="Glückbringende glänzende Stahlspitzhacke" icon="00016828.png"/>
+		<item key="16806" name="Glückbringende scharfe Holzfälleraxt" icon="00016806.png"/>
+		<item key="16826" name="Glückbringende spitze Spitzhacke" icon="00016826.png"/>
+		<item key="16809" name="Glückbringender Flüssigkeitssammler" icon="00016809.png"/>
+		<item key="16812" name="Glückbringender glänzender Flüssigkeitssammler" icon="00016812.png"/>
+		<item key="16811" name="Glückbringender stabiler Flüssigkeitssammler" icon="00016811.png"/>
+		<item key="16810" name="Glückbringender verbesserter Flüssigkeitssammler" icon="00016810.png"/>
+		<item key="16821" name="Glückbringendes Gerbermesser" icon="00016821.png"/>
+		<item key="16817" name="Glückbringendes Schlachtermesser" icon="00016817.png"/>
+		<item key="16823" name="Glückbringendes Stahlgerbermesser" icon="00016823.png"/>
+		<item key="16824" name="Glückbringendes glänzendes Stahlgerbermesser" icon="00016824.png"/>
+		<item key="16820" name="Glückbringendes glänzendes Stahlschlachtermesser" icon="00016820.png"/>
+		<item key="16822" name="Glückbringendes scharfes Gerbermesser" icon="00016822.png"/>
+		<item key="16818" name="Glückbringendes scharfes Schlachtermesser" icon="00016818.png"/>
+		<item key="4255" name="Goldbarren" icon="00004255.png"/>
+		<item key="16152" name="Goldene Angelrute" icon="00016152.png"/>
+		<item key="24211" name="Goldklauenvase" icon="Pot_Base_48.png"/>
+		<item key="11713" name="Goldtopashalskette" icon="00011713.png"/>
+		<item key="11913" name="Goldtopasohrringe" icon="00011913.png"/>
+		<item key="12113" name="Goldtopasring" icon="00012113.png"/>
+		<item key="24814" name="Großer Teppich" icon="InHouse_X_DPF_Carpet_06.png"/>
+		<item key="10935" name="Grunil-Handschuhe" icon="00010935.png"/>
+		<item key="10947" name="Grunil-Handschuhe der Beweglichkeit" icon="00010935.png"/>
+		<item key="10951" name="Grunil-Handschuhe der Einschüchterung" icon="00010935.png"/>
+		<item key="10943" name="Grunil-Handschuhe der Eisenmauer" icon="00010935.png"/>
+		<item key="10933" name="Grunil-Helm" icon="00010933.png"/>
+		<item key="10945" name="Grunil-Helm der Beweglichkeit" icon="00010933.png"/>
+		<item key="10949" name="Grunil-Helm der Einschüchterung" icon="00010933.png"/>
+		<item key="10941" name="Grunil-Helm der Eisenmauer" icon="00010933.png"/>
+		<item key="10934" name="Grunil-Rüstung" icon="00010934.png"/>
+		<item key="10946" name="Grunil-Rüstung der Beweglichkeit" icon="00010934.png"/>
+		<item key="10950" name="Grunil-Rüstung der Einschüchterung" icon="00010934.png"/>
+		<item key="10942" name="Grunil-Rüstung der Eisenmauer" icon="00010934.png"/>
+		<item key="10936" name="Grunil-Schuhe" icon="00010936.png"/>
+		<item key="10948" name="Grunil-Schuhe der Beweglichkeit" icon="00010936.png"/>
+		<item key="10952" name="Grunil-Schuhe der Einschüchterung" icon="00010936.png"/>
+		<item key="10944" name="Grunil-Schuhe der Eisenmauer" icon="00010936.png"/>
+		<item key="55858" name="Grünes Kristallamulett des Reichtums" icon="00055858.png"/>
+		<item key="16113" name="Hacke" icon="00016113.png"/>
+		<item key="10606" name="Halbmenschen-Axt" icon="00010606.png"/>
+		<item key="10624" name="Halbmenschen-Axt der Purpurnen Flamme" icon="00010606.png"/>
+		<item key="10626" name="Halbmenschen-Axt der Versuchung" icon="00010606.png"/>
+		<item key="10625" name="Halbmenschen-Axt der Zerstörung" icon="00010606.png"/>
+		<item key="10406" name="Halbmenschen-Fokusreif" icon="00010406.png"/>
+		<item key="10424" name="Halbmenschen-Fokusreif der Purpurnen Flamme" icon="00010406.png"/>
+		<item key="10426" name="Halbmenschen-Fokusreif der Versuchung" icon="00010406.png"/>
+		<item key="10425" name="Halbmenschen-Fokusreif der Zerstörung" icon="00010406.png"/>
+		<item key="13206" name="Halbmenschen-Kurzschwert" icon="00013203.png"/>
+		<item key="13224" name="Halbmenschen-Kurzschwert der Purpurnen Flamme" icon="00013203.png"/>
+		<item key="13226" name="Halbmenschen-Kurzschwert der Versuchung" icon="00013203.png"/>
+		<item key="13225" name="Halbmenschen-Kurzschwert der Zerstörung" icon="00013203.png"/>
+		<item key="10206" name="Halbmenschen-Langbogen" icon="00010206.png"/>
+		<item key="10224" name="Halbmenschen-Langbogen der Purpurnen Flamme" icon="00010206.png"/>
+		<item key="10226" name="Halbmenschen-Langbogen der Versuchung" icon="00010206.png"/>
+		<item key="10225" name="Halbmenschen-Langbogen der Zerstörung" icon="00010206.png"/>
+		<item key="10006" name="Halbmenschen-Langschwert" icon="00010006.png"/>
+		<item key="10024" name="Halbmenschen-Langschwert der Purpurnen Flamme" icon="00010006.png"/>
+		<item key="10026" name="Halbmenschen-Langschwert der Versuchung" icon="00010006.png"/>
+		<item key="10025" name="Halbmenschen-Langschwert der Zerstörung" icon="00010006.png"/>
+		<item key="14406" name="Halbmenschen-Stab" icon="00014406.png"/>
+		<item key="14424" name="Halbmenschen-Stab der Purpurnen Flamme" icon="00014406.png"/>
+		<item key="14426" name="Halbmenschen-Stab der Versuchung" icon="00014406.png"/>
+		<item key="14425" name="Halbmenschen-Stab der Zerstörung" icon="00014406.png"/>
+		<item key="2006" name="Handgemachte Kommode aus Calpheon" icon="InHouse_F_DFF_Dresser_01.png"/>
+		<item key="2008" name="Handgemachte Kommode aus Mediah" icon="InHouse_H_DFF_Dresser_01.png"/>
+		<item key="2002" name="Handgemachte hochwertige Kommode aus Heidel" icon="InHouse_B_DFF_Dresser_01.png"/>
+		<item key="2004" name="Handgemachte hochwertige Kommode aus Velia" icon="InHouse_D_DFF_Dresser_01.png"/>
+		<item key="2206" name="Handgemachter Esstisch aus Calpheon" icon="InHouse_F_DFF_Table_01.png"/>
+		<item key="2202" name="Handgemachter Esstisch aus Heidel" icon="InHouse_B_DFF_Table_01.png"/>
+		<item key="2208" name="Handgemachter Esstisch aus Mediah" icon="InHouse_H_DFF_Table_01.png"/>
+		<item key="2204" name="Handgemachter Esstisch aus Velia" icon="InHouse_D_DFF_Table_01.png"/>
+		<item key="2106" name="Handgemachter Kleiderschrank aus Calpheon" icon="InHouse_F_DFF_Closet_01.png"/>
+		<item key="2102" name="Handgemachter Kleiderschrank aus Heidel" icon="InHouse_B_DFF_Closet_01.png"/>
+		<item key="2104" name="Handgemachter Kleiderschrank aus Velia" icon="InHouse_D_DFF_Closet_01.png"/>
+		<item key="2010" name="Handgemachter Nachttisch aus Mediah" icon="InHouse_H_DFF_Chest_01.png"/>
+		<item key="2016" name="Handgemachter Schrank aus Calpheon" icon="InHouse_F_DFF_Chest_01.png"/>
+		<item key="2306" name="Handgemachter Stuhl aus Calpheon" icon="InHouse_F_DFF_Chair_01.png"/>
+		<item key="2302" name="Handgemachter Stuhl aus Heidel" icon="InHouse_B_DFF_Chair_01.png"/>
+		<item key="2315" name="Handgemachter Stuhl aus Mediah" icon="InHouse_H_DFF_Chair_01.png"/>
+		<item key="2304" name="Handgemachter Stuhl aus Velia" icon="InHouse_D_DFF_Chair_01.png"/>
+		<item key="2216" name="Handgemachter Tisch aus Calpheon" icon="InHouse_F_DFF_SideTable_01.png"/>
+		<item key="2212" name="Handgemachter Tisch aus Heidel" icon="InHouse_B_DFF_SideTable_01.png"/>
+		<item key="2210" name="Handgemachter Tisch aus Mediah" icon="InHouse_H_DFF_SideTable_01.png"/>
+		<item key="2214" name="Handgemachter Tisch aus Velia" icon="InHouse_D_DFF_SideTable_01.png"/>
+		<item key="2108" name="Handgemachter Wandschrank aus Mediah" icon="InHouse_H_DFF_Closet_01.png"/>
+		<item key="2012" name="Handgemachter hochwertiger Nachttisch aus Heidel" icon="InHouse_B_DFF_Chest_01.png"/>
+		<item key="2014" name="Handgemachter hochwertiger Nachttisch aus Velia" icon="InHouse_D_DFF_Chest_01.png"/>
+		<item key="2706" name="Handgemachtes Bett aus Calpheon" icon="InHouse_F_DFF_Bed_01.png"/>
+		<item key="2702" name="Handgemachtes Bett aus Heidel" icon="InHouse_B_DFF_Bed_01.png"/>
+		<item key="2708" name="Handgemachtes Bett aus Mediah" icon="InHouse_H_DFF_Bed_01.png"/>
+		<item key="2704" name="Handgemachtes Bett aus Velia" icon="InHouse_D_DFF_Bed_01.png"/>
+		<item key="2313" name="Handgemachtes Kanapee aus Calpheon" icon="InHouse_F_DFF_Sofa_01.png"/>
+		<item key="2309" name="Handgemachtes Kanapee aus Heidel" icon="InHouse_B_DFF_Sofa_01.png"/>
+		<item key="2316" name="Handgemachtes Kanapee aus Mediah" icon="InHouse_H_DFF_Sofa_01.png"/>
+		<item key="2311" name="Handgemachtes Kanapee aus Velia" icon="InHouse_D_DFF_Sofa_01.png"/>
+		<item key="24818" name="Handwerkerteppich aus Calpheon" icon="InHouse_X_DPF_Carpet_10.png"/>
+		<item key="10503" name="Helrick-Talisman" icon="00010503.png"/>
+		<item key="10506" name="Helrick-Talisman der Purpurnen Flamme" icon="00010503.png"/>
+		<item key="10508" name="Helrick-Talisman der Versuchung" icon="00010503.png"/>
+		<item key="10507" name="Helrick-Talisman der Zerstörung" icon="00010503.png"/>
+		<item key="7511" name="Himmelspilzkiste" icon="00007511.png"/>
+		<item key="7421" name="Hochwertige Erdbeerkiste" icon="00007404.png"/>
+		<item key="16105" name="Holzfälleraxt" icon="00016105.png"/>
+		<item key="10504" name="Jubre-Talisman" icon="00010504.png"/>
+		<item key="10510" name="Jubre-Talisman der Purpurnen Flamme" icon="00010504.png"/>
+		<item key="10512" name="Jubre-Talisman der Versuchung" icon="00010504.png"/>
+		<item key="10511" name="Jubre-Talisman der Zerstörung" icon="00010504.png"/>
+		<item key="24212" name="Kaiserlicher Platinkessel" icon="Pot_Base_47.png"/>
+		<item key="7513" name="Kaiserpilzkiste" icon="00007513.png"/>
+		<item key="10612" name="Kalis-Axt" icon="00010612.png"/>
+		<item key="10632" name="Kalis-Axt der Purpurnen Flamme" icon="00010612.png"/>
+		<item key="10634" name="Kalis-Axt der Versuchung" icon="00010612.png"/>
+		<item key="10633" name="Kalis-Axt der Zerstörung" icon="00010612.png"/>
+		<item key="10412" name="Kalis-Fokusreif" icon="00010412.png"/>
+		<item key="10432" name="Kalis-Fokusreif der Purpurnen Flamme" icon="00010412.png"/>
+		<item key="10434" name="Kalis-Fokusreif der Versuchung" icon="00010412.png"/>
+		<item key="10433" name="Kalis-Fokusreif der Zerstörung" icon="00010412.png"/>
+		<item key="13212" name="Kalis-Kurzschwert" icon="00013207.png"/>
+		<item key="13232" name="Kalis-Kurzschwert der Purpurnen Flamme" icon="00013207.png"/>
+		<item key="13234" name="Kalis-Kurzschwert der Versuchung" icon="00013207.png"/>
+		<item key="13233" name="Kalis-Kurzschwert der Zerstörung" icon="00013207.png"/>
+		<item key="10212" name="Kalis-Langbogen" icon="00010212.png"/>
+		<item key="10232" name="Kalis-Langbogen der Purpurnen Flamme" icon="00010212.png"/>
+		<item key="10234" name="Kalis-Langbogen der Versuchung" icon="00010212.png"/>
+		<item key="10233" name="Kalis-Langbogen der Zerstörung" icon="00010212.png"/>
+		<item key="10012" name="Kalis-Langschwert" icon="00010012.png"/>
+		<item key="10032" name="Kalis-Langschwert der Purpurnen Flamme" icon="00010012.png"/>
+		<item key="10034" name="Kalis-Langschwert der Versuchung" icon="00010012.png"/>
+		<item key="10033" name="Kalis-Langschwert der Zerstörung" icon="00010012.png"/>
+		<item key="14412" name="Kalis-Stab" icon="00014412.png"/>
+		<item key="14434" name="Kalis-Stab der Versuchung" icon="00014412.png"/>
+		<item key="14433" name="Kalis-Stab der Zerstörung" icon="00014412.png"/>
+		<item key="14432" name="Kalis-Zauberstab der Purpurnen Flamme" icon="00014412.png"/>
+		<item key="52703" name="Kampf-Ledersattel" icon="00052703.png"/>
+		<item key="52803" name="Kampf-Ledersattel" icon="00052803.png"/>
+		<item key="52603" name="Kampf-Stahlrossharnisch" icon="00052603.png"/>
+		<item key="52503" name="Kampf-Stahlrosskopf" icon="00052503.png"/>
+		<item key="56002" name="Kanonenbausatz für Alte Kanone von Serendia" icon="00056002.png"/>
+		<item key="7410" name="Karottenkiste" icon="00007410.png"/>
+		<item key="7423" name="Kartoffelkiste" icon="00007423.png"/>
+		<item key="24134" name="Kissen aus blauem Schafsfell" icon="InHouse_X_DPFO_Cushion_03.png"/>
+		<item key="24133" name="Kissen aus rotem Schafsfell" icon="InHouse_X_DPFO_Cushion_02.png"/>
+		<item key="24132" name="Kissen aus weißem Schafsfell" icon="InHouse_X_DPFO_Cushion_01.png"/>
+		<item key="7572" name="Kiste hochwertige Geistpilze" icon="00007514.png"/>
+		<item key="7571" name="Kiste hochwertige Kaiserpilze" icon="00007513.png"/>
+		<item key="7566" name="Kiste hochwertige Pfeilpilze" icon="00007508.png"/>
+		<item key="7567" name="Kiste hochwertige Zwergenpilze" icon="00007509.png"/>
+		<item key="7564" name="Kiste hochwertigen Ewigkrauts" icon="00007506.png"/>
+		<item key="7543" name="Kiste hochwertigen Knoblauchs" icon="00007402.png"/>
+		<item key="7557" name="Kiste hochwertigen Maises" icon="00007426.png"/>
+		<item key="7542" name="Kiste hochwertigen Pfeffers" icon="00007401.png"/>
+		<item key="7563" name="Kiste hochwertigen Seidenhoniggrases" icon="00007505.png"/>
+		<item key="7562" name="Kiste hochwertigen Trockenmähnengrases" icon="00007504.png"/>
+		<item key="7578" name="Kiste hochwertigen Trüffels" icon="00007520.png"/>
+		<item key="7556" name="Kiste hochwertigen Weizens" icon="00007425.png"/>
+		<item key="7559" name="Kiste hochwertiger Aurorakräuter" icon="00007501.png"/>
+		<item key="7575" name="Kiste hochwertiger Blufferpilze" icon="00007517.png"/>
+		<item key="7574" name="Kiste hochwertiger Buckelpilze" icon="00007516.png"/>
+		<item key="7561" name="Kiste hochwertiger Feuerblattblumen" icon="00007503.png"/>
+		<item key="7555" name="Kiste hochwertiger Gerste" icon="00007424.png"/>
+		<item key="7569" name="Kiste hochwertiger Himmelspilze" icon="00007511.png"/>
+		<item key="7551" name="Kiste hochwertiger Karotten" icon="00007410.png"/>
+		<item key="7554" name="Kiste hochwertiger Kartoffeln" icon="00007423.png"/>
+		<item key="7577" name="Kiste hochwertiger Knollenblätterpilze" icon="00007519.png"/>
+		<item key="7547" name="Kiste hochwertiger Kürbisse" icon="00007406.png"/>
+		<item key="7573" name="Kiste hochwertiger Nebelpilze" icon="00007515.png"/>
+		<item key="7550" name="Kiste hochwertiger Oliven" icon="00007409.png"/>
+		<item key="7553" name="Kiste hochwertiger Paprika" icon="00007412.png"/>
+		<item key="7546" name="Kiste hochwertiger Peperoni" icon="00007405.png"/>
+		<item key="7560" name="Kiste hochwertiger Silberazaleen" icon="00007502.png"/>
+		<item key="7549" name="Kiste hochwertiger Sonnenblumen" icon="00007408.png"/>
+		<item key="7558" name="Kiste hochwertiger Süßkartoffeln" icon="00007427.png"/>
+		<item key="7570" name="Kiste hochwertiger Tigerpilze" icon="00007512.png"/>
+		<item key="7552" name="Kiste hochwertiger Tomaten" icon="00007411.png"/>
+		<item key="7548" name="Kiste hochwertiger Trauben" icon="00007407.png"/>
+		<item key="7576" name="Kiste hochwertiger Uraltpilze" icon="00007518.png"/>
+		<item key="7565" name="Kiste hochwertiger Wahrsagerpilze" icon="00007507.png"/>
+		<item key="7568" name="Kiste hochwertiger Wolkenpilze" icon="00007510.png"/>
+		<item key="7544" name="Kiste hochwertiger Zwiebeln" icon="00007403.png"/>
+		<item key="13005" name="Klingenanhänger" icon="00010706.png"/>
+		<item key="13014" name="Klingenanhänger der Purpurnen Flamme" icon="00010706.png"/>
+		<item key="13016" name="Klingenanhänger der Versuchung" icon="00010706.png"/>
+		<item key="13015" name="Klingenanhänger der Zerstörung" icon="00010706.png"/>
+		<item key="7402" name="Knoblauchkiste" icon="00007402.png"/>
+		<item key="7519" name="Knollenblätterpilzkiste" icon="00007519.png"/>
+		<item key="3717" name="Kochnische" icon="Crafting_Cooking_01.png"/>
+		<item key="3719" name="Kochnische für Fortgeschrittene" icon="Crafting_Cooking_03.png"/>
+		<item key="3718" name="Kochnische für Laien" icon="Crafting_Cooking_02.png"/>
+		<item key="24107" name="Korb mit zwei Henkeln" icon="InHouse_X_DPFO_Basket_07.png"/>
+		<item key="13024" name="Krea-Anhänger" icon="00010724.png"/>
+		<item key="13026" name="Krea-Anhänger der Purpurnen Flamme" icon="00010724.png"/>
+		<item key="13028" name="Krea-Anhänger der Versuchung" icon="00010724.png"/>
+		<item key="13027" name="Krea-Anhänger der Zerstörung" icon="00010724.png"/>
+		<item key="10656" name="Krea-Axt" icon="00010656.png"/>
+		<item key="10658" name="Krea-Axt der Purpurnen Flamme" icon="00010656.png"/>
+		<item key="10660" name="Krea-Axt der Versuchung" icon="00010656.png"/>
+		<item key="10659" name="Krea-Axt der Zerstörung" icon="00010656.png"/>
+		<item key="10324" name="Krea-Dolch" icon="00010324.png"/>
+		<item key="10326" name="Krea-Dolch der Purpurnen Flamme" icon="00010324.png"/>
+		<item key="10328" name="Krea-Dolch der Versuchung" icon="00010324.png"/>
+		<item key="10327" name="Krea-Dolch der Zerstörung" icon="00010324.png"/>
+		<item key="10456" name="Krea-Fokusreif" icon="00010456.png"/>
+		<item key="10458" name="Krea-Fokusreif der Purpurnen Flamme" icon="00010456.png"/>
+		<item key="10460" name="Krea-Fokusreif der Versuchung" icon="00010456.png"/>
+		<item key="10459" name="Krea-Fokusreif der Zerstörung" icon="00010456.png"/>
+		<item key="13256" name="Krea-Kurzschwert" icon="00013256.png"/>
+		<item key="13258" name="Krea-Kurzschwert der Purpurnen Flamme" icon="00013256.png"/>
+		<item key="13260" name="Krea-Kurzschwert der Versuchung" icon="00013256.png"/>
+		<item key="13259" name="Krea-Kurzschwert der Zerstörung" icon="00013256.png"/>
+		<item key="10256" name="Krea-Langbogen" icon="00010256.png"/>
+		<item key="10258" name="Krea-Langbogen der Purpurnen Flamme" icon="00010256.png"/>
+		<item key="10260" name="Krea-Langbogen der Versuchung" icon="00010256.png"/>
+		<item key="10259" name="Krea-Langbogen der Zerstörung" icon="00010256.png"/>
+		<item key="10056" name="Krea-Langschwert" icon="00010056.png"/>
+		<item key="10058" name="Krea-Langschwert der Purpurnen Flamme" icon="00010056.png"/>
+		<item key="10060" name="Krea-Langschwert der Versuchung" icon="00010056.png"/>
+		<item key="10059" name="Krea-Langschwert der Zerstörung" icon="00010056.png"/>
+		<item key="10124" name="Krea-Schild" icon="00010124.png"/>
+		<item key="10126" name="Krea-Schild der Purpurnen Flamme" icon="00010124.png"/>
+		<item key="10128" name="Krea-Schild der Versuchung" icon="00010124.png"/>
+		<item key="10127" name="Krea-Schild der Zerstörung" icon="00010124.png"/>
+		<item key="10724" name="Krea-Schmuckknoten" icon="00010724.png"/>
+		<item key="10726" name="Krea-Schmuckknoten der Purpurnen Flamme" icon="00010724.png"/>
+		<item key="10728" name="Krea-Schmuckknoten der Versuchung" icon="00010724.png"/>
+		<item key="10727" name="Krea-Schmuckknoten der Zerstörung" icon="00010724.png"/>
+		<item key="14456" name="Krea-Stab" icon="00014456.png"/>
+		<item key="14458" name="Krea-Stab der Purpurnen Flamme" icon="00014456.png"/>
+		<item key="14460" name="Krea-Stab der Versuchung" icon="00014456.png"/>
+		<item key="14459" name="Krea-Stab der Zerstörung" icon="00014456.png"/>
+		<item key="10524" name="Krea-Talisman" icon="00010524.png"/>
+		<item key="10526" name="Krea-Talisman der Purpurnen Flamme" icon="00010524.png"/>
+		<item key="10528" name="Krea-Talisman der Versuchung" icon="00010524.png"/>
+		<item key="10527" name="Krea-Talisman der Zerstörung" icon="00010524.png"/>
+		<item key="4058" name="Kupferbarren" icon="00004058.png"/>
+		<item key="2809" name="Kupferbesetzter Bienenwachs-Kronleuchter (Tageslicht)" icon="InHouse_X_DPC_Chandelier_05_on_light.png"/>
+		<item key="55842" name="Kupfererzkiste" icon="00055842.png"/>
+		<item key="7406" name="Kürbiskiste" icon="00007406.png"/>
+		<item key="52602" name="Leichter Lederrossharnisch" icon="00052602.png"/>
+		<item key="52702" name="Leichter Ledersattel" icon="00052702.png"/>
+		<item key="52802" name="Leichter Ledersteigbügel" icon="00052802.png"/>
+		<item key="52502" name="Leichter rotgefiederter Rosskopf" icon="00052502.png"/>
+		<item key="52902" name="Leichtes Hufeisen" icon="00052902.png"/>
+		<item key="24820" name="Luxuriöser Teppich" icon="InHouse_X_DPF_Carpet_12.png"/>
+		<item key="56012" name="Lynch-Kanonenbausatz" icon="00056002.png"/>
+		<item key="24205" name="Längliche Töpferware" icon="Pot_Base_56.png"/>
+		<item key="7426" name="Maiskiste" icon="00007426.png"/>
+		<item key="16165" name="Mediah Fishing Rod" icon="00016165.png"/>
+		<item key="55841" name="Mediahholzkiste" icon="00055841.png"/>
+		<item key="24813" name="Mehrfach gemusterter Teppich" icon="InHouse_X_DPF_Carpet_04.png"/>
+		<item key="4066" name="Messingbarren" icon="00004066.png"/>
+		<item key="55847" name="Messingbarrenkiste" icon="00055847.png"/>
+		<item key="24128" name="Messingkronleuchter mit vier Kerzen" icon="InHouse_X_DPFO_Candlestick_03b_light.png"/>
+		<item key="13004" name="Nadelanhänger" icon="00013005.png"/>
+		<item key="13010" name="Nadelanhänger der Purpurnen Flamme" icon="00013005.png"/>
+		<item key="13012" name="Nadelanhänger der Versuchung" icon="00013005.png"/>
+		<item key="13011" name="Nadelanhänger der Zerstörung" icon="00013005.png"/>
+		<item key="7515" name="Nebelpilzkiste" icon="00007515.png"/>
+		<item key="7409" name="Olivenkiste" icon="00007409.png"/>
+		<item key="55863" name="Opal-Schmuckkästchen" icon="00055863.png"/>
+		<item key="10704" name="Oros-Schmuckknoten" icon="00010704.png"/>
+		<item key="10710" name="Oros-Schmuckknoten der Purpurnen Flamme" icon="00010704.png"/>
+		<item key="10712" name="Oros-Schmuckknoten der Versuchung" icon="00010704.png"/>
+		<item key="10711" name="Oros-Schmuckknoten der Zerstörung" icon="00010704.png"/>
+		<item key="11708" name="Ozeansaphir-Halskette" icon="00011708.png"/>
+		<item key="7412" name="Paprikakiste" icon="00007412.png"/>
+		<item key="10305" name="Parierdolch" icon="00010305.png"/>
+		<item key="10314" name="Parierdolch der Purpurnen Flamme" icon="00010305.png"/>
+		<item key="10316" name="Parierdolch der Versuchung" icon="00010305.png"/>
+		<item key="10315" name="Parierdolch der Zerstörung" icon="00010305.png"/>
+		<item key="7405" name="Peperonikiste" icon="00007405.png"/>
+		<item key="7401" name="Pfefferkiste" icon="00007401.png"/>
+		<item key="7508" name="Pfeilpilzkiste" icon="00007508.png"/>
+		<item key="55832" name="Pinienholzkiste" icon="00055832.png"/>
+		<item key="4658" name="Pinienschichtholz" icon="00004658.png"/>
+		<item key="53507" name="Plane für Adelswagen" icon="00053507.png"/>
+		<item key="53505" name="Plane für Handelswagen" icon="00053505.png"/>
+		<item key="53504" name="Plane für Hofwagen" icon="00053504.png"/>
+		<item key="53506" name="Plane für Händlerwagen" icon="00053506.png"/>
+		<item key="53502" name="Plane für Robusten Wagen" icon="00053502.png"/>
+		<item key="53501" name="Plane für Schäbigen Wagen" icon="00053501.png"/>
+		<item key="53503" name="Plane für Weißen Wagen" icon="00053503.png"/>
+		<item key="4258" name="Platinbarren" icon="00004258.png"/>
+		<item key="24193" name="Puppe" icon="InHouse_X_DPFO_Doll_01.png"/>
+		<item key="53407" name="Rad für Adelswagen" icon="00053407.png"/>
+		<item key="53405" name="Rad für Handelswagen" icon="00053405.png"/>
+		<item key="53404" name="Rad für Hofwagen" icon="00053404.png"/>
+		<item key="53406" name="Rad für Händlerwagen" icon="00053406.png"/>
+		<item key="53402" name="Rad für Robusten Wagen" icon="00053402.png"/>
+		<item key="53401" name="Rad für Schäbigen Wagen" icon="00053401.png"/>
+		<item key="53403" name="Rad für Weißen Wagen" icon="00053403.png"/>
+		<item key="10807" name="Reblas-Handschuhe" icon="00010807.png"/>
+		<item key="10805" name="Reblas-Helm" icon="00010805.png"/>
+		<item key="10806" name="Reblas-Rüstung" icon="00010806.png"/>
+		<item key="10808" name="Reblas-Schuhe" icon="00010808.png"/>
+		<item key="10505" name="Rhik-Talisman" icon="00010505.png"/>
+		<item key="10514" name="Rhik-Talisman der Purpurnen Flamme" icon="00010505.png"/>
+		<item key="10516" name="Rhik-Talisman der Versuchung" icon="00010505.png"/>
+		<item key="10515" name="Rhik-Talisman der Zerstörung" icon="00010505.png"/>
+		<item key="55860" name="Rotes Kristallamulett der Liebenden" icon="00055860.png"/>
+		<item key="24206" name="Rubin-Kürbisflasche" icon="Pot_Base_51.png"/>
+		<item key="11701" name="Rubinhalskette" icon="00011701.png"/>
+		<item key="11901" name="Rubinohrringe" icon="00011901.png"/>
+		<item key="12101" name="Rubinring" icon="00012101.png"/>
+		<item key="24203" name="Runde Töpferware" icon="Pot_Base_54.png"/>
+		<item key="4907" name="Rüstungs-Verbesserungsstein (Stufe 1)" icon="00004907.png"/>
+		<item key="4909" name="Rüstungs-Verbesserungsstein (Stufe 2)" icon="00004909.png"/>
+		<item key="4911" name="Rüstungs-Verbesserungsstein (Stufe 3)" icon="00004911.png"/>
+		<item key="10703" name="Saiyer-Schmuckknoten" icon="00010703.png"/>
+		<item key="10706" name="Saiyer-Schmuckknoten der Purpurnen Flamme" icon="00010703.png"/>
+		<item key="10708" name="Saiyer-Schmuckknoten der Versuchung" icon="00010703.png"/>
+		<item key="10707" name="Saiyer-Schmuckknoten der Zerstörung" icon="00010703.png"/>
+		<item key="11706" name="Saphirhalskette" icon="00011706.png"/>
+		<item key="11710" name="Saphirhalskette der Stürme" icon="00011710.png"/>
+		<item key="16106" name="Scharfe Holzfälleraxt" icon="00016106.png"/>
+		<item key="16122" name="Scharfes Gerbermesser" icon="00016122.png"/>
+		<item key="16118" name="Scharfes Schlachtermesser" icon="00016118.png"/>
+		<item key="49003" name="Schiffslizenz: Calpheon-Fähre" icon="00049003.png"/>
+		<item key="49006" name="Schiffslizenz: Fischerboot" icon="00049005.png"/>
+		<item key="49005" name="Schiffslizenz: Floß" icon="00049005.png"/>
+		<item key="49001" name="Schiffslizenz: Fähre" icon="00049001.png"/>
+		<item key="49004" name="Schiffslizenz: Mediah-Fähre" icon="00049004.png"/>
+		<item key="16117" name="Schlachtermesser" icon="00016117.png"/>
+		<item key="55859" name="Schlammkristallamulett der Flüche" icon="00055859.png"/>
+		<item key="55850" name="Schmuckkiste" icon="00055850.png"/>
+		<item key="55857" name="Schwarzkristallamulett der Autorität" icon="00055857.png"/>
+		<item key="16002" name="Schwarzstein (Rüstung)" icon="00000007.png"/>
+		<item key="16001" name="Schwarzstein (Waffe)" icon="00000008.png"/>
+		<item key="4901" name="Schwarzsteinpulver" icon="00004901.png"/>
+		<item key="7505" name="Seidenhoniggraskiste" icon="00007505.png"/>
+		<item key="10607" name="Seles-Axt" icon="00010607.png"/>
+		<item key="10628" name="Seles-Axt der Purpurnen Flamme" icon="00010607.png"/>
+		<item key="10630" name="Seles-Axt der Versuchung" icon="00010607.png"/>
+		<item key="10629" name="Seles-Axt der Zerstörung" icon="00010607.png"/>
+		<item key="10407" name="Seles-Fokusreif" icon="00010407.png"/>
+		<item key="10428" name="Seles-Fokusreif der Purpurnen Flamme" icon="00010407.png"/>
+		<item key="10430" name="Seles-Fokusreif der Versuchung" icon="00010407.png"/>
+		<item key="10429" name="Seles-Fokusreif der Zerstörung" icon="00010407.png"/>
+		<item key="13207" name="Seles-Kurzschwert" icon="00013203.png"/>
+		<item key="13228" name="Seles-Kurzschwert der Purpurnen Flamme" icon="00013203.png"/>
+		<item key="13230" name="Seles-Kurzschwert der Versuchung" icon="00013203.png"/>
+		<item key="13229" name="Seles-Kurzschwert der Zerstörung" icon="00013203.png"/>
+		<item key="10207" name="Seles-Langbogen" icon="00010207.png"/>
+		<item key="10228" name="Seles-Langbogen der Purpurnen Flamme" icon="00010207.png"/>
+		<item key="10230" name="Seles-Langbogen der Versuchung" icon="00010207.png"/>
+		<item key="10229" name="Seles-Langbogen der Zerstörung" icon="00010207.png"/>
+		<item key="10007" name="Seles-Langschwert" icon="00010007.png"/>
+		<item key="10028" name="Seles-Langschwert der Purpurnen Flamme" icon="00010007.png"/>
+		<item key="10030" name="Seles-Langschwert der Versuchung" icon="00010007.png"/>
+		<item key="10029" name="Seles-Langschwert der Zerstörung" icon="00010007.png"/>
+		<item key="14407" name="Seles-Stab" icon="00014407.png"/>
+		<item key="14428" name="Seles-Stab der Purpurnen Flamme" icon="00014407.png"/>
+		<item key="14430" name="Seles-Stab der Versuchung" icon="00014407.png"/>
+		<item key="14429" name="Seles-Stab der Zerstörung" icon="00014407.png"/>
+		<item key="55839" name="Serendiaholzkiste" icon="00055839.png"/>
+		<item key="7502" name="Silberazaleenkiste" icon="00007502.png"/>
+		<item key="4252" name="Silberbarren" icon="00004252.png"/>
+		<item key="14025" name="Silberbestickte Alchemistenkleidung" icon="00014001.png"/>
+		<item key="14023" name="Silberbestickte Ausbilderkleidung" icon="00014010.png"/>
+		<item key="14028" name="Silberbestickte Bauernkleidung" icon="00014028.png"/>
+		<item key="14020" name="Silberbestickte Fischerkleidung" icon="00014069.png"/>
+		<item key="14026" name="Silberbestickte Handwerkerkleidung" icon="00014004.png"/>
+		<item key="14021" name="Silberbestickte Händlerkleidung" icon="00014016.png"/>
+		<item key="14019" name="Silberbestickte Kochkleidung" icon="00014007.png"/>
+		<item key="14022" name="Silberbestickte Sammlerkleidung" icon="00014048.png"/>
+		<item key="24208" name="Smaragd-Kürbisflasche" icon="Pot_Base_50.png"/>
+		<item key="11716" name="Smaragdhalskette" icon="00011716.png"/>
+		<item key="11720" name="Smaragdhalskette der Gelassenheit" icon="00011720.png"/>
+		<item key="7408" name="Sonnenblumenkiste" icon="00007408.png"/>
+		<item key="16126" name="Spitze Spitzhacke" icon="00016126.png"/>
+		<item key="16125" name="Spitzhacke" icon="00016125.png"/>
+		<item key="16111" name="Stabiler Flüssigkeitssammler" icon="00016111.png"/>
+		<item key="4077" name="Stahl" icon="00004077.png"/>
+		<item key="16151" name="Stahlangelrute" icon="00016151.png"/>
+		<item key="55849" name="Stahlbarrenkiste" icon="00055849.png"/>
+		<item key="10304" name="Stahldolch" icon="00010304.png"/>
+		<item key="10310" name="Stahldolch der Purpurnen Flamme" icon="00010304.png"/>
+		<item key="10312" name="Stahldolch der Versuchung" icon="00010304.png"/>
+		<item key="10311" name="Stahldolch der Zerstörung" icon="00010304.png"/>
+		<item key="16123" name="Stahlgerbermesser" icon="00016123.png"/>
+		<item key="16115" name="Stahlhacke" icon="00016115.png"/>
+		<item key="16107" name="Stahlholzfälleraxt" icon="00016107.png"/>
+		<item key="52903" name="Stahlhufeisen für die Schlacht" icon="00052903.png"/>
+		<item key="16119" name="Stahlschlachtermesser" icon="00016119.png"/>
+		<item key="16127" name="Stahlspitzhacke" icon="00016127.png"/>
+		<item key="11723" name="Sterndiamanthalskette" icon="00011723.png"/>
+		<item key="11724" name="Sternennacht-Diamanthalskette" icon="00011724.png"/>
+		<item key="24108" name="Strohgefäß" icon="InHouse_X_DPFO_Basket_08.png"/>
+		<item key="24106" name="Strohkorb mit Henkeln" icon="InHouse_X_DPFO_Basket_06.png"/>
+		<item key="24204" name="Sumpf-Töpferware" icon="Pot_Base_55.png"/>
+		<item key="7427" name="Süßkartoffelkiste" icon="00007427.png"/>
+		<item key="10823" name="Talis-Handschuhe" icon="00010823.png"/>
+		<item key="10879" name="Talis-Handschuhe der Beweglichkeit" icon="00010823.png"/>
+		<item key="10883" name="Talis-Handschuhe der Einschüchterung" icon="00010823.png"/>
+		<item key="10875" name="Talis-Handschuhe der Eisenmauer" icon="00010823.png"/>
+		<item key="10821" name="Talis-Helm" icon="00010821.png"/>
+		<item key="10877" name="Talis-Helm der Beweglichkeit" icon="00010821.png"/>
+		<item key="10881" name="Talis-Helm der Einschüchterung" icon="00010821.png"/>
+		<item key="10873" name="Talis-Helm der Eisenmauer" icon="00010821.png"/>
+		<item key="10822" name="Talis-Rüstung" icon="00010822.png"/>
+		<item key="10878" name="Talis-Rüstung der Beweglichkeit" icon="00010822.png"/>
+		<item key="10882" name="Talis-Rüstung der Einschüchterung" icon="00010822.png"/>
+		<item key="10874" name="Talis-Rüstung der Eisenmauer" icon="00010822.png"/>
+		<item key="10824" name="Talis-Schuhe" icon="00010824.png"/>
+		<item key="10880" name="Talis-Schuhe der Beweglichkeit" icon="00010824.png"/>
+		<item key="10884" name="Talis-Schuhe der Einschüchterung" icon="00010824.png"/>
+		<item key="10876" name="Talis-Schuhe der Eisenmauer" icon="00010824.png"/>
+		<item key="55834" name="Tannenholzkiste" icon="00055834.png"/>
+		<item key="4664" name="Tannenschichtholz" icon="00004664.png"/>
+		<item key="10815" name="Taritas-Handschuhe" icon="00010815.png"/>
+		<item key="10847" name="Taritas-Handschuhe der Beweglichkeit" icon="00010815.png"/>
+		<item key="10851" name="Taritas-Handschuhe der Einschüchterung" icon="00010815.png"/>
+		<item key="10843" name="Taritas-Handschuhe der Eisenmauer" icon="00010815.png"/>
+		<item key="10813" name="Taritas-Helm" icon="00010813.png"/>
+		<item key="10845" name="Taritas-Helm der Beweglichkeit" icon="00010813.png"/>
+		<item key="10849" name="Taritas-Helm der Einschüchterung" icon="00010813.png"/>
+		<item key="10841" name="Taritas-Helm der Eisenmauer" icon="00010813.png"/>
+		<item key="10814" name="Taritas-Rüstung" icon="00010814.png"/>
+		<item key="10846" name="Taritas-Rüstung der Beweglichkeit" icon="00010814.png"/>
+		<item key="10850" name="Taritas-Rüstung der Einschüchterung" icon="00010814.png"/>
+		<item key="10842" name="Taritas-Rüstung der Eisenmauer" icon="00010814.png"/>
+		<item key="10816" name="Taritas-Schuhe" icon="00010816.png"/>
+		<item key="10848" name="Taritas-Schuhe der Beweglichkeit" icon="00010816.png"/>
+		<item key="10852" name="Taritas-Schuhe der Einschüchterung" icon="00010816.png"/>
+		<item key="10844" name="Taritas-Schuhe der Eisenmauer" icon="00010816.png"/>
+		<item key="14103" name="Taritas-Stahlhandschuhe" icon="00010815.png"/>
+		<item key="14111" name="Taritas-Stahlhandschuhe der Beweglichkeit" icon="00010815.png"/>
+		<item key="14115" name="Taritas-Stahlhandschuhe der Einschüchterung" icon="00010815.png"/>
+		<item key="14107" name="Taritas-Stahlhandschuhe der Eisenmauer" icon="00010815.png"/>
+		<item key="14101" name="Taritas-Stahlhelm" icon="00010813.png"/>
+		<item key="14109" name="Taritas-Stahlhelm der Beweglichkeit" icon="00010813.png"/>
+		<item key="14113" name="Taritas-Stahlhelm der Einschüchterung" icon="00010813.png"/>
+		<item key="14105" name="Taritas-Stahlhelm der Eisenmauer" icon="00010813.png"/>
+		<item key="14102" name="Taritas-Stahlrüstung" icon="00010814.png"/>
+		<item key="14110" name="Taritas-Stahlrüstung der Beweglichkeit" icon="00010814.png"/>
+		<item key="14114" name="Taritas-Stahlrüstung der Einschüchterung" icon="00010814.png"/>
+		<item key="14106" name="Taritas-Stahlrüstung der Eisenmauer" icon="00010814.png"/>
+		<item key="14104" name="Taritas-Stahlschuhe" icon="00010816.png"/>
+		<item key="14112" name="Taritas-Stahlschuhe der Beweglichkeit" icon="00010816.png"/>
+		<item key="14116" name="Taritas-Stahlschuhe der Einschüchterung" icon="00010816.png"/>
+		<item key="14108" name="Taritas-Stahlschuhe der Eisenmauer" icon="00010816.png"/>
+		<item key="24815" name="Teppich aus Mediah" icon="InHouse_X_DPF_Carpet_07.png"/>
+		<item key="24817" name="Teppich aus Serendia" icon="InHouse_X_DPF_Carpet_09.png"/>
+		<item key="24816" name="Teppich aus Velia" icon="InHouse_X_DPF_Carpet_08.png"/>
+		<item key="24819" name="Teppichboden" icon="InHouse_X_DPF_Carpet_11.png"/>
+		<item key="10705" name="Theos-Schmuckknoten" icon="00010705.png"/>
+		<item key="10714" name="Theos-Schmuckknoten der Purpurnen Flamme" icon="00010705.png"/>
+		<item key="10716" name="Theos-Schmuckknoten der Versuchung" icon="00010705.png"/>
+		<item key="10715" name="Theos-Schmuckknoten der Zerstörung" icon="00010705.png"/>
+		<item key="7512" name="Tigerpilzkiste" icon="00007512.png"/>
+		<item key="7411" name="Tomatenkiste" icon="00007411.png"/>
+		<item key="11711" name="Topashalskette" icon="00011711.png"/>
+		<item key="11715" name="Topashalskette der Regeneration" icon="00011715.png"/>
+		<item key="11911" name="Topasohrringe" icon="00011911.png"/>
+		<item key="11915" name="Topasohrringe der Regeneration" icon="00011915.png"/>
+		<item key="12111" name="Topasring" icon="00012111.png"/>
+		<item key="12115" name="Topasring der Regeneration" icon="00012115.png"/>
+		<item key="7407" name="Traubenkiste" icon="00007407.png"/>
+		<item key="56013" name="Trina-Kanonenbausatz" icon="00056002.png"/>
+		<item key="7504" name="Trockenmähnengraskiste" icon="00007504.png"/>
+		<item key="7520" name="Trüffelkiste" icon="00007520.png"/>
+		<item key="10839" name="Ultimative Agerian-Handschuhe" icon="00010811.png"/>
+		<item key="10838" name="Ultimative Agerian-Rüstung" icon="00010810.png"/>
+		<item key="10840" name="Ultimative Agerian-Schuhe" icon="00010812.png"/>
+		<item key="10623" name="Ultimative Aswell-Axt" icon="00010605.png"/>
+		<item key="10639" name="Ultimative Baris-Axt" icon="00010613.png"/>
+		<item key="10963" name="Ultimative Grunil-Handschuhe" icon="00010935.png"/>
+		<item key="10962" name="Ultimative Grunil-Rüstung" icon="00010934.png"/>
+		<item key="10964" name="Ultimative Grunil-Schuhe" icon="00010936.png"/>
+		<item key="10627" name="Ultimative Halbmenschen-Axt" icon="00010606.png"/>
+		<item key="10635" name="Ultimative Kalis-Axt" icon="00010612.png"/>
+		<item key="10663" name="Ultimative Krea-Axt" icon="00010656.png"/>
+		<item key="10631" name="Ultimative Seles-Axt" icon="00010607.png"/>
+		<item key="10887" name="Ultimative Talis-Handschuhe" icon="00010823.png"/>
+		<item key="10886" name="Ultimative Talis-Rüstung" icon="00010822.png"/>
+		<item key="10888" name="Ultimative Talis-Schuhe" icon="00010824.png"/>
+		<item key="10855" name="Ultimative Taritas-Handschuhe" icon="00010815.png"/>
+		<item key="10854" name="Ultimative Taritas-Rüstung" icon="00010814.png"/>
+		<item key="10856" name="Ultimative Taritas-Schuhe" icon="00010816.png"/>
+		<item key="14123" name="Ultimative Taritas-Stahlhandschuhe" icon="00010815.png"/>
+		<item key="14122" name="Ultimative Taritas-Stahlrüstung" icon="00010814.png"/>
+		<item key="14124" name="Ultimative Taritas-Stahlschuhe" icon="00010816.png"/>
+		<item key="10643" name="Ultimative Yuria-Axt" icon="00010614.png"/>
+		<item key="10871" name="Ultimative Zeres-Handschuhe" icon="00010819.png"/>
+		<item key="10870" name="Ultimative Zeres-Rüstung" icon="00010818.png"/>
+		<item key="10872" name="Ultimative Zeres-Schuhe" icon="00010820.png"/>
+		<item key="10837" name="Ultimativer Agerian-Helm" icon="00010809.png"/>
+		<item key="10423" name="Ultimativer Aswell-Fokusreif" icon="00010405.png"/>
+		<item key="10223" name="Ultimativer Aswell-Langbogen" icon="00010205.png"/>
+		<item key="14423" name="Ultimativer Aswell-Stab" icon="00014405.png"/>
+		<item key="10113" name="Ultimativer Axion-Schild" icon="00010103.png"/>
+		<item key="10439" name="Ultimativer Baris-Fokusreif" icon="00010413.png"/>
+		<item key="10239" name="Ultimativer Baris-Langbogen" icon="00010213.png"/>
+		<item key="14439" name="Ultimativer Baris-Stab" icon="00014413.png"/>
+		<item key="10309" name="Ultimativer Bronzedolch" icon="00010303.png"/>
+		<item key="10117" name="Ultimativer Drachenschild" icon="00010105.png"/>
+		<item key="10961" name="Ultimativer Grunil-Helm" icon="00010933.png"/>
+		<item key="10427" name="Ultimativer Halbmenschen-Fokusreif" icon="00010406.png"/>
+		<item key="10227" name="Ultimativer Halbmenschen-Langbogen" icon="00010206.png"/>
+		<item key="14427" name="Ultimativer Halbmenschen-Stab" icon="00014406.png"/>
+		<item key="10509" name="Ultimativer Helrick-Talisman" icon="00010503.png"/>
+		<item key="10513" name="Ultimativer Jubre-Talisman" icon="00010504.png"/>
+		<item key="10435" name="Ultimativer Kalis-Fokusreif" icon="00010412.png"/>
+		<item key="10235" name="Ultimativer Kalis-Langbogen" icon="00010212.png"/>
+		<item key="14435" name="Ultimativer Kalis-Stab" icon="00014412.png"/>
+		<item key="13017" name="Ultimativer Klingenanhänger" icon="00010707.png"/>
+		<item key="13031" name="Ultimativer Krea-Anhänger" icon="00010724.png"/>
+		<item key="10331" name="Ultimativer Krea-Dolch" icon="00010324.png"/>
+		<item key="10463" name="Ultimativer Krea-Fokusreif" icon="00010456.png"/>
+		<item key="10263" name="Ultimativer Krea-Langbogen" icon="00010256.png"/>
+		<item key="10131" name="Ultimativer Krea-Schild" icon="00010124.png"/>
+		<item key="10731" name="Ultimativer Krea-Schmuckknoten" icon="00010724.png"/>
+		<item key="14463" name="Ultimativer Krea-Stab" icon="00014456.png"/>
+		<item key="10531" name="Ultimativer Krea-Talisman" icon="00010524.png"/>
+		<item key="13013" name="Ultimativer Nadelanhänger" icon="00013005.png"/>
+		<item key="10713" name="Ultimativer Oros-Schmuckknoten" icon="00010704.png"/>
+		<item key="10317" name="Ultimativer Parierdolch" icon="00010305.png"/>
+		<item key="10517" name="Ultimativer Rhik-Talisman" icon="00010505.png"/>
+		<item key="10709" name="Ultimativer Saiyer-Schmuckknoten" icon="00010703.png"/>
+		<item key="10431" name="Ultimativer Seles-Fokusreif" icon="00010407.png"/>
+		<item key="10231" name="Ultimativer Seles-Langbogen" icon="00010207.png"/>
+		<item key="14431" name="Ultimativer Seles-Stab" icon="00014407.png"/>
+		<item key="10313" name="Ultimativer Stahldolch" icon="00010304.png"/>
+		<item key="10885" name="Ultimativer Talis-Helm" icon="00010821.png"/>
+		<item key="10853" name="Ultimativer Taritas-Helm" icon="00010813.png"/>
+		<item key="14121" name="Ultimativer Taritas-Stahlhelm" icon="00010813.png"/>
+		<item key="10717" name="Ultimativer Theos-Schmuckknoten" icon="00010705.png"/>
+		<item key="10109" name="Ultimativer Vangertz-Schild" icon="00010102.png"/>
+		<item key="13009" name="Ultimativer Weihrauchanhänger" icon="00013003.png"/>
+		<item key="10443" name="Ultimativer Yuria-Fokusreif" icon="00010414.png"/>
+		<item key="10243" name="Ultimativer Yuria-Langbogen" icon="00010214.png"/>
+		<item key="14443" name="Ultimativer Yuria-Stab" icon="00014414.png"/>
+		<item key="10869" name="Ultimativer Zeres-Helm" icon="00010817.png"/>
+		<item key="13223" name="Ultimatives Aswell-Kurzschwert" icon="00013203.png"/>
+		<item key="10023" name="Ultimatives Aswell-Langschwert" icon="00010005.png"/>
+		<item key="13239" name="Ultimatives Baris-Kurzschwert" icon="00013207.png"/>
+		<item key="10039" name="Ultimatives Baris-Langschwert" icon="00010013.png"/>
+		<item key="13227" name="Ultimatives Halbmenschen-Kurzschwert" icon="00013203.png"/>
+		<item key="10027" name="Ultimatives Halbmenschen-Langschwert" icon="00010006.png"/>
+		<item key="13235" name="Ultimatives Kalis-Kurzschwert" icon="00013207.png"/>
+		<item key="10035" name="Ultimatives Kalis-Langschwert" icon="00010012.png"/>
+		<item key="13263" name="Ultimatives Krea-Kurzschwert" icon="00013256.png"/>
+		<item key="10063" name="Ultimatives Krea-Langschwert" icon="00010056.png"/>
+		<item key="13231" name="Ultimatives Seles-Kurzschwert" icon="00013203.png"/>
+		<item key="10031" name="Ultimatives Seles-Langschwert" icon="00010007.png"/>
+		<item key="13243" name="Ultimatives Yuria-Kurzschwert" icon="00013207.png"/>
+		<item key="10043" name="Ultimatives Yuria-Langschwert" icon="00010014.png"/>
+		<item key="7518" name="Uraltpilzkiste" icon="00007518.png"/>
+		<item key="10102" name="Vangertz-Schild" icon="00010102.png"/>
+		<item key="10106" name="Vangertz-Schild der Purpurnen Flamme" icon="00010102.png"/>
+		<item key="10108" name="Vangertz-Schild der Versuchung" icon="00010102.png"/>
+		<item key="10107" name="Vangertz-Schild der Zerstörung" icon="00010102.png"/>
+		<item key="16110" name="Verbesserter Flüssigkeitssammler" icon="00016110.png"/>
+		<item key="11705" name="Verderbte Rubinhalskette" icon="00011705.png"/>
+		<item key="11905" name="Verderbte Rubinohrringe" icon="00011905.png"/>
+		<item key="12105" name="Verderbter Rubinring" icon="00012105.png"/>
+		<item key="55965" name="Verpackte getrocknete Blaue Sprotte" icon="00055965.png"/>
+		<item key="55952" name="Verpackte getrocknete Elritze" icon="00055952.png"/>
+		<item key="55904" name="Verpackte getrocknete Flunder" icon="00055904.png"/>
+		<item key="55918" name="Verpackte getrocknete Forelle" icon="00055918.png"/>
+		<item key="55955" name="Verpackte getrocknete Gelbflossengroppe" icon="00055955.png"/>
+		<item key="55967" name="Verpackte getrocknete Goldmakrele" icon="00055967.png"/>
+		<item key="55998" name="Verpackte getrocknete Grenadiersardelle" icon="00055998.png"/>
+		<item key="55909" name="Verpackte getrocknete Jackmakrele" icon="00055909.png"/>
+		<item key="55917" name="Verpackte getrocknete Karausche" icon="00055917.png"/>
+		<item key="55956" name="Verpackte getrocknete Königsmakrele" icon="00055956.png"/>
+		<item key="55928" name="Verpackte getrocknete Makrele" icon="00055928.png"/>
+		<item key="55907" name="Verpackte getrocknete Meerbrasse" icon="00055907.png"/>
+		<item key="55936" name="Verpackte getrocknete Meeräsche" icon="00055936.png"/>
+		<item key="55914" name="Verpackte getrocknete Qualle" icon="00055914.png"/>
+		<item key="55996" name="Verpackte getrocknete Rundschwanzmakropode" icon="00055996.png"/>
+		<item key="55963" name="Verpackte getrocknete Sardine" icon="00055963.png"/>
+		<item key="55906" name="Verpackte getrocknete Stachelmakrele" icon="00055906.png"/>
+		<item key="55944" name="Verpackte getrocknete Wasserschildkröte" icon="00055944.png"/>
+		<item key="55926" name="Verpackter getrockneter Anglerfisch" icon="00055926.png"/>
+		<item key="55942" name="Verpackter getrockneter Arowana" icon="00055942.png"/>
+		<item key="55943" name="Verpackter getrockneter Ayu" icon="00055943.png"/>
+		<item key="55953" name="Verpackter getrockneter Bitterling" icon="00055953.png"/>
+		<item key="55948" name="Verpackter getrockneter Blauer Sonnenbarsch" icon="00055948.png"/>
+		<item key="55954" name="Verpackter getrockneter Bleekerfisch" icon="00055954.png"/>
+		<item key="55974" name="Verpackter getrockneter Brandungsbarsch" icon="00055974.png"/>
+		<item key="55969" name="Verpackter getrockneter Butterfisch" icon="00055969.png"/>
+		<item key="55949" name="Verpackter getrockneter Bürschling" icon="00055949.png"/>
+		<item key="55986" name="Verpackter getrockneter Fadenflosser" icon="00055986.png"/>
+		<item key="55891" name="Verpackter getrockneter Falterfisch" icon="00055891.png"/>
+		<item key="55934" name="Verpackter getrockneter Feilenfisch" icon="00055934.png"/>
+		<item key="55999" name="Verpackter getrockneter Flaggenschwanz" icon="00055999.png"/>
+		<item key="55929" name="Verpackter getrockneter Fliegender Fisch" icon="00055929.png"/>
+		<item key="55993" name="Verpackter getrockneter Gelbkopfwels" icon="00055993.png"/>
+		<item key="55968" name="Verpackter getrockneter Gestreifter Wels" icon="00055968.png"/>
+		<item key="55961" name="Verpackter getrockneter Grunzer" icon="00055961.png"/>
+		<item key="55959" name="Verpackter getrockneter Grünling" icon="00055959.png"/>
+		<item key="55962" name="Verpackter getrockneter Hering" icon="00055962.png"/>
+		<item key="55947" name="Verpackter getrockneter Häsling" icon="00055947.png"/>
+		<item key="55911" name="Verpackter getrockneter Kalmar" icon="00055911.png"/>
+		<item key="55972" name="Verpackter getrockneter Kaninchenfisch" icon="00055972.png"/>
+		<item key="55916" name="Verpackter getrockneter Karpfen" icon="00055916.png"/>
+		<item key="55950" name="Verpackter getrockneter Kerbenkieferfisch" icon="00055950.png"/>
+		<item key="55971" name="Verpackter getrockneter Knabberfisch" icon="00055971.png"/>
+		<item key="55913" name="Verpackter getrockneter Krebs" icon="00055913.png"/>
+		<item key="55908" name="Verpackter getrockneter Kugelfisch" icon="00055908.png"/>
+		<item key="55905" name="Verpackter getrockneter Lachs" icon="00055905.png"/>
+		<item key="55941" name="Verpackter getrockneter Lenok" icon="00055941.png"/>
+		<item key="55940" name="Verpackter getrockneter Mandarinfisch" icon="00055940.png"/>
+		<item key="55977" name="Verpackter getrockneter Maomao" icon="00055977.png"/>
+		<item key="55922" name="Verpackter getrockneter Masu-Lachs" icon="00055922.png"/>
+		<item key="55976" name="Verpackter getrockneter Mönchsfisch" icon="00055976.png"/>
+		<item key="55912" name="Verpackter getrockneter Oktopus" icon="00055912.png"/>
+		<item key="55981" name="Verpackter getrockneter Petersfisch" icon="00055981.png"/>
+		<item key="55939" name="Verpackter getrockneter Piranha" icon="00055939.png"/>
+		<item key="55960" name="Verpackter getrockneter Plattfisch" icon="00055960.png"/>
+		<item key="55988" name="Verpackter getrockneter Regenbogenkarpfen" icon="00055988.png"/>
+		<item key="55931" name="Verpackter getrockneter Rochen" icon="00055931.png"/>
+		<item key="55995" name="Verpackter getrockneter Rosiger Bitterling" icon="00055995.png"/>
+		<item key="55983" name="Verpackter getrockneter Rotbarsch" icon="00055983.png"/>
+		<item key="55964" name="Verpackter getrockneter Rundhering" icon="00055964.png"/>
+		<item key="55951" name="Verpackter getrockneter Schlammfisch" icon="00055951.png"/>
+		<item key="55901" name="Verpackter getrockneter Schlammspringer" icon="00055901.png"/>
+		<item key="55921" name="Verpackter getrockneter Schlangenkopffisch" icon="00055921.png"/>
+		<item key="55975" name="Verpackter getrockneter Schwarzflossen-Beilfisch" icon="00055975.png"/>
+		<item key="55927" name="Verpackter getrockneter Schwertfisch" icon="00055927.png"/>
+		<item key="55933" name="Verpackter getrockneter Seestern" icon="00055933.png"/>
+		<item key="55935" name="Verpackter getrockneter Skorpionfisch" icon="00055935.png"/>
+		<item key="55910" name="Verpackter getrockneter Stachelkopf" icon="00055910.png"/>
+		<item key="56000" name="Verpackter getrockneter Steinbarsch" icon="00056000.png"/>
+		<item key="55970" name="Verpackter getrockneter Steinschnapper" icon="00055970.png"/>
+		<item key="55903" name="Verpackter getrockneter Strumpfbandfisch" icon="00055903.png"/>
+		<item key="55937" name="Verpackter getrockneter Swiri" icon="00055937.png"/>
+		<item key="55958" name="Verpackter getrockneter Umberfisch" icon="00055958.png"/>
+		<item key="55919" name="Verpackter getrockneter Wels" icon="00055919.png"/>
+		<item key="55966" name="Verpackter getrockneter Wittling" icon="00055966.png"/>
+		<item key="55925" name="Verpackter getrockneter Wolfsbarsch" icon="00055925.png"/>
+		<item key="55991" name="Verpacktes getrocknetes Glupschauge" icon="00055991.png"/>
+		<item key="55985" name="Verpacktes getrocknetes Großauge" icon="00055985.png"/>
+		<item key="55932" name="Verpacktes getrocknetes Seepferdchen" icon="00055932.png"/>
+		<item key="24109" name="Viereckiger Korb mit Deckel" icon="InHouse_X_DPFO_Basket_12.png"/>
+		<item key="16910" name="Vogelscheuche" icon="00016910.png"/>
+		<item key="4906" name="Waffen-Verbesserungsstein (Stufe 1)" icon="00004906.png"/>
+		<item key="4908" name="Waffen-Verbesserungsstein (Stufe 2)" icon="00004908.png"/>
+		<item key="4910" name="Waffen-Verbesserungsstein (Stufe 3)" icon="00004910.png"/>
+		<item key="51008" name="Wagenregistrierung: Adelswagen" icon="00051008.png"/>
+		<item key="51005" name="Wagenregistrierung: Handelswagen" icon="00051005.png"/>
+		<item key="51004" name="Wagenregistrierung: Hofwagen" icon="00051004.png"/>
+		<item key="51007" name="Wagenregistrierung: Händlerwagen" icon="00051007.png"/>
+		<item key="51009" name="Wagenregistrierung: Leichter Wagen" icon="00051009.png"/>
+		<item key="51002" name="Wagenregistrierung: Robuster Wagen" icon="00051002.png"/>
+		<item key="51001" name="Wagenregistrierung: Schäbiger Wagen" icon="00051001.png"/>
+		<item key="51003" name="Wagenregistrierung: Weißer Wagen" icon="00051003.png"/>
+		<item key="7507" name="Wahrsagerpilzkiste" icon="00007507.png"/>
+		<item key="11718" name="Waldsmaragd-Halskette" icon="00011718.png"/>
+		<item key="24603" name="Wandteppich mit Mediah-Muster" icon="InHouse_X_DPW_Carpetdeco_04b.png"/>
+		<item key="24602" name="Wandteppich mit herrlichem Muster" icon="InHouse_X_DPW_Carpetdeco_03.png"/>
+		<item key="16911" name="Wasserweg" icon="00016911.png"/>
+		<item key="13003" name="Weihrauchanhänger" icon="00013003.png"/>
+		<item key="13006" name="Weihrauchanhänger der Purpurnen Flamme" icon="00013003.png"/>
+		<item key="13008" name="Weihrauchanhänger der Versuchung" icon="00013003.png"/>
+		<item key="13007" name="Weihrauchanhänger der Zerstörung" icon="00013003.png"/>
+		<item key="7425" name="Weizenkiste" icon="00007425.png"/>
+		<item key="55836" name="Weißzedernholzkiste" icon="00055836.png"/>
+		<item key="4677" name="Weißzederschichtholz" icon="00004677.png"/>
+		<item key="7510" name="Wolkenpilzkiste" icon="00007510.png"/>
+		<item key="24210" name="Wunderschöne Opalvase" icon="Pot_Base_49.png"/>
+		<item key="10614" name="Yuria-Axt" icon="00010614.png"/>
+		<item key="10640" name="Yuria-Axt der Purpurnen Flamme" icon="00010614.png"/>
+		<item key="10642" name="Yuria-Axt der Versuchung" icon="00010614.png"/>
+		<item key="10641" name="Yuria-Axt der Zerstörung" icon="00010614.png"/>
+		<item key="10414" name="Yuria-Fokusreif" icon="00010414.png"/>
+		<item key="10440" name="Yuria-Fokusreif der Purpurnen Flamme" icon="00010414.png"/>
+		<item key="10442" name="Yuria-Fokusreif der Versuchung" icon="00010414.png"/>
+		<item key="10441" name="Yuria-Fokusreif der Zerstörung" icon="00010414.png"/>
+		<item key="13214" name="Yuria-Kurzschwert" icon="00013207.png"/>
+		<item key="13240" name="Yuria-Kurzschwert der Purpurnen Flamme" icon="00013207.png"/>
+		<item key="13242" name="Yuria-Kurzschwert der Versuchung" icon="00013207.png"/>
+		<item key="13241" name="Yuria-Kurzschwert der Zerstörung" icon="00013207.png"/>
+		<item key="10214" name="Yuria-Langbogen" icon="00010214.png"/>
+		<item key="10240" name="Yuria-Langbogen der Purpurnen Flamme" icon="00010214.png"/>
+		<item key="10242" name="Yuria-Langbogen der Versuchung" icon="00010214.png"/>
+		<item key="10241" name="Yuria-Langbogen der Zerstörung" icon="00010214.png"/>
+		<item key="10014" name="Yuria-Langschwert" icon="00010014.png"/>
+		<item key="10040" name="Yuria-Langschwert der Purpurnen Flamme" icon="00010014.png"/>
+		<item key="10042" name="Yuria-Langschwert der Versuchung" icon="00010014.png"/>
+		<item key="10041" name="Yuria-Langschwert der Zerstörung" icon="00010014.png"/>
+		<item key="14414" name="Yuria-Stab" icon="00014414.png"/>
+		<item key="14440" name="Yuria-Stab der Purpurnen Flamme" icon="00014414.png"/>
+		<item key="14442" name="Yuria-Stab der Versuchung" icon="00014414.png"/>
+		<item key="14441" name="Yuria-Stab der Zerstörung" icon="00014414.png"/>
+		<item key="55835" name="Zedernholzkiste" icon="00055835.png"/>
+		<item key="4667" name="Zedernschichtholz" icon="00004667.png"/>
+		<item key="10819" name="Zeres-Handschuhe" icon="00010819.png"/>
+		<item key="10863" name="Zeres-Handschuhe der Beweglichkeit" icon="00010819.png"/>
+		<item key="10867" name="Zeres-Handschuhe der Einschüchterung" icon="00010819.png"/>
+		<item key="10859" name="Zeres-Handschuhe der Eisenmauer" icon="00010819.png"/>
+		<item key="10817" name="Zeres-Helm" icon="00010817.png"/>
+		<item key="10861" name="Zeres-Helm der Beweglichkeit" icon="00010817.png"/>
+		<item key="10865" name="Zeres-Helm der Einschüchterung" icon="00010817.png"/>
+		<item key="10857" name="Zeres-Helm der Eisenmauer" icon="00010817.png"/>
+		<item key="10818" name="Zeres-Rüstung" icon="00010818.png"/>
+		<item key="10862" name="Zeres-Rüstung der Beweglichkeit" icon="00010818.png"/>
+		<item key="10866" name="Zeres-Rüstung der Einschüchterung" icon="00010818.png"/>
+		<item key="10858" name="Zeres-Rüstung der Eisenmauer" icon="00010818.png"/>
+		<item key="10820" name="Zeres-Schuhe" icon="00010820.png"/>
+		<item key="10864" name="Zeres-Schuhe der Beweglichkeit" icon="00010820.png"/>
+		<item key="10868" name="Zeres-Schuhe der Einschüchterung" icon="00010820.png"/>
+		<item key="10860" name="Zeres-Schuhe der Eisenmauer" icon="00010820.png"/>
+		<item key="4064" name="Zinkbarren" icon="00004064.png"/>
+		<item key="55846" name="Zinkerzkiste" icon="00055846.png"/>
+		<item key="4061" name="Zinnbarren" icon="00004061.png"/>
+		<item key="2808" name="Zinnbesetzter Bienenwachs-Kronleuchter (Tageslicht)" icon="InHouse_X_DPC_Chandelier_04_on_light.png"/>
+		<item key="55845" name="Zinnerzkiste" icon="00055845.png"/>
+		<item key="24129" name="Zinnkronleuchter mit vier Kerzen" icon="InHouse_X_DPFO_Candlestick_03_light.png"/>
+		<item key="7509" name="Zwergenpilzkiste" icon="00007509.png"/>
+		<item key="7403" name="Zwiebelkiste" icon="00007403.png"/>
+		<item key="14202" name="[Berserker] Adeligen-Anzug aus Calpheon" icon="00014201.png"/>
+		<item key="14212" name="[Berserker] Garner-Kostüm des Reisenden Spielers" icon="00014211.png"/>
+		<item key="14204" name="[Bändigerin] Adeligen-Kleid aus Calpheon" icon="00014203.png"/>
+		<item key="14214" name="[Bändigerin] Garner-Kostüm des Reisenden Spielers" icon="00014211.png"/>
+		<item key="14201" name="[Krieger] Adeligen-Anzug aus Calpheon" icon="00014201.png"/>
+		<item key="14211" name="[Krieger] Garner-Kostüm des Reisenden Spielers" icon="00014211.png"/>
+		<item key="14219" name="[Magier] Adeligen-Anzug aus Calpheon" icon="00014201.png"/>
+		<item key="14220" name="[Magierin] Adeligen-Kleid aus Calpheon" icon="00014203.png"/>
+		<item key="24005" name="[Musikautomat] Gebet der Zeit" icon="InHouse_X_DPF_JukeBox_02.png"/>
+		<item key="14203" name="[Schwarzmagierin] Adeligen-Kleid aus Calpheon" icon="00014203.png"/>
+		<item key="14213" name="[Schwarzmagierin] Garner-Kostüm des Reisenden Spielers" icon="00014211.png"/>
+		<item key="14205" name="[Waldläuferin] Adeligen-Kleid aus Calpheon" icon="00014203.png"/>
+		<item key="14215" name="[Waldläuferin] Garner-Kostüm des Reisenden Spielers" icon="00014211.png"/>
+		<item key="14207" name="[Walküre] Adeligen-Kleid aus Calpheon" icon="00014203.png"/>
+		<item key="14217" name="[Walküre] Kostüm des Reisenden Spielers" icon="00014211.png"/>
+	</houseCraft>
+	<collect>
+		<item key="6211" name="Affenblut" icon="00006211.png"/>
+		<item key="6011" name="Affenhaut" icon="00006011.png"/>
+		<item key="4654" name="Ahornbrett" icon="00004654.png"/>
+		<item key="4602" name="Ahornholz" icon="00004602.png"/>
+		<item key="5002" name="Ahornsaft" icon="00005002.png"/>
+		<item key="4680" name="Akazienbrett" icon="00004680.png"/>
+		<item key="4609" name="Akazienholz" icon="00004609.png"/>
+		<item key="5013" name="Akaziensaft" icon="00005013.png"/>
+		<item key="7347" name="Aloe" icon="00007347.png"/>
+		<item key="5008" name="Alte Baumrinde" icon="00005008.png"/>
+		<item key="7313" name="Apfel" icon="00007313.png"/>
+		<item key="5401" name="Aurorakraut" icon="00005401.png"/>
+		<item key="6901" name="Aurorakrautsamen" icon="00006901.png"/>
+		<item key="6156" name="Ausgefallenes Fell" icon="00006156.png"/>
+		<item key="3002" name="Ausgestopfter Bärenkopf" icon="InHouse_Z_Booty_BearHead_01.png"/>
+		<item key="5801" name="Baumwolle" icon="00005801.png"/>
+		<item key="5851" name="Baumwollgarn" icon="00005851.png"/>
+		<item key="5855" name="Baumwollstoff" icon="00005855.png"/>
+		<item key="24118" name="Bemerkenswerter Geschäftsethos" icon="InHouse_X_DPFO_Book_02.png"/>
+		<item key="4660" name="Birkenbrett" icon="00004660.png"/>
+		<item key="4604" name="Birkenholz" icon="00004604.png"/>
+		<item key="5004" name="Birkensaft" icon="00005004.png"/>
+		<item key="4002" name="Bleierz" icon="00004002.png"/>
+		<item key="5417" name="Blufferpilz" icon="00005417.png"/>
+		<item key="6917" name="Blufferpilzhyphe" icon="00006917.png"/>
+		<item key="5005" name="Blutast" icon="00005005.png"/>
+		<item key="4453" name="Blutrubin" icon="00004453.png"/>
+		<item key="5416" name="Buckelpilz" icon="00005416.png"/>
+		<item key="6916" name="Buckelpilzhyphe" icon="00006916.png"/>
+		<item key="6213" name="Bärenblut" icon="00006213.png"/>
+		<item key="6013" name="Bärenfell" icon="00006013.png"/>
+		<item key="3003" name="Bärenfellteppich" icon="InHouse_Z_Booty_BearSkin_01.png"/>
+		<item key="7912" name="Bärenfleisch" icon="00007912.png"/>
+		<item key="5425" name="Büschel Seidenhoniggras" icon="00005425.png"/>
+		<item key="5424" name="Büschel Trockenmähnengras" icon="00005424.png"/>
+		<item key="24117" name="Der erste Schritt auf dem Weg zum Händler" icon="InHouse_X_DPFO_Book_01.png"/>
+		<item key="4463" name="Diamant" icon="00004463.png"/>
+		<item key="6155" name="Dickes Fell" icon="00006155.png"/>
+		<item key="24121" name="Die Währung für jedermann?" icon="InHouse_X_DPFO_Book_05.png"/>
+		<item key="4466" name="Durchsichtiger Kristall" icon="00004466.png"/>
+		<item key="4406" name="Durchsichtiger Rohkristall" icon="00004406.png"/>
+		<item key="6154" name="Dünnes Leder" icon="00006154.png"/>
+		<item key="6208" name="Echsenblut" icon="00006208.png"/>
+		<item key="7908" name="Echsenfleisch" icon="00007908.png"/>
+		<item key="6008" name="Echsenhaut" icon="00006008.png"/>
+		<item key="4001" name="Eisenerz" icon="00004001.png"/>
+		<item key="6704" name="Erdbeersamen" icon="00006704.png"/>
+		<item key="4804" name="Erdenpulver" icon="00004804.png"/>
+		<item key="4651" name="Eschenbrett" icon="00004651.png"/>
+		<item key="4601" name="Eschenholz" icon="00004601.png"/>
+		<item key="5001" name="Eschensaft" icon="00005001.png"/>
+		<item key="5406" name="Ewigkraut" icon="00005406.png"/>
+		<item key="55854" name="Fantastische blaue Rose" icon="00055854.png"/>
+		<item key="5403" name="Feuerblattblume" icon="00005403.png"/>
+		<item key="6903" name="Feuerblattblumensamen" icon="00006903.png"/>
+		<item key="5423" name="Feuerblattblumenstrauß" icon="00005423.png"/>
+		<item key="5802" name="Flachs" icon="00005802.png"/>
+		<item key="5852" name="Flachsfaden" icon="00005852.png"/>
+		<item key="6724" name="Flachssaat" icon="00006724.png"/>
+		<item key="5856" name="Flachsstoff" icon="00005856.png"/>
+		<item key="6218" name="Flamingoblut" icon="00006218.png"/>
+		<item key="6018" name="Flamingofeder" icon="00006018.png"/>
+		<item key="7917" name="Flamingofleisch" icon="00007917.png"/>
+		<item key="4802" name="Flammenpulver" icon="00004802.png"/>
+		<item key="6219" name="Fledermausblut" icon="00006219.png"/>
+		<item key="5211" name="Frucht der Magischen Kraft" icon="00005211.png"/>
+		<item key="5205" name="Frucht der Natur" icon="00005205.png"/>
+		<item key="5213" name="Frucht der Perfektion" icon="00005213.png"/>
+		<item key="5201" name="Frucht der Purpurnen Flamme" icon="00005201.png"/>
+		<item key="5207" name="Frucht der Sonne" icon="00005207.png"/>
+		<item key="5209" name="Frucht der Verzauberung" icon="00005209.png"/>
+		<item key="5215" name="Frucht der Zerstörung" icon="00005215.png"/>
+		<item key="5203" name="Frucht des Überflusses" icon="00005203.png"/>
+		<item key="6203" name="Fuchsblut" icon="00006203.png"/>
+		<item key="6003" name="Fuchsfell" icon="00006003.png"/>
+		<item key="7903" name="Fuchsfleisch" icon="00007903.png"/>
+		<item key="5006" name="Geisterblatt" icon="00005006.png"/>
+		<item key="5414" name="Geistpilz" icon="00005414.png"/>
+		<item key="6914" name="Geistpilzhyphe" icon="00006914.png"/>
+		<item key="6216" name="Gepardendrachenblut" icon="00006216.png"/>
+		<item key="7915" name="Gepardendrachenfleisch" icon="00007915.png"/>
+		<item key="6016" name="Gepardendrachenhaut" icon="00006016.png"/>
+		<item key="7002" name="Gerste" icon="00007002.png"/>
+		<item key="6807" name="Gerstensamen" icon="00006807.png"/>
+		<item key="825" name="Geräuchertes Essen" icon="00000825.png"/>
+		<item key="4054" name="Geschmolzener Bleisplitter" icon="00004054.png"/>
+		<item key="4051" name="Geschmolzener Eisensplitter" icon="00004051.png"/>
+		<item key="4254" name="Geschmolzener Goldsplitter" icon="00004254.png"/>
+		<item key="4057" name="Geschmolzener Kupfersplitter" icon="00004057.png"/>
+		<item key="4257" name="Geschmolzener Platinsplitter" icon="00004257.png"/>
+		<item key="4251" name="Geschmolzener Silbersplitter" icon="00004251.png"/>
+		<item key="4063" name="Geschmolzener Zinksplitter" icon="00004063.png"/>
+		<item key="4060" name="Geschmolzener Zinnsplitter" icon="00004060.png"/>
+		<item key="55852" name="Giftkraut der Hexe" icon="00055852.png"/>
+		<item key="4464" name="Glänzender Diamant" icon="00004464.png"/>
+		<item key="4452" name="Glänzender Rubin" icon="00004452.png"/>
+		<item key="4455" name="Glänzender Saphir" icon="00004455.png"/>
+		<item key="4461" name="Glänzender Smaragd" icon="00004461.png"/>
+		<item key="4458" name="Glänzender Topas" icon="00004458.png"/>
+		<item key="4202" name="Golderz" icon="00004202.png"/>
+		<item key="4459" name="Goldtopas" icon="00004459.png"/>
+		<item key="24120" name="Gott des Goldes: Die Kniffe der Händler" icon="InHouse_X_DPFO_Book_04.png"/>
+		<item key="4006" name="Grober Stein" icon="00004006.png"/>
+		<item key="5436" name="Großer Blufferpilz" icon="00005436.png"/>
+		<item key="5435" name="Großer Buckelpilz" icon="00005435.png"/>
+		<item key="5433" name="Großer Geistpilz" icon="00005433.png"/>
+		<item key="5430" name="Großer Himmelspilz" icon="00005430.png"/>
+		<item key="5432" name="Großer Kaiserpilz" icon="00005432.png"/>
+		<item key="5438" name="Großer Knollenblätterpilz" icon="00005438.png"/>
+		<item key="5434" name="Großer Nebelpilz" icon="00005434.png"/>
+		<item key="5427" name="Großer Pfeilpilz" icon="00005427.png"/>
+		<item key="5431" name="Großer Tigerpilz" icon="00005431.png"/>
+		<item key="5437" name="Großer Uraltpilz" icon="00005437.png"/>
+		<item key="5426" name="Großer Wahrsagerpilz" icon="00005426.png"/>
+		<item key="5429" name="Großer Wolkenpilz" icon="00005429.png"/>
+		<item key="5428" name="Großer Zwergenpilz" icon="00005428.png"/>
+		<item key="4469" name="Grüner Kristall" icon="00004469.png"/>
+		<item key="4409" name="Grüner Rohkristall" icon="00004409.png"/>
+		<item key="6153" name="Hartes Leder" icon="00006153.png"/>
+		<item key="5421" name="Haufen Aurorakräuter" icon="00005421.png"/>
+		<item key="55856" name="Heilherbstglockenblume" icon="00055856.png"/>
+		<item key="5411" name="Himmelspilz" icon="00005411.png"/>
+		<item key="6911" name="Himmelspilzhyphe" icon="00006911.png"/>
+		<item key="6201" name="Hirschblut" icon="00006201.png"/>
+		<item key="6001" name="Hirschfell" icon="00006001.png"/>
+		<item key="7901" name="Hirschfleisch" icon="00007901.png"/>
+		<item key="4605" name="Holzscheit" icon="00004605.png"/>
+		<item key="5602" name="Insektenverdauender Pflanzensaft" icon="00005602.png"/>
+		<item key="8209" name="Jackmakrele" icon="00008209.png"/>
+		<item key="5413" name="Kaiserpilz" icon="00005413.png"/>
+		<item key="6913" name="Kaiserpilzhyphe" icon="00006913.png"/>
+		<item key="6707" name="Karottensamen" icon="00006707.png"/>
+		<item key="7003" name="Kartoffel" icon="00007003.png"/>
+		<item key="6806" name="Kartoffelsamen" icon="00006806.png"/>
+		<item key="6702" name="Knoblauchsamen" icon="00006702.png"/>
+		<item key="5419" name="Knollenblätterpilz" icon="00005419.png"/>
+		<item key="6919" name="Knollenblätterpilzhyphe" icon="00006919.png"/>
+		<item key="7318" name="Kohl" icon="00007318.png"/>
+		<item key="4007" name="Kohle" icon="00004007.png"/>
+		<item key="6215" name="Kriegramblut" icon="00006215.png"/>
+		<item key="7914" name="Kriegramfleisch" icon="00007914.png"/>
+		<item key="6015" name="Kriegramhaut" icon="00006015.png"/>
+		<item key="6217" name="Kukuvogelblut" icon="00006217.png"/>
+		<item key="7916" name="Kukuvogelfleisch" icon="00007916.png"/>
+		<item key="4003" name="Kupfererz" icon="00004003.png"/>
+		<item key="24839" name="Königsmuschel" icon="InHouse_Cultivate_Sea_Clam_01.png"/>
+		<item key="7306" name="Kürbis" icon="00007306.png"/>
+		<item key="6706" name="Kürbissamen" icon="00006706.png"/>
+		<item key="519" name="LP-Trank (Groß)" icon="00000519.png"/>
+		<item key="517" name="LP-Trank (Klein)" icon="00000517.png"/>
+		<item key="518" name="LP-Trank (Mittel)" icon="00000518.png"/>
+		<item key="7902" name="Lammfleisch" icon="00007902.png"/>
+		<item key="6157" name="Leichte Feder" icon="00006157.png"/>
+		<item key="522" name="MP-Trank (Groß)" icon="00000522.png"/>
+		<item key="520" name="MP-Trank (Klein)" icon="00000520.png"/>
+		<item key="521" name="MP-Trank (Mittel)" icon="00000521.png"/>
+		<item key="15116" name="Magiekristall der Unendlichkeit – Angriff" icon="00045031.png"/>
+		<item key="15113" name="Magiekristall der Unendlichkeit – Aufstieg" icon="00045023.png"/>
+		<item key="15124" name="Magiekristall der Unendlichkeit – Beweglichkeit" icon="00045044.png"/>
+		<item key="15122" name="Magiekristall der Unendlichkeit – Einschüchterung" icon="00045042.png"/>
+		<item key="15115" name="Magiekristall der Unendlichkeit – Energie" icon="00045023.png"/>
+		<item key="15125" name="Magiekristall der Unendlichkeit – Erfahrung" icon="00045044.png"/>
+		<item key="15121" name="Magiekristall der Unendlichkeit – Erinnerung" icon="00045041.png"/>
+		<item key="15114" name="Magiekristall der Unendlichkeit – Fall" icon="00045022.png"/>
+		<item key="15108" name="Magiekristall der Unendlichkeit – Geduld" icon="00045013.png"/>
+		<item key="15111" name="Magiekristall der Unendlichkeit – Geschwindigkeit" icon="00045021.png"/>
+		<item key="15109" name="Magiekristall der Unendlichkeit – Heilung" icon="00045014.png"/>
+		<item key="15107" name="Magiekristall der Unendlichkeit – Kraft" icon="00045012.png"/>
+		<item key="15102" name="Magiekristall der Unendlichkeit – Macht" icon="00045002.png"/>
+		<item key="15103" name="Magiekristall der Unendlichkeit – Massaker" icon="00045003.png"/>
+		<item key="15104" name="Magiekristall der Unendlichkeit – Massaker" icon="00045004.png"/>
+		<item key="15105" name="Magiekristall der Unendlichkeit – Massaker" icon="00045005.png"/>
+		<item key="15101" name="Magiekristall der Unendlichkeit – Präzision" icon="00045001.png"/>
+		<item key="15119" name="Magiekristall der Unendlichkeit – Präzision" icon="00045032.png"/>
+		<item key="15110" name="Magiekristall der Unendlichkeit – Resonanz" icon="00045015.png"/>
+		<item key="15117" name="Magiekristall der Unendlichkeit – Robustheit" icon="00045032.png"/>
+		<item key="15106" name="Magiekristall der Unendlichkeit – Rüstung" icon="00045011.png"/>
+		<item key="15123" name="Magiekristall der Unendlichkeit – Sichtweite" icon="00045043.png"/>
+		<item key="15112" name="Magiekristall der Unendlichkeit – Stahlhart" icon="00045022.png"/>
+		<item key="15120" name="Magiekristall der Unendlichkeit – Stärke" icon="00045033.png"/>
+		<item key="15118" name="Magiekristall der Unendlichkeit – Tapferkeit" icon="00045033.png"/>
+		<item key="55851" name="Magische Mandragora" icon="00055851.png"/>
+		<item key="7005" name="Mais" icon="00007005.png"/>
+		<item key="6809" name="Maissamen" icon="00006809.png"/>
+		<item key="8228" name="Makrele" icon="00008228.png"/>
+		<item key="55855" name="Mondbeschienene Nachtkerze" icon="00055855.png"/>
+		<item key="5007" name="Mönchszweig" icon="00005007.png"/>
+		<item key="6204" name="Nashornblut" icon="00006204.png"/>
+		<item key="7904" name="Nashornfleisch" icon="00007904.png"/>
+		<item key="6004" name="Nashornhaut" icon="00006004.png"/>
+		<item key="5415" name="Nebelpilz" icon="00005415.png"/>
+		<item key="6915" name="Nebelpilzhyphe" icon="00006915.png"/>
+		<item key="7952" name="Nicht identifizierbarer Fisch" icon="00007951.png"/>
+		<item key="6206" name="Ochsenblut" icon="00006206.png"/>
+		<item key="6006" name="Ochsenhaut" icon="00006006.png"/>
+		<item key="6221" name="Ogerblut" icon="00006221.png"/>
+		<item key="8212" name="Oktopus" icon="00008212.png"/>
+		<item key="7309" name="Oliven" icon="00007309.png"/>
+		<item key="6803" name="Olivensamen" icon="00006803.png"/>
+		<item key="4456" name="Ozeansaphir" icon="00004456.png"/>
+		<item key="7312" name="Paprika" icon="00007312.png"/>
+		<item key="6805" name="Paprikasamen" icon="00006805.png"/>
+		<item key="6705" name="Peperonisamen" icon="00006705.png"/>
+		<item key="6701" name="Pfeffersamen" icon="00006701.png"/>
+		<item key="5408" name="Pfeilpilz" icon="00005408.png"/>
+		<item key="6908" name="Pfeilpilzhyphe" icon="00006908.png"/>
+		<item key="824" name="Pilz" icon="00000824.png"/>
+		<item key="4657" name="Pinienbrett" icon="00004657.png"/>
+		<item key="4603" name="Pinienholz" icon="00004603.png"/>
+		<item key="5003" name="Piniensaft" icon="00005003.png"/>
+		<item key="4203" name="Platinerz" icon="00004203.png"/>
+		<item key="4801" name="Pulver der Dunkelheit" icon="00004801.png"/>
+		<item key="5601" name="Pulver der Insektenfressenden Pflanze" icon="00005601.png"/>
+		<item key="4805" name="Pulver der Zeit" icon="00004805.png"/>
+		<item key="7906" name="Rindfleisch" icon="00007906.png"/>
+		<item key="6152" name="Robustes Leder" icon="00006152.png"/>
+		<item key="4405" name="Rohdiamant" icon="00004405.png"/>
+		<item key="4205" name="Roher Heilstein" icon="00004205.png"/>
+		<item key="4407" name="Roher Schlammkristall" icon="00004407.png"/>
+		<item key="4204" name="Rohopal" icon="00004204.png"/>
+		<item key="4401" name="Rohrubin" icon="00004401.png"/>
+		<item key="4402" name="Rohsaphir" icon="00004402.png"/>
+		<item key="4404" name="Rohsmaragd" icon="00004404.png"/>
+		<item key="4403" name="Rohtopas" icon="00004403.png"/>
+		<item key="7319" name="Rose" icon="00007319.png"/>
+		<item key="5011" name="Rotbaumbeule" icon="00005011.png"/>
+		<item key="4468" name="Roter Kristall" icon="00004468.png"/>
+		<item key="4408" name="Roter Rohkristall" icon="00004408.png"/>
+		<item key="4451" name="Rubin" icon="00004451.png"/>
+		<item key="55853" name="Safran" icon="00055853.png"/>
+		<item key="4454" name="Saphir" icon="00004454.png"/>
+		<item key="6202" name="Schafsblut" icon="00006202.png"/>
+		<item key="6002" name="Schafsfell" icon="00006002.png"/>
+		<item key="4467" name="Schlammkristall" icon="00004467.png"/>
+		<item key="8201" name="Schlammspringer" icon="00008201.png"/>
+		<item key="6158" name="Schmuckfeder" icon="00006158.png"/>
+		<item key="4410" name="Schwarzer Rohkristall" icon="00004410.png"/>
+		<item key="4470" name="Schwarzkristall" icon="00004470.png"/>
+		<item key="16002" name="Schwarzstein (Rüstung)" icon="00000007.png"/>
+		<item key="16001" name="Schwarzstein (Waffe)" icon="00000008.png"/>
+		<item key="6205" name="Schweineblut" icon="00006205.png"/>
+		<item key="7905" name="Schweinefleisch" icon="00007905.png"/>
+		<item key="6005" name="Schweinehaut" icon="00006005.png"/>
+		<item key="8233" name="Seestern" icon="00008233.png"/>
+		<item key="5857" name="Seide" icon="00005857.png"/>
+		<item key="5853" name="Seidenfaden" icon="00005853.png"/>
+		<item key="5405" name="Seidenhoniggras" icon="00005405.png"/>
+		<item key="6905" name="Seidenhoniggras-Samen" icon="00006905.png"/>
+		<item key="5402" name="Silberazalee" icon="00005402.png"/>
+		<item key="6902" name="Silberazaleensamen" icon="00006902.png"/>
+		<item key="5422" name="Silberazaleenstrauß" icon="00005422.png"/>
+		<item key="4201" name="Silbererz" icon="00004201.png"/>
+		<item key="4460" name="Smaragd" icon="00004460.png"/>
+		<item key="7308" name="Sonnenblumen" icon="00007308.png"/>
+		<item key="6802" name="Sonnenblumenkern" icon="00006802.png"/>
+		<item key="4803" name="Spaltenpulver" icon="00004803.png"/>
+		<item key="4465" name="Sterndiamant" icon="00004465.png"/>
+		<item key="5854" name="Strickgarn" icon="00005854.png"/>
+		<item key="7004" name="Süßkartoffel" icon="00007004.png"/>
+		<item key="6810" name="Süßkartoffelsamen" icon="00006810.png"/>
+		<item key="4663" name="Tannenbrett" icon="00004663.png"/>
+		<item key="4606" name="Tannenholz" icon="00004606.png"/>
+		<item key="5009" name="Tannennadelsaft" icon="00005009.png"/>
+		<item key="5412" name="Tigerpilz" icon="00005412.png"/>
+		<item key="6912" name="Tigerpilzhyphe" icon="00006912.png"/>
+		<item key="7311" name="Tomate" icon="00007311.png"/>
+		<item key="6804" name="Tomatensamen" icon="00006804.png"/>
+		<item key="4457" name="Topas" icon="00004457.png"/>
+		<item key="7307" name="Trauben" icon="00007307.png"/>
+		<item key="6801" name="Traubensamen" icon="00006801.png"/>
+		<item key="5404" name="Trockenmähnengras" icon="00005404.png"/>
+		<item key="6904" name="Trockenmähnengras-Samen" icon="00006904.png"/>
+		<item key="6220" name="Trollblut" icon="00006220.png"/>
+		<item key="5420" name="Trüffel" icon="00005420.png"/>
+		<item key="7320" name="Tulpe" icon="00007320.png"/>
+		<item key="24840" name="Turbanschnecke" icon="InHouse_Cultivate_Sea_Shell_01.png"/>
+		<item key="5600" name="Unkraut" icon="00005600.png"/>
+		<item key="55003" name="Uralte Bronzemünze" icon="00055003.png"/>
+		<item key="55004" name="Uralte Eisenmünze" icon="00055004.png"/>
+		<item key="55001" name="Uralte Goldmünze" icon="00055001.png"/>
+		<item key="55002" name="Uralte Silbermünze" icon="00055002.png"/>
+		<item key="15605" name="Uralter Magiekristall – Carmae" icon="00045013.png"/>
+		<item key="15602" name="Uralter Magiekristall – Cobelinus" icon="00045013.png"/>
+		<item key="15601" name="Uralter Magiekristall – Harphia" icon="00045013.png"/>
+		<item key="15604" name="Uralter Magiekristall – Hystria" icon="00045013.png"/>
+		<item key="15603" name="Uralter Magiekristall – Viper" icon="00045013.png"/>
+		<item key="5418" name="Uraltpilz" icon="00005418.png"/>
+		<item key="6918" name="Uraltpilzhyphe" icon="00006918.png"/>
+		<item key="5407" name="Wahrsagerpilz" icon="00005407.png"/>
+		<item key="6907" name="Wahrsagerpilzhyphe" icon="00006907.png"/>
+		<item key="4462" name="Waldsmaragd" icon="00004462.png"/>
+		<item key="6210" name="Waschbärenblut" icon="00006210.png"/>
+		<item key="6010" name="Waschbärenfell" icon="00006010.png"/>
+		<item key="7910" name="Waschbärenfleisch" icon="00007910.png"/>
+		<item key="6017" name="Weiche Kukuvogelfeder" icon="00006017.png"/>
+		<item key="6151" name="Weiches Leder" icon="00006151.png"/>
+		<item key="7001" name="Weizen" icon="00007001.png"/>
+		<item key="6808" name="Weizensamen" icon="00006808.png"/>
+		<item key="4676" name="Weißzederbrett" icon="00004676.png"/>
+		<item key="4608" name="Weißzederholz" icon="00004608.png"/>
+		<item key="5012" name="Weißzedersaft" icon="00005012.png"/>
+		<item key="6212" name="Wieselblut" icon="00006212.png"/>
+		<item key="6012" name="Wieselfell" icon="00006012.png"/>
+		<item key="7911" name="Wieselfleisch" icon="00007911.png"/>
+		<item key="5439" name="Wildkraut" icon="00005439.png"/>
+		<item key="6214" name="Wolfsblut" icon="00006214.png"/>
+		<item key="6014" name="Wolfsfell" icon="00006014.png"/>
+		<item key="7913" name="Wolfsfleisch" icon="00007913.png"/>
+		<item key="5410" name="Wolkenpilz" icon="00005410.png"/>
+		<item key="6910" name="Wolkenpilzhyphe" icon="00006910.png"/>
+		<item key="5858" name="Wolle" icon="00005858.png"/>
+		<item key="6209" name="Wurmblut" icon="00006209.png"/>
+		<item key="7909" name="Wurmfleisch" icon="00007909.png"/>
+		<item key="6009" name="Wurmhaut" icon="00006009.png"/>
+		<item key="4666" name="Zedernbrett" icon="00004666.png"/>
+		<item key="4607" name="Zedernholz" icon="00004607.png"/>
+		<item key="5010" name="Zedernsaft" icon="00005010.png"/>
+		<item key="7348" name="Zimt" icon="00007348.png"/>
+		<item key="4005" name="Zinkerz" icon="00004005.png"/>
+		<item key="4004" name="Zinnerz" icon="00004004.png"/>
+		<item key="5409" name="Zwergenpilz" icon="00005409.png"/>
+		<item key="6909" name="Zwergenpilzhyphe" icon="00006909.png"/>
+		<item key="6703" name="Zwiebelsamen" icon="00006703.png"/>
+		<item key="24119" name="Ökologie der Arbeiterklasse" icon="InHouse_X_DPFO_Book_03.png"/>
+	</collect>
+</itemmaking>
+

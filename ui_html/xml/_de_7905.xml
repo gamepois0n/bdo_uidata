@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7905</itemKey>
+	<itemName>Schweinefleisch</itemName>
+	<itemIcon>00007905.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Graues Wildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Hofwildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Junges Rotwildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rotwildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildschwein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildschwein-Frischling</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Seltenes Trockenfleisch</name>
+			<icon>00007920.png</icon>
+			<desc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</desc>
+		</item>
+		<item>
+			<id>24129</id>
+			<name>Zinnkronleuchter mit vier Kerzen</name>
+			<icon>InHouse_X_DPFO_Candlestick_03_light.png</icon>
+			<desc>Ein Kronleuchter aus Zinn mit 4 Kerzen.</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Messingkronleuchter mit vier Kerzen</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>Ein Kronleuchter aus Messing mit 4 Kerzen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

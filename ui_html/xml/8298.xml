@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8298</itemKey>
+	<itemName>Tapertail Anchovy</itemName>
+	<itemIcon>00008298.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8598</id>
+			<name>Dried Tapertail Anchovy</name>
+			<icon>00008598.png</icon>
+			<desc>A dried tapertail anchovy obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

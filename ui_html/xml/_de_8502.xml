@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8502</itemKey>
+	<itemName>Getrockneter Thunfisch</itemName>
+	<itemIcon>00008502.png</itemIcon>
+	<itemDesc>Ein Getrockneter Thunfisch, der durch Trocknen erlangt wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8202</id>
+			<name>Thunfisch</name>
+			<icon>00008202.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

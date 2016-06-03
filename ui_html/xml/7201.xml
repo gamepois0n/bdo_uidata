@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7201</itemKey>
+	<itemName>Wheat Dough</itemName>
+	<itemIcon>00007201.png</itemIcon>
+	<itemDesc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

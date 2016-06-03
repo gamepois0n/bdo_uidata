@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>44058</itemKey>
+	<itemName>Fish Bones</itemName>
+	<itemIcon>00044058.png</itemIcon>
+	<itemDesc>Vendors would buy this item at cheap price.</itemDesc>
+	<collect>
+		<character>
+			<name>Fish Drying Rack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fish Net</name>
+		</character>
+	</collect>
+	<fishing/>
+	<node region="Pilava Island - Fish Trap 1"/>
+	<node region="Luivano Island - Fish Trap"/>
+	<node region="Baeza Island - Fish Trap"/>
+	<node region="Barater Island - Fish Trap 2"/>
+</itemInfo>
+

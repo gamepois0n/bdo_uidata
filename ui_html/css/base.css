@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+ 
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0;-webkit-text-size-adjust:none}
+body{position:relative;background-color:#f4f4f4;font-size:14px;line-height:1.25em;color:#555}
+section,nav,article,aside,hgroup,header,footer{display:block}
+input,textarea,select,button,table{font-size:inherit;font-family:Tahoma,inherit;line-height:inherit}
+body{font-family:Tahoma,Helvetica}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a	{color:inherit;text-decoration:none;}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+section,
+header,
+footer,
+aside,
+nav {
+	display:block;
+}
+
+aaddress, aerticle, aside, figure, footer, header, hgroup, menu, nav, section { display:block; }
+[hidden], command, datalist, menu[type=context], rp, source { 
+	display:none; 
+}
+
+
+img { max-width:100%; }
+
+  
+ 

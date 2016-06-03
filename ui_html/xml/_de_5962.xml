@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5962</itemKey>
+	<itemName>Spur des Todes</itemName>
+	<itemIcon>00005962.png</itemIcon>
+	<itemDesc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird. Kann durch Ausgrabung gefunden werden.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10007</id>
+			<name>Seles-Langschwert</name>
+			<icon>00010007.png</icon>
+			<desc>Ein Langschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10207</id>
+			<name>Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein Langbogen, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10407</id>
+			<name>Seles-Fokusreif</name>
+			<icon>00010407.png</icon>
+			<desc>Ein Fokusreif, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10607</id>
+			<name>Seles-Axt</name>
+			<icon>00010607.png</icon>
+			<desc>Eine Axt, die von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13207</id>
+			<name>Seles-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14407</id>
+			<name>Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein Stab, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10428</id>
+			<name>Seles-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010407.png</icon>
+			<desc>Dieser Seles-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Fokusreif der Purpurnen Flamme, Seles-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10431</id>
+			<name>Ultimativer Seles-Fokusreif</name>
+			<icon>00010407.png</icon>
+			<desc>Ein maximal aufgerüsteter Seles-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Fokusreif der Purpurnen Flamme, Seles-Fokusreif der Zerstörung, Seles-Fokusreif der Versuchung, Seles-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10430</id>
+			<name>Seles-Fokusreif der Versuchung</name>
+			<icon>00010407.png</icon>
+			<desc>Dieser Seles-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Fokusreif der Versuchung, Seles-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10429</id>
+			<name>Seles-Fokusreif der Zerstörung</name>
+			<icon>00010407.png</icon>
+			<desc>Dieser Seles-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Fokusreif der Zerstörung, Seles-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10407</id>
+			<name>Seles-Fokusreif</name>
+			<icon>00010407.png</icon>
+			<desc>Ein Fokusreif, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Seles-Stab der Versuchung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Versuchung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seles-Stab der Zerstörung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Zerstörung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seles-Stab der Purpurnen Flamme</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Purpurnen Flamme, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>13229</id>
+			<name>Seles-Kurzschwert der Zerstörung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Seles-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Kurzschwert der Zerstörung, Seles-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13228</id>
+			<name>Seles-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Seles-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Kurzschwert der Purpurnen Flamme, Seles-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13207</id>
+			<name>Seles-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>13231</id>
+			<name>Ultimatives Seles-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein maximal aufgerüstetes Seles-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Kurzschwert der Purpurnen Flamme, Seles-Kurzschwert der Zerstörung, Seles-Kurzschwert der Versuchung, Seles-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13230</id>
+			<name>Seles-Kurzschwert der Versuchung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Seles-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Kurzschwert der Versuchung, Seles-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Ultimativer Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein maximal aufgerüsteter Seles-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Purpurnen Flamme, Seles-Stab der Zerstörung, Seles-Stab der Versuchung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein Stab, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10207</id>
+			<name>Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein Langbogen, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Seles-Langbogen der Zerstörung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Zerstörung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Seles-Langbogen der Purpurnen Flamme</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Purpurnen Flamme, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10231</id>
+			<name>Ultimativer Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein maximal aufgerüsteter Seles-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Purpurnen Flamme, Seles-Langbogen der Zerstörung, Seles-Langbogen der Versuchung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Seles-Langbogen der Versuchung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Versuchung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10607</id>
+			<name>Seles-Axt</name>
+			<icon>00010607.png</icon>
+			<desc>Eine Axt, die von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10631</id>
+			<name>Ultimative Seles-Axt</name>
+			<icon>00010607.png</icon>
+			<desc>Eine maximal aufgerüstet Seles-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Seles-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Axt der Purpurnen Flamme, Seles-Axt der Zerstörung, Seles-Axt der Versuchung, Seles-Axt</desc>
+		</item>
+		<item>
+			<id>10630</id>
+			<name>Seles-Axt der Versuchung</name>
+			<icon>00010607.png</icon>
+			<desc>Diese Seles-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Seles-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Axt der Versuchung, Seles-Axt</desc>
+		</item>
+		<item>
+			<id>10629</id>
+			<name>Seles-Axt der Zerstörung</name>
+			<icon>00010607.png</icon>
+			<desc>Diese Seles-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Seles-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Axt der Zerstörung, Seles-Axt</desc>
+		</item>
+		<item>
+			<id>10628</id>
+			<name>Seles-Axt der Purpurnen Flamme</name>
+			<icon>00010607.png</icon>
+			<desc>Diese Seles-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Seles-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Axt der Purpurnen Flamme, Seles-Axt</desc>
+		</item>
+		<item>
+			<id>10031</id>
+			<name>Ultimatives Seles-Langschwert</name>
+			<icon>00010007.png</icon>
+			<desc>Ein maximal aufgerüstetes Seles-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langschwert der Purpurnen Flamme, Seles-Langschwert der Zerstörung, Seles-Langschwert der Versuchung, Seles-Langschwert</desc>
+		</item>
+		<item>
+			<id>10030</id>
+			<name>Seles-Langschwert der Versuchung</name>
+			<icon>00010007.png</icon>
+			<desc>Dieses Seles-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langschwert der Versuchung, Seles-Langschwert</desc>
+		</item>
+		<item>
+			<id>10029</id>
+			<name>Seles-Langschwert der Zerstörung</name>
+			<icon>00010007.png</icon>
+			<desc>Dieses Seles-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langschwert der Zerstörung, Seles-Langschwert</desc>
+		</item>
+		<item>
+			<id>10028</id>
+			<name>Seles-Langschwert der Purpurnen Flamme</name>
+			<icon>00010007.png</icon>
+			<desc>Dieses Seles-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langschwert der Purpurnen Flamme, Seles-Langschwert</desc>
+		</item>
+		<item>
+			<id>10007</id>
+			<name>Seles-Langschwert</name>
+			<icon>00010007.png</icon>
+			<desc>Ein Langschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

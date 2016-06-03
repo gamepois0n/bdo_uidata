@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10312</itemKey>
+	<itemName>Dague en acier de tentation</itemName>
+	<itemIcon>00010304.png</itemIcon>
+	<itemDesc>Cette dague en acier renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : dague en acier de tentation, dague en acier</itemDesc>
+	<house type="4">
+		<item>
+			<id>4077</id>
+			<name>Lingot d&apos;acier</name>
+			<icon>00004077.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant des fragments de fer fondu et du charbon. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Cristal de fer pur</name>
+			<icon>00004053.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de fer. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Peau résistante délicate</name>
+			<icon>00006160.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de rhino, de cochon ou de vache. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Poudre de flamme</name>
+			<icon>00004802.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10304</id>
+			<name>Dague en acier</name>
+			<icon>00010304.png</icon>
+			<desc>Une dague tranchante en acier.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10304</id>
+			<name>Dague en acier</name>
+			<icon>00010304.png</icon>
+			<desc>Une dague tranchante en acier.</desc>
+		</item>
+		<item>
+			<id>10313</id>
+			<name>Dague en acier ultime</name>
+			<icon>00010304.png</icon>
+			<desc>Une dague en acier qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : dague en acier de la flamme pourpre, dague en acier de destruction, dague en acier de tentation, dague en acier</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Dague en acier de tentation</name>
+			<icon>00010304.png</icon>
+			<desc>Cette dague en acier renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : dague en acier de tentation, dague en acier</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Dague en acier de destruction</name>
+			<icon>00010304.png</icon>
+			<desc>Cette dague en acier renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : dague en acier de destruction, dague en acier</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Dague en acier de la flamme pourpre</name>
+			<icon>00010304.png</icon>
+			<desc>Cette dague en acier renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : dague en acier de la flamme pourpre, dague en acier</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

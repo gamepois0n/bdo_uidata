@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4906</itemKey>
+	<itemName>Waffen-Verbesserungsstein (Stufe 1)</itemName>
+	<itemIcon>00004906.png</itemIcon>
+	<itemDesc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</itemDesc>
+	<house type="10">
+		<item>
+			<id>4004</id>
+			<name>Zinnerz</name>
+			<icon>00004004.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Khurutohöhle, Rhutum-Außenposten, Behr-Flussquelle. Kann aus zinnhaltigem Erz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4466</id>
+			<name>Durchsichtiger Kristall</name>
+			<icon>00004466.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe der Goblinhöhle gefundenem Durchsichtigen Rohkristall gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Blutast</name>
+			<icon>00005005.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Blutast erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>6354</id>
+			<name>Blut des Sünders</name>
+			<icon>00006354.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10308</id>
+			<name>Bronzedolch der Versuchung</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Versuchung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Bronzedolch der Zerstörung</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Zerstörung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Bronzedolch der Purpurnen Flamme</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Purpurnen Flamme, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10305</id>
+			<name>Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein Dolch, mit dem Angriffe pariert werden können.</desc>
+		</item>
+		<item>
+			<id>10304</id>
+			<name>Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein scharfer Dolch aus Stahl.</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parierdolch der Purpurnen Flamme</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Stahldolch der Versuchung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Versuchung\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Versuchung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Stahldolch der Zerstörung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Zerstörung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Stahldolch der Purpurnen Flamme</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parierdolch der Versuchung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parierdolch der Zerstörung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Zerstörung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos-Schmuckknoten der Versuchung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Versuchung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos-Schmuckknoten der Zerstörung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Zerstörung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Purpurnen Flamme, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10712</id>
+			<name>Oros-Schmuckknoten der Versuchung</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Versuchung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10428</id>
+			<name>Seles-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010407.png</icon>
+			<desc>Dieser Seles-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Fokusreif der Purpurnen Flamme, Seles-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10426</id>
+			<name>Halbmenschen-Fokusreif der Versuchung</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Versuchung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10425</id>
+			<name>Halbmenschen-Fokusreif der Zerstörung</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Zerstörung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10424</id>
+			<name>Halbmenschen-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Purpurnen Flamme, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10430</id>
+			<name>Seles-Fokusreif der Versuchung</name>
+			<icon>00010407.png</icon>
+			<desc>Dieser Seles-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Fokusreif der Versuchung, Seles-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10429</id>
+			<name>Seles-Fokusreif der Zerstörung</name>
+			<icon>00010407.png</icon>
+			<desc>Dieser Seles-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Fokusreif der Zerstörung, Seles-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10407</id>
+			<name>Seles-Fokusreif</name>
+			<icon>00010407.png</icon>
+			<desc>Ein Fokusreif, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10406</id>
+			<name>Halbmenschen-Fokusreif</name>
+			<icon>00010406.png</icon>
+			<desc>Ein Fokusreif zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10405</id>
+			<name>Aswell-Fokusreif</name>
+			<icon>00010405.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Fokusreif.</desc>
+		</item>
+		<item>
+			<id>10414</id>
+			<name>Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10413</id>
+			<name>Baris-Fokusreif</name>
+			<icon>00010413.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Fokusreif.</desc>
+		</item>
+		<item>
+			<id>10460</id>
+			<name>Krea-Fokusreif der Versuchung</name>
+			<icon>00010456.png</icon>
+			<desc>Dieser Krea-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Fokusreif der Versuchung, Krea-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10459</id>
+			<name>Krea-Fokusreif der Zerstörung</name>
+			<icon>00010456.png</icon>
+			<desc>Dieser Krea-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Fokusreif der Zerstörung, Krea-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10458</id>
+			<name>Krea-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010456.png</icon>
+			<desc>Dieser Krea-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Fokusreif der Purpurnen Flamme, Krea-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10456</id>
+			<name>Krea-Fokusreif</name>
+			<icon>00010456.png</icon>
+			<desc>Ein Fokusreif, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis-Fokusreif der Versuchung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Versuchung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis-Fokusreif der Zerstörung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Zerstörung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Purpurnen Flamme, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Yuria-Fokusreif der Zerstörung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Yuria-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Purpurnen Flamme, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10438</id>
+			<name>Baris-Fokusreif der Versuchung</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Versuchung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10437</id>
+			<name>Baris-Fokusreif der Zerstörung</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Zerstörung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10436</id>
+			<name>Baris-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Purpurnen Flamme, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Weihrauchanhänger der Zerstörung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Zerstörung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Weihrauchanhänger der Purpurnen Flamme</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Purpurnen Flamme, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Klingenanhänger</name>
+			<icon>00010706.png</icon>
+			<desc>Ein Anhänger, an dem eine dekorative Klinge befestigt ist.</desc>
+		</item>
+		<item>
+			<id>13004</id>
+			<name>Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Nadeln.</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Weihrauch.</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Seles-Stab der Versuchung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Versuchung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seles-Stab der Zerstörung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Zerstörung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seles-Stab der Purpurnen Flamme</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Purpurnen Flamme, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Halbmenschen-Stab der Versuchung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Halbmenschen-Stab der Zerstörung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Yuria-Fokusreif der Versuchung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Versuchung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea-Talisman der Zerstörung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Zerstörung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea-Talisman der Purpurnen Flamme</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein Talisman, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick-Talisman der Versuchung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick-Talisman der Zerstörung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Zerstörung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick-Talisman der Purpurnen Flamme</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein Talisman mit verstärkten Verteidigungseigenschaften.</desc>
+		</item>
+		<item>
+			<id>10504</id>
+			<name>Jubre-Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>Ein Talisman, auf dem in einer fremden Ursprache etwas geschrieben steht.</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein Talisman, in den ein magischer Edelstein eingelassen ist.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea-Talisman der Versuchung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10511</id>
+			<name>Jubre-Talisman der Zerstörung</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Zerstörung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>10510</id>
+			<name>Jubre-Talisman der Purpurnen Flamme</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Purpurnen Flamme, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria-Stab der Versuchung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria-Stab der Zerstörung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Zerstörung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria-Stab der Purpurnen Flamme</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Stabs gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Baris-Stab der Versuchung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Krea-Anhänger der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea-Anhänger der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Zerstörung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea-Anhänger der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Anhänger, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>13229</id>
+			<name>Seles-Kurzschwert der Zerstörung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Seles-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Kurzschwert der Zerstörung, Seles-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13228</id>
+			<name>Seles-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Seles-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Kurzschwert der Purpurnen Flamme, Seles-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13226</id>
+			<name>Halbmenschen-Kurzschwert der Versuchung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Halbmenschen-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Kurzschwert der Versuchung, Halbmenschen-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13225</id>
+			<name>Halbmenschen-Kurzschwert der Zerstörung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Halbmenschen-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Kurzschwert der Zerstörung, Halbmenschen-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13224</id>
+			<name>Halbmenschen-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Halbmenschen-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Kurzschwert der Purpurnen Flamme, Halbmenschen-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13207</id>
+			<name>Seles-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>13206</id>
+			<name>Halbmenschen-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>13205</id>
+			<name>Aswell-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestelltes Kurzschwert.</desc>
+		</item>
+		<item>
+			<id>13242</id>
+			<name>Yuria-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Yuria-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Kurzschwert der Versuchung, Yuria-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13241</id>
+			<name>Yuria-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Yuria-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Kurzschwert der Zerstörung, Yuria-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13240</id>
+			<name>Yuria-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Yuria-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Kurzschwert der Purpurnen Flamme, Yuria-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13238</id>
+			<name>Baris-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Baris-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Kurzschwert der Versuchung, Baris-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13237</id>
+			<name>Baris-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Baris-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Kurzschwert der Zerstörung, Baris-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13236</id>
+			<name>Baris-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Baris-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Kurzschwert der Purpurnen Flamme, Baris-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Kalis-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Versuchung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Zerstörung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13214</id>
+			<name>Yuria-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>13213</id>
+			<name>Baris-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Kurzschwert.</desc>
+		</item>
+		<item>
+			<id>13230</id>
+			<name>Seles-Kurzschwert der Versuchung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Seles-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Kurzschwert der Versuchung, Seles-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13222</id>
+			<name>Aswell-Kurzschwert der Versuchung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Aswell-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Kurzschwerts hergestellt werden.\n– Max. Haltbarkeit wiederherstellen: Aswell-Kurzschwert der Versuchung, Aswell-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13221</id>
+			<name>Aswell-Kurzschwert der Zerstörung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Aswell-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Kurzschwert der Zerstörung, Aswell-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13220</id>
+			<name>Aswell-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Aswell-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Kurzschwert der Purpurnen Flamme, Aswell-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Krea-Stab</name>
+			<icon>00014456.png</icon>
+			<desc>Ein Stab, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10303</id>
+			<name>Bronzedolch</name>
+			<icon>00010303.png</icon>
+			<desc>Ein bronzener Dolch.</desc>
+		</item>
+		<item>
+			<id>10422</id>
+			<name>Aswell-Fokusreif der Versuchung</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Versuchung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10421</id>
+			<name>Aswell-Fokusreif der Zerstörung</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Zerstörung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10420</id>
+			<name>Aswell-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Purpurnen Flamme, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10622</id>
+			<name>Aswell-Axt der Versuchung</name>
+			<icon>00010605.png</icon>
+			<desc>Diese Aswell-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Aswell-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Axt der Versuchung, Aswell-Axt</desc>
+		</item>
+		<item>
+			<id>10621</id>
+			<name>Aswell-Axt der Zerstörung</name>
+			<icon>00010605.png</icon>
+			<desc>Diese Aswell-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Aswell-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Axt der Zerstörung, Aswell-Axt</desc>
+		</item>
+		<item>
+			<id>10620</id>
+			<name>Aswell-Axt der Purpurnen Flamme</name>
+			<icon>00010605.png</icon>
+			<desc>Diese Aswell-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Aswell-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Axt der Purpurnen Flamme, Aswell-Axt</desc>
+		</item>
+		<item>
+			<id>10613</id>
+			<name>Baris-Axt</name>
+			<icon>00010613.png</icon>
+			<desc>Eine Axt, die von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine zu höchster Perfektion geschmiedete Axt.</desc>
+		</item>
+		<item>
+			<id>10614</id>
+			<name>Yuria-Axt</name>
+			<icon>00010614.png</icon>
+			<desc>Eine Axt, die von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Krea-Langbogen der Versuchung</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Versuchung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Krea-Langbogen der Zerstörung</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Zerstörung, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Yuria-Langbogen der Versuchung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Versuchung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Yuria-Langbogen der Zerstörung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Zerstörung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Yuria-Langbogen der Purpurnen Flamme</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea-Dolch der Versuchung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea-Dolch der Zerstörung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Zerstörung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea-Dolch der Purpurnen Flamme</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein Dolch, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Halbmenschen-Stab der Purpurnen Flamme</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Aswell-Stab der Versuchung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Versuchung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Aswell-Stab der Zerstörung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Zerstörung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Aswell-Stab der Purpurnen Flamme</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Purpurnen Flamme, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Aswell-Stab</name>
+			<icon>00014405.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Stab.</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedeter Stab.</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein Stab, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein Stab zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein Stab, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein Stab, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea-Stab der Versuchung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Versuchung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea-Stab der Zerstörung</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Zerstörung, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea-Stab der Purpurnen Flamme</name>
+			<icon>00014456.png</icon>
+			<desc>Dieser Krea-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Stab der Purpurnen Flamme, Krea-Stab</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Baris-Stab der Zerstörung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Zerstörung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Baris-Stab der Purpurnen Flamme</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis-Stab der Versuchung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis-Stab der Zerstörung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Zerstörung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis-Zauberstab der Purpurnen Flamme</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>10222</id>
+			<name>Aswell-Langbogen der Versuchung</name>
+			<icon>00010205.png</icon>
+			<desc>Dieser Aswell-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langbogen der Versuchung, Aswell-Langbogen</desc>
+		</item>
+		<item>
+			<id>10221</id>
+			<name>Aswell-Langbogen der Zerstörung</name>
+			<icon>00010205.png</icon>
+			<desc>Dieser Aswell-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langbogen der Zerstörung, Aswell-Langbogen</desc>
+		</item>
+		<item>
+			<id>10220</id>
+			<name>Aswell-Langbogen der Purpurnen Flamme</name>
+			<icon>00010205.png</icon>
+			<desc>Dieser Aswell-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langbogen der Purpurnen Flamme, Aswell-Langbogen</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik-Talisman der Versuchung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik-Talisman der Zerstörung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Zerstörung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik-Talisman der Purpurnen Flamme</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10512</id>
+			<name>Jubre-Talisman der Versuchung</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Versuchung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>13256</id>
+			<name>Krea-Kurzschwert</name>
+			<icon>00013256.png</icon>
+			<desc>Ein Kurzschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>13260</id>
+			<name>Krea-Kurzschwert der Versuchung</name>
+			<icon>00013256.png</icon>
+			<desc>Dieses Krea-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Kurzschwert der Versuchung, Krea-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13259</id>
+			<name>Krea-Kurzschwert der Zerstörung</name>
+			<icon>00013256.png</icon>
+			<desc>Dieses Krea-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Kurzschwert der Zerstörung, Krea-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13258</id>
+			<name>Krea-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013256.png</icon>
+			<desc>Dieses Krea-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Kurzschwert der Purpurnen Flamme, Krea-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13012</id>
+			<name>Nadelanhänger der Versuchung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Versuchung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Nadelanhänger der Zerstörung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Zerstörung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Nadelanhänger der Purpurnen Flamme</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Purpurnen Flamme, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Weihrauchanhänger der Versuchung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Versuchung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Klingenanhänger der Versuchung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Klingenanhänger der Zerstörung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Zerstörung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Klingenanhänger der Purpurnen Flamme</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Vangertz-Schild der Zerstörung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Zerstörung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz-Schild der Purpurnen Flamme</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein starker Legierungsschild, der den größten Schutz bietet.</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein stahlüberzogener Schild, der für gewöhnlich zum Angriff genutzt wird.</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein Rundschild aus hartem Eisen.</desc>
+		</item>
+		<item>
+			<id>10128</id>
+			<name>Krea-Schild der Versuchung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion-Schild der Zerstörung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Zerstörung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion-Schild der Purpurnen Flamme</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Purpurnen Flamme, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz-Schild der Versuchung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Versuchung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Drachenschild der Zerstörung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Zerstörung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Drachenschild der Purpurnen Flamme</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Purpurnen Flamme, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion-Schild der Versuchung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Versuchung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Drachenschild der Versuchung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Versuchung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea-Schild der Zerstörung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Zerstörung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea-Schild der Purpurnen Flamme</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10207</id>
+			<name>Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein Langbogen, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Halbmenschen-Langbogen</name>
+			<icon>00010206.png</icon>
+			<desc>Ein Langbogen zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10205</id>
+			<name>Aswell-Langbogen</name>
+			<icon>00010205.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Langbogen.</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Seles-Langbogen der Zerstörung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Zerstörung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Seles-Langbogen der Purpurnen Flamme</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Purpurnen Flamme, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Halbmenschen-Langbogen der Versuchung</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Versuchung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Halbmenschen-Langbogen der Zerstörung</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Zerstörung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Halbmenschen-Langbogen der Purpurnen Flamme</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Purpurnen Flamme, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis-Langbogen der Versuchung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Versuchung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis-Langbogen der Zerstörung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Zerstörung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis-Langbogen der Purpurnen Flamme</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Langbogens gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Purpurnen Flamme, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Seles-Langbogen der Versuchung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Versuchung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10238</id>
+			<name>Baris-Langbogen der Versuchung</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Versuchung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Baris-Langbogen der Zerstörung</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Zerstörung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Baris-Langbogen der Purpurnen Flamme</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Langbogens Baris werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Purpurnen Flamme, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein Langbogen, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Baris-Langbogen</name>
+			<icon>00010213.png</icon>
+			<desc>Ein Langbogen, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Langbogen.</desc>
+		</item>
+		<item>
+			<id>10640</id>
+			<name>Yuria-Axt der Purpurnen Flamme</name>
+			<icon>00010614.png</icon>
+			<desc>Diese Yuria-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Yuria-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Axt der Purpurnen Flamme, Yuria-Axt</desc>
+		</item>
+		<item>
+			<id>10607</id>
+			<name>Seles-Axt</name>
+			<icon>00010607.png</icon>
+			<desc>Eine Axt, die von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10606</id>
+			<name>Halbmenschen-Axt</name>
+			<icon>00010606.png</icon>
+			<desc>Eine Axt zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10605</id>
+			<name>Aswell-Axt</name>
+			<icon>00010605.png</icon>
+			<desc>Eine speziell für den Milizenanführer hergestellte Axt.</desc>
+		</item>
+		<item>
+			<id>10642</id>
+			<name>Yuria-Axt der Versuchung</name>
+			<icon>00010614.png</icon>
+			<desc>Diese Yuria-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Yuria-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Axt der Versuchung, Yuria-Axt</desc>
+		</item>
+		<item>
+			<id>10641</id>
+			<name>Yuria-Axt der Zerstörung</name>
+			<icon>00010614.png</icon>
+			<desc>Diese Yuria-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Yuria-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Axt der Zerstörung, Yuria-Axt</desc>
+		</item>
+		<item>
+			<id>10626</id>
+			<name>Halbmenschen-Axt der Versuchung</name>
+			<icon>00010606.png</icon>
+			<desc>Diese Halbmenschen-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Halbmenschen-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Axt der Versuchung, Halbmenschen-Axt</desc>
+		</item>
+		<item>
+			<id>10625</id>
+			<name>Halbmenschen-Axt der Zerstörung</name>
+			<icon>00010606.png</icon>
+			<desc>Diese Halbmenschen-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Halbmenschen-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Axt der Zerstörung, Halbmenschen-Axt</desc>
+		</item>
+		<item>
+			<id>10624</id>
+			<name>Halbmenschen-Axt der Purpurnen Flamme</name>
+			<icon>00010606.png</icon>
+			<desc>Diese Halbmenschen-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Halbmenschen-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Axt der Purpurnen Flamme, Halbmenschen-Axt</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Kalis-Axt der Purpurnen Flamme</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Purpurnen Flamme, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10630</id>
+			<name>Seles-Axt der Versuchung</name>
+			<icon>00010607.png</icon>
+			<desc>Diese Seles-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Seles-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Axt der Versuchung, Seles-Axt</desc>
+		</item>
+		<item>
+			<id>10629</id>
+			<name>Seles-Axt der Zerstörung</name>
+			<icon>00010607.png</icon>
+			<desc>Diese Seles-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Seles-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Axt der Zerstörung, Seles-Axt</desc>
+		</item>
+		<item>
+			<id>10628</id>
+			<name>Seles-Axt der Purpurnen Flamme</name>
+			<icon>00010607.png</icon>
+			<desc>Diese Seles-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Seles-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Axt der Purpurnen Flamme, Seles-Axt</desc>
+		</item>
+		<item>
+			<id>10638</id>
+			<name>Baris-Axt der Versuchung</name>
+			<icon>00010613.png</icon>
+			<desc>Diese Baris-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Baris-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Axt der Versuchung, Baris-Axt</desc>
+		</item>
+		<item>
+			<id>10637</id>
+			<name>Baris-Axt der Zerstörung</name>
+			<icon>00010613.png</icon>
+			<desc>Diese Baris-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Baris-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Axt der Zerstörung, Baris-Axt</desc>
+		</item>
+		<item>
+			<id>10636</id>
+			<name>Baris-Axt der Purpurnen Flamme</name>
+			<icon>00010613.png</icon>
+			<desc>Diese Baris-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Baris-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Axt der Purpurnen Flamme, Baris-Axt</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Kalis-Axt der Versuchung</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Versuchung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Kalis-Axt der Zerstörung</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Zerstörung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10659</id>
+			<name>Krea-Axt der Zerstörung</name>
+			<icon>00010656.png</icon>
+			<desc>Diese Krea-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Krea-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Axt der Zerstörung, Krea-Axt</desc>
+		</item>
+		<item>
+			<id>10658</id>
+			<name>Krea-Axt der Purpurnen Flamme</name>
+			<icon>00010656.png</icon>
+			<desc>Diese Krea-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Krea-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Axt der Purpurnen Flamme, Krea-Axt</desc>
+		</item>
+		<item>
+			<id>10656</id>
+			<name>Krea-Axt</name>
+			<icon>00010656.png</icon>
+			<desc>Eine Axt, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Gold.</desc>
+		</item>
+		<item>
+			<id>10704</id>
+			<name>Oros-Schmuckknoten</name>
+			<icon>00010704.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Silber.</desc>
+		</item>
+		<item>
+			<id>10660</id>
+			<name>Krea-Axt der Versuchung</name>
+			<icon>00010656.png</icon>
+			<desc>Diese Krea-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Krea-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Axt der Versuchung, Krea-Axt</desc>
+		</item>
+		<item>
+			<id>10711</id>
+			<name>Oros-Schmuckknoten der Zerstörung</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Zerstörung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10710</id>
+			<name>Oros-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Purpurnen Flamme, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer-Schmuckknoten der Versuchung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer-Schmuckknoten der Zerstörung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten aus hochwertiger Seide.</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea-Schmuckknoten der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Zerstörung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Purpurnen Flamme, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Schmuckknoten, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Krea-Langbogen der Purpurnen Flamme</name>
+			<icon>00010256.png</icon>
+			<desc>Dieser Krea-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langbogen der Purpurnen Flamme, Krea-Langbogen</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Krea-Langbogen</name>
+			<icon>00010256.png</icon>
+			<desc>Ein Langbogen, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea-Schmuckknoten der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Versuchung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10058</id>
+			<name>Krea-Langschwert der Purpurnen Flamme</name>
+			<icon>00010056.png</icon>
+			<desc>Dieses Krea-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Krea-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langschwert der Purpurnen Flamme, Krea-Langschwert</desc>
+		</item>
+		<item>
+			<id>10056</id>
+			<name>Krea-Langschwert</name>
+			<icon>00010056.png</icon>
+			<desc>Ein Langeschwert, das den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10060</id>
+			<name>Krea-Langschwert der Versuchung</name>
+			<icon>00010056.png</icon>
+			<desc>Dieses Krea-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Krea-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langschwert der Versuchung, Krea-Langschwert</desc>
+		</item>
+		<item>
+			<id>10059</id>
+			<name>Krea-Langschwert der Zerstörung</name>
+			<icon>00010056.png</icon>
+			<desc>Dieses Krea-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Krea-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Langschwert der Zerstörung, Krea-Langschwert</desc>
+		</item>
+		<item>
+			<id>10025</id>
+			<name>Halbmenschen-Langschwert der Zerstörung</name>
+			<icon>00010006.png</icon>
+			<desc>Dieses Halbmenschen-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langschwert der Zerstörung, Halbmenschen-Langschwert</desc>
+		</item>
+		<item>
+			<id>10024</id>
+			<name>Halbmenschen-Langschwert der Purpurnen Flamme</name>
+			<icon>00010006.png</icon>
+			<desc>Dieses Halbmenschen-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langschwert der Purpurnen Flamme, Halbmenschen-Langschwert</desc>
+		</item>
+		<item>
+			<id>10022</id>
+			<name>Aswell-Langschwert der Versuchung</name>
+			<icon>00010005.png</icon>
+			<desc>Dieses Aswell-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langschwert der Versuchung, Aswell-Langschwert</desc>
+		</item>
+		<item>
+			<id>10021</id>
+			<name>Aswell-Langschwert der Zerstörung</name>
+			<icon>00010005.png</icon>
+			<desc>Dieses Aswell-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langschwert der Zerstörung, Aswell-Langschwert</desc>
+		</item>
+		<item>
+			<id>10020</id>
+			<name>Aswell-Langschwert der Purpurnen Flamme</name>
+			<icon>00010005.png</icon>
+			<desc>Dieses Aswell-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langschwert der Purpurnen Flamme, Aswell-Langschwert</desc>
+		</item>
+		<item>
+			<id>10030</id>
+			<name>Seles-Langschwert der Versuchung</name>
+			<icon>00010007.png</icon>
+			<desc>Dieses Seles-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langschwert der Versuchung, Seles-Langschwert</desc>
+		</item>
+		<item>
+			<id>10029</id>
+			<name>Seles-Langschwert der Zerstörung</name>
+			<icon>00010007.png</icon>
+			<desc>Dieses Seles-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langschwert der Zerstörung, Seles-Langschwert</desc>
+		</item>
+		<item>
+			<id>10028</id>
+			<name>Seles-Langschwert der Purpurnen Flamme</name>
+			<icon>00010007.png</icon>
+			<desc>Dieses Seles-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langschwert der Purpurnen Flamme, Seles-Langschwert</desc>
+		</item>
+		<item>
+			<id>10026</id>
+			<name>Halbmenschen-Langschwert der Versuchung</name>
+			<icon>00010006.png</icon>
+			<desc>Dieses Halbmenschen-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langschwert der Versuchung, Halbmenschen-Langschwert</desc>
+		</item>
+		<item>
+			<id>10007</id>
+			<name>Seles-Langschwert</name>
+			<icon>00010007.png</icon>
+			<desc>Ein Langschwert, das von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10006</id>
+			<name>Halbmenschen-Langschwert</name>
+			<icon>00010006.png</icon>
+			<desc>Ein Langschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10005</id>
+			<name>Aswell-Langschwert</name>
+			<icon>00010005.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestelltes Langschwert.</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Kalis-Langschwert der Zerstörung</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Zerstörung, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Kalis-Langschwert der Purpurnen Flamme</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Purpurnen Flamme, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10014</id>
+			<name>Yuria-Langschwert</name>
+			<icon>00010014.png</icon>
+			<desc>Ein Langschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10013</id>
+			<name>Baris-Langschwert</name>
+			<icon>00010013.png</icon>
+			<desc>Ein Langschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Langschwert.</desc>
+		</item>
+		<item>
+			<id>10038</id>
+			<name>Baris-Langschwert der Versuchung</name>
+			<icon>00010013.png</icon>
+			<desc>Dieses Baris-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langschwert der Versuchung, Baris-Langschwert</desc>
+		</item>
+		<item>
+			<id>10037</id>
+			<name>Baris-Langschwert der Zerstörung</name>
+			<icon>00010013.png</icon>
+			<desc>Dieses Baris-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langschwert der Zerstörung, Baris-Langschwert</desc>
+		</item>
+		<item>
+			<id>10036</id>
+			<name>Baris-Langschwert der Purpurnen Flamme</name>
+			<icon>00010013.png</icon>
+			<desc>Dieses Baris-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langschwert der Purpurnen Flamme, Baris-Langschwert</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Kalis-Langschwert der Versuchung</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Versuchung, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10042</id>
+			<name>Yuria-Langschwert der Versuchung</name>
+			<icon>00010014.png</icon>
+			<desc>Dieses Yuria-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Langschwerts gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langschwert der Versuchung, Yuria-Langschwert</desc>
+		</item>
+		<item>
+			<id>10041</id>
+			<name>Yuria-Langschwert der Zerstörung</name>
+			<icon>00010014.png</icon>
+			<desc>Dieses Yuria-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langschwert der Zerstörung, Yuria-Langschwert</desc>
+		</item>
+		<item>
+			<id>10040</id>
+			<name>Yuria-Langschwert der Purpurnen Flamme</name>
+			<icon>00010014.png</icon>
+			<desc>Dieses Yuria-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langschwert der Purpurnen Flamme, Yuria-Langschwert</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

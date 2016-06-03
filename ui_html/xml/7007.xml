@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7007</itemKey>
+	<itemName>High-Quality Barley</itemName>
+	<itemIcon>00007002.png</itemIcon>
+	<itemDesc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</itemDesc>
+	<makelist>
+		<item>
+			<id>7102</id>
+			<name>Barley Flour</name>
+			<icon>00007102.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Barley.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>7555</id>
+			<name>High-Quality Barley Crate</name>
+			<icon>00007424.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Concentrated Grain Juice</name>
+			<icon>00000567.png</icon>
+			<desc>Immediately heals HP by+125.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Grain Juice</name>
+			<icon>00000566.png</icon>
+			<desc>Immediately heals HP by+75.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Inorganic Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

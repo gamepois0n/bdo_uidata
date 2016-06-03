@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9418</itemKey>
+	<itemName>Fish Soup</itemName>
+	<itemIcon>00009418.png</itemIcon>
+	<itemDesc>Soup made with fish filet. \n- Unique effect: Critical Hit Rate +1 for 60min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Mudskipper</name>
+			<icon>00008201.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Wheat Flour</name>
+			<icon>00007101.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Cream</name>
+			<icon>00009061.png</icon>
+			<desc>An ingredient used in Cooking.It can be created by Shaking sugar with the milk obtained from a farm Quest.\n\n- Usage: Fruit Pie, Fish Soup, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

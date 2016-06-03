@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>55864</itemKey>
+	<itemName>Tas de charbon</itemName>
+	<itemIcon>00055864.png</itemIcon>
+	<itemDesc>Le charbon est considéré comme un carburant de grande qualité, du moins pour ceux qui peuvent se le permettre.</itemDesc>
+	<house type="17">
+		<item>
+			<id>4070</id>
+			<name>Charbon transformé</name>
+			<icon>00004070.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant du charbon.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

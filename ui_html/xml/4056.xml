@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4056</itemKey>
+	<itemName>Pure Lead Crystal</itemName>
+	<itemIcon>00004056.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Lead Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4055</id>
+			<name>Lead Ingot</name>
+			<icon>00004055.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Lead Shards. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4076</id>
+			<name>Metal Solvent</name>
+			<icon>00004076.png</icon>
+			<desc>A material used to change metals into a pure crystal form through Processing.\n\n- How to Obtain: It can be obtained through Alchemy.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10007</id>
+			<name>Seleth Longsword</name>
+			<icon>00010007.png</icon>
+			<desc>A longsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10207</id>
+			<name>Seleth Longbow</name>
+			<icon>00010207.png</icon>
+			<desc>A longbow possessed with a strong hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10407</id>
+			<name>Seleth Amulet</name>
+			<icon>00010407.png</icon>
+			<desc>An amulet possessed with a strong hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10607</id>
+			<name>Seleth Axe</name>
+			<icon>00010607.png</icon>
+			<desc>An axe possessed with a strong hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13207</id>
+			<name>Seleth Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14407</id>
+			<name>Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A staff possessed with a strong hatred for Humankind.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>49401</id>
+			<name>Ferry Decoration</name>
+			<icon>00049401.png</icon>
+			<desc>A decoration that can be attached to a Ferry, lowering the chance of Trade Items breaking.\nWhen 3 or more set items are installed:\nMovement Speed +2%\n\n- Can be Installed on: Ferry\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>16168</id>
+			<name>Maple Float</name>
+			<icon>00016168.png</icon>
+			<desc>A float made of maple wood. Good for catching rare fishes.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16167</id>
+			<name>Ash Tree Float</name>
+			<icon>00016167.png</icon>
+			<desc>A float made of ash wood. Good for catching big fishes.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16164</id>
+			<name>Calpheon Fishing Rod</name>
+			<icon>00016164.png</icon>
+			<desc>Calpheon fishing rod. ...And it was super effective!\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>53705</id>
+			<name>Trade Wagon Badge</name>
+			<icon>00053610.png</icon>
+			<desc>A banner for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>13207</id>
+			<name>Seleth Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>13229</id>
+			<name>Seleth Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Destruction, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13228</id>
+			<name>Seleth Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Crimson Flame, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13231</id>
+			<name>Ultimate Seleth Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Seleth Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Crimson Flame, Seleth Shortsword of Destruction, Seleth Shortsword of Temptation, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13230</id>
+			<name>Seleth Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Temptation, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>10428</id>
+			<name>Seleth Amulet of Crimson Flame</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Crimson Flame, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10431</id>
+			<name>Ultimate Seleth Amulet</name>
+			<icon>00010407.png</icon>
+			<desc>A Seleth Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Crimson Flame, Seleth Amulet of Destruction, Seleth Amulet of Temptation, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10430</id>
+			<name>Seleth Amulet of Temptation</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Temptation, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10429</id>
+			<name>Seleth Amulet of Destruction</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Destruction, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10631</id>
+			<name>Ultimate Seleth Axe</name>
+			<icon>00010607.png</icon>
+			<desc>A Seleth Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Crimson Flame, Seleth Axe of Destruction, Seleth Axe of Temptation, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10630</id>
+			<name>Seleth Axe of Temptation</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Temptation, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10629</id>
+			<name>Seleth Axe of Destruction</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Destruction, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10628</id>
+			<name>Seleth Axe of Crimson Flame</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Crimson Flame, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10407</id>
+			<name>Seleth Amulet</name>
+			<icon>00010407.png</icon>
+			<desc>An amulet possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10007</id>
+			<name>Seleth Longsword</name>
+			<icon>00010007.png</icon>
+			<desc>A longsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10031</id>
+			<name>Ultimate Seleth Longsword</name>
+			<icon>00010007.png</icon>
+			<desc>A Seleth Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Crimson Flame, Seleth Longsword of Destruction, Seleth Longsword of Temptation, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10030</id>
+			<name>Seleth Longsword of Temptation</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Temptation, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10029</id>
+			<name>Seleth Longsword of Destruction</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Destruction, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10028</id>
+			<name>Seleth Longsword of Crimson Flame</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Crimson Flame, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10207</id>
+			<name>Seleth Longbow</name>
+			<icon>00010207.png</icon>
+			<desc>A longbow possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Seleth Longbow of Destruction</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Destruction, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Seleth Longbow of Crimson Flame</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Crimson Flame, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10231</id>
+			<name>Ultimate Seleth Longbow</name>
+			<icon>00010207.png</icon>
+			<desc>A Seleth Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Crimson Flame, Seleth Longbow of Destruction, Seleth Longbow of Temptation, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Seleth Longbow of Temptation</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Temptation, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10607</id>
+			<name>Seleth Axe</name>
+			<icon>00010607.png</icon>
+			<desc>An axe possessed with a strong hatred for Humankind.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

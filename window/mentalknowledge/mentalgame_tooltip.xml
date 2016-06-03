@@ -1,0 +1,72 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MentalGame_Tooltip" Pos="698 308" Size="300 370" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 370">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_Tooltip_BG" Pos="Center Top" Size="300 370" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 370" Grid="1" GridPosX="0 10 290 300" GridPosY="0 10 360 370" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Tooltip_StatusBG" Pos="Center Top" Size="280 110" Pan="0 40" Color="ffffffff" EnableArea="0 0 280 110" Grid="1" GridPosX="0 10 270 280" GridPosY="0 10 100 110" GridUVX="0 10 246 256" GridUVY="0 10 246 256">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Tooltip_CommentBG" Pos="Center Top" Size="280 90" Pan="0 160" Color="ffffffff" EnableArea="0 0 280 90" Grid="1" GridPosX="0 10 270 280" GridPosY="0 10 80 90" GridUVX="0 10 246 256" GridUVY="0 10 246 256">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Tooltip_BonusBG" Pos="Center Top" Size="280 90" Pan="0 260" Color="ffffffff" EnableArea="0 0 280 90" Grid="1" GridPosX="0 10 270 280" GridPosY="0 10 80 90" GridUVX="0 10 246 256" GridUVY="0 10 246 256">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NPC_Name" Pos="Center Top" Size="300 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 300 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="에일린의 상태" Font="SubTitleFont_14" Color="ffe0d5a7" OverColor="ffe0d5a7" ClickColor="ffe0d5a7" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_StatusTitle" Pos="Left Top" Size="200 25" Pan="12 42" Color="ffffffff" EnableArea="0 0 200 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="속 성" formatString="MENTAL_TOOLTIP_TEXT_SUBTITLE1" Font="BaseFont_12" Color="ffe0d5a7" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Hit_Base" Pos="Left Top" Size="20 20" Pan="30 90" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="406 195 426 195 406 215 426 215" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<Text Value="흥미도 : 100" Font="BaseFont_12" Color="ffff8730" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="23 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Hit_Bonus" Pos="Left Top" Size="30 20" Pan="150 90" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+4" Font="BaseFont_12" Color="ff4dcaff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DD_Base" Pos="Left Top" Size="20 20" Pan="30 120" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="385 195 405 195 385 215 405 215" Ani="1 1 0.000 0">new_ui_common_forlua/window/knowledge/knowledge_game_00.dds</Texture>
+			<Text Value="가치 : 100" Font="BaseFont_12" Color="ffe40000" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="23 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DD_Bonus" Pos="Left Top" Size="30 20" Pan="150 120" Color="ffffffff" EnableArea="0 0 30 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="+4" Font="BaseFont_12" Color="ff4dcaff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CommentTitle" Pos="Left Top" Size="200 25" Pan="12 162" Color="ffffffff" EnableArea="0 0 200 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="대화 효과" formatString="MENTAL_TOOLTIP_TEXT_SUBTITLE2" Font="BaseFont_12" Color="ffe0d5a7" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Comment_1" Pos="Center Top" Size="240 20" Pan="0 200" Color="ffffffff" EnableArea="0 0 240 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="흥미 유발 : 100 (6%)" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Comment_2" Pos="Center Top" Size="240 20" Pan="0 225" Color="ffffffff" EnableArea="0 0 240 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="호감 정도 : 0 ~ 20 사이" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BonusTitle" Pos="Left Top" Size="200 25" Pan="12 262" Color="ffffffff" EnableArea="0 0 200 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="연계되는 효과" formatString="MENTAL_TOOLTIP_TEXT_SUBTITLE3" Font="BaseFont_12" Color="ffe0d5a7" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Bonus" Pos="Left Top" Size="250 20" Pan="30 300" Color="ffffffff" EnableArea="0 0 250 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="다음 선택된 지식부터\n흥미도가 2 상승합니다" Font="BaseFont_12" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

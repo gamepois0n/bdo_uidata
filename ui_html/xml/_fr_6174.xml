@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6174</itemKey>
+	<itemName>Plume fine ultime</itemName>
+	<itemIcon>00006174.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une plume fine distinguée et du revêtement de cuir, un ingrédient préparé par alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>6166</id>
+			<name>Plume fine délicate</name>
+			<icon>00006166.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes fines.</desc>
+		</item>
+		<item>
+			<id>6183</id>
+			<name>Revêtement de cuir</name>
+			<icon>00006183.png</icon>
+			<desc>Matériau utilisé pour renforcer le cuir, la fourrure, et les plumes grâce à la transformation.\n\n- Obtention : s&apos;obtient grâce à l&apos;alchimie.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9262</itemKey>
+	<itemName>Exotic Herbal Wine</itemName>
+	<itemIcon>00009262.png</itemIcon>
+	<itemDesc>Exotic liquor which was originated from faraway country. \n- Unique effect: Fishing Speed Rank +1 for 30 min.\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Leavening Agent</name>
+			<icon>00009005.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

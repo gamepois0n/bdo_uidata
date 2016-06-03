@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4068</itemKey>
+	<itemName>Polierter Stein</itemName>
+	<itemIcon>00004068.png</itemIcon>
+	<itemDesc>Ein grober Stein für die Herstellung.\n\n– Gewinnung:Kann durch Mahlen von Groben Steinen gewonnen werden.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4006</id>
+			<name>Grober Stein</name>
+			<icon>00004006.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann mithilfe einer Spitzhacke aus jedem Felsen gesammelt werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>3719</id>
+			<name>Kochnische für Fortgeschrittene</name>
+			<icon>Crafting_Cooking_03.png</icon>
+			<desc>Ein hochwertiges Kochutensil.\n– Es kann in einem Wohnsitz angebracht werden.\n– Nachträglich hinzugefügte Zusatzeffekte</desc>
+		</item>
+		<item>
+			<id>3703</id>
+			<name>Alchemietisch für Fortgeschrittene</name>
+			<icon>Crafting_Alchemy_03.png</icon>
+			<desc>Ein Werkzeug, mit dem sich die Bestandteile einer Substanz rekonstruieren lassen.\n– Es kann in einem Wohnsitz angebracht werden.\n– Nachträglich hinzugefügte Zusatzeffekte</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

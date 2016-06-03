@@ -1,0 +1,72 @@
+<UI>
+	<Control Type="Panel" Name="Panel_RandomBoxSelect" Pos="Center Center" Size="340 295" Pan="80 50" Color="ffffffff" EnableArea="0 0 340 295" Grid="1" GridPosX="0 50 290 340" GridPosY="0 50 245 295" GridUVX="0 50 356 406" GridUVY="0 50 490 540" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="5 4 410 4 5 543 410 543" Ani="1 1 0.000 0">new_ui_common_forlua/window/inventory/inven_main.dds</Texture>
+		<UIAni CalcParentRotate="False">
+			<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Show_Color" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="5" HideAtEnd="False"/>
+			<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="True" ColorOperator="0" ID="Hide_Color" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="15" AdvanceType="5" HideAtEnd="False"/>
+			<UIAniItem Type="Scale" ScaleType="0" StartScale="0.80" EndScale="1.00" BasePosition="200 275" ScaleChild="True" ID="Show_Ani_Scale" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="6" AdvanceType="3" HideAtEnd="False"/>
+			<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="1.02" BasePosition="200 275" ScaleChild="True" ID="Show_Ani_Scale_1" Activity="True" Replay="False" RunOnBoot="False" StartFrame="6" EndFrame="10" AdvanceType="1" HideAtEnd="False"/>
+			<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="1.02" BasePosition="200 275" ScaleChild="True" ID="Hide_Ani_Scale" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="15" AdvanceType="4" HideAtEnd="False"/>
+		</UIAni>
+		<Attribute Type="Drag" Area="0 0 405 240"/>
+		<UIAniSet Name="Hide" Repeat="False" TotalEndFrame="0" Sound="1 1">
+			<UIAniItem UIKey="3803628417" AniName="Hide_Color" UIName="Panel_Window_Inventory"/>
+			<UIAniItem UIKey="3803628417" AniName="Hide_Ani_Scale" UIName="Panel_Window_Inventory"/>
+		</UIAniSet>
+		<UIAniSet Name="Show" Repeat="False" TotalEndFrame="0" Sound="1 0">
+			<UIAniItem UIKey="3803628417" AniName="Show_Color" UIName="Panel_Window_Inventory"/>
+			<UIAniItem UIKey="3803628417" AniName="Show_Ani_Scale" UIName="Panel_Window_Inventory"/>
+			<UIAniItem UIKey="3803628417" AniName="Show_Ani_Scale_1" UIName="Panel_Window_Inventory"/>
+		</UIAniSet>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="333 46" Pan="0 3" Color="ffffffff" EnableArea="0 0 333 46" Grid="1" GridPosX="0 50 283 333" GridPosY="0 30 40 46" GridUVX="0 50 350 400" GridUVY="0 30 40 46">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 400 0 0 46 400 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+			<Text Value="특수 아이템 열기" formatString="PANEL_RANDOMBOXSELECT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 12"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="18 20" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectRandomBoxBG" Pos="Center Top" Size="308 75" Pan="0 50" Color="ffffffff" EnableArea="0 0 308 75" Grid="1" GridPosX="0 10 298 308" GridPosY="0 10 65 75" GridUVX="0 10 52 62" GridUVY="0 10 54 64" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 64 252 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_NormalRandomBox" Pos="Left Top" Size="23 23" Pan="100 60" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="한 개만 열기" formatString="PANEL_RANDOMBOXSELECT_ONE" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="25 3"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_SpeedRandomBox" Pos="Left Top" Size="23 23" Pan="100 90" Color="ffffffff" EnableArea="0 0 23 23" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="연속으로 열기" formatString="PANEL_RANDOMBOXSELECT_SEVERAL" Font="BaseFont_8_Bold" Color="ffdbd081" OverColor="ffdbd081" ClickColor="ffdbd081" AlignHorizon="Left" AlignVertical="Top" Span="25 3"/>
+		</Control>
+		<Control Type="Static" Name="Static_CenterLine" Pos="Center Top" Size="300 3" Pan="0 130" Color="80ffffff" EnableArea="0 0 300 3" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="162 1 193 1 162 7 193 7" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BottomDescBG" Pos="Center Top" Size="308 100" Pan="0 140" Color="ffffffff" EnableArea="0 0 308 100" Grid="1" GridPosX="0 10 298 308" GridPosY="0 10 90 100" GridUVX="0 10 246 256" GridUVY="0 10 246 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BottomDesc" Pos="Left Top" Size="300 90" Pan="13 140" Color="ffc4bebe" EnableArea="0 0 300 90">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ '한 개만 열기'를 체크하면 선택한 아이템 하나만\n   열 수 있습니다.\n※ '연속으로 열기'를 체크하면 똑같은 아이템을 연속으로\n   열 수 있습니다.\n※ Space 바 연속 클릭을 통해 빠르게 결과물을 얻는\n   방식입니다" formatString="PANEL_RANDOMBOXSELECT_DESC" Font="BaseFont_8" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_StartRandomBox" Pos="Center Bottom" Size="80 30" Pan="-45 15" Color="ffffffff" EnableArea="0 0 80 30" Grid="1" GridPosX="0 5 75 80" GridPosY="0 5 25 30" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="상자 열기" formatString="PANEL_RANDOMBOXSELECT_OPENBOX" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="Center Bottom" Size="80 30" Pan="45 15" Color="ffffffff" EnableArea="0 0 80 30" Grid="1" GridPosX="0 5 75 80" GridPosY="0 5 25 30" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="닫기" formatString="UI_WIN_SPECIAL_REWARD_BTN_CANCEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

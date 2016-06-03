@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8555</itemKey>
+	<itemName>Dried Yellow Fin Sculpin</itemName>
+	<itemIcon>00008555.png</itemIcon>
+	<itemDesc>A dried yellowfin sculpin obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8255</id>
+			<name>Yellowfin Sculpin</name>
+			<icon>00008255.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55955</id>
+			<name>Packaged Dried Yellowfin Sculpin</name>
+			<icon>00055955.png</icon>
+			<desc>A Trade Item containing 10 Dried Yellowfin Sculpin.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

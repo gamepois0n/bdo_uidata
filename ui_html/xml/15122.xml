@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15122</itemKey>
+	<itemName>Magic Crystal of Infinity - Intimidation</itemName>
+	<itemIcon>00045042.png</itemIcon>
+	<itemDesc>A Black Stone Crystal that can be fused into Helmet sockets. \n- Item effect: Knockdown/Bound Resistance +10%\n※ This magic crystal has high chance of getting shattered on death.\n- Transfusion can be performed by the Black Spirit.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15018</id>
+			<name>Magic Crystal of Enchantment - Intimidation</name>
+			<icon>00045042.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Helmet sockets. \n- Item effect: Knockdown/Bound Resistance +5%\n※ This magic crystal has high chance of getting shattered on death.\n- Transfusion can be performed by the Black Spirit.</desc>
+		</item>
+		<item>
+			<id>5203</id>
+			<name>Fruit of Abundance</name>
+			<icon>00005203.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Magic Crystal of Crimson Flame - Precision</name>
+			<icon>00045001.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Weapon sockets. \n- Item Effect: All Accuracy +1\n※ This magic crystal has a high chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</desc>
+		</item>
+		<item>
+			<id>4468</id>
+			<name>Red Crystal</name>
+			<icon>00004468.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Red Crystals found near Khuruto Cave.</desc>
+		</item>
+		<item>
+			<id>5408</id>
+			<name>Arrow Mushroom</name>
+			<icon>00005408.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: It can be Produced at Forest of Plunder. Arrow Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+		<item>
+			<id>15018</id>
+			<name>Magic Crystal of Enchantment - Intimidation</name>
+			<icon>00045042.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Helmet sockets. \n- Item effect: Knockdown/Bound Resistance +5%\n※ This magic crystal has high chance of getting shattered on death.\n- Transfusion can be performed by the Black Spirit.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

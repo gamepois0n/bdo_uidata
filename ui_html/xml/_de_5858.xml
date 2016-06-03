@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5858</itemKey>
+	<itemName>Wolle</itemName>
+	<itemIcon>00005858.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Strickgarn gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<collect>
+		<character>
+			<name>Bettwäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäscheständer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zelt</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5854</id>
+			<name>Strickgarn</name>
+			<icon>00005854.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Vlies gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14217</id>
+			<name>[Walküre] Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14215</id>
+			<name>[Waldläuferin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14214</id>
+			<name>[Bändigerin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14213</id>
+			<name>[Schwarzmagierin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14212</id>
+			<name>[Berserker] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14211</id>
+			<name>[Krieger] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14026</id>
+			<name>Silberbestickte Handwerkerkleidung</name>
+			<icon>00014004.png</icon>
+			<desc>Edle Kleidung für Handwerker.</desc>
+		</item>
+		<item>
+			<id>14025</id>
+			<name>Silberbestickte Alchemistenkleidung</name>
+			<icon>00014001.png</icon>
+			<desc>Edle Kleidung für Alchemisten.</desc>
+		</item>
+		<item>
+			<id>25624</id>
+			<name>Vliesvorhang mit Schlaufen</name>
+			<icon>InHouse_X_DPW_Curtain_01_02_Tied.png</icon>
+			<desc>Ein einfacher Schlaufenvorhang aus Vlies.</desc>
+		</item>
+		<item>
+			<id>25621</id>
+			<name>Vliesvorhang</name>
+			<icon>InHouse_X_DPW_Curtain_01_02_Back.png</icon>
+			<desc>Ein einfacher Vorhang aus Vlies.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

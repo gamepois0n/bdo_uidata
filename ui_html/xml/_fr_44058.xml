@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>44058</itemKey>
+	<itemName>Arêtes de poisson</itemName>
+	<itemIcon>00044058.png</itemIcon>
+	<itemDesc>Les marchands ne paieront pas très cher pour cet objet.</itemDesc>
+	<collect>
+		<character>
+			<name>Filet à poisson</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Séchoir à poisson</name>
+		</character>
+	</collect>
+	<fishing/>
+	<node region="Nasse 1, île de Pilava"/>
+	<node region="Nasse, île de Luivano"/>
+	<node region="Nasse, île de Baeza"/>
+	<node region="Nasse 2, île de Barater"/>
+</itemInfo>
+

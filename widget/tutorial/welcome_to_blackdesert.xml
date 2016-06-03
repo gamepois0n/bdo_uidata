@@ -1,0 +1,320 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Tutorial" Pos="Center Top" Size="30 30" Pan="0 15" Color="  ffffff" EnableArea="0 0 30 30">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="102 60 110 60 102 68 110 68" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Purpose" Pos="Center Top" Size="800 45" Pan="0 50" Color="ffffffff" EnableArea="0 0 800 45">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="[STEP 1] W키를 눌러 앞으로 이동해보세요" Font="TitleFont_18" Color="ffe4e4e4" OverColor="ffe4e4e4" ClickColor="ffe4e4e4" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Step_1" Pos="Center Top" Size="50 20" Pan="-295 122" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="STEP 1" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Step_2" Pos="Center Top" Size="50 20" Pan="-116 122" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="STEP 2" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Step_3" Pos="Center Top" Size="50 20" Pan="69 122" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="STEP 3" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Step_4" Pos="Center Top" Size="50 20" Pan="268 122" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="STEP 4" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NextArrow_0" Pos="Center Top" Size="26 26" Pan="-200 118" Color="ffffffff" EnableArea="0 0 26 26" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="373 28 399 28 373 53 399 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NextArrow_1" Pos="Center Top" Size="26 26" Pan="-18 118" Color="ffffffff" EnableArea="0 0 26 26" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="373 28 399 28 373 53 399 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NextArrow_2" Pos="Center Top" Size="26 26" Pan="170 118" Color="ffffffff" EnableArea="0 0 26 26" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="373 28 399 28 373 53 399 53" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_Q" Pos="Right Bottom" Size="62 64" Pan="630 474" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="Q" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_W" Pos="Right Bottom" Size="62 64" Pan="555 474" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="W" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_A" Pos="Right Bottom" Size="62 64" Pan="622 410" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="A" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_S" Pos="Right Bottom" Size="62 64" Pan="555 410" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="S" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_D" Pos="Right Bottom" Size="62 64" Pan="488 410" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="D" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_E" Pos="Right Bottom" Size="62 64" Pan="410 474" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="E" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_F" Pos="Right Bottom" Size="62 64" Pan="410 410" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="F" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_T" Pos="Center Top" Size="62 64" Pan="0 170" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="T" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_Tab" Pos="Right Bottom" Size="85 64" Pan="700 474" Color="ffffffff" EnableArea="0 0 85 64" Grid="1" GridPosX="0 15 67 85" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="TAB" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_Ctrl" Pos="Center Top" Size="115 64" Pan="0 170" Color="ffffffff" EnableArea="0 0 115 64" Grid="1" GridPosX="0 15 97 115" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="CTRL" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_Shift" Pos="Right Bottom" Size="115 64" Pan="700 340" Color="ffffffff" EnableArea="0 0 115 64" Grid="1" GridPosX="0 15 97 115" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="SHIFT" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Btn_Space" Pos="Right Bottom" Size="150 64" Pan="410 340" Color="ffffffff" EnableArea="0 0 150 64" Grid="1" GridPosX="0 15 132 150" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="SPACE" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Mouse_Body" Pos="Right Bottom" Size="145 94" Pan="250 355" Color="ffffffff" EnableArea="0 0 145 94">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 222 146 222 1 316 146 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M0" Pos="Right Bottom" Size="73 77" Pan="322 450" Color="ffffffff" EnableArea="0 0 73 77">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 66 74 66 1 143 74 143" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<Texture Type="On" UV="75 66 148 66 75 143 148 143" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<Texture Type="Click" UV="75 66 148 66 75 143 148 143" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="L" Font="TitleFont_22" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M1" Pos="Right Bottom" Size="73 77" Pan="250 450" Color="ffffffff" EnableArea="0 0 73 77">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 144 74 144 1 221 74 221" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<Texture Type="On" UV="75 144 148 144 75 221 148 221" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<Texture Type="Click" UV="75 144 148 144 75 221 148 221" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Disappear" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="R" Font="TitleFont_22" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Button_Lock" Pos="1305 113" Size="62 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 64" Grid="1" GridPosX="0 15 44 62" GridPosY="0 14 47 64" GridUVX="0 15 44 62" GridUVY="0 14 47 64">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="127 1 189 1 127 65 189 65" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<Text Value="" Font="TitleFont_18" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 13"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M0_Lock" Pos="1370 97" Size="74 77" Pan="0 0" Color="ffffffff" EnableArea="0 0 74 77">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="149 66 222 66 149 143 222 143" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M1_Lock" Pos="1446 97" Size="74 77" Pan="0 0" Color="ffffffff" EnableArea="0 0 74 77">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="149 144 222 144 149 221 222 221" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Clear_Step1" Pos="Center Top" Size="45 39" Pan="-293 104" Color="ffffffff" EnableArea="0 0 45 39" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 184 98 184 1 267 98 267" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Clear_Step2" Pos="Center Top" Size="45 39" Pan="-114 104" Color="ffffffff" EnableArea="0 0 45 39" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 184 98 184 1 267 98 267" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Clear_Step3" Pos="Center Top" Size="45 39" Pan="71 104" Color="ffffffff" EnableArea="0 0 45 39" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 184 98 184 1 267 98 267" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Clear_Step4" Pos="Center Top" Size="45 39" Pan="270 104" Color="ffffffff" EnableArea="0 0 45 39" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 184 98 184 1 267 98 267" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Obsidian" Pos="Center Top" Size="50 50" Pan="-430 55" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_Obsidian_B" Pos="Center Top" Size="150 86" Pan="-310 105" Color="faffffff" EnableArea="0 0 150 86" Grid="1" GridPosX="0 21 129 150" GridPosY="0 32 73 86" GridUVX="0 21 129 150" GridUVY="0 32 73 86" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 88 151 88 1 174 151 174" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Obsidian_B_Left" Pos="Center Top" Size="150 86" Pan="-310 105" Color="faffffff" EnableArea="0 0 150 86" Grid="1" GridPosX="0 21 129 150" GridPosY="0 32 73 86" GridUVX="0 21 129 150" GridUVY="0 32 73 86" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 262 151 262 1 348 151 348" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Obsidian_B" Pos="Center Top" Size="117 50" Pan="-333 130" Color="ffffffff" EnableArea="0 0 117 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="안녕?" Font="BaseFont_12_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Top" Span="4 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Obsidian_B_2" Pos="Center Top" Size="117 50" Pan="-333 130" Color="ffffffff" EnableArea="0 0 117 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="안녕." Font="SubTitleFont_14" Color="ffffce22" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Top" Span="4 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_W" Pos="330 218" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="13 12 75 12 13 74 75 74" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_A" Pos="299 248" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="13 85 75 85 13 147 75 147" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_S" Pos="330 248" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="13 157 75 157 13 219 75 219" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_D" Pos="361 248" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="13 230 75 230 13 292 75 292" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_I" Pos="419 218" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="13 372 75 372 13 434 75 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_R" Pos="389 218" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="13 441 75 441 13 503 75 503" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_T" Pos="389 248" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="89 157 151 157 89 219 151 219" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_Shift" Pos="238 248" Size="60 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="13 307 143 307 13 369 143 369" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BubbleKey_Ctrl" Pos="238 248" Size="54 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 54 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="154 307 271 307 154 369 271 369" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_W" Pos="412 576" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="W" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_A" Pos="442 576" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="A" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_S" Pos="473 576" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="S" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_D" Pos="503 576" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="D" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_Shift" Pos="534 576" Size="60 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="Shift" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_Ctrl" Pos="593 575" Size="54 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 54 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="Ctrl" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_I" Pos="520 582" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="I" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_R" Pos="536 592" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="R" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BubbleKey_T" Pos="559 604" Size="30 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 30 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 372 143 372 81 434 143 434" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_key_01.dds</Texture>
+			<Text Value="T" Font="BaseFont_10" Color="ffffce22" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

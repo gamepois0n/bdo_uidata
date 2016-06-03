@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7702</itemKey>
+	<itemName>Miel de cuisine</itemName>
+	<itemIcon>00007702.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7701</id>
+			<name>Ruche sauvage</name>
+			<icon>00007701.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche.\n\n- Utilisation : biscuit au miel, etc.</desc>
+		</item>
+	</manufacture>
+	<node region="Ferme Alejandro : production de miel"/>
+</itemInfo>
+

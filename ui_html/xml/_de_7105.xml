@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7105</itemKey>
+	<itemName>Maismehl</itemName>
+	<itemIcon>00007105.png</itemIcon>
+	<itemDesc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Mais gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7005</id>
+			<name>Mais</name>
+			<icon>00007005.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden beim Hof Toscani. Kann ebenfalls durch Anbau von Maissamen im Garten gewonnen oder von Mais mithilfe einer Hacke oder mit bloßen Händen gesammelt werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7010</id>
+			<name>Hochwertiger Mais</name>
+			<icon>00007005.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau im Garten gewonnen werden kann.\n– Gewinnung: Die Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7015</id>
+			<name>Besonderer Mais</name>
+			<icon>00007005.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau im Garten gewonnen werden kann.\n– Gewinnung: Die Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7205</id>
+			<name>Maisteig</name>
+			<icon>00007205.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Maismehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

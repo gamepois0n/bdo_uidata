@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5407</itemKey>
+	<itemName>Fortune Teller Mushroom</itemName>
+	<itemIcon>00005407.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: It can be Produced at Ehwaz Hill and Coastal Cliff. Fortune Teller Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<collect>
+		<character>
+			<name>Fortune Teller Mushroom</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Ehwaz Hill - Gathering"/>
+	<node region="Coastal Cliff - Gathering"/>
+	<makelist>
+		<item>
+			<id>7507</id>
+			<name>Fortune Teller Mushroom Crate</name>
+			<icon>00007507.png</icon>
+			<desc>A mushroom that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

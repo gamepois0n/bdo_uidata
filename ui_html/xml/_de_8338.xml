@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8338</itemKey>
+	<itemName>Sandaal</itemName>
+	<itemIcon>00008338.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8638</id>
+			<name>Getrockneter Sandaal</name>
+			<icon>00008605.png</icon>
+			<desc>Ein Getrockneter Sandaal, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

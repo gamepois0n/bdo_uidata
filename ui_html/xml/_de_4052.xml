@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4052</itemKey>
+	<itemName>Eisenbarren</itemName>
+	<itemIcon>00004052.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Eisensplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4001</id>
+			<name>Eisenerz</name>
+			<icon>00004001.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Küstenhöhle, Küstenfelsen, Steinbruch von Nordheidel, Süd-Cienaga, Verwunschener Steinwall, Verlassene Eisenmine. Kann aus eisenhaltigem Erz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4051</id>
+			<name>Geschmolzener Eisensplitter</name>
+			<icon>00004051.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4051</id>
+			<name>Geschmolzener Eisensplitter</name>
+			<icon>00004051.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10863</id>
+			<name>Zeres-Handschuhe der Beweglichkeit</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10862</id>
+			<name>Zeres-Rüstung der Beweglichkeit</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Beweglichkeit, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10861</id>
+			<name>Zeres-Helm der Beweglichkeit</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Beweglichkeit, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Zeres-Schuhe der Eisenmauer</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Eisenmauer, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Zeres-Handschuhe der Eisenmauer</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Eisenmauer, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10858</id>
+			<name>Zeres-Rüstung der Eisenmauer</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Eisenmauer, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10857</id>
+			<name>Zeres-Helm der Eisenmauer</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Eisenmauer, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>52602</id>
+			<name>Leichter Lederrossharnisch</name>
+			<icon>00052602.png</icon>
+			<desc>Ein Pferdehelm aus hochwertigem Leder. Stärker als ein normaler Lederhelm.\n\n– Ausrüstung für Pferde\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53502</id>
+			<name>Plane für Robusten Wagen</name>
+			<icon>00053502.png</icon>
+			<desc>Eine Plane für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53406</id>
+			<name>Rad für Händlerwagen</name>
+			<icon>00053406.png</icon>
+			<desc>Ein Rad für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53405</id>
+			<name>Rad für Handelswagen</name>
+			<icon>00053405.png</icon>
+			<desc>Ein Rad für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53404</id>
+			<name>Rad für Hofwagen</name>
+			<icon>00053404.png</icon>
+			<desc>Ein Rad für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53403</id>
+			<name>Rad für Weißen Wagen</name>
+			<icon>00053403.png</icon>
+			<desc>Ein Rad für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53402</id>
+			<name>Rad für Robusten Wagen</name>
+			<icon>00053402.png</icon>
+			<desc>Ein Rad für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53401</id>
+			<name>Rad für Schäbigen Wagen</name>
+			<icon>00053401.png</icon>
+			<desc>Ein Rad für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53507</id>
+			<name>Plane für Adelswagen</name>
+			<icon>00053507.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53506</id>
+			<name>Plane für Händlerwagen</name>
+			<icon>00053506.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53505</id>
+			<name>Plane für Handelswagen</name>
+			<icon>00053505.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53504</id>
+			<name>Plane für Hofwagen</name>
+			<icon>00053504.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52902</id>
+			<name>Leichtes Hufeisen</name>
+			<icon>00052902.png</icon>
+			<desc>Widerstandsfähigere, leichtere Hufeisen aus hochwertigem Eisen.\n\n– Ausrüstung für Pferde und Esel\n\nKönnen mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>56013</id>
+			<name>Trina-Kanonenbausatz</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Trina-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nEine haltbare Kanone aus hartem Holz. Dank einer calpheonischen Technik hält sie Hitze aus und kann sehr schnell feuern.\nDer Schusswinkel kann in 5 Stufen geregelt werden.\nBasis-Kanonenschaden: 750\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>56012</id>
+			<name>Lynch-Kanonenbausatz</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Lynch-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nSie ist eine sehr lange haltbare Kanone aus Stahl. Sie hält moderate Hitze aus und feuert mit durchschnittlicher Geschwindigkeit.\nDer Schusswinkel kann in 4 Stufen geregelt werden.\nBasis-Kanonenschaden: 1000\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>56002</id>
+			<name>Kanonenbausatz für Alte Kanone von Serendia</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Alten Serendia-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nDa sie ein älteres Modell ist, ist sie weniger beständig und feuert langsamer.\nDer Schusswinkel kann in 3 Stufen geregelt werden.\nBasis-Kanonenschaden: 500\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Agerian-Rüstung der Eisenmauer</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Eisenmauer, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Agerian-Helm der Eisenmauer</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Eisenmauer, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10824</id>
+			<name>Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10823</id>
+			<name>Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10822</id>
+			<name>Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10821</id>
+			<name>Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10876</id>
+			<name>Talis-Schuhe der Eisenmauer</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Eisenmauer, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10875</id>
+			<name>Talis-Handschuhe der Eisenmauer</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Eisenmauer, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10874</id>
+			<name>Talis-Rüstung der Eisenmauer</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Eisenmauer, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10873</id>
+			<name>Talis-Helm der Eisenmauer</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Eisenmauer, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10872</id>
+			<name>Ultimative Zeres-Schuhe</name>
+			<icon>00010820.png</icon>
+			<desc>Maximal aufgerüstete Zeres-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Eisenmauer, Zeres-Schuhe der Beweglichkeit, Zeres-Schuhe der Einschüchterung, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10871</id>
+			<name>Ultimative Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Maximal aufgerüstete Zeres-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Eisenmauer, Zeres-Handschuhe der Beweglichkeit, Zeres-Handschuhe der Einschüchterung, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>11904</id>
+			<name>Dunkle Blutrubinohrringe</name>
+			<icon>00011904.png</icon>
+			<desc>Ein mit einem Dunklen Blutrubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11903</id>
+			<name>Blutrubinohrringe</name>
+			<icon>00011903.png</icon>
+			<desc>Ein mit einem Blutrubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>10840</id>
+			<name>Ultimative Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Maximal aufgerüstete Agerian-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Eisenmauer, Agerian-Schuhe der Beweglichkeit, Agerian-Schuhe der Einschüchterung, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10839</id>
+			<name>Ultimative Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Maximal aufgerüstete Agerian-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Eisenmauer, Agerian-Handschuhe der Beweglichkeit, Agerian-Handschuhe der Einschüchterung, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10838</id>
+			<name>Ultimative Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maximal aufgerüstete Agerian-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Eisenmauer, Agerian-Rüstung der Beweglichkeit, Agerian-Rüstung der Einschüchterung, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10837</id>
+			<name>Ultimativer Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Ein maximal aufgerüsteter Agerian-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Eisenmauer, Agerian-Helm der Beweglichkeit, Agerian-Helm der Einschüchterung, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Agerian-Schuhe der Einschüchterung</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Einschüchterung, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Agerian-Handschuhe der Einschüchterung</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Einschüchterung, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10879</id>
+			<name>Talis-Handschuhe der Beweglichkeit</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Beweglichkeit, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10878</id>
+			<name>Talis-Rüstung der Beweglichkeit</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Beweglichkeit, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10877</id>
+			<name>Talis-Helm der Beweglichkeit</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Beweglichkeit, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Zeres-Schuhe der Beweglichkeit</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Beweglichkeit, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Agerian-Handschuhe der Beweglichkeit</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Beweglichkeit, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Agerian-Rüstung der Beweglichkeit</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Beweglichkeit, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Agerian-Helm der Beweglichkeit</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Beweglichkeit, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Agerian-Schuhe der Eisenmauer</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Eisenmauer, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Agerian-Handschuhe der Eisenmauer</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Eisenmauer, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10870</id>
+			<name>Ultimative Zeres-Rüstung</name>
+			<icon>00010818.png</icon>
+			<desc>Eine maximal aufgerüstete Zeres-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Eisenmauer, Zeres-Rüstung der Beweglichkeit, Zeres-Rüstung der Einschüchterung, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10869</id>
+			<name>Ultimativer Zeres-Helm</name>
+			<icon>00010817.png</icon>
+			<desc>Ein maximal aufgerüsteter Zeres-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Eisenmauer, Zeres-Helm der Beweglichkeit, Zeres-Helm der Einschüchterung, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Zeres-Schuhe der Einschüchterung</name>
+			<icon>00010820.png</icon>
+			<desc>Diese Zeres-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Schuhe der Einschüchterung, Zeres-Schuhe</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Zeres-Handschuhe der Einschüchterung</name>
+			<icon>00010819.png</icon>
+			<desc>Diese Zeres-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Handschuhe der Einschüchterung, Zeres-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10866</id>
+			<name>Zeres-Rüstung der Einschüchterung</name>
+			<icon>00010818.png</icon>
+			<desc>Diese Zeres-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Rüstung der Einschüchterung, Zeres-Rüstung</desc>
+		</item>
+		<item>
+			<id>10865</id>
+			<name>Zeres-Helm der Einschüchterung</name>
+			<icon>00010817.png</icon>
+			<desc>Dieser Zeres-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Zeres-Helm der Einschüchterung, Zeres-Helm</desc>
+		</item>
+		<item>
+			<id>49201</id>
+			<name>Frachtbehälter der Fähre</name>
+			<icon>00049201.png</icon>
+			<desc>Ein Frachtbehälter, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, größere Lasten zu transportieren.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52502</id>
+			<name>Leichter rotgefiederter Rosskopf</name>
+			<icon>00052502.png</icon>
+			<desc>Ein Pferdehelm mit roten Federn. Widerstandsfähig und leicht.\n\n– Ausrüstung für Pferde\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>51004</id>
+			<name>Wagenregistrierung: Hofwagen</name>
+			<icon>00051004.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Hofwagens』.\n– Inventarplätze: 14, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51002</id>
+			<name>Wagenregistrierung: Robuster Wagen</name>
+			<icon>00051002.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Robusten Wagens』.\n– Inventarplätze: 10, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>49404</id>
+			<name>Fischerbootdekoration</name>
+			<icon>00049404.png</icon>
+			<desc>Eine Dekoration, die an einem Fischerboot angebracht werden kann. Dadurch verringert sich die Chance, Handelswaren zu beschädigen.\nWenn 3 oder mehr weitere Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nGesamte VK +30 (noch nicht verfügbar)\n\n– Ausrüstung für Fischerboote\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16155</id>
+			<name>Dicke Harpune</name>
+			<icon>00016155.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Tiefseefische gefangen werden. Manche Fische können nur mit einer Harpune gefangen werden. \n– Zur Verwendung ist ein Fischerboot erforderlich.</desc>
+		</item>
+		<item>
+			<id>10884</id>
+			<name>Talis-Schuhe der Einschüchterung</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Einschüchterung, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10883</id>
+			<name>Talis-Handschuhe der Einschüchterung</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Einschüchterung, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10882</id>
+			<name>Talis-Rüstung der Einschüchterung</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Einschüchterung, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10881</id>
+			<name>Talis-Helm der Einschüchterung</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Einschüchterung, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10880</id>
+			<name>Talis-Schuhe der Beweglichkeit</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Beweglichkeit, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10888</id>
+			<name>Ultimative Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Maximal aufgerüstete Talis-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Eisenmauer, Talis-Schuhe der Beweglichkeit, Talis-Schuhe der Einschüchterung, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10887</id>
+			<name>Ultimative Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Maximal aufgerüstete Talis-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Eisenmauer, Talis-Handschuhe der Beweglichkeit, Talis-Handschuhe der Einschüchterung, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10886</id>
+			<name>Ultimative Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine maximal aufgerüstete Talis-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Eisenmauer, Talis-Rüstung der Beweglichkeit, Talis-Rüstung der Einschüchterung, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10885</id>
+			<name>Ultimativer Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Ein maximal aufgerüsteter Talis-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Eisenmauer, Talis-Helm der Beweglichkeit, Talis-Helm der Einschüchterung, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10812</id>
+			<name>Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10811</id>
+			<name>Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10810</id>
+			<name>Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10809</id>
+			<name>Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>12114</id>
+			<name>Glänzender Goldtopasring</name>
+			<icon>00012114.png</icon>
+			<desc>Ein mit einem Glänzenden Goldtopas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>12113</id>
+			<name>Goldtopasring</name>
+			<icon>00012113.png</icon>
+			<desc>Ein mit einem Goldtopas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Agerian-Rüstung der Einschüchterung</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Einschüchterung, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Agerian-Helm der Einschüchterung</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Einschüchterung, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Agerian-Schuhe der Beweglichkeit</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Beweglichkeit, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10820</id>
+			<name>Zeres-Schuhe</name>
+			<icon>00010820.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10819</id>
+			<name>Zeres-Handschuhe</name>
+			<icon>00010819.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10818</id>
+			<name>Zeres-Rüstung</name>
+			<icon>00010818.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10817</id>
+			<name>Zeres-Helm</name>
+			<icon>00010817.png</icon>
+			<desc>Eine Rüstung von hoher Qualität, die verhindert, dass der Körper schnell ermüdet.\n– Wenn 3 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>3705</id>
+			<name>Amboss</name>
+			<icon>Crafting_Anvil_01.png</icon>
+			<desc>Ein Werkzeug, das für die Reparatur von Waffen und Verteidigungsausrüstung verwendet wird. Es erfordert Wissen über Eigenreparatur, um es zu verwenden.\n– Es kann in einem Wohnsitz angebracht werden.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Reiner Eisenkristall</name>
+			<icon>00004053.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Eisenbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>2810</id>
+			<name>Ahornbesetzter Bienenwachs-Kronleuchter (Tageslicht)</name>
+			<icon>InHouse_X_DPC_Chandelier_05_on_light.png</icon>
+			<desc>Ein glimmender Wachskronleuchter, der mit Ahorn verziert ist.</desc>
+		</item>
+		<item>
+			<id>2809</id>
+			<name>Kupferbesetzter Bienenwachs-Kronleuchter (Tageslicht)</name>
+			<icon>InHouse_X_DPC_Chandelier_05_on_light.png</icon>
+			<desc>Ein glimmender Wachskronleuchter, der mit Kupfer verziert ist.</desc>
+		</item>
+		<item>
+			<id>2808</id>
+			<name>Zinnbesetzter Bienenwachs-Kronleuchter (Tageslicht)</name>
+			<icon>InHouse_X_DPC_Chandelier_04_on_light.png</icon>
+			<desc>Ein glimmender Wachskronleuchter, der mit Zinn verziert ist.</desc>
+		</item>
+		<item>
+			<id>49003</id>
+			<name>Schiffslizenz: Calpheon-Fähre</name>
+			<icon>00049003.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Calpheon-Fähre』.\n– Inventarplätze: 10, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 105 %, Anhalten: 105 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

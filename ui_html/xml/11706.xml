@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11706</itemKey>
+	<itemName>Sapphire Necklace</itemName>
+	<itemIcon>00011706.png</itemIcon>
+	<itemDesc>A necklace decorated with a Sapphire.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4402</id>
+			<name>Rough Sapphire</name>
+			<icon>00004402.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Sapphire requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+		<item>
+			<id>4202</id>
+			<name>Gold Ore</name>
+			<icon>00004202.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Gold Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gold.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11707</id>
+			<name>Resplendent Sapphire Necklace</name>
+			<icon>00011707.png</icon>
+			<desc>A necklace decorated with a Resplendent Sapphire.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

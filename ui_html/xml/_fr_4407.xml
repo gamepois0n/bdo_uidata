@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4407</itemKey>
+	<itemName>Cristal de boue brut</itemName>
+	<itemIcon>00004407.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal de boue brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près des ruines de Glish.</itemDesc>
+	<collect>
+		<character>
+			<name>Quartz boueux</name>
+		</character>
+	</collect>
+	<node region="Cienaga Sud : extraction minière"/>
+	<makelist>
+		<item>
+			<id>24207</id>
+			<name>Vase en saphir distingué</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>Vase en saphir distingué.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Bouteille ronde en rubis</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>Bouteille en rubis en forme de gourde.</desc>
+		</item>
+		<item>
+			<id>24205</id>
+			<name>Poterie longue</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Poterie longue.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Poterie de bourbier</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Poterie de bourbier.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Poterie ronde</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Poterie ronde.</desc>
+		</item>
+		<item>
+			<id>4467</id>
+			<name>Cristal de terre</name>
+			<icon>00004467.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux de boue bruts trouvés près des ruines de Glish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

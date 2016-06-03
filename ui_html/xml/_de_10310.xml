@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10310</itemKey>
+	<itemName>Stahldolch der Purpurnen Flamme</itemName>
+	<itemIcon>00010304.png</itemIcon>
+	<itemDesc>Dieser Stahldolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch</itemDesc>
+	<house type="4">
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Reiner Eisenkristall</name>
+			<icon>00004053.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Eisenbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Flammenpulver</name>
+			<icon>00004802.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10304</id>
+			<name>Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein scharfer Dolch aus Stahl.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10304</id>
+			<name>Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein scharfer Dolch aus Stahl.</desc>
+		</item>
+		<item>
+			<id>10313</id>
+			<name>Ultimativer Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein maximal aufgerüsteter Stahldolch.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch der Zerstörung, Stahldolch der Versuchung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Stahldolch der Versuchung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Versuchung\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Versuchung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Stahldolch der Zerstörung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Zerstörung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Stahldolch der Purpurnen Flamme</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

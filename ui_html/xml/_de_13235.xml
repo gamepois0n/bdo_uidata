@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>13235</itemKey>
+	<itemName>Ultimatives Kalis-Kurzschwert</itemName>
+	<itemIcon>00013207.png</itemIcon>
+	<itemDesc>Ein maximal aufgerüstetes Kalis-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert der Zerstörung, Kalis-Kurzschwert der Versuchung, Kalis-Kurzschwert</itemDesc>
+	<house type="4">
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Reiner Eisenkristall</name>
+			<icon>00004053.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Eisenbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>5961</id>
+			<name>Spur der Gewalt</name>
+			<icon>00005961.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung beim Manshawald gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>13232</id>
+			<name>Kalis-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Waffen-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004910.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>13234</id>
+			<name>Kalis-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Versuchung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Zerstörung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Kurzschwert.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

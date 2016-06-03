@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6605</itemKey>
+	<itemName>Öl der Gelassenheit</itemName>
+	<itemIcon>00006605.png</itemIcon>
+	<itemDesc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6355</id>
+			<name>Blut des Weisen</name>
+			<icon>00006355.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>6355</id>
+			<name>Blut des Weisen</name>
+			<icon>00006355.png</icon>
+			<desc>Ein weiterverarbeitetes Reagenz, das mithilfe von Alchemie den Zustand von anderen Materialien verändern kann.\n– Gewinnung: Kann in der Alchemie durch Mischen alchemistischer Zutaten mit Blut veredelt werden.</desc>
+		</item>
+		<item>
+			<id>5211</id>
+			<name>Frucht der Magischen Kraft</name>
+			<icon>00005211.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4804</id>
+			<name>Erdenpulver</name>
+			<icon>00004804.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Blutast</name>
+			<icon>00005005.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern. Das Sammeln von Blutast erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit beim Holzfällen erhalten werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16168</id>
+			<name>Ahornholzfloß</name>
+			<icon>00016168.png</icon>
+			<desc>Ein aus Ahornholz gefertigtes Floß. Für den Fang seltener Fische geeignet.\n\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16167</id>
+			<name>Eschenholzfloß</name>
+			<icon>00016167.png</icon>
+			<desc>Ein aus Eschenholz gefertigtes Floß. Für den Fang großer Fische geeignet.\n\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4603</itemKey>
+	<itemName>Pinienholz</itemName>
+	<itemIcon>00004603.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Serendiaschrein und in der Marihöhle hergestellt werden. Kann außerdem durch Fällen von Pinien erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Pinie</name>
+		</character>
+	</collect>
+	<node region="Serendiaschrein – Holzfällen"/>
+	<node region="Mariehöhle – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>14443</id>
+			<name>Ultimativer Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab der Zerstörung, Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria-Stab der Versuchung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria-Stab der Zerstörung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Zerstörung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria-Stab der Purpurnen Flamme</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Stabs gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>53407</id>
+			<name>Rad für Adelswagen</name>
+			<icon>00053407.png</icon>
+			<desc>Ein Rad für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53607</id>
+			<name>Flagge für Adelswagen</name>
+			<icon>00053604.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55832</id>
+			<name>Pinienholzkiste</name>
+			<icon>00055832.png</icon>
+			<desc>Handelsware, die 10 Pinienholz enthält.</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein Stab, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10207</id>
+			<name>Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein Langbogen, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Seles-Langbogen der Zerstörung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Zerstörung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Seles-Langbogen der Purpurnen Flamme</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Purpurnen Flamme, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10231</id>
+			<name>Ultimativer Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein maximal aufgerüsteter Seles-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Purpurnen Flamme, Seles-Langbogen der Zerstörung, Seles-Langbogen der Versuchung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Seles-Langbogen der Versuchung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Versuchung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>4658</id>
+			<name>Pinienschichtholz</name>
+			<icon>00004658.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Pinienholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4657</id>
+			<name>Pinienbrett</name>
+			<icon>00004657.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Pinienholz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

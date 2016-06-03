@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5960</itemKey>
+	<itemName>Trace de la forêt</itemName>
+	<itemIcon>00005960.png</itemIcon>
+	<itemDesc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait à la ferme Bernianto et sur le site d&apos;excavation de la souche de Rhua.</itemDesc>
+	<node region="Ferme Bernianto : excavation"/>
+	<node region="Souche de l'Arbre de Rhua : excavation"/>
+	<makelist>
+		<item>
+			<id>14022</id>
+			<name>Vêtements de cueilleur brodés d&apos;argent</name>
+			<icon>00014048.png</icon>
+			<desc>Un habit noble fait pour les cueilleurs.</desc>
+		</item>
+		<item>
+			<id>14028</id>
+			<name>Vêtements de fermier brodés d&apos;argent</name>
+			<icon>00014028.png</icon>
+			<desc>Un habit noble fait pour les fermiers.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

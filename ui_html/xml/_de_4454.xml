@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4454</itemKey>
+	<itemName>Saphir</itemName>
+	<itemIcon>00004454.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohsaphir gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Saphir</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4402</id>
+			<name>Rohsaphir</name>
+			<icon>00004402.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohsaphir erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11603</id>
+			<name>Hesus-Halskette</name>
+			<icon>00011603.png</icon>
+			<desc>Eine Halskette, die den Träger schneller und beweglicher macht.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11803</id>
+			<name>Hesus-Ohrring</name>
+			<icon>00011803.png</icon>
+			<desc>Ein Ohrring, der den Träger schneller und beweglicher macht.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12003</id>
+			<name>Hesus-Ring</name>
+			<icon>00012003.png</icon>
+			<desc>Ein Ring, der den Träger schneller und beweglicher macht.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12203</id>
+			<name>Hesus-Gürtel</name>
+			<icon>00012203.png</icon>
+			<desc>Ein Gürtel, der den Träger schneller und beweglicher macht.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11708</id>
+			<name>Ozeansaphir-Halskette</name>
+			<icon>00011708.png</icon>
+			<desc>Eine mit einem Ozeansaphir verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11707</id>
+			<name>Glänzende Saphirhalskette</name>
+			<icon>00011707.png</icon>
+			<desc>Eine mit einem Funkelnden Saphir verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4455</id>
+			<name>Glänzender Saphir</name>
+			<icon>00004455.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohsaphir gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10128</itemKey>
+	<itemName>Krea-Schild der Versuchung</itemName>
+	<itemIcon>00010124.png</itemIcon>
+	<itemDesc>Dieser Krea-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Versuchung, Krea-Schild</itemDesc>
+	<house type="7">
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4253</id>
+			<name>Reiner Silberkristall</name>
+			<icon>00004253.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Silberbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6151</id>
+			<name>Weiches Leder</name>
+			<icon>00006151.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Hirsch-, Schafs- oder Fuchsfell gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4803</id>
+			<name>Spaltenpulver</name>
+			<icon>00004803.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10128</id>
+			<name>Krea-Schild der Versuchung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10131</id>
+			<name>Ultimativer Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild der Zerstörung, Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea-Schild der Zerstörung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Zerstörung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea-Schild der Purpurnen Flamme</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

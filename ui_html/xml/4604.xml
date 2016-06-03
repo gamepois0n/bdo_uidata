@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4604</itemKey>
+	<itemName>Birch Timber</itemName>
+	<itemIcon>00004604.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Quint Hill, Bree Tree Ruins, and Old Dandelion. It can be also be obtained by Lumbering Birch Trees.</itemDesc>
+	<collect>
+		<character>
+			<name>Birch</name>
+		</character>
+	</collect>
+	<node region="Quint Hill - Lumbering"/>
+	<node region="Bree Tree Ruins - Lumbering"/>
+	<node region="Old Dandelion - Lumbering"/>
+	<makelist>
+		<item>
+			<id>16163</id>
+			<name>Epheria Fishing Rod</name>
+			<icon>00016163.png</icon>
+			<desc>Epheria fishing rod. It is sturdier than other rods.\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A staff crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>55833</id>
+			<name>Birch Timber Crate</name>
+			<icon>00055833.png</icon>
+			<desc>A Trade Item containing 10 planks of Birch Timber.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimate Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A Krea staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Krea staff.\n\n- Restore Max Durability: Krea Staff of Crimson Flame, Krea Staff of Destruction, Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea Staff of Temptation</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea Staff of Destruction</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Destruction, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea Staff of Crimson Flame</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Crimson Flame, Krea Staff</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Ultimate Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A Kalis Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow of Destruction, Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis Longbow of Temptation</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis Longbow of Destruction</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Destruction, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis Longbow of Crimson Flame</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A longbow capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>4661</id>
+			<name>Birch Plywood</name>
+			<icon>00004661.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Birch Timber. It requires the knowledge of Chopping: Beginner.\n\n※ Find Lebyos in Heidel and complete the Working the Ash Tree Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4660</id>
+			<name>Birch Plank</name>
+			<icon>00004660.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Birch Timber.</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Calpheon Handcrafted Chair</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

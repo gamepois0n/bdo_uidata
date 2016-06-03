@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6161</itemKey>
+	<itemName>Feines hartes Leder</itemName>
+	<itemIcon>00006161.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Dinosaurier-, Echsen- oder Wurmhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6007</id>
+			<name>Dinosaurierhaut</name>
+			<icon>00006007.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Dinosaurierkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6008</id>
+			<name>Echsenhaut</name>
+			<icon>00006008.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wolfskadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6009</id>
+			<name>Wurmhaut</name>
+			<icon>00006009.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wurmkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6153</id>
+			<name>Hartes Leder</name>
+			<icon>00006153.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Dinosaurier-, Echsen- oder Wurmhaut gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>52703</id>
+			<name>Kampf-Ledersattel</name>
+			<icon>00052703.png</icon>
+			<desc>Ein beständiger, schwerer Kampfsattel aus hartem Leder.\nErhöht die Stabilität, um schneller reiten zu können.\n\n– Ausrüstung für Pferde und Esel\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52603</id>
+			<name>Kampf-Stahlrossharnisch</name>
+			<icon>00052603.png</icon>
+			<desc>Ein Pferdehelm aus Stahl, der im Kampf verwendet werden kann. Sehr schwer.\n\n– Ausrüstung für Pferde\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52803</id>
+			<name>Kampf-Ledersattel</name>
+			<icon>00052803.png</icon>
+			<desc>Beständige, schwere Kampfsteigbügel aus hartem Leder.\nErmöglichen es, beim Reiten anzugreifen.\n\n– Ausrüstung für Pferde\n\nKönnen mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16124</id>
+			<name>Glänzendes Stahlgerbermesser</name>
+			<icon>00016124.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16120</id>
+			<name>Glänzendes Stahlschlachtermesser</name>
+			<icon>00016120.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>14105</id>
+			<name>Taritas-Stahlhelm der Eisenmauer</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Stahlhelm enthält die Energie der Eisenmauer.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Eisenmauer, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>14104</id>
+			<name>Taritas-Stahlschuhe</name>
+			<icon>00010816.png</icon>
+			<desc>Von einem Meisterschmied gefertigte Taritas-Stahlschuhe.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe und können auch verwendet werden, um die Haltbarkeit normaler Taritas-Schuhe wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>14103</id>
+			<name>Taritas-Stahlhandschuhe</name>
+			<icon>00010815.png</icon>
+			<desc>Von einem Meisterschmied gefertigte Taritas-Stahlhandschuhe.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe und können auch verwendet werden, um die Haltbarkeit normaler Taritas-Handschuhe wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>14102</id>
+			<name>Taritas-Stahlrüstung</name>
+			<icon>00010814.png</icon>
+			<desc>Eine von einem Meisterschmied gefertigte Taritas-Stahlrüstung.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung und kann auch verwendet werden, um die Haltbarkeit einer normalen Taritas-Rüstung wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>14101</id>
+			<name>Taritas-Stahlhelm</name>
+			<icon>00010813.png</icon>
+			<desc>Ein von einem Meisterschmied gefertigter Taritas-Stahlhelm.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm und kann auch verwendet werden, um die Haltbarkeit eines normalen Taritas-Helms wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>14111</id>
+			<name>Taritas-Stahlhandschuhe der Beweglichkeit</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Stahlhandschuhe enthalten die Energie der Beweglichkeit.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Beweglichkeit, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>14110</id>
+			<name>Taritas-Stahlrüstung der Beweglichkeit</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Beweglichkeit.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Beweglichkeit, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14109</id>
+			<name>Taritas-Stahlhelm der Beweglichkeit</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Stahlhelm enthält die Energie der Beweglichkeit.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Beweglichkeit, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>14108</id>
+			<name>Taritas-Stahlschuhe der Eisenmauer</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Stahlschuhe enthalten die Energie der Eisenmauer.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Eisenmauer, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>14107</id>
+			<name>Taritas-Stahlhandschuhe der Eisenmauer</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Stahlhandschuhe enthalten die Energie der Eisenmauer.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Eisenmauer, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>14106</id>
+			<name>Taritas-Stahlrüstung der Eisenmauer</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Eisenmauer.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Eisenmauer, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14116</id>
+			<name>Taritas-Stahlschuhe der Einschüchterung</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Stahlschuhe enthalten die Energie der Einschüchterung.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Einschüchterung, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>14115</id>
+			<name>Taritas-Stahlhandschuhe der Einschüchterung</name>
+			<icon>00010815.png</icon>
+			<desc>Diese Taritas-Stahlhandschuhe enthalten die Energie der Einschüchterung.\nSie sind leichter und beständiger als gewöhnliche Taritas-Handschuhe der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Einschüchterung, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>14114</id>
+			<name>Taritas-Stahlrüstung der Einschüchterung</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Einschüchterung.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Einschüchterung, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14113</id>
+			<name>Taritas-Stahlhelm der Einschüchterung</name>
+			<icon>00010813.png</icon>
+			<desc>Dieser Taritas-Stahlhelm enthält die Energie der Einschüchterung.\nEr ist leichter und beständiger als ein gewöhnlicher Taritas-Helm der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Einschüchterung, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>14112</id>
+			<name>Taritas-Stahlschuhe der Beweglichkeit</name>
+			<icon>00010816.png</icon>
+			<desc>Diese Taritas-Stahlschuhe enthalten die Energie der Beweglichkeit.\nSie sind leichter und beständiger als gewöhnliche Taritas-Schuhe der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Beweglichkeit, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>14123</id>
+			<name>Ultimative Taritas-Stahlhandschuhe</name>
+			<icon>00010815.png</icon>
+			<desc>Maximal aufgerüstete Taritas-Stahlhandschuhe.\nSie sind leichter und beständiger als Ultimative Taritas-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhandschuhe der Eisenmauer, Taritas-Handschuhe der Eisenmauer, Taritas-Stahlhandschuhe der Beweglichkeit, Taritas-Handschuhe der Beweglichkeit, Taritas-Stahlhandschuhe der Einschüchterung, Taritas-Handschuhe der Einschüchterung, Taritas-Stahlhandschuhe der Zerstörung, Taritas-Stahlhandschuhe, Taritas-Handschuhe</desc>
+		</item>
+		<item>
+			<id>14122</id>
+			<name>Ultimative Taritas-Stahlrüstung</name>
+			<icon>00010814.png</icon>
+			<desc>Eine maximal aufgerüstete Taritas-Stahlrüstung.\nSie ist leichter und beständiger als eine Ultimative Taritas-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Eisenmauer, Taritas-Rüstung der Eisenmauer, Taritas-Stahlrüstung der Beweglichkeit, Taritas-Rüstung der Beweglichkeit, Taritas-Stahlrüstung der Einschüchterung, Taritas-Rüstung der Einschüchterung, Taritas-Stahlrüstung der Zerstörung, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14121</id>
+			<name>Ultimativer Taritas-Stahlhelm</name>
+			<icon>00010813.png</icon>
+			<desc>Ein maximal aufgerüsteter Taritas-Stahlhelm.\nEr ist leichter und beständiger als ein Ultimativer Taritas-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlhelm der Eisenmauer, Taritas-Helm der Eisenmauer, Taritas-Stahlhelm der Beweglichkeit, Taritas-Helm der Beweglichkeit, Taritas-Stahlhelm der Einschüchterung, Taritas-Helm der Einschüchterung, Taritas-Stahlhelm der Zerstörung, Taritas-Stahlhelm, Taritas-Helm</desc>
+		</item>
+		<item>
+			<id>14124</id>
+			<name>Ultimative Taritas-Stahlschuhe</name>
+			<icon>00010816.png</icon>
+			<desc>Maximal aufgerüstete Taritas-Stahlschuhe.\nSie sind leichter und beständiger als Ultimative Taritas-Schuhe.\n Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlschuhe der Eisenmauer, Taritas-Schuhe der Eisenmauer, Taritas-Stahlschuhe der Beweglichkeit, Taritas-Schuhe der Beweglichkeit, Taritas-Stahlschuhe der Einschüchterung, Taritas-Schuhe der Einschüchterung, Taritas-Stahlschuhe der Zerstörung, Taritas-Stahlschuhe, Taritas-Schuhe</desc>
+		</item>
+		<item>
+			<id>16824</id>
+			<name>Glückbringendes glänzendes Stahlgerbermesser</name>
+			<icon>00016824.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16820</id>
+			<name>Glückbringendes glänzendes Stahlschlachtermesser</name>
+			<icon>00016820.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>6169</id>
+			<name>Exzellentes hartes Leder</name>
+			<icon>00006169.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinem hartem Leder mit durch Alchemie gewonnene Lederversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

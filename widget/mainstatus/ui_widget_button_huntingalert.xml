@@ -1,0 +1,21 @@
+<UI>
+	<Control Type="Panel" Name="Panel_HuntingAlert" Pos="15 171" Size="44 43" Pan="0 0" Color="ffffffff" EnableArea="0 0 44 43" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Drag" Area="0 0 34 32"/>
+		<Control Type="Button" Name="Button_HuntingAlert" Pos="0 0" Size="44 43" Pan="0 0" Color="ffffffff" EnableArea="0 0 44 43" AutoDisableTime="0.500000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 435 45 435 1 478 45 478" Ani="1 1 0.000 0">new_ui_common_forlua/default/npcicon_01.dds</Texture>
+			<Texture Type="On" UV="46 435 90 435 46 478 90 478" Ani="1 1 0.000 0">new_ui_common_forlua/default/npcicon_01.dds</Texture>
+			<Texture Type="Click" UV="91 435 135 435 91 478 135 478" Ani="1 1 0.000 0">new_ui_common_forlua/default/npcicon_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MoviePlus" Pos="Left Top" Size="20 20" Pan="25 25" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="196 1 216 1 196 21 216 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/character_main/knowledge_00.dds</Texture>
+			<Text Value="+" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

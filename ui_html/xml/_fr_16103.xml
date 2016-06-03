@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16103</itemKey>
+	<itemName>Bouteille vide durcie</itemName>
+	<itemIcon>00016103.png</itemIcon>
+	<itemDesc>Un outil de récolte utilisé pour stocker de l&apos;eau.\n- Utilisation :permet de récupérer de l&apos;eau d&apos;une rivière ou d&apos;une mer.\n- Durée de récolte : -10 sec.</itemDesc>
+	<house type="9">
+		<item>
+			<id>16101</id>
+			<name>Bouteille vide</name>
+			<icon>00016101.png</icon>
+			<desc>Un outil de récolte utilisé pour stocker de l&apos;eau.\n- Utilisation :permet de récupérer de l&apos;eau d&apos;une rivière ou d&apos;une mer.\n- Durée de récolte basique.</desc>
+		</item>
+		<item>
+			<id>4251</id>
+			<name>Fragment d&apos;argent fondu</name>
+			<icon>00004251.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai d&apos;argent.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="9">
+		<item>
+			<id>16101</id>
+			<name>Bouteille vide</name>
+			<icon>00016101.png</icon>
+			<desc>Un outil de récolte utilisé pour stocker de l&apos;eau.\n- Utilisation :permet de récupérer de l&apos;eau d&apos;une rivière ou d&apos;une mer.\n- Durée de récolte basique.</desc>
+		</item>
+		<item>
+			<id>4251</id>
+			<name>Fragment d&apos;argent fondu</name>
+			<icon>00004251.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai d&apos;argent.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+</itemInfo>
+

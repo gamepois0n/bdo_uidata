@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9449</itemKey>
+	<itemName>Salade de filet de poisson frais</itemName>
+	<itemIcon>00009449.png</itemIcon>
+	<itemDesc>Une salade fraîche avec du poisson frais.\n\n- Effet unique : vitesse de mouvement +1 pendant 75 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Oignon</name>
+			<icon>00007303.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : flocons d&apos;avoine, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;oignon dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Assaisonnement</name>
+			<icon>00009006.png</icon>
+			<desc>Une sauce au goût léger et à la texture onctueuse.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : salade aux fruits de mer et aux champignons, salade au filet de poisson, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

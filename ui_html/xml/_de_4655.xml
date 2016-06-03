@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4655</itemKey>
+	<itemName>Ahornschichtholz</itemName>
+	<itemIcon>00004655.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4602</id>
+			<name>Ahornholz</name>
+			<icon>00004602.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Wald der Abgeschiedenheit, in den Schlossruinen, dem Blutkloster, der Nördlichen Ebene von Serendia und im Nördlichen Hochland von Mediah hergestellt werden. Kann außerdem durch Fällen von Ahornbäumen erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4654</id>
+			<name>Ahornbrett</name>
+			<icon>00004654.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4654</id>
+			<name>Ahornbrett</name>
+			<icon>00004654.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>53502</id>
+			<name>Plane für Robusten Wagen</name>
+			<icon>00053502.png</icon>
+			<desc>Eine Plane für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53504</id>
+			<name>Plane für Hofwagen</name>
+			<icon>00053504.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55839</id>
+			<name>Serendiaholzkiste</name>
+			<icon>00055839.png</icon>
+			<desc>Handelsware, die 5 Eschenschichtholz und 5 Ahornschichtholz enthält.</desc>
+		</item>
+		<item>
+			<id>55838</id>
+			<name>Balenosholzkiste</name>
+			<icon>00055838.png</icon>
+			<desc>Handelsware, die 5 Eschenschichthölzer und 5 Ahornschichthölzer enthält.</desc>
+		</item>
+		<item>
+			<id>51004</id>
+			<name>Wagenregistrierung: Hofwagen</name>
+			<icon>00051004.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Hofwagens』.\n– Inventarplätze: 14, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51002</id>
+			<name>Wagenregistrierung: Robuster Wagen</name>
+			<icon>00051002.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Robusten Wagens』.\n– Inventarplätze: 10, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>2212</id>
+			<name>Handgemachter Tisch aus Heidel</name>
+			<icon>InHouse_B_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2202</id>
+			<name>Handgemachter Esstisch aus Heidel</name>
+			<icon>InHouse_B_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2012</id>
+			<name>Handgemachter hochwertiger Nachttisch aus Heidel</name>
+			<icon>InHouse_B_DFF_Chest_01.png</icon>
+			<desc>Ein hochwertiger, handgemachter Nachttisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2002</id>
+			<name>Handgemachte hochwertige Kommode aus Heidel</name>
+			<icon>InHouse_B_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2102</id>
+			<name>Handgemachter Kleiderschrank aus Heidel</name>
+			<icon>InHouse_B_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2810</id>
+			<name>Ahornbesetzter Bienenwachs-Kronleuchter (Tageslicht)</name>
+			<icon>InHouse_X_DPC_Chandelier_05_on_light.png</icon>
+			<desc>Ein glimmender Wachskronleuchter, der mit Ahorn verziert ist.</desc>
+		</item>
+		<item>
+			<id>4656</id>
+			<name>Stabiles Ahornschichtholz</name>
+			<icon>00004656.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Ahornschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

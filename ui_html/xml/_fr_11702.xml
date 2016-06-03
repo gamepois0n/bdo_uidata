@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11702</itemKey>
+	<itemName>Collier de rubis resplendissant</itemName>
+	<itemIcon>00011702.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;un rubis brillant.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11701</id>
+			<name>Collier de rubis</name>
+			<icon>00011701.png</icon>
+			<desc>Un collier décoré d&apos;un rubis.</desc>
+		</item>
+		<item>
+			<id>4251</id>
+			<name>Fragment d&apos;argent fondu</name>
+			<icon>00004251.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai d&apos;argent.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubis</name>
+			<icon>00004451.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un rubis brut.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11703</id>
+			<name>Collier en rubis de sang</name>
+			<icon>00011703.png</icon>
+			<desc>Un collier décoré d&apos;un rubis sanglant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

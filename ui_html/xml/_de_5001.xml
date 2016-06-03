@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5001</itemKey>
+	<itemName>Eschensaft</itemName>
+	<itemIcon>00005001.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Esche erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Esche</name>
+		</character>
+	</collect>
+	<node region="Ehwazhügel – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>14430</id>
+			<name>Seles-Stab der Versuchung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Versuchung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seles-Stab der Zerstörung</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Zerstörung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seles-Stab der Purpurnen Flamme</name>
+			<icon>00014407.png</icon>
+			<desc>Dieser Seles-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Purpurnen Flamme, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Ultimativer Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Halbmenschen-Stab der Versuchung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Halbmenschen-Stab der Zerstörung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Halbmenschen-Stab der Purpurnen Flamme</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Ultimativer Aswell-Stab</name>
+			<icon>00014405.png</icon>
+			<desc>Ein maximal aufgerüsteter Aswell-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Purpurnen Flamme, Aswell-Stab der Zerstörung, Aswell-Stab der Versuchung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Aswell-Stab der Versuchung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Versuchung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Aswell-Stab der Zerstörung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Zerstörung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Aswell-Stab der Purpurnen Flamme</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Purpurnen Flamme, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Aswell-Stab</name>
+			<icon>00014405.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Stab.</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Ultimativer Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein maximal aufgerüsteter Seles-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Stab der Purpurnen Flamme, Seles-Stab der Zerstörung, Seles-Stab der Versuchung, Seles-Stab</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seles-Stab</name>
+			<icon>00014407.png</icon>
+			<desc>Ein Stab, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein Stab zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Schiffslizenz: Fähre</name>
+			<icon>00049001.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Fähre』.\n– Inventarplätze: 8, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zur angezeigten Werft.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8575</itemKey>
+	<itemName>Dried Blackfin Sweeper</itemName>
+	<itemIcon>00008575.png</itemIcon>
+	<itemDesc>A dried blackfin sweeper obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8275</id>
+			<name>Blackfin Sweeper</name>
+			<icon>00008275.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55975</id>
+			<name>Packaged Dried Blackfin Sweeper</name>
+			<icon>00055975.png</icon>
+			<desc>A Trade Item containing 10 Dried Blackfin Sweeper.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

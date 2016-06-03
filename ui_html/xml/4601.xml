@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4601</itemKey>
+	<itemName>Ash Timber</itemName>
+	<itemIcon>00004601.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Goblin Cave, Ehwaz Hill, Balenos Forest, and Wolf Hills. It can be also be obtained by Lumbering Ash Trees.</itemDesc>
+	<collect>
+		<character>
+			<name>Ash Tree</name>
+		</character>
+	</collect>
+	<node region="Goblin Cave - Lumbering"/>
+	<node region="Ehwaz Hill - Lumbering"/>
+	<node region="Balenos Forest - Lumbering"/>
+	<node region="Wolf Hills - Lumbering"/>
+	<makelist>
+		<item>
+			<id>16106</id>
+			<name>Sharp Lumbering Axe</name>
+			<icon>00016106.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16105</id>
+			<name>Lumbering Axe</name>
+			<icon>00016105.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16126</id>
+			<name>Sharp Pickaxe</name>
+			<icon>00016126.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16125</id>
+			<name>Pickaxe</name>
+			<icon>00016125.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16122</id>
+			<name>Sharp Tanning Knife</name>
+			<icon>00016122.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16121</id>
+			<name>Tanning Knife</name>
+			<icon>00016121.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16118</id>
+			<name>Sharp Butcher Knife</name>
+			<icon>00016118.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16117</id>
+			<name>Butcher Knife</name>
+			<icon>00016117.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16114</id>
+			<name>Bronze Hoe</name>
+			<icon>00016114.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16113</id>
+			<name>Hoe</name>
+			<icon>00016113.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16167</id>
+			<name>Ash Tree Float</name>
+			<icon>00016167.png</icon>
+			<desc>A float made of ash wood. Good for catching big fishes.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>A staff custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Ultimate Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A Seleth staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Seleth staff.\n\n- Restore Max Durability: Seleth Staff of Crimson Flame, Seleth Staff of Destruction, Seleth Staff of Temptation, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>55830</id>
+			<name>Ash Timber Crate</name>
+			<icon>00055830.png</icon>
+			<desc>A Trade Item containing 10 planks of Ash Timber.</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Seleth Staff of Temptation</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Temptation, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seleth Staff of Destruction</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Destruction, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seleth Staff of Crimson Flame</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Crimson Flame, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Ultimate Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A Demihuman staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Demihuman staff.\n\n- Restore Max Durability: Demihuman Staff of Crimson Flame, Demihuman Staff of Destruction, Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Demihuman Staff of Temptation</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Demihuman Staff of Destruction</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Destruction, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>53401</id>
+			<name>Shabby Wagon Wheel</name>
+			<icon>00053401.png</icon>
+			<desc>A wheel that can be installed on a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53601</id>
+			<name>Shabby Wagon Flag</name>
+			<icon>00053601.png</icon>
+			<desc>A flag for a wagon.\n\n- Can be Installed on: Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Demihuman Staff of Crimson Flame</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Crimson Flame, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Ultimate Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>An Azwell staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Azwell staff.\n\n- Restore Max Durability: Azwell Staff of Crimson Flame, Azwell Staff of Destruction, Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Azwell Staff of Temptation</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Azwell Staff of Destruction</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Destruction, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Azwell Staff of Crimson Flame</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Crimson Flame, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>16162</id>
+			<name>Balenos Fishing Rod</name>
+			<icon>00016162.png</icon>
+			<desc>Balenos fishing rod. It shortens the auto-fishing time.\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16141</id>
+			<name>Fishing Rod</name>
+			<icon>00016141.png</icon>
+			<desc>A Gathering Tool made for catching fish in rivers or oceans.</desc>
+		</item>
+		<item>
+			<id>16152</id>
+			<name>Golden Fishing Rod</name>
+			<icon>00016152.png</icon>
+			<desc>A Gathering Tool made for catching fish in rivers or oceans. The chances of catching good fish are higher than with a regular fishing rod.\n\n- Item Effect: Fishing Speed +3 Levels</desc>
+		</item>
+		<item>
+			<id>16151</id>
+			<name>Steel Fishing Rod</name>
+			<icon>00016151.png</icon>
+			<desc>A Gathering Tool made for catching fish in rivers or oceans. The chances of catching good fish are higher than with a regular fishing rod.\n\n- Item Effect: Fishing Speed +2 Levels</desc>
+		</item>
+		<item>
+			<id>16147</id>
+			<name>Thick Fishing Rod</name>
+			<icon>00016147.png</icon>
+			<desc>A Gathering Tool made for catching fish in rivers or oceans. The chances of catching good fish are higher than with a regular fishing rod.\n\n- Item Effect: Fishing Speed +1 Level</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A staff possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A staff made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10205</id>
+			<name>Azwell Longbow</name>
+			<icon>00010205.png</icon>
+			<desc>A longbow custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10222</id>
+			<name>Azwell Longbow of Temptation</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Temptation, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10221</id>
+			<name>Azwell Longbow of Destruction</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Destruction, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10220</id>
+			<name>Azwell Longbow of Crimson Flame</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Crimson Flame, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10223</id>
+			<name>Ultimate Azwell Longbow</name>
+			<icon>00010205.png</icon>
+			<desc>An Azwell Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Crimson Flame, Azwell Longbow of Destruction, Azwell Longbow of Temptation, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>4652</id>
+			<name>Ash Plywood</name>
+			<icon>00004652.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Ash Timber. It requires Chopping: Beginner knowledge.\n\n※ Find Lebyos in Heidel and complete the Working the Ash Tree Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4651</id>
+			<name>Ash Plank</name>
+			<icon>00004651.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Chopping Ash Timber.</desc>
+		</item>
+		<item>
+			<id>2304</id>
+			<name>Velian Handcrafted Chair</name>
+			<icon>InHouse_D_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>16806</id>
+			<name>Lucky Sharp Lumbering Axe</name>
+			<icon>00016806.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16805</id>
+			<name>Lucky Lumbering Axe</name>
+			<icon>00016805.png</icon>
+			<desc>A Gathering Tool used to help cut wood efficiently. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16826</id>
+			<name>Lucky Sharp Pickaxe</name>
+			<icon>00016826.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16825</id>
+			<name>Lucky Pickaxe</name>
+			<icon>00016825.png</icon>
+			<desc>A Gathering Tool made for extracting ore and minerals from rock. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16822</id>
+			<name>Lucky Sharp Tanning Knife</name>
+			<icon>00016822.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16821</id>
+			<name>Lucky Tanning Knife</name>
+			<icon>00016821.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16818</id>
+			<name>Lucky Sharp Butcher Knife</name>
+			<icon>00016818.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16817</id>
+			<name>Lucky Butcher Knife</name>
+			<icon>00016817.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16814</id>
+			<name>Lucky Bronze Hoe</name>
+			<icon>00016814.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16813</id>
+			<name>Lucky Hoe</name>
+			<icon>00016813.png</icon>
+			<desc>A Gathering Tool used to harvest wild herbs and crops. It increases Luck when Gathering.\n- Standard Gathering Time \n- Cannot be Repaired</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

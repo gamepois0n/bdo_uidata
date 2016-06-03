@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6162</itemKey>
+	<itemName>Fine Thin Hide</itemName>
+	<itemIcon>00006162.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying raccoon, monkey, or weasel hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6010</id>
+			<name>Raccoon Hide</name>
+			<icon>00006010.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted raccoon corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6011</id>
+			<name>Monkey Hide</name>
+			<icon>00006011.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted monkey corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6012</id>
+			<name>Weasel Hide</name>
+			<icon>00006012.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted weasel corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6154</id>
+			<name>Thin Hide</name>
+			<icon>00006154.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying raccoon, monkey, or weasel hide.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>6170</id>
+			<name>Supreme Thin Hide</name>
+			<icon>00006170.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking Fine Thin Hide and Leather Glaze, an ingredient made through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik Talisman of Temptation</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Temptation is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Temptation, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik Talisman of Destruction</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Destruction is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Destruction, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik Talisman of Crimson Flame</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Crimson Flame, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10513</id>
+			<name>Ultimate Jubre Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>A Jubre Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Jubre Talisman of Crimson Flame, Jubre Talisman of Destruction, Jubre Talisman of Temptation, Jubre Talisman</desc>
+		</item>
+		<item>
+			<id>10512</id>
+			<name>Jubre Talisman of Temptation</name>
+			<icon>00010504.png</icon>
+			<desc>The energy of Temptation is contained within this Jubre Talisman.\n\n- Repair to Max. Durability: Jubre Talisman of Temptation, Jubre Talisman</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Ultimate Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A Rhik Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Rhik Talisman of Crimson Flame, Rhik Talisman of Destruction, Rhik Talisman of Temptation, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea Talisman of Destruction</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Destruction, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea Talisman of Crimson Flame</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Crimson Flame, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A talisman crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick Talisman of Temptation</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Temptation is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Temptation, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick Talisman of Destruction</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Destruction is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Destruction, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick Talisman of Crimson Flame</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Crimson Flame, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A talisman with enhanced defensive abilities.</desc>
+		</item>
+		<item>
+			<id>10504</id>
+			<name>Jubre Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>An unknown ancient language is scribbled on this talisman.</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A talisman with a magical gemstone embedded in it.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea Talisman of Temptation</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Temptation, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10511</id>
+			<name>Jubre Talisman of Destruction</name>
+			<icon>00010504.png</icon>
+			<desc>The energy of Destruction is contained within this Jubre Talisman.\n\n- Repair to Max. Durability: Jubre Talisman of Destruction, Jubre Talisman</desc>
+		</item>
+		<item>
+			<id>10510</id>
+			<name>Jubre Talisman of Crimson Flame</name>
+			<icon>00010504.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Jubre Talisman.\n\n- Repair to Max. Durability: Jubre Talisman of Crimson Flame, Jubre Talisman</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Ultimate Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A Helrick Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Helrick Talisman of Crimson Flame, Helrick Talisman of Destruction, Helrick Talisman of Temptation, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Ultimate Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A Krea Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Talisman of Crimson Flame, Krea Talisman of Destruction, Krea Talisman of Temptation, Krea Talisman</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

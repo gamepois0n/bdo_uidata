@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4055</itemKey>
+	<itemName>Lead Ingot</itemName>
+	<itemIcon>00004055.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Lead Shards. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4002</id>
+			<name>Lead Ore</name>
+			<icon>00004002.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Glish Swamp, Quint Hill, and Primal Giant Post. It can be directly obtained from Ore containing Lead.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4054</id>
+			<name>Melted Lead Shard</name>
+			<icon>00004054.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Lead Ore.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4054</id>
+			<name>Melted Lead Shard</name>
+			<icon>00004054.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Lead Ore.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>49401</id>
+			<name>Ferry Decoration</name>
+			<icon>00049401.png</icon>
+			<desc>A decoration that can be attached to a Ferry, lowering the chance of Trade Items breaking.\nWhen 3 or more set items are installed:\nMovement Speed +2%\n\n- Can be Installed on: Ferry\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Ultimate Blade Trinket</name>
+			<icon>00010707.png</icon>
+			<desc>A Blade Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket of Destruction, Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Blade Trinket of Temptation</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Temptation is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Blade Trinket of Destruction</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Destruction is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Destruction, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Blade Trinket of Crimson Flame</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Blade Trinket</name>
+			<icon>00010706.png</icon>
+			<desc>A trinket with an ornamental knife attached.</desc>
+		</item>
+		<item>
+			<id>4056</id>
+			<name>Pure Lead Crystal</name>
+			<icon>00004056.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Lead Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Ship License: Ferry</name>
+			<icon>00049001.png</icon>
+			<desc>Proof of ownership of a  at the Wharf.\n- Inventory Slot(s): 8, Acceleration: 100%, Speed: 105%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15641</itemKey>
+	<itemName>Cristal de champ de bataille rouge (Rapidité)</itemName>
+	<itemIcon>00015637.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être fusionné dans des châsses supérieures (costumes). \n- Effet d&apos;objet : vitesse de mouvement +2\nS&apos;obtient en chauffant le costume de noble de Calpheon.\n- Le potentiel du cristal peut être transféré à des pièces d&apos;équipement grâce à l&apos;esprit occulte.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14301</id>
+			<name>[Guerrier] Costume de noble de Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14302</id>
+			<name>[Berserker] Costume de noble de Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14303</id>
+			<name>[Sorcière] Costume de noble de Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14304</id>
+			<name>[Dompteuse] Costume de noble de Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14305</id>
+			<name>[Rôdeuse] Costume de noble de Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14307</id>
+			<name>[Valkyrie] Costume de noble de Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14331</id>
+			<name>[Magicien] Costume de noble de Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n- Effet d&apos;objet : Amitié +15 % depuis une conversation\n- Utilisez « Chauffage » pour extraire cristal d&apos;esprit ancien : rapidité de cet objet.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14332</id>
+			<name>[Magicienne] Costume de noble de Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n- Effet d&apos;objet : Amitié +15 % depuis une conversation\n- Utilisez « Chauffage » pour extraire cristal d&apos;esprit ancien : rapidité de cet objet.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

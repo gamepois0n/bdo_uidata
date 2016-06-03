@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8508</itemKey>
+	<itemName>Getrockneter Kugelfisch</itemName>
+	<itemIcon>00008508.png</itemIcon>
+	<itemDesc>Ein Getrockneter Kugelfisch, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8208</id>
+			<name>Kugelfisch</name>
+			<icon>00008208.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55908</id>
+			<name>Verpackter getrockneter Kugelfisch</name>
+			<icon>00055908.png</icon>
+			<desc>Handelsware, die 10 getrocknete Kugelfische enthält.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

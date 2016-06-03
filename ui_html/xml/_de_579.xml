@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>579</itemKey>
+	<itemName>Gefilterter Kräutersaft</itemName>
+	<itemIcon>00000573.png</itemIcon>
+	<itemDesc>Stellt 325 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Leichter als ein gewöhnlicher Trank.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>571</id>
+			<name>Hochkonzentrierter Kräutersaft</name>
+			<icon>00000571.png</icon>
+			<desc>Stellt bei Verwendung sofort +250 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>571</id>
+			<name>Hochkonzentrierter Kräutersaft</name>
+			<icon>00000571.png</icon>
+			<desc>Stellt bei Verwendung sofort +250 MP/WP/KP wieder her.\n– Abklingzeit: 6 Sek.\n– Wiegt weniger als ein normaler Trank.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

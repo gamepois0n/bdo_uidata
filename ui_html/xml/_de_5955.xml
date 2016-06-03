@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5955</itemKey>
+	<itemName>Spur des Aufstiegs</itemName>
+	<itemIcon>00005955.png</itemIcon>
+	<itemDesc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei der Uralten Steinkammer gefunden werden.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10014</id>
+			<name>Yuria-Langschwert</name>
+			<icon>00010014.png</icon>
+			<desc>Ein Langschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10214</id>
+			<name>Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein Langbogen, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10414</id>
+			<name>Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10614</id>
+			<name>Yuria-Axt</name>
+			<icon>00010614.png</icon>
+			<desc>Eine Axt, die von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13214</id>
+			<name>Yuria-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14414</id>
+			<name>Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein Stab, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<node region="Uralte Steinkammer – Ausgrabung"/>
+	<makelist>
+		<item>
+			<id>10414</id>
+			<name>Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Yuria-Fokusreif der Zerstörung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Yuria-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Purpurnen Flamme, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10443</id>
+			<name>Ultimativer Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Purpurnen Flamme, Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif der Versuchung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Yuria-Fokusreif der Versuchung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Versuchung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>14443</id>
+			<name>Ultimativer Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab der Zerstörung, Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria-Stab der Versuchung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Versuchung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria-Stab der Zerstörung</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Zerstörung, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria-Stab der Purpurnen Flamme</name>
+			<icon>00014414.png</icon>
+			<desc>Dieser Yuria-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Stabs gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Stab der Purpurnen Flamme, Yuria-Stab</desc>
+		</item>
+		<item>
+			<id>13243</id>
+			<name>Ultimatives Yuria-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein maximal aufgerüstetes Yuria-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Kurzschwert der Purpurnen Flamme, Yuria-Kurzschwert der Zerstörung, Yuria-Kurzschwert der Versuchung, Yuria-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13242</id>
+			<name>Yuria-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Yuria-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Kurzschwert der Versuchung, Yuria-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13241</id>
+			<name>Yuria-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Yuria-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Kurzschwert der Zerstörung, Yuria-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13240</id>
+			<name>Yuria-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Yuria-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Kurzschwert der Purpurnen Flamme, Yuria-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13214</id>
+			<name>Yuria-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10614</id>
+			<name>Yuria-Axt</name>
+			<icon>00010614.png</icon>
+			<desc>Eine Axt, die von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10243</id>
+			<name>Ultimativer Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen der Zerstörung, Yuria-Langbogen der Versuchung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Yuria-Langbogen der Versuchung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Versuchung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Yuria-Langbogen der Zerstörung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Zerstörung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Yuria-Langbogen der Purpurnen Flamme</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Yuria-Stab</name>
+			<icon>00014414.png</icon>
+			<desc>Ein Stab, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein Langbogen, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10640</id>
+			<name>Yuria-Axt der Purpurnen Flamme</name>
+			<icon>00010614.png</icon>
+			<desc>Diese Yuria-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Yuria-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Axt der Purpurnen Flamme, Yuria-Axt</desc>
+		</item>
+		<item>
+			<id>10643</id>
+			<name>Ultimative Yuria-Axt</name>
+			<icon>00010614.png</icon>
+			<desc>Eine maximal aufgerüstete Yuria-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Yuria-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Axt der Purpurnen Flamme, Yuria-Axt der Zerstörung, Yuria-Axt der Versuchung, Yuria-Axt</desc>
+		</item>
+		<item>
+			<id>10642</id>
+			<name>Yuria-Axt der Versuchung</name>
+			<icon>00010614.png</icon>
+			<desc>Diese Yuria-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Yuria-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Axt der Versuchung, Yuria-Axt</desc>
+		</item>
+		<item>
+			<id>10641</id>
+			<name>Yuria-Axt der Zerstörung</name>
+			<icon>00010614.png</icon>
+			<desc>Diese Yuria-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Yuria-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Axt der Zerstörung, Yuria-Axt</desc>
+		</item>
+		<item>
+			<id>10014</id>
+			<name>Yuria-Langschwert</name>
+			<icon>00010014.png</icon>
+			<desc>Ein Langschwert, das von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10043</id>
+			<name>Ultimatives Yuria-Langschwert</name>
+			<icon>00010014.png</icon>
+			<desc>Ein maximal aufgerüstetes Yuria-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langschwert der Purpurnen Flamme, Yuria-Langschwert der Zerstörung, Yuria-Langschwert der Versuchung, Yuria-Langschwert</desc>
+		</item>
+		<item>
+			<id>10042</id>
+			<name>Yuria-Langschwert der Versuchung</name>
+			<icon>00010014.png</icon>
+			<desc>Dieses Yuria-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Langschwerts gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langschwert der Versuchung, Yuria-Langschwert</desc>
+		</item>
+		<item>
+			<id>10041</id>
+			<name>Yuria-Langschwert der Zerstörung</name>
+			<icon>00010014.png</icon>
+			<desc>Dieses Yuria-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langschwert der Zerstörung, Yuria-Langschwert</desc>
+		</item>
+		<item>
+			<id>10040</id>
+			<name>Yuria-Langschwert der Purpurnen Flamme</name>
+			<icon>00010014.png</icon>
+			<desc>Dieses Yuria-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langschwert der Purpurnen Flamme, Yuria-Langschwert</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

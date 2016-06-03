@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7105</itemKey>
+	<itemName>Farine de maïs</itemName>
+	<itemIcon>00007105.png</itemIcon>
+	<itemDesc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du maïs.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7005</id>
+			<name>Maïs</name>
+			<icon>00007005.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Toscani. Et peut être aussi obtenu en cultivant des graines de maïs dans un jardin ou en récoltant du maïs à la main ou avec une houe..\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7010</id>
+			<name>Maïs de haute qualité</name>
+			<icon>00007005.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7015</id>
+			<name>Maïs spécial</name>
+			<icon>00007005.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7205</id>
+			<name>Pâte de maïs</name>
+			<icon>00007205.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de maïs obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

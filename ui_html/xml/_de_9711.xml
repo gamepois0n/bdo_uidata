@@ -1,0 +1,3914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9711</itemKey>
+	<itemName>Angerichtetes Essen</itemName>
+	<itemIcon>00009711.png</itemIcon>
+	<itemDesc>Das Nebenprodukt eines Kochvorgangs.\n– Gewinnung: Kann zufällig nach einem gelungenen Kochvorgang erhalten werden.\n\n \n – 5 eintauschen: Kochen-EP\n\n &lt;Nördliche Getreideplantage&gt;\n – 5 eintauschen: Kochen-EP\n(Rechtsklickt für genauen Tauschort)</itemDesc>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Exotischer Kräuterwein</name>
+			<icon>00009262.png</icon>
+			<desc>Ein exotischer Alkohol aus einem fernen Land.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Exotischer Kräuterwein</name>
+			<icon>00009262.png</icon>
+			<desc>Ein exotischer Alkohol aus einem fernen Land.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Grillwurst</name>
+			<icon>00009427.png</icon>
+			<desc>Ein perfekt gegrilltes Würstchen.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloe</name>
+			<icon>00007347.png</icon>
+			<desc>Aloe ist ein Spezialprodukt aus Mediah.\nVerwendung: Aloekeks, Aloeyoghurt etc.\n– Gewinnung: Kann beim Ahtohof gewonnen werden. Aloe aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloe</name>
+			<icon>00007347.png</icon>
+			<desc>Aloe ist ein Spezialprodukt aus Mediah.\nVerwendung: Aloekeks, Aloeyoghurt etc.\n– Gewinnung: Kann beim Ahtohof gewonnen werden. Aloe aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloe</name>
+			<icon>00007347.png</icon>
+			<desc>Aloe ist ein Spezialprodukt aus Mediah.\nVerwendung: Aloekeks, Aloeyoghurt etc.\n– Gewinnung: Kann beim Ahtohof gewonnen werden. Aloe aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9270</id>
+			<name>Aromatee</name>
+			<icon>00009270.png</icon>
+			<desc>Wird hergestellt, indem Blumen oder Obst in Wasser ziehen gelassen werden.\n\n– Spezielle Wirkung: Max. MP +50 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9270</id>
+			<name>Aromatee</name>
+			<icon>00009270.png</icon>
+			<desc>Wird hergestellt, indem Blumen oder Obst in Wasser ziehen gelassen werden.\n\n– Spezielle Wirkung: Max. MP +50 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9292</id>
+			<name>Starker Aromatee</name>
+			<icon>00009292.png</icon>
+			<desc>Ein stark aromatisierter Tee aus den besten Zutaten.\n\n– Spezielle Wirkung: Max. MP +50 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9292</id>
+			<name>Starker Aromatee</name>
+			<icon>00009292.png</icon>
+			<desc>Ein stark aromatisierter Tee aus den besten Zutaten.\n\n– Spezielle Wirkung: Max. MP +50 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>8511</id>
+			<name>Getrockneter Kalmar</name>
+			<icon>00008511.png</icon>
+			<desc>Ein Getrockneter Kalmar, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9403</id>
+			<name>Bratvogel</name>
+			<icon>00009403.png</icon>
+			<desc>Mit Getreidemehl gebratenes Geflügelfleisch.\n\n– Spezielle Wirkung: LP-Regeneration +5 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+		<item>
+			<id>7908</id>
+			<name>Echsenfleisch</name>
+			<icon>00007908.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Echsenkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7918</id>
+			<name>Stinkendes Trockenfleisch</name>
+			<icon>00007918.png</icon>
+			<desc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Zimt</name>
+			<icon>00007348.png</icon>
+			<desc>Zimt ist ein Spezialprodukt aus Mediah.\nVerwendung: Borschtsch, Wüstenknödel etc.\n– Gewinnung: Kann beim Hof Kasula gewonnen werden. Zimt aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7348</id>
+			<name>Zimt</name>
+			<icon>00007348.png</icon>
+			<desc>Zimt ist ein Spezialprodukt aus Mediah.\nVerwendung: Borschtsch, Wüstenknödel etc.\n– Gewinnung: Kann beim Hof Kasula gewonnen werden. Zimt aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>7908</id>
+			<name>Echsenfleisch</name>
+			<icon>00007908.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Echsenkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Zimt</name>
+			<icon>00007348.png</icon>
+			<desc>Zimt ist ein Spezialprodukt aus Mediah.\nVerwendung: Borschtsch, Wüstenknödel etc.\n– Gewinnung: Kann beim Hof Kasula gewonnen werden. Zimt aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54004</id>
+			<name>Hochwertige Karotte</name>
+			<icon>00054004.png</icon>
+			<desc>Stellt 『3.000』 Energie und 『1.000』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>54004</id>
+			<name>Hochwertige Karotte</name>
+			<icon>00054004.png</icon>
+			<desc>Stellt 『3.000』 Energie und 『1.000』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54004</id>
+			<name>Hochwertige Karotte</name>
+			<icon>00054004.png</icon>
+			<desc>Stellt 『3.000』 Energie und 『1.000』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>54004</id>
+			<name>Hochwertige Karotte</name>
+			<icon>00054004.png</icon>
+			<desc>Stellt 『3.000』 Energie und 『1.000』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54005</id>
+			<name>Besondere Karotte</name>
+			<icon>00054005.png</icon>
+			<desc>Stellt 『7.500』 Energie und 『1.500』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>54005</id>
+			<name>Besondere Karotte</name>
+			<icon>00054005.png</icon>
+			<desc>Stellt 『7.500』 Energie und 『1.500』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>54005</id>
+			<name>Besondere Karotte</name>
+			<icon>00054005.png</icon>
+			<desc>Stellt 『7.500』 Energie und 『1.500』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>54005</id>
+			<name>Besondere Karotte</name>
+			<icon>00054005.png</icon>
+			<desc>Stellt 『7.500』 Energie und 『1.500』 LP Eures Pferdes wieder her.\nZur Verwendung beim Reiten darauf rechtsklicken.\n– Abklingzeit: 5 Min.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Rote Soße</name>
+			<icon>00009004.png</icon>
+			<desc>Eine rote Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Steak, Käsegratin</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9203</id>
+			<name>Käsegratin</name>
+			<icon>00009203.png</icon>
+			<desc>Einige mit Käse überbackene Zutaten.\n\n– Spezielle Wirkung: Max. LP +70 für 90 Min.\nAngriffsgeschwindigkeit +1 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9203</id>
+			<name>Käsegratin</name>
+			<icon>00009203.png</icon>
+			<desc>Einige mit Käse überbackene Zutaten.\n\n– Spezielle Wirkung: Max. LP +70 für 90 Min.\nAngriffsgeschwindigkeit +1 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Fleischkrokette</name>
+			<icon>00009404.png</icon>
+			<desc>Ein frittiertes Gericht aus Getreide und Fleisch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +5 % für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9417</id>
+			<name>Räucherfischsteak</name>
+			<icon>00009417.png</icon>
+			<desc>Ein Gericht aus geräuchertem Fisch.\n\n– Spezielle Wirkung: Angriffsgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9241</id>
+			<name>Gemüsepfanne</name>
+			<icon>00009241.png</icon>
+			<desc>Ein scharfes Gericht mit gebratenen Peperonis und Gemüse.\n\n– Spezielle Wirkung: Erhöhte Sprunghöhe für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9213</id>
+			<name>Bier</name>
+			<icon>00009213.png</icon>
+			<desc>Ein schwacher Alkohol aus Getreide.\n\n– Spezielle Wirkung: Stellt +2 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9282</id>
+			<name>Käsebällchengratin</name>
+			<icon>00009282.png</icon>
+			<desc>Ein Gratin mit Qualitätskäse.\n\n– Spezielle Wirkung: Max. LP +70 für 110 Min.\nAngriffsgeschwindigkeit +1 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9282</id>
+			<name>Käsebällchengratin</name>
+			<icon>00009282.png</icon>
+			<desc>Ein Gratin mit Qualitätskäse.\n\n– Spezielle Wirkung: Max. LP +70 für 110 Min.\nAngriffsgeschwindigkeit +1 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Fleischkrokette</name>
+			<icon>00009404.png</icon>
+			<desc>Ein frittiertes Gericht aus Getreide und Fleisch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +5 % für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9417</id>
+			<name>Räucherfischsteak</name>
+			<icon>00009417.png</icon>
+			<desc>Ein Gericht aus geräuchertem Fisch.\n\n– Spezielle Wirkung: Angriffsgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9241</id>
+			<name>Gemüsepfanne</name>
+			<icon>00009241.png</icon>
+			<desc>Ein scharfes Gericht mit gebratenen Peperonis und Gemüse.\n\n– Spezielle Wirkung: Erhöhte Sprunghöhe für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9213</id>
+			<name>Bier</name>
+			<icon>00009213.png</icon>
+			<desc>Ein schwacher Alkohol aus Getreide.\n\n– Spezielle Wirkung: Stellt +2 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9267</id>
+			<name>Schinkenstulle</name>
+			<icon>00009267.png</icon>
+			<desc>Ein weiches Brot mit Wurst.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nGesamte Genauigkeit +8 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9267</id>
+			<name>Schinkenstulle</name>
+			<icon>00009267.png</icon>
+			<desc>Ein weiches Brot mit Wurst.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nGesamte Genauigkeit +8 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9266</id>
+			<name>Honigwabenkeks</name>
+			<icon>00009266.png</icon>
+			<desc>Ein Getreideteig mit Honigwaben.\n\n– Spezielle Wirkung: Max. Traglast +50 kg für 90 Min.\nAngelgeschwindigkeit +1 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Obstwein</name>
+			<icon>00009201.png</icon>
+			<desc>Ein süßer Alkohol aus Obst.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9402</id>
+			<name>Gekochte Vogeleier</name>
+			<icon>00009402.png</icon>
+			<desc>Ein hartgekochtes Vogelei.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9265</id>
+			<name>Fleischpastete</name>
+			<icon>00009265.png</icon>
+			<desc>Ein Getreideteig gefüllt mit Fleisch.\n\n– Spezielle Wirkung: Max. Ausdauer +200 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9290</id>
+			<name>Hochwertige Schinkenstulle</name>
+			<icon>00009290.png</icon>
+			<desc>Ein belegtes Brot aus hochwertigen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 110 Min.\nGesamte Genauigkeit +8 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9290</id>
+			<name>Hochwertige Schinkenstulle</name>
+			<icon>00009290.png</icon>
+			<desc>Ein belegtes Brot aus hochwertigen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 110 Min.\nGesamte Genauigkeit +8 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9266</id>
+			<name>Honigwabenkeks</name>
+			<icon>00009266.png</icon>
+			<desc>Ein Getreideteig mit Honigwaben.\n\n– Spezielle Wirkung: Max. Traglast +50 kg für 90 Min.\nAngelgeschwindigkeit +1 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Obstwein</name>
+			<icon>00009201.png</icon>
+			<desc>Ein süßer Alkohol aus Obst.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9402</id>
+			<name>Gekochte Vogeleier</name>
+			<icon>00009402.png</icon>
+			<desc>Ein hartgekochtes Vogelei.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9265</id>
+			<name>Fleischpastete</name>
+			<icon>00009265.png</icon>
+			<desc>Ein Getreideteig gefüllt mit Fleisch.\n\n– Spezielle Wirkung: Max. Ausdauer +200 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9263</id>
+			<name>Milchtee</name>
+			<icon>00009263.png</icon>
+			<desc>Ein duftender Tee mit Milch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +8 % für 90 Min.\nLP-Regeneration +5 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9263</id>
+			<name>Milchtee</name>
+			<icon>00009263.png</icon>
+			<desc>Ein duftender Tee mit Milch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +8 % für 90 Min.\nLP-Regeneration +5 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9268</id>
+			<name>Käsekuchen</name>
+			<icon>00009268.png</icon>
+			<desc>Ein Getreideteig gefüllt mit Käse.\n\n– Spezielle Wirkung: Stellt +7 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9416</id>
+			<name>Fleischpasta</name>
+			<icon>00009416.png</icon>
+			<desc>Nudeln mit Fleischsoße.\n\n– Spezielle Wirkung: Max. Traglast +40 kg für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Milchbrot</name>
+			<icon>00009260.png</icon>
+			<desc>Ein Getreideteig, der vor dem Backen gären konnte.\n\n– Spezielle Wirkung: Max. Ausdauer +100 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9423</id>
+			<name>Fischfiletsalat</name>
+			<icon>00009423.png</icon>
+			<desc>Ein frischer Salat aus unverarbeitetem Fisch.\n\n– Spezielle Wirkung: Bewegungsgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9277</id>
+			<name>Milder Milchtee</name>
+			<icon>00009277.png</icon>
+			<desc>Der beste Tee weit und breit.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +8 % für 110 Min.\nLP-Regeneration +5 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9277</id>
+			<name>Milder Milchtee</name>
+			<icon>00009277.png</icon>
+			<desc>Der beste Tee weit und breit.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +8 % für 110 Min.\nLP-Regeneration +5 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9268</id>
+			<name>Käsekuchen</name>
+			<icon>00009268.png</icon>
+			<desc>Ein Getreideteig gefüllt mit Käse.\n\n– Spezielle Wirkung: Stellt +7 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9416</id>
+			<name>Fleischpasta</name>
+			<icon>00009416.png</icon>
+			<desc>Nudeln mit Fleischsoße.\n\n– Spezielle Wirkung: Max. Traglast +40 kg für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Milchbrot</name>
+			<icon>00009260.png</icon>
+			<desc>Ein Getreideteig, der vor dem Backen gären konnte.\n\n– Spezielle Wirkung: Max. Ausdauer +100 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9423</id>
+			<name>Fischfiletsalat</name>
+			<icon>00009423.png</icon>
+			<desc>Ein frischer Salat aus unverarbeitetem Fisch.\n\n– Spezielle Wirkung: Bewegungsgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9422</id>
+			<name>Blutpudding</name>
+			<icon>00009422.png</icon>
+			<desc>Ein Pudding aus seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nSchaden gegen Menschen +2 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9422</id>
+			<name>Blutpudding</name>
+			<icon>00009422.png</icon>
+			<desc>Ein Pudding aus seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nSchaden gegen Menschen +2 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9425</id>
+			<name>Magerfleischsalat</name>
+			<icon>00009425.png</icon>
+			<desc>Ein frischer Salat mit Fleischstücken.\n\n– Spezielle Wirkung: Gesamte VK +3 für 90 Min.\nLP-Regeneration +5 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Haferbrei</name>
+			<icon>00009261.png</icon>
+			<desc>Eine Mischung aus Getreidemehl und Milch.\n\n– Spezielle Wirkung: Stellt +5 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Exotischer Kräuterwein</name>
+			<icon>00009262.png</icon>
+			<desc>Ein exotischer Alkohol aus einem fernen Land.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Grillwurst</name>
+			<icon>00009427.png</icon>
+			<desc>Ein perfekt gegrilltes Würstchen.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9448</id>
+			<name>Dunkler Blutpudding</name>
+			<icon>00009448.png</icon>
+			<desc>Ein Pudding aus sehr seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 110 Min.\nSchaden gegen Menschen +2 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9448</id>
+			<name>Dunkler Blutpudding</name>
+			<icon>00009448.png</icon>
+			<desc>Ein Pudding aus sehr seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 110 Min.\nSchaden gegen Menschen +2 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9425</id>
+			<name>Magerfleischsalat</name>
+			<icon>00009425.png</icon>
+			<desc>Ein frischer Salat mit Fleischstücken.\n\n– Spezielle Wirkung: Gesamte VK +3 für 90 Min.\nLP-Regeneration +5 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Haferbrei</name>
+			<icon>00009261.png</icon>
+			<desc>Eine Mischung aus Getreidemehl und Milch.\n\n– Spezielle Wirkung: Stellt +5 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9262</id>
+			<name>Exotischer Kräuterwein</name>
+			<icon>00009262.png</icon>
+			<desc>Ein exotischer Alkohol aus einem fernen Land.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Grillwurst</name>
+			<icon>00009427.png</icon>
+			<desc>Ein perfekt gegrilltes Würstchen.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9016</id>
+			<name>Frittieröl</name>
+			<icon>00009016.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Liköressenz</name>
+			<icon>00009057.png</icon>
+			<desc>Wird aus vergorenem Getreide oder Obst gewonnen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obstwein, Exotischer Kräuterwein etc.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9270</id>
+			<name>Aromatee</name>
+			<icon>00009270.png</icon>
+			<desc>Wird hergestellt, indem Blumen oder Obst in Wasser ziehen gelassen werden.\n\n– Spezielle Wirkung: Max. MP +50 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9270</id>
+			<name>Aromatee</name>
+			<icon>00009270.png</icon>
+			<desc>Wird hergestellt, indem Blumen oder Obst in Wasser ziehen gelassen werden.\n\n– Spezielle Wirkung: Max. MP +50 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9292</id>
+			<name>Starker Aromatee</name>
+			<icon>00009292.png</icon>
+			<desc>Ein stark aromatisierter Tee aus den besten Zutaten.\n\n– Spezielle Wirkung: Max. MP +50 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9292</id>
+			<name>Starker Aromatee</name>
+			<icon>00009292.png</icon>
+			<desc>Ein stark aromatisierter Tee aus den besten Zutaten.\n\n– Spezielle Wirkung: Max. MP +50 für 75 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7701</id>
+			<name>Wildbienenstock</name>
+			<icon>00007701.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet werden kann.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt.\n\n– Verwendung: Honigwabenkeks etc.</desc>
+		</item>
+		<item>
+			<id>7701</id>
+			<name>Wildbienenstock</name>
+			<icon>00007701.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet werden kann.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt.\n\n– Verwendung: Honigwabenkeks etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9427</id>
+			<name>Grillwurst</name>
+			<icon>00009427.png</icon>
+			<desc>Ein perfekt gegrilltes Würstchen.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Grillwurst</name>
+			<icon>00009427.png</icon>
+			<desc>Ein perfekt gegrilltes Würstchen.\n\n– Spezielle Wirkung: Gesamte AK +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Milchbrot</name>
+			<icon>00009260.png</icon>
+			<desc>Ein Getreideteig, der vor dem Backen gären konnte.\n\n– Spezielle Wirkung: Max. Ausdauer +100 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9431</id>
+			<name>Räucherwurst</name>
+			<icon>00009431.png</icon>
+			<desc>Eine geräucherte Wurst.\n\n– Spezielle Wirkung: Gesamte AK +1 für 45 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9431</id>
+			<name>Räucherwurst</name>
+			<icon>00009431.png</icon>
+			<desc>Eine geräucherte Wurst.\n\n– Spezielle Wirkung: Gesamte AK +1 für 45 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Milchbrot</name>
+			<icon>00009260.png</icon>
+			<desc>Ein Getreideteig, der vor dem Backen gären konnte.\n\n– Spezielle Wirkung: Max. Ausdauer +100 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Ei</name>
+			<icon>00009064.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden.\n\n– Verwendung: Milchbrot, Omelette etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Kochwein</name>
+			<icon>00009017.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9260</id>
+			<name>Milchbrot</name>
+			<icon>00009260.png</icon>
+			<desc>Ein Getreideteig, der vor dem Backen gären konnte.\n\n– Spezielle Wirkung: Max. Ausdauer +100 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7323</id>
+			<name>Hochwertiger Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7335</id>
+			<name>Besonderer Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Knoblauch</name>
+			<icon>00007302.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Knoblauchsamen in einem Garten.\n– Verwendung: Steak, gedünsteter Fisch etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5407</id>
+			<name>Wahrsagerpilz</name>
+			<icon>00005407.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann auf dem Ehwazhügel und dem Küstenfelsen hergestellt werden. Wahrsagerpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5408</id>
+			<name>Pfeilpilz</name>
+			<icon>00005408.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Plünderwald hergestellt werden. Pfeilpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5409</id>
+			<name>Zwergenpilz</name>
+			<icon>00005409.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann in Nord-Cienaga hergestellt werden. Zwergenpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5410</id>
+			<name>Wolkenpilz</name>
+			<icon>00005410.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Sumpf bei Glisch und in Süd-Cienaga hergestellt werden. Wolkenpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5411</id>
+			<name>Himmelspilz</name>
+			<icon>00005411.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Epheriatal und im Elricschrein hergestellt werden. Himmelspilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5412</id>
+			<name>Tigerpilz</name>
+			<icon>00005412.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann in den Breebaumruinen und im Kamasilvetempel hergestellt werden. Tigerpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5413</id>
+			<name>Kaiserpilz</name>
+			<icon>00005413.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Rhuabaumstumpf und der Glutonihöhle hergestellt werden. Kaiserpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5414</id>
+			<name>Geistpilz</name>
+			<icon>00005414.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann in der Marihöhle hergestellt werden. Geistpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5415</id>
+			<name>Nebelpilz</name>
+			<icon>00005415.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Nebelpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5416</id>
+			<name>Buckelpilz</name>
+			<icon>00005416.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Buckelpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5417</id>
+			<name>Blufferpilz</name>
+			<icon>00005417.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Blufferpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5418</id>
+			<name>Uraltpilz</name>
+			<icon>00005418.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Uraltpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5419</id>
+			<name>Knollenblätterpilz</name>
+			<icon>00005419.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Knollenblätterpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>5420</id>
+			<name>Trüffel</name>
+			<icon>00005420.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird. Das Sammeln von Trüffel erfordert eine gewisse Talentstufe.\n– Gewinnung: Trüffel können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Kohl</name>
+			<icon>00007318.png</icon>
+			<desc>Ein klobiger Kohl, der als Zutat beim Kochen verwendet wird.\nVerwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n– Gewinnung: Kann von Kohl mit bloßen Händen gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Weiße Soße</name>
+			<icon>00009003.png</icon>
+			<desc>Eine weiße Soße zum Kochen.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchtepfanne</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Kalmar</name>
+			<icon>00008211.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olivenöl</name>
+			<icon>00009015.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9261</id>
+			<name>Haferbrei</name>
+			<icon>00009261.png</icon>
+			<desc>Eine Mischung aus Getreidemehl und Milch.\n\n– Spezielle Wirkung: Stellt +5 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Haferbrei</name>
+			<icon>00009261.png</icon>
+			<desc>Eine Mischung aus Getreidemehl und Milch.\n\n– Spezielle Wirkung: Stellt +5 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>6205</id>
+			<name>Schweineblut</name>
+			<icon>00006205.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Schweinekadaver erhalten werden.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+		<item>
+			<id>9202</id>
+			<name>Eingelegtes Gemüse</name>
+			<icon>00009202.png</icon>
+			<desc>In Essig eingelegtes und haltbar gemachtes Gemüse.\n\n– Spezielle Wirkung: Sammelgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9276</id>
+			<name>Verfeinerter Haferbrei</name>
+			<icon>00009276.png</icon>
+			<desc>Haferbrei aus sehr hochwertigem Getreide.\n\n– Spezielle Wirkung: Stellt +6 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9276</id>
+			<name>Verfeinerter Haferbrei</name>
+			<icon>00009276.png</icon>
+			<desc>Haferbrei aus sehr hochwertigem Getreide.\n\n– Spezielle Wirkung: Stellt +6 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>6205</id>
+			<name>Schweineblut</name>
+			<icon>00006205.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Schweinekadaver erhalten werden.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+		<item>
+			<id>9202</id>
+			<name>Eingelegtes Gemüse</name>
+			<icon>00009202.png</icon>
+			<desc>In Essig eingelegtes und haltbar gemachtes Gemüse.\n\n– Spezielle Wirkung: Sammelgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Käse</name>
+			<icon>00009062.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Trocknen von Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Fischfiletsalat, Käsegratin etc.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Soßenbasis</name>
+			<icon>00009018.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Peperoni</name>
+			<icon>00007305.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Peperonisamen in einem Garten.\n– Verwendung: Gemüsepfanne, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Zwiebel</name>
+			<icon>00007303.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Zwiebelsamen in einem Garten.\n– Verwendung: Haferbrei, Fleischpfanne etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sonnengetrocknetes Salz</name>
+			<icon>00009008.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9422</id>
+			<name>Blutpudding</name>
+			<icon>00009422.png</icon>
+			<desc>Ein Pudding aus seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nSchaden gegen Menschen +2 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9422</id>
+			<name>Blutpudding</name>
+			<icon>00009422.png</icon>
+			<desc>Ein Pudding aus seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nSchaden gegen Menschen +2 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9267</id>
+			<name>Schinkenstulle</name>
+			<icon>00009267.png</icon>
+			<desc>Ein weiches Brot mit Wurst.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nGesamte Genauigkeit +8 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Fleischkrokette</name>
+			<icon>00009404.png</icon>
+			<desc>Ein frittiertes Gericht aus Getreide und Fleisch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +5 % für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Obstwein</name>
+			<icon>00009201.png</icon>
+			<desc>Ein süßer Alkohol aus Obst.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9448</id>
+			<name>Dunkler Blutpudding</name>
+			<icon>00009448.png</icon>
+			<desc>Ein Pudding aus sehr seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 110 Min.\nSchaden gegen Menschen +2 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9448</id>
+			<name>Dunkler Blutpudding</name>
+			<icon>00009448.png</icon>
+			<desc>Ein Pudding aus sehr seltsamen Zutaten.\n\n– Spezielle Wirkung: Gesamte AK +3 für 110 Min.\nSchaden gegen Menschen +2 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9267</id>
+			<name>Schinkenstulle</name>
+			<icon>00009267.png</icon>
+			<desc>Ein weiches Brot mit Wurst.\n\n– Spezielle Wirkung: Gesamte AK +3 für 90 Min.\nGesamte Genauigkeit +8 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Fleischkrokette</name>
+			<icon>00009404.png</icon>
+			<desc>Ein frittiertes Gericht aus Getreide und Fleisch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +5 % für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9201</id>
+			<name>Obstwein</name>
+			<icon>00009201.png</icon>
+			<desc>Ein süßer Alkohol aus Obst.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7319</id>
+			<name>Rose</name>
+			<icon>00007319.png</icon>
+			<desc>Eine wohlduftende Rose. Wird hauptsächlich beim Kochen verwendet.\nVerwendung: Aromatee\n– Gewinnung: Kann von den Rosen gesammelt werden, die sich im Umfeld des Hofes befinden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7319</id>
+			<name>Rose</name>
+			<icon>00007319.png</icon>
+			<desc>Eine wohlduftende Rose. Wird hauptsächlich beim Kochen verwendet.\nVerwendung: Aromatee\n– Gewinnung: Kann von den Rosen gesammelt werden, die sich im Umfeld des Hofes befinden.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apfel</name>
+			<icon>00007313.png</icon>
+			<desc>Ein schmackhafter Apfel, der als Zutat beim Kochen verwendet wird.\nVerwendung: Fruchtsaft, Obstpudding etc.\n– Gewinnung: Kann durch Sammeln aus Apfelbäumen mithilfe einer Hacke oder mit bloßen Händen gewonnen oder von einem besonderen Händler gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Kochhonig</name>
+			<icon>00007702.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet wurde.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und den Bienenstock mahlt.\n\n– Verwendung: Haferbrei, Aromatee etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Weizenmehl</name>
+			<icon>00007101.png</icon>
+			<desc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9261</id>
+			<name>Haferbrei</name>
+			<icon>00009261.png</icon>
+			<desc>Eine Mischung aus Getreidemehl und Milch.\n\n– Spezielle Wirkung: Stellt +5 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9261</id>
+			<name>Haferbrei</name>
+			<icon>00009261.png</icon>
+			<desc>Eine Mischung aus Getreidemehl und Milch.\n\n– Spezielle Wirkung: Stellt +5 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9276</id>
+			<name>Verfeinerter Haferbrei</name>
+			<icon>00009276.png</icon>
+			<desc>Haferbrei aus sehr hochwertigem Getreide.\n\n– Spezielle Wirkung: Stellt +6 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>9276</id>
+			<name>Verfeinerter Haferbrei</name>
+			<icon>00009276.png</icon>
+			<desc>Haferbrei aus sehr hochwertigem Getreide.\n\n– Spezielle Wirkung: Stellt +6 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Schlammspringer</name>
+			<icon>00008201.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Hühnerfleisch</name>
+			<icon>00007921.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.\n– Gewinnung: Kann produziert werden bei Bartalihof, Fintohof.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

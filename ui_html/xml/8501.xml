@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8501</itemKey>
+	<itemName>Dried Mudskipper</itemName>
+	<itemIcon>00008501.png</itemIcon>
+	<itemDesc>A dried mudskipper obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8201</id>
+			<name>Mudskipper</name>
+			<icon>00008201.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55901</id>
+			<name>Packaged Dried Mudskipper</name>
+			<icon>00055901.png</icon>
+			<desc>A Trade Item containing 10 Dried Mudskipper.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

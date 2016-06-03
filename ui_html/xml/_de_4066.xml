@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4066</itemKey>
+	<itemName>Messingbarren</itemName>
+	<itemIcon>00004066.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zink gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Geschmolzener Kupfersplitter</name>
+			<icon>00004057.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kupfererz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Geschmolzener Zinksplitter</name>
+			<icon>00004063.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinkerz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Geschmolzener Kupfersplitter</name>
+			<icon>00004057.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kupfererz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Geschmolzener Zinksplitter</name>
+			<icon>00004063.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinkerz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10305</id>
+			<name>Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein Dolch, mit dem Angriffe pariert werden können.</desc>
+		</item>
+		<item>
+			<id>10331</id>
+			<name>Ultimativer Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Dolch.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch der Zerstörung, Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parierdolch der Purpurnen Flamme</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Ultimativer Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein maximal aufgerüsteter Parierdolch.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch der Zerstörung, Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parierdolch der Versuchung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parierdolch der Zerstörung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Zerstörung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Weihrauchanhänger der Zerstörung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Zerstörung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Weihrauchanhänger der Purpurnen Flamme</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Purpurnen Flamme, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Weihrauch.</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Ultimativer Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein maximal aufgerüsteter Rhik-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman der Zerstörung, Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea-Talisman der Zerstörung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Zerstörung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea-Talisman der Purpurnen Flamme</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein Talisman, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein Talisman mit verstärkten Verteidigungseigenschaften.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea-Talisman der Versuchung</name>
+			<icon>00010524.png</icon>
+			<desc>Dieser Krea-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Krea-Anhänger der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea-Anhänger der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Zerstörung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea-Anhänger der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Anhänger, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>52703</id>
+			<name>Kampf-Ledersattel</name>
+			<icon>00052703.png</icon>
+			<desc>Ein beständiger, schwerer Kampfsattel aus hartem Leder.\nErhöht die Stabilität, um schneller reiten zu können.\n\n– Ausrüstung für Pferde und Esel\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52702</id>
+			<name>Leichter Ledersattel</name>
+			<icon>00052702.png</icon>
+			<desc>Ein widerstandsfähigerer, leichterer Sattel aus hochwertigem Leder.\nErhöht die Stabilität, um schneller reiten zu können.\n\n– Ausrüstung für Pferde und Esel\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53503</id>
+			<name>Plane für Weißen Wagen</name>
+			<icon>00053503.png</icon>
+			<desc>Eine Plane für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53507</id>
+			<name>Plane für Adelswagen</name>
+			<icon>00053507.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53506</id>
+			<name>Plane für Händlerwagen</name>
+			<icon>00053506.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55847</id>
+			<name>Messingbarrenkiste</name>
+			<icon>00055847.png</icon>
+			<desc>Handelsware, die 10 Messingbarren enthält.</desc>
+		</item>
+		<item>
+			<id>51008</id>
+			<name>Wagenregistrierung: Adelswagen</name>
+			<icon>00051008.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Adelswagens』.\n– Inventarplätze: 20, Beschleunigung: 95 %, Geschwindigkeit: 95 %, Wenden: 95 %, Bremse: 95 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51007</id>
+			<name>Wagenregistrierung: Händlerwagen</name>
+			<icon>00051007.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Händlerwagens 』.\n– Inventarplätze: 18, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51005</id>
+			<name>Wagenregistrierung: Handelswagen</name>
+			<icon>00051005.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Handelswagen 』.\n– Inventarplätze: 16, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51003</id>
+			<name>Wagenregistrierung: Weißer Wagen</name>
+			<icon>00051003.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Weißen Wagens』.\n– Inventarplätze: 12, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>49203</id>
+			<name>Frachtbehälter der Altinova-Fähre</name>
+			<icon>00049203.png</icon>
+			<desc>Ein Frachtbehälter aus Mediah, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, größere Lasten zu transportieren.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +3 %\nGesamte VK +30 (noch nicht verfügbar)\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Ultimativer Krea-Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Talisman der Purpurnen Flamme, Krea-Talisman der Zerstörung, Krea-Talisman der Versuchung, Krea-Talisman</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea-Dolch der Versuchung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Versuchung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea-Dolch der Zerstörung</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Zerstörung, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea-Dolch der Purpurnen Flamme</name>
+			<icon>00010324.png</icon>
+			<desc>Dieser Krea-Dolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Dolch der Purpurnen Flamme, Krea-Dolch</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea-Dolch</name>
+			<icon>00010324.png</icon>
+			<desc>Ein Dolch, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Ultimativer Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Anhänger.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger der Zerstörung, Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Grunil-Rüstung</name>
+			<icon>00010934.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Grunil-Helm</name>
+			<icon>00010933.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Grunil-Handschuhe der Eisenmauer</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Eisenmauer, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Grunil-Rüstung der Eisenmauer</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Eisenmauer, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Grunil-Helm der Eisenmauer</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Eisenmauer, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Grunil-Handschuhe</name>
+			<icon>00010935.png</icon>
+			<desc>Eine Rüstung, die den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10962</id>
+			<name>Ultimative Grunil-Rüstung</name>
+			<icon>00010934.png</icon>
+			<desc>Eine maximal aufgerüstete Grunil-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Eisenmauer, Grunil-Rüstung der Beweglichkeit, Grunil-Rüstung der Einschüchterung, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10961</id>
+			<name>Ultimativer Grunil-Helm</name>
+			<icon>00010933.png</icon>
+			<desc>Ein maximal aufgerüsteter Grunil-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Eisenmauer, Grunil-Helm der Beweglichkeit, Grunil-Helm der Einschüchterung, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Grunil-Handschuhe der Beweglichkeit</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Beweglichkeit, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Grunil-Rüstung der Beweglichkeit</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Beweglichkeit, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Grunil-Helm der Beweglichkeit</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Beweglichkeit, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Grunil-Schuhe der Eisenmauer</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Eisenmauer, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Ultimative Grunil-Schuhe</name>
+			<icon>00010936.png</icon>
+			<desc>Maximal aufgerüstete Grunil-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Eisenmauer, Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe der Einschüchterung, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10963</id>
+			<name>Ultimative Grunil-Handschuhe</name>
+			<icon>00010935.png</icon>
+			<desc>Maximal aufgerüstete Grunil-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Eisenmauer, Grunil-Handschuhe der Beweglichkeit, Grunil-Handschuhe der Einschüchterung, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik-Talisman der Versuchung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik-Talisman der Zerstörung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Zerstörung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik-Talisman der Purpurnen Flamme</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Grunil-Schuhe der Einschüchterung</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Einschüchterung, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Grunil-Handschuhe der Einschüchterung</name>
+			<icon>00010935.png</icon>
+			<desc>Diese Grunil-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Handschuhe der Einschüchterung, Grunil-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Grunil-Rüstung der Einschüchterung</name>
+			<icon>00010934.png</icon>
+			<desc>Diese Grunil-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Rüstung der Einschüchterung, Grunil-Rüstung</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Grunil-Helm der Einschüchterung</name>
+			<icon>00010933.png</icon>
+			<desc>Dieser Grunil-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Helm der Einschüchterung, Grunil-Helm</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Grunil-Schuhe der Beweglichkeit</name>
+			<icon>00010936.png</icon>
+			<desc>Diese Grunil-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Grunil-Schuhe der Beweglichkeit, Grunil-Schuhe</desc>
+		</item>
+		<item>
+			<id>13009</id>
+			<name>Ultimativer Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein maximal aufgerüsteter Weihrauchanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Purpurnen Flamme, Weihrauchanhänger der Zerstörung, Weihrauchanhänger der Versuchung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Weihrauchanhänger der Versuchung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Versuchung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea-Schmuckknoten der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Zerstörung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Purpurnen Flamme, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Schmuckknoten, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Ultimativer Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Purpurnen Flamme, Krea-Schmuckknoten der Zerstörung, Krea-Schmuckknoten der Versuchung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea-Schmuckknoten der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Versuchung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Messingkronleuchter mit vier Kerzen</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>Ein Kronleuchter aus Messing mit 4 Kerzen.</desc>
+		</item>
+		<item>
+			<id>2216</id>
+			<name>Handgemachter Tisch aus Calpheon</name>
+			<icon>InHouse_F_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2210</id>
+			<name>Handgemachter Tisch aus Mediah</name>
+			<icon>InHouse_H_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2208</id>
+			<name>Handgemachter Esstisch aus Mediah</name>
+			<icon>InHouse_H_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Handgemachter Esstisch aus Calpheon</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2010</id>
+			<name>Handgemachter Nachttisch aus Mediah</name>
+			<icon>InHouse_H_DFF_Chest_01.png</icon>
+			<desc>Ein handgemachter Nachttisch aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2008</id>
+			<name>Handgemachte Kommode aus Mediah</name>
+			<icon>InHouse_H_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Handgemachte Kommode aus Calpheon</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2108</id>
+			<name>Handgemachter Wandschrank aus Mediah</name>
+			<icon>InHouse_H_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Handgemachter Kleiderschrank aus Calpheon</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2316</id>
+			<name>Handgemachtes Kanapee aus Mediah</name>
+			<icon>InHouse_H_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2315</id>
+			<name>Handgemachter Stuhl aus Mediah</name>
+			<icon>InHouse_H_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2313</id>
+			<name>Handgemachtes Kanapee aus Calpheon</name>
+			<icon>InHouse_F_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2311</id>
+			<name>Handgemachtes Kanapee aus Velia</name>
+			<icon>InHouse_D_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2309</id>
+			<name>Handgemachtes Kanapee aus Heidel</name>
+			<icon>InHouse_B_DFF_Sofa_01.png</icon>
+			<desc>Ein handgemachtes Kanapee aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Handgemachter Stuhl aus Calpheon</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Handgemachter Schrank aus Calpheon</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>Ein handgemachter Nachttisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2708</id>
+			<name>Handgemachtes Bett aus Mediah</name>
+			<icon>InHouse_H_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2706</id>
+			<name>Handgemachtes Bett aus Calpheon</name>
+			<icon>InHouse_F_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Waffen-Verbesserungsstein (Stufe 2)</name>
+			<icon>00004908.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>49004</id>
+			<name>Schiffslizenz: Mediah-Fähre</name>
+			<icon>00049004.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Mediah-Fähre』.\n– Inventarplätze: 8, Beschleunigung: 100 %, Geschwindigkeit: 110 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

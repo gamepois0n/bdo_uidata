@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6165</itemKey>
+	<itemName>Feine leichte Feder</itemName>
+	<itemIcon>00006165.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Leichten Federn gewonnen werden. Dies erfordert die Kenntnis Sieben.</itemDesc>
+	<shop>
+		<character>
+			<name>Lavientia Batian</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6017</id>
+			<name>Weiche Kukuvogelfeder</name>
+			<icon>00006017.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Kukuvogelkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6157</id>
+			<name>Leichte Feder</name>
+			<icon>00006157.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Sieben von Kukuvogelfedern gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>52502</id>
+			<name>Leichter rotgefiederter Rosskopf</name>
+			<icon>00052502.png</icon>
+			<desc>Ein Pferdehelm mit roten Federn. Widerstandsfähig und leicht.\n\n– Ausrüstung für Pferde\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>6173</id>
+			<name>Exzellente leichte Feder</name>
+			<icon>00006173.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinen leichten Federn mit durch Alchemie gewonnene Lederversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

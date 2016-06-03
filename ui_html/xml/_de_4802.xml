@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4802</itemKey>
+	<itemName>Flammenpulver</itemName>
+	<itemIcon>00004802.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Kupfer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zinn</name>
+		</character>
+	</collect>
+	<node region="Koboldhöhle – Bergbau"/>
+	<node region="Koboldhöhle – Bergbau"/>
+	<node region="Küstenhöhle – Bergbau"/>
+	<node region="Wald der Abgeschiedenheit – Bergbau"/>
+	<node region="Steinbruch von Nordheidel – Bergbau"/>
+	<node region="Küste von Mediah – Bergbau"/>
+	<makelist>
+		<item>
+			<id>10304</id>
+			<name>Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein scharfer Dolch aus Stahl.</desc>
+		</item>
+		<item>
+			<id>10313</id>
+			<name>Ultimativer Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein maximal aufgerüsteter Stahldolch.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch der Zerstörung, Stahldolch der Versuchung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Stahldolch der Versuchung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Versuchung\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Versuchung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Stahldolch der Zerstörung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Zerstörung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Stahldolch der Purpurnen Flamme</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10713</id>
+			<name>Ultimativer Oros-Schmuckknoten</name>
+			<icon>00010704.png</icon>
+			<desc>Ein maximal aufgerüsteter Oros-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Purpurnen Flamme, Oros-Schmuckknoten der Zerstörung, Oros-Schmuckknoten der Versuchung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10712</id>
+			<name>Oros-Schmuckknoten der Versuchung</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Versuchung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>13004</id>
+			<name>Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Nadeln.</desc>
+		</item>
+		<item>
+			<id>10504</id>
+			<name>Jubre-Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>Ein Talisman, auf dem in einer fremden Ursprache etwas geschrieben steht.</desc>
+		</item>
+		<item>
+			<id>10511</id>
+			<name>Jubre-Talisman der Zerstörung</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Zerstörung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>10510</id>
+			<name>Jubre-Talisman der Purpurnen Flamme</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Purpurnen Flamme, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>14026</id>
+			<name>Silberbestickte Handwerkerkleidung</name>
+			<icon>00014004.png</icon>
+			<desc>Edle Kleidung für Handwerker.</desc>
+		</item>
+		<item>
+			<id>10513</id>
+			<name>Ultimativer Jubre-Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>Ein maximal aufgerüsteter Jubre-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Purpurnen Flamme, Jubre-Talisman der Zerstörung, Jubre-Talisman der Versuchung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>10512</id>
+			<name>Jubre-Talisman der Versuchung</name>
+			<icon>00010504.png</icon>
+			<desc>Dieser Jubre-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Jubre-Talisman der Versuchung, Jubre-Talisman</desc>
+		</item>
+		<item>
+			<id>13012</id>
+			<name>Nadelanhänger der Versuchung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Versuchung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Nadelanhänger der Zerstörung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Zerstörung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Nadelanhänger der Purpurnen Flamme</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Purpurnen Flamme, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13013</id>
+			<name>Ultimativer Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein maximal aufgerüsteter Nadelanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Purpurnen Flamme, Nadelanhänger der Zerstörung, Nadelanhänger der Versuchung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein stahlüberzogener Schild, der für gewöhnlich zum Angriff genutzt wird.</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion-Schild der Zerstörung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Zerstörung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion-Schild der Purpurnen Flamme</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Purpurnen Flamme, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10113</id>
+			<name>Ultimativer Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein maximal aufgerüsteter Axion-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Purpurnen Flamme, Axion-Schild der Zerstörung, Axion-Schild der Versuchung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion-Schild der Versuchung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Versuchung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10704</id>
+			<name>Oros-Schmuckknoten</name>
+			<icon>00010704.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Silber.</desc>
+		</item>
+		<item>
+			<id>10711</id>
+			<name>Oros-Schmuckknoten der Zerstörung</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Zerstörung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10710</id>
+			<name>Oros-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Purpurnen Flamme, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>24212</id>
+			<name>Kaiserlicher Platinkessel</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>Ein kaiserlicher Platinkessel.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Goldklauenvase</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>Eine goldene handgemachte Vase.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Wunderschöne Opalvase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Eine wunderschöne Opalvase.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

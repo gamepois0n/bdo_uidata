@@ -1,0 +1,122 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Login" Pos="0 0" Size="1280 720" Pan="0 0" Color="  ffffff" EnableArea="0 0 1280 720">
+		<Control Type="Static" Name="Static_Back_1" Pos="0 0" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_2" Pos="150 743" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_3" Pos="227 738" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_03.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_4" Pos="307 734" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_04.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_5" Pos="384 735" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_05.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_6" Pos="465 739" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_06.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_7" Pos="538 741" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_07.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_8" Pos="619 736" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_08.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_9" Pos="636 779" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_09.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_10" Pos="727 789" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_10.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_11" Pos="805 742" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_11.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_12" Pos="873 751" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_12.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_13" Pos="529 785" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_13.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_14" Pos="588 812" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_14.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_15" Pos="661 820" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_15.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_16" Pos="742 817" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_16.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_17" Pos="742 817" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_17.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Back_18" Pos="742 817" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1920 0 0 1200 1920 1200" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_screen_18.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_EventBG" Pos="Center 150" Size="700 450" Pan="0 0" Color="ffffffff" EnableArea="0 0 700 450" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 700 0 0 450 700 450" Ani="1 1 0.000 0">New_UI_Common_forLua/Window/Lobby/ChrismasBackground.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BI" Pos="Center 150" Size="700 450" Pan="0 205" Color="ffffffff" EnableArea="0 0 700 450" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 700 0 0 450 700 450" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_bi_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_LoginBG" Pos="Center Center" Size="350 125" Pan="0 103" Color="ffffffff" EnableArea="0 0 350 125" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 115 125" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ButtonBG" Pos="Center Center" Size="350 150" Pan="0 250" Color="ffffffff" EnableArea="0 0 350 150" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 140 150" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Login" Pos="Center Center" Size="169 35" Pan="0 200" Color="ffffffff" EnableArea="0 0 169 35" Grid="1" GridPosX="0 6 163 169" GridPosY="0 6 29 35" GridUVX="0 6 148 154" GridUVY="0 6 26 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 8">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="시 작" formatString="LOGIN_BTN_START" Font="SubTitleFont_14" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_ID" Pos="Center Center" Size="289 32" Pan="0 100" Color="ffffffff" EnableArea="0 0 289 32" Grid="1" GridPosX="0 5 284 289" GridPosY="0 5 27 32" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="SaveText"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_PW" Pos="Center Center" Size="289 32" Pan="0 142" Color="ffffffff" EnableArea="0 0 289 32" Grid="1" GridPosX="0 5 284 289" GridPosY="0 5 27 32" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ff000000" OverColor="ff000000" ClickColor="ff000000" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="SaveText"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_InputTxt" Pos="Center Center" Size="50 20" Pan="0 60" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="계정을 입력하세요" formatString="LOBBY_LOGIN_LOGINGUIDE" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Exit" Pos="Center Center" Size="169 35" Pan="0 250" Color="ffffffff" EnableArea="0 0 169 35" Grid="1" GridPosX="0 6 163 169" GridPosY="0 6 29 35" GridUVX="0 6 148 154" GridUVY="0 6 26 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="종 료" formatString="LOGIN_BTN_END" Font="SubTitleFont_14" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_GameOption_Login" Pos="Center Center" Size="169 35" Pan="0 300" Color="ffffffff" EnableArea="0 0 169 35" Grid="1" GridPosX="0 6 163 169" GridPosY="0 6 29 35" GridUVX="0 6 148 154" GridUVY="0 6 26 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="게임 설정" formatString="UI_LOGIN_GAMEOPTION_BTN" Font="SubTitleFont_14" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Blackline_up" Pos="Left Top" Size="1280 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 60" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_black.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Blackline_down" Pos="Left Bottom" Size="1280 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 60" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_black.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CI" Pos="Left Bottom" Size="200 36" Pan="30 12" Color="ffffffff" EnableArea="0 0 200 36" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 200 0 0 36 200 36" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_ci.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_DaumCI" Pos="Left Bottom" Size="72 36" Pan="250 10" Color="ffffffff" EnableArea="0 0 72 36" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 72 0 0 36 72 36" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/login_ci_daum.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_BlackStone" Pos="Center Bottom" Size="200 200" Pan="0 150" Color="ffffffff" EnableArea="0 0 200 200" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4254</itemKey>
+	<itemName>Geschmolzener Goldsplitter</itemName>
+	<itemIcon>00004254.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Golderz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Gold</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4202</id>
+			<name>Golderz</name>
+			<icon>00004202.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Golderz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus goldhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4902</id>
+			<name>Schwemmgold</name>
+			<icon>00004902.png</icon>
+			<desc>Ein seltener Bestandteil, der aus Flusswasser gefiltert und dann erhitzt werden kann, um Gold zu erzeugen.\n– Gewinnung: Kann gewonnen werden durch Sieben des Inhalts einer Flasche mit Flusswasser.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11722</id>
+			<name>Glänzende Diamanthalskette</name>
+			<icon>00011722.png</icon>
+			<desc>Eine mit einem Funkelnden Diamanten verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11707</id>
+			<name>Glänzende Saphirhalskette</name>
+			<icon>00011707.png</icon>
+			<desc>Eine mit einem Funkelnden Saphir verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Goldklauenvase</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>Eine goldene handgemachte Vase.</desc>
+		</item>
+		<item>
+			<id>4255</id>
+			<name>Goldbarren</name>
+			<icon>00004255.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Golderz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

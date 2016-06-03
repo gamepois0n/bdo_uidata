@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6651</itemKey>
+	<itemName>Distilled Water</itemName>
+	<itemIcon>00006651.png</itemIcon>
+	<itemDesc>Clear water that’s been distilled.\n- How to Obtain: Distilled Water can be obtained by Heating a Bottle of River Water.\n\n※ Pouring Distilled Water on a Garden will greatly increase the available Water Deposit.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6653</id>
+			<name>Bottle of River Water</name>
+			<icon>00006653.png</icon>
+			<desc>Water Gathered from a river using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: River Water can be obtained by using an Empty Bottle at a river.\n\n※ Pouring a Bottle of River Water on a Garden will increase the available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6654</id>
+			<name>Bottle of Turbid Water</name>
+			<icon>00006654.png</icon>
+			<desc>Water Gathered from a murky water source using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Turbid Water can be obtained by using an Empty Bottle at a murky water source.\n\n※ Pouring a Bottle of Turbid Water on a Garden will slightly increase the available Water Deposit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6655</id>
+			<name>Bottle of Clean Water</name>
+			<icon>00006655.png</icon>
+			<desc>Water Gathered from a clear water source. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: Clean Water can be obtained by using an Empty Bottle at a clear water source.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16903</id>
+			<name>Organic Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

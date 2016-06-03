@@ -1,0 +1,36 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Levelup_Reward" Pos="Center Top" Size="200 200" Pan="0 230" Color="ffffffff" EnableArea="0 0 200 200">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Control Type="StaticText" Name="StaticText_LeveupTitle" Pos="Center Top" Size="250 50" Pan="0 -20" Color="ffffffff" EnableArea="0 0 250 50">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="131 131 255 131 131 255 255 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+			<Text Value="LEVEL UP" formatString="PANEL_LEVELUP_REWARD_LEVELUP_TITLE" Font="TitleFont_18" Color="ffe5d6a7" OverColor="ffe5d6a7" ClickColor="ffe5d6a7" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_StaminaupTitle" Pos="Center Top" Size="250 50" Pan="0 -20" Color="ffffffff" EnableArea="0 0 250 50">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="131 131 255 131 131 255 255 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+			<Text Value="Áö±¸·Â »ó½Â" Font="TitleFont_18" Color="ffe5d6a7" OverColor="ffe5d6a7" ClickColor="ffe5d6a7" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_StrengthupTitle" Pos="Center Top" Size="250 50" Pan="0 -20" Color="ffffffff" EnableArea="0 0 250 50">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="131 131 255 131 131 255 255 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+			<Text Value="Èû »ó½Â" Font="TitleFont_18" Color="ffe5d6a7" OverColor="ffe5d6a7" ClickColor="ffe5d6a7" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HealthupTitle" Pos="Center Top" Size="250 50" Pan="0 -20" Color="ffffffff" EnableArea="0 0 250 50">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="131 131 255 131 131 255 255 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+			<Text Value="°Ç°­ »ó½Â" Font="TitleFont_18" Color="ffe5d6a7" OverColor="ffe5d6a7" ClickColor="ffe5d6a7" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Status_sample" Pos="Center Top" Size="200 20" Pan="0 35" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="°ø°Ý·Â Áõ°¡ + 50" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

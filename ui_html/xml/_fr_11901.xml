@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11901</itemKey>
+	<itemName>Boucles d&apos;oreille en rubis</itemName>
+	<itemIcon>00011901.png</itemIcon>
+	<itemDesc>Une boucle d&apos;oreille décorée d&apos;un rubis.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4001</id>
+			<name>Minerai de fer</name>
+			<icon>00004001.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la grotte côtière, falaise côtière, carrière nord d&apos;Heidel, Cienaga sud, mur de pierre d&apos;Hexe et la mine de fer abandonnée. S&apos;obtient à partir de minerai contenant du fer.</desc>
+		</item>
+		<item>
+			<id>4401</id>
+			<name>Rubis brut</name>
+			<icon>00004401.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un rubis brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11902</id>
+			<name>Boucles d&apos;oreille en rubis resplendissantes</name>
+			<icon>00011902.png</icon>
+			<desc>Une boucle d&apos;oreille décorée d&apos;un rubis brillant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

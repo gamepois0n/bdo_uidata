@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8632</itemKey>
+	<itemName>Getrocknete Seezunge</itemName>
+	<itemIcon>00008599.png</itemIcon>
+	<itemDesc>Eine Getrocknete Seezunge, die durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8332</id>
+			<name>Seezunge</name>
+			<icon>00008332.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

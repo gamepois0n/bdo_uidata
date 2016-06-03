@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6152</itemKey>
+	<itemName>Tough Hide</itemName>
+	<itemIcon>00006152.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide.</itemDesc>
+	<collect>
+		<character>
+			<name>Baby Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Baby Stone Rhino</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Farm Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gray Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Long-haired Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Red Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rock Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Small Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Small Stone Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steel Rhino</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Rhino</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Tail Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Troll Cow</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Red Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Troll Ox</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6004</id>
+			<name>Rhino Hide</name>
+			<icon>00006004.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted rhino corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6005</id>
+			<name>Pig Hide</name>
+			<icon>00006005.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted pig corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6006</id>
+			<name>Ox Hide</name>
+			<icon>00006006.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted cow corpse.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16122</id>
+			<name>Sharp Tanning Knife</name>
+			<icon>00016122.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16118</id>
+			<name>Sharp Butcher Knife</name>
+			<icon>00016118.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>51002</id>
+			<name>Wagon Registration: Strong Wagon</name>
+			<icon>00051002.png</icon>
+			<desc>Proof of ownership of a &lt;Strong Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 10, Acceleration: 110%, Speed: 110%, Turn: 120%, Braking: 120%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Fine Tough Hide</name>
+			<icon>00006160.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>16822</id>
+			<name>Lucky Sharp Tanning Knife</name>
+			<icon>00016822.png</icon>
+			<desc>A Gathering Tool used to collect hide from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+		<item>
+			<id>16818</id>
+			<name>Lucky Sharp Butcher Knife</name>
+			<icon>00016818.png</icon>
+			<desc>A Gathering Tool used to collect meat from dead animals. It increases Luck when Gathering.\n- Gathering Time: - 4 sec \n- Cannot be Repaired</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

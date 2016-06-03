@@ -1,0 +1,19 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Copy_NaviPath" Pos="-1000 -1000" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 100">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="130 56 141 56 130 67 141 67" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Meter" Pos="179 -34" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="250.0m" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_NaviBtn" Pos="370 24" Size="18 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 18 18" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="292 328 310 328 292 346 310 346" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="On" UV="292 347 310 347 292 365 310 365" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Texture Type="Click" UV="292 366 310 366 292 384 310 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5005</itemKey>
+	<itemName>Nœud d&apos;arbre ensanglanté</itemName>
+	<itemIcon>00005005.png</itemIcon>
+	<itemDesc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer un nœud d&apos;arbre ensanglanté demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bouleau</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre blanc</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Frêne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sapin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Érable</name>
+		</character>
+	</collect>
+	<node region="Forêt des tréants : débit de bois"/>
+	<node region="Sanctuaire d'Elric : débit de bois"/>
+	<node region="Désert de Queue-de-Pierre : débit de bois"/>
+	<makelist>
+		<item>
+			<id>4907</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 1</name>
+			<icon>00004907.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

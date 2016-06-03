@@ -1,0 +1,86 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Looting" Pos="Right Bottom" Size="210 240" Pan="184 290" Color="ffffffff" EnableArea="3 3 205 237" Grid="1" GridPosX="0 5 205 210" GridPosY="0 5 235 240" GridUVX="0 5 178 183" GridUVY="0 5 217 222" ShowSound="1 0" HideSound="6 2">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Attribute Type="Drag" Area="3 3 205 30"/>
+		<Control Type="Static" Name="Static_Texture_Slot_Background" Pos="12 44" Size="47 47" Pan="0 0" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="190 25" Pan="0 4" Color="ffffffff" EnableArea="0 0 190 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이템 목록" formatString="LOOTING_TEXT_TITLE" Font="BaseFont_10" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_LootAll" Pos="Left Bottom" Size="90 20" Pan="10 3" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 4 15 20" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="2.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="모두 얻기(R)" formatString="PANEL_LOOTING_BTN_GETALL" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="Right Bottom" Size="90 20" Pan="10 3" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 15 20" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="LOOTING_BTN_CANCEL" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Money" Pos="7 39" Size="195 150" Pan="0 0" Color="ffffffff" EnableArea="0 0 195 150" Grid="1" GridPosX="0 12 178 195" GridPosY="0 13 131 150" GridUVX="0 12 239 256" GridUVY="0 13 237 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_0_0" Pos="15 47" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_0_1" Pos="62 47" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_0_2" Pos="109 47" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_0_3" Pos="156 47" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_1_0" Pos="15 94" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_1_1" Pos="62 94" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_1_2" Pos="109 94" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_1_3" Pos="156 94" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_2_0" Pos="15 141" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_2_1" Pos="62 141" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_2_2" Pos="109 141" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_2_3" Pos="156 141" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="1.000000">
+			<Texture Type="Base" UV="1 176 51 176 1 226 51 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_Effect" Pos="-46 39" Size="46 46" Pan="0 0" Color="ffffffff" EnableArea="0 0 46 46" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="197 209 239 209 197 251 239 251" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Help_Key_R" Pos="-27 Bottom" Size="22 19" Pan="0 17" Color="ffffffff" EnableArea="0 0 22 19" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_PartLine" Pos="Center Top" Size="210 6" Pan="0 29" Color="ffffffff" EnableArea="0 0 210 6" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_LootAllToServant" Pos="Left Bottom" Size="90 20" Pan="11 26" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 4 15 20" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="일괄 습득 (탈것)" formatString="PANEL_LOOTING_BTN_ALLTOSERVANT" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,94 @@
+<UI>
+	<Control Type="Panel" Name="Panel_BattleGauge" Pos="50 50" Size="273 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 273 20">
+		<Control Type="Static" Name="Static_GaugeBG" Pos="Center Center" Size="283 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 283 30" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="21 113 304 113 21 143 304 143" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_EnemyGauge" Pos="0 0" Size="273 20" Pan="0 0" Color="ff75aaeb" EnableArea="0 0 273 20" Grid="1" GridPosX="0 5 268 273" GridPosY="0 5 15 20" GridUVX="0 5 10 15" GridUVY="0 5 10 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 97 16 97 1 112 16 112" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Attribute Type="Reverse"/>
+			<Control Type="Static" Name="Progress2_EnemyBar_Head" Pos="266 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="444 78 459 78 444 101 459 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_MyGauge" Pos="0 0" Size="273 20" Pan="0 0" Color="fff65f5f" EnableArea="0 0 273 20" Grid="1" GridPosX="0 5 268 273" GridPosY="0 5 15 20" GridUVX="0 5 10 15" GridUVY="0 5 10 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="17 97 32 97 17 112 32 112" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffaaaa" EndColor="fff65f5f" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_myGaugeEff" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="5" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress2_MyBar_Head" Pos="-13 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="444 78 459 78 444 101 459 101" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="Static_SpaceBar" Pos="Center Center" Size="103 31" Pan="0 35" Color="ffffffff" EnableArea="0 0 103 31">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="52 461 155 461 52 492 155 492" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<Text Value="Space Bar" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SpaceBar_Eff" Pos="Center Center" Size="103 31" Pan="0 35" Color="ffffffff" EnableArea="0 0 103 31">
+			<Texture Type="Base" UV="52 429 155 429 52 460 155 460" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_SpaceEff" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_MiddleLine" Pos="Center Center" Size="17 66" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 66" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="442 102 459 102 442 133 459 133" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.50" ChangeChild="True" ColorOperator="0" ID="Ani_Color_MidLine" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TitleText" Pos="Center Top" Size="300 20" Pan="0 -37" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="스페이스 바를 연타하여 조련에 성공하세요!" formatString="MINIGAME_BATTLEGAUGE_TXT_PURPOSE" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RemainTimeText" Pos="Center Center" Size="120 20" Pan="0 60" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 시간 :" formatString="PANEL_BATTLEGAUGE_REMAINTIME" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Timer" Pos="Center Center" Size="50 20" Pan="25 60" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="10초" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Result_Win" Pos="0 23" Size="73 27" Pan="0 0" Color="ffffffff" EnableArea="0 0 73 27" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="296 246 369 246 296 273 369 273" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="eeffffff" StartIntensity="1.00" EndIntensity="1.50" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Win" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Result_Lose" Pos="0 23" Size="73 27" Pan="0 0" Color="ffffffff" EnableArea="0 0 73 27" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="296 274 369 274 296 301 369 301" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ddffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Lose" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Gong" Pos="202 30" Size="10 10" Pan="0 25" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="427 38 437 38 427 48 437 48" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Space" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="15" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Human" Pos="Left Center" Size="21 21" Pan="-35 0" Color="ffffffff" EnableArea="0 0 21 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="23 48 43 48 23 68 43 68" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="1.15" BasePosition="10 10" ScaleChild="False" ID="Ani_Scale_Winner" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Horse" Pos="Right Center" Size="21 24" Pan="-32 0" Color="ffffffff" EnableArea="0 0 21 24">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="23 69 43 69 23 92 43 92" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="0" StartScale="1.00" EndScale="1.15" BasePosition="10 10" ScaleChild="False" ID="Ani_Scale_Winner" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+	</Control>
+</UI>
+

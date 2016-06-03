@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4801</itemKey>
+	<itemName>Powder of Darkness</itemName>
+	<itemIcon>00004801.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</itemDesc>
+	<collect>
+		<character>
+			<name>Iron</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lead</name>
+		</character>
+	</collect>
+	<node region="Coastal Cave - Mining"/>
+	<node region="Coastal Cliff - Mining"/>
+	<node region="Northern Heidel Quarry - Mining"/>
+	<node region="Hexe Stone Wall - Mining"/>
+	<node region="Abandoned Iron Mine - Mining"/>
+	<makelist>
+		<item>
+			<id>10303</id>
+			<name>Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A dagger cast in bronze.</desc>
+		</item>
+		<item>
+			<id>10308</id>
+			<name>Bronze Dagger of Temptation</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Temptation is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Temptation, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Bronze Dagger of Destruction</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Destruction is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Destruction, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Bronze Dagger of Crimson Flame</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Crimson Flame, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10309</id>
+			<name>Ultimate Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A Bronze Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Bronze Dagger of Crimson Flame, Bronze Dagger of Destruction, Bronze Dagger of Temptation, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>13009</id>
+			<name>Ultimate Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>An Incense Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Incense Trinket of Crimson Flame, Incense Trinket of Destruction, Incense Trinket of Temptation, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Incense Trinket of Temptation</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Temptation is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Temptation, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>14025</id>
+			<name>Silver Embroidered Alchemist&apos;s Clothes</name>
+			<icon>00014001.png</icon>
+			<desc>A noble outfit made for Alchemists.</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Incense Trinket of Destruction</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Destruction is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Destruction, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Incense Trinket of Crimson Flame</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Crimson Flame, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>A trinket with a pouch full of incense.</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Vangertz Shield of Destruction</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Destruction is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Destruction, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz Shield of Crimson Flame</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Crimson Flame, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A round shield made of strong iron.</desc>
+		</item>
+		<item>
+			<id>10109</id>
+			<name>Ultimate Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A Vangertz Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Vangertz Shield of Crimson Flame, Vangertz Shield of Destruction, Vangertz Shield of Temptation, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz Shield of Temptation</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Temptation is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Temptation, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick Talisman of Temptation</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Temptation is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Temptation, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick Talisman of Destruction</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Destruction is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Destruction, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick Talisman of Crimson Flame</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Crimson Flame, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A talisman with a magical gemstone embedded in it.</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Ultimate Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A Helrick Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Helrick Talisman of Crimson Flame, Helrick Talisman of Destruction, Helrick Talisman of Temptation, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea Ornamental Knot of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Destruction, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea Ornamental Knot of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Crimson Flame, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>An ornamental knot crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Ultimate Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>Krea Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Crimson Flame, Krea Ornamental Knot of Destruction, Krea Ornamental Knot of Temptation, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea Ornamental Knot of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Temptation, Krea Ornamental Knot</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

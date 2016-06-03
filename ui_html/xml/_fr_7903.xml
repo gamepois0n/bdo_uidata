@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7903</itemKey>
+	<itemName>Viande de renard</itemName>
+	<itemIcon>00007903.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un renard mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Renard</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Renard arc-en-ciel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Renard gris</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7918</id>
+			<name>Viande séchée odorante</name>
+			<icon>00007918.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

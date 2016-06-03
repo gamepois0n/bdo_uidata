@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4253</itemKey>
+	<itemName>Pure Silver Crystal</itemName>
+	<itemIcon>00004253.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Silver Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4076</id>
+			<name>Metal Solvent</name>
+			<icon>00004076.png</icon>
+			<desc>A material used to change metals into a pure crystal form through Processing.\n\n- How to Obtain: It can be obtained through Alchemy.</desc>
+		</item>
+		<item>
+			<id>4252</id>
+			<name>Silver Ingot</name>
+			<icon>00004252.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Silver Ore. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10056</id>
+			<name>Krea Longsword</name>
+			<icon>00010056.png</icon>
+			<desc>A longsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10124</id>
+			<name>Krea Shield</name>
+			<icon>00010124.png</icon>
+			<desc>A shield crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10256</id>
+			<name>Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A longbow crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10324</id>
+			<name>Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A dagger crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10456</id>
+			<name>Krea Amulet</name>
+			<icon>00010456.png</icon>
+			<desc>An amulet crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10524</id>
+			<name>Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A talisman crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10656</id>
+			<name>Krea Axe</name>
+			<icon>00010656.png</icon>
+			<desc>An axe crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10724</id>
+			<name>Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>An ornamental knot crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13256</id>
+			<name>Krea Shortsword</name>
+			<icon>00013256.png</icon>
+			<desc>A Shortsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14456</id>
+			<name>Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A staff crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14456</id>
+			<name>Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A staff crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimate Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A Krea staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Krea staff.\n\n- Restore Max Durability: Krea Staff of Crimson Flame, Krea Staff of Destruction, Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea Staff of Temptation</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea Staff of Destruction</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Destruction, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea Staff of Crimson Flame</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Crimson Flame, Krea Staff</desc>
+		</item>
+		<item>
+			<id>12115</id>
+			<name>Topaz Ring of Regeneration</name>
+			<icon>00012115.png</icon>
+			<desc>A ring decorated with a Topaz of Regeneration.</desc>
+		</item>
+		<item>
+			<id>11720</id>
+			<name>Emerald Necklace of Tranquility</name>
+			<icon>00011720.png</icon>
+			<desc>A necklace decorated with an Emerald of Tranquility.</desc>
+		</item>
+		<item>
+			<id>11705</id>
+			<name>Corrupt Ruby Necklace</name>
+			<icon>00011705.png</icon>
+			<desc>A necklace decorated with a Corrupt Ruby.</desc>
+		</item>
+		<item>
+			<id>11905</id>
+			<name>Corrupt Ruby Earrings</name>
+			<icon>00011905.png</icon>
+			<desc>An earring decorated with a Corrupt Ruby.</desc>
+		</item>
+		<item>
+			<id>10460</id>
+			<name>Krea Amulet of Temptation</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Temptation, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10459</id>
+			<name>Krea Amulet of Destruction</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Destruction, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10458</id>
+			<name>Krea Amulet of Crimson Flame</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Crimson Flame, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10456</id>
+			<name>Krea Amulet</name>
+			<icon>00010456.png</icon>
+			<desc>An amulet crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13256</id>
+			<name>Krea Shortsword</name>
+			<icon>00013256.png</icon>
+			<desc>A Shortsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13263</id>
+			<name>Ultimate Krea Shortsword</name>
+			<icon>00013256.png</icon>
+			<desc>A Krea Shortsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Crimson Flame, Krea Shortsword of Destruction, Krea Shortsword of Temptation, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13260</id>
+			<name>Krea Shortsword of Temptation</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Temptation, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13259</id>
+			<name>Krea Shortsword of Destruction</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Destruction, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13258</id>
+			<name>Krea Shortsword of Crimson Flame</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Crimson Flame, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea Dagger of Temptation</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Temptation, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea Dagger of Destruction</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Destruction, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea Dagger of Crimson Flame</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Crimson Flame, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A dagger crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10331</id>
+			<name>Ultimate Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A Krea Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Dagger of Crimson Flame, Krea Dagger of Destruction, Krea Dagger of Temptation, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10463</id>
+			<name>Ultimate Krea Amulet</name>
+			<icon>00010456.png</icon>
+			<desc>A Krea Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Crimson Flame, Krea Amulet of Destruction, Krea Amulet of Temptation, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Krea Trinket of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Temptation, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea Trinket of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Destruction, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea Trinket of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Crimson Flame, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Ultimate Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A Krea Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Trinket of Crimson Flame, Krea Trinket of Destruction, Krea Trinket of Temptation, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>10058</id>
+			<name>Krea Longsword of Crimson Flame</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Crimson Flame, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10056</id>
+			<name>Krea Longsword</name>
+			<icon>00010056.png</icon>
+			<desc>A longsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10063</id>
+			<name>Ultimate Krea Longsword</name>
+			<icon>00010056.png</icon>
+			<desc>A Krea Longsword developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Crimson Flame, Krea Longsword of Destruction, Krea Longsword of Temptation, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10060</id>
+			<name>Krea Longsword of Temptation</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Temptation, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10059</id>
+			<name>Krea Longsword of Destruction</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Destruction, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10128</id>
+			<name>Krea Shield of Temptation</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Temptation, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10131</id>
+			<name>Ultimate Krea Shield</name>
+			<icon>00010124.png</icon>
+			<desc>A Krea Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Shield of Crimson Flame, Krea Shield of Destruction, Krea Shield of Temptation, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea Shield of Destruction</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Destruction, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea Shield of Crimson Flame</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Crimson Flame, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea Shield</name>
+			<icon>00010124.png</icon>
+			<desc>A shield crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea Talisman of Destruction</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Destruction, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea Talisman of Crimson Flame</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Crimson Flame, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A talisman crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea Talisman of Temptation</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Temptation, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10531</id>
+			<name>Ultimate Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A Krea Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Talisman of Crimson Flame, Krea Talisman of Destruction, Krea Talisman of Temptation, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10659</id>
+			<name>Krea Axe of Destruction</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Destruction, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10658</id>
+			<name>Krea Axe of Crimson Flame</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Crimson Flame, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10656</id>
+			<name>Krea Axe</name>
+			<icon>00010656.png</icon>
+			<desc>An axe crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10663</id>
+			<name>Ultimate Krea Axe</name>
+			<icon>00010656.png</icon>
+			<desc>A Krea Axe developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Crimson Flame, Krea Axe of Destruction, Krea Axe of Temptation, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10660</id>
+			<name>Krea Axe of Temptation</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Temptation, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea Ornamental Knot of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Destruction, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea Ornamental Knot of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Crimson Flame, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>An ornamental knot crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Krea Longbow of Crimson Flame</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Crimson Flame, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A longbow crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Ultimate Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>Krea Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Crimson Flame, Krea Ornamental Knot of Destruction, Krea Ornamental Knot of Temptation, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea Ornamental Knot of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Temptation, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10263</id>
+			<name>Ultimate Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A Krea Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Crimson Flame, Krea Longbow of Destruction, Krea Longbow of Temptation, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Krea Longbow of Temptation</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Temptation, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Krea Longbow of Destruction</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Destruction, Krea Longbow</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

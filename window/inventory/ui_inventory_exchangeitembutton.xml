@@ -1,0 +1,20 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Invertory_ExchangeButton" Pos="1200 382" Size="162 74" Pan="0 0" Color="ffffffff" EnableArea="0 0 162 74" Grid="1" GridPosX="0 5 157 162" GridPosY="0 5 69 74" GridUVX="0 5 178 183" GridUVY="0 5 217 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="Button" Name="Button_WayPoint" Pos="4 4" Size="154 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 232 155 232 1 264 155 264" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="On" UV="156 232 310 232 156 264 310 264" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="Click" UV="311 232 465 232 311 264 465 264" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Text Value="NPC 위치 확인" formatString="PANEL_INVENTORY_EXCHANGE_WAYPOINT_BTN" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="45 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Widget" Pos="4 38" Size="154 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 265 155 265 1 297 155 297" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="On" UV="156 265 310 265 156 297 310 297" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Texture Type="Click" UV="311 265 465 265 311 297 465 297" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_05.dds</Texture>
+			<Text Value="수집 개수 확인" formatString="PANEL_INVENTORY_EXCHANGE_WIDGET_BTN" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="46 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

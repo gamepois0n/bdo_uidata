@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4259</itemKey>
+	<itemName>Reiner Platinkristall</itemName>
+	<itemIcon>00004259.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Platinbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4076</id>
+			<name>Metall-Lösungsmittel</name>
+			<icon>00004076.png</icon>
+			<desc>Ein Material, das für eine Verarbeitungsmethode genutzt wird, bei der Metalle in Kristalle verwandelt werden.\n\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4258</id>
+			<name>Platinbarren</name>
+			<icon>00004258.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10013</id>
+			<name>Baris-Langschwert</name>
+			<icon>00010013.png</icon>
+			<desc>Ein Langschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10213</id>
+			<name>Baris-Langbogen</name>
+			<icon>00010213.png</icon>
+			<desc>Ein Langbogen, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10413</id>
+			<name>Baris-Fokusreif</name>
+			<icon>00010413.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10613</id>
+			<name>Baris-Axt</name>
+			<icon>00010613.png</icon>
+			<desc>Eine Axt, die von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13213</id>
+			<name>Baris-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14413</id>
+			<name>Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein Stab, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10413</id>
+			<name>Baris-Fokusreif</name>
+			<icon>00010413.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10439</id>
+			<name>Ultimativer Baris-Fokusreif</name>
+			<icon>00010413.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Purpurnen Flamme, Baris-Fokusreif der Zerstörung, Baris-Fokusreif der Versuchung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10438</id>
+			<name>Baris-Fokusreif der Versuchung</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Versuchung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10437</id>
+			<name>Baris-Fokusreif der Zerstörung</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Zerstörung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10436</id>
+			<name>Baris-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Purpurnen Flamme, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>14439</id>
+			<name>Ultimativer Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab der Zerstörung, Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Baris-Stab der Versuchung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>13239</id>
+			<name>Ultimatives Baris-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein maximal aufgerüstetes Baris-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Kurzschwert der Purpurnen Flamme, Baris-Kurzschwert der Zerstörung, Baris-Kurzschwert der Versuchung, Baris-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13238</id>
+			<name>Baris-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Baris-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Kurzschwert der Versuchung, Baris-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13237</id>
+			<name>Baris-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Baris-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Kurzschwert der Zerstörung, Baris-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13236</id>
+			<name>Baris-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Baris-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Kurzschwert der Purpurnen Flamme, Baris-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13213</id>
+			<name>Baris-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein Kurzschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>11915</id>
+			<name>Topasohrringe der Regeneration</name>
+			<icon>00011915.png</icon>
+			<desc>Ein mit einem Topas der Wiederherstellung verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>10613</id>
+			<name>Baris-Axt</name>
+			<icon>00010613.png</icon>
+			<desc>Eine Axt, die von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein Stab, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Baris-Stab der Zerstörung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Zerstörung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Baris-Stab der Purpurnen Flamme</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>11715</id>
+			<name>Topashalskette der Regeneration</name>
+			<icon>00011715.png</icon>
+			<desc>Eine mit einem Topas der Wiederherstellung verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>12105</id>
+			<name>Verderbter Rubinring</name>
+			<icon>00012105.png</icon>
+			<desc>Ein mit einem Rubin der Verderbnis verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>10239</id>
+			<name>Ultimativer Baris-Langbogen</name>
+			<icon>00010213.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Purpurnen Flamme, Baris-Langbogen der Zerstörung, Baris-Langbogen der Versuchung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10238</id>
+			<name>Baris-Langbogen der Versuchung</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Versuchung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Baris-Langbogen der Zerstörung</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Zerstörung, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Baris-Langbogen der Purpurnen Flamme</name>
+			<icon>00010213.png</icon>
+			<desc>Dieser Baris-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Langbogens Baris werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langbogen der Purpurnen Flamme, Baris-Langbogen</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Baris-Langbogen</name>
+			<icon>00010213.png</icon>
+			<desc>Ein Langbogen, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10638</id>
+			<name>Baris-Axt der Versuchung</name>
+			<icon>00010613.png</icon>
+			<desc>Diese Baris-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Baris-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Axt der Versuchung, Baris-Axt</desc>
+		</item>
+		<item>
+			<id>10637</id>
+			<name>Baris-Axt der Zerstörung</name>
+			<icon>00010613.png</icon>
+			<desc>Diese Baris-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Baris-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Axt der Zerstörung, Baris-Axt</desc>
+		</item>
+		<item>
+			<id>10636</id>
+			<name>Baris-Axt der Purpurnen Flamme</name>
+			<icon>00010613.png</icon>
+			<desc>Diese Baris-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Baris-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Axt der Purpurnen Flamme, Baris-Axt</desc>
+		</item>
+		<item>
+			<id>10639</id>
+			<name>Ultimative Baris-Axt</name>
+			<icon>00010613.png</icon>
+			<desc>Eine maximal aufgerüstete Baris-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Baris-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Axt der Purpurnen Flamme, Baris-Axt der Zerstörung, Baris-Axt der Versuchung, Baris-Axt</desc>
+		</item>
+		<item>
+			<id>10013</id>
+			<name>Baris-Langschwert</name>
+			<icon>00010013.png</icon>
+			<desc>Ein Langschwert, das von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10039</id>
+			<name>Ultimatives Baris-Langschwert</name>
+			<icon>00010013.png</icon>
+			<desc>Ein maximal aufgerüstetes Baris-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langschwert der Purpurnen Flamme, Baris-Langschwert der Zerstörung, Baris-Langschwert der Versuchung, Baris-Langschwert</desc>
+		</item>
+		<item>
+			<id>10038</id>
+			<name>Baris-Langschwert der Versuchung</name>
+			<icon>00010013.png</icon>
+			<desc>Dieses Baris-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langschwert der Versuchung, Baris-Langschwert</desc>
+		</item>
+		<item>
+			<id>10037</id>
+			<name>Baris-Langschwert der Zerstörung</name>
+			<icon>00010013.png</icon>
+			<desc>Dieses Baris-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langschwert der Zerstörung, Baris-Langschwert</desc>
+		</item>
+		<item>
+			<id>10036</id>
+			<name>Baris-Langschwert der Purpurnen Flamme</name>
+			<icon>00010013.png</icon>
+			<desc>Dieses Baris-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Langschwert der Purpurnen Flamme, Baris-Langschwert</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

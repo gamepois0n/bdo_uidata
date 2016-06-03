@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16002</itemKey>
+	<itemName>Pierre noire (armure)</itemName>
+	<itemIcon>00000007.png</itemIcon>
+	<itemDesc>Les armes peuvent être optimisées grâce à l&apos;esprit occulte.\n\n- Optimisation possible pour : casques, armures, gants, chaussures</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Coffre au trésor</name>
+		</character>
+	</collect>
+	<house type="10">
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>6354</id>
+			<name>Sang de pécheur</name>
+			<icon>00006354.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6601</id>
+			<name>Huile de régénération</name>
+			<icon>00006601.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

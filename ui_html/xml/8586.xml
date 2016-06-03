@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8586</itemKey>
+	<itemName>Dried Fourfinger Threadfin</itemName>
+	<itemIcon>00008586.png</itemIcon>
+	<itemDesc>A dried fourfinger threadfin obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8286</id>
+			<name>Fourfinger Threadfin</name>
+			<icon>00008286.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55986</id>
+			<name>Packaged Dried Fourfinger Threadfin</name>
+			<icon>00055986.png</icon>
+			<desc>A Trade Item containing 10 Dried Fourfinger Threadfins.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

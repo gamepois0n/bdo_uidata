@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11721</itemKey>
+	<itemName>Diamond Necklace</itemName>
+	<itemIcon>00011721.png</itemIcon>
+	<itemDesc>A necklace decorated with a Diamond.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4405</id>
+			<name>Rough Diamond</name>
+			<icon>00004405.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Diamond requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+		<item>
+			<id>4202</id>
+			<name>Gold Ore</name>
+			<icon>00004202.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Gold Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gold.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11722</id>
+			<name>Resplendent Diamond Necklace</name>
+			<icon>00011722.png</icon>
+			<desc>A necklace decorated with a Resplendent Diamond.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

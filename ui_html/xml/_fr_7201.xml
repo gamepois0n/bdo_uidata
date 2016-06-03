@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7201</itemKey>
+	<itemName>Pâte de blé</itemName>
+	<itemIcon>00007201.png</itemIcon>
+	<itemDesc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

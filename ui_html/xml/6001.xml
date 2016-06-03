@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6001</itemKey>
+	<itemName>Deer Hide</itemName>
+	<itemIcon>00006001.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted deer corpse.</itemDesc>
+	<collect>
+		<character>
+			<name>Elk</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Female Elk</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendia Big-Horned Deer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Spotted Deer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Elk</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6151</id>
+			<name>Soft Hide</name>
+			<icon>00006151.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide.</desc>
+		</item>
+		<item>
+			<id>6159</id>
+			<name>Fine Soft Hide</name>
+			<icon>00006159.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

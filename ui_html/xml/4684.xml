@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4684</itemKey>
+	<itemName>Plywood Hardener</itemName>
+	<itemIcon>00004684.png</itemIcon>
+	<itemDesc>A material used to strengthen Plywood through Processing.\n\n- How to Obtain: It can be obtained using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>5009</id>
+			<name>Fir Sap</name>
+			<icon>00005009.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Fir Trees with a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Bloody Tree Knot</name>
+			<icon>00005005.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Bloody Tree Knot requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5954</id>
+			<name>Trace of the Earth</name>
+			<icon>00005954.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4682</id>
+			<name>Sturdy Acacia Plywood</name>
+			<icon>00004682.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Acacia Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4678</id>
+			<name>Sturdy White Cedar Plywood</name>
+			<icon>00004678.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and White Cedar Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4653</id>
+			<name>Sturdy Ash Plywood</name>
+			<icon>00004653.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Ash Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4668</id>
+			<name>Sturdy Cedar Plywood</name>
+			<icon>00004668.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Cedar Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4665</id>
+			<name>Sturdy Fir Plywood</name>
+			<icon>00004665.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Fir Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4662</id>
+			<name>Sturdy Birch Plywood</name>
+			<icon>00004662.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Birch Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4659</id>
+			<name>Sturdy Pine Plywood</name>
+			<icon>00004659.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Pine Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4656</id>
+			<name>Sturdy Maple Plywood</name>
+			<icon>00004656.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Maple Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

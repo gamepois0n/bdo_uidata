@@ -1,0 +1,89 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_WorldMap_WarInfoNEW" Pos="0 0" Size="370 560" Pan="0 0" Color="ffffffff" EnableArea="0 0 370 560" Grid="1" GridPosX="0 10 360 370" GridPosY="0 10 550 560" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="380 6" Pan="0 40" Color="ffffffff" EnableArea="0 0 380 6" Grid="1" GridPosX="0 80 320 380" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="세렌디아 북부 자치령" Font="TitleFont_18" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_TerritoryInfoBG" Pos="Right Top" Size="350 175" Pan="11 50" Color="ffffffff" EnableArea="0 0 350 175" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 165 175" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SiteInfoTItle" Pos="Right Top" Size="210 25" Pan="25 60" Color="85ffffff" EnableArea="0 0 210 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="326 200 340 200 326 214 340 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+			<Text Value="영지 정보" formatString="LUA_TERRITORY_REGION_INFO" Font="BaseFont_12_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SiteIcon" Pos="20 64" Size="100 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 150" AutoDisableTime="0.000000">
+			<!-- <Texture Type="Base" UV="0 0 252 0 0 444 252 444" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nodeicon_castle.dds</Texture> -->
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CityName" Pos="Left Top" Size="50 20" Pan="145 90" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="도시 : 하이델" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UserRate" Pos="Left Top" Size="50 20" Pan="145 110" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="주민밀도 : 인구부족(17%)" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TaxRateInfoTitle" Pos="Right Top" Size="210 25" Pan="25 140" Color="9cffffff" EnableArea="0 0 210 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="292 200 306 200 292 214 306 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+			<Text Value="세율 정보" formatString="LUA_TERIRITORY_TAX_INFO" Font="BaseFont_12_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TransferTax" Pos="Left Top" Size="50 20" Pan="145 170" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="관세 :" formatString="UI_NEW_WORLDMAP_TERRITORY_TRANSFERTAX" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_OccupiersInfoBG" Pos="Right Top" Size="350 145" Pan="11 240" Color="ffffffff" EnableArea="0 0 350 145" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 135 145" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OccupiersInfoTitle" Pos="Center Top" Size="330 25" Pan="0 250" Color="99ffffff" EnableArea="0 0 330 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="309 200 323 200 309 214 323 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+			<Text Value="점령 정보" formatString="LUA_TERRITORY_OCCUPY_INFO" Font="BaseFont_12_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_GuildIconBG" Pos="Left Top" Size="62 62" Pan="40 300" Color="ffffffff" EnableArea="0 0 62 62" Grid="1" GridPosX="0 8 54 62" GridPosY="0 8 54 62" GridUVX="0 8 54 62" GridUVY="0 8 54 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 64 126 64 64 126 126 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildIcon" Pos="Left Top" Size="42 42" Pan="50 310" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 44 0 0 44 44 44" Ani="1 1 0.000 0">icon/new_icon/08_servant_skill/02_pet/action_1_dislike.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OccupationGuild" Pos="Left Top" Size="50 20" Pan="135 290" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 길드 :" formatString="UI_NEW_WORLDMAP_TERRITORY_OCCUPATIONGUILD" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OccupationOwner" Pos="Left Top" Size="50 20" Pan="135 320" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 길드장 :" formatString="UI_NEW_WORLDMAP_TERRITORY_OCCUPATIONOWNER" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OccupationDate" Pos="Left Top" Size="50 20" Pan="135 350" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 기간 :" formatString="UI_NEW_WORLDMAP_TERRITORY_OCCUPATIONDATE" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_InformationBG" Pos="Center Top" Size="350 145" Pan="0 400" Color="ffffffff" EnableArea="0 0 350 145" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 135 145" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PlayerInfoTitle" Pos="Center Top" Size="330 25" Pan="0 410" Color="99ffffff" EnableArea="0 0 330 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="258 200 272 200 258 214 272 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+			<Text Value="플레이어 정보" formatString="LUA_TERRITORY_PLAYER_INFO" Font="BaseFont_12_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Reputation" Pos="Left Top" Size="50 20" Pan="30 440" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="평판 :" formatString="UI_NEW_WORLDMAP_TERRITORY_REPUTATION" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OccupationInfoTitle" Pos="Center Top" Size="330 25" Pan="0 480" Color="bdffffff" EnableArea="0 0 330 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="275 200 289 200 275 214 289 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+			<Text Value="점령전 정보" formatString="LUA_TERRITORY_WAR_INFO" Font="BaseFont_12_Bold" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WarInfo" Pos="Left Top" Size="50 20" Pan="30 510" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="00개의 길드가 참전 중 입니다." Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

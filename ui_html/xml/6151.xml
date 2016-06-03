@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6151</itemKey>
+	<itemName>Soft Hide</itemName>
+	<itemIcon>00006151.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide.</itemDesc>
+	<collect>
+		<character>
+			<name>Elk</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Female Elk</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fox</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gray Fox</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lamb</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mediah Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mediah Young Mountain Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mountain Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rainbow Fox</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendia Big-Horned Deer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendia Mountain Goat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sheep</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Spotted Deer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Elk</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Mountain Goat</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6001</id>
+			<name>Deer Hide</name>
+			<icon>00006001.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted deer corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6002</id>
+			<name>Sheep Hide</name>
+			<icon>00006002.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted sheep corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6003</id>
+			<name>Fox Hide</name>
+			<icon>00006003.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted fox corpse.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>51007</id>
+			<name>Wagon Registration: Merchant Wagon</name>
+			<icon>00051007.png</icon>
+			<desc>Proof of ownership of a &lt;Merchant Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 18, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>51005</id>
+			<name>Wagon Registration: Trade Wagon</name>
+			<icon>00051005.png</icon>
+			<desc>Proof of ownership of a &lt;Trade Wagon&gt;, allowing you to access it at a Stable.\n- Inventory Slot(s): 16, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Wagon License\n 1. Right-click the Wagon License and move to the designated Stable.\n 2. Talk to the Stable Keeper and select the Stable menu.\n 3. Click on the Register Emblem menu and right-click on the Wagon License.\n 4. Enter the Wagon’s name and select Confirm to register the Wagon.\n 5. Select the registered Wagon and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>10840</id>
+			<name>Ultimate Agerian Shoes</name>
+			<icon>00010812.png</icon>
+			<desc>Agerian Shoes with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>10839</id>
+			<name>Ultimate Agerian Gloves</name>
+			<icon>00010811.png</icon>
+			<desc>Agerian Gloves with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>10838</id>
+			<name>Ultimate Agerian Armor</name>
+			<icon>00010810.png</icon>
+			<desc>Agerian Armor with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10837</id>
+			<name>Ultimate Agerian Helmet</name>
+			<icon>00010809.png</icon>
+			<desc>Agerian Helmet with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Agerian Shoes of Intimidation</name>
+			<icon>00010812.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Shoes of Duress, Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Agerian Gloves of Intimidation</name>
+			<icon>00010811.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Gloves of Duress, Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>10812</id>
+			<name>Agerian Shoes</name>
+			<icon>00010812.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10811</id>
+			<name>Agerian Gloves</name>
+			<icon>00010811.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10810</id>
+			<name>Agerian Armor</name>
+			<icon>00010810.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10809</id>
+			<name>Agerian Helmet</name>
+			<icon>00010809.png</icon>
+			<desc>Specially made armor for elite members of militia\n- Equipping 2 or more parts will trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Agerian Armor of Iron Wall</name>
+			<icon>00010810.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Armor of Iron wall, Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Agerian Helmet of Iron Wall</name>
+			<icon>00010809.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Helmet of Iron wall, Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Agerian Armor of Intimidation</name>
+			<icon>00010810.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Armor of Duress, Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Agerian Helmet of Intimidation</name>
+			<icon>00010809.png</icon>
+			<desc>Energy of intimidation is contained within this Agerian Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Helmet of Duress, Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Agerian Shoes of Agility</name>
+			<icon>00010812.png</icon>
+			<desc>Energy of agility is contained within this Agerian Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Shoes of Agility, Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>52703</id>
+			<name>Combat Hide Saddle</name>
+			<icon>00052703.png</icon>
+			<desc>Durable heavy saddle made of hard leather that is purpose built for battle.\nIncreases stability for faster riding.\n- Able to attach on : Horse &amp; Camel &amp; Donkey\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>52702</id>
+			<name>Light Hide Saddle</name>
+			<icon>00052702.png</icon>
+			<desc>Sturdier and lighter saddle made of high-quality leather\nIncreases stability for faster riding.\n- Able to attach on : Horse &amp; Camel &amp; Donkey\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Agerian Gloves of Agility</name>
+			<icon>00010811.png</icon>
+			<desc>Energy of agility is contained within this Agerian Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Gloves of Agility, Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Agerian Armor of Agility</name>
+			<icon>00010810.png</icon>
+			<desc>Energy of agility is contained within this Agerian Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Armor of Agility, Agerian Armor</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Agerian Helmet of Agility</name>
+			<icon>00010809.png</icon>
+			<desc>Energy of agility is contained within this Agerian Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Helmet of Agility, Agerian Helmet</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Agerian Shoes of Iron Wall</name>
+			<icon>00010812.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Shoes of Iron wall, Agerian Shoes</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Agerian Gloves of Iron Wall</name>
+			<icon>00010811.png</icon>
+			<desc>Energy of iron wall is contained within this Agerian Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Agerian Gloves of Iron wall, Agerian Gloves</desc>
+		</item>
+		<item>
+			<id>6159</id>
+			<name>Fine Soft Hide</name>
+			<icon>00006159.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Vangertz Shield of Destruction</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Destruction is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Destruction, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz Shield of Crimson Flame</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Crimson Flame, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A high-strength alloy shield that provides maximum defense.</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>A steel-plated shield used more for attacking than defending.</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A round shield made of strong iron.</desc>
+		</item>
+		<item>
+			<id>10128</id>
+			<name>Krea Shield of Temptation</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Temptation, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion Shield of Destruction</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Destruction is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Destruction, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion Shield of Crimson Flame</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Crimson Flame, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10109</id>
+			<name>Ultimate Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A Vangertz Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Vangertz Shield of Crimson Flame, Vangertz Shield of Destruction, Vangertz Shield of Temptation, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz Shield of Temptation</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Temptation is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Temptation, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Kite Shield of Destruction</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Destruction is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Destruction, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Kite Shield of Crimson Flame</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Crimson Flame, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10113</id>
+			<name>Ultimate Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>An Axion Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Axion Shield of Crimson Flame, Axion Shield of Destruction, Axion Shield of Temptation, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion Shield of Temptation</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Temptation is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Temptation, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10131</id>
+			<name>Ultimate Krea Shield</name>
+			<icon>00010124.png</icon>
+			<desc>A Krea Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Krea Shield of Crimson Flame, Krea Shield of Destruction, Krea Shield of Temptation, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10117</id>
+			<name>Ultimate Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A Kite Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Kite Shield of Crimson Flame, Kite Shield of Destruction, Kite Shield of Temptation, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Kite Shield of Temptation</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Temptation is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Temptation, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea Shield of Destruction</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Destruction, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea Shield of Crimson Flame</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Crimson Flame, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea Shield</name>
+			<icon>00010124.png</icon>
+			<desc>A shield crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

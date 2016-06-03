@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8267</itemKey>
+	<itemName>Dolphinfish</itemName>
+	<itemIcon>00008267.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<node region="Lisz Island - Fish Trap 1"/>
+	<node region="Taramura Island - Fish Trap 1"/>
+	<node region="Orffs Island - Fish Trap 1"/>
+	<node region="Randis Island - Fish Trap"/>
+	<makelist>
+		<item>
+			<id>8567</id>
+			<name>Dried Dolphinfish</name>
+			<icon>00008567.png</icon>
+			<desc>A dried dolphinfish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

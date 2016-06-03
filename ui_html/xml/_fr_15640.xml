@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15640</itemKey>
+	<itemName>Cristal de champ de bataille rouge (Adamantine)</itemName>
+	<itemIcon>00015637.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être fusionné dans des châsses dechaussures. \n- Effet d&apos;objet : résistance au trébuchement/fauchage +25 % et résistance à l&apos;évanouissement/la rigidité/le gel +5 % \n※ Une fois installé, le cristal peut être détruit à la mort du personnage.\n- Le potentiel du cristal peut être transféré à des pièces d&apos;équipement grâce à l&apos;esprit occulte.\n- Obtention : entrez sur le champ de bataille rouge au moyen de l&apos;esprit occulte et remportez des sceaux rouges dans une bataille féroce.\nÉchangez ces sceaux contre de l&apos;essence rouge auprès d&apos;Ornella à Heidel.\nFaites chauffer de l&apos;essence rouge et le cristal magique ancien - Inflexibilité.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4989</id>
+			<name>Essence rouge</name>
+			<icon>00004989.png</icon>
+			<desc>L&apos;essence concentrée du sang rouge.\nSi on la chauffe avec un cristal magique ancien (Pouvoir) et un cristal magique ancien (Adamantine), on obtient un cristal éveillé.</desc>
+		</item>
+		<item>
+			<id>15616</id>
+			<name>Cristal magique ancien de la nature (Adamantine)</name>
+			<icon>00045022.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de chaussure. \n- Effet d&apos;objet : résistance au trébuchement/au fauchage +25 %\n\n※ Ce cristal magique a de faibles chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11712</itemKey>
+	<itemName>Collier de topaze resplendissant</itemName>
+	<itemIcon>00011712.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;une topaze brillante.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11711</id>
+			<name>Collier de topaze</name>
+			<icon>00011711.png</icon>
+			<desc>Un collier décoré d&apos;une topaze.</desc>
+		</item>
+		<item>
+			<id>4257</id>
+			<name>Fragment de platine fondu</name>
+			<icon>00004257.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de platine.</desc>
+		</item>
+		<item>
+			<id>4457</id>
+			<name>Topaze</name>
+			<icon>00004457.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une topaze brute.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11713</id>
+			<name>Collier de topaze en or</name>
+			<icon>00011713.png</icon>
+			<desc>Un collier décoré d&apos;une topaze dorée.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

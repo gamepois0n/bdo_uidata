@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4001</itemKey>
+	<itemName>Eisenerz</itemName>
+	<itemIcon>00004001.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Küstenhöhle, Küstenfelsen, Steinbruch von Nordheidel, Süd-Cienaga, Verwunschener Steinwall, Verlassene Eisenmine. Kann aus eisenhaltigem Erz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blutstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Eisen</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Feldspat</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grabgolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Steingolem</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wildnisgolem</name>
+		</character>
+	</collect>
+	<node region="Küstenhöhle – Bergbau"/>
+	<node region="Küstenfelsen – Bergbau"/>
+	<node region="Steinbruch von Nordheidel – Bergbau"/>
+	<node region="Südliches Cienaga – Bergbau"/>
+	<node region="Verwunschener Steinwall – Bergbau"/>
+	<node region="Verlassene Eisenmine – Bergbau"/>
+	<makelist>
+		<item>
+			<id>55843</id>
+			<name>Eisenerzkiste</name>
+			<icon>00055843.png</icon>
+			<desc>Handelsware, die 10 Eisenerze enthält.</desc>
+		</item>
+		<item>
+			<id>11911</id>
+			<name>Topasohrringe</name>
+			<icon>00011911.png</icon>
+			<desc>Ein mit einem Topas verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11901</id>
+			<name>Rubinohrringe</name>
+			<icon>00011901.png</icon>
+			<desc>Ein mit einem Rubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>12111</id>
+			<name>Topasring</name>
+			<icon>00012111.png</icon>
+			<desc>Ein mit einem Topas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>12101</id>
+			<name>Rubinring</name>
+			<icon>00012101.png</icon>
+			<desc>Ein mit einem Rubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>4052</id>
+			<name>Eisenbarren</name>
+			<icon>00004052.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Eisensplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Geschmolzener Eisensplitter</name>
+			<icon>00004051.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

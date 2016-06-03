@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8212</itemKey>
+	<itemName>Crâne chauve</itemName>
+	<itemIcon>00008212.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Filet à poisson</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Séchoir à poisson</name>
+		</character>
+	</collect>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8512</id>
+			<name>Pieuvre séchée</name>
+			<icon>00008512.png</icon>
+			<desc>Une pieuvre obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

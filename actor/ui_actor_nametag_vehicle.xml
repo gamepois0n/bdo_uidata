@@ -1,0 +1,22 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Copy_CharacterTag_Vehicle" Pos="-1000 -1000" Size="100 100" Pan="0 0" Color="  ffffff" EnableArea="0 0 200 10">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Control Type="StaticText" Name="CharacterName" Pos="Center Bottom" Size="150 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="CharacterName" Font="BaseFont" Color="fffdffef" OverColor="fffdffef" ClickColor="fffdffef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Quest_Mark" Pos="Center Bottom" Size="81 21" Pan="0 45" Color="ffffffff" EnableArea="0 0 81 21" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 81 0 0 21 81 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/questmon.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Quest_Mark_NoUse" Pos="Center Bottom" Size="81 21" Pan="0 45" Color="ffffffff" EnableArea="0 0 81 21">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 82 0 0 21 82 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/questmon2.dds</Texture>
+			<Text Value="ÀÇ·Ú ¸ñÇ¥¹°" formatString="PANEL_NAMETAG_QUESTTARGET" Font="BaseFont_8_Bold" Color="ff1099bd" OverColor="ff1099bd" ClickColor="ff1099bd" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

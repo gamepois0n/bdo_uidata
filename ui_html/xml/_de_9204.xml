@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9204</itemKey>
+	<itemName>Aloejoghurt</itemName>
+	<itemIcon>00009204.png</itemIcon>
+	<itemDesc>Eine gesunde Mischung aus vergorener Milch und Aloe.\n\n– Spezielle Wirkung: Angelgeschwindigkeit +1 für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloe</name>
+			<icon>00007347.png</icon>
+			<desc>Aloe ist ein Spezialprodukt aus Mediah.\nVerwendung: Aloekeks, Aloeyoghurt etc.\n– Gewinnung: Kann beim Ahtohof gewonnen werden. Aloe aus Mediah kann mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milch</name>
+			<icon>00009065.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann bei einer Hof-Quest erhalten werden. Kann zu anderen Kochzutaten verarbeitet werden.\n\n– Verwendung: Sahne, Käse, Obstpudding etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Zucker</name>
+			<icon>00009002.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9005</id>
+			<name>Gärmittel</name>
+			<icon>00009005.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

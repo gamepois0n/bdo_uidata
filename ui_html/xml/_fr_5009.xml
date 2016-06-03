@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5009</itemKey>
+	<itemName>Sève de sapin</itemName>
+	<itemIcon>00005009.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un sapin.</itemDesc>
+	<collect>
+		<character>
+			<name>Sapin</name>
+		</character>
+	</collect>
+	<node region="Forêt des manshas : débit de bois"/>
+	<node region="Cabane de Phoniel : débit de bois"/>
+</itemInfo>
+

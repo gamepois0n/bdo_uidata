@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4467</itemKey>
+	<itemName>Cristal de terre</itemName>
+	<itemIcon>00004467.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux de boue bruts trouvés près des ruines de Glish.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4407</id>
+			<name>Cristal de boue brut</name>
+			<icon>00004407.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal de boue brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près des ruines de Glish.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14101</id>
+			<name>Casque de Taritas en acier</name>
+			<icon>00010813.png</icon>
+			<desc>Un casque de Taritas en acier fabriqué par un maître forgeron.\nIl est plus léger et plus solide qu&apos;un casque de Taritas classique. Il peut également être utilisé pour rétablir la durabilité d&apos;un casque de Taritas classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14102</id>
+			<name>Armure de Taritas en acier</name>
+			<icon>00010814.png</icon>
+			<desc>Une armure de Taritas en acier fabriquée par un maître forgeron.\nElle est plus légère et plus solide qu&apos;une armure de Taritas classique. Elle peut également être utilisée pour rétablir la durabilité d&apos;une armure de Taritas classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14103</id>
+			<name>Gants de Taritas en acier</name>
+			<icon>00010815.png</icon>
+			<desc>Des gants de Taritas en acier fabriqués par un maître forgeron.\nIls sont plus légers et plus solides que des gants de Taritas classiques. Ils peuvent également être utilisés pour rétablir la durabilité de gants de Taritas classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14104</id>
+			<name>Chaussures de Taritas en acier</name>
+			<icon>00010816.png</icon>
+			<desc>Des chaussures de Taritas en acier fabriquées par un maître forgeron.\nElles sont plus légères et plus solides que des chaussures de Taritas classiques. Elles peuvent également être utilisées pour rétablir la durabilité de chaussures de Taritas classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55859</id>
+			<name>Amulette de malédictions en cristal de boue</name>
+			<icon>00055859.png</icon>
+			<desc>Un accessoire fabriqué en transformant un cristal de boue. Il est porté par ceux qui cherchent à lancer une malédiction sur quelqu&apos;un.</desc>
+		</item>
+		<item>
+			<id>14105</id>
+			<name>Casque de Taritas en acier du mur de fer</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas en acier renferme l&apos;énergie du mur de fer.\nIl est plus léger et plus solide qu&apos;un casque de Taritas du mur de fer classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas du mur de fer en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>14104</id>
+			<name>Chaussures de Taritas en acier</name>
+			<icon>00010816.png</icon>
+			<desc>Des chaussures de Taritas en acier fabriquées par un maître forgeron.\nElles sont plus légères et plus solides que des chaussures de Taritas classiques. Elles peuvent également être utilisées pour rétablir la durabilité de chaussures de Taritas classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14103</id>
+			<name>Gants de Taritas en acier</name>
+			<icon>00010815.png</icon>
+			<desc>Des gants de Taritas en acier fabriqués par un maître forgeron.\nIls sont plus légers et plus solides que des gants de Taritas classiques. Ils peuvent également être utilisés pour rétablir la durabilité de gants de Taritas classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14102</id>
+			<name>Armure de Taritas en acier</name>
+			<icon>00010814.png</icon>
+			<desc>Une armure de Taritas en acier fabriquée par un maître forgeron.\nElle est plus légère et plus solide qu&apos;une armure de Taritas classique. Elle peut également être utilisée pour rétablir la durabilité d&apos;une armure de Taritas classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14101</id>
+			<name>Casque de Taritas en acier</name>
+			<icon>00010813.png</icon>
+			<desc>Un casque de Taritas en acier fabriqué par un maître forgeron.\nIl est plus léger et plus solide qu&apos;un casque de Taritas classique. Il peut également être utilisé pour rétablir la durabilité d&apos;un casque de Taritas classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>14111</id>
+			<name>Gants de Taritas en acier d&apos;agilité</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie de l&apos;agilité.\nIls sont plus légers et plus solides que des gants de Taritas d&apos;agilité classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas d&apos;agilité en acier, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>14110</id>
+			<name>Armure de Taritas en acier d&apos;agilité</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie de l&apos;agilité.\nElle est plus légère et plus solide qu&apos;une armure de Taritas d&apos;agilité classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas d&apos;agilité en acier, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>14109</id>
+			<name>Casque de Taritas en acier d&apos;agilité</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas en acier renferme l&apos;énergie de l&apos;agilité.\nIl est plus léger et plus solide qu&apos;un casque de Taritas d&apos;agilité classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas d&apos;agilité en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>14108</id>
+			<name>Chaussures de Taritas en acier du mur de fer</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie du mur de fer.\nElles sont plus légères et plus solides que des chaussures de Taritas du mur de fer classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas du mur de fer en acier, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>14107</id>
+			<name>Gants de Taritas en acier du mur de fer</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie du mur de fer.\nIls sont plus légers et plus solides que des gants de Taritas du mur de fer classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas du mur de fer en acier, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>14106</id>
+			<name>Armure de Taritas en acier du mur de fer</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie du mur de fer.\nElle est plus légère et plus solide qu&apos;une armure de Taritas du mur de fer classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas du mur de fer en acier, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>14116</id>
+			<name>Chaussures de Taritas en acier d&apos;intimidation</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie de l&apos;intimidation.\nElles sont plus légères et plus solides que des chaussures de Taritas d&apos;intimidation classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas d&apos;intimidation en acier, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>14115</id>
+			<name>Gants de Taritas en acier d&apos;intimidation</name>
+			<icon>00010815.png</icon>
+			<desc>Ces gants de Taritas en acier renferment l&apos;énergie de l&apos;intimidation.\nIls sont plus légers et plus solides que des gants de Taritas d&apos;intimidation classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas d&apos;intimidation en acier, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>14114</id>
+			<name>Armure de Taritas en acier d&apos;intimidation</name>
+			<icon>00010814.png</icon>
+			<desc>Cette armure de Taritas en acier renferme l&apos;énergie de l&apos;intimidation.\nElle est plus légère et plus solide qu&apos;une armure de Taritas d&apos;intimidation classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas d&apos;intimidation en acier, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>14113</id>
+			<name>Casque de Taritas en acier d&apos;intimidation</name>
+			<icon>00010813.png</icon>
+			<desc>Ce casque de Taritas en acier renferme l&apos;énergie de l&apos;intimidation.\nIl est plus léger et plus solide qu&apos;un casque de Taritas d&apos;intimidation classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas d&apos;intimidation en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>14112</id>
+			<name>Chaussures de Taritas en acier d&apos;agilité</name>
+			<icon>00010816.png</icon>
+			<desc>Ces chaussures de Taritas en acier renferment l&apos;énergie de l&apos;agilité.\nElles sont plus légères et plus solides que des chaussures de Taritas d&apos;agilité classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas d&apos;agilité en acier, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>14123</id>
+			<name>Gants de Taritas en acier ultimes</name>
+			<icon>00010815.png</icon>
+			<desc>Des gants de Taritas en acier qui ont atteint leur potentiel maximum.\nIls sont plus légers et plus solides que des gants de Taritas ultimes classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Taritas du mur de fer en acier, gants de Taritas du mur de fer, gants de Taritas d&apos;agilité en acier, gants de Taritas d&apos;agilité, gants de Taritas d&apos;intimidation en acier, gants de Taritas d&apos;intimidation, gants de Taritas de destruction en acier, gants de Taritas en acier, gants de Taritas</desc>
+		</item>
+		<item>
+			<id>14122</id>
+			<name>Armure de Taritas en acier ultime</name>
+			<icon>00010814.png</icon>
+			<desc>Une armure de Taritas en acier qui a atteint son potentiel maximum.\nElle est plus légère et plus solide qu&apos;une armure de Taritas ultime classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Taritas du mur de fer en acier, armure de Taritas du mur de fer, armure de Taritas d&apos;agilité en acier, armure de Taritas d&apos;agilité, armure de Taritas d&apos;intimidation en acier, armure de Taritas d&apos;intimidation, armure de Taritas de destruction en acier, armure de Taritas en acier, armure de Taritas</desc>
+		</item>
+		<item>
+			<id>14121</id>
+			<name>Casque de Taritas en acier ultime</name>
+			<icon>00010813.png</icon>
+			<desc>Un casque de Taritas en acier qui a atteint son potentiel maximum.\nIl est plus léger et plus solide qu&apos;un casque de Taritas ultime classique.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Taritas du mur de fer en acier, casque de Taritas du mur de fer, casque de Taritas d&apos;agilité en acier, casque de Taritas d&apos;agilité, casque de Taritas d&apos;intimidation en acier, casque de Taritas d&apos;intimidation, casque de Taritas de destruction en acier, casque de Taritas en acier, casque de Taritas</desc>
+		</item>
+		<item>
+			<id>14124</id>
+			<name>Chaussures de Taritas en acier ultimes</name>
+			<icon>00010816.png</icon>
+			<desc>Des chaussures de Taritas en acier qui ont atteint leur potentiel maximum.\nElles sont plus légères et plus solides que des chaussures de Taritas ultimes classiques.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Taritas du mur de fer en acier, chaussures de Taritas du mur de fer, chaussures de Taritas d&apos;agilité en acier, chaussures de Taritas d&apos;agilité, chaussures de Taritas d&apos;intimidation en acier, chaussures de Taritas d&apos;intimidation, chaussures de Taritas de destruction en acier, chaussures de Taritas en acier, chaussures de Taritas</desc>
+		</item>
+		<item>
+			<id>24212</id>
+			<name>Bouilloire impériale en platine</name>
+			<icon>Pot_Base_47.png</icon>
+			<desc>Bouilloire impériale en platine.</desc>
+		</item>
+		<item>
+			<id>24211</id>
+			<name>Vase de main doré</name>
+			<icon>Pot_Base_48.png</icon>
+			<desc>Vase de main doré.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Vase en opale magnifique</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Vase en opale magnifique.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Bouilloire distinguée en topaze</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>Bouilloire distinguée en topaze.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Bouteille ronde en émeraude</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>Bouteille en émeraude en forme de gourde.</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 1</name>
+			<icon>00004907.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

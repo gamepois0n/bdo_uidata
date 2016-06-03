@@ -1,0 +1,139 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Delivery_Information" Pos="100 50" Size="400 580" Pan="0 0" Color="ffffffff" EnableArea="3 2 396 577" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Drag" Area="3 2 396 30"/>
+		<Control Type="Static" Name="Static_Bakcground" Pos="Center Center" Size="400 580" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 580" Grid="1" GridPosX="0 5 395 400" GridPosY="0 5 575 580" GridUVX="0 5 178 183" GridUVY="0 5 217 222" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TabBG" Pos="Center Top" Size="380 500" Pan="-4 72" Color="ffffffff" EnableArea="0 0 380 500" Grid="1" GridPosX="0 5 375 380" GridPosY="0 5 495 500" GridUVX="0 5 251 256" GridUVY="0 5 251 256" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="390 20" Pan="0 6" Color="  ffffff" EnableArea="0 0 390 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="수송 현황" formatString="DELIVERY_INFORMATION_BTN_CANCELRECIEVE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="7 7" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="31 7" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Recieve" Pos="Right Top" Size="19 19" Pan="60 35" Color="ffffffff" EnableArea="0 0 65 19" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="받 기" formatString="DELIVERY_INFORMATION_TEXT_CHECKRECIEVE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="22 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Cancel" Pos="Right Top" Size="19 19" Pan="60 53" Color="ffffffff" EnableArea="0 0 60 19" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="DELIVERY_INFORMATION_TEXT_CHECKCANCEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="22 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Refresh" Pos="Left Top" Size="70 30" Pan="10 35" Color="ffffffff" EnableArea="0 0 70 30" Grid="1" GridPosX="0 4 66 70" GridPosY="0 4 26 30" GridUVX="0 4 24 28" GridUVY="0 4 24 28" AutoDisableTime="10.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="새로고침" formatString="UI_WINDOW_DELIVERY_INFORMATION_BTN_REFRESH" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel_Recieve" Pos="Left Top" Size="70 30" Pan="85 35" Color="ffffffff" EnableArea="0 0 70 30" Grid="1" GridPosX="0 4 66 70" GridPosY="0 4 26 30" GridUVX="0 4 24 28" GridUVY="0 4 24 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Disable" Color="Off"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="수송 현황" formatString="UI_WINDOW_DELIVERY_INFORMATION_BTN_RECEIVE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Send" Pos="Left Top" Size="70 30" Pan="160 35" Color="ffffffff" EnableArea="0 0 70 30" Grid="1" GridPosX="0 4 66 70" GridPosY="0 4 26 30" GridUVX="0 4 24 28" GridUVY="0 4 24 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="발송" formatString="DELIVERY_INFORMATION_BTN_SEND" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="Button" Name="Button_ReceiveAll" Pos="Left Top" Size="70 30" Pan="235 35" Color="ffffffff" EnableArea="0 0 70 30" Grid="1" GridPosX="0 4 66 70" GridPosY="0 4 26 30" GridUVX="0 4 24 28" GridUVY="0 4 24 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="모두 받기" formatString="DELIVERY_INFORMATION_BTN_RECEIVEALL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+		<Control Type="Static" Name="Static_Slot" Pos="10 620" Size="375 60" Pan="10 400" Color="ffffffff" EnableArea="0 0 375 60" Grid="1" GridPosX="0 10 365 375" GridPosY="0 10 50 60" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 63 64 63 1 126 64 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Departure" Pos="75 651" Size="100 18" Pan="80 410" Color="  ffffff" EnableArea="0 0 100 18">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="출 발" formatString="DELIVERY_INFORMATION_TEXT_DEPARTURE" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Destination" Pos="225 651" Size="100 18" Pan="160 410" Color="  ffffff" EnableArea="0 0 100 18">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="도 착" formatString="DELIVERY_INFORMATION_TEXT_DESTINATION" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Static_Arrow" Pos="190 654" Size="18 18" Pan="160 413" Color="ffffffff" EnableArea="-40 0 57 22" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="223 15 240 15 223 37 240 37" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="223 38 240 38 223 60 240 60" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="223 61 240 61 223 83 240 83" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CarriageType" Pos="108 628" Size="200 20" Pan="75 390" Color="  ffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="순환 마차" formatString="DELIVERY_INFORMATION_TEXT_CARRIAGETYPE" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Receive" Pos="330 625" Size="50 50" Pan="340 400" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 5 46 50" GridPosY="0 4 44 50" GridUVX="0 5 25 29" GridUVY="0 4 23 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="받 기" formatString="DELIVERY_INFORMATION_BTN_RECEIVE" Font="BaseFont_10" Color="ffffbb47" OverColor="ffffbb47" ClickColor="ffffbb47" AlignHorizon="Center" AlignVertical="Center" Span="0 2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_ItemIcon" Pos="15 625" Size="50 50" Pan="15 400" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="54 199 106 199 54 251 106 251" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_ui_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="330 625" Size="50 50" Pan="340 400" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 5 46 50" GridPosY="0 4 44 50" GridUVX="0 5 25 29" GridUVY="0 4 23 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="DELIVERY_INFORMATION_BTN_CANCEL" Font="BaseFont_10" Color="ffc0ddea" OverColor="ffc0ddea" ClickColor="ffc0ddea" AlignHorizon="Center" AlignVertical="Center" Span="0 2"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Empty_List" Pos="Center Center" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="Disable" Color="Off"/>
+			<Text Value="수송 중인 물품이 없습니다." formatString="DELIVERY_INFORMATION_TEXT_LIST" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_PartLine" Pos="Center Top" Size="400 6" Pan="0 28" Color="ffffffff" EnableArea="0 0 400 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_1" Pos="Right Top" Size="7 500" Pan="6 70" Color="ffffffff" EnableArea="0 0 7 500" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 493 500" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_1_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_DownButton" Pos="-7 500" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_1_CtrlButton" Pos="Center Top" Size="13 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

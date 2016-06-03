@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6653</itemKey>
+	<itemName>Bottle of River Water</itemName>
+	<itemIcon>00006653.png</itemIcon>
+	<itemDesc>Water Gathered from a river using an Empty Bottle. It can be modified, or used as an ingredient in Crafting.\n- How to Obtain: River Water can be obtained by using an Empty Bottle at a river.\n\n※ Pouring a Bottle of River Water on a Garden will increase the available Water Deposit.</itemDesc>
+	<makelist>
+		<item>
+			<id>6651</id>
+			<name>Distilled Water</name>
+			<icon>00006651.png</icon>
+			<desc>Clear water that’s been distilled.\n- How to Obtain: Distilled Water can be obtained by Heating a Bottle of River Water.\n\n※ Pouring Distilled Water on a Garden will greatly increase the available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+		<item>
+			<id>4902</id>
+			<name>Alluvial Gold</name>
+			<icon>00004902.png</icon>
+			<desc>A rare ingredient filtered from River Water that can be Heated to create Gold.\n- How to Obtain: It can be obtained by Thinning a Bottle of River Water.</desc>
+		</item>
+		<item>
+			<id>16911</id>
+			<name>Waterway</name>
+			<icon>00016911.png</icon>
+			<desc>Installing a Waterway in a Garden will reduce the amount of water consumed.\n(Right-click to display the closest Fence Exchange location)</desc>
+		</item>
+		<item>
+			<id>16903</id>
+			<name>Organic Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4451</itemKey>
+	<itemName>Rubin</itemName>
+	<itemIcon>00004451.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Rubin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4401</id>
+			<name>Rohrubin</name>
+			<icon>00004401.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohrubin erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11602</id>
+			<name>Baris-Halskette</name>
+			<icon>00011602.png</icon>
+			<desc>Eine Halskette, die verborgene zerstörerische Kräfte hervorlockt.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11604</id>
+			<name>Elisha-Halskette</name>
+			<icon>00011604.png</icon>
+			<desc>Eine Halskette, die dem Träger Gelassenheit gibt.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11802</id>
+			<name>Baris-Ohrring</name>
+			<icon>00011802.png</icon>
+			<desc>Ein Ohrring, der verborgene zerstörerische Kräfte hervorlockt.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11804</id>
+			<name>Elisha-Ohrring</name>
+			<icon>00011804.png</icon>
+			<desc>Ein Ohrring, der dem Träger Gelassenheit gibt.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12002</id>
+			<name>Baris-Ring</name>
+			<icon>00012002.png</icon>
+			<desc>Ein Ring, der verborgene zerstörerische Kräfte hervorlockt.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12004</id>
+			<name>Elisha-Ring</name>
+			<icon>00012004.png</icon>
+			<desc>Ein Ring, der dem Träger Gelassenheit gibt.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12202</id>
+			<name>Baris-Gürtel</name>
+			<icon>00012202.png</icon>
+			<desc>Ein Gürtel, der verborgene zerstörerische Kräfte hervorlockt.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12204</id>
+			<name>Elisha-Gürtel</name>
+			<icon>00012204.png</icon>
+			<desc>Ein Gürtel, der dem Träger Gelassenheit gibt.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11903</id>
+			<name>Blutrubinohrringe</name>
+			<icon>00011903.png</icon>
+			<desc>Ein mit einem Blutrubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11902</id>
+			<name>Glänzende Rubinohrringe</name>
+			<icon>00011902.png</icon>
+			<desc>Ein mit einem Funkelnden Rubin verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>14220</id>
+			<name>[Magierin] Adeligen-Kleid aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Kleid, wie es von calpheonischen Aristokraten getragen wird. Es ist gleichermaßen modisch und praktisch.\n- Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr dasselbe Kleid mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie das Perlenkostüm.\nTauscht Ihr es in ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14207</id>
+			<name>[Walküre] Adeligen-Kleid aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Kleid, wie es von calpheonischen Aristokraten getragen wird. Es ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr dasselbe Kleid mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14205</id>
+			<name>[Waldläuferin] Adeligen-Kleid aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Kleid, wie es von calpheonischen Aristokraten getragen wird. Es ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr dasselbe Kleid mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14204</id>
+			<name>[Bändigerin] Adeligen-Kleid aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Kleid, wie es von calpheonischen Aristokraten getragen wird. Es ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr dasselbe Kleid mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14203</id>
+			<name>[Schwarzmagierin] Adeligen-Kleid aus Calpheon</name>
+			<icon>00014203.png</icon>
+			<desc>Ein Kleid, wie es von calpheonischen Aristokraten getragen wird. Es ist gleichermaßen modisch und praktisch.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr dasselbe Kleid mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>11703</id>
+			<name>Blutrubinhalskette</name>
+			<icon>00011703.png</icon>
+			<desc>Eine mit einem Blutrubin verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11702</id>
+			<name>Glänzende Rubinhalskette</name>
+			<icon>00011702.png</icon>
+			<desc>Eine mit einem Funkelnden Rubin verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>12103</id>
+			<name>Blutrubinring</name>
+			<icon>00012103.png</icon>
+			<desc>Ein mit einem Blutrubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>12102</id>
+			<name>Glänzender Rubinring</name>
+			<icon>00012102.png</icon>
+			<desc>Ein mit einem Funkelnden Rubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>4452</id>
+			<name>Glänzender Rubin</name>
+			<icon>00004452.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11707</itemKey>
+	<itemName>Collier de saphir resplendissant</itemName>
+	<itemIcon>00011707.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;un saphir brillant.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11706</id>
+			<name>Collier de saphir</name>
+			<icon>00011706.png</icon>
+			<desc>Un collier décoré d&apos;un saphir.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Fragment d&apos;or fondu</name>
+			<icon>00004254.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai d&apos;or.</desc>
+		</item>
+		<item>
+			<id>4454</id>
+			<name>Saphir</name>
+			<icon>00004454.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un saphir brut.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11708</id>
+			<name>Collier de saphir océan</name>
+			<icon>00011708.png</icon>
+			<desc>Un collier décoré d&apos;un saphir d&apos;océan.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

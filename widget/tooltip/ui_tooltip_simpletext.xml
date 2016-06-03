@@ -1,0 +1,27 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Tooltip_SimpleText" Pos="0 0" Size="150 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 60" Grid="1" GridPosX="0 10 140 150" GridPosY="0 10 50 60" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="64 1 126 1 64 63 126 63" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		<Control Type="StaticText" Name="Tooltip_Name" Pos="Left Top" Size="130 20" Pan="10 10" Color="  ffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="진격의 강타 II" Font="BaseFont_10" Color="ffcec7c7" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Description" Pos="Left Top" Size="130 20" Pan="10 30" Color="  ffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="기운을 담아 전방의 적을 공격한다. " Font="BaseFont_8_Bold" Color="ffc4a68a" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Help_MouseL" Pos="2 2" Size="24 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 24 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="300 368 335 368 300 413 335 413" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="정보 보기" formatString="UI_NEW_WORLDMAP_TOOLTIP_HELP_MOUSEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="fffefefe" ClickColor="fffefefe" AlignHorizon="Left" AlignVertical="Center" Span="30 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Help_MouseR" Pos="3 27" Size="24 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 24 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="262 368 297 368 262 413 297 413" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_00.dds</Texture>
+			<Text Value="길 찾기" formatString="UI_NEW_WORLDMAP_TOOLTIP_HELP_MOUSER" Font="BaseFont_10" Color="ffffce22" OverColor="fffefefe" ClickColor="fffefefe" AlignHorizon="Left" AlignVertical="Center" Span="30 0"/>
+		</Control>
+	</Control>
+</UI>
+

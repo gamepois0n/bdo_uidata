@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8600</itemKey>
+	<itemName>Dried Rock Hind</itemName>
+	<itemIcon>00008600.png</itemIcon>
+	<itemDesc>A dried rock hind obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8300</id>
+			<name>Rock Hind</name>
+			<icon>00008300.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>56000</id>
+			<name>Packaged Dried Rock Hind</name>
+			<icon>00056000.png</icon>
+			<desc>A Trade Item containing 10 Dried Rock Hinds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

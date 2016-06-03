@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4056</itemKey>
+	<itemName>Cristal de plomb pur</itemName>
+	<itemIcon>00004056.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolote et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de plomb. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4055</id>
+			<name>Lingot de plomb</name>
+			<icon>00004055.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de plomb fondu. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4076</id>
+			<name>Solvant métallique</name>
+			<icon>00004076.png</icon>
+			<desc>Un matériau utilisé pour transformer les métaux en cristal pur grâce à la transformation.\n\n- Obtention : s&apos;obtient grâce à l&apos;alchimie.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10007</id>
+			<name>Épée longue de Seleth</name>
+			<icon>00010007.png</icon>
+			<desc>Une épée longue possédée d&apos;une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10207</id>
+			<name>Arc long de Seleth</name>
+			<icon>00010207.png</icon>
+			<desc>Un arc long possédé par une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10407</id>
+			<name>Amulette de Seleth</name>
+			<icon>00010407.png</icon>
+			<desc>Une amulette possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10607</id>
+			<name>Hache de Seleth</name>
+			<icon>00010607.png</icon>
+			<desc>Une hache possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13207</id>
+			<name>Épée courte de Seleth</name>
+			<icon>00013203.png</icon>
+			<desc>Une épée courte possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14407</id>
+			<name>Bâton de Seleth</name>
+			<icon>00014407.png</icon>
+			<desc>Un bâton possédé par une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>13207</id>
+			<name>Épée courte de Seleth</name>
+			<icon>00013203.png</icon>
+			<desc>Une épée courte possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>13229</id>
+			<name>Épée courte de Seleth de destruction</name>
+			<icon>00013203.png</icon>
+			<desc>Cette épée courte de Seleth renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée courte de Seleth.\n\n- Rétablir la durabilité maximale : épée courte de Seleth de destruction, épée courte de Seleth</desc>
+		</item>
+		<item>
+			<id>13228</id>
+			<name>Épée courte de Seleth de la flamme pourpre</name>
+			<icon>00013203.png</icon>
+			<desc>Cette épée courte de Seleth renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée courte de Seleth.\n\n- Rétablir la durabilité maximale : épée courte de Seleth de la flamme pourpre, épée courte de Seleth</desc>
+		</item>
+		<item>
+			<id>10431</id>
+			<name>Amulette de Seleth ultime</name>
+			<icon>00010407.png</icon>
+			<desc>Une amulette de Seleth qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une amulette de Seleth.\n\n- Rétablir la durabilité maximale : amulette de Seleth de la flamme pourpre, amulette de Seleth de destruction, amulette de Seleth de tentation, amulette de Seleth</desc>
+		</item>
+		<item>
+			<id>10430</id>
+			<name>Amulette de Seleth de tentation</name>
+			<icon>00010407.png</icon>
+			<desc>Cette amulette de Seleth renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une amulette de Seleth.\n\n- Rétablir la durabilité maximale : amulette de Seleth de tentation, amulette de Seleth</desc>
+		</item>
+		<item>
+			<id>10429</id>
+			<name>Amulette de Seleth de destruction</name>
+			<icon>00010407.png</icon>
+			<desc>Cette amulette de Seleth renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une amulette de Seleth.\n\n- Rétablir la durabilité maximale : amulette de Seleth de destruction, amulette de Seleth</desc>
+		</item>
+		<item>
+			<id>10428</id>
+			<name>Amulette de Seleth de la flamme pourpre</name>
+			<icon>00010407.png</icon>
+			<desc>Cette amulette de Seleth renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de Seleth.\n\n- Rétablir la durabilité maximale : amulette de Seleth de la flamme pourpre, amulette de Seleth</desc>
+		</item>
+		<item>
+			<id>13231</id>
+			<name>Épée courte de Seleth ultime</name>
+			<icon>00013203.png</icon>
+			<desc>Une épée courte de Seleth qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée courte de Seleth.\n\n- Rétablir la durabilité maximale : épée courte de Seleth de la flamme pourpre, épée courte de Seleth de destruction, épée courte de Seleth de tentation, épée courte de Seleth</desc>
+		</item>
+		<item>
+			<id>13230</id>
+			<name>Épée courte de Seleth de tentation</name>
+			<icon>00013203.png</icon>
+			<desc>Cette épée courte de Seleth renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée courte de Seleth.\n\n- Rétablir la durabilité maximale : épée courte de Seleth de tentation, épée courte de Seleth</desc>
+		</item>
+		<item>
+			<id>53705</id>
+			<name>Emblème de wagon de commerce</name>
+			<icon>00053610.png</icon>
+			<desc>Une bannière de wagon à quatre roues.\n\n- Utilisable sur : wagon à quatre roues\n\nPeut être améliorée avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>10631</id>
+			<name>Hache de Seleth ultime</name>
+			<icon>00010607.png</icon>
+			<desc>Une hache de Seleth qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une hache de Seleth.\n\n- Rétablir la durabilité maximale : hache de Seleth de la flamme pourpre, hache de Seleth de destruction, hache de Seleth de tentation, hache de Seleth</desc>
+		</item>
+		<item>
+			<id>10630</id>
+			<name>Hache de Seleth de tentation</name>
+			<icon>00010607.png</icon>
+			<desc>Cette hache de Seleth renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une hache de Seleth.\n\n- Rétablir la durabilité maximale : hache de Seleth de tentation, hache de Seleth</desc>
+		</item>
+		<item>
+			<id>10629</id>
+			<name>Hache de Seleth de destruction</name>
+			<icon>00010607.png</icon>
+			<desc>Cette hache de Seleth renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une hache de Seleth.\n\n- Rétablir la durabilité maximale : hache de Seleth de destruction, hache de Seleth</desc>
+		</item>
+		<item>
+			<id>10628</id>
+			<name>Hache de Seleth de la flamme pourpre</name>
+			<icon>00010607.png</icon>
+			<desc>Cette hache de Seleth renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache de Seleth.\n\n- Rétablir la durabilité maximale : hache de Seleth de la flamme pourpre, hache de Seleth</desc>
+		</item>
+		<item>
+			<id>10407</id>
+			<name>Amulette de Seleth</name>
+			<icon>00010407.png</icon>
+			<desc>Une amulette possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10607</id>
+			<name>Hache de Seleth</name>
+			<icon>00010607.png</icon>
+			<desc>Une hache possédée par une forte haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>16168</id>
+			<name>Érable flottant</name>
+			<icon>00016168.png</icon>
+			<desc>Un bouchon en érable. Idéal pour attraper des poissons rares.\n\nPeut être optimisé avec une pierre noire (arme).</desc>
+		</item>
+		<item>
+			<id>16167</id>
+			<name>Frêne flottant</name>
+			<icon>00016167.png</icon>
+			<desc>Un bouchon en frêne. Idéal pour attraper de gros poissons.\n\nPeut être optimisé avec une pierre noire (arme).</desc>
+		</item>
+		<item>
+			<id>16164</id>
+			<name>Canne à pêche de Calpheon</name>
+			<icon>00016164.png</icon>
+			<desc>Canne à pêche de Calpheon. Ouah ! Elle était super efficace !\nPeut être optimisée avec une pierre noire (arme).</desc>
+		</item>
+		<item>
+			<id>10231</id>
+			<name>Arc long de Seleth ultime</name>
+			<icon>00010207.png</icon>
+			<desc>Un arc long de Seleth qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de Seleth.\n\n- Rétablir la durabilité maximale : arc long de Seleth de la flamme pourpre, arc long de Seleth de destruction, arc long de Seleth de tentation, arc long de Seleth</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Arc long de Seleth de tentation</name>
+			<icon>00010207.png</icon>
+			<desc>Cet arc long de Seleth renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de Seleth.\n\n- Rétablir la durabilité maximale : arc long de Seleth de tentation, arc long de Seleth</desc>
+		</item>
+		<item>
+			<id>49401</id>
+			<name>Décoration de barque</name>
+			<icon>00049401.png</icon>
+			<desc>Une décoration pouvant être attachée à une barque. Elle diminue les chances de casser des objets de commerce.\nEffet à partir de 3 objets d&apos;ensemble :\nvitesse de mouvement +2 %\n\n- Utilisable sur : barque\n\nPeut être améliorée avec une pierre noire (armure)</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Arc long de Seleth de destruction</name>
+			<icon>00010207.png</icon>
+			<desc>Cet arc long de Seleth renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de Seleth.\n\n- Rétablir la durabilité maximale : arc long de Seleth de destruction, arc long de Seleth</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Arc long de Seleth de la flamme pourpre</name>
+			<icon>00010207.png</icon>
+			<desc>Cet arc long de Seleth renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Seleth.\n\n- Rétablir la durabilité maximale : arc long de Seleth de la flamme pourpre, arc long de Seleth</desc>
+		</item>
+		<item>
+			<id>10207</id>
+			<name>Arc long de Seleth</name>
+			<icon>00010207.png</icon>
+			<desc>Un arc long possédé par une forte haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10031</id>
+			<name>Épée longue de Seleth ultime</name>
+			<icon>00010007.png</icon>
+			<desc>Une épée longue de Seleth qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée longue de Seleth.\n\n- Rétablir la durabilité maximale : épée longue de Seleth de la flamme pourpre, épée longue de Seleth de destruction, épée longue de Seleth de tentation, épée longue de Seleth</desc>
+		</item>
+		<item>
+			<id>10030</id>
+			<name>Épée longue de Seleth de tentation</name>
+			<icon>00010007.png</icon>
+			<desc>Cette épée longue de Seleth renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée longue de Seleth.\n\n- Rétablir la durabilité maximale : épée longue de Seleth de tentation, épée longue de Seleth</desc>
+		</item>
+		<item>
+			<id>10029</id>
+			<name>Épée longue de Seleth de destruction</name>
+			<icon>00010007.png</icon>
+			<desc>Cette épée longue de Seleth renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée longue de Seleth.\n\n- Rétablir la durabilité maximale : épée longue de Seleth de destruction, épée longue de Seleth</desc>
+		</item>
+		<item>
+			<id>10028</id>
+			<name>Épée longue de Seleth de la flamme pourpre</name>
+			<icon>00010007.png</icon>
+			<desc>Cette épée longue de Seleth renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée longue de Seleth.\n\n- Rétablir la durabilité maximale : épée longue de Seleth de la flamme pourpre, épée longue de Seleth</desc>
+		</item>
+		<item>
+			<id>10007</id>
+			<name>Épée longue de Seleth</name>
+			<icon>00010007.png</icon>
+			<desc>Une épée longue possédée d&apos;une forte haine contre l&apos;humanité.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

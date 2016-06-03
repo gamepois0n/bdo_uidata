@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7205</itemKey>
+	<itemName>Corn Dough</itemName>
+	<itemIcon>00007205.png</itemIcon>
+	<itemDesc>A product made by Shaking Corn Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>7105</id>
+			<name>Corn Flour</name>
+			<icon>00007105.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained through Grinding Corn.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

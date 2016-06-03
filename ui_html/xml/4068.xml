@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4068</itemKey>
+	<itemName>Polished Stone</itemName>
+	<itemIcon>00004068.png</itemIcon>
+	<itemDesc>A Crude Stone used as material for Crafting.\n\n- How to Obtain: It can be obtained by Grinding Rough Stones.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4006</id>
+			<name>Rough Stone</name>
+			<icon>00004006.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Gathered with a Pickaxe from any rock on the ground.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>3719</id>
+			<name>Advanced Cooking Utensil</name>
+			<icon>Crafting_Cooking_03.png</icon>
+			<desc>A high-quality tool used when cooking.\n- It can be installed in a residence.\n- Additional effects applied later</desc>
+		</item>
+		<item>
+			<id>3703</id>
+			<name>Advanced Alchemy Tool</name>
+			<icon>Crafting_Alchemy_03.png</icon>
+			<desc>A tool that can reconstruct the substance.\n- It can be installed in a residence.\n- Additional effects applied later</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

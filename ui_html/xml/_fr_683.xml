@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>683</itemKey>
+	<itemName>Élixir d&apos;énergie déferlante</itemName>
+	<itemIcon>00000683.png</itemIcon>
+	<itemDesc>Récupération auto. des PM +15 pendant 8 min.\n- Temps de recharge : 10 min.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Réactif de poudre pure</name>
+			<icon>00005302.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>520</id>
+			<name>Potion de mana (petite)</name>
+			<icon>00000520.png</icon>
+			<desc>Restaure instantanément les PM par +125 à l&apos;utilisation.\n- Temps de recharge : 6 sec.\n- S&apos;achète en magasin.</desc>
+		</item>
+		<item>
+			<id>6203</id>
+			<name>Sang de renard</name>
+			<icon>00006203.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un renard mort.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

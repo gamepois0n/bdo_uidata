@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8516</itemKey>
+	<itemName>Carpe séchée</itemName>
+	<itemIcon>00008516.png</itemIcon>
+	<itemDesc>Une carpe obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8216</id>
+			<name>Carpe</name>
+			<icon>00008216.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55916</id>
+			<name>Carpe séchée sous vide</name>
+			<icon>00055916.png</icon>
+			<desc>Un objet de commerce contenant 10 carpes séchées.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

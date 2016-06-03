@@ -1,0 +1,168 @@
+<UI>
+	<Control Type="Panel" Name="Panel_InstallationMode_FarmInfo" Pos="196 90" Size="335 485" Pan="0 0" Color="ffffffff" EnableArea="0 0 335 485" Grid="1" GridPosX="0 10 325 335" GridPosY="0 10 475 485" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 360 35"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="360 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 800 6" Grid="1" GridPosX="0 80 300 360" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="재배 가이드" formatString="PANEL_INSTALLATIONMODE_FARMINFO_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Crop" Pos="Left Top" Size="120 32" Pan="15 40" Color="ffffffff" EnableArea="0 0 120 32" Grid="1" GridPosX="0 30 115 120" GridPosY="0 0 32 32" GridUVX="0 30 149 154" GridUVY="0 0 32 32" UseDefaultSound="1" ClickSound="1 0" OverSound="0 4" Group="0">
+			<Texture Type="Base" UV="1 1 155 1 1 33 155 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="On" UV="156 1 310 1 156 33 310 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="Click" UV="311 1 465 1 311 33 465 33" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sprite" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="1" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="작 물" formatString="PANEL_INSTALLATIONMODE_FARMINFO_CROP_BTN" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_DomesticAnimal" Pos="Left Top" Size="120 32" Pan="140 40" Color="ffffffff" EnableArea="0 0 120 32" Grid="1" GridPosX="0 30 115 120" GridPosY="0 0 32 32" GridUVX="0 30 149 154" GridUVY="0 0 32 32" UseDefaultSound="1" ClickSound="1 0" OverSound="0 4" Group="0">
+			<Texture Type="Base" UV="1 34 155 34 1 66 155 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="On" UV="156 34 310 34 156 66 310 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="Click" UV="311 34 465 34 311 66 465 66" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="5.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Sprite" Activity="True" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="60" AdvanceType="1" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="가 축" formatString="PANEL_INSTALLATIONMODE_FARMINFO_DOMESTICANIMAL_BTN" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_FarmBaseInfoBG" Pos="Left Top" Size="315 90" Pan="10 80" Color="ffffffff" EnableArea="0 0 315 90" Grid="1" GridPosX="0 10 305 315" GridPosY="0 10 80 90" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FarmBaseInfoTitle" Pos="Left Top" Size="234 22" Pan="15 85" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 기본 정보" formatString="PANEL_INSTALLATIONMODE_FARMINFO_BASEINFOTITLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_FarmBaseInfoIcon1" Pos="20 115" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="5 51 47 51 5 93 47 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="5 97 47 97 5 139 47 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="5 97 47 97 5 139 47 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmBaseInfoIcon2" Pos="70 115" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="52 51 94 51 52 93 94 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="52 97 94 97 52 139 94 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="52 97 94 97 52 139 94 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmBaseInfoIcon3" Pos="120 115" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="99 51 141 51 99 93 141 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="99 97 141 97 99 139 141 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="99 97 141 97 99 139 141 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmBaseInfoIcon4" Pos="170 115" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="146 51 188 51 146 93 188 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="146 97 188 97 146 139 188 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="146 97 188 97 146 139 188 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmBaseInfoIcon5" Pos="220 115" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="5 189 47 189 5 231 47 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="5 235 47 235 5 277 47 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="5 235 47 235 5 277 47 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmBaseInfoIcon6" Pos="270 115" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="52 189 94 189 52 231 94 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="52 235 94 235 52 277 94 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="52 235 94 235 52 277 94 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmManagementInfoBG" Pos="Left Top" Size="315 90" Pan="10 175" Color="ffffffff" EnableArea="0 0 315 90" Grid="1" GridPosX="0 10 305 315" GridPosY="0 10 80 90" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FarmManagementInfoTitle" Pos="Left Top" Size="234 22" Pan="15 180" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 관리 정보" formatString="PANEL_INSTALLATIONMODE_FARMINFO_FARMMANAGEMENTINFOTITLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_FarmManagementInfoIcon1" Pos="20 210" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="99 189 141 189 99 231 141 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="99 235 141 235 99 277 141 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="99 235 141 235 99 277 141 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmManagementInfoIcon2" Pos="70 210" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="146 189 188 189 146 231 188 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="146 235 188 235 146 277 188 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="146 235 188 235 146 277 188 277" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmManagementInfoIcon3" Pos="120 210" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="5 327 47 327 5 369 47 369" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="5 373 47 373 5 415 47 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="5 373 47 373 5 415 47 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmManagementInfoIcon4" Pos="170 210" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="52 327 94 327 52 369 94 369" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="52 373 94 373 52 415 94 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="52 373 94 373 52 415 94 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmManagementInfoIcon5" Pos="120 210" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="193 51 235 51 193 93 235 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="193 97 235 97 193 139 235 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="193 97 235 97 193 139 235 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmManagementInfoIcon6" Pos="170 210" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="240 51 282 51 240 93 282 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="240 97 282 97 240 139 282 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="240 97 282 97 240 139 282 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmHavestInfoBG" Pos="Left Top" Size="315 90" Pan="10 270" Color="ffffffff" EnableArea="0 0 315 90" Grid="1" GridPosX="0 10 305 315" GridPosY="0 10 80 90" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FarmHavestInfoTitle" Pos="Left Top" Size="234 22" Pan="15 275" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 수확 정보" formatString="PANEL_INSTALLATIONMODE_FARMINFO_HAVESTINFOTITLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_FarmHavestInfoIcon1" Pos="20 305" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="99 327 141 327 99 369 141 369" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="99 373 141 373 99 415 141 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="99 373 141 373 99 415 141 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmHavestInfoIcon2" Pos="70 305" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="146 327 188 327 146 369 188 369" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="146 373 188 373 146 415 188 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="146 373 188 373 146 415 188 415" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmHavestInfoIcon3" Pos="20 305" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="334 51 376 51 334 93 376 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="334 97 376 97 334 139 376 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="334 97 376 97 334 139 376 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FarmHavestInfoIcon4" Pos="70 305" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="287 51 329 51 287 93 329 93" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="On" UV="287 97 329 97 287 139 329 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+			<Texture Type="Click" UV="287 97 329 97 287 139 329 139" Ani="1 1 0.000 0">new_ui_common_forlua/widget/housing/housing_tentobjectinfo_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_C_IconSelect" Pos="19 114" Size="44 44" Pan="0 0" Color="b7ffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="197 209 239 209 197 251 239 251" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="afffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="2.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_FarmInfoDescBG" Pos="Left Top" Size="315 110" Pan="10 365" Color="ffffffff" EnableArea="0 0 315 110" Grid="1" GridPosX="0 10 305 315" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FarmInfoTitle" Pos="Left Top" Size="234 22" Pan="15 370" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Text Value="허수아비" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FarmInfoDesc" Pos="Left Top" Size="305 20" Pan="15 400" Color="ffffffff" EnableArea="0 0 305 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="재배 가이드 설명" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ToolTip" Pos="0 0" Size="100 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 50" Grid="1" GridPosX="0 10 90 100" GridPosY="0 10 40 50" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="64 1 126 1 64 63 126 63" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

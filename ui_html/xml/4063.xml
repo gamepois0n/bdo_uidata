@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4063</itemKey>
+	<itemName>Melted Zinc Shard</itemName>
+	<itemIcon>00004063.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Zinc Ore.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bloodstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mudstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zinc</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4005</id>
+			<name>Zinc Ore</name>
+			<icon>00004005.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Omar Lava Cave, Abandoned Iron Mine, and Ancient Fissure. It can be directly obtained from Ore containing Zinc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10305</id>
+			<name>Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A dagger made for parrying attacks.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10324</id>
+			<name>Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A dagger crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10505</id>
+			<name>Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A talisman with enhanced defensive abilities.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10524</id>
+			<name>Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A talisman crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10724</id>
+			<name>Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>An ornamental knot crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13003</id>
+			<name>Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>A trinket with a pouch full of incense.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4066</id>
+			<name>Brass Ingot</name>
+			<icon>00004066.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Copper and Zinc together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4064</id>
+			<name>Zinc Ingot</name>
+			<icon>00004064.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Zinc Shards. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

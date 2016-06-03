@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6151</itemKey>
+	<itemName>Weiches Leder</itemName>
+	<itemIcon>00006151.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Hirsch-, Schafs- oder Fuchsfell gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Elch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Elchkuh</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fleckenhirsch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fuchs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Graufuchs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Großhornschaf</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Junger Elch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Junges Großhornschaf</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Junges Mediah-Großhornschaf</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lamm</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mediahziege</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Regenbogenfuchs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendia-Großhornschaf</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendianischer Prachtgeweihhi</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wollschaf</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6001</id>
+			<name>Hirschfell</name>
+			<icon>00006001.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Hirschkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6002</id>
+			<name>Schafsfell</name>
+			<icon>00006002.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Schafkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6003</id>
+			<name>Fuchsfell</name>
+			<icon>00006003.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Fuchskadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>52703</id>
+			<name>Kampf-Ledersattel</name>
+			<icon>00052703.png</icon>
+			<desc>Ein beständiger, schwerer Kampfsattel aus hartem Leder.\nErhöht die Stabilität, um schneller reiten zu können.\n\n– Ausrüstung für Pferde und Esel\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>52702</id>
+			<name>Leichter Ledersattel</name>
+			<icon>00052702.png</icon>
+			<desc>Ein widerstandsfähigerer, leichterer Sattel aus hochwertigem Leder.\nErhöht die Stabilität, um schneller reiten zu können.\n\n– Ausrüstung für Pferde und Esel\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Agerian-Rüstung der Eisenmauer</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Eisenmauer, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Agerian-Helm der Eisenmauer</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Eisenmauer, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10840</id>
+			<name>Ultimative Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Maximal aufgerüstete Agerian-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Eisenmauer, Agerian-Schuhe der Beweglichkeit, Agerian-Schuhe der Einschüchterung, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10839</id>
+			<name>Ultimative Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Maximal aufgerüstete Agerian-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Eisenmauer, Agerian-Handschuhe der Beweglichkeit, Agerian-Handschuhe der Einschüchterung, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10838</id>
+			<name>Ultimative Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maximal aufgerüstete Agerian-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Eisenmauer, Agerian-Rüstung der Beweglichkeit, Agerian-Rüstung der Einschüchterung, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10837</id>
+			<name>Ultimativer Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Ein maximal aufgerüsteter Agerian-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Eisenmauer, Agerian-Helm der Beweglichkeit, Agerian-Helm der Einschüchterung, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Agerian-Schuhe der Einschüchterung</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Einschüchterung, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Agerian-Handschuhe der Einschüchterung</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Einschüchterung, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Agerian-Handschuhe der Beweglichkeit</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Beweglichkeit, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Agerian-Rüstung der Beweglichkeit</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Beweglichkeit, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Agerian-Helm der Beweglichkeit</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Beweglichkeit, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Agerian-Schuhe der Eisenmauer</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Eisenmauer, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Agerian-Handschuhe der Eisenmauer</name>
+			<icon>00010811.png</icon>
+			<desc>Diese Agerian-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Handschuhe der Eisenmauer, Agerian-Handschuhe</desc>
+		</item>
+		<item>
+			<id>51007</id>
+			<name>Wagenregistrierung: Händlerwagen</name>
+			<icon>00051007.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Händlerwagens 』.\n– Inventarplätze: 18, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51005</id>
+			<name>Wagenregistrierung: Handelswagen</name>
+			<icon>00051005.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Handelswagen 』.\n– Inventarplätze: 16, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>10812</id>
+			<name>Agerian-Schuhe</name>
+			<icon>00010812.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10811</id>
+			<name>Agerian-Handschuhe</name>
+			<icon>00010811.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10810</id>
+			<name>Agerian-Rüstung</name>
+			<icon>00010810.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10809</id>
+			<name>Agerian-Helm</name>
+			<icon>00010809.png</icon>
+			<desc>Eine maßgefertigte Rüstung, die für auserlesene Mitglieder der Miliz hergestellt wird.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Agerian-Rüstung der Einschüchterung</name>
+			<icon>00010810.png</icon>
+			<desc>Diese Agerian-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Rüstung der Einschüchterung, Agerian-Rüstung</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Agerian-Helm der Einschüchterung</name>
+			<icon>00010809.png</icon>
+			<desc>Dieser Agerian-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Helm der Einschüchterung, Agerian-Helm</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Agerian-Schuhe der Beweglichkeit</name>
+			<icon>00010812.png</icon>
+			<desc>Diese Agerian-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Agerian-Schuhe der Beweglichkeit, Agerian-Schuhe</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Vangertz-Schild der Zerstörung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Zerstörung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz-Schild der Purpurnen Flamme</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein starker Legierungsschild, der den größten Schutz bietet.</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein stahlüberzogener Schild, der für gewöhnlich zum Angriff genutzt wird.</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein Rundschild aus hartem Eisen.</desc>
+		</item>
+		<item>
+			<id>10128</id>
+			<name>Krea-Schild der Versuchung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion-Schild der Zerstörung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Zerstörung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion-Schild der Purpurnen Flamme</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Purpurnen Flamme, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10109</id>
+			<name>Ultimativer Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein maximal aufgerüsteter Vangertz-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild der Zerstörung, Vangertz-Schild der Versuchung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz-Schild der Versuchung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Versuchung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Drachenschild der Zerstörung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Zerstörung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Drachenschild der Purpurnen Flamme</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Purpurnen Flamme, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10113</id>
+			<name>Ultimativer Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein maximal aufgerüsteter Axion-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Purpurnen Flamme, Axion-Schild der Zerstörung, Axion-Schild der Versuchung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion-Schild der Versuchung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Versuchung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10131</id>
+			<name>Ultimativer Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild der Zerstörung, Krea-Schild der Versuchung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10117</id>
+			<name>Ultimativer Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein maximal aufgerüsteter Drachenschild.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Purpurnen Flamme, Drachenschild der Zerstörung, Drachenschild der Versuchung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Drachenschild der Versuchung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Versuchung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea-Schild der Zerstörung</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Zerstörung, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea-Schild der Purpurnen Flamme</name>
+			<icon>00010124.png</icon>
+			<desc>Dieser Krea-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schild der Purpurnen Flamme, Krea-Schild</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea-Schild</name>
+			<icon>00010124.png</icon>
+			<desc>Ein Schild, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>6159</id>
+			<name>Feines weiches Leder</name>
+			<icon>00006159.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Schafs-, Hirsch- oder Fuchsfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

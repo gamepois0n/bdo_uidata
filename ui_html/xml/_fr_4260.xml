@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4260</itemKey>
+	<itemName>Opale polie</itemName>
+	<itemIcon>00004260.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4204</id>
+			<name>Opale brute</name>
+			<icon>00004204.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Il faut un certain niveau de compétence pour collecter des opales brutes.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55863</id>
+			<name>Coffre à bijoux en opale</name>
+			<icon>00055863.png</icon>
+			<desc>Les opales récupérées dans la mer de Balenos sont censées être les meilleures qui soient. L&apos;une des spécialités de Velia est une boîte à bijoux décorée avec l&apos;une de ces opales.</desc>
+		</item>
+		<item>
+			<id>24005</id>
+			<name>[Jukebox] Prière du temps</name>
+			<icon>InHouse_X_DPF_JukeBox_02.png</icon>
+			<desc>Un juke-box jouant la musique « Prière du temps ».</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Vase en opale magnifique</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Vase en opale magnifique.</desc>
+		</item>
+		<item>
+			<id>4265</id>
+			<name>Opale brillante</name>
+			<icon>00004265.png</icon>
+			<desc>Une ressource naturelle transformée. Elle est utilisée en alchimie et en transformation.\n\n- Obtention : chauffez plusieurs fois une opale brute. Nécessite des connaissances en chauffage (intermédiaire).\n\n※ Allez voir Plabiano à Heidel pour terminer la quête De l&apos;eau pure pour une expérience pour acquérir les connaissances nécessaires.\n\n※ Pour poursuivre la quête, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et aller voir Ficy à Heidel pour terminer la chaîne de quêtes. Invoquez l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

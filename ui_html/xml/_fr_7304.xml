@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7304</itemKey>
+	<itemName>Fraise</itemName>
+	<itemIcon>00007304.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé en cuisine.\n- Utilisation : jus de fruits, pudding aux fruits, etc.\nObtention : s&apos;obtient en cultivant des graines de fraises dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</itemDesc>
+	<shop>
+		<character>
+			<name>Milano Bellucci</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>7404</id>
+			<name>Caisse de fraises</name>
+			<icon>00007404.png</icon>
+			<desc>Une récolte transformée pour être vendue à bon prix. Elle peut être vendue à des marchands.\n- Obtention : elle peut être préparée à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

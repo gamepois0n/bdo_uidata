@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10106</itemKey>
+	<itemName>Vangertz-Schild der Purpurnen Flamme</itemName>
+	<itemIcon>00010102.png</itemIcon>
+	<itemDesc>Dieser Vangertz-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild</itemDesc>
+	<house type="7">
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Reiner Eisenkristall</name>
+			<icon>00004053.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Eisenbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6151</id>
+			<name>Weiches Leder</name>
+			<icon>00006151.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Hirsch-, Schafs- oder Fuchsfell gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Pulver der Dunkelheit</name>
+			<icon>00004801.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10102</id>
+			<name>Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein Rundschild aus hartem Eisen.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10107</id>
+			<name>Vangertz-Schild der Zerstörung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Zerstörung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz-Schild der Purpurnen Flamme</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein Rundschild aus hartem Eisen.</desc>
+		</item>
+		<item>
+			<id>10109</id>
+			<name>Ultimativer Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein maximal aufgerüsteter Vangertz-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild der Zerstörung, Vangertz-Schild der Versuchung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz-Schild der Versuchung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Versuchung, Vangertz-Schild</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

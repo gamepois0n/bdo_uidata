@@ -1,0 +1,31 @@
+<UI>
+	<Control Type="Panel" Name="Panel_ProductNote" Pos="Center Center" Size="787 680" Pan="0 0" Color="ffffffff" EnableArea="0 0 787 680" Grid="1" GridPosX="0 50 737 787" GridPosY="0 50 630 680" GridUVX="0 50 770 820" GridUVY="0 50 535 585">
+		<Texture Type="Base" UV="0 0 820 0 0 585 820 585" Ani="1 1 0.000 0">new_ui_common_forlua/window/characterinfo/my_info_back_wide.dds</Texture>
+		<Attribute Type="Drag" Area="25 15 1075 50"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="773 46" Pan="0 6" Color="ffffffff" EnableArea="0 0 773 46" Grid="1" GridPosX="0 50 723 773" GridPosY="0 30 40 46" GridUVX="0 50 350 400" GridUVY="0 30 40 46">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 400 0 0 46 400 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+			<Text Value="제작 노트" formatString="PANEL_PRODUCTNOTE_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 12"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="20 22" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="41 22" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_CloseWindow" Pos="Right Bottom" Size="154 32" Pan="40 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 5 149 154" GridPosY="0 5 27 32" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="닫 기" formatString="PANEL_QNAWEBLINK_BTN_CLOSEWINDOW" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

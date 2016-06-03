@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4004</itemKey>
+	<itemName>Zinnerz</itemName>
+	<itemIcon>00004004.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Khurutohöhle, Rhutum-Außenposten, Behr-Flussquelle. Kann aus zinnhaltigem Erz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Diorit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Moospflanze</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zinn</name>
+		</character>
+	</collect>
+	<node region="Khurutohöhle – Bergbau"/>
+	<node region="Rhutum-Außenposten – Bergbau"/>
+	<node region="Behr-Flussquelle – Bergbau"/>
+	<makelist>
+		<item>
+			<id>55845</id>
+			<name>Zinnerzkiste</name>
+			<icon>00055845.png</icon>
+			<desc>Handelsware, die 10 Zinnerze enthält.</desc>
+		</item>
+		<item>
+			<id>4061</id>
+			<name>Zinnbarren</name>
+			<icon>00004061.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Zinnsplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4060</id>
+			<name>Geschmolzener Zinnsplitter</name>
+			<icon>00004060.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinnerz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

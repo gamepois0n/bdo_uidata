@@ -1,0 +1,59 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Manufacture_Notify" Pos="Center Bottom" Size="240 110" Pan="0 110" Color="ffffffff" EnableArea="0 0 240 110">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_Progress_BG" Pos="Left Top" Size="240 25" Pan="0 40" Color="ffffffff" EnableArea="0 0 240 25" Grid="1" GridPosX="0 1 239 240" GridPosY="0 1 24 25" GridUVX="0 1 139 140" GridUVY="0 1 4 5" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 135 140 135 1 140 140 140" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_Manufacture" Pos="Left Top" Size="240 25" Pan="0 40" Color="ffffffff" EnableArea="0 0 240 25" Grid="1" GridPosX="0 1 239 240" GridPosY="0 1 24 25" GridUVX="0 1 139 140" GridUVY="0 1 4 5">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 128 140 128 1 133 140 133" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="1.000000"/>
+			<Control Type="Static" Name="Progress2_RestorePoint_Bar_Head" Pos="-3 0" Size="1 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 25">
+				<Attribute Type="Ignore"/>
+				<Texture Type="Base" UV="146 107 147 107 146 111 147 111" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_Progress_Effect" Pos="Left Top" Size="240 25" Pan="0 40" Color="ffffffff" EnableArea="0 0 240 25" AutoDisableTime="0.000000"/>
+		<Control Type="StaticText" Name="StaticText_ResultItem" Pos="Right Top" Size="50 13" Pan="22 21" Color="ccffffff" EnableArea="0 0 50 13">
+			<Attribute Type="Ignore"/>
+			<Text Value="다듬어진 석재 (100)" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 3"/>
+		</Control>
+		<Control Type="Static" Name="Static_ResultIcon_BG" Pos="Right Top" Size="18 18" Pan="0 19" Color="ffffffff" EnableArea="-20 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ResultIcon" Pos="Right Top" Size="10 10" Pan="4 22" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/07_productmaterial/00006002.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ResourceItem" Pos="Left Top" Size="50 13" Pan="25 69" Color="ccffffff" EnableArea="0 0 50 13">
+			<Attribute Type="Ignore"/>
+			<Text Value="거친 석재 (100)" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 3"/>
+		</Control>
+		<Control Type="Static" Name="Static_ResourceIcon_BG" Pos="Left Top" Size="18 18" Pan="4 67" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="64 1 82 1 64 19 82 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ResourceIcon" Pos="Left Top" Size="10 10" Pan="8 70" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/07_productmaterial/00006002.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Manufacture_Progress" Pos="Right Top" Size="50 20" Pan="5 42" Color="ccffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50%" Font="BaseFont_10" Color="f1ffffff" OverColor="f1ffffff" ClickColor="f1ffffff" AlignHorizon="Right" AlignVertical="Top" Span="0 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Manufacture_Type" Pos="Left Top" Size="50 20" Pan="5 42" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="빻기 " Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Result_Title" Pos="Right Top" Size="50 13" Pan="0 1" Color="ccffffff" EnableArea="0 0 50 13">
+			<Attribute Type="Ignore"/>
+			<Text Value="결과물" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UnderLine" Pos="Left Top" Size="265 6" Pan="-15 62" Color="ffffffff" EnableArea="0 0 265 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Bottom" Span="-10 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4470</itemKey>
+	<itemName>Black Crystal</itemName>
+	<itemIcon>00004470.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Black Crystals.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4410</id>
+			<name>Rough Black Crystal</name>
+			<icon>00004410.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Black Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Mediah Abandoned Iron Mine.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10933</id>
+			<name>Grunil Helmet</name>
+			<icon>00010933.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10934</id>
+			<name>Grunil Armor</name>
+			<icon>00010934.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10935</id>
+			<name>Grunil Gloves</name>
+			<icon>00010935.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10936</id>
+			<name>Grunil Shoes</name>
+			<icon>00010936.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55857</id>
+			<name>Black Crystal Amulet of Authority</name>
+			<icon>00055857.png</icon>
+			<desc>An accessory made of Black Crystal. Those who want power carry this around with them as a charm.</desc>
+		</item>
+		<item>
+			<id>10934</id>
+			<name>Grunil Armor</name>
+			<icon>00010934.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10933</id>
+			<name>Grunil Helmet</name>
+			<icon>00010933.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10943</id>
+			<name>Grunil Gloves of Iron Wall</name>
+			<icon>00010935.png</icon>
+			<desc>Iron Wall energy is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Iron Wall, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10942</id>
+			<name>Grunil Armor of Iron Wall</name>
+			<icon>00010934.png</icon>
+			<desc>Iron Wall energy is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Iron Wall, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10941</id>
+			<name>Grunil Helmet of Iron Wall</name>
+			<icon>00010933.png</icon>
+			<desc>Iron Wall energy is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Iron Wall, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10936</id>
+			<name>Grunil Shoes</name>
+			<icon>00010936.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10935</id>
+			<name>Grunil Gloves</name>
+			<icon>00010935.png</icon>
+			<desc>Custom made armor for fastidious adventurers\n-Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10962</id>
+			<name>Ultimate Grunil Armor</name>
+			<icon>00010934.png</icon>
+			<desc>Grunil Armor developed to its maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Iron Wall, Grunil Armor of Agility, Grunil Armor of Intimidation, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10961</id>
+			<name>Ultimate Grunil Helmet</name>
+			<icon>00010933.png</icon>
+			<desc>A Grunil Helmet developed to its maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Iron Wall, Grunil Helmet of Agility, Grunil Helmet of Intimidation, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10947</id>
+			<name>Grunil Gloves of Agility</name>
+			<icon>00010935.png</icon>
+			<desc>The energy of Agility is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Agility, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10946</id>
+			<name>Grunil Armor of Agility</name>
+			<icon>00010934.png</icon>
+			<desc>The energy of Agility is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Agility, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10945</id>
+			<name>Grunil Helmet of Agility</name>
+			<icon>00010933.png</icon>
+			<desc>The energy of Agility is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Agility, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10944</id>
+			<name>Grunil Shoes of Iron Wall</name>
+			<icon>00010936.png</icon>
+			<desc>Iron Wall energy is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Iron Wall, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10964</id>
+			<name>Ultimate Grunil Shoes</name>
+			<icon>00010936.png</icon>
+			<desc>Grunil Shoes developed to their maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Iron Wall, Grunil Shoes of Agility, Grunil Shoes of Intimidation, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10963</id>
+			<name>Ultimate Grunil Gloves</name>
+			<icon>00010935.png</icon>
+			<desc>Grunil Gloves developed to their maximum potential.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Iron Wall, Grunil Gloves of Agility, Grunil Gloves of Intimidation, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10952</id>
+			<name>Grunil Shoes of Intimidation</name>
+			<icon>00010936.png</icon>
+			<desc>The energy of Intimidation is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Intimidation, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>10951</id>
+			<name>Grunil Gloves of Intimidation</name>
+			<icon>00010935.png</icon>
+			<desc>The energy of Intimidation is contained within these Grunil Gloves.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Gloves of Intimidation, Grunil Gloves</desc>
+		</item>
+		<item>
+			<id>10950</id>
+			<name>Grunil Armor of Intimidation</name>
+			<icon>00010934.png</icon>
+			<desc>The energy of Intimidation is contained within this Grunil Armor.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Armor of Intimidation, Grunil Armor</desc>
+		</item>
+		<item>
+			<id>10949</id>
+			<name>Grunil Helmet of Intimidation</name>
+			<icon>00010933.png</icon>
+			<desc>The energy of Intimidation is contained within this Grunil Helmet.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Helmet of Intimidation, Grunil Helmet</desc>
+		</item>
+		<item>
+			<id>10948</id>
+			<name>Grunil Shoes of Agility</name>
+			<icon>00010936.png</icon>
+			<desc>The energy of Agility is contained within these Grunil Shoes.\n- Equipping 2 or more parts will trigger the set effect.\n\n- Repair to Max. Durability: Grunil Shoes of Agility, Grunil Shoes</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Grade 3 Armor Reform Stone</name>
+			<icon>00004911.png</icon>
+			<desc>A material used in 3rd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Grade 3 Weapon Reform Stone</name>
+			<icon>00004910.png</icon>
+			<desc>A material used in 3rd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

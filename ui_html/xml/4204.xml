@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4204</itemKey>
+	<itemName>Rough Opal</itemName>
+	<itemIcon>00004204.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Opals require a certain level of skill to collect.</itemDesc>
+	<collect>
+		<character>
+			<name>Opal</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Strange Rock</name>
+		</character>
+	</collect>
+	<node region="Mediah Shore - Mining"/>
+	<makelist>
+		<item>
+			<id>4260</id>
+			<name>Polished Opal</name>
+			<icon>00004260.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

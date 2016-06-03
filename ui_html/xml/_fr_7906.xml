@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7906</itemKey>
+	<itemName>Bœuf</itemName>
+	<itemIcon>00007906.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant une vache morte.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Bison crâneroche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bison queue-de-pierre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bison à poil long</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Jeune bœuf des trolls</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Petit bison crâneroche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Petite salamandre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Vache-troll</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Viande séchée rare</name>
+			<icon>00007920.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

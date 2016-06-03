@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>13004</itemKey>
+	<itemName>Colifichet d&apos;aiguille</itemName>
+	<itemIcon>00013005.png</itemIcon>
+	<itemDesc>Un colifichet avec une poche pleine d&apos;aiguilles.</itemDesc>
+	<shop>
+		<character>
+			<name>Ornella</name>
+		</character>
+	</shop>
+	<house type="6">
+		<item>
+			<id>4077</id>
+			<name>Lingot d&apos;acier</name>
+			<icon>00004077.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant des fragments de fer fondu et du charbon. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Cristal de fer pur</name>
+			<icon>00004053.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de fer. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5854</id>
+			<name>Fil à tricoter</name>
+			<icon>00005854.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant de la toison.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Poudre de flamme</name>
+			<icon>00004802.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>13004</id>
+			<name>Colifichet d&apos;aiguille</name>
+			<icon>00013005.png</icon>
+			<desc>Un colifichet avec une poche pleine d&apos;aiguilles.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>13012</id>
+			<name>Colifichet d&apos;aiguille de tentation</name>
+			<icon>00013005.png</icon>
+			<desc>Ce colifichet d&apos;aiguille renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de tentation, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Colifichet d&apos;aiguille de destruction</name>
+			<icon>00013005.png</icon>
+			<desc>Ce colifichet d&apos;aiguille renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de destruction, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Colifichet d&apos;aiguille de la flamme pourpre</name>
+			<icon>00013005.png</icon>
+			<desc>Ce colifichet d&apos;aiguille renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de la flamme pourpre, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>13013</id>
+			<name>Colifichet d&apos;aiguille ultime</name>
+			<icon>00013005.png</icon>
+			<desc>Un colifichet d&apos;aiguille qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet d&apos;aiguille de la flamme pourpre, colifichet d&apos;aiguille de destruction, colifichet d&apos;aiguille de tentation, colifichet d&apos;aiguille</desc>
+		</item>
+		<item>
+			<id>13004</id>
+			<name>Colifichet d&apos;aiguille</name>
+			<icon>00013005.png</icon>
+			<desc>Un colifichet avec une poche pleine d&apos;aiguilles.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Cristal de fer pur</name>
+			<icon>00004053.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de fer. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Fragment de fer fondu</name>
+			<icon>00004051.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de fer.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

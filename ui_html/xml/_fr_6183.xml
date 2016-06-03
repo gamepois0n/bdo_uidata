@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6183</itemKey>
+	<itemName>Revêtement de cuir</itemName>
+	<itemIcon>00006183.png</itemIcon>
+	<itemDesc>Matériau utilisé pour renforcer le cuir, la fourrure, et les plumes grâce à la transformation.\n\n- Obtention : s&apos;obtient grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Poudre des ténèbres</name>
+			<icon>00004801.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>5002</id>
+			<name>Sève d&apos;érable</name>
+			<icon>00005002.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un érable.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace d&apos;ascension</name>
+			<icon>00005955.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>6174</id>
+			<name>Plume fine ultime</name>
+			<icon>00006174.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une plume fine distinguée et du revêtement de cuir, un ingrédient préparé par alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>6173</id>
+			<name>Plume légère ultime</name>
+			<icon>00006173.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des plumes légères distinguées et du revêtement de cuir, un ingrédient préparé par alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>6172</id>
+			<name>Fourrure fine ultime</name>
+			<icon>00006172.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une fourrure fine distinguée et du revêtement de fourrure, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>6171</id>
+			<name>Fourrure épaisse ultime</name>
+			<icon>00006171.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une fourrure fine délicate et du revêtement de fourrure, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>6170</id>
+			<name>Peau fine ultime</name>
+			<icon>00006170.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une peau fine délicate et du revêtement de cuir, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>6169</id>
+			<name>Peau dure ultime</name>
+			<icon>00006169.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une peau dure délicate et du revêtement de cuir, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>6168</id>
+			<name>Peau résistante ultime</name>
+			<icon>00006168.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une peau résistante délicate et du revêtement de cuir, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+		<item>
+			<id>6167</id>
+			<name>Peau souple ultime</name>
+			<icon>00006167.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une peau souple délicate et du revêtement de cuir, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

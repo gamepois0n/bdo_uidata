@@ -1,0 +1,80 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Chatting_Macro" Pos="979 530" Size="350 355" Pan="0 0" Color="ffffffff" EnableArea="0 0 350 355" Grid="1" GridPosX="0 10 340 350" GridPosY="0 10 345 355" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="Static" Name="Static_C_MacroBG" Pos="Center 7" Size="337 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 337 30" Grid="1" GridPosX="0 10 327 337" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_C_MacroKey" Pos="0 Center" Size="80 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Hide"/>
+			<Text Value="Ctrl + Alt + 1" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_C_Normal" Pos="70 Center" Size="52 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 53 1 1 19 53 19" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="On" UV="54 1 106 1 54 19 106 19" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="Click" UV="107 1 159 1 107 19 159 19" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_C_Whisper" Pos="70 Center" Size="52 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 20 53 20 1 38 53 38" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="On" UV="54 20 106 20 54 38 106 38" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="Click" UV="107 20 159 20 107 38 159 38" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_C_Party" Pos="70 Center" Size="52 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 39 53 39 1 57 53 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="On" UV="54 39 106 39 54 57 106 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="Click" UV="107 39 159 39 107 57 159 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_C_Guild" Pos="70 Center" Size="52 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 58 53 58 1 76 53 76" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="On" UV="54 58 106 58 54 76 106 76" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="Click" UV="107 58 159 58 107 76 159 76" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_C_World" Pos="70 Center" Size="52 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 77 53 77 1 95 53 95" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="On" UV="54 77 106 77 54 95 106 95" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="Click" UV="107 77 159 77 107 95 159 95" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_C_WorldWithItem" Pos="70 Center" Size="52 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 134 53 134 1 152 53 152" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="On" UV="54 134 106 134 54 152 106 152" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="Click" UV="107 134 159 134 107 152 159 152" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_C_Market" Pos="70 Center" Size="52 18" Pan="0 0" Color="ffffffff" EnableArea="0 0 52 18" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 134 43 134 1 152 43 152" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="On" UV="44 134 86 134 44 152 86 152" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Texture Type="Click" UV="87 134 129 134 87 152 129 152" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_C_InputMacro" Pos="128 Center" Size="210 25" Pan="15 0" Color="ffffffff" EnableArea="0 0 210 25" Grid="1" GridPosX="0 5 205 210" GridPosY="0 5 20 25" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+			<Attribute Type="MaxInput" Value="20"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Guide" Pos="10 328" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="※설정을 마치려면 ESC를 눌러주세요." formatString="PANEL_CHAT_MACRO_STCTXT_GUIDE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

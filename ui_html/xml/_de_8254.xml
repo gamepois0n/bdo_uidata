@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8254</itemKey>
+	<itemName>Bleekerfisch</itemName>
+	<itemIcon>00008254.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8554</id>
+			<name>Getrockneter Bleekerfisch</name>
+			<icon>00008554.png</icon>
+			<desc>Ein Getrockneter Bleekerfisch, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

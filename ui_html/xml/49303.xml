@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>49303</itemKey>
+	<itemName>Altinova Ferry Prow</itemName>
+	<itemIcon>00049303.png</itemIcon>
+	<itemDesc>A Mediah prow that can be attached to a ferry. It allows the boat to sail faster when equipped.\nWhen 3 or more set items are equipped:\nMovement Speed +3%\nAll DP +30\n- Mounts Usable: Ferry\nIt can be enhanced with a Black Stone (Armor).</itemDesc>
+	<house type="20">
+		<item>
+			<id>4678</id>
+			<name>Sturdy White Cedar Plywood</name>
+			<icon>00004678.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and White Cedar Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6353</id>
+			<name>Clown&apos;s Blood</name>
+			<icon>00006353.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+</itemInfo>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6006</itemKey>
+	<itemName>Ox Hide</itemName>
+	<itemIcon>00006006.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted cow corpse.</itemDesc>
+	<collect>
+		<character>
+			<name>Long-haired Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rock Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Small Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Small Stone Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Tail Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Troll Cow</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Troll Ox</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6152</id>
+			<name>Tough Hide</name>
+			<icon>00006152.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Fine Tough Hide</name>
+			<icon>00006160.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

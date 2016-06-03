@@ -1,0 +1,172 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Monster_Bar" Pos="Center Top" Size="350 100" Pan="0 5" Color="ffffffff" EnableArea="0 0 350 100" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_blackBG" Pos="Center Top" Size="500 250" Pan="0 0" Color="ffffffff" EnableArea="0 0 500 250" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 128 0 0 128 128 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/engauge_background.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Name_TargetName" Pos="Center Top" Size="200 15" Pan="0 10" Color="ffffffff" EnableArea="0 0 200 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="고블린 전사" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="EnemyHpRate" Pos="Right Top" Size="200 15" Pan="120 10" Color="ffffffff" EnableArea="0 0 200 15">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="100 / 100" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="EnemyGauge_Back" Pos="Center Top" Size="244 15" Pan="0 30" Color="ffffffff" EnableArea="0 0 244 15" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 33 245 33 1 48 245 48" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_TargetHP_Rate_Later" Pos="60 36" Size="230 3" Pan="0 0" Color="ffffffff" EnableArea="0 0 230 3">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 233 1 1 2 233 2" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_White" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Attribute Type="Smooth" Speed="8.000000"/>
+			<Control Type="Static" Name="Progress2_1_laterBar_Head" Pos="-12 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_TargetHP_Rate" Pos="60 36" Size="230 3" Pan="0 0" Color="ffffffff" EnableArea="0 0 230 3">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 49 231 49 1 52 231 52" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Right Top" Size="7 7" Pan="0 -2" Color="ffffffff" EnableArea="0 0 7 7" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="234 49 240 49 234 55 240 55" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="BossEnemyGauge_Back" Pos="Center Top" Size="236 18" Pan="0 30" Color="ffffffff" EnableArea="0 0 236 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 237 1 1 19 237 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="BossProgress2_TargetHP_Rate_Later" Pos="Center Top" Size="211 11" Pan="0 33" Color="ffffffff" EnableArea="0 0 211 11">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 85 212 85 1 97 212 97" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_White" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Attribute Type="Smooth" Speed="8.000000"/>
+			<Control Type="Static" Name="Progress2_1_laterBar_Head" Pos="-12 0" Size="20 11" Pan="0 0" Color="cc000044" EnableArea="0 0 20 11" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="BossProgress2_TargetHP_Rate" Pos="Center Top" Size="211 12" Pan="0 33" Color="ffffffff" EnableArea="0 0 211 12">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 20 212 20 1 32 212 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Right Top" Size="7 12" Pan="0 -2" Color="ffffffff" EnableArea="0 0 7 12" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="234 49 240 49 234 55 240 55" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="PlayerEnemyGauge_Back" Pos="Center Top" Size="236 18" Pan="0 30" Color="ffffffff" EnableArea="0 0 236 18" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="238 1 498 1 238 19 498 19" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="PlayerProgress2_TargetHP_Rate_Later" Pos="Center Top" Size="192 12" Pan="0 33" Color="ffffffff" EnableArea="0 0 192 12">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 85 212 85 1 97 212 97" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="2.00" EndIntensity="3.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_White" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Attribute Type="Smooth" Speed="8.000000"/>
+			<Control Type="Static" Name="Progress2_1_laterBar_Head" Pos="-12 0" Size="20 12" Pan="0 0" Color="cc000044" EnableArea="0 0 20 12" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Progress2" Name="PlayerProgress2_TargetHP_Rate" Pos="Center Top" Size="192 12" Pan="0 33" Color="ffffffff" EnableArea="0 0 192 12">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 20 212 20 1 32 212 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_01.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Right Top" Size="7 12" Pan="0 -2" Color="ffffffff" EnableArea="0 0 7 12" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="234 49 240 49 234 55 240 55" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="EnemyGaugeStun_Back" Pos="Center Top" Size="200 15" Pan="0 50" Color="ffffffff" EnableArea="0 0 200 15" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 33 245 33 1 48 245 48" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/enemygauge_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_TargetStun_Rate" Pos="Center Top" Size="188 3" Pan="0 56" Color="ffffffff" EnableArea="0 0 188 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 140 231 140 1 143 231 143" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Right Top" Size="7 3" Pan="0 -2" Color="ffffffff" EnableArea="0 0 7 3" AutoDisableTime="0.000000">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="234 49 240 49 234 55 240 55" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_Icon" Pos="4 3" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="186 1 200 1 186 2 200 2" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_StunMaxEffect" Pos="Center Top" Size="244 15" Pan="0 50" Color="ffffffff" EnableArea="0 0 244 15" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="Static" Name="Static_Darkspirit" Pos="440 32" Size="60 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 60" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_HelpBubble" Pos="132 73" Size="300 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 50" Grid="1" GridPosX="0 25 275 300" GridPosY="0 33 35 50" GridUVX="0 25 125 150" GridUVY="0 33 71 86" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 175 151 175 1 261 151 261" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HelpMsg" Pos="140 97" Size="280 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="이것에 대한 지식이 없으면 체력을 알 수 없어!" formatString="ENEMYGAUGE_STCTXT_HELPMSG" Font="BaseFont_10_Bold" Color="ff222222" OverColor="ff222222" ClickColor="ff222222" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Enemy_TypeIcon" Pos="64 6" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/ain.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Type" Pos="50 22" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="견고함" Font="BaseFont_7_Bold" Color="ffffe98f" OverColor="ffffe98f" ClickColor="ffffe98f" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_EnemyBuffListBoarder" Pos="Center Bottom" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="Static" Name="Static_EnemyBuffIcon" Pos="Left Bottom" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 32 0 0 32 32 32" Ani="1 1 0.000 0">new_ui_common_forlua/widget/enemygauge/nightbuff.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Runaway" Pos="132 73" Size="300 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 50" Grid="1" GridPosX="0 25 275 300" GridPosY="0 33 35 50" GridUVX="0 25 125 150" GridUVY="0 33 71 86" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 175 151 175 1 261 151 261" Ani="1 1 0.000 0">new_ui_common_forlua/widget/bubble/bubble.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Runaway" Pos="142 96" Size="280 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="달아나 바보야! 네가 감당할 수 있는 상대가 아니야!" formatString="ENEMYGAUGE_STCTXT_RUNAWAY" Font="BaseFont_12_Bold" Color="ffc20000" OverColor="ff222222" ClickColor="ff222222" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

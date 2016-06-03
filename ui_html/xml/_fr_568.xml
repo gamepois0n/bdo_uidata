@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>568</itemKey>
+	<itemName>Jus de grains hautement concentré</itemName>
+	<itemIcon>00000568.png</itemIcon>
+	<itemDesc>Restaure instantanément les PM par +200 à l&apos;utilisation.\n- Temps de recharge : 4 sec.\n- Pèse moins qu&apos;une potion normale.</itemDesc>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>567</id>
+			<name>Jus de grains concentré</name>
+			<icon>00000567.png</icon>
+			<desc>Restaure instantanément les PM par +125 à l&apos;utilisation.\n- Temps de recharge : 4 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_COOK">
+		<item>
+			<id>567</id>
+			<name>Jus de grains concentré</name>
+			<icon>00000567.png</icon>
+			<desc>Restaure instantanément les PM par +125 à l&apos;utilisation.\n- Temps de recharge : 4 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>578</id>
+			<name>Jus de grains raffiné</name>
+			<icon>00000572.png</icon>
+			<desc>PV restaurés : 275.\n- Temps de recharge : 5 sec.\n- C&apos;est plus léger qu&apos;une potion normale.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

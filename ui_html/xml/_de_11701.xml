@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11701</itemKey>
+	<itemName>Rubinhalskette</itemName>
+	<itemIcon>00011701.png</itemIcon>
+	<itemDesc>Eine mit einem Rubin verzierte Halskette.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4401</id>
+			<name>Rohrubin</name>
+			<icon>00004401.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohrubin erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4201</id>
+			<name>Silbererz</name>
+			<icon>00004201.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Silbererz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus silberhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11702</id>
+			<name>Glänzende Rubinhalskette</name>
+			<icon>00011702.png</icon>
+			<desc>Eine mit einem Funkelnden Rubin verzierte Halskette.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

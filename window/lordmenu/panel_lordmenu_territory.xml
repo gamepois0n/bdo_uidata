@@ -1,0 +1,78 @@
+<UI>
+	<Control Type="Panel" Name="Panel_LordMenu_Territory" Pos="Center Center" Size="400 460" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 465">
+		<Control Type="StaticText" Name="StaticText_Terr_Title_0" Pos="Center Top" Size="400 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="264 1 277 1 264 16 277 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="영지 정보" formatString="PANEL_LORDMENU_TER_TITLE_0" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_GuildName" Pos="Left Top" Size="50 20" Pan="5 30" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드 :" formatString="PANEL_LORDMENU_TER_GUILDNAME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_LordName" Pos="Left Top" Size="50 20" Pan="5 55" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="영주 :" formatString="PANEL_LORDMENU_TER_LORDNAME" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_Occupation" Pos="Left Top" Size="50 20" Pan="5 80" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 시점 :" formatString="PANEL_LORDMENU_TER_OCCUPATION" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_M_Residence" Pos="Left Top" Size="50 20" Pan="5 105" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="주민 밀도 :" formatString="PANEL_LORDMENU_TER_RESIDENCE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_R_GuildName" Pos="Left Top" Size="150 20" Pan="50 30" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="지금나는창밖을바라보고있다" Font="BaseFont_12" Color="ffffa841" OverColor="ffffa841" ClickColor="ffffa841" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_R_LordName" Pos="Left Top" Size="150 20" Pan="50 55" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="엘프허벅다리허벅허벅" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_R_Occupation" Pos="Left Top" Size="150 20" Pan="85 80" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2014년 3월 1일" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_R_Residence" Pos="Left Top" Size="150 20" Pan="85 105" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="밀도 높음 ( 99% )" Font="BaseFont_10" Color="ffd20000" OverColor="ffd20000" ClickColor="ffd20000" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_GuildIcon_BG" Pos="Right Top" Size="42 42" Pan="5 28" Color="ffffffff" EnableArea="0 0 42 42">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="87 1 129 1 87 43 129 43" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildIcon" Pos="Right Top" Size="20 20" Pan="16 39" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 96 0 0 96 96 96" Ani="1 1 0.000 0">icon/quest/405_1.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TerrInfo_Help" Pos="Left Top" Size="370 50" Pan="15 145" Color="ffffffff" EnableArea="0 0 370 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 모든 플레이어는 매주 전출기간에 거주지를 결정합니다.\n- 많은 주민들을 거주시키면 보다 많은 세수를 확보할 수 있습니다." formatString="PANEL_LORDMENU_TER_TERR_HELP" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Terr_Title_1" Pos="Center Top" Size="400 25" Pan="0 200" Color="ffffffff" EnableArea="0 0 400 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="264 1 277 1 264 16 277 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="주민 행복지수" formatString="PANEL_LORDMENU_TER_TITLE_1" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_HappyGaugeBG" Pos="Center Top" Size="300 15" Pan="-20 235" Color="ffffffff" EnableArea="0 0 300 15" Grid="1" GridPosX="0 1 299 300" GridPosY="0 1 14 15" GridUVX="0 1 139 140" GridUVY="0 1 5 6">
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_HappyGauge" Pos="Center Top" Size="298 13" Pan="-20 236" Color="ffffffff" EnableArea="0 0 298 13" Grid="1" GridPosX="0 0 298 298" GridPosY="0 0 13 13" GridUVX="0 2 138 140" GridUVY="0 2 4 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 114 141 114 1 120 141 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="290 0" Size="20 13" Pan="0 0" Color="cc000044" EnableArea="0 0 20 13">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HappyComment" Pos="Right Top" Size="50 15" Pan="15 234" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="높음" Font="BaseFont_10" Color="ff00baff" OverColor="ff00baff" ClickColor="ff00baff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HappyRate_Help" Pos="Left Top" Size="370 80" Pan="15 260" Color="ffffffff" EnableArea="0 0 370 80">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 행복 지수가 떨어질 수록 주민들이 시위를 시작하며, 행복 지수가 낮은 상태로 유지되면 징수된 세금이 조금씩 약탈 당하게되니 주의가 필요합니다.\n- 각 지역들의 상황에 맞춰 명령을 내려 행복 지수를 관리할 수 있습니다.\n- 과도한 세율 설정은 행복 지수를 떨어뜨리는 요인이 될 수 있습니다." formatString="PANEL_LORDMENU_TER_HAPPY_HELP" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

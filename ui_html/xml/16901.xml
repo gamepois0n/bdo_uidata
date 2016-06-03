@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16901</itemKey>
+	<itemName>Inorganic Fertilizer</itemName>
+	<itemIcon>00016901.png</itemIcon>
+	<itemDesc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7001</id>
+			<name>Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Costa Farm, Moretti Plantation, and Northern Wheat Plantation. It can also be obtained by Farming Wheat Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7002</id>
+			<name>Barley</name>
+			<icon>00007002.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Northern Wheat Plantation. It can also be obtained by Farming Barley Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7003</id>
+			<name>Potato</name>
+			<icon>00007003.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Bartali Farm, Finto Farm, and Loggia Farm. It can also be obtained by Farming Potato Seeds using a Garden or by Gathering Potatoes using Bare Hands or a Hoe..\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7004</id>
+			<name>Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Shuri Farm. It can also be obtained by Farming Sweet Potato Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7005</id>
+			<name>Corn</name>
+			<icon>00007005.png</icon>
+			<desc>Grow it from the corn seed. Mostly used as an ingredient for cooking.\n - How to Obtain : Toscani Farm. Can be obtained from corns or cultivated from the garden.\n- Usage : beer, grain soup, vinegar, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7006</id>
+			<name>High-Quality Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7007</id>
+			<name>High-Quality Barley</name>
+			<icon>00007002.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7008</id>
+			<name>High-Quality Potato</name>
+			<icon>00007003.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7009</id>
+			<name>High-Quality Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7010</id>
+			<name>High-Quality Corn</name>
+			<icon>00007005.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7011</id>
+			<name>Special Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7012</id>
+			<name>Special Barley</name>
+			<icon>00007002.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7013</id>
+			<name>Special Potato</name>
+			<icon>00007003.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7014</id>
+			<name>Special Sweet Potato</name>
+			<icon>00007004.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7015</id>
+			<name>Special Corn</name>
+			<icon>00007005.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16902</id>
+			<name>Byproduct Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

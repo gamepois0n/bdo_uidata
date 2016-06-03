@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5603</itemKey>
+	<itemName>Poison à base de plantes</itemName>
+	<itemIcon>00005603.png</itemIcon>
+	<itemDesc>Une toxine végétale mortelle obtenue par alchimie et utilisée comme ingrédient.\n - Obtention : s&apos;obtient en raffinant la sève de plante carnivore par alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5602</id>
+			<name>Sève de plante insectivore</name>
+			<icon>00005602.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en transformant une tige de plante carnivore ou une racine de plante carnivore. Peut aussi être récolté à la main ou à l&apos;aide d&apos;une houe à partir des plantes carnivores. Récolter une plante carnivore demande un certain niveau de compétence.</desc>
+		</item>
+		<item>
+			<id>5602</id>
+			<name>Sève de plante insectivore</name>
+			<icon>00005602.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en transformant une tige de plante carnivore ou une racine de plante carnivore. Peut aussi être récolté à la main ou à l&apos;aide d&apos;une houe à partir des plantes carnivores. Récolter une plante carnivore demande un certain niveau de compétence.</desc>
+		</item>
+		<item>
+			<id>5419</id>
+			<name>Amanite</name>
+			<icon>00005419.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : les amanites peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

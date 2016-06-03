@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7307</itemKey>
+	<itemName>Grape</itemName>
+	<itemIcon>00007307.png</itemIcon>
+	<itemDesc>This Cooking ingredient can be obtained primarily by Farming.\nUsage: Fruit Juice, Fruit Pudding, etc.\n- How to Obtain: It can be obtained by Farming Grape Seeds in a Garden or by Gathering from Grapes using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</itemDesc>
+	<collect>
+		<character>
+			<name>Grape</name>
+		</character>
+	</collect>
+	<node region="Casta Farm - Grapes"/>
+	<makelist>
+		<item>
+			<id>7407</id>
+			<name>Grape Crate</name>
+			<icon>00007407.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

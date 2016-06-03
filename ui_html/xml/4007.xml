@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4007</itemKey>
+	<itemName>Coal</itemName>
+	<itemIcon>00004007.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Keplan Quarry, Glutoni Cave, Omar Lava Cave. It can be Gathered with a Pickaxe.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bloodstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Coal</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Mudstone</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstone</name>
+		</character>
+	</collect>
+	<node region="Keplan Quarry - Mining"/>
+	<node region="Glutoni Cave - Mining"/>
+	<node region="Omar Lava Cave - Mining"/>
+	<makelist>
+		<item>
+			<id>4077</id>
+			<name>Steel</name>
+			<icon>00004077.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Iron Shards and Coal together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4070</id>
+			<name>Processed Coal</name>
+			<icon>00004070.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Coal.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

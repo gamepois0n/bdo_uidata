@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4410</itemKey>
+	<itemName>Cristal noir brut</itemName>
+	<itemIcon>00004410.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal noir brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près de la mine de fer abandonnée de Mediah.</itemDesc>
+	<collect>
+		<character>
+			<name>Quartz noir</name>
+		</character>
+	</collect>
+	<node region="Mine de fer abandonnée : extraction minière"/>
+	<makelist>
+		<item>
+			<id>4470</id>
+			<name>Cristal noir</name>
+			<icon>00004470.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux noirs bruts.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

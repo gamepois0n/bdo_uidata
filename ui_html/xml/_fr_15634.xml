@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15634</itemKey>
+	<itemName>Cristal de champ de bataille rouge (Harsha)</itemName>
+	<itemIcon>00015634.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être fusionné dans des châsses decasques. \n- Effet d&apos;objet : PV max. +50, récupération de PV +5 et dégâts supplémentaires contre les humains +2\n※ Une fois installé, le cristal peut être détruit à la mort du personnage.\n- Le potentiel du cristal peut être transféré à des pièces d&apos;équipement grâce à l&apos;esprit occulte.\n- Obtention : faites chauffer de l&apos;essence rouge et le cristal magique ancien (Harphia).</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4989</id>
+			<name>Essence rouge</name>
+			<icon>00004989.png</icon>
+			<desc>L&apos;essence concentrée du sang rouge.\nSi on la chauffe avec un cristal magique ancien (Pouvoir) et un cristal magique ancien (Adamantine), on obtient un cristal éveillé.</desc>
+		</item>
+		<item>
+			<id>15601</id>
+			<name>Cristal magique ancien (Harphia)</name>
+			<icon>00045013.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de casque. \n- Effet d&apos;objet : PV max +50 et récupération de PV +5\n\n※ Ce cristal magique a de faibles chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

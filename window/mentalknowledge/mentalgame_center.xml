@@ -1,0 +1,17 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MentalGame_Center" Pos="Center Center" Size="600 90" Pan="0 0" Color="ff000000" EnableArea="0 0 600 90">
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_Finish" Pos="Center Center" Size="1280 90" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 90" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="2 127 128 127 2 255 128 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/acquire/acquire_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.20" EndScale="1.00" BasePosition="0 45" ScaleChild="True" ID="Ani_Scale_0" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="20" AdvanceType="2" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Finish" Pos="Center Center" Size="1280 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="친밀도가 100이 되었습니다 (+10)" Font="TitleFont_22" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

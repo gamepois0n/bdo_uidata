@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7704</itemKey>
+	<itemName>Top-Quality Honey</itemName>
+	<itemIcon>00007704.png</itemIcon>
+	<itemDesc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7701</id>
+			<name>Wild Beehive</name>
+			<icon>00007701.png</icon>
+			<desc>A natural resource obtained through Gathering that can be Processed for use as a Cooking ingredient.\n- How to Obtain: It can be obtained by shooting a Wooden Beehive with a Matchlock.\n\n- Usage: Beehive Cookie, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

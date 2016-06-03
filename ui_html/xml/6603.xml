@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6603</itemKey>
+	<itemName>Oil of Fortitude</itemName>
+	<itemIcon>00006603.png</itemIcon>
+	<itemDesc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6353</id>
+			<name>Clown&apos;s Blood</name>
+			<icon>00006353.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>6353</id>
+			<name>Clown&apos;s Blood</name>
+			<icon>00006353.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>5205</id>
+			<name>Fruit of Nature</name>
+			<icon>00005205.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Powder of Flame</name>
+			<icon>00004802.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Monk&apos;s Branch</name>
+			<icon>00005007.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Monk&apos;s Branch requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>52503</id>
+			<name>Combat Steel Champron</name>
+			<icon>00052503.png</icon>
+			<desc>Horse helmet made of steel. Very durable but it is heavy.\n- Able to attach on : Horse &amp; Camel\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>52502</id>
+			<name>Light Red Plumed Champron</name>
+			<icon>00052502.png</icon>
+			<desc>Horse helmet decorated with red feather. Study and light.\n- Able to attach on : Horse &amp; Camel\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>16001</id>
+			<name>Black Stone (Weapon)</name>
+			<icon>00000008.png</icon>
+			<desc>Weapons can be enhanced through Black Spirits.\n\n- Able to Enhance: Weapon, Secondary Weapon</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

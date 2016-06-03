@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5405</itemKey>
+	<itemName>Silk Honey Grass</itemName>
+	<itemIcon>00005405.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be Produced at Karanda Ridge, Longleaf Tree Sentry Post, Ancient Fissure, and Marni’s 2nd Lab. It can also be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<collect>
+		<character>
+			<name>Herb Sack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Medicinal Herb Kettle</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Silk Honey Grass</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wild Herb</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Nieves</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Kaia Feresio</name>
+		</character>
+	</shop>
+	<node region="Karanda Ridge - Gathering"/>
+	<node region="Longleaf Tree Sentry Post - Gathering"/>
+	<node region="Marni's 2nd Lab - Gathering"/>
+	<node region="Ancient Fissure - Gathering"/>
+	<makelist>
+		<item>
+			<id>7505</id>
+			<name>Silk Honey Grass Crate</name>
+			<icon>00007505.png</icon>
+			<desc>An herb that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Concentrated Herbal Juice</name>
+			<icon>00000570.png</icon>
+			<desc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

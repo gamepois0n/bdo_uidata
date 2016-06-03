@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5439</itemKey>
+	<itemName>Wild Grass</itemName>
+	<itemIcon>00005439.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Wild Herbs using Barehanded Gathering.</itemDesc>
+	<collect>
+		<character>
+			<name>Herb Sack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Medicinal Herb Kettle</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wild Herb</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>570</id>
+			<name>Concentrated Herbal Juice</name>
+			<icon>00000570.png</icon>
+			<desc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

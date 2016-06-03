@@ -1,0 +1,13 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Widget_SkillLog" Pos="500 300" Size="200 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 80">
+		<Control Type="Static" Name="Static_C_SkillIcon" Pos="Left Bottom" Size="35 35" Pan="0 0" Color="ffffffff" EnableArea="0 0 35 35" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/01_phm_skill/phm_skill_0175.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UsedSkill" Pos="Left Bottom" Size="144 12" Pan="38 9" Color="ffffffff" EnableArea="0 0 144 12">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="흐름 : 선회하는 바람 II" Font="BaseFont_12" Color="ffffebbc" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

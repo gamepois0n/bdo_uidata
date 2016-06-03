@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4469</itemKey>
+	<itemName>Cristal vert</itemName>
+	<itemIcon>00004469.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux verts bruts trouvés près de l&apos;avant-poste rhutum.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4409</id>
+			<name>Cristal vert brut</name>
+			<icon>00004409.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal vert brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près du poste satellite des rhutums.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10817</id>
+			<name>Casque de Zereth</name>
+			<icon>00010817.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10818</id>
+			<name>Armure de Zereth</name>
+			<icon>00010818.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10819</id>
+			<name>Gants de Zereth</name>
+			<icon>00010819.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10820</id>
+			<name>Chaussures de Zereth</name>
+			<icon>00010820.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55858</id>
+			<name>Amulette de richesse en cristal vert</name>
+			<icon>00055858.png</icon>
+			<desc>Un accessoire fait de cristal vert. Il est porté par ceux qui recherchent la richesse.</desc>
+		</item>
+		<item>
+			<id>10862</id>
+			<name>Armure de Zereth d&apos;agilité</name>
+			<icon>00010818.png</icon>
+			<desc>Cette armure de Zereth renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Zereth d&apos;agilité, armure de Zereth</desc>
+		</item>
+		<item>
+			<id>10861</id>
+			<name>Casque de Zereth d&apos;agilité</name>
+			<icon>00010817.png</icon>
+			<desc>Ce casque de Zereth renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Zereth d&apos;agilité, casque de Zereth</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Chaussures de Zereth du mur de fer</name>
+			<icon>00010820.png</icon>
+			<desc>Ces chaussures de Zereth renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Zereth du mur de fer, chaussures de Zereth</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Gants de Zereth du mur de fer</name>
+			<icon>00010819.png</icon>
+			<desc>Ces gants de Zereth renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Zereth du mur de fer, gants de Zereth</desc>
+		</item>
+		<item>
+			<id>10858</id>
+			<name>Armure de Zereth du mur de fer</name>
+			<icon>00010818.png</icon>
+			<desc>Cette armure de Zereth renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Zereth du mur de fer, armure de Zereth</desc>
+		</item>
+		<item>
+			<id>10857</id>
+			<name>Casque de Zereth du mur de fer</name>
+			<icon>00010817.png</icon>
+			<desc>Ce casque de Zereth renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Zereth du mur de fer, casque de Zereth</desc>
+		</item>
+		<item>
+			<id>10863</id>
+			<name>Gants de Zereth d&apos;agilité</name>
+			<icon>00010819.png</icon>
+			<desc>Ces gants de Zereth renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Zereth d&apos;agilité, gants de Zereth</desc>
+		</item>
+		<item>
+			<id>14217</id>
+			<name>[Valkyrie] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14215</id>
+			<name>[Rôdeuse] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14214</id>
+			<name>[Dompteuse] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14213</id>
+			<name>[Sorcière] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14212</id>
+			<name>[Berserker] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14211</id>
+			<name>[Guerrier] Costume de musicien itinérant de Garner</name>
+			<icon>00014211.png</icon>
+			<desc>Un costume de clown porté par les musiciens itinérants de Garner. Il a un certain charme.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez la même robe avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>10820</id>
+			<name>Chaussures de Zereth</name>
+			<icon>00010820.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10819</id>
+			<name>Gants de Zereth</name>
+			<icon>00010819.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10818</id>
+			<name>Armure de Zereth</name>
+			<icon>00010818.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10817</id>
+			<name>Casque de Zereth</name>
+			<icon>00010817.png</icon>
+			<desc>Une armure de haute qualité conçue pour ralentir la fatigue corporelle.\n- Équiper 3 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Chaussures de Zereth d&apos;agilité</name>
+			<icon>00010820.png</icon>
+			<desc>Ces chaussures de Zereth renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Zereth d&apos;agilité, chaussures de Zereth</desc>
+		</item>
+		<item>
+			<id>10870</id>
+			<name>Armure de Zereth ultime</name>
+			<icon>00010818.png</icon>
+			<desc>Une armure de Zereth qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Zereth du mur de fer, armure de Zereth d&apos;agilité, armure de Zereth d&apos;intimidation, armure de Zereth</desc>
+		</item>
+		<item>
+			<id>10869</id>
+			<name>Casque de Zereth ultime</name>
+			<icon>00010817.png</icon>
+			<desc>Un casque de Zereth qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Zereth du mur de fer, casque de Zereth d&apos;agilité, casque de Zereth d&apos;intimidation, casque de Zereth</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Chaussures de Zereth d&apos;intimidation</name>
+			<icon>00010820.png</icon>
+			<desc>Ces chaussures de Zereth renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Zereth d&apos;intimidation, chaussures de Zereth</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Gants de Zereth d&apos;intimidation</name>
+			<icon>00010819.png</icon>
+			<desc>Ces gants de Zereth renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Zereth d&apos;intimidation, gants de Zereth</desc>
+		</item>
+		<item>
+			<id>10866</id>
+			<name>Armure de Zereth d&apos;intimidation</name>
+			<icon>00010818.png</icon>
+			<desc>Cette armure de Zereth renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure de Zereth d&apos;intimidation, armure de Zereth</desc>
+		</item>
+		<item>
+			<id>10865</id>
+			<name>Casque de Zereth d&apos;intimidation</name>
+			<icon>00010817.png</icon>
+			<desc>Ce casque de Zereth renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque de Zereth d&apos;intimidation, casque de Zereth</desc>
+		</item>
+		<item>
+			<id>10872</id>
+			<name>Chaussures de Zereth ultimes</name>
+			<icon>00010820.png</icon>
+			<desc>Des chaussures de Zereth qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures de Zereth du mur de fer, chaussures de Zereth d&apos;agilité, chaussures de Zereth d&apos;intimidation, chaussures de Zereth</desc>
+		</item>
+		<item>
+			<id>10871</id>
+			<name>Gants de Zereth ultimes</name>
+			<icon>00010819.png</icon>
+			<desc>Des gants de Zereth qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants de Zereth du mur de fer, gants de Zereth d&apos;agilité, gants de Zereth d&apos;intimidation, gants de Zereth</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Pierre d&apos;optimisation d&apos;armure de niveau 2</name>
+			<icon>00004909.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;armure de niveau 2.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

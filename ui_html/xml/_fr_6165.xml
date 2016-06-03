@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6165</itemKey>
+	<itemName>Plume légère délicate</itemName>
+	<itemIcon>00006165.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes légères.</itemDesc>
+	<shop>
+		<character>
+			<name>Lavientia Batian</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6017</id>
+			<name>Plume douce de coucou</name>
+			<icon>00006017.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un coucou tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6157</id>
+			<name>Plume légère</name>
+			<icon>00006157.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes de coucou.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>52502</id>
+			<name>Chanfrein léger à plumes rouges</name>
+			<icon>00052502.png</icon>
+			<desc>Un casque de cheval décoré de plumes rouges. Il est léger et solide.\n\n- Utilisable sur : cheval\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>6173</id>
+			<name>Plume légère ultime</name>
+			<icon>00006173.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des plumes légères distinguées et du revêtement de cuir, un ingrédient préparé par alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

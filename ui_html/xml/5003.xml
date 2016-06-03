@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5003</itemKey>
+	<itemName>Pine Sap</itemName>
+	<itemIcon>00005003.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Pine Trees with a Fluid Collector.</itemDesc>
+	<collect>
+		<character>
+			<name>Pine Tree</name>
+		</character>
+	</collect>
+	<node region="Marie Cave - Lumbering"/>
+	<makelist>
+		<item>
+			<id>14414</id>
+			<name>Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A staff possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14443</id>
+			<name>Ultimate Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A Yuria staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Yuria staff.\n\n- Restore Max Durability: Yuria Staff of Crimson Flame, Yuria Staff of Destruction, Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria Staff of Temptation</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria Staff of Destruction</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Destruction, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria Staff of Crimson Flame</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Crimson Flame, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Ship License: Fishing Boat</name>
+			<icon>00049005.png</icon>
+			<desc>Proof of ownership of a &lt;Fishing Boat&gt; at the Wharf.\n- Inventory Slot(s): 12, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

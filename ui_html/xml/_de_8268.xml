@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8268</itemKey>
+	<itemName>Gestreifter Wels</itemName>
+	<itemIcon>00008268.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<fishing/>
+	<node region="Insel Pujara – Fischreuse 1"/>
+	<node region="Insel Ephde-Rune – Fischreuse"/>
+	<node region="Insel Invernen – Fischreuse 2"/>
+	<node region="Insel Oben – Fischreuse 2"/>
+	<node region="Insel Mariveno – Fischreuse"/>
+	<makelist>
+		<item>
+			<id>8568</id>
+			<name>Getrockneter Gestreifter Wels</name>
+			<icon>00008568.png</icon>
+			<desc>Ein Getrockneter Gestreifter Wels, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

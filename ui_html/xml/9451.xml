@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9451</itemKey>
+	<itemName>Plain Lizard Kabob</itemName>
+	<itemIcon>00009451.png</itemIcon>
+	<itemDesc>A nicely cooked lizard kebab. \n\n- Unique Effect: Max Stamina +100 for 45 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Red Sauce</name>
+			<icon>00009004.png</icon>
+			<desc>A red sauce used for Cooking.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Steak, Cheese Gratin</desc>
+		</item>
+		<item>
+			<id>7908</id>
+			<name>Lizard Meat</name>
+			<icon>00007908.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a lizard corpse.</desc>
+		</item>
+		<item>
+			<id>7001</id>
+			<name>Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Costa Farm, Moretti Plantation, and Northern Wheat Plantation. It can also be obtained by Farming Wheat Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+		<item>
+			<id>7303</id>
+			<name>Onion</name>
+			<icon>00007303.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Oatmeal, Stir-Fried Meat, etc.\n- How to Obtain: It can be obtained by Farming Onion Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Red Sauce</name>
+			<icon>00009004.png</icon>
+			<desc>A red sauce used for Cooking.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Steak, Cheese Gratin</desc>
+		</item>
+	</cook>
+</itemInfo>
+

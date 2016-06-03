@@ -1,0 +1,161 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_ShipNaming_Input" Pos="Center Center" Size="440 255" Pan="0 0" Color="ffffffff" EnableArea="0 0 440 255" Grid="1" GridPosX="0 8 432 440" GridPosY="0 8 247 255" GridUVX="0 8 175 183" GridUVY="0 8 214 222" UiConvertableType="None" UiConvertableInputMode="UiMode" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 425 30"/>
+		<Attribute Type="NotFront"/>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="405 6" Pan="0 30" Color="ffffffff" EnableArea="0 0 405 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="등록하기" formatString="PANEL_SERVANT_NAMING_INPUT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Yes" Pos="Center Bottom" Size="90 25" Pan="-50 10" Color="ffffffff" EnableArea="0 0 90 25" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 20 25" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="확 인" formatString="PANEL_SERVANT_NAMING_INPUT_BTN_YES" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_No" Pos="Center Bottom" Size="90 25" Pan="50 10" Color="ffffffff" EnableArea="0 0 90 25" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 20 25" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="PANEL_SERVANT_NAMING_INPUT_BTN_NO" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_Naming" Pos="Center Bottom" Size="270 34" Pan="0 40" Color="ffffffff" EnableArea="0 0 270 34" Grid="1" GridPosX="0 5 265 270" GridPosY="0 5 29 34" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="7 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_IconBack" Pos="Left Top" Size="100 110" Pan="10 35" Color="ffffffff" EnableArea="0 0 100 110" Grid="1" GridPosX="0 10 90 100" GridPosY="0 10 100 110" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon" Pos="Left Top" Size="100 100" Pan="10 48" Color="ffffffff" EnableArea="0 0 100 100" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 143 0 0 143 143 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/horse_04.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Icon_Title" Pos="Left Top" Size="100 20" Pan="10 42" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="236 54 251 54 236 69 251 69" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+			<Text Value="생김새" formatString="PANEL_SERVANT_NAMING_INPUT_ICON_TITLE" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_StatusBack" Pos="Left Top" Size="305 140" Pan="120 35" Color="ffffffff" EnableArea="0 0 305 140" Grid="1" GridPosX="0 10 300 305" GridPosY="0 10 130 140" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Status_Title" Pos="Left Top" Size="305 20" Pan="120 42" Color="ffffffff" EnableArea="0 0 305 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="255 57 265 57 255 65 265 65" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+			<Text Value="탑승물의 기본정보" formatString="PANEL_SERVANT_NAMING_INPUT_STATUS_TITLE" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Hp" Pos="Left Top" Size="80 20" Pan="130 70" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="내구도" formatString="PANEL_SHIPINFO_HP" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Stamina" Pos="Left Top" Size="80 20" Pan="130 94" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="수명" formatString="PANEL_CARRIAGEINFO_MP" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Weight" Pos="Left Top" Size="80 20" Pan="130 119" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="최대 하중" formatString="PANEL_WHARFINFO_WEIGHT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Life" Pos="Left Top" Size="80 20" Pan="130 143" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 기간" formatString="STABLE_INFO_TEXT_LIFE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_MaxMoveSpeed" Pos="Left Top" Size="80 20" Pan="290 70" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="속도" formatString="STABLE_INFO_TEXT_MAXSPEED" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Acceleration" Pos="Left Top" Size="80 20" Pan="290 94" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="가속도" formatString="STABLE_INFO_TEXT_ACCELERATION" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_CorneringSpeed" Pos="Left Top" Size="80 20" Pan="290 119" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="회전력" formatString="STABLE_INFO_TEXT_CORNERING" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_BrakeSpeed" Pos="Left Top" Size="80 20" Pan="290 143" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="제동" formatString="STABLE_INFO_TEXT_BRAKE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_HpValue" Pos="Left Top" Size="50 15" Pan="220 70" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  350" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_StaminaValue" Pos="Left Top" Size="50 15" Pan="220 95" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  700" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_WeightValue" Pos="Left Top" Size="50 15" Pan="220 120" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  900" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_LifeValue" Pos="Left Top" Size="50 15" Pan="220 145" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  -" Font="BaseFont_12" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_MaxMoveSpeedValue" Pos="Left Top" Size="50 15" Pan="370 70" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  350" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_AccelerationValue" Pos="Left Top" Size="50 15" Pan="370 95" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  700" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_CorneringSpeedValue" Pos="Left Top" Size="50 15" Pan="370 120" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  900" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_BrakeSpeedValue" Pos="Left Top" Size="50 15" Pan="370 145" Color="ffffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="  700" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Page_Text" Pos="349 604" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="1" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SkillBack" Pos="559 76" Size="345 120" Pan="10 150" Color="ffffffff" EnableArea="0 0 345 120" Grid="1" GridPosX="0 10 335 345" GridPosY="0 10 110 120" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Skill_Title" Pos="605 213" Size="345 20" Pan="10 157" Color="ffffffff" EnableArea="0 0 345 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="268 54 283 54 268 69 283 69" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+			<Text Value="탈 것의 능력" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SkillIcon" Pos="604 242" Size="42 42" Pan="40 20" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/01_phm_skill/phm_skill_1141.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_SkillText" Pos="656 248" Size="100 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 42">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="뒷 발차기" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="5 5"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="18 8" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NamingPolicyBG" Pos="Left Center" Size="350 250" Pan="-355 0" Color="ffffffff" EnableArea="0 0 350 250" Grid="1" GridPosX="0 10 345 350" GridPosY="0 10 240 250" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NamingPolicyTitle" Pos="Left Top" Size="350 6" Pan="-355 30" Color="ffffffff" EnableArea="0 0 350 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="이름 생성 규칙" formatString="COMMON_CHARACTERCREATEPOLICY_TITLE_EN" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NamingPolicy" Pos="Left Center" Size="320 200" Pan="-340 20" Color="ffffffff" EnableArea="0 0 320 200">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ Allowed characters:\nA-Z, a-z, 0-9, _ (underscore)\n\n※ Rules:\n1. Length: 3-16 characters\n2. You can't use a letter more than 2 times consecutively\n3. A maximum of 4 numbers are allowed at the end of your name\n4. Underscore (_) is allowed only once and can only occur between a minimum of 2 characters" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

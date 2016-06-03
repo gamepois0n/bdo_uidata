@@ -1,0 +1,284 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Manufacture" Pos="0 0" Size="740 540" Pan="0 0" Color="ffffffff" EnableArea="25 15 715 530">
+		<Texture Type="Base" UV="0 0 812 0 0 550 812 550" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_main.dds</Texture>
+		<Attribute Type="Drag" Area="25 15 715 50"/>
+		<Control Type="Static" Name="Static_PartLine" Pos="Center Top" Size="692 46" Pan="0 9" Color="ffffffff" EnableArea="0 0 692 46" Grid="1" GridPosX="0 50 642 692" GridPosY="0 30 40 46" GridUVX="0 50 349 399" GridUVY="0 30 40 46" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 399 0 0 46 399 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="38 25" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="59 25" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Manufacture" Pos="Left Top" Size="154 32" Pan="252 172" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 262 155 262 1 294 155 294" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="156 262 310 262 156 294 310 294" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="311 262 465 262 311 294 465 294" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="가공 시작" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="50 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Note" Pos="Left Top" Size="154 32" Pan="252 208" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 229 155 229 1 261 155 261" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="156 229 310 229 156 261 310 261" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="311 229 465 229 311 261 465 261" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="제작 노트" formatString="PRODUCTNOTE_BTN" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="50 6"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_BlackCircle" Pos="Left Top" Size="165 165" Pan="59 84" Color="ffffffff" EnableArea="0 0 165 165" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 340 172 340 1 511 172 511" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_WhiteCircle" Pos="Left Top" Size="170 170" Pan="56 81" Color="fdffffff" EnableArea="0 0 170 170" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="172 340 342 340 172 510 342 510" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="bfffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_WhiteCircle" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="240" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="50 20" Pan="0 23" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="생산활동" formatString="ALCHEMY_MANUFACTURE_TEXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CircleName" Pos="Left Top" Size="50 20" Pan="116 155" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="ACTION_INDEX" Font="BaseFont_10" Color="ffffd46d" OverColor="ffffd46d" ClickColor="ffffd46d" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Point_1" Pos="Left 179" Size="14 14" Pan="108 0" Color="ffffffff" EnableArea="0 0 14 14" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 325 15 325 1 339 15 339" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="bfffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Point1" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Point_2" Pos="Left 200" Size="14 14" Pan="108 0" Color="ffffffff" EnableArea="0 0 14 14" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 325 15 325 1 339 15 339" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="bfffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Point2" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Point_3" Pos="Left 215" Size="14 14" Pan="108 0" Color="ffffffff" EnableArea="0 0 14 14" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 325 15 325 1 339 15 339" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="bfffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Point2" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Point_4" Pos="Left 216" Size="14 14" Pan="108 0" Color="ffffffff" EnableArea="0 0 14 14" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 325 15 325 1 339 15 339" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="bfffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Point2" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Point_5" Pos="Left 217" Size="14 14" Pan="108 0" Color="ffffffff" EnableArea="0 0 14 14" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 325 15 325 1 339 15 339" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="bfffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Point2" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="120" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_T_ManuList" Pos="Left Top" Size="234 21" Pan="428 58" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 가공 지식 설명" formatString="ALCHEMY_MANUFACTURE_TXT_TITLE_2" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_FrameBG" Pos="Left Top" Size="380 133" Pan="35 381" Color="ffffffff" EnableArea="0 0 380 133" Grid="1" GridPosX="0 10 370 380" GridPosY="0 10 123 133" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Desc" Pos="Left Top" Size="380 120" Pan="35 253" Color="ffffffff" EnableArea="0 0 380 120" Grid="1" GridPosX="0 10 370 380" GridPosY="0 10 110 120" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="가공 설명 두번째" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="10 62"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ManufactureName" Pos="104 251" Size="150 40" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 40">
+			<Text Value="Action1" Font="BaseFont_12_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Template" Pos="104 277" Size="150 40" Pan="0 0" Color="  ffffce" EnableArea="0 0 150 40">
+			<Text Value="가공 설명" Font="BaseFont_8_Bold" Color="ffffce22" OverColor="ffffce22" ClickColor="ffffce22" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CurrentActionIcon" Pos="Left Top" Size="50 50" Pan="45 261" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="172 58 228 58 172 114 228 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action1" Pos="Left Top" Size="50 50" Pan="46 393" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="58 58 114 58 58 114 114 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="115 58 171 58 115 114 171 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="172 58 228 58 172 114 228 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action2" Pos="Left Top" Size="50 50" Pan="108 393" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="1 1 57 1 1 57 57 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="58 1 114 1 58 57 114 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="115 1 171 1 115 57 171 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action3" Pos="Left Top" Size="50 50" Pan="170 393" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="343 1 399 1 343 57 399 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="400 1 456 1 400 57 456 57" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="1 58 57 58 1 114 57 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action4" Pos="Left Top" Size="50 50" Pan="233 393" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="172 1 228 1 172 58 228 58" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="229 1 285 1 229 58 285 58" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="286 1 342 1 286 58 342 58" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action5" Pos="Left Top" Size="50 50" Pan="294 393" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="400 58 456 58 400 114 456 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="1 115 57 115 1 171 57 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="58 115 114 115 58 171 114 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action6" Pos="Left Top" Size="50 50" Pan="355 393" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="229 58 285 58 229 114 285 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="286 58 342 58 286 114 342 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="343 58 399 58 343 114 399 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action7" Pos="Left Top" Size="50 50" Pan="45 454" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="286 115 342 115 286 171 342 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="343 115 399 115 343 171 399 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="400 115 456 115 400 171 456 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_RepairItem" Pos="Left Top" Size="50 50" Pan="45 454" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="115 115 171 115 115 171 171 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="172 115 228 115 172 171 228 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="229 115 285 115 229 171 285 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action9" Pos="Left Top" Size="50 50" Pan="107 454" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="286 115 342 115 286 171 342 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="343 115 399 115 343 171 399 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="400 115 456 115 400 171 456 171" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action10" Pos="Left Top" Size="50 50" Pan="170 454" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="0" Group="1">
+			<Texture Type="Base" UV="1 172 57 172 1 228 57 228" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="58 172 114 172 58 228 114 228" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="115 172 171 172 115 228 171 228" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_KnoeledgeIcon" Pos="Center Top" Size="50 50" Pan="84 86" Color="ffffffff" EnableArea="0 0 50 50" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 360 0 0 360 360 360" Ani="1 1 0.000 0">ui_artwork/unkown_intelligence.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_T_Desc" Pos="Left Top" Size="370 21" Pan="35 58" Color="ffffffff" EnableArea="0 0 370 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 가공법" formatString="ALCHEMY_MANUFACTURE_TXT_TITLE_1" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Knowledge_BG" Pos="Left Top" Size="275 108" Pan="423 80" Color="ffffffff" EnableArea="0 0 275 108" Grid="1" GridPosX="0 10 265 275" GridPosY="0 10 98 108" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Frame" Name="Frame_ManufactureDesc" Pos="Right Top" Size="212 93" Pan="43 87" Color="ffffffff" EnableArea="0 0 212 93">
+			<Attribute Type="Ignore"/>
+			<Control Type="FrameContent" Name="Frame_1_Content" Pos="Left Top" Size="206 328" Pan="0 0" Color="ffffffff" EnableArea="0 0 206 328">
+				<Texture Type="Base" UV="102 60 110 60 102 68 110 68" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+				<Control Type="StaticText" Name="StaticText_KnowledgeDesc" Pos="6 1" Size="200 84" Pan="0 0" Color="  ffffff" EnableArea="0 0 200 84">
+					<Text Value="지식 설명" formatString="PANEL_MANUFACTURE_KNOWLEDGE_DESC" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="VerticalScroll" Pos="Right Top" Size="7 100" Pan="-12 -7" Color="ffffffff" EnableArea="0 0 7 100" Grid="1" GridPosX="0 1 6 7" GridPosY="0 4 93 100" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="VerticalScroll_DownButton" Pos="0 100" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="VerticalScroll_CtrlButton" Pos="Center 9" Size="13 65" Pan="0 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 55 65" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_1_HorizontalScroll" Pos="0 93" Size="172 20" Pan="0 0" Color="ff333333" EnableArea="0 0 172 20">
+				<Attribute Type="Ignore"/>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_DownButton" Pos="172 0" Size="20 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_1_HorizontalScroll_CtrlButton" Pos="-5 0" Size="20 20" Pan="0 0" Color="ff777777" EnableArea="0 0 20 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+					<Attribute Type="Ignore"/>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_T_Knowledge" Pos="Left Top" Size="234 21" Pan="428 192" Color="ffffffff" EnableArea="0 0 234 21">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 가공 지식 목록" formatString="ALCHEMY_MANUFACTURE_TXT_TITLE_3" Font="BaseFont_10" Color="fffeff99" OverColor="fffeff99" ClickColor="fffeff99" AlignHorizon="Left" AlignVertical="Top" Span="10 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_ListBG" Pos="Right Top" Size="275 300" Pan="42 214" Color="ffffffff" EnableArea="0 0 275 300" Grid="1" GridPosX="0 10 265 275" GridPosY="0 10 290 300" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SelectList" Pos="423 218" Size="270 22" Pan="50 0" Color="ffffffff" EnableArea="0 0 270 22" Grid="1" GridPosX="0 1 269 270" GridPosY="0 1 21 22" GridUVX="0 1 9 10" GridUVY="0 1 20 21" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="153 24 163 24 153 45 163 45" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_KnowledgeRecipe" Pos="433 219" Size="260 20" Pan="25 90" Color="  ffffff" EnableArea="0 0 260 20">
+			<Text Value="고등어 말리기" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_Bar" Pos="Right Top" Size="10 300" Pan="28 215" Color="ffffffff" EnableArea="0 0 10 300" Grid="1" GridPosX="0 0 7 7" GridPosY="0 5 291 300" GridUVX="0 0 7 7" GridUVY="0 5 33 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_Bar_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_Bar_DownButton" Pos="0 300" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_Bar_CtrlButton" Pos="Center Top" Size="13 120" Pan="-2 0" Color="ffffffff" EnableArea="0 0 13 120" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 108 118" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DefaultMSG1" Pos="Left Top" Size="200 20" Pan="490 90" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Default_MSG_1" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DefaultMSG2" Pos="Right 348" Size="275 20" Pan="42 0" Color="ffffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Default_MSG_1" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action11" Pos="Left Top" Size="50 50" Pan="233 454" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="345 340 401 340 345 396 401 396" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="345 398 401 398 345 454 401 454" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="345 456 401 456 345 512 401 512" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action12" Pos="Left Top" Size="50 50" Pan="294 454" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="286 172 342 172 286 228 342 228" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="On" UV="343 172 399 172 343 228 399 228" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Texture Type="Click" UV="400 172 456 172 400 228 456 228" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Action13" Pos="Left Top" Size="50 50" Pan="355 454" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="3 0 59 0 3 56 59 56" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_01.dds</Texture>
+			<Texture Type="On" UV="3 58 59 58 3 114 59 114" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_01.dds</Texture>
+			<Texture Type="Click" UV="3 116 59 116 3 172 59 172" Ani="1 1 0.000 0">new_ui_common_forlua/window/manufacture/manufacture_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Action2" Pos="253 146" Size="19 19" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 19" UseDefaultSound="1">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="209 72 232 72 209 95 232 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="233 72 256 72 233 95 256 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="동일한 아이템 모두 가공" formatString="ALCHEMY_MANUFACTURE_BTN_SAMEITEM_ALLDO" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="25 0"/>
+		</Control>
+	</Control>
+</UI>
+

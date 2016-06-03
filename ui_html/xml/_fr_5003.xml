@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5003</itemKey>
+	<itemName>Sève de pin</itemName>
+	<itemIcon>00005003.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un pin.</itemDesc>
+	<collect>
+		<character>
+			<name>Pin</name>
+		</character>
+	</collect>
+	<node region="Grotte de Marie : débit de bois"/>
+	<makelist>
+		<item>
+			<id>14443</id>
+			<name>Bâton de Yuria ultime</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton de Yuria ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria de destruction, bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Bâton de Yuria de tentation</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Bâton de Yuria de destruction</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de destruction, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Bâton de Yuria de la flamme pourpre</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Bâton de Yuria</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Permis bateau : bateau de pêche</name>
+			<icon>00049005.png</icon>
+			<desc>Preuve de propriété d&apos;un [bateau de pêche] sur les quais.\n- Emplacement d&apos;inventaire : 12, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis bateau\n 1. Effectuez un clic droit sur le permis bateau et déplacez-le vers le quai sélectionné.\n 2. Adressez-vous au gardien de la traversée en barque et sélectionnez le menu du quai.\n 3. Cliquez sur le menu d&apos;enregistrement des bateaux puis effectuez un clic droit sur le permis bateau.\n 4. Saisissez le nom du bateau puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le bateau enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

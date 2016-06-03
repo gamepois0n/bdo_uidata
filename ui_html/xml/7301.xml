@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7301</itemKey>
+	<itemName>Pepper</itemName>
+	<itemIcon>00007301.png</itemIcon>
+	<itemDesc>This Cooking ingredient can be obtained by Farming.\nUsage: Grilled Sausage, Seafood Pasta, Meat Soup, etc.\n- How to Obtain: It can be obtained by Farming Pepper Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</itemDesc>
+	<makelist>
+		<item>
+			<id>7401</id>
+			<name>Pepper Crate</name>
+			<icon>00007401.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

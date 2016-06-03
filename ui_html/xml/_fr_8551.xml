@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8551</itemKey>
+	<itemName>Poisson-castor séché</itemName>
+	<itemIcon>00008551.png</itemIcon>
+	<itemDesc>Une loche obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8251</id>
+			<name>Poisson-castor</name>
+			<icon>00008251.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55951</id>
+			<name>Loche séchée sous vide</name>
+			<icon>00055951.png</icon>
+			<desc>Un objet de commerce contenant 10 poissons-castors séchés.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

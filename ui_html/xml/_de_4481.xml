@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4481</itemKey>
+	<itemName>Edelsteinpolitur</itemName>
+	<itemIcon>00004481.png</itemIcon>
+	<itemDesc>Ein Material, das genutzt wird, um Glänzende Edelsteine durch Verarbeitung in hochwertigere Edelsteine zu verwandeln.\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Reines Pulverreagenz</name>
+			<icon>00005302.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>4070</id>
+			<name>Verarbeitete Kohle</name>
+			<icon>00004070.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kohle gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+		<item>
+			<id>5957</id>
+			<name>Spur des Ursprungs</name>
+			<icon>00005957.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei den Ruinen von Glisch gefunden werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>24210</id>
+			<name>Wunderschöne Opalvase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Eine wunderschöne Opalvase.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Ausgefallener Topaskessel</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>Ein ausgefallener Topaskessel.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Smaragd-Kürbisflasche</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>Eine Smaragd-Kürbisflasche.</desc>
+		</item>
+		<item>
+			<id>24207</id>
+			<name>Ausgefallene Saphirvase</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>Eine ausgefallene Saphirvase.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Rubin-Kürbisflasche</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>Eine Rubin-Kürbisflasche.</desc>
+		</item>
+		<item>
+			<id>4465</id>
+			<name>Sterndiamant</name>
+			<icon>00004465.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Glänzenden Diamanten mit durch Alchemie gewonnene Edelsteinpolitur gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+		<item>
+			<id>4462</id>
+			<name>Waldsmaragd</name>
+			<icon>00004462.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Glänzenden Smaragden mit durch Alchemie gewonnene Edelsteinpolitur gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+		<item>
+			<id>4459</id>
+			<name>Goldtopas</name>
+			<icon>00004459.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Glänzenden Topasen mit durch Alchemie gewonnene Edelsteinpolitur gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+		<item>
+			<id>4456</id>
+			<name>Ozeansaphir</name>
+			<icon>00004456.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Glänzenden Saphiren mit durch Alchemie gewonnene Edelsteinpolitur gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+		<item>
+			<id>4453</id>
+			<name>Blutrubin</name>
+			<icon>00004453.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Glänzenden Rubinen mit durch Alchemie gewonnene Edelsteinpolitur gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

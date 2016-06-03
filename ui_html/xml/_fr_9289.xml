@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9289</itemKey>
+	<itemName>Biscuit croquant au miel</itemName>
+	<itemIcon>00009289.png</itemIcon>
+	<itemDesc>Un biscuit à base de rayons remplis de miel.\n\n- Effet unique : vitesse de pêche +1 pendant 110 min.\nLimite de poids +50 LT pendant 110 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>7701</id>
+			<name>Ruche sauvage</name>
+			<icon>00007701.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche.\n\n- Utilisation : biscuit au miel, etc.</desc>
+		</item>
+		<item>
+			<id>7701</id>
+			<name>Ruche sauvage</name>
+			<icon>00007701.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche.\n\n- Utilisation : biscuit au miel, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Miel de cuisine</name>
+			<icon>00007702.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en meulant la ruche.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Œuf</name>
+			<icon>00009064.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.\n\n- Utilisation : pain moelleux, omelette, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

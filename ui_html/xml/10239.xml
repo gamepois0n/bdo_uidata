@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10239</itemKey>
+	<itemName>Ultimate Bares Longbow</itemName>
+	<itemIcon>00010213.png</itemIcon>
+	<itemDesc>A Bares Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow of Destruction, Bares Longbow of Temptation, Bares Longbow</itemDesc>
+	<house type="7">
+		<item>
+			<id>4607</id>
+			<name>Cedar Timber</name>
+			<icon>00004607.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Lumberjack’s Rest Area, Longleaf Tree Forest, Oze Pass. It can be also be obtained by Lumbering Cedar Trees.</desc>
+		</item>
+		<item>
+			<id>4259</id>
+			<name>Pure Platinum Crystal</name>
+			<icon>00004259.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Platinum Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Fine Tough Hide</name>
+			<icon>00006160.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying rhino, pig, or cow hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>5958</id>
+			<name>Trace of Battle</name>
+			<icon>00005958.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Bernianto Farm.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10236</id>
+			<name>Bares Longbow of Crimson Flame</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Grade 3 Weapon Reform Stone</name>
+			<icon>00004910.png</icon>
+			<desc>A material used in 3rd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10238</id>
+			<name>Bares Longbow of Temptation</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Temptation, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Bares Longbow of Destruction</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Destruction, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Bares Longbow of Crimson Flame</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Bares Longbow</name>
+			<icon>00010213.png</icon>
+			<desc>A longbow possessed with a hatred for all living things.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

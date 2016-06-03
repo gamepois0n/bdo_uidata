@@ -1,0 +1,15 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GuildTentAttackedMsg" Pos="0 0" Size="526 128" Pan="0 0" Color="ffffffff" EnableArea="0 0 526 128">
+		<Control Type="Static" Name="Static_MsgBG" Pos="0 0" Size="526 128" Pan="0 0" Color="ffffffff" EnableArea="0 0 526 128" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 526 0 0 128 526 128" Ani="1 1 0.000 0">new_ui_common_forlua/window/guild/guild_attackedtent.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Msg1" Pos="Center Top" Size="50 20" Pan="0 70" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="지휘소 혹은 성채가 공격 받고 있습니다." Font="BaseFont_10" Color="ffff0000" OverColor="ffff0000" ClickColor="ffff0000" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Msg2" Pos="Center Bottom" Size="50 20" Pan="0 15" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="남은 체력 25.32% " Font="TitleFont_18" Color="fff26a6a" OverColor="fff26a6a" ClickColor="fff26a6a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>

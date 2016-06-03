@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4070</itemKey>
+	<itemName>Charbon transformé</itemName>
+	<itemIcon>00004070.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant du charbon.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4007</id>
+			<name>Charbon</name>
+			<icon>00004007.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la carrière de Keplan, la grotte aux glutonis et la grotte de lave d&apos;Omar. Peut être récolté avec une pioche.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55864</id>
+			<name>Tas de charbon</name>
+			<icon>00055864.png</icon>
+			<desc>Le charbon est considéré comme un carburant de grande qualité, du moins pour ceux qui peuvent se le permettre.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

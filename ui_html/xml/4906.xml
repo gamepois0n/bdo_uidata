@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4906</itemKey>
+	<itemName>Grade 1 Weapon Reform Stone</itemName>
+	<itemIcon>00004906.png</itemIcon>
+	<itemDesc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</itemDesc>
+	<house type="10">
+		<item>
+			<id>4004</id>
+			<name>Tin Ore</name>
+			<icon>00004004.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Khuruto Cave, Rhutum Outstation, and Behr Riverhead. It can be directly obtained from Ore containing Tin.</desc>
+		</item>
+		<item>
+			<id>4466</id>
+			<name>Translucent Crystal</name>
+			<icon>00004466.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Translucent Crystals found near Goblin Cave.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Bloody Tree Knot</name>
+			<icon>00005005.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Bloody Tree Knot requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+		<item>
+			<id>6354</id>
+			<name>Sinner&apos;s Blood</name>
+			<icon>00006354.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14414</id>
+			<name>Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A staff possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Bares Staff</name>
+			<icon>00014413.png</icon>
+			<desc>A staff possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A staff crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>A staff custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Seleth Staff of Temptation</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Temptation, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seleth Staff of Destruction</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Destruction, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seleth Staff of Crimson Flame</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Crimson Flame, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Demihuman Staff of Temptation</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Demihuman Staff of Destruction</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Destruction, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Demihuman Staff of Crimson Flame</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Crimson Flame, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Azwell Staff of Temptation</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Azwell Staff of Destruction</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Destruction, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Azwell Staff of Crimson Flame</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Crimson Flame, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea Staff of Temptation</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea Staff of Destruction</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Destruction, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea Staff of Crimson Flame</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Crimson Flame, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Bares Staff of Destruction</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Destruction, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Bares Staff of Crimson Flame</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Crimson Flame, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis Staff of Temptation</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Temptation, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis Staff of Destruction</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Destruction, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis Staff of Crimson Flame</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Crimson Flame, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>13207</id>
+			<name>Seleth Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>13206</id>
+			<name>Demihuman Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>13205</id>
+			<name>Azwell Shortsword</name>
+			<icon>00013203.png</icon>
+			<desc>A Shortsword custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>13214</id>
+			<name>Yuria Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>13213</id>
+			<name>Bares Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis Shortsword</name>
+			<icon>00013207.png</icon>
+			<desc>A Shortsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>13237</id>
+			<name>Bares Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Shortsword.\nIt can be developed by Refining a common Bares Shortsword.\n\n- Repair to Max. Durability: Bares Shortsword of Destruction, Bares Shortsword</desc>
+		</item>
+		<item>
+			<id>13236</id>
+			<name>Bares Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Shortsword.\nIt can be developed by Refining a common Bares Shortsword.\n\n- Repair to Max. Durability: Bares Shortsword of Crimson Flame, Bares Shortsword</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Kalis Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Temptation, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Destruction, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Shortsword.\nIt can be developed by Refining a common Kalis Shortsword.\n\n- Repair to Max. Durability: Kalis Shortsword of Crimson Flame, Kalis Shortsword</desc>
+		</item>
+		<item>
+			<id>13242</id>
+			<name>Yuria Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Temptation, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13241</id>
+			<name>Yuria Shortsword of Destruction</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Destruction, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13240</id>
+			<name>Yuria Shortsword of Crimson Flame</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Shortsword.\nIt can be developed by Refining a common Yuria Shortsword.\n\n- Repair to Max. Durability: Yuria Shortsword of Crimson Flame, Yuria Shortsword</desc>
+		</item>
+		<item>
+			<id>13238</id>
+			<name>Bares Shortsword of Temptation</name>
+			<icon>00013207.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Shortsword.\nIt can be developed by Refining a common Bares Shortsword.\n\n- Repair to Max. Durability: Bares Shortsword of Temptation, Bares Shortsword</desc>
+		</item>
+		<item>
+			<id>13222</id>
+			<name>Azwell Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Shortsword.\nIt can be developed by Refining a common Azwell Shortsword.\n\n- Repair to Max. Durability: Azwell Shortsword of Temptation, Azwell Shortsword</desc>
+		</item>
+		<item>
+			<id>13221</id>
+			<name>Azwell Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Shortsword.\nIt can be developed by Refining a common Azwell Shortsword.\n\n- Repair to Max. Durability: Azwell Shortsword of Destruction, Azwell Shortsword</desc>
+		</item>
+		<item>
+			<id>13220</id>
+			<name>Azwell Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Shortsword.\nIt can be developed by Refining a common Azwell Shortsword.\n\n- Repair to Max. Durability: Azwell Shortsword of Crimson Flame, Azwell Shortsword</desc>
+		</item>
+		<item>
+			<id>13229</id>
+			<name>Seleth Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Destruction, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13228</id>
+			<name>Seleth Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Crimson Flame, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13226</id>
+			<name>Demihuman Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Temptation, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13225</id>
+			<name>Demihuman Shortsword of Destruction</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Destruction, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>13224</id>
+			<name>Demihuman Shortsword of Crimson Flame</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Shortsword.\nIt can be developed by Refining a common Demihuman Shortsword.\n\n- Repair to Max. Durability: Demihuman Shortsword of Crimson Flame, Demihuman Shortsword</desc>
+		</item>
+		<item>
+			<id>10460</id>
+			<name>Krea Amulet of Temptation</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Temptation, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10459</id>
+			<name>Krea Amulet of Destruction</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Destruction, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10458</id>
+			<name>Krea Amulet of Crimson Flame</name>
+			<icon>00010456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Amulet.\nIt can be developed by Refining a common Krea Amulet.\n\n- Repair to Max. Durability: Krea Amulet of Crimson Flame, Krea Amulet</desc>
+		</item>
+		<item>
+			<id>10456</id>
+			<name>Krea Amulet</name>
+			<icon>00010456.png</icon>
+			<desc>An amulet crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13230</id>
+			<name>Seleth Shortsword of Temptation</name>
+			<icon>00013203.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Shortsword.\nIt can be developed by Refining a common Seleth Shortsword.\n\n- Repair to Max. Durability: Seleth Shortsword of Temptation, Seleth Shortsword</desc>
+		</item>
+		<item>
+			<id>13256</id>
+			<name>Krea Shortsword</name>
+			<icon>00013256.png</icon>
+			<desc>A Shortsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>13260</id>
+			<name>Krea Shortsword of Temptation</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Temptation, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13259</id>
+			<name>Krea Shortsword of Destruction</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Destruction, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>13258</id>
+			<name>Krea Shortsword of Crimson Flame</name>
+			<icon>00013256.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Shortsword.\nIt can be developed by Refining a common Krea Shortsword.\n\n- Repair to Max. Durability: Krea Shortsword of Crimson Flame, Krea Shortsword</desc>
+		</item>
+		<item>
+			<id>10303</id>
+			<name>Bronze Dagger</name>
+			<icon>00010303.png</icon>
+			<desc>A dagger cast in bronze.</desc>
+		</item>
+		<item>
+			<id>10328</id>
+			<name>Krea Dagger of Temptation</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Temptation, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10327</id>
+			<name>Krea Dagger of Destruction</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Destruction, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10326</id>
+			<name>Krea Dagger of Crimson Flame</name>
+			<icon>00010324.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Dagger.\n\n- Repair to Max. Durability: Krea Dagger of Crimson Flame, Krea Dagger</desc>
+		</item>
+		<item>
+			<id>10324</id>
+			<name>Krea Dagger</name>
+			<icon>00010324.png</icon>
+			<desc>A dagger crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10308</id>
+			<name>Bronze Dagger of Temptation</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Temptation is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Temptation, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Bronze Dagger of Destruction</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Destruction is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Destruction, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Bronze Dagger of Crimson Flame</name>
+			<icon>00010303.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bronze Dagger.\n\n- Repair to Max. Durability: Bronze Dagger of Crimson Flame, Bronze Dagger</desc>
+		</item>
+		<item>
+			<id>10305</id>
+			<name>Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A dagger made for parrying attacks.</desc>
+		</item>
+		<item>
+			<id>10304</id>
+			<name>Steel Dagger</name>
+			<icon>00010304.png</icon>
+			<desc>A sharp dagger made of steel.</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parrying Dagger of Crimson Flame</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Crimson Flame, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Steel Dagger of Temptation</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Temptation is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Temptation, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Steel Dagger of Destruction</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Destruction is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Destruction, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Steel Dagger of Crimson Flame</name>
+			<icon>00010304.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Steel Dagger.\n\n- Repair to Max. Durability: Steel Dagger of Crimson Flame, Steel Dagger</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parrying Dagger of Temptation</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Temptation is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Temptation, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parrying Dagger of Destruction</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Destruction is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Destruction, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10422</id>
+			<name>Azwell Amulet of Temptation</name>
+			<icon>00010405.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Amulet.\nIt can be developed by Refining a common Azwell Amulet.\n\n- Repair to Max. Durability: Azwell Amulet of Temptation, Azwell Amulet</desc>
+		</item>
+		<item>
+			<id>10421</id>
+			<name>Azwell Amulet of Destruction</name>
+			<icon>00010405.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Amulet.\nIt can be developed by Refining a common Azwell Amulet.\n\n- Repair to Max. Durability: Azwell Amulet of Destruction, Azwell Amulet</desc>
+		</item>
+		<item>
+			<id>10420</id>
+			<name>Azwell Amulet of Crimson Flame</name>
+			<icon>00010405.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Amulet.\nIt can be developed by Refining a common Azwell Amulet.\n\n- Repair to Max. Durability: Azwell Amulet of Crimson Flame, Azwell Amulet</desc>
+		</item>
+		<item>
+			<id>10428</id>
+			<name>Seleth Amulet of Crimson Flame</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Crimson Flame, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10426</id>
+			<name>Demihuman Amulet of Temptation</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Temptation, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10425</id>
+			<name>Demihuman Amulet of Destruction</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Destruction, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10424</id>
+			<name>Demihuman Amulet of Crimson Flame</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Crimson Flame, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10430</id>
+			<name>Seleth Amulet of Temptation</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Temptation, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10429</id>
+			<name>Seleth Amulet of Destruction</name>
+			<icon>00010407.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Amulet.\nIt can be developed by Refining a common Seleth Amulet.\n\n- Repair to Max. Durability: Seleth Amulet of Destruction, Seleth Amulet</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Kalis Axe of Crimson Flame</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Crimson Flame, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10630</id>
+			<name>Seleth Axe of Temptation</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Temptation, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10629</id>
+			<name>Seleth Axe of Destruction</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Destruction, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10628</id>
+			<name>Seleth Axe of Crimson Flame</name>
+			<icon>00010607.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Axe.\nIt can be developed by Refining a common Seleth Axe.\n\n- Repair to Max. Durability: Seleth Axe of Crimson Flame, Seleth Axe</desc>
+		</item>
+		<item>
+			<id>10407</id>
+			<name>Seleth Amulet</name>
+			<icon>00010407.png</icon>
+			<desc>An amulet possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10406</id>
+			<name>Demihuman Amulet</name>
+			<icon>00010406.png</icon>
+			<desc>An amulet made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10405</id>
+			<name>Azwell Amulet</name>
+			<icon>00010405.png</icon>
+			<desc>An amulet custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10414</id>
+			<name>Yuria Amulet</name>
+			<icon>00010414.png</icon>
+			<desc>An amulet possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10413</id>
+			<name>Bares Amulet</name>
+			<icon>00010413.png</icon>
+			<desc>An amulet possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>An amulet capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis Amulet of Temptation</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Temptation, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis Amulet of Destruction</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Destruction, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis Amulet of Crimson Flame</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Crimson Flame, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Yuria Amulet of Destruction</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Destruction, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Yuria Amulet of Crimson Flame</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Crimson Flame, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10438</id>
+			<name>Bares Amulet of Temptation</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Temptation, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10437</id>
+			<name>Bares Amulet of Destruction</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Destruction, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10436</id>
+			<name>Bares Amulet of Crimson Flame</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Crimson Flame, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Yuria Amulet of Temptation</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Temptation, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>13012</id>
+			<name>Needle Trinket of Temptation</name>
+			<icon>00013005.png</icon>
+			<desc>The energy of Temptation is contained within this Needle Trinket.\n\n- Repair to Max. Durability: Needle Trinket of Temptation, Needle Trinket</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Needle Trinket of Destruction</name>
+			<icon>00013005.png</icon>
+			<desc>The energy of Destruction is contained within this Needle Trinket.\n\n- Repair to Max. Durability: Needle Trinket of Destruction, Needle Trinket</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Needle Trinket of Crimson Flame</name>
+			<icon>00013005.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Needle Trinket.\n\n- Repair to Max. Durability: Needle Trinket of Crimson Flame, Needle Trinket</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Incense Trinket of Temptation</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Temptation is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Temptation, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria Staff of Temptation</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria Staff of Destruction</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Destruction, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria Staff of Crimson Flame</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Crimson Flame, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Bares Staff of Temptation</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Temptation, Bares Staff</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Blade Trinket of Temptation</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Temptation is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Blade Trinket of Destruction</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Destruction is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Destruction, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Blade Trinket of Crimson Flame</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Incense Trinket of Destruction</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Destruction is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Destruction, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Incense Trinket of Crimson Flame</name>
+			<icon>00013003.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Incense Trinket.\n\n- Repair to Max. Durability: Incense Trinket of Crimson Flame, Incense Trinket</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Blade Trinket</name>
+			<icon>00010706.png</icon>
+			<desc>A trinket with an ornamental knife attached.</desc>
+		</item>
+		<item>
+			<id>13004</id>
+			<name>Needle Trinket</name>
+			<icon>00013005.png</icon>
+			<desc>A trinket with a pouch full of needles.</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Incense Trinket</name>
+			<icon>00013003.png</icon>
+			<desc>A trinket with a pouch full of incense.</desc>
+		</item>
+		<item>
+			<id>13028</id>
+			<name>Krea Trinket of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Temptation, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea Trinket of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Destruction, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea Trinket of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Trinket.\n\n- Repair to Max. Durability: Krea Trinket of Crimson Flame, Krea Trinket</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea Trinket</name>
+			<icon>00010724.png</icon>
+			<desc>A trinket crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A staff capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A staff possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A staff made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10007</id>
+			<name>Seleth Longsword</name>
+			<icon>00010007.png</icon>
+			<desc>A longsword possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10006</id>
+			<name>Demihuman Longsword</name>
+			<icon>00010006.png</icon>
+			<desc>A longsword made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10005</id>
+			<name>Azwell Longsword</name>
+			<icon>00010005.png</icon>
+			<desc>A longsword custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Kalis Longsword of Destruction</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Destruction, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Kalis Longsword of Crimson Flame</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Crimson Flame, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10014</id>
+			<name>Yuria Longsword</name>
+			<icon>00010014.png</icon>
+			<desc>A longsword possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10013</id>
+			<name>Bares Longsword</name>
+			<icon>00010013.png</icon>
+			<desc>A longsword possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Kalis Longsword</name>
+			<icon>00010012.png</icon>
+			<desc>A longsword capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10038</id>
+			<name>Bares Longsword of Temptation</name>
+			<icon>00010013.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Longsword.\nIt can be developed by Refining a common Bares Longsword.\n\n- Repair to Max. Durability: Bares Longsword of Temptation, Bares Longsword</desc>
+		</item>
+		<item>
+			<id>10037</id>
+			<name>Bares Longsword of Destruction</name>
+			<icon>00010013.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Longsword.\nIt can be developed by Refining a common Bares Longsword.\n\n- Repair to Max. Durability: Bares Longsword of Destruction, Bares Longsword</desc>
+		</item>
+		<item>
+			<id>10036</id>
+			<name>Bares Longsword of Crimson Flame</name>
+			<icon>00010013.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Longsword.\nIt can be developed by Refining a common Bares Longsword.\n\n- Repair to Max. Durability: Bares Longsword of Crimson Flame, Bares Longsword</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Kalis Longsword of Temptation</name>
+			<icon>00010012.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longsword.\nIt can be developed by Refining a common Kalis Longsword.\n\n- Repair to Max. Durability: Kalis Longsword of Temptation, Kalis Longsword</desc>
+		</item>
+		<item>
+			<id>10042</id>
+			<name>Yuria Longsword of Temptation</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Temptation, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10041</id>
+			<name>Yuria Longsword of Destruction</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Destruction, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10040</id>
+			<name>Yuria Longsword of Crimson Flame</name>
+			<icon>00010014.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Longsword.\nIt can be developed by Refining a common Yuria Longsword.\n\n- Repair to Max. Durability: Yuria Longsword of Crimson Flame, Yuria Longsword</desc>
+		</item>
+		<item>
+			<id>10025</id>
+			<name>Demihuman Longsword of Destruction</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Destruction, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10024</id>
+			<name>Demihuman Longsword of Crimson Flame</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Crimson Flame, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10022</id>
+			<name>Azwell Longsword of Temptation</name>
+			<icon>00010005.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Longsword.\nIt can be developed by Refining a common Azwell Longsword.\n\n- Repair to Max. Durability: Azwell Longsword of Temptation, Azwell Longsword</desc>
+		</item>
+		<item>
+			<id>10021</id>
+			<name>Azwell Longsword of Destruction</name>
+			<icon>00010005.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Longsword.\nIt can be developed by Refining a common Azwell Longsword.\n\n- Repair to Max. Durability: Azwell Longsword of Destruction, Azwell Longsword</desc>
+		</item>
+		<item>
+			<id>10020</id>
+			<name>Azwell Longsword of Crimson Flame</name>
+			<icon>00010005.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Longsword.\nIt can be developed by Refining a common Azwell Longsword.\n\n- Repair to Max. Durability: Azwell Longsword of Crimson Flame, Azwell Longsword</desc>
+		</item>
+		<item>
+			<id>10030</id>
+			<name>Seleth Longsword of Temptation</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Temptation, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10029</id>
+			<name>Seleth Longsword of Destruction</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Destruction, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10028</id>
+			<name>Seleth Longsword of Crimson Flame</name>
+			<icon>00010007.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Longsword.\nIt can be developed by Refining a common Seleth Longsword.\n\n- Repair to Max. Durability: Seleth Longsword of Crimson Flame, Seleth Longsword</desc>
+		</item>
+		<item>
+			<id>10026</id>
+			<name>Demihuman Longsword of Temptation</name>
+			<icon>00010006.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Longsword.\nIt can be developed by Refining a common Demihuman Longsword.\n\n- Repair to Max. Durability: Demihuman Longsword of Temptation, Demihuman Longsword</desc>
+		</item>
+		<item>
+			<id>10058</id>
+			<name>Krea Longsword of Crimson Flame</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Crimson Flame, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10056</id>
+			<name>Krea Longsword</name>
+			<icon>00010056.png</icon>
+			<desc>A longsword crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10060</id>
+			<name>Krea Longsword of Temptation</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Temptation, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10059</id>
+			<name>Krea Longsword of Destruction</name>
+			<icon>00010056.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Longsword.\nIt can be developed by Refining a common Krea Longsword.\n\n- Repair to Max. Durability: Krea Longsword of Destruction, Krea Longsword</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Vangertz Shield of Destruction</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Destruction is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Destruction, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz Shield of Crimson Flame</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Crimson Flame, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A high-strength alloy shield that provides maximum defense.</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>A steel-plated shield used more for attacking than defending.</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz Shield</name>
+			<icon>00010102.png</icon>
+			<desc>A round shield made of strong iron.</desc>
+		</item>
+		<item>
+			<id>10128</id>
+			<name>Krea Shield of Temptation</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Temptation, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion Shield of Destruction</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Destruction is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Destruction, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion Shield of Crimson Flame</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Crimson Flame, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz Shield of Temptation</name>
+			<icon>00010102.png</icon>
+			<desc>The energy of Temptation is contained within this Vangertz Shield.\n\n- Repair to Max. Durability: Vangertz Shield of Temptation, Vangertz Shield</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Kite Shield of Destruction</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Destruction is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Destruction, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Kite Shield of Crimson Flame</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Crimson Flame, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion Shield of Temptation</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Temptation is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Temptation, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Kite Shield of Temptation</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Temptation is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Temptation, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10127</id>
+			<name>Krea Shield of Destruction</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Destruction, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10126</id>
+			<name>Krea Shield of Crimson Flame</name>
+			<icon>00010124.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Shield.\n\n- Repair to Max. Durability: Krea Shield of Crimson Flame, Krea Shield</desc>
+		</item>
+		<item>
+			<id>10124</id>
+			<name>Krea Shield</name>
+			<icon>00010124.png</icon>
+			<desc>A shield crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10207</id>
+			<name>Seleth Longbow</name>
+			<icon>00010207.png</icon>
+			<desc>A longbow possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Demihuman Longbow</name>
+			<icon>00010206.png</icon>
+			<desc>A longbow made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10205</id>
+			<name>Azwell Longbow</name>
+			<icon>00010205.png</icon>
+			<desc>A longbow custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Seleth Longbow of Destruction</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Destruction, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Seleth Longbow of Crimson Flame</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Crimson Flame, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Demihuman Longbow of Temptation</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Temptation, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Demihuman Longbow of Destruction</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Destruction, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Demihuman Longbow of Crimson Flame</name>
+			<icon>00010206.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Longbow.\nIt can be developed by Refining a common Demihuman Longbow.\n\n- Repair to Max. Durability: Demihuman Longbow of Crimson Flame, Demihuman Longbow</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis Longbow of Temptation</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Temptation, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis Longbow of Destruction</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Destruction, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis Longbow of Crimson Flame</name>
+			<icon>00010212.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Longbow.\nIt can be developed by Refining a common Kalis Longbow.\n\n- Repair to Max. Durability: Kalis Longbow of Crimson Flame, Kalis Longbow</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Seleth Longbow of Temptation</name>
+			<icon>00010207.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Longbow.\nIt can be developed by Refining a common Seleth Longbow.\n\n- Repair to Max. Durability: Seleth Longbow of Temptation, Seleth Longbow</desc>
+		</item>
+		<item>
+			<id>10238</id>
+			<name>Bares Longbow of Temptation</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Temptation, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Bares Longbow of Destruction</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Destruction, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Bares Longbow of Crimson Flame</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Yuria Longbow</name>
+			<icon>00010214.png</icon>
+			<desc>A longbow possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Bares Longbow</name>
+			<icon>00010213.png</icon>
+			<desc>A longbow possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis Longbow</name>
+			<icon>00010212.png</icon>
+			<desc>A longbow capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10222</id>
+			<name>Azwell Longbow of Temptation</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Temptation, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10221</id>
+			<name>Azwell Longbow of Destruction</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Destruction, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10220</id>
+			<name>Azwell Longbow of Crimson Flame</name>
+			<icon>00010205.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Longbow.\nIt can be developed by Refining a common Azwell Longbow.\n\n- Repair to Max. Durability: Azwell Longbow of Crimson Flame, Azwell Longbow</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik Talisman of Temptation</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Temptation is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Temptation, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik Talisman of Destruction</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Destruction is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Destruction, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik Talisman of Crimson Flame</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Crimson Flame, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10512</id>
+			<name>Jubre Talisman of Temptation</name>
+			<icon>00010504.png</icon>
+			<desc>The energy of Temptation is contained within this Jubre Talisman.\n\n- Repair to Max. Durability: Jubre Talisman of Temptation, Jubre Talisman</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Krea Talisman of Destruction</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Destruction, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Krea Talisman of Crimson Flame</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Crimson Flame, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Krea Talisman</name>
+			<icon>00010524.png</icon>
+			<desc>A talisman crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick Talisman of Temptation</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Temptation is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Temptation, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick Talisman of Destruction</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Destruction is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Destruction, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick Talisman of Crimson Flame</name>
+			<icon>00010503.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Helrick Talisman.\n\n- Repair to Max. Durability: Helrick Talisman of Crimson Flame, Helrick Talisman</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A talisman with enhanced defensive abilities.</desc>
+		</item>
+		<item>
+			<id>10504</id>
+			<name>Jubre Talisman</name>
+			<icon>00010504.png</icon>
+			<desc>An unknown ancient language is scribbled on this talisman.</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>A talisman with a magical gemstone embedded in it.</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Krea Talisman of Temptation</name>
+			<icon>00010524.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Talisman.\n\n- Repair to Max. Durability: Krea Talisman of Temptation, Krea Talisman</desc>
+		</item>
+		<item>
+			<id>10511</id>
+			<name>Jubre Talisman of Destruction</name>
+			<icon>00010504.png</icon>
+			<desc>The energy of Destruction is contained within this Jubre Talisman.\n\n- Repair to Max. Durability: Jubre Talisman of Destruction, Jubre Talisman</desc>
+		</item>
+		<item>
+			<id>10510</id>
+			<name>Jubre Talisman of Crimson Flame</name>
+			<icon>00010504.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Jubre Talisman.\n\n- Repair to Max. Durability: Jubre Talisman of Crimson Flame, Jubre Talisman</desc>
+		</item>
+		<item>
+			<id>10613</id>
+			<name>Bares Axe</name>
+			<icon>00010613.png</icon>
+			<desc>An axe possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Kalis Axe</name>
+			<icon>00010612.png</icon>
+			<desc>An axe capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10614</id>
+			<name>Yuria Axe</name>
+			<icon>00010614.png</icon>
+			<desc>An axe possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10622</id>
+			<name>Azwell Axe of Temptation</name>
+			<icon>00010605.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Axe.\nIt can be developed by Refining a common Azwell Axe.\n\n- Repair to Max. Durability: Azwell Axe of Temptation, Azwell Axe</desc>
+		</item>
+		<item>
+			<id>10621</id>
+			<name>Azwell Axe of Destruction</name>
+			<icon>00010605.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Axe.\nIt can be developed by Refining a common Azwell Axe.\n\n- Repair to Max. Durability: Azwell Axe of Destruction, Azwell Axe</desc>
+		</item>
+		<item>
+			<id>10620</id>
+			<name>Azwell Axe of Crimson Flame</name>
+			<icon>00010605.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Axe.\nIt can be developed by Refining a common Azwell Axe.\n\n- Repair to Max. Durability: Azwell Axe of Crimson Flame, Azwell Axe</desc>
+		</item>
+		<item>
+			<id>10640</id>
+			<name>Yuria Axe of Crimson Flame</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Crimson Flame, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10607</id>
+			<name>Seleth Axe</name>
+			<icon>00010607.png</icon>
+			<desc>An axe possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10606</id>
+			<name>Demihuman Axe</name>
+			<icon>00010606.png</icon>
+			<desc>An axe made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10605</id>
+			<name>Azwell Axe</name>
+			<icon>00010605.png</icon>
+			<desc>An axe custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10642</id>
+			<name>Yuria Axe of Temptation</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Temptation, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10641</id>
+			<name>Yuria Axe of Destruction</name>
+			<icon>00010614.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Axe.\nIt can be developed by Refining a common Yuria Axe.\n\n- Repair to Max. Durability: Yuria Axe of Destruction, Yuria Axe</desc>
+		</item>
+		<item>
+			<id>10626</id>
+			<name>Demihuman Axe of Temptation</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Temptation, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10625</id>
+			<name>Demihuman Axe of Destruction</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Destruction, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10624</id>
+			<name>Demihuman Axe of Crimson Flame</name>
+			<icon>00010606.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Axe.\nIt can be developed by Refining a common Demihuman Axe.\n\n- Repair to Max. Durability: Demihuman Axe of Crimson Flame, Demihuman Axe</desc>
+		</item>
+		<item>
+			<id>10638</id>
+			<name>Bares Axe of Temptation</name>
+			<icon>00010613.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Axe.\nIt can be developed by Refining a common Bares Axe.\n\n- Repair to Max. Durability: Bares Axe of Temptation, Bares Axe</desc>
+		</item>
+		<item>
+			<id>10637</id>
+			<name>Bares Axe of Destruction</name>
+			<icon>00010613.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Axe.\nIt can be developed by Refining a common Bares Axe.\n\n- Repair to Max. Durability: Bares Axe of Destruction, Bares Axe</desc>
+		</item>
+		<item>
+			<id>10636</id>
+			<name>Bares Axe of Crimson Flame</name>
+			<icon>00010613.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Axe.\nIt can be developed by Refining a common Bares Axe.\n\n- Repair to Max. Durability: Bares Axe of Crimson Flame, Bares Axe</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Kalis Axe of Temptation</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Temptation, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Kalis Axe of Destruction</name>
+			<icon>00010612.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Axe.\nIt can be developed by Refining a common Kalis Axe.\n\n- Repair to Max. Durability: Kalis Axe of Destruction, Kalis Axe</desc>
+		</item>
+		<item>
+			<id>10659</id>
+			<name>Krea Axe of Destruction</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Destruction, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10658</id>
+			<name>Krea Axe of Crimson Flame</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Crimson Flame, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10656</id>
+			<name>Krea Axe</name>
+			<icon>00010656.png</icon>
+			<desc>An axe crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with gold.</desc>
+		</item>
+		<item>
+			<id>10704</id>
+			<name>Oros Ornamental Knot</name>
+			<icon>00010704.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with silver.</desc>
+		</item>
+		<item>
+			<id>10660</id>
+			<name>Krea Axe of Temptation</name>
+			<icon>00010656.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Axe.\nIt can be developed by Refining a common Krea Axe.\n\n- Repair to Max. Durability: Krea Axe of Temptation, Krea Axe</desc>
+		</item>
+		<item>
+			<id>10711</id>
+			<name>Oros Ornamental Knot of Destruction</name>
+			<icon>00010704.png</icon>
+			<desc>The energy of Destruction is contained within this Oros Ornamental Knot.\n\n- Repair to Max. Durability: Oros Ornamental Knot of Destruction, Oros Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10710</id>
+			<name>Oros Ornamental Knot of Crimson Flame</name>
+			<icon>00010704.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Oros Ornamental Knot.\n\n- Repair to Max. Durability: Oros Ornamental Knot of Crimson Flame, Oros Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer Ornamental Knot of Temptation</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Temptation is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Temptation, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer Ornamental Knot of Destruction</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Destruction is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Destruction, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer Ornamental Knot of Crimson Flame</name>
+			<icon>00010703.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Saiyer Ornamental Knot.\n\n- Repair to Max. Durability: Saiyer Ornamental Knot of Crimson Flame, Saiyer Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos Ornamental Knot of Temptation</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Temptation is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Temptation, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos Ornamental Knot of Destruction</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Destruction is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Destruction, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos Ornamental Knot of Crimson Flame</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Crimson Flame, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10712</id>
+			<name>Oros Ornamental Knot of Temptation</name>
+			<icon>00010704.png</icon>
+			<desc>The energy of Temptation is contained within this Oros Ornamental Knot.\n\n- Repair to Max. Durability: Oros Ornamental Knot of Temptation, Oros Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer Ornamental Knot</name>
+			<icon>00010703.png</icon>
+			<desc>A handmade ornamental knot for an axe made of quality silk.</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea Ornamental Knot of Destruction</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Destruction, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea Ornamental Knot of Crimson Flame</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Crimson Flame, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea Ornamental Knot</name>
+			<icon>00010724.png</icon>
+			<desc>An ornamental knot crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Krea Longbow of Crimson Flame</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Crimson Flame, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A longbow crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea Ornamental Knot of Temptation</name>
+			<icon>00010724.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Ornamental Knot.\n\n- Repair to Max. Durability: Krea Ornamental Knot of Temptation, Krea Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Krea Longbow of Temptation</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Temptation, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Krea Longbow of Destruction</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Destruction, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Yuria Longbow of Temptation</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Temptation, Yuria Longbow</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Yuria Longbow of Destruction</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Destruction, Yuria Longbow</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Yuria Longbow of Crimson Flame</name>
+			<icon>00010214.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Longbow.\nIt can be developed by Refining a common Yuria Longbow.\n\n- Repair to Max. Durability: Yuria Longbow of Crimson Flame, Yuria Longbow</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

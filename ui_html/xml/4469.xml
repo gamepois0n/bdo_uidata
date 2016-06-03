@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4469</itemKey>
+	<itemName>Green Crystal</itemName>
+	<itemIcon>00004469.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Green Crystals found near Rhutum Outstation.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4409</id>
+			<name>Rough Green Crystal</name>
+			<icon>00004409.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Green Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Rhutum Outstation.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10817</id>
+			<name>Zereth Helmet</name>
+			<icon>00010817.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10818</id>
+			<name>Zereth Armor</name>
+			<icon>00010818.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10819</id>
+			<name>Zereth Gloves</name>
+			<icon>00010819.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10820</id>
+			<name>Zereth Shoes</name>
+			<icon>00010820.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14217</id>
+			<name>[Valkyrie] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14215</id>
+			<name>[Ranger] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14214</id>
+			<name>[Tamer] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14213</id>
+			<name>[Sorceress] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14212</id>
+			<name>[Berserker] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14211</id>
+			<name>[Warrior] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>10820</id>
+			<name>Zereth Shoes</name>
+			<icon>00010820.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10819</id>
+			<name>Zereth Gloves</name>
+			<icon>00010819.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10818</id>
+			<name>Zereth Armor</name>
+			<icon>00010818.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>10817</id>
+			<name>Zereth Helmet</name>
+			<icon>00010817.png</icon>
+			<desc>High-quality armor which gives less fatigue to its wearer\n- Put on 2 or more parts to trigger the set effect</desc>
+		</item>
+		<item>
+			<id>55858</id>
+			<name>Green Crystal Amulet of Wealth</name>
+			<icon>00055858.png</icon>
+			<desc>An accessory made of Green Crystal. Those who want to become rich carry this as a charm.</desc>
+		</item>
+		<item>
+			<id>10864</id>
+			<name>Zereth Shoe of Agility</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of agility is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Agility, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10872</id>
+			<name>Ultimate Zereth Shoes</name>
+			<icon>00010820.png</icon>
+			<desc>Zereth Shoes with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10871</id>
+			<name>Ultimate Zereth Gloves</name>
+			<icon>00010819.png</icon>
+			<desc>Zereth Gloves with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>10870</id>
+			<name>Ultimate Zereth Armor</name>
+			<icon>00010818.png</icon>
+			<desc>Zereth Armor with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10869</id>
+			<name>Ultimate Zereth Helmet</name>
+			<icon>00010817.png</icon>
+			<desc>Zereth Helmet with maximum potential\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Every Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10868</id>
+			<name>Zereth Shoes of Intimidation</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Duress, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10867</id>
+			<name>Zereth Gloves of Intimidation</name>
+			<icon>00010819.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Gloves of Duress, Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>10866</id>
+			<name>Zereth Armor of Intimidation</name>
+			<icon>00010818.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Armor of Duress, Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10865</id>
+			<name>Zereth Helmet of Intimidation</name>
+			<icon>00010817.png</icon>
+			<desc>Energy of intimidation is contained within this Zereth Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Helmet of Duress, Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10862</id>
+			<name>Zereth Armor of Agility</name>
+			<icon>00010818.png</icon>
+			<desc>Energy of agility is contained within this Zereth Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Armor of Agility, Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10861</id>
+			<name>Zereth Helmet of Agility</name>
+			<icon>00010817.png</icon>
+			<desc>Energy of agility is contained within this Zereth Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Helmet of Agility, Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10860</id>
+			<name>Zereth Shoes of Iron Wall</name>
+			<icon>00010820.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Shoes\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Shoes of Iron wall, Zereth Shoes</desc>
+		</item>
+		<item>
+			<id>10859</id>
+			<name>Zereth Gloves of Iron Wall</name>
+			<icon>00010819.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Gloves of Iron wall, Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>10858</id>
+			<name>Zereth Armor of Iron Wall</name>
+			<icon>00010818.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Armor\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Armor of Iron wall, Zereth Armor</desc>
+		</item>
+		<item>
+			<id>10857</id>
+			<name>Zereth Helmet of Iron Wall</name>
+			<icon>00010817.png</icon>
+			<desc>Energy of iron wall is contained within this Zereth Helmet\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Helmet of Iron wall, Zereth Helmet</desc>
+		</item>
+		<item>
+			<id>10863</id>
+			<name>Zereth Gloves of Agility</name>
+			<icon>00010819.png</icon>
+			<desc>Energy of agility is contained within this Zereth Gloves\n- Equipping 2 or more parts will trigger the set effect\n- Restore Max Durability : Zereth Gloves of Agility, Zereth Gloves</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Grade 2 Armor Reform Stone</name>
+			<icon>00004909.png</icon>
+			<desc>A material used in 2nd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

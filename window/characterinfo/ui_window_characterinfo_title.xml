@@ -1,0 +1,299 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_CharInfo_TitleInfo" Pos="0 0" Size="730 560" Pan="0 0" Color="ffffffff" EnableArea="0 0 730 560">
+		<Control Type="Static" Name="Static_BG" Pos="0 0" Size="730 560" Pan="0 0" Color="ffffffff" EnableArea="0 0 730 560" Grid="1" GridPosX="0 10 720 730" GridPosY="0 10 550 560" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LeftSubTitle" Pos="Left Top" Size="234 22" Pan="10 2" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 칭호 정보" formatString="PANEL_CHARACTERINFO_TITLE_LEFTSUBTITLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_LeftBG" Pos="Left Top" Size="357 530" Pan="5 25" Color="ffffffff" EnableArea="0 0 357 530" Grid="1" GridPosX="0 10 347 357" GridPosY="0 10 520 530" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TotalProgress_Area" Pos="Left Top" Size="347 100" Pan="10 30" Color="ffffffff" EnableArea="0 0 347 100" Grid="1" GridPosX="0 10 337 347" GridPosY="0 10 90 100" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_RightBG" Pos="Right Top" Size="357 530" Pan="5 25" Color="ffffffff" EnableArea="0 0 357 530" Grid="1" GridPosX="0 10 347 357" GridPosY="0 10 520 530" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TotalProgress" Pos="Left Top" Size="75 20" Pan="25 43" Color="ffffffff" EnableArea="0 0 75 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 총 진행도" formatString="PANEL_CHARACTERINFO_TITLE_TOTALPROGRESS" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TotalProgress_ProgressBG" Pos="Left Top" Size="210 8" Pan="100 47" Color="ffffffff" EnableArea="0 0 210 8" Grid="1" GridPosX="0 1 209 210" GridPosY="0 1 7 8" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Static_TotalProgress_Progress" Pos="Left Top" Size="208 6" Pan="101 48" Color="ffffffff" EnableArea="0 0 208 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="396 211 508 211 396 215 508 215" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Left Top" Size="7 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 7 6">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TotalProgress_Percent" Pos="Left Top" Size="40 20" Pan="310 40" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="15%" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TotalProgressReward" Pos="Left Top" Size="150 20" Pan="35 62" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 총 진행도 보상 :" formatString="PANEL_CHARACTERINFO_TITLE_TOTALPROGRESSREWARD" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TotalProgressReward_Value" Pos="Left Top" Size="338 42" Pan="15 80" Color="ffffffff" EnableArea="0 0 338 42">
+			<Attribute Type="Ignore"/>
+			<Text Value="행운 + 3%" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CircleProgress_Area" Pos="Left Top" Size="347 180" Pan="10 135" Color="ffffffff" EnableArea="0 0 347 180" Grid="1" GridPosX="0 10 337 347" GridPosY="0 10 170 180" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CircleProgress_AllRoundBG" Pos="Left Top" Size="161 160" Pan="21 145" Color="ffffffff" EnableArea="0 0 161 160" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="350 351 511 351 350 511 511 511" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CircleProgress_CombatBG" Pos="Left Top" Size="139 138" Pan="32 156" Color="ffffffff" EnableArea="0 0 139 138" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="210 373 349 373 210 511 349 511" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CircleProgress_ProductBG" Pos="Left Top" Size="116 116" Pan="43 167" Color="ffffffff" EnableArea="0 0 116 116" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="92 395 208 395 92 511 208 511" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CircleProgress_FishingBG" Pos="Left Top" Size="93 92" Pan="55 178" Color="ffffffff" EnableArea="0 0 93 92" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="417 256 511 256 417 349 511 349" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_AllRound" Pos="Left Top" Size="159 158" Pan="22 146" Color="ffffffff" EnableArea="0 0 159 158" StartRadian="1.570796" CenterPos="79.00 79.00">
+			<Texture Type="Base" UV="350 1 509 1 350 159 509 159" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_Combat" Pos="Left Top" Size="137 136" Pan="33 157" Color="ffffffff" EnableArea="0 0 137 136" StartRadian="1.570796" CenterPos="68.00 68.00">
+			<Texture Type="Base" UV="211 1 348 1 211 137 348 137" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_Product" Pos="Left Top" Size="114 114" Pan="44 168" Color="ffffffff" EnableArea="0 0 114 114" StartRadian="1.570796" CenterPos="57.00 57.00">
+			<Texture Type="Base" UV="95 1 209 1 95 115 209 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_Fishing" Pos="Left Top" Size="92 91" Pan="55 178" Color="ffffffff" EnableArea="0 0 92 91" StartRadian="1.570796" CenterPos="46.00 46.00">
+			<Texture Type="Base" UV="1 1 93 1 1 92 93 92" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AllRound_PercentValue" Pos="Left Top" Size="120 20" Pan="190 150" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 세계형 : 85%" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Combat_PercentValue" Pos="Left Top" Size="120 20" Pan="220 190" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 전투형 : 85%" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Product_PercentValue" Pos="Left Top" Size="120 20" Pan="220 230" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 생활형 : 85%" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Fishing_PercentValue" Pos="Left Top" Size="120 20" Pan="190 270" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 낚시형 : 85%" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_RadioButton_Area" Pos="Left Top" Size="347 130" Pan="10 320" Color="ffffffff" EnableArea="0 0 347 130" Grid="1" GridPosX="0 10 337 347" GridPosY="0 10 120 130" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Taste_AllRound" Pos="Left Top" Size="64 64" Pan="30 350" Color="ffffffff" EnableArea="0 0 64 64" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="4 5 114 5 4 115 114 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="4 131 114 131 4 241 114 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="4 256 114 256 4 366 114 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Taste_Combat" Pos="Left Top" Size="64 64" Pan="110 350" Color="ffffffff" EnableArea="0 0 64 64" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="123 5 233 5 123 115 233 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="123 131 233 131 123 241 233 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="123 256 233 256 123 366 233 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Taste_Product" Pos="Left Top" Size="64 64" Pan="190 350" Color="ffffffff" EnableArea="0 0 64 64" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="240 5 350 5 240 115 350 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="240 131 350 131 240 241 350 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="240 256 350 256 240 366 350 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Taste_Fishing" Pos="Left Top" Size="64 64" Pan="270 350" Color="ffffffff" EnableArea="0 0 64 64" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="357 5 467 5 357 115 467 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="357 131 467 131 357 241 467 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="357 256 467 256 357 366 467 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AllRoundDesc" Pos="1 Top" Size="120 25" Pan="0 320" Color="ffffffff" EnableArea="0 0 120 25" Grid="1" GridPosX="0 10 110 120" GridPosY="0 10 15 25" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="세계형" formatString="UI_WINDOW_CHARACTERINFO_TITLE_TOOLTIP_ALLROUND" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CombatDesc" Pos="83 Top" Size="120 25" Pan="0 320" Color="ffffffff" EnableArea="0 0 120 25" Grid="1" GridPosX="0 10 110 120" GridPosY="0 10 15 25" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="전투형" formatString="UI_WINDOW_CHARACTERINFO_TITLE_TOOLTIP_COMBAT" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ProductDesc" Pos="165 Top" Size="120 25" Pan="0 320" Color="ffffffff" EnableArea="0 0 120 25" Grid="1" GridPosX="0 10 110 120" GridPosY="0 10 15 25" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="생활형" formatString="UI_WINDOW_CHARACTERINFO_TITLE_TOOLTIP_LIFE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishingDesc" Pos="244 Top" Size="120 25" Pan="0 320" Color="ffffffff" EnableArea="0 0 120 25" Grid="1" GridPosX="0 10 110 120" GridPosY="0 10 15 25" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="낚시형" formatString="UI_WINDOW_CHARACTERINFO_TITLE_TOOLTIP_FISH" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AllRound_CountValue" Pos="Left Top" Size="80 20" Pan="22 420" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2,000" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Combat_CountValue" Pos="Left Top" Size="80 20" Pan="102 420" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2,000" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Product_CountValue" Pos="Left Top" Size="80 20" Pan="182 420" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2,000" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Fishing_CountValue" Pos="Left Top" Size="80 20" Pan="262 420" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2,000" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SelectedType_Area" Pos="Left Top" Size="347 95" Pan="10 455" Color="ffffffff" EnableArea="0 0 347 95" Grid="1" GridPosX="0 10 337 347" GridPosY="0 10 85 95" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SelectedType" Pos="Left Top" Size="330 64" Pan="20 470" Color="ffffffff" EnableArea="0 0 330 64">
+			<Attribute Type="Ignore"/>
+			<Text Value="&lt;활성화 된 칭호를 선택하여 주세요&gt;" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SelectedType_Reward" Pos="Left Top" Size="150 20" Pan="140 500" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="경험치 증가 + 1%" Font="BaseFont_12" Color="ffff9900" OverColor="ffff9900" ClickColor="ffff9900" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RightSubTitle" Pos="Right Top" Size="234 22" Pan="125 2" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 칭호 목록" formatString="PANEL_CHARACTERINFO_TITLE_RIGHTSUBTITLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TitleList_Subject" Pos="Left Top" Size="357 25" Pan="368 32" Color="ffffffff" EnableArea="0 0 357 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="292 200 306 200 292 214 306 214" Ani="1 1 0.000 0">new_ui_common_forlua/window/gameoption/gameoption_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TitleList_Btn" Pos="Left Top" Size="357 25" Pan="368 32" Color="ffffffff" EnableArea="0 0 357 25">
+			<Attribute Type="Hide"/>
+			<Text Value="세계형" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 2"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_TitleList_TitleBG" Pos="376 62" Size="332 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 332 30" Grid="1" GridPosX="0 10 322 332" GridPosY="0 10 20 30" GridUVX="0 10 14 24" GridUVY="0 10 14 24">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="206 1 230 1 206 25 230 25" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="On" UV="231 1 255 1 231 25 255 25" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="Click" UV="231 26 255 26 231 50 255 50" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TitleList_Title" Pos="811 37" Size="120 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 120 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_TitleList_L" Pos="Left Top" Size="17 22" Pan="473 34" Color="ffffffff" EnableArea="-20 0 37 22" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="205 15 222 15 205 37 222 37" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="205 38 222 38 205 60 222 60" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="205 61 222 61 205 83 222 83" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_TitleList_R" Pos="Left Top" Size="17 22" Pan="602 34" Color="ffffffff" EnableArea="-20 0 37 22" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="223 15 240 15 223 37 240 37" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="223 38 240 38 223 60 240 60" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="223 61 240 61 223 83 240 83" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TitleProgressBG" Pos="812 61" Size="280 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 8" Grid="1" GridPosX="0 1 279 280" GridPosY="0 1 7 8" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Static_TitleProgress" Pos="813 62" Size="278 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 278 6">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 186 255 186 1 189 255 189" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Left Top" Size="7 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 7 6">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TitleProgress_Percent" Pos="1085 53" Size="40 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="15%" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_TitleList_SelectedTitle" Pos="798 105" Size="100 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 40" Grid="1" GridPosX="0 8 92 100" GridPosY="0 8 32 40" GridUVX="0 8 79 87" GridUVY="0 8 33 41" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="421 163 508 163 421 204 508 204" Ani="1 1 0.000 0">new_ui_common_forlua/window/title/title_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_SetTitle" Pos="914 109" Size="60 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 20" Grid="1" GridPosX="0 4 55 60" GridPosY="0 4 15 20" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="적 용" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_TitleList" Pos="Right 98" Size="7 453" Pan="12 0" Color="ffffffff" EnableArea="0 0 7 453" Grid="1" GridPosX="0 1 6 7" GridPosY="0 5 448 453" GridUVX="0 1 6 7" GridUVY="0 5 35 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 453" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_CtrlButton" Pos="Right 77" Size="10 100" Pan="2 0" Color="ffffffff" EnableArea="0 0 10 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 90 100" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AcceptCooltime" Pos="Right Top" Size="50 20" Pan="15 3" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="&lt;PAColor0xFFffbd2e&gt;60초&lt;PAOldColor&gt; 뒤 적용 및 해지가 가능합니다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Top_AllRound" Pos="392 38" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="4 5 114 5 4 115 114 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="4 131 114 131 4 241 114 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="4 256 114 256 4 366 114 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="세계형" formatString="PANEL_CHARACTERINFO_TITLE_RDOBTN_ALLROUND" Font="BaseFont_8_Line" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffffd542" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Top_Combat" Pos="477 38" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="123 5 233 5 123 115 233 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="123 131 233 131 123 241 233 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="123 256 233 256 123 366 233 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="전투형" formatString="PANEL_CHARACTERINFO_TITLE_RDOBTN_COMBAT" Font="BaseFont_8_Line" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffffd542" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Top_Product" Pos="565 38" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="240 5 350 5 240 115 350 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="240 131 350 131 240 241 350 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="240 256 350 256 240 366 350 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="생활형" formatString="PANEL_CHARACTERINFO_TITLE_RDOBTN_PRODUCT" Font="BaseFont_8_Line" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffffd542" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Top_Fish" Pos="649 38" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" UseDefaultSound="1" Group="1">
+			<Texture Type="Base" UV="357 5 467 5 357 115 467 115" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="On" UV="357 131 467 131 357 241 467 241" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Texture Type="Click" UV="357 256 467 256 357 366 467 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/firstlogin/firstlogin_icon_00.dds</Texture>
+			<Text Value="낚시형" formatString="PANEL_CHARACTERINFO_TITLE_RDOBTN_FISH" Font="BaseFont_8_Line" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffffd542" AlignHorizon="Center" AlignVertical="Bottom" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

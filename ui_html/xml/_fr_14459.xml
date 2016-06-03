@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14459</itemKey>
+	<itemName>Bâton de Krea de destruction</itemName>
+	<itemIcon>00014456.png</itemIcon>
+	<itemDesc>Ce bâton de Krea renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de destruction, bâton de Krea</itemDesc>
+	<house type="11">
+		<item>
+			<id>14456</id>
+			<name>Bâton de Krea</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="6">
+		<item>
+			<id>4253</id>
+			<name>Cristal d&apos;argent pur</name>
+			<icon>00004253.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots d&apos;argent. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5004</id>
+			<name>Sève de bouleau</name>
+			<icon>00005004.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un bouleau.</desc>
+		</item>
+		<item>
+			<id>4604</id>
+			<name>Bois de bouleau</name>
+			<icon>00004604.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit à le colline de Quint, dans les ruines de l&apos;arbre de Bree et à Vieux Pissenlit. S&apos;obtient également en débitant des bouleaux.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Branche de moine</name>
+			<icon>00005007.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une branche de moine demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+		<item>
+			<id>5952</id>
+			<name>Trace de désespoir</name>
+			<icon>00005952.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait au site d&apos;excavation de la souche de Rhua et dans la forêt des manshas.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14456</id>
+			<name>Bâton de Krea</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Bâton de Krea ultime</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton de Krea ayant atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea de destruction, bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Bâton de Krea de tentation</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Bâton de Krea de destruction</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de destruction, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Bâton de Krea de la flamme pourpre</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

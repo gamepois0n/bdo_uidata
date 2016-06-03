@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4053</itemKey>
+	<itemName>Reiner Eisenkristall</itemName>
+	<itemIcon>00004053.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Eisenbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4052</id>
+			<name>Eisenbarren</name>
+			<icon>00004052.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Eisensplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4076</id>
+			<name>Metall-Lösungsmittel</name>
+			<icon>00004076.png</icon>
+			<desc>Ein Material, das für eine Verarbeitungsmethode genutzt wird, bei der Metalle in Kristalle verwandelt werden.\n\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10012</id>
+			<name>Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Langschwert.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10102</id>
+			<name>Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein Rundschild aus hartem Eisen.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10103</id>
+			<name>Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein stahlüberzogener Schild, der für gewöhnlich zum Angriff genutzt wird.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10105</id>
+			<name>Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein starker Legierungsschild, der den größten Schutz bietet.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10212</id>
+			<name>Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Langbogen.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10304</id>
+			<name>Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein scharfer Dolch aus Stahl.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10412</id>
+			<name>Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Fokusreif.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10612</id>
+			<name>Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine zu höchster Perfektion geschmiedete Axt.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10703</id>
+			<name>Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten aus hochwertiger Seide.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10704</id>
+			<name>Oros-Schmuckknoten</name>
+			<icon>00010704.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Silber.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10705</id>
+			<name>Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Gold.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13212</id>
+			<name>Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Kurzschwert.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13003</id>
+			<name>Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Weihrauch.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13004</id>
+			<name>Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Nadeln.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13005</id>
+			<name>Klingenanhänger</name>
+			<icon>00010706.png</icon>
+			<desc>Ein Anhänger, an dem eine dekorative Klinge befestigt ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14412</id>
+			<name>Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedeter Stab.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10304</id>
+			<name>Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein scharfer Dolch aus Stahl.</desc>
+		</item>
+		<item>
+			<id>10313</id>
+			<name>Ultimativer Stahldolch</name>
+			<icon>00010304.png</icon>
+			<desc>Ein maximal aufgerüsteter Stahldolch.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch der Zerstörung, Stahldolch der Versuchung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10312</id>
+			<name>Stahldolch der Versuchung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Versuchung\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Versuchung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10311</id>
+			<name>Stahldolch der Zerstörung</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Zerstörung, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10310</id>
+			<name>Stahldolch der Purpurnen Flamme</name>
+			<icon>00010304.png</icon>
+			<desc>Dieser Stahldolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Stahldolch der Purpurnen Flamme, Stahldolch</desc>
+		</item>
+		<item>
+			<id>10717</id>
+			<name>Ultimativer Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein maximal aufgerüsteter Theos-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Purpurnen Flamme, Theos-Schmuckknoten der Zerstörung, Theos-Schmuckknoten der Versuchung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos-Schmuckknoten der Versuchung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Versuchung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos-Schmuckknoten der Zerstörung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Zerstörung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Purpurnen Flamme, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10713</id>
+			<name>Ultimativer Oros-Schmuckknoten</name>
+			<icon>00010704.png</icon>
+			<desc>Ein maximal aufgerüsteter Oros-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Purpurnen Flamme, Oros-Schmuckknoten der Zerstörung, Oros-Schmuckknoten der Versuchung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10712</id>
+			<name>Oros-Schmuckknoten der Versuchung</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Versuchung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Fokusreif.</desc>
+		</item>
+		<item>
+			<id>10435</id>
+			<name>Ultimativer Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Purpurnen Flamme, Kalis-Fokusreif der Zerstörung, Kalis-Fokusreif der Versuchung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis-Fokusreif der Versuchung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Versuchung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis-Fokusreif der Zerstörung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Zerstörung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Purpurnen Flamme, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Weihrauchanhänger der Zerstörung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Zerstörung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Weihrauchanhänger der Purpurnen Flamme</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Purpurnen Flamme, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Klingenanhänger</name>
+			<icon>00010706.png</icon>
+			<desc>Ein Anhänger, an dem eine dekorative Klinge befestigt ist.</desc>
+		</item>
+		<item>
+			<id>13004</id>
+			<name>Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Nadeln.</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Weihrauch.</desc>
+		</item>
+		<item>
+			<id>53704</id>
+			<name>Abzeichen für Hofwagen</name>
+			<icon>00053610.png</icon>
+			<desc>Ein Banner für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53702</id>
+			<name>Abzeichen für Robusten Wagen</name>
+			<icon>00053608.png</icon>
+			<desc>Ein Banner für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16163</id>
+			<name>Epheria-Angelrute</name>
+			<icon>00016163.png</icon>
+			<desc>Epheria-Angelrute. Sie ist stabiler als andere Angelruten.\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>56013</id>
+			<name>Trina-Kanonenbausatz</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Trina-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nEine haltbare Kanone aus hartem Holz. Dank einer calpheonischen Technik hält sie Hitze aus und kann sehr schnell feuern.\nDer Schusswinkel kann in 5 Stufen geregelt werden.\nBasis-Kanonenschaden: 750\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>56012</id>
+			<name>Lynch-Kanonenbausatz</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Lynch-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nSie ist eine sehr lange haltbare Kanone aus Stahl. Sie hält moderate Hitze aus und feuert mit durchschnittlicher Geschwindigkeit.\nDer Schusswinkel kann in 4 Stufen geregelt werden.\nBasis-Kanonenschaden: 1000\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>56002</id>
+			<name>Kanonenbausatz für Alte Kanone von Serendia</name>
+			<icon>00056002.png</icon>
+			<desc>Erlaubt die Montage einer Alten Serendia-Kanone.\nEs dauert 30 Sek., die Kanone zu demontieren.\nNach der Demontage werden alle Objekte in der Kanone gelöscht.\nDa sie ein älteres Modell ist, ist sie weniger beständig und feuert langsamer.\nDer Schusswinkel kann in 3 Stufen geregelt werden.\nBasis-Kanonenschaden: 500\nAufgestellte Kanonen werden während Wartungsarbeiten am Server gelöscht.</desc>
+		</item>
+		<item>
+			<id>13235</id>
+			<name>Ultimatives Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein maximal aufgerüstetes Kalis-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert der Zerstörung, Kalis-Kurzschwert der Versuchung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Kalis-Kurzschwert der Versuchung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Versuchung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Kalis-Kurzschwert der Zerstörung</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Zerstörung, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Kalis-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013207.png</icon>
+			<desc>Dieses Kalis-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Kurzschwert der Purpurnen Flamme, Kalis-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Kalis-Kurzschwert</name>
+			<icon>00013207.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Kurzschwert.</desc>
+		</item>
+		<item>
+			<id>16108</id>
+			<name>Glänzende Stahlholzfälleraxt</name>
+			<icon>00016108.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16124</id>
+			<name>Glänzendes Stahlgerbermesser</name>
+			<icon>00016124.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16120</id>
+			<name>Glänzendes Stahlschlachtermesser</name>
+			<icon>00016120.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16116</id>
+			<name>Glänzende Stahlhacke</name>
+			<icon>00016116.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16112</id>
+			<name>Glänzender Flüssigkeitssammler</name>
+			<icon>00016112.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Tierblut oder Saft gesammelt wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>49404</id>
+			<name>Fischerbootdekoration</name>
+			<icon>00049404.png</icon>
+			<desc>Eine Dekoration, die an einem Fischerboot angebracht werden kann. Dadurch verringert sich die Chance, Handelswaren zu beschädigen.\nWenn 3 oder mehr weitere Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nGesamte VK +30 (noch nicht verfügbar)\n\n– Ausrüstung für Fischerboote\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine zu höchster Perfektion geschmiedete Axt.</desc>
+		</item>
+		<item>
+			<id>16128</id>
+			<name>Glänzende Stahlspitzhacke</name>
+			<icon>00016128.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Erz aus Gestein gewonnen wird.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>13012</id>
+			<name>Nadelanhänger der Versuchung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Versuchung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13011</id>
+			<name>Nadelanhänger der Zerstörung</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Zerstörung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13010</id>
+			<name>Nadelanhänger der Purpurnen Flamme</name>
+			<icon>00013005.png</icon>
+			<desc>Dieser Nadelanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Purpurnen Flamme, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>13009</id>
+			<name>Ultimativer Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein maximal aufgerüsteter Weihrauchanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Purpurnen Flamme, Weihrauchanhänger der Zerstörung, Weihrauchanhänger der Versuchung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Weihrauchanhänger der Versuchung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Versuchung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Ultimativer Klingenanhänger</name>
+			<icon>00010707.png</icon>
+			<desc>Ein maximal aufgerüsteter Klingenanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger der Zerstörung, Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Klingenanhänger der Versuchung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Versuchung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Klingenanhänger der Zerstörung</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Zerstörung, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Klingenanhänger der Purpurnen Flamme</name>
+			<icon>00010706.png</icon>
+			<desc>Dieser Klingenanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Klingenanhänger der Purpurnen Flamme, Klingenanhänger</desc>
+		</item>
+		<item>
+			<id>13013</id>
+			<name>Ultimativer Nadelanhänger</name>
+			<icon>00013005.png</icon>
+			<desc>Ein maximal aufgerüsteter Nadelanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Nadelanhänger der Purpurnen Flamme, Nadelanhänger der Zerstörung, Nadelanhänger der Versuchung, Nadelanhänger</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Vangertz-Schild der Zerstörung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Zerstörung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Vangertz-Schild der Purpurnen Flamme</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein starker Legierungsschild, der den größten Schutz bietet.</desc>
+		</item>
+		<item>
+			<id>10103</id>
+			<name>Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein stahlüberzogener Schild, der für gewöhnlich zum Angriff genutzt wird.</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein Rundschild aus hartem Eisen.</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion-Schild der Zerstörung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Zerstörung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion-Schild der Purpurnen Flamme</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Purpurnen Flamme, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10109</id>
+			<name>Ultimativer Vangertz-Schild</name>
+			<icon>00010102.png</icon>
+			<desc>Ein maximal aufgerüsteter Vangertz-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Purpurnen Flamme, Vangertz-Schild der Zerstörung, Vangertz-Schild der Versuchung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Vangertz-Schild der Versuchung</name>
+			<icon>00010102.png</icon>
+			<desc>Dieser Vangertz-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Vangertz-Schild der Versuchung, Vangertz-Schild</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Drachenschild der Zerstörung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Zerstörung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Drachenschild der Purpurnen Flamme</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Purpurnen Flamme, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10113</id>
+			<name>Ultimativer Axion-Schild</name>
+			<icon>00010103.png</icon>
+			<desc>Ein maximal aufgerüsteter Axion-Schild.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Purpurnen Flamme, Axion-Schild der Zerstörung, Axion-Schild der Versuchung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion-Schild der Versuchung</name>
+			<icon>00010103.png</icon>
+			<desc>Dieser Axion-Schild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Axion-Schild der Versuchung, Axion-Schild</desc>
+		</item>
+		<item>
+			<id>10117</id>
+			<name>Ultimativer Drachenschild</name>
+			<icon>00010105.png</icon>
+			<desc>Ein maximal aufgerüsteter Drachenschild.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Purpurnen Flamme, Drachenschild der Zerstörung, Drachenschild der Versuchung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Drachenschild der Versuchung</name>
+			<icon>00010105.png</icon>
+			<desc>Dieser Drachenschild enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Drachenschild der Versuchung, Drachenschild</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Ultimativer Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Purpurnen Flamme, Kalis-Langbogen der Zerstörung, Kalis-Langbogen der Versuchung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Kalis-Langbogen der Versuchung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Versuchung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Kalis-Langbogen der Zerstörung</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Zerstörung, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Kalis-Langbogen der Purpurnen Flamme</name>
+			<icon>00010212.png</icon>
+			<desc>Dieser Kalis-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Langbogens gefertigt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langbogen der Purpurnen Flamme, Kalis-Langbogen</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Kalis-Langbogen</name>
+			<icon>00010212.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Langbogen.</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Kalis-Axt der Purpurnen Flamme</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Purpurnen Flamme, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10635</id>
+			<name>Ultimative Kalis-Axt</name>
+			<icon>00010612.png</icon>
+			<desc>Eine maximal aufgerüstete Kalis-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Purpurnen Flamme, Kalis-Axt der Zerstörung, Kalis-Axt der Versuchung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Kalis-Axt der Versuchung</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Versuchung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Kalis-Axt der Zerstörung</name>
+			<icon>00010612.png</icon>
+			<desc>Diese Kalis-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Kalis-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Axt der Zerstörung, Kalis-Axt</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Gold.</desc>
+		</item>
+		<item>
+			<id>10704</id>
+			<name>Oros-Schmuckknoten</name>
+			<icon>00010704.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Silber.</desc>
+		</item>
+		<item>
+			<id>10711</id>
+			<name>Oros-Schmuckknoten der Zerstörung</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Zerstörung, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10710</id>
+			<name>Oros-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010704.png</icon>
+			<desc>Dieser Oros-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Oros-Schmuckknoten der Purpurnen Flamme, Oros-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimativer Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein maximal aufgerüsteter Saiyer-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer-Schmuckknoten der Versuchung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer-Schmuckknoten der Zerstörung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten aus hochwertiger Seide.</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Kalis-Langschwert der Zerstörung</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Zerstörung, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Kalis-Langschwert der Purpurnen Flamme</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Purpurnen Flamme, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedetes Langschwert.</desc>
+		</item>
+		<item>
+			<id>10035</id>
+			<name>Ultimatives Kalis-Langschwert</name>
+			<icon>00010012.png</icon>
+			<desc>Ein maximal aufgerüstetes Kalis-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Purpurnen Flamme, Kalis-Langschwert der Zerstörung, Kalis-Langschwert der Versuchung, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Kalis-Langschwert der Versuchung</name>
+			<icon>00010012.png</icon>
+			<desc>Dieses Kalis-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Langschwert der Versuchung, Kalis-Langschwert</desc>
+		</item>
+		<item>
+			<id>16808</id>
+			<name>Glückbringende glänzende Stahlholzfälleraxt</name>
+			<icon>00016808.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16828</id>
+			<name>Glückbringende glänzende Stahlspitzhacke</name>
+			<icon>00016828.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem aus Gestein Erz gewonnen wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16824</id>
+			<name>Glückbringendes glänzendes Stahlgerbermesser</name>
+			<icon>00016824.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16820</id>
+			<name>Glückbringendes glänzendes Stahlschlachtermesser</name>
+			<icon>00016820.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16816</id>
+			<name>Glückbringende glänzende Stahlhacke</name>
+			<icon>00016816.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16812</id>
+			<name>Glückbringender glänzender Flüssigkeitssammler</name>
+			<icon>00016812.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Blut oder Saft abgezapft wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -10 Sek. \n– Nicht reparierbar</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

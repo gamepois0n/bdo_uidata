@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5216</itemKey>
+	<itemName>Essence of Destruction</itemName>
+	<itemIcon>00005216.png</itemIcon>
+	<itemDesc>An essence extracted from Fruit of Destruction, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n- How to Obtain: Can be made by combining other ingredients with Fruit of Destruction using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5215</id>
+			<name>Fruit of Destruction</name>
+			<icon>00005215.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5215</id>
+			<name>Fruit of Destruction</name>
+			<icon>00005215.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Pine Sap</name>
+			<icon>00005003.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Pine Trees with a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Powder of Flame</name>
+			<icon>00004802.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5402</id>
+			<name>Silver Azalea</name>
+			<icon>00005402.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be Produced at the Northern Plain of Serendia and Lynch Farm Ruins. It can also be Gathered directly from Wild Herbs using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

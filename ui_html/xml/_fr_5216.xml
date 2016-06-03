@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5216</itemKey>
+	<itemName>Essence de destruction</itemName>
+	<itemIcon>00005216.png</itemIcon>
+	<itemDesc>Essence extraite d&apos;un fruit de destruction pouvant être parfois obtenu dans un jardin. Utilisé en tant qu&apos;ingrédient en alchimie.\n- Obtention : s&apos;obtient en combinant certains ingrédients avec un fruit de destruction en alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5215</id>
+			<name>Fruit de destruction</name>
+			<icon>00005215.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5215</id>
+			<name>Fruit de destruction</name>
+			<icon>00005215.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Sève de pin</name>
+			<icon>00005003.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un pin.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Poudre de flamme</name>
+			<icon>00004802.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>5402</id>
+			<name>Azalée argentée</name>
+			<icon>00005402.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : peut être produit dans la plaine Nord de Serendia et dans les ruines de la ferme Lynch. Peut également être récolté directement sur des herbes sauvages à mains nues ou à l&apos;aide d&apos;une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

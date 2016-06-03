@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7916</itemKey>
+	<itemName>Viande de coucou</itemName>
+	<itemIcon>00007916.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un coucou mort.\n\n- Utilisation : oiseau frit, oiseau cuit à la vapeur, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Coucou</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Viande séchée à point</name>
+			<icon>00007919.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

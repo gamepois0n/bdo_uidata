@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4460</itemKey>
+	<itemName>Smaragd</itemName>
+	<itemIcon>00004460.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohsmaragd gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Beryll</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4404</id>
+			<name>Rohsmaragd</name>
+			<icon>00004404.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohsmaragd erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11605</id>
+			<name>Kalis-Halskette</name>
+			<icon>00011605.png</icon>
+			<desc>Eine Halskette mit einer Aura, die die Konzentration verbessert.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11805</id>
+			<name>Kalis-Ohrring</name>
+			<icon>00011805.png</icon>
+			<desc>Ein Ohrring mit einer Aura, die die Konzentration verbessert.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12005</id>
+			<name>Kalis-Ring</name>
+			<icon>00012005.png</icon>
+			<desc>Ein Ring mit einer Aura, die die Konzentration verbessert.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12205</id>
+			<name>Kalis-Gürtel</name>
+			<icon>00012205.png</icon>
+			<desc>Ein Gürtel mit einer Aura, die die Konzentration verbessert.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11718</id>
+			<name>Waldsmaragd-Halskette</name>
+			<icon>00011718.png</icon>
+			<desc>Eine mit einem Waldsmaragd verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11717</id>
+			<name>Glänzende Smaragdhalskette</name>
+			<icon>00011717.png</icon>
+			<desc>Eine mit einem Funkelnden Smaragd verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>4461</id>
+			<name>Glänzender Smaragd</name>
+			<icon>00004461.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohsmaragd gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

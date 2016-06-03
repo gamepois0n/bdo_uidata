@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6651</itemKey>
+	<itemName>Destilliertes Wasser</itemName>
+	<itemIcon>00006651.png</itemIcon>
+	<itemDesc>Klares, destilliertes Wasser.\n– Gewinnung: Kann durch Erhitzung einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Destilliertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6653</id>
+			<name>Flasche Flusswasser</name>
+			<icon>00006653.png</icon>
+			<desc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in einem Fluss gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einem Fluss mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche Flusswasser im Garten angewendet, steigt der Wasservorrat an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6654</id>
+			<name>Flasche trübes Wasser</name>
+			<icon>00006654.png</icon>
+			<desc>Eine Flasche mit trübem Wasser, das mithilfe einer leeren Flasche in einer schmutzigen Wasserquelle gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einer schmutzigen Wasserquelle mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche trübes Wasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>6655</id>
+			<name>Flasche sauberes Wasser</name>
+			<icon>00006655.png</icon>
+			<desc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in klarem Wasser gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus klarem Wasser mithilfe einer Leeren Flasche gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16903</id>
+			<name>Biodünger</name>
+			<icon>00016901.png</icon>
+			<desc>Wird verwendet, um die Wachstumsrate von Feldfrüchten in der Nähe zu steigern. Wenn Ihr Dünger bei einem Garten verwendet, reduziert das die Zeit, die eine Feldfrucht zum Heranwachsen benötigt.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

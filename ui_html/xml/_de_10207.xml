@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10207</itemKey>
+	<itemName>Seles-Langbogen</itemName>
+	<itemIcon>00010207.png</itemIcon>
+	<itemDesc>Ein Langbogen, der von einem starken Hass auf die Menschheit erfüllt ist.</itemDesc>
+	<shop>
+		<character>
+			<name>Ornella</name>
+		</character>
+	</shop>
+	<house type="7">
+		<item>
+			<id>4603</id>
+			<name>Pinienholz</name>
+			<icon>00004603.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Serendiaschrein und in der Marihöhle hergestellt werden. Kann außerdem durch Fällen von Pinien erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4056</id>
+			<name>Reiner Bleikristall</name>
+			<icon>00004056.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Bleibarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>5962</id>
+			<name>Spur des Todes</name>
+			<icon>00005962.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird. Kann durch Ausgrabung gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10207</id>
+			<name>Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein Langbogen, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10207</id>
+			<name>Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein Langbogen, der von einem starken Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10229</id>
+			<name>Seles-Langbogen der Zerstörung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Zerstörung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10228</id>
+			<name>Seles-Langbogen der Purpurnen Flamme</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Purpurnen Flamme, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10231</id>
+			<name>Ultimativer Seles-Langbogen</name>
+			<icon>00010207.png</icon>
+			<desc>Ein maximal aufgerüsteter Seles-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Purpurnen Flamme, Seles-Langbogen der Zerstörung, Seles-Langbogen der Versuchung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>10230</id>
+			<name>Seles-Langbogen der Versuchung</name>
+			<icon>00010207.png</icon>
+			<desc>Dieser Seles-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Seles-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Seles-Langbogen der Versuchung, Seles-Langbogen</desc>
+		</item>
+		<item>
+			<id>5962</id>
+			<name>Spur des Todes</name>
+			<icon>00005962.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird. Kann durch Ausgrabung gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4056</id>
+			<name>Reiner Bleikristall</name>
+			<icon>00004056.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Bleibarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

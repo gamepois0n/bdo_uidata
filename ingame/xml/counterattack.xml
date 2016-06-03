@@ -1,0 +1,10 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CounterAttack" Pos="0 0" Size="1280 720" Pan="0 0" Color="46ffffff" EnableArea="0 0 1280 720">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/skill/counterattack.dds</Texture>
+		<UIAni FrameVelocity="0.025" CalcParentRotate="False">
+			<UIAniItem Type="Color" StartColor="b0ffffff" EndColor="  ffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Counter" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+		</UIAni>
+	</Control>
+</UI>
+

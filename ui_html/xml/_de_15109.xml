@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15109</itemKey>
+	<itemName>Magiekristall der Unendlichkeit – Heilung</itemName>
+	<itemIcon>00045014.png</itemIcon>
+	<itemDesc>Ein Schwarzsteinkristall, der in Rüstungs-Sockel übertragen werden kann.\n– Gegenstandseffekt: LP-Regeneration +3\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15009</id>
+			<name>Magiekristall des Überflusses – Heilung</name>
+			<icon>00045014.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Rüstungs-Sockel übertragen werden kann.\n– Gegenstandseffekt: LP-Regeneration +2\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+		<item>
+			<id>5201</id>
+			<name>Frucht der Purpurnen Flamme</name>
+			<icon>00005201.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Magiekristall der Purpurnen Flamme – Präzision</name>
+			<icon>00045001.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Waffen-Sockel übertragen werden kann.\n– Gegenstandseffekt: Gesamte Genauigkeit +1\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+		<item>
+			<id>4469</id>
+			<name>Grüner Kristall</name>
+			<icon>00004469.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe des Rhutum-Außenpostens gefundenem Grünen Rohkristall gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5009</id>
+			<name>Tannennadelsaft</name>
+			<icon>00005009.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Tanne erhalten werden.</desc>
+		</item>
+		<item>
+			<id>15009</id>
+			<name>Magiekristall des Überflusses – Heilung</name>
+			<icon>00045014.png</icon>
+			<desc>Ein Schwarzsteinkristall, der in Rüstungs-Sockel übertragen werden kann.\n– Gegenstandseffekt: LP-Regeneration +2\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

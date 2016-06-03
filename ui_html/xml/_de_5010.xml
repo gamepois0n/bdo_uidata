@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5010</itemKey>
+	<itemName>Zedernsaft</itemName>
+	<itemIcon>00005010.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Zeder erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Zeder</name>
+		</character>
+	</collect>
+	<node region="Langblattbaumwald – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>49003</id>
+			<name>Schiffslizenz: Calpheon-Fähre</name>
+			<icon>00049003.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz einer 『Calpheon-Fähre』.\n– Inventarplätze: 10, Beschleunigung: 100 %, Geschwindigkeit: 105 %, Wenden: 105 %, Anhalten: 105 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

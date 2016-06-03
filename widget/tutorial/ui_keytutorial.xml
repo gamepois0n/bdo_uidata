@@ -1,0 +1,78 @@
+<UI>
+	<Control Type="Panel" Name="Panel_KeyTutorial" Pos="Center Center" Size="500 400" Pan="-150 0" Color="ffffffff" EnableArea="0 0 500 400">
+		<UIAniSet Name="ANI_SET_Event_01" Repeat="False" TotalEndFrame="0">
+			<UIAniItem UIKey="740945509" AniName="Ani_Color_Event_01" UIName="StaticText_Mouse_Left"/>
+		</UIAniSet>
+		<Control Type="Checkbox" Name="Button_W" Pos="69 2" Size="62 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 64">
+			<Texture Type="Base" UV="253 66 315 66 253 130 315 130" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="316 66 378 66 316 130 378 130" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="316 66 378 66 316 130 378 130" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_A" Pos="0 73" Size="62 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 64">
+			<Texture Type="Base" UV="1 1 63 1 1 65 63 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="64 1 126 1 64 65 126 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="64 1 126 1 64 65 126 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_S" Pos="69 73" Size="62 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 64">
+			<Texture Type="Base" UV="127 66 189 66 127 130 189 130" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="190 66 252 66 190 130 252 130" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="190 66 252 66 190 130 252 130" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_D" Pos="137 73" Size="62 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 64">
+			<Texture Type="Base" UV="127 1 189 1 127 65 189 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="190 1 252 1 190 65 252 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="190 1 252 1 190 65 252 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_F" Pos="236 73" Size="62 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 64">
+			<Texture Type="Base" UV="379 1 441 1 379 65 441 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="442 1 504 1 442 65 504 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="442 1 504 1 442 65 504 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_E" Pos="164 2" Size="62 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 64">
+			<Texture Type="Base" UV="253 1 315 1 253 65 315 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="316 1 378 1 316 65 378 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="316 1 378 1 316 65 378 65" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Mouse_Left" Pos="501 4" Size="98 153" Pan="0 0" Color="ffffffff" EnableArea="0 0 98 153">
+			<Texture Type="Base" UV="1 261 99 261 1 414 99 414" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="100 261 198 261 100 414 198 414" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="100 261 198 261 100 414 198 414" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="HeaderFont_26" Color="ffffff00" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Mouse_Right" Pos="603 4" Size="98 153" Pan="0 0" Color="ffffffff" EnableArea="0 0 98 153">
+			<Texture Type="Base" UV="199 261 297 261 199 414 297 414" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="298 261 396 261 298 414 396 414" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="298 261 396 261 298 414 396 414" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="HeaderFont_26" Color="ffffff00" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Space" Pos="25 145" Size="150 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 64">
+			<Texture Type="Base" UV="1 196 151 196 1 260 151 260" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="152 196 302 196 152 260 302 260" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="152 196 302 196 152 260 302 260" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="HeaderFont_26" Color="ffffff00" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Shift" Pos="-116 73" Size="107 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 107 64">
+			<Texture Type="Base" UV="1 131 108 131 1 195 108 195" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="109 131 216 131 109 195 216 195" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="109 131 216 131 109 195 216 195" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Tab" Pos="-116 -6" Size="88 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 88 64">
+			<Texture Type="Base" UV="217 131 305 131 217 195 305 195" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="On" UV="306 131 394 131 306 195 394 195" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Texture Type="Click" UV="306 131 394 131 306 195 394 195" Ani="1 1 0.000 0">New_UI_Common_forLua/Widget/Tutorial/Tutorial_Key_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Text_Gole" Pos="Left -103" Size="700 40" Pan="-100 0" Color="ffffffff" EnableArea="0 0 700 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="TitleFont_18" Color="ffc1ffc2" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

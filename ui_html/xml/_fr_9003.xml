@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9003</itemKey>
+	<itemName>Sauce blanche</itemName>
+	<itemIcon>00009003.png</itemIcon>
+	<itemDesc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</itemDesc>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Fond de sauce</name>
+			<icon>00009018.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Pomme</name>
+			<icon>00007313.png</icon>
+			<desc>Une délicieuse pomme utilisée en cuisine.\n- Utilisation : jus de fruits, puddings aux fruits, etc.\nObtention : s&apos;obtient par récolte sur des pommiers à la main ou s&apos;achète auprès d&apos;un marchand spécial.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

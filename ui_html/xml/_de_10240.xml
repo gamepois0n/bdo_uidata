@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10240</itemKey>
+	<itemName>Yuria-Langbogen der Purpurnen Flamme</itemName>
+	<itemIcon>00010214.png</itemIcon>
+	<itemDesc>Dieser Yuria-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen</itemDesc>
+	<house type="7">
+		<item>
+			<id>4606</id>
+			<name>Tannenholz</name>
+			<icon>00004606.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Manshawald, bei Phoniels Hütte und im Treantwald hergestellt werden. Kann außerdem durch Fällen von Tannen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4065</id>
+			<name>Reiner Zinkkristall</name>
+			<icon>00004065.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Zinkbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Feines robustes Leder</name>
+			<icon>00006160.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Nashorn-, Schweine- oder Kuhhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Spur des Aufstiegs</name>
+			<icon>00005955.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei der Uralten Steinkammer gefunden werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10214</id>
+			<name>Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein Langbogen, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10243</id>
+			<name>Ultimativer Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen der Zerstörung, Yuria-Langbogen der Versuchung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10242</id>
+			<name>Yuria-Langbogen der Versuchung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Versuchung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10241</id>
+			<name>Yuria-Langbogen der Zerstörung</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Zerstörung, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10240</id>
+			<name>Yuria-Langbogen der Purpurnen Flamme</name>
+			<icon>00010214.png</icon>
+			<desc>Dieser Yuria-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Langbogen der Purpurnen Flamme, Yuria-Langbogen</desc>
+		</item>
+		<item>
+			<id>10214</id>
+			<name>Yuria-Langbogen</name>
+			<icon>00010214.png</icon>
+			<desc>Ein Langbogen, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

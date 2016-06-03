@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7901</itemKey>
+	<itemName>Deer Meat</itemName>
+	<itemIcon>00007901.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a deer corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Elk</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Female Elk</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Serendia Big-Horned Deer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Spotted Deer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Elk</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Rare Jerky</name>
+			<icon>00007920.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,127 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_Exchange_Number" Pos="20 20" Size="200 240" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 240" Grid="1" GridPosX="0 5 195 200" GridPosY="0 5 235 240" GridUVX="0 5 178 183" GridUVY="0 5 217 222" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Attribute Type="Drag" Area="4 3 196 28"/>
+		<Control Type="Button" Name="Button_Apply" Pos="Left Bottom" Size="90 20" Pan="7 3" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 15 20" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="확인(ENTER)" formatString="EXCHANGE_NUMBER_BTN_APPLY" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Static_DisplayNumber" Pos="Right Top" Size="184 22" Pan="7 33" Color="ffffffff" EnableArea="0 0 184 22">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel2.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="3 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="185 25" Pan="0 3" Color="ffffffff" EnableArea="0 0 185 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="입 력" formatString="EXCHANGE_NUMBER_TEXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="Right Bottom" Size="90 20" Pan="4 3" Color="ffffffff" EnableArea="0 0 90 20" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 15 20" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소(ESC)" formatString="EXCHANGE_NUMBER_BTN_CANCEL" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="5 5" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_7" Pos="7 64" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="7" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_8" Pos="69 64" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="8" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_9" Pos="131 64" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="9" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_4" Pos="7 96" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="4" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_5" Pos="69 96" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="5" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_6" Pos="131 96" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="6" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_1" Pos="7 128" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="1" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_2" Pos="69 128" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="2" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_3" Pos="131 128" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="3" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_0" Pos="7 160" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="0" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Back" Pos="68 160" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="←" formatString="PASSWORD_BTN_BACK" Font="BaseFont_12" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Clear" Pos="131 160" Size="62 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 62 32" Grid="1" GridPosX="0 5 57 62" GridPosY="0 5 27 32" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="94 1 122 1 94 29 122 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="124 1 152 1 124 29 152 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="154 1 182 1 154 29 182 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="Clear" Font="BaseFont_10" Color="ffe9e4e4" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 7"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_AllSelect" Pos="Left Bottom" Size="190 20" Pan="7 24" Color="ffffffff" EnableArea="0 0 190 20" Grid="1" GridPosX="0 5 185 190" GridPosY="0 5 15 20" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="최대 수량(F)" formatString="UI_WINDOW_EXCHANGE_NUMBER_BTN_ALLSELECT" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9418</itemKey>
+	<itemName>Soupe au poisson</itemName>
+	<itemIcon>00009418.png</itemIcon>
+	<itemDesc>Une soupe à base de poisson fumé.\n\n- Effet unique : taux de coups critiques +1 pendant 60 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>8201</id>
+			<name>Gobie</name>
+			<icon>00008201.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

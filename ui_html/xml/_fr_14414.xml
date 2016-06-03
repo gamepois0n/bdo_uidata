@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14414</itemKey>
+	<itemName>Bâton de Yuria</itemName>
+	<itemIcon>00014414.png</itemIcon>
+	<itemDesc>Un bâton possédé par une haine contre l&apos;humanité.</itemDesc>
+	<shop>
+		<character>
+			<name>Ronatz</name>
+		</character>
+	</shop>
+	<house type="6">
+		<item>
+			<id>4065</id>
+			<name>Cristal de zinc pur</name>
+			<icon>00004065.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de zinc. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Sève de pin</name>
+			<icon>00005003.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un pin.</desc>
+		</item>
+		<item>
+			<id>4603</id>
+			<name>Bois de pin</name>
+			<icon>00004603.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans le temple de Serendia et la grotte de Marie. S&apos;obtient également en débitant des pins.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Branche de moine</name>
+			<icon>00005007.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une branche de moine demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace d&apos;ascension</name>
+			<icon>00005955.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14414</id>
+			<name>Bâton de Yuria</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14443</id>
+			<name>Bâton de Yuria ultime</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton de Yuria ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria de destruction, bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Bâton de Yuria de tentation</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Bâton de Yuria de destruction</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de destruction, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Bâton de Yuria de la flamme pourpre</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Bâton de Yuria</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>4065</id>
+			<name>Cristal de zinc pur</name>
+			<icon>00004065.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de zinc. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace d&apos;ascension</name>
+			<icon>00005955.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

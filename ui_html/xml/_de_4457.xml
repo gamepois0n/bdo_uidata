@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4457</itemKey>
+	<itemName>Topas</itemName>
+	<itemIcon>00004457.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohtopas gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Topas</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4403</id>
+			<name>Rohtopas</name>
+			<icon>00004403.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Topaserz erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann aus edelsteinhaltigem Fels gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11606</id>
+			<name>Talis-Halskette</name>
+			<icon>00011606.png</icon>
+			<desc>Eine Halskette mit einer stählernen Aura.\nSie kann mit demselben Typ Halskette verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11806</id>
+			<name>Talis-Ohrring</name>
+			<icon>00011806.png</icon>
+			<desc>Ein Ohrring mit einer stählernen Aura.\nEr kann mit demselben Typ Ohrring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12006</id>
+			<name>Talis-Ring</name>
+			<icon>00012006.png</icon>
+			<desc>Ein Ring mit einer stählernen Aura.\nEr kann mit demselben Typ Ring verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12206</id>
+			<name>Talis-Gürtel</name>
+			<icon>00012206.png</icon>
+			<desc>Ein Gürtel mit einer stählernen Aura.\nEr kann mit demselben Typ Gürtel verstärkt werden, aber wenn die Verstärkung fehlschlägt, werden beide zerstört.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11913</id>
+			<name>Goldtopasohrringe</name>
+			<icon>00011913.png</icon>
+			<desc>Ein mit einem Goldtopas verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11912</id>
+			<name>Glänzende Topasohrringe</name>
+			<icon>00011912.png</icon>
+			<desc>Ein mit einem Funkelnden Topas verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>12113</id>
+			<name>Goldtopasring</name>
+			<icon>00012113.png</icon>
+			<desc>Ein mit einem Goldtopas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>12112</id>
+			<name>Glänzender Topasring</name>
+			<icon>00012112.png</icon>
+			<desc>Ein mit einem Funkelnden Topas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>11713</id>
+			<name>Goldtopashalskette</name>
+			<icon>00011713.png</icon>
+			<desc>Eine mit einem Goldtopas verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>11712</id>
+			<name>Glänzende Topashalskette</name>
+			<icon>00011712.png</icon>
+			<desc>Eine mit einem Funkelnden Topas verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>24129</id>
+			<name>Zinnkronleuchter mit vier Kerzen</name>
+			<icon>InHouse_X_DPFO_Candlestick_03_light.png</icon>
+			<desc>Ein Kronleuchter aus Zinn mit 4 Kerzen.</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Messingkronleuchter mit vier Kerzen</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>Ein Kronleuchter aus Messing mit 4 Kerzen.</desc>
+		</item>
+		<item>
+			<id>4458</id>
+			<name>Glänzender Topas</name>
+			<icon>00004458.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohtopas gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

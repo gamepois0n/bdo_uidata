@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6010</itemKey>
+	<itemName>Peau de raton laveur</itemName>
+	<itemIcon>00006010.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un raton laveur tué à la chasse.</itemDesc>
+	<collect>
+		<character>
+			<name>Raton laveur marron</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6154</id>
+			<name>Peau fine</name>
+			<icon>00006154.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en séchant une peau de raton laveur, de singe ou de belette.</desc>
+		</item>
+		<item>
+			<id>6162</id>
+			<name>Peau fine délicate</name>
+			<icon>00006162.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de raton laveur, de singe ou de belette. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

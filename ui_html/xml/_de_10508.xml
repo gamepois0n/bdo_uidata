@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10508</itemKey>
+	<itemName>Helrick-Talisman der Versuchung</itemName>
+	<itemIcon>00010503.png</itemIcon>
+	<itemDesc>Dieser Helrick-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Versuchung, Helrick-Talisman</itemDesc>
+	<house type="6">
+		<item>
+			<id>4067</id>
+			<name>Bronzebarren</name>
+			<icon>00004067.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zinn gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4059</id>
+			<name>Reiner Kupferkristall</name>
+			<icon>00004059.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Kupferbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6162</id>
+			<name>Feines dünnes Leder</name>
+			<icon>00006162.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Waschbär-, Affen- oder Wieselfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Pulver der Dunkelheit</name>
+			<icon>00004801.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10503</id>
+			<name>Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein Talisman, in den ein magischer Edelstein eingelassen ist.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Waffen-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004906.png</icon>
+			<desc>Ein Material, das für die Waffenaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10508</id>
+			<name>Helrick-Talisman der Versuchung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick-Talisman der Zerstörung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Zerstörung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick-Talisman der Purpurnen Flamme</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein Talisman, in den ein magischer Edelstein eingelassen ist.</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Ultimativer Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein maximal aufgerüsteter Helrick-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman der Zerstörung, Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

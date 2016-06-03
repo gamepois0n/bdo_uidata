@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>669</itemKey>
+	<itemName>Élixir de résurrection puissant</itemName>
+	<itemIcon>00000669.png</itemIcon>
+	<itemDesc>Récupération auto. des PV +15 pendant 8 min.\n- Temps de recharge : 10 min.\nL&apos;effet positif s&apos;applique à tous les membres du groupe lorsque le souffle d&apos;Aal est utilisé.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Réactif de liquide clair</name>
+			<icon>00005301.png</icon>
+			<desc>Un catalyseur utilisé dans divers processus alchimiques.\n- Obtention : s&apos;obtient par artisanat d&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>517</id>
+			<name>Potion de santé (petite)</name>
+			<icon>00000517.png</icon>
+			<desc>Restaure instantanément les PV par +75\n.- Temps de recharge : 4 sec.\n- S&apos;achète en magasin.\nL&apos;effet positif s&apos;applique à tous les membres du groupe lorsque le « souffle d&apos;Aal » est utilisé.\nSi toute action limitant les effets de statut est appliquée, la restauration de santé augmente de 40 %.</desc>
+		</item>
+		<item>
+			<id>5401</id>
+			<name>Herbe de l&apos;aube</name>
+			<icon>00005401.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : peut être produit au site du château de Cron et dans la forêt de Balenos. Peut également être récolté directement sur des herbes sauvages à mains nues ou à l&apos;aide d&apos;une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

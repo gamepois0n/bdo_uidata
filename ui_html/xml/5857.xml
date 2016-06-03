@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5857</itemKey>
+	<itemName>Silk</itemName>
+	<itemIcon>00005857.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: Silk Thread can be obtained by Grinding Silkworm Cocoon. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<collect>
+		<character>
+			<name>Bedding</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Laundry Rack</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Tent</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>5853</id>
+			<name>Silk Thread</name>
+			<icon>00005853.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Silkworm Cocoons.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>25625</id>
+			<name>Silk Tab Drapeless Curtain</name>
+			<icon>InHouse_X_DPW_Curtain_01_03_Tied.png</icon>
+			<desc>A silk tab curtain without drapes.</desc>
+		</item>
+		<item>
+			<id>25622</id>
+			<name>Silk Drapeless Curtain</name>
+			<icon>InHouse_X_DPW_Curtain_01_03_Back.png</icon>
+			<desc>A silk curtain without drapes.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,110 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MiniGame_Jaksal" Pos="Center Center" Size="800 500" Pan="0 0" Color="ffffffff" EnableArea="0 0 800 500">
+		<Texture Type="Special" UV="0 0 800 0 0 500 800 500" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/MiniGame_Jaksal_Mask.dds</Texture>
+		<Control Type="Static" Name="Static_Fish" Pos="801 231" Size="100 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 100 60" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 100 0 0 60 100 60" Ani="8 4 0.001 0">new_ui_common_forlua/widget/instance/minigame_jaksal_fish.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffff0000" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Damage" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="15" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Eojang" Pos="Center Center" Size="800 500" Pan="0 0" Color="ffffffff" EnableArea="0 0 800 500" Grid="1" GridPosX="0 10 790 800" GridPosY="0 10 490 500" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 127 252 127 190 189 252 189" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Water" Pos="Center Center" Size="676 422" Pan="0 0" Color="ffffffff" EnableArea="0 0 676 422" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 676 0 0 422 676 422" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_jaksalbg.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Crosshair" Pos="391 -108" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="207 207 255 207 207 255 255 255" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishGauge_BG" Pos="Center Top" Size="250 8" Pan="0 83" Color="ffffffff" EnableArea="0 0 250 8" Grid="1" GridPosX="0 1 249 250" GridPosY="0 1 7 8" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 112 141 112" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_FishGauge" Pos="Center Top" Size="250 8" Pan="0 83" Color="ffffffff" EnableArea="0 0 250 8" Grid="1" GridPosX="0 1 249 250" GridPosY="0 1 7 8" GridUVX="0 1 139 140" GridUVY="0 1 5 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 128 141 128 1 133 141 133" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-13 0" Size="20 8" Pan="0 0" Color="cc000044" EnableArea="0 0 20 8">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_JaksalGauge_BG" Pos="Center Bottom" Size="64 64" Pan="0 66" Color="ffffffff" EnableArea="0 0 64 64" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 65 1 1 65 65 65" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_02.dds</Texture>
+		</Control>
+		<Control Type="CircularProgress" Name="CircularProgress_JaksalGauge" Pos="Center Bottom" Size="64 64" Pan="0 66" Color="ffffffff" EnableArea="0 0 64 64" StartRadian="1.570796" CenterPos="32.00 32.00">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="391 1 455 1 391 65 455 65" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_02.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SpaceBar" Pos="Center Bottom" Size="103 31" Pan="85 82" Color="ffffffff" EnableArea="0 0 103 31">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="52 461 155 461 52 492 155 492" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ddffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Space" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="SPACE BAR" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SpaceBar_Eff" Pos="Center Bottom" Size="103 31" Pan="85 82" Color="ffffffff" EnableArea="0 0 103 31" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="52 429 155 429 52 460 155 460" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="3.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_SpaceEff" Activity="False" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="8" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Result_Success" Pos="Center Center" Size="355 73" Pan="0 -25" Color="ffffffff" EnableArea="0 0 355 73" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="156 419 511 419 156 492 511 492" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.00" EndScale="0.00" BasePosition="0 64" ScaleChild="True" ID="Ani_Scale_Result_Success_empty" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.00" EndScale="1.00" BasePosition="0 64" ScaleChild="True" ID="Ani_Scale_Result_Success" Activity="True" Replay="False" RunOnBoot="False" StartFrame="1" EndFrame="20" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Result_Success_empty" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Result_Success" Activity="True" Replay="False" RunOnBoot="False" StartFrame="60" EndFrame="120" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_Result_Failed" Pos="Center Center" Size="272 70" Pan="0 -25" Color="ffffffff" EnableArea="0 0 272 70" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="239 348 511 348 239 418 511 418" Ani="1 1 0.000 0">new_ui_common_forlua/widget/instance/minigame_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.00" EndScale="0.00" BasePosition="0 64" ScaleChild="True" ID="Ani_Scale_Result_Failed_empty" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Scale" ScaleType="2" StartScale="0.00" EndScale="1.00" BasePosition="0 64" ScaleChild="True" ID="Ani_Scale_Result_Failed" Activity="True" Replay="False" RunOnBoot="False" StartFrame="1" EndFrame="20" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="  ffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Result_Failed_empty" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="1" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="  ffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Result_Failed" Activity="True" Replay="False" RunOnBoot="False" StartFrame="60" EndFrame="120" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_FishGet" Pos="Center Center" Size="165 99" Pan="0 50" Color="ff45b2ff" EnableArea="0 0 165 99" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 100 0 0 60 100 60" Ani="8 4 0.001 0">new_ui_common_forlua/widget/instance/minigame_jaksal_fishget.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_JaksalCount" Pos="Right Top" Size="103 31" Pan="95 35" Color="ffffffff" EnableArea="0 0 103 31">
+			<Attribute Type="Ignore"/>
+			<Text Value="작살 수 : 0 / 20" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PowerDesc" Pos="Center Bottom" Size="50 20" Pan="0 45" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="힘의 강도가 흰색이 되었을 때 발사하세요." formatString="PANEL_MINIGAME_JAKSAL_POWERDESC" Font="BaseFont" Color="dfc4bebe" OverColor="dfc4bebe" ClickColor="dfc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishPowerDesc" Pos="Center Top" Size="50 20" Pan="0 62" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="작살로 피해를 입혀 물고기의 속도를 저하시키세요." formatString="PANEL_MINIGAME_JAKSAL_FISHPOWERDESC" Font="BaseFont" Color="dfc4bebe" OverColor="dfc4bebe" ClickColor="dfc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Jaksal" Pos="818 317" Size="200 120" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 120" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 100 0 0 60 100 60" Ani="8 4 0.030 1">new_ui_common_forlua/widget/instance/minigame_jaksal_spear.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_show" Activity="True" Replay="False" RunOnBoot="False" StartFrame="0" EndFrame="10" AdvanceType="0" HideAtEnd="False"/>
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ffffffff" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Hide" Activity="True" Replay="False" RunOnBoot="False" StartFrame="20" EndFrame="30" AdvanceType="0" HideAtEnd="True"/>
+			</UIAni>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EndTimer" Pos="Left Top" Size="103 31" Pan="95 35" Color="ffffffff" EnableArea="0 0 103 31">
+			<Attribute Type="Ignore"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffff0000" EndColor="cfefefef" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_Alert" Activity="False" Replay="True" RunOnBoot="False" StartFrame="0" EndFrame="30" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="남은 시간 : 50초" Font="BaseFont_12" Color="d8efefef" OverColor="d8efefef" ClickColor="d8efefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6603</itemKey>
+	<itemName>Huile de courage</itemName>
+	<itemIcon>00006603.png</itemIcon>
+	<itemDesc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6353</id>
+			<name>Sang de clown</name>
+			<icon>00006353.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>6353</id>
+			<name>Sang de clown</name>
+			<icon>00006353.png</icon>
+			<desc>Un réactif transformé capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en mélangeant des ingrédients alchimiques avec du sang grâce à l&apos;alchimie.</desc>
+		</item>
+		<item>
+			<id>5205</id>
+			<name>Fruit de la nature</name>
+			<icon>00005205.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Poudre de flamme</name>
+			<icon>00004802.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Branche de moine</name>
+			<icon>00005007.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une branche de moine demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>52503</id>
+			<name>Chanfrein de combat en acier</name>
+			<icon>00052503.png</icon>
+			<desc>Un casque de cheval en acier. Il est résistant mais un peu lourd.\n\n- Utilisable sur : cheval\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>52502</id>
+			<name>Chanfrein léger à plumes rouges</name>
+			<icon>00052502.png</icon>
+			<desc>Un casque de cheval décoré de plumes rouges. Il est léger et solide.\n\n- Utilisable sur : cheval\n\nPeut être amélioré avec une pierre noire (armure).</desc>
+		</item>
+		<item>
+			<id>16001</id>
+			<name>Pierre noire (arme)</name>
+			<icon>00000008.png</icon>
+			<desc>Les armes peuvent être optimisées grâce à l&apos;esprit occulte.\n\n- Possibilité d&apos;optimiser :arme, arme secondaire</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9059</itemKey>
+	<itemName>Mineral Water</itemName>
+	<itemIcon>00009059.png</itemIcon>
+	<itemDesc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</itemDesc>
+	<shop>
+		<character>
+			<name>Izella</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fredelles Herba</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Hannes</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Deborah</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fatoos</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Nadia Rowen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vangelas</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Constante</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>David Finto</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Paola Toscani</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Weikid Taha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Edman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Broman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ekta</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Pasenia</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Galutboar</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Adin</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dyleoyen</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ivan DeRose</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>54003</id>
+			<name>Lump of Raw Sugar</name>
+			<icon>00054003.png</icon>
+			<desc>When used, the chance of taming a wild horse increases.\nIt can only be used after catching a horse using a Capturing Rope and then moving close to the steed.</desc>
+		</item>
+		<item>
+			<id>7205</id>
+			<name>Corn Dough</name>
+			<icon>00007205.png</icon>
+			<desc>A product made by Shaking Corn Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>7204</id>
+			<name>Sweet Potato Dough</name>
+			<icon>00007204.png</icon>
+			<desc>A product made by Shaking Sweet Potato Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>7203</id>
+			<name>Potato Dough</name>
+			<icon>00007203.png</icon>
+			<desc>A product made by Shaking Potato Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>7202</id>
+			<name>Barley Dough</name>
+			<icon>00007202.png</icon>
+			<desc>A product made by Shaking Barley Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Concentrated Herbal Juice</name>
+			<icon>00000570.png</icon>
+			<desc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Concentrated Grain Juice</name>
+			<icon>00000567.png</icon>
+			<desc>Immediately heals HP by+125.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Grain Juice</name>
+			<icon>00000566.png</icon>
+			<desc>Immediately heals HP by+75.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

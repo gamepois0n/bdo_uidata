@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>55864</itemKey>
+	<itemName>Ein paar Kohlen</itemName>
+	<itemIcon>00055864.png</itemIcon>
+	<itemDesc>Kohle ist ein hochwertiger Brennstoff, den sich nur die Reichen leisten können.</itemDesc>
+	<house type="17">
+		<item>
+			<id>4070</id>
+			<name>Verarbeitete Kohle</name>
+			<icon>00004070.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kohle gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+</itemInfo>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9405</itemKey>
+	<itemName>Steamed Bird</itemName>
+	<itemIcon>00009405.png</itemIcon>
+	<itemDesc>A dish containing bird meat steamed with liquor. \n\n- Unique Effect: Combat EXP Increase +3% for 60 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Chicken Meat</name>
+			<icon>00007921.png</icon>
+			<desc>An ingredient used in Cooking.\n- How to Obtain: It can be Produced at Bartali Farm, Finto Farm\n\n- Usage: Fried Bird, Steamed Bird, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinegar</name>
+			<icon>00009066.png</icon>
+			<desc>A sour liquid made of fermented grains and fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit and Vegetable Salad, Pickled Vegetables, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Cabbage</name>
+			<icon>00007318.png</icon>
+			<desc>A plump cabbage used as an ingredient in Cooking.\nUsage: Stir-Fried Vegetables, Fried Vegetables, etc.\n- How to Obtain: It can be Gathered from Cabbage using Bare Hands.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9008</id>
+			<name>Sun-Dried Salt</name>
+			<icon>00009008.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7921</id>
+			<name>Chicken Meat</name>
+			<icon>00007921.png</icon>
+			<desc>An ingredient used in Cooking.\n- How to Obtain: It can be Produced at Bartali Farm, Finto Farm\n\n- Usage: Fried Bird, Steamed Bird, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinegar</name>
+			<icon>00009066.png</icon>
+			<desc>A sour liquid made of fermented grains and fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit and Vegetable Salad, Pickled Vegetables, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Cabbage</name>
+			<icon>00007318.png</icon>
+			<desc>A plump cabbage used as an ingredient in Cooking.\nUsage: Stir-Fried Vegetables, Fried Vegetables, etc.\n- How to Obtain: It can be Gathered from Cabbage using Bare Hands.</desc>
+		</item>
+		<item>
+			<id>9057</id>
+			<name>Essence of Liquor</name>
+			<icon>00009057.png</icon>
+			<desc>It can be extracted from fermented grains or fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit Wine, Exotic Herbal Wine, etc.</desc>
+		</item>
+		<item>
+			<id>9008</id>
+			<name>Sun-Dried Salt</name>
+			<icon>00009008.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

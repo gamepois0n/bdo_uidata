@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4481</itemKey>
+	<itemName>Gem Polisher</itemName>
+	<itemIcon>00004481.png</itemIcon>
+	<itemDesc>A material used to change resplendent Gemstones into higher quality Gemstones through Processing.\n- How to Obtain: It can be obtained through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>4070</id>
+			<name>Processed Coal</name>
+			<icon>00004070.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Coal.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+		<item>
+			<id>5957</id>
+			<name>Trace of Origin</name>
+			<icon>00005957.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Glish Ruins.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4462</id>
+			<name>Forest Emerald</name>
+			<icon>00004462.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Emerald and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>4459</id>
+			<name>Gold Topaz</name>
+			<icon>00004459.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Topaz and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>4456</id>
+			<name>Ocean Sapphire</name>
+			<icon>00004456.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Sapphire and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>4453</id>
+			<name>Blood Ruby</name>
+			<icon>00004453.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Ruby and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a reward for completing a challenge after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Beautiful Opal Vase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>A beautiful opal vase.</desc>
+		</item>
+		<item>
+			<id>24209</id>
+			<name>Fancy Topaz Kettle</name>
+			<icon>Pot_Base_53.png</icon>
+			<desc>A fancy topaz kettle.</desc>
+		</item>
+		<item>
+			<id>24208</id>
+			<name>Emerald Gourd-Shaped Bottle</name>
+			<icon>Pot_Base_50.png</icon>
+			<desc>An emerald gourd-shaped bottle.</desc>
+		</item>
+		<item>
+			<id>4465</id>
+			<name>Star Diamond</name>
+			<icon>00004465.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Diamond and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+		<item>
+			<id>24207</id>
+			<name>Fancy Sapphire Vase</name>
+			<icon>Pot_Base_52.png</icon>
+			<desc>A fancy sapphire vase.</desc>
+		</item>
+		<item>
+			<id>24206</id>
+			<name>Ruby Gourd-Shaped Bottle</name>
+			<icon>Pot_Base_51.png</icon>
+			<desc>A ruby gourd-shaped bottle.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

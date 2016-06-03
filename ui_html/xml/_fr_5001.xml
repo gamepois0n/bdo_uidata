@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5001</itemKey>
+	<itemName>Sève de frêne</itemName>
+	<itemIcon>00005001.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un frêne.</itemDesc>
+	<collect>
+		<character>
+			<name>Frêne</name>
+		</character>
+	</collect>
+	<node region="Colline d'Ehwaz : débit de bois"/>
+	<makelist>
+		<item>
+			<id>14424</id>
+			<name>Bâton de semi-homme de la flamme pourpre</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de la flamme pourpre, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Bâton d&apos;Azwell ultime</name>
+			<icon>00014405.png</icon>
+			<desc>Un bâton d&apos;Azwell qui a atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de la flamme pourpre, bâton d&apos;Azwell de destruction, bâton d&apos;Azwell de tentation, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Bâton d&apos;Azwell de tentation</name>
+			<icon>00014405.png</icon>
+			<desc>Ce bâton d&apos;Azwell renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de tentation, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Bâton d&apos;Azwell de destruction</name>
+			<icon>00014405.png</icon>
+			<desc>Ce bâton d&apos;Azwell renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de destruction, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Bâton d&apos;Azwell de la flamme pourpre</name>
+			<icon>00014405.png</icon>
+			<desc>Ce bâton d&apos;Azwell renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de la flamme pourpre, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Bâton de Seleth de tentation</name>
+			<icon>00014407.png</icon>
+			<desc>Ce bâton de Seleth renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de tentation, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Bâton de Seleth de destruction</name>
+			<icon>00014407.png</icon>
+			<desc>Ce bâton de Seleth renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de destruction, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Bâton de Seleth de la flamme pourpre</name>
+			<icon>00014407.png</icon>
+			<desc>Ce bâton de Seleth renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de la flamme pourpre, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Bâton de semi-homme ultime</name>
+			<icon>00014406.png</icon>
+			<desc>Un bâton de semi-homme ayant atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de la flamme pourpre, bâton de semi-homme de destruction, bâton de semi-homme de tentation, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Bâton de semi-homme de tentation</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de tentation, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Bâton de semi-homme de destruction</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de destruction, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Bâton d&apos;Azwell</name>
+			<icon>00014405.png</icon>
+			<desc>Un bâton conçu spécialement pour le chef de la milice.</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Bâton de Seleth ultime</name>
+			<icon>00014407.png</icon>
+			<desc>Un bâton de Seleth ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de la flamme pourpre, bâton de Seleth de destruction, bâton de Seleth de tentation, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Bâton de Seleth</name>
+			<icon>00014407.png</icon>
+			<desc>Un bâton possédé par une forte haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Bâton de semi-homme</name>
+			<icon>00014406.png</icon>
+			<desc>Un bâton conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Permis bateau : barque</name>
+			<icon>00049001.png</icon>
+			<desc>Preuve de propriété d&apos;une [barque] sur les quais.\n- Emplacement d&apos;inventaire : 8, accélération : 100 %, vitesse : 105 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis bateau\n 1. Effectuez un clic droit sur le permis bateau et déplacez-le vers le quai sélectionné.\n 2. Adressez-vous au gardien de la traversée en barque et sélectionnez le menu du quai.\n 3. Cliquez sur le menu d&apos;enregistrement des bateaux puis effectuez un clic droit sur le permis bateau.\n 4. Saisissez le nom du bateau puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le bateau enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

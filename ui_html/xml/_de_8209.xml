@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8209</itemKey>
+	<itemName>Jackmakrele</itemName>
+	<itemIcon>00008209.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Fischnetz</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ständer zum Dörren von Fisch</name>
+		</character>
+	</collect>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8509</id>
+			<name>Getrocknete Jackmakrele</name>
+			<icon>00008509.png</icon>
+			<desc>Eine Getrocknete Jackmakrele, die durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

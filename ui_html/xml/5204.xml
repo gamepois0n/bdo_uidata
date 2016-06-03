@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5204</itemKey>
+	<itemName>Essence of Abundance</itemName>
+	<itemIcon>00005204.png</itemIcon>
+	<itemDesc>An essence extracted from Fruit of Abundance, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n- How to Obtain: Can be made by combining other ingredients with Fruit of Abundance using Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5203</id>
+			<name>Fruit of Abundance</name>
+			<icon>00005203.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5203</id>
+			<name>Fruit of Abundance</name>
+			<icon>00005203.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>5004</id>
+			<name>Birch Sap</name>
+			<icon>00005004.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be obtained from Birch Trees with a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace of Ascension</name>
+			<icon>00005955.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Ancient Stone Chamber.</desc>
+		</item>
+		<item>
+			<id>5410</id>
+			<name>Cloud Mushroom</name>
+			<icon>00005410.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: It can be Produced at Glish Swamp and Southern Cienaga. Cloud Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

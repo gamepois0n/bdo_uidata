@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>669</itemKey>
+	<itemName>Mächtiges Wiederbelebungselixier</itemName>
+	<itemIcon>00000669.png</itemIcon>
+	<itemDesc>Autom. LP-Regeneration +15 für 8 Min.\n– Abklingzeit: 10 Min.\n Buff wird auf die gesamte Gruppe ausgeweitet, wenn „Atem von Aalh“ verwendet wird.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Klarflüssiges Reagenz</name>
+			<icon>00005301.png</icon>
+			<desc>Ein Katalysator, der in verschiedenen alchemistischen Prozessen verwendet wird.\n– Gewinnung: Kann durch Alchemie hergestellt werden.</desc>
+		</item>
+		<item>
+			<id>517</id>
+			<name>LP-Trank (Klein)</name>
+			<icon>00000517.png</icon>
+			<desc>Heilt LP sofort um 75.\n– Abklingzeit: 4 Sek.\n– Kann im Laden gekauft werden.\n Buff wird auf die gesamte Gruppe ausgeweitet, wenn „Atem von Aalh“ verwendet wird.\nSind aktionsbeschränkende Statuseffekte aktiv, steigt die Heilung um 40 %.</desc>
+		</item>
+		<item>
+			<id>5401</id>
+			<name>Aurorakraut</name>
+			<icon>00005401.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann in derCron-Burganlage und im Balenoswald hergestellt werden. Kann außerdem mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Gesäubertes Wasser</name>
+			<icon>00006656.png</icon>
+			<desc>Wasser, das zur Reinigung gefiltert wurde.\n– Gewinnung: Kann durch Sieben einer Flasche mit Flusswasser gewonnen werden..\n\n※ Wird Gesäubertes Wasser im Garten angewendet, steigt der Wasservorrat stark an.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4461</itemKey>
+	<itemName>Resplendent Emerald</itemName>
+	<itemIcon>00004461.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Emerald. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4404</id>
+			<name>Rough Emerald</name>
+			<icon>00004404.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Emerald requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4460</id>
+			<name>Emerald</name>
+			<icon>00004460.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Rough Emerald.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11719</id>
+			<name>Placid Forest Emerald Necklace</name>
+			<icon>00011719.png</icon>
+			<desc>A necklace decorated with a Placid Forest Emerald.</desc>
+		</item>
+		<item>
+			<id>4462</id>
+			<name>Forest Emerald</name>
+			<icon>00004462.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Emerald and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

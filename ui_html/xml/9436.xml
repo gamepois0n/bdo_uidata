@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9436</itemKey>
+	<itemName>Appealing Boiled Bird Egg</itemName>
+	<itemIcon>00009436.png</itemIcon>
+	<itemDesc>A bird egg that was carefully boiled to perfection. \n\n- Unique Effect: All AP +1 for 45 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Egg</name>
+			<icon>00009064.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest.\n\n- Usage: Soft Bread, Omelet, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9064</id>
+			<name>Egg</name>
+			<icon>00009064.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest.\n\n- Usage: Soft Bread, Omelet, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Purified Water</name>
+			<icon>00006656.png</icon>
+			<desc>Can be obtained by refining the bottle of water.\n- How to Obtain : Filter the bottle of water\n※ Using this item on the garden will greatly increase the amount of water deposit.\nIt can cure sunstroke.\n※ The cool-down time is 5 seconds.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

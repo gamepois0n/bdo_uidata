@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5804</itemKey>
+	<itemName>Toison</itemName>
+	<itemIcon>00005804.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : produit au ranch Lynch.</itemDesc>
+	<node region="Ranch de Lynch : production de laine polaire"/>
+	<makelist>
+		<item>
+			<id>5854</id>
+			<name>Fil à tricoter</name>
+			<icon>00005854.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant de la toison.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

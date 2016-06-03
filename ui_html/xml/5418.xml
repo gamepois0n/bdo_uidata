@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5418</itemKey>
+	<itemName>Ancient Mushroom</itemName>
+	<itemIcon>00005418.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: Ancient Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<collect>
+		<character>
+			<name>Ancient Mushroom</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7518</id>
+			<name>Ancient Mushroom Crate</name>
+			<icon>00007518.png</icon>
+			<desc>A mushroom that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

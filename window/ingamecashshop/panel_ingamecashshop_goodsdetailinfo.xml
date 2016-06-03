@@ -1,0 +1,163 @@
+<UI>
+	<Control Type="Panel" Name="Panel_IngameCashShop_GoodsDetailInfo" Pos="308 204" Size="400 500" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 500" Grid="1" GridPosX="0 10 390 400" GridPosY="0 10 490 500" GridUVX="0 10 173 183" GridUVY="0 10 212 222" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 640 35"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="400 6" Pan="0 35" Color="ffffffff" EnableArea="0 0 400 6" Grid="1" GridPosX="0 80 320 400" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="상품 정보" formatString="PANEL_INGAMECASHSHOP_GOODSDETAILINFO_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="9 9" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_LeftBG" Pos="9 44" Size="380 445" Pan="0 0" Color="ffffffff" EnableArea="0 0 380 445" Grid="1" GridPosX="0 10 370 380" GridPosY="0 10 435 445" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ProductName" Pos="21 47" Size="350 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="창고 확장권" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Combo" Name="Combobox_ItemNameByGroup" Pos="Left Top" Size="320 30" Pan="20 80" Color="ffffffff" EnableArea="0 0 320 30" Grid="1" GridPosX="0 3 303 320" GridPosY="0 1 29 30" GridUVX="0 3 43 60" GridUVY="0 1 19 20" UseDefaultSound="1">
+			<Texture Type="Base" UV="193 133 253 133 193 153 253 153" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="On" UV="193 154 253 154 193 174 253 174" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Texture Type="Click" UV="193 175 253 175 193 195 253 195" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Text Value="아이템명" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+			<Control Type="List" Name="Combobox_List" Pos="Center Top" Size="320 80" Pan="0 19" Color="ffffffff" EnableArea="0 0 320 80" Grid="1" GridPosX="0 1 319 320" GridPosY="0 1 79 80" GridUVX="0 1 59 60" GridUVY="0 1 79 80" VisibleItem="4" BlankSize="10">
+				<Attribute Type="Hide"/>
+				<Texture Type="Base" UV="27 1 87 1 27 81 87 81" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Text Font="BaseFont_8_Bold" Color="ffffffff" SelectColor="ffffffff"/>
+				<Control Type="Scroll" Name="Combobox_List_Scroll" Pos="Right Center" Size="10 80" Pan="-10 0" Color="ffffffff" EnableArea="0 0 10 80" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 73 80" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+					<Control Type="Button" Name="Combobox_List_Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+					<Control Type="Button" Name="Combobox_List_Scroll_DownButton" Pos="0 80" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000" UseDefaultSound="1">
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+					<Control Type="Button" Name="Combobox_List_Scroll_CtrlButton" Pos="Center 0" Size="10 30" Pan="-2 0" Color="ffffffff" EnableArea="0 0 10 30" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 27 36" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+						<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+						<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+					</Control>
+				</Control>
+				<Control Type="Static" Name="Combobox_1_List_BackStatic" Pos="0 0" Size="320 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 320 20" AutoDisableTime="0.000000">
+					<Attribute Type="Ignore"/>
+					<Texture Type="Base" UV="143 24 152 24 143 45 152 45" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ProductInfo_Title" Pos="20 117" Size="234 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 상품 정보" formatString="PANEL_INGAMECASHSHOP_GOODSDETAILINFO_PRODUCTINFO_TITLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_GoodsSlotBG" Pos="17 144" Size="44 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GoodsSlot" Pos="17 144" Size="44 44" Pan="0 0" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="StaticText" Name="StaticText_GoodsName" Pos="65 148" Size="260 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="성공하는 사람들의 다양한 습관 모음집 패키지" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GoodsDesc" Pos="20 192" Size="340 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 340 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 아이템 설명 : 장착류에 색깔을 넣어봅시다. 10일부터 14일 오후 8시까지 한정 판매!!" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PurchaseLimit" Pos="20 310" Size="320 25" Pan="20 290" Color="ffffffff" EnableArea="0 0 320 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 세일 기간 : 3일 2시간 35분 남음" Font="BaseFont_10" Color="ff748cab" OverColor="ff748cab" ClickColor="ff748cab" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TradeDesc" Pos="20 211" Size="320 25" Pan="20 210" Color="ffffffff" EnableArea="0 0 320 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 강화 불가, 판매 불가, 거래 불가" Font="BaseFont_10" Color="fff26a6a" OverColor="fff26a6a" ClickColor="fff26a6a" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ClassDesc" Pos="20 230" Size="320 25" Pan="20 230" Color="ffffffff" EnableArea="0 0 320 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 전사, 마법사 전용" Font="BaseFont_10" Color="ff999999" OverColor="ff999999" ClickColor="ff999999" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_VestedDesc" Pos="20 250" Size="320 25" Pan="20 250" Color="ffffffff" EnableArea="0 0 320 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 사용 시 캐릭터 귀속" Font="BaseFont_10" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_WarningDesc" Pos="20 270" Size="320 25" Pan="20 270" Color="ffffffff" EnableArea="0 0 320 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 사용 시 청약 철회가 불가능합니다." Font="BaseFont_10" Color="fff26a6a" OverColor="fff26a6a" ClickColor="fff26a6a" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DiscountPeriod" Pos="20 290" Size="320 25" Pan="20 290" Color="ffffffff" EnableArea="0 0 320 25">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 세일 기간 : 3일 2시간 35분 남음" Font="BaseFont_10" Color="ff748cab" OverColor="ff748cab" ClickColor="ff748cab" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GoodsSalesPeriod" Pos="390 197" Size="320 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 320 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="- 판매 기간 : 14.10.21~14.10.30" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ItemListTitle" Pos="22 314" Size="234 22" Pan="17 243" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 구성 아이템" formatString="PANEL_INGAMECASHSHOP_GOODSDETAILINFO_ITEMLISTITTLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ItemSlotBG" Pos="Left Center" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_ItemSlot" Pos="Left Center" Size="32 32" Pan="-1 0" Color="ffffffff" EnableArea="0 0 32 32">
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Right" AlignVertical="Bottom" Span="5 2"/>
+		</Control>
+		<Control Type="Static" Name="Static_BuyLineBG" Pos="20 445" Size="360 30" Pan="20 25" Color="ffffffff" EnableArea="0 0 360 30" Grid="1" GridPosX="0 10 350 360" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PearlIcon" Pos="26 386" Size="19 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 19 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="287 479 307 479 287 498 307 498" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GoodsPrice" Pos="56 384" Size="110 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 110 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50,000" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cart" Pos="Left Center" Size="20 20" Pan="630 13" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="44 475 64 475 44 495 64 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="On" UV="120 475 140 475 120 495 140 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="Click" UV="197 475 217 475 197 495 217 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Buy" Pos="Left Center" Size="20 20" Pan="655 13" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="19 475 39 475 19 495 39 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="On" UV="95 475 115 475 95 495 115 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="Click" UV="172 475 192 475 172 495 192 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Gift" Pos="Left Center" Size="20 20" Pan="605 13" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="70 475 90 475 70 495 90 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="On" UV="146 475 166 475 146 495 166 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="Click" UV="223 475 243 475 223 495 243 495" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RelatedItemTitle" Pos="22 416" Size="234 22" Pan="17 243" Color="ffffffff" EnableArea="0 0 234 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 317 235 317 1 339 235 339" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="- 관련 상품" formatString="PANEL_INGAMECASHSHOP_GOODSDETAILINFO_RELATEDITEMTITLE" Font="BaseFont_10" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_RelatedItemSlotBG" Pos="530 234" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_RelatedItemSlot" Pos="507 234" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+	</Control>
+</UI>
+

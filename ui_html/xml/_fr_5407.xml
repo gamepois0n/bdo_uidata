@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5407</itemKey>
+	<itemName>Champignon du devin</itemName>
+	<itemIcon>00005407.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit à la colline d&apos;Ehwaz et à la falaise côtière. Les champignons du devin peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</itemDesc>
+	<collect>
+		<character>
+			<name>Champignon du devin</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Colline d'Ehwaz : récoltes"/>
+	<node region="Falaise côtière : récoltes"/>
+	<makelist>
+		<item>
+			<id>7507</id>
+			<name>Caisse de champignons du devin</name>
+			<icon>00007507.png</icon>
+			<desc>Un champignon transformé pour être vendu à meilleur prix. Il peut être vendu à des marchands.\n- Obtention : il peut être préparé grâce à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

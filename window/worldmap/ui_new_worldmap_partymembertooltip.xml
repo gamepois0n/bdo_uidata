@@ -1,0 +1,21 @@
+<UI>
+	<Control Type="Panel" Name="Panel_WorldMap_PartyMemberTooltip" Pos="0 0" Size="200 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 50" Grid="1" GridPosX="0 10 190 200" GridPosY="0 10 40 50" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="Static" Name="Static_PartyClassIconBG" Pos="Left Center" Size="37 37" Pan="5 0" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="39 25 76 25 39 62 76 62" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/party_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PartyClassIcon" Pos="Left Center" Size="25 25" Pan="12 0" Color="ffffffff" EnableArea="0 0 25 25" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PartyMemberName" Pos="Left Center" Size="40 20" Pan="50 0" Color="ffffffff" EnableArea="0 0 40 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="캐릭명은열자까지가능" Font="BaseFont_10" Color="ffefefef" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PartyLevel" Pos="27 28" Size="10 10" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 10">
+			<Attribute Type="Ignore"/>
+			<Text Value="99" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

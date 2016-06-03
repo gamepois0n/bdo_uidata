@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15633</itemKey>
+	<itemName>Red Spirit Crystal</itemName>
+	<itemIcon>00015633.png</itemIcon>
+	<itemDesc>A Black Stone Crystal that can be fused into Sub-Weapons sockets. \n- Item effect: Maximum HP +100 &amp; Attack +5 &amp; Extra Damage against Humans +3\n※ Once installed, the crystal might be destroyed upon the character&apos;s death.\n- The potential of the crystal can be transfused to equipment items through Black Spirit.\n- How to Obtain: Enter the Red Battlefield through Black Spirit and earn Red Seals through a fierce battle.\nExchange the Red Seals with Red Essence from Ornella in Heidel.\nHeat the Red Essence and Crystal of Black Spirit together.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4989</id>
+			<name>Red Essence</name>
+			<icon>00004989.png</icon>
+			<desc>The concentrated essence of red blood.\nWhen heated with Ancient Magic Crystal : Power and Ancient Magic Crystal : Adamantine to obtain an awakened crystal.</desc>
+		</item>
+		<item>
+			<id>15626</id>
+			<name>Black Spirit Crystal</name>
+			<icon>00045051.png</icon>
+			<desc>A Black Stone Crystal that can be fused into Secondary Weapon sockets. \nCan only be obtained through the Black Spirit Quest.\n- Item Effect: Max HP +100 &amp; AP +5\n\n※ This magic crystal has a high chance of shattering if your Character dies.\n\n- Equipment can be transfused through Black Spirits.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

@@ -1,0 +1,84 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Cash_Customization" Pos="0 0" Size="260 600" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 600">
+		<Control Type="Static" Name="Static_BG" Pos="0 0" Size="260 200" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 200" Grid="1" GridPosX="0 10 250 260" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="260 6" Pan="0 30" Color="ffffffff" EnableArea="0 0 260 6" Grid="1" GridPosX="0 80 180 260" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="보유중인 상품" formatString="PANEL_CASH_CUSTOMIZATION_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Template_Static_ItemBG" Pos="5 40" Size="250 70" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 70" Grid="1" GridPosX="0 10 240 250" GridPosY="0 10 60 70" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Template_StaticText_ItemNameBG" Pos="9 45" Size="240 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 240 30" Grid="1" GridPosX="0 10 230 240" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Template_StaticText_ItemName" Pos="10 45" Size="230 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 230 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="커스터마이징 1회 이용권(2)" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Template_StaticText_Period" Pos="11 75" Size="190 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 190 30">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="기간 : 2014.11.30일까지" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_BuyGoods" Pos="272 201" Size="65 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 65 30" Grid="1" GridPosX="0 4 61 65" GridPosY="0 4 26 30" GridUVX="0 4 150 154" GridUVY="0 4 28 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="상품구입" formatString="PANEL_CASH_CUSTOMIZATION_BTN_BUYGOODS" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_ApplyCustomization" Pos="Right Bottom" Size="120 30" Pan="10 40" Color="ffffffff" EnableArea="0 0 120 30" Grid="1" GridPosX="0 4 116 120" GridPosY="0 4 26 30" GridUVX="0 4 150 154" GridUVY="0 4 28 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="적용하기" formatString="PANEL_CASH_CUSTOMIZATION_BTN_APPLY" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_PearlBox" Pos="338 202" Size="180 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 180 30" Grid="1" GridPosX="0 10 170 180" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NowPearlIcon" Pos="346 208" Size="19 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 19 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="287 479 307 479 287 498 307 498" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NowPearlCount" Pos="373 206" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50,000" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_BuyPearl" Pos="463 207" Size="49 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 49 22" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="17 170 66 170 17 192 66 192" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="On" UV="69 170 118 170 69 192 118 192" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="Click" UV="122 170 171 170 122 192 171 192" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Text Value="구입" formatString="PANEL_CASH_CUSTOMIZATION_BTN_BUY" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_BuyPanelBG" Pos="74 108" Size="400 300" Pan="0 0" Color="ffffffff" EnableArea="0 0 400 300" Grid="1" GridPosX="0 10 390 400" GridPosY="0 10 290 300" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_BuyPanelTitle" Pos="Center Top" Size="260 6" Pan="0 30" Color="ffffffff" EnableArea="0 0 260 6" Grid="1" GridPosX="0 80 180 260" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="보유중인 상품" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Bottom" Size="120 30" Pan="10 10" Color="ffffffff" EnableArea="0 0 120 30" Grid="1" GridPosX="0 4 116 120" GridPosY="0 4 26 30" GridUVX="0 4 150 154" GridUVY="0 4 28 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="종료" formatString="PANEL_CASH_CUSTOMIZATION_BTN_EXIT" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_IsAble" Pos="282 30" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">new_ui_common_forlua/window/cash_customization/isable.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

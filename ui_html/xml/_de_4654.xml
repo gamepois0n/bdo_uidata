@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4654</itemKey>
+	<itemName>Ahornbrett</itemName>
+	<itemIcon>00004654.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Ahorn</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Angela</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4602</id>
+			<name>Ahornholz</name>
+			<icon>00004602.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Wald der Abgeschiedenheit, in den Schlossruinen, dem Blutkloster, der Nördlichen Ebene von Serendia und im Nördlichen Hochland von Mediah hergestellt werden. Kann außerdem durch Fällen von Ahornbäumen erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4655</id>
+			<name>Ahornschichtholz</name>
+			<icon>00004655.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Ahornholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

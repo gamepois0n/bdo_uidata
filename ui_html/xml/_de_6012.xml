@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6012</itemKey>
+	<itemName>Wieselfell</itemName>
+	<itemIcon>00006012.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wieselkadavers gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Bösartiges Wiesel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wiesel</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6154</id>
+			<name>Dünnes Leder</name>
+			<icon>00006154.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Waschbär-, Affen- oder Wieselfell gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>6162</id>
+			<name>Feines dünnes Leder</name>
+			<icon>00006162.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Waschbär-, Affen- oder Wieselfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

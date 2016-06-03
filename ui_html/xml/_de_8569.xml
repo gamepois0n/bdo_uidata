@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8569</itemKey>
+	<itemName>Getrockneter Butterfisch</itemName>
+	<itemIcon>00008569.png</itemIcon>
+	<itemDesc>Ein Getrockneter Butterfisch, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8269</id>
+			<name>Butterfisch</name>
+			<icon>00008269.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55969</id>
+			<name>Verpackter getrockneter Butterfisch</name>
+			<icon>00055969.png</icon>
+			<desc>Handelsware, die 10 getrocknete Butterfische enthält.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

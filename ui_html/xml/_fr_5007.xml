@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5007</itemKey>
+	<itemName>Branche de moine</itemName>
+	<itemIcon>00005007.png</itemIcon>
+	<itemDesc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une branche de moine demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bouleau</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cèdre blanc</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Frêne</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sapin</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Érable</name>
+		</character>
+	</collect>
+	<node region="Col d'Oze : débit de bois"/>
+	<node region="Forêt de la Solitude : débit de bois"/>
+	<node region="Sanctuaire de Serendia : débit de bois"/>
+	<makelist>
+		<item>
+			<id>14443</id>
+			<name>Bâton de Yuria ultime</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton de Yuria ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria de destruction, bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Bâton de Yuria de tentation</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de tentation, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Bâton de Yuria de destruction</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de destruction, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Bâton de Yuria de la flamme pourpre</name>
+			<icon>00014414.png</icon>
+			<desc>Ce bâton de Yuria renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Yuria.\n\n- Rétablir la durabilité maximale : bâton de Yuria de la flamme pourpre, bâton de Yuria</desc>
+		</item>
+		<item>
+			<id>14439</id>
+			<name>Bâton de Bares ultime</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton de Bares ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares de destruction, bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Bâton de Bares de tentation</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Bâton de semi-homme de la flamme pourpre</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de la flamme pourpre, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Bâton d&apos;Azwell ultime</name>
+			<icon>00014405.png</icon>
+			<desc>Un bâton d&apos;Azwell qui a atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de la flamme pourpre, bâton d&apos;Azwell de destruction, bâton d&apos;Azwell de tentation, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Bâton d&apos;Azwell de tentation</name>
+			<icon>00014405.png</icon>
+			<desc>Ce bâton d&apos;Azwell renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de tentation, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Bâton d&apos;Azwell de destruction</name>
+			<icon>00014405.png</icon>
+			<desc>Ce bâton d&apos;Azwell renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de destruction, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Bâton d&apos;Azwell de la flamme pourpre</name>
+			<icon>00014405.png</icon>
+			<desc>Ce bâton d&apos;Azwell renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton d&apos;Azwell.\n\n- Rétablir la durabilité maximale : bâton d&apos;Azwell de la flamme pourpre, bâton d&apos;Azwell</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Bâton de Seleth de tentation</name>
+			<icon>00014407.png</icon>
+			<desc>Ce bâton de Seleth renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de tentation, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Bâton de Seleth de destruction</name>
+			<icon>00014407.png</icon>
+			<desc>Ce bâton de Seleth renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de destruction, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Bâton de Seleth de la flamme pourpre</name>
+			<icon>00014407.png</icon>
+			<desc>Ce bâton de Seleth renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de la flamme pourpre, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Bâton de semi-homme ultime</name>
+			<icon>00014406.png</icon>
+			<desc>Un bâton de semi-homme ayant atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de la flamme pourpre, bâton de semi-homme de destruction, bâton de semi-homme de tentation, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Bâton de semi-homme de tentation</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de tentation, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Bâton de semi-homme de destruction</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de destruction, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Bâton d&apos;Azwell</name>
+			<icon>00014405.png</icon>
+			<desc>Un bâton conçu spécialement pour le chef de la milice.</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Bâton de Seleth ultime</name>
+			<icon>00014407.png</icon>
+			<desc>Un bâton de Seleth ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Seleth.\n\n- Rétablir la durabilité maximale : bâton de Seleth de la flamme pourpre, bâton de Seleth de destruction, bâton de Seleth de tentation, bâton de Seleth</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Bâton de Yuria</name>
+			<icon>00014414.png</icon>
+			<desc>Un bâton possédé par une haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Bâton de Bares</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Bâton de Krea</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Bâton de Krea ultime</name>
+			<icon>00014456.png</icon>
+			<desc>Un bâton de Krea ayant atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea de destruction, bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Bâton de Krea de tentation</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de tentation, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Bâton de Krea de destruction</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de destruction, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Bâton de Krea de la flamme pourpre</name>
+			<icon>00014456.png</icon>
+			<desc>Ce bâton de Krea renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Krea.\n\n- Rétablir la durabilité maximale : bâton de Krea de la flamme pourpre, bâton de Krea</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Bâton de Kalis</name>
+			<icon>00014412.png</icon>
+			<desc>Un bâton conçu pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Bâton de Seleth</name>
+			<icon>00014407.png</icon>
+			<desc>Un bâton possédé par une forte haine contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Bâton de semi-homme</name>
+			<icon>00014406.png</icon>
+			<desc>Un bâton conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Bâton de Bares de destruction</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de destruction, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Bâton de Bares de la flamme pourpre</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Bâton de Kalis ultime</name>
+			<icon>00014412.png</icon>
+			<desc>Un bâton de Kalis ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de la flamme pourpre, bâton de Kalis de destruction, bâton de Kalis de tentation, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Bâton de Kalis de tentation</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de tentation, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Bâton de Kalis de destruction</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de destruction, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Bâton de Kalis de la flamme pourpre</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de la flamme pourpre, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>16165</id>
+			<name>Mediah Fishing Rod</name>
+			<icon>00016165.png</icon>
+			<desc>Ash tree float. It shortens the auto-fishing time.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16164</id>
+			<name>Canne à pêche de Calpheon</name>
+			<icon>00016164.png</icon>
+			<desc>Canne à pêche de Calpheon. Ouah ! Elle était super efficace !\nPeut être optimisée avec une pierre noire (arme).</desc>
+		</item>
+		<item>
+			<id>16163</id>
+			<name>Canne à pêche d&apos;Epheria</name>
+			<icon>00016163.png</icon>
+			<desc>Canne à pêche d&apos;Epheria. Elle est plus solide que les autres.\nPeut être optimisée avec une pierre noire (arme).</desc>
+		</item>
+		<item>
+			<id>16162</id>
+			<name>Canne à pêche de Balenos</name>
+			<icon>00016162.png</icon>
+			<desc>Canne à pêche de Balenos. Elle raccourcit la durée de pêche automatique.\nPeut être optimisée avec une pierre noire (arme).</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 2</name>
+			<icon>00004908.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 2.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

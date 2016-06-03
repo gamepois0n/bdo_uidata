@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>53901</itemKey>
+	<itemName>Wagenpferd</itemName>
+	<itemIcon>00053901.png</itemIcon>
+	<itemDesc>Das Pferd, das einen Wagen zieht. Es ist bei der Herstellung eines Wagens unverzichtbar.\n\n– Verwendung: Wagenherstellung</itemDesc>
+	<shop>
+		<character>
+			<name>Gabril</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Breesman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dimanthor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Aschrogge</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vanacil</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Izauro</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Allan</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Bial Nasser</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Melson Bandor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Gulo</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Micha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Muam Mant</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Samier</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Partus</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Bevel</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Spig</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Herar</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fanucci</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Romary</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Chiara Coop</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Lorenzo Murray</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>51009</id>
+			<name>Wagenregistrierung: Leichter Wagen</name>
+			<icon>00051009.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Leichten Wagens』.\n– Inventarplätze: 6, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51008</id>
+			<name>Wagenregistrierung: Adelswagen</name>
+			<icon>00051008.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Adelswagens』.\n– Inventarplätze: 20, Beschleunigung: 95 %, Geschwindigkeit: 95 %, Wenden: 95 %, Bremse: 95 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51007</id>
+			<name>Wagenregistrierung: Händlerwagen</name>
+			<icon>00051007.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Händlerwagens 』.\n– Inventarplätze: 18, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51005</id>
+			<name>Wagenregistrierung: Handelswagen</name>
+			<icon>00051005.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Handelswagen 』.\n– Inventarplätze: 16, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51004</id>
+			<name>Wagenregistrierung: Hofwagen</name>
+			<icon>00051004.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Hofwagens』.\n– Inventarplätze: 14, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51003</id>
+			<name>Wagenregistrierung: Weißer Wagen</name>
+			<icon>00051003.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Weißen Wagens』.\n– Inventarplätze: 12, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51002</id>
+			<name>Wagenregistrierung: Robuster Wagen</name>
+			<icon>00051002.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Robusten Wagens』.\n– Inventarplätze: 10, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51001</id>
+			<name>Wagenregistrierung: Schäbiger Wagen</name>
+			<icon>00051001.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Schäbigen Wagens』.\n– Inventarplätze: 8, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

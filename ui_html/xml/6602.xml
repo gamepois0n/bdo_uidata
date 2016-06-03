@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6602</itemKey>
+	<itemName>Oil of Storms</itemName>
+	<itemIcon>00006602.png</itemIcon>
+	<itemDesc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>6352</id>
+			<name>Tyrant&apos;s Blood</name>
+			<icon>00006352.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>6352</id>
+			<name>Tyrant&apos;s Blood</name>
+			<icon>00006352.png</icon>
+			<desc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</desc>
+		</item>
+		<item>
+			<id>5203</id>
+			<name>Fruit of Abundance</name>
+			<icon>00005203.png</icon>
+			<desc>An ingredient used in Alchemy that can be obtained through farming. It can be used directly or refined into an essence for use.\n- How to Obtain: This alchemical ingredient can be obtained through Farming in a Garden, but only rarely.</desc>
+		</item>
+		<item>
+			<id>4805</id>
+			<name>Powder of Time</name>
+			<icon>00004805.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5008</id>
+			<name>Old Tree Bark</name>
+			<icon>00005008.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Old Tree Bark requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

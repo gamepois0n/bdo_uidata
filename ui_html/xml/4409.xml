@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4409</itemKey>
+	<itemName>Rough Green Crystal</itemName>
+	<itemIcon>00004409.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Green Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Rhutum Outstation.</itemDesc>
+	<collect>
+		<character>
+			<name>Green Quartz</name>
+		</character>
+	</collect>
+	<node region="Rhutum Outstation - Mining"/>
+	<makelist>
+		<item>
+			<id>4469</id>
+			<name>Green Crystal</name>
+			<icon>00004469.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Green Crystals found near Rhutum Outstation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

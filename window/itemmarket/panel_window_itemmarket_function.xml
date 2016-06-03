@@ -1,0 +1,37 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_ItemMarket_Function" Pos="0 0" Size="800 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 800 75">
+		<Control Type="Static" Name="Static_Title" Pos="Center Bottom" Size="800 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 800 75" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 1024 0 0 256 1024 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_wide.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Exit" Pos="Right Bottom" Size="154 32" Pan="10 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_00.dds</Texture>
+			<Text Value="나가기" formatString="PANEL_ITEMMARKET_FUNCTION_EXIT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Market" Pos="Center Bottom" Size="154 32" Pan="-155 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 166 155 166 1 198 155 198" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="On" UV="156 166 310 166 156 198 310 198" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="Click" UV="311 166 465 166 311 198 465 198" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Text Value="거래 시장" formatString="PANEL_ITEMMARKET_FUNCTION_MARKET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ItemSet" Pos="Center Bottom" Size="154 32" Pan="0 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 199 155 199 1 231 155 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="On" UV="156 199 310 199 156 231 310 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Texture Type="Click" UV="311 199 465 199 311 231 465 231" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_03.dds</Texture>
+			<Text Value="내 등록 물품 관리" formatString="PANEL_ITEMMARKET_FUNCTION_ITEMSET" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="15 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_AlarmManager" Pos="Center Bottom" Size="154 32" Pan="155 20" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 463 155 1 463 495 155 495" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/Dialogue_Btn_08.dds</Texture>
+			<Texture Type="On" UV="156 463 310 463 156 495 310 495" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/Dialogue_Btn_08.dds</Texture>
+			<Texture Type="Click" UV="311 463 465 463 311 495 465 495" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/Dialogue_Btn_08.dds</Texture>
+			<Text Value="등록 알림 관리" formatString="PAENL_ITEMMARKETFUNCTION_REGISTALAM" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Top" Span="45 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

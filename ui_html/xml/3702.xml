@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>3702</itemKey>
+	<itemName>Intermediate Alchemy Tool</itemName>
+	<itemIcon>Crafting_Alchemy_02.png</itemIcon>
+	<itemDesc>A tool that can reconstruct the components in a substance.\n- It can be installed in a residence.</itemDesc>
+	<house type="9">
+		<item>
+			<id>4006</id>
+			<name>Rough Stone</name>
+			<icon>00004006.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Gathered with a Pickaxe from any rock on the ground.</desc>
+		</item>
+		<item>
+			<id>4605</id>
+			<name>Log</name>
+			<icon>00004605.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Lumbering trees grown in every region.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Melted Iron Shard</name>
+			<icon>00004051.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Iron Ore.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+</itemInfo>
+

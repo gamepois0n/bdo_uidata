@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8574</itemKey>
+	<itemName>Getrockneter Brandungsbarsch</itemName>
+	<itemIcon>00008574.png</itemIcon>
+	<itemDesc>Ein Getrockneter Brandungsbarsch, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8274</id>
+			<name>Brandungsbarsch</name>
+			<icon>00008274.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55974</id>
+			<name>Verpackter getrockneter Brandungsbarsch</name>
+			<icon>00055974.png</icon>
+			<desc>Handelsware, die 10 getrocknete Brandungsbarsche enthält.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

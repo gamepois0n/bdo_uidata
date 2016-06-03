@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7904</itemKey>
+	<itemName>Viande de rhino</itemName>
+	<itemIcon>00007904.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un rhino mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Bébé rhinoroc</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rhinocéros d&apos;acier</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rhinoroc</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Viande séchée rare</name>
+			<icon>00007920.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

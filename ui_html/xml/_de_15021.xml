@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15021</itemKey>
+	<itemName>Magiekristall der Perfektion</itemName>
+	<itemIcon>00045051.png</itemIcon>
+	<itemDesc>Ein perfekter Schwarzsteinkristall, der in jeden Gegenstand mit Sockel übertragen werden kann.\n– Gegenstandseffekt: Glück +1\n※ Es ist wahrscheinlich, dass dieser Magiekristall bei Eurem Tod zersplittert.\n\n– Gegenstände können durch den Schwarzgeist übertragen werden.</itemDesc>
+	<shop>
+		<character>
+			<name>Bianstimi</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Thyshelle Arms</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Belgar</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

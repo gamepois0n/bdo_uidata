@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6164</itemKey>
+	<itemName>Feines ausgefallenes Fell</itemName>
+	<itemIcon>00006164.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Kriegram- oder Gepardendrachenhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<shop>
+		<character>
+			<name>Lavientia Batian</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6015</id>
+			<name>Kriegramhaut</name>
+			<icon>00006015.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Kriegramkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6016</id>
+			<name>Gepardendrachenhaut</name>
+			<icon>00006016.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Gepardendrachenkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6156</id>
+			<name>Ausgefallenes Fell</name>
+			<icon>00006156.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Kriegram- oder Gepardendrachenhaut gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10427</id>
+			<name>Ultimativer Halbmenschen-Fokusreif</name>
+			<icon>00010406.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Purpurnen Flamme, Halbmenschen-Fokusreif der Zerstörung, Halbmenschen-Fokusreif der Versuchung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10426</id>
+			<name>Halbmenschen-Fokusreif der Versuchung</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Versuchung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10425</id>
+			<name>Halbmenschen-Fokusreif der Zerstörung</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Zerstörung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10424</id>
+			<name>Halbmenschen-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Purpurnen Flamme, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10423</id>
+			<name>Ultimativer Aswell-Fokusreif</name>
+			<icon>00010405.png</icon>
+			<desc>Ein maximal aufgerüsteter Aswell-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Purpurnen Flamme, Aswell-Fokusreif der Zerstörung, Aswell-Fokusreif der Versuchung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10406</id>
+			<name>Halbmenschen-Fokusreif</name>
+			<icon>00010406.png</icon>
+			<desc>Ein Fokusreif zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10405</id>
+			<name>Aswell-Fokusreif</name>
+			<icon>00010405.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Fokusreif.</desc>
+		</item>
+		<item>
+			<id>10414</id>
+			<name>Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf die Menschheit erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10413</id>
+			<name>Baris-Fokusreif</name>
+			<icon>00010413.png</icon>
+			<desc>Ein Fokusreif, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein zu höchster Perfektion hergestellter Fokusreif.</desc>
+		</item>
+		<item>
+			<id>10435</id>
+			<name>Ultimativer Kalis-Fokusreif</name>
+			<icon>00010412.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Purpurnen Flamme, Kalis-Fokusreif der Zerstörung, Kalis-Fokusreif der Versuchung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis-Fokusreif der Versuchung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Versuchung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis-Fokusreif der Zerstörung</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Zerstörung, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010412.png</icon>
+			<desc>Dieser Kalis-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Fokusreif der Purpurnen Flamme, Kalis-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Yuria-Fokusreif der Zerstörung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Yuria-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Purpurnen Flamme, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10439</id>
+			<name>Ultimativer Baris-Fokusreif</name>
+			<icon>00010413.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Purpurnen Flamme, Baris-Fokusreif der Zerstörung, Baris-Fokusreif der Versuchung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10438</id>
+			<name>Baris-Fokusreif der Versuchung</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Versuchung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10437</id>
+			<name>Baris-Fokusreif der Zerstörung</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Zerstörung, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10436</id>
+			<name>Baris-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010413.png</icon>
+			<desc>Dieser Baris-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Fokusreif der Purpurnen Flamme, Baris-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10443</id>
+			<name>Ultimativer Yuria-Fokusreif</name>
+			<icon>00010414.png</icon>
+			<desc>Ein maximal aufgerüsteter Yuria-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Purpurnen Flamme, Yuria-Fokusreif der Zerstörung, Yuria-Fokusreif der Versuchung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Yuria-Fokusreif der Versuchung</name>
+			<icon>00010414.png</icon>
+			<desc>Dieser Yuria-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Yuria-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Yuria-Fokusreif der Versuchung, Yuria-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10422</id>
+			<name>Aswell-Fokusreif der Versuchung</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Versuchung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10421</id>
+			<name>Aswell-Fokusreif der Zerstörung</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Zerstörung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10420</id>
+			<name>Aswell-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Purpurnen Flamme, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>14217</id>
+			<name>[Walküre] Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14215</id>
+			<name>[Waldläuferin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14214</id>
+			<name>[Bändigerin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14213</id>
+			<name>[Schwarzmagierin] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14212</id>
+			<name>[Berserker] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>14211</id>
+			<name>[Krieger] Garner-Kostüm des Reisenden Spielers</name>
+			<icon>00014211.png</icon>
+			<desc>Ein Clownskostüm, wie es von umherziehenden Artisten getragen wird. Es ist auf eine eigentümliche Art und Weise ansprechend.\n\n– Gegenstandseffekt: Freundschaft +15 % in Gesprächen\n\n※ Bei Verwendung eines Kostümtauschscheins erhaltet Ihr denselben Gegenstand mit einem +2-Bonus auf die Bewegungsgeschwindigkeit. Das Kostüm kann denselben Platz belegen wie ein Perlenkostüm.\n\nTauscht Ihr es für ein Kostüm um, könnt Ihr es nicht mehr am Marktplatz als Gegenstand registrieren.</desc>
+		</item>
+		<item>
+			<id>6172</id>
+			<name>Exzellentes ausgefallenes Fell</name>
+			<icon>00006172.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinem ausgefallenen Fell mit durch Alchemie gewonnene Fellversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

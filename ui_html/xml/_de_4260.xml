@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4260</itemKey>
+	<itemName>Polierter Opal</itemName>
+	<itemIcon>00004260.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4204</id>
+			<name>Rohopal</name>
+			<icon>00004204.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohopal erfordert eine gewisse Talentstufe.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55863</id>
+			<name>Opal-Schmuckkästchen</name>
+			<icon>00055863.png</icon>
+			<desc>Opale aus dem Balenosmeer sollen von bester Qualität sein. Eine mit diesem Opal verzierte Juwelenkiste ist eine von Velias Spezialitäten.</desc>
+		</item>
+		<item>
+			<id>24005</id>
+			<name>[Musikautomat] Gebet der Zeit</name>
+			<icon>InHouse_X_DPF_JukeBox_02.png</icon>
+			<desc>Ein Musikautomat, der das Titellied des Gebets der Zeit spielt.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Wunderschöne Opalvase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>Eine wunderschöne Opalvase.</desc>
+		</item>
+		<item>
+			<id>4265</id>
+			<name>Funkelnder Opal</name>
+			<icon>00004265.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource. Wird bei Alchemie und Verarbeitung verwendet.\n\n– Gewinnung: Mehrmaliges Erhitzen von Rohopalen. Ihr benötigt das Wissen „Erhitzung: Geselle“.\n\n ※ Sucht Flaviano in Heidel auf, um die Quest „Reines Wasser für Experimente“ abzuschließen und das Wissen zu erhalten.\n\n※ Damit Ihr die Quest fortsetzen könnt, müsst Ihr Sammellehrling Stufe 4 erreichen und Fiby in Heidel aufsuchen, um die Questreihe abzuschließen. Benutzt die Schwarzgeisthilfe (Kommataste) für Details.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4902</itemKey>
+	<itemName>Schwemmgold</itemName>
+	<itemIcon>00004902.png</itemIcon>
+	<itemDesc>Ein seltener Bestandteil, der aus Flusswasser gefiltert und dann erhitzt werden kann, um Gold zu erzeugen.\n– Gewinnung: Kann gewonnen werden durch Sieben des Inhalts einer Flasche mit Flusswasser.</itemDesc>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6653</id>
+			<name>Flasche Flusswasser</name>
+			<icon>00006653.png</icon>
+			<desc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in einem Fluss gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einem Fluss mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche Flusswasser im Garten angewendet, steigt der Wasservorrat an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6654</id>
+			<name>Flasche trübes Wasser</name>
+			<icon>00006654.png</icon>
+			<desc>Eine Flasche mit trübem Wasser, das mithilfe einer leeren Flasche in einer schmutzigen Wasserquelle gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einer schmutzigen Wasserquelle mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche trübes Wasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6655</id>
+			<name>Flasche sauberes Wasser</name>
+			<icon>00006655.png</icon>
+			<desc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in klarem Wasser gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus klarem Wasser mithilfe einer Leeren Flasche gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4255</id>
+			<name>Goldbarren</name>
+			<icon>00004255.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Golderz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Geschmolzener Goldsplitter</name>
+			<icon>00004254.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Golderz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

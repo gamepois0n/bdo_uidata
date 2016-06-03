@@ -1,0 +1,40 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CustomizationFrame" Pos="146 208" Size="300 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 100" Grid="1" GridPosX="0 8 292 300" GridPosY="0 8 92 100" GridUVX="0 8 76 84" GridUVY="0 8 76 84">
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="167 1 251 1 167 85 251 85" Ani="1 1 0.000 0">new_ui_common_forlua/window/chatting/chatting_btn_00.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 300 100"/>
+		<Control Type="Static" Name="Panel_Child" Pos="0 0" Size="280 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 100" Grid="1" GridPosX="0 5 275 280" GridPosY="0 5 95 100" GridUVX="0 5 43 48" GridUVY="0 5 43 48" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 48 0 0 48 48 48" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/suboutline.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Category_Template" Pos="4 49" Size="292 23" Pan="0 0" Color="ffffffff" EnableArea="0 0 292 21" Grid="1" GridPosX="0 5 287 292" GridPosY="0 5 18 23" GridUVX="0 5 227 232" GridUVY="0 5 17 22">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="2 293 234 293 2 315 234 315" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="" Font="BaseFont_10" Color="ffffab6d" OverColor="ffd8ae64" ClickColor="ffd8ae64" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_ShowDetail_Template" Pos="5 51" Size="21 21" Pan="0 0" Color="ffffffff" EnableArea="0 0 21 21" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 21 1 1 21 21 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/rader/minimap_00.dds</Texture>
+			<Texture Type="On" UV="22 1 42 1 22 21 42 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/rader/minimap_00.dds</Texture>
+			<Texture Type="Click" UV="43 1 63 1 43 21 63 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/rader/minimap_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="271 10" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_UseFaceCustomizationHair" Pos="10 10" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="211 73 230 73 211 92 230 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="235 73 254 73 235 92 254 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UseFaceCustomizationHair" Pos="40 10" Size="80 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

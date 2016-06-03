@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4205</itemKey>
+	<itemName>Roher Heilstein</itemName>
+	<itemIcon>00004205.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohen Heilsteinen erfordert eine gewisse Talentstufe.</itemDesc>
+	<collect>
+		<character>
+			<name>Weißer Zinn</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>4261</id>
+			<name>Heilstein</name>
+			<icon>00004261.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

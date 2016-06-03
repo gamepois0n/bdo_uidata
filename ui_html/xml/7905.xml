@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7905</itemKey>
+	<itemName>Pork</itemName>
+	<itemIcon>00007905.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a pig corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Baby Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Farm Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Gray Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Red Boar</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Red Boar</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Rare Jerky</name>
+			<icon>00007920.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+		<item>
+			<id>24129</id>
+			<name>Tin Candelabra with Four Candles</name>
+			<icon>InHouse_X_DPFO_Candlestick_03_light.png</icon>
+			<desc>A tin candelabra with 4 candles attached.</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Brass Candelabra with Four Candles</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>A brass candelabra with 4 candles attached.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

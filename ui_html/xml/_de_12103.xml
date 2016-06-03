@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12103</itemKey>
+	<itemName>Blutrubinring</itemName>
+	<itemIcon>00012103.png</itemIcon>
+	<itemDesc>Ein mit einem Blutrubin verzierter Ring.</itemDesc>
+	<house type="8">
+		<item>
+			<id>12102</id>
+			<name>Glänzender Rubinring</name>
+			<icon>00012102.png</icon>
+			<desc>Ein mit einem Funkelnden Rubin verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>4258</id>
+			<name>Platinbarren</name>
+			<icon>00004258.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Platinerz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Rubin</name>
+			<icon>00004451.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12104</id>
+			<name>Dunkler Blutrubinring</name>
+			<icon>00012104.png</icon>
+			<desc>Ein mit einem Dunklen Blutrubin verzierter Ring.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

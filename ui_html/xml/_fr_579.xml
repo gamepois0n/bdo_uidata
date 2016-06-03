@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>579</itemKey>
+	<itemName>Infusion raffinée</itemName>
+	<itemIcon>00000573.png</itemIcon>
+	<itemDesc>PM/PF/PS restaurés : 325.\n- Temps de recharge : 6 sec.\n- C&apos;est plus léger qu&apos;une potion normale.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>571</id>
+			<name>Infusion hautement concentrée</name>
+			<icon>00000571.png</icon>
+			<desc>Restaure instantanément les PM/PF/PS par +250 à l&apos;utilisation.\n- Temps de recharge : 6 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>571</id>
+			<name>Infusion hautement concentrée</name>
+			<icon>00000571.png</icon>
+			<desc>Restaure instantanément les PM/PF/PS par +250 à l&apos;utilisation.\n- Temps de recharge : 6 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

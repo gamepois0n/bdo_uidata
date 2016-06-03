@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11722</itemKey>
+	<itemName>Resplendent Diamond Necklace</itemName>
+	<itemIcon>00011722.png</itemIcon>
+	<itemDesc>A necklace decorated with a Resplendent Diamond.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11721</id>
+			<name>Diamond Necklace</name>
+			<icon>00011721.png</icon>
+			<desc>A necklace decorated with a Diamond.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Melted Gold Shard</name>
+			<icon>00004254.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Gold Ore.</desc>
+		</item>
+		<item>
+			<id>4463</id>
+			<name>Diamond</name>
+			<icon>00004463.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Rough Diamonds.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11723</id>
+			<name>Star Diamond Necklace</name>
+			<icon>00011723.png</icon>
+			<desc>A necklace decorated with a Star Diamond.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

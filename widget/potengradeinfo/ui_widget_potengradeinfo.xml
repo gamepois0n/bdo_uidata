@@ -1,0 +1,153 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Widget_PotenGradeInfo" Pos="1 0" Size="220 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 220 40">
+		<Texture Type="Special" UV="0 0 220 0 0 232 220 232" Ani="1 1 0.000 0">new_ui_common_forlua/Default/Mask_a80.dds</Texture>
+		<Control Type="Static" Name="Static_Icon_AttackSpeed" Pos="Left Top" Size="10 10" Pan="0 1" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="82 12 92 12 82 22 92 22" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_CastingSpeed" Pos="Left Top" Size="10 10" Pan="55 1" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="93 12 103 12 93 22 103 22" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_MoveSpeed" Pos="Left Top" Size="10 10" Pan="110 1" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="104 12 114 12 104 22 114 22" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_CriticalRate" Pos="Left Top" Size="10 10" Pan="165 1" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="115 12 125 12 115 22 125 22" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_FishingRate" Pos="Left Top" Size="10 10" Pan="0 15" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="126 12 136 12 126 22 136 22" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_GatheringRate" Pos="Left Top" Size="10 10" Pan="55 15" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="137 12 147 12 137 22 147 22" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon_DropRate" Pos="Left Top" Size="10 10" Pan="110 15" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="148 12 158 12 148 22 158 22" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_AttackSpeed_GaugeBG" Pos="Left Top" Size="35 5" Pan="13 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_AttackSpeed_Gauge" Pos="Left Top" Size="33 3" Pan="14 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_CastingSpeed_GaugeBG" Pos="Left Top" Size="35 5" Pan="68 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_CastingSpeed_Gauge" Pos="Left Top" Size="33 3" Pan="69 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_2_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_MoveSpeed_GaugeBG" Pos="Left Top" Size="35 5" Pan="123 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_MoveSpeed_Gauge" Pos="Left Top" Size="33 3" Pan="124 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_3_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_CriticalRate_GaugeBG" Pos="Left Top" Size="35 5" Pan="178 5" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_CriticalRate_Gauge" Pos="Left Top" Size="33 3" Pan="179 6" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_4_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_FishingRate_GaugeBG" Pos="Left Top" Size="35 5" Pan="13 19" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_FishingRate_Gauge" Pos="Left Top" Size="33 3" Pan="14 20" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_5_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_GatheringRate_GaugeBG" Pos="Left Top" Size="35 5" Pan="68 19" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_GatheringRate_Gauge" Pos="Left Top" Size="33 3" Pan="69 20" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_6_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_DropRate_GaugeBG" Pos="Left Top" Size="35 5" Pan="123 19" Color="ffffffff" EnableArea="0 0 35 5" Grid="1" GridPosX="0 1 34 35" GridPosY="0 1 4 5" GridUVX="0 1 139 140" GridUVY="0 1 5 6" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 107 141 107 1 113 141 113" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_DropRate_Gauge" Pos="Left Top" Size="33 3" Pan="123 20" Color="ffffffff" EnableArea="0 0 33 3">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 166 255 166 1 168 255 168" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges_01.dds</Texture>
+			<Attribute Type="Smooth" Speed="2.000000"/>
+			<Control Type="Static" Name="Progress2_7_Bar_Head" Pos="-10 0" Size="20 3" Pan="0 0" Color="cc000044" EnableArea="0 0 20 3">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_AttackSpeed_Value" Pos="Left Top" Size="80 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 단계" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CastingSpeed_Value" Pos="Left Top" Size="80 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 단계" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MoveSpeed_Value" Pos="Left Top" Size="80 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 단계" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CriticalRate_Value" Pos="Left Top" Size="80 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 단계" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishingRate_Value" Pos="Left Top" Size="80 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 단계" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GatheringRate_Value" Pos="Left Top" Size="80 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 단계" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DropRate_Value" Pos="Left Top" Size="80 20" Pan="220 5" Color="  ffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="3 단계" Font="BaseFont_7_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

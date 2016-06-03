@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8583</itemKey>
+	<itemName>Dried Rosefish</itemName>
+	<itemIcon>00008583.png</itemIcon>
+	<itemDesc>A dried rosefish obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8283</id>
+			<name>Rosefish</name>
+			<icon>00008283.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55983</id>
+			<name>Packaged Dried Rosefish</name>
+			<icon>00055983.png</icon>
+			<desc>A Trade Item containing 10 Dried Rosefish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

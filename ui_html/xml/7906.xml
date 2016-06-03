@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7906</itemKey>
+	<itemName>Beef</itemName>
+	<itemIcon>00007906.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a cow corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Long-haired Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Rock Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Small Salamander</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Small Stone Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Head Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Stone Tail Bison</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Troll Cow</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Young Troll Ox</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Rare Jerky</name>
+			<icon>00007920.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8212</itemKey>
+	<itemName>Oktopus</itemName>
+	<itemIcon>00008212.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Fischnetz</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ständer zum Dörren von Fisch</name>
+		</character>
+	</collect>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8512</id>
+			<name>Getrockneter Oktopus</name>
+			<icon>00008512.png</icon>
+			<desc>Ein Getrockneter Oktopus, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4006</itemKey>
+	<itemName>Pierre brute</itemName>
+	<itemIcon>00004006.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être récolté avec une pioche sur n&apos;importe quel rocher au sol.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Boîte en pierre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bryophyte</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe carapamousse</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparherbe</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche coléoptère</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche de la ferme</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche des broussai</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche herbeux de l</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche ordinaire</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche robuste de l</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche teigneux</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Crabe caraparoche à tête haute</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Diorite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Esprit de roche mature</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Extraction minière</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Feldspath</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Golem de cimetière</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Golem de pierre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Golem sauvage</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Granite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grès</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Petit crabe caraparoche de la </name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pierre de sang</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pierre de terre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Reine caraparoche</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>24205</id>
+			<name>Poterie longue</name>
+			<icon>Pot_Base_56.png</icon>
+			<desc>Poterie longue.</desc>
+		</item>
+		<item>
+			<id>24204</id>
+			<name>Poterie de bourbier</name>
+			<icon>Pot_Base_55.png</icon>
+			<desc>Poterie de bourbier.</desc>
+		</item>
+		<item>
+			<id>24203</id>
+			<name>Poterie ronde</name>
+			<icon>Pot_Base_54.png</icon>
+			<desc>Poterie ronde.</desc>
+		</item>
+		<item>
+			<id>3718</id>
+			<name>Ustensile de cuisine intermédiaire</name>
+			<icon>Crafting_Cooking_02.png</icon>
+			<desc>Un outil de rang moyen servant en cuisine.\n- Vous pouvez l&apos;installer dans une résidence.</desc>
+		</item>
+		<item>
+			<id>3717</id>
+			<name>Ustensile de cuisine</name>
+			<icon>Crafting_Cooking_01.png</icon>
+			<desc>Un outil servant en cuisine.\n- Vous pouvez l&apos;installer dans une résidence.</desc>
+		</item>
+		<item>
+			<id>3702</id>
+			<name>Outil d&apos;alchimie intermédiaire</name>
+			<icon>Crafting_Alchemy_02.png</icon>
+			<desc>Un outil pouvant reconstruire les composants d&apos;une substance.\n- Vous pouvez l&apos;installer dans une résidence.</desc>
+		</item>
+		<item>
+			<id>3701</id>
+			<name>Outil d&apos;alchimie</name>
+			<icon>Crafting_Alchemy_01.png</icon>
+			<desc>Un outil pouvant reconstruire les composants d&apos;une substance.\n- Vous pouvez l&apos;installer dans une résidence.</desc>
+		</item>
+		<item>
+			<id>4068</id>
+			<name>Pierre polie</name>
+			<icon>00004068.png</icon>
+			<desc>Une pierre brute utilisée en artisanat.\n\n- Obtention : s&apos;obtient en meulant de la pierre ordinaire.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

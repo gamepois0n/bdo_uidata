@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6153</itemKey>
+	<itemName>Peau dure</itemName>
+	<itemIcon>00006153.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en séchant une peau de dinosaure, de lézard ou de ver.</itemDesc>
+	<collect>
+		<character>
+			<name>Iguane</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Iguane des terres désolées</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard arc-en-ciel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard bleu</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard rhinocéros</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Lézard à tête triangulaire</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Petite salamandre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Salamandre Delta cornue</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Salamandre effrayante</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Salamandre à longue queue</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ver alvéoroche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ver carnivore des grottes</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ver de Calpheon</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6007</id>
+			<name>Peau de dinosaure</name>
+			<icon>00006007.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un dinosaure tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6008</id>
+			<name>Peau de lézard</name>
+			<icon>00006008.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un loup tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6009</id>
+			<name>Peau de ver</name>
+			<icon>00006009.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un ver tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>16123</id>
+			<name>Couteau de tanneur en acier</name>
+			<icon>00016123.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la peau de dépouilles d&apos;animaux.\n- Durée de récolte : -8 sec.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16119</id>
+			<name>Couteau de boucher en acier</name>
+			<icon>00016119.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la viande de dépouilles d&apos;animaux.\n- Durée de récolte : -8 sec.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>6161</id>
+			<name>Peau dure délicate</name>
+			<icon>00006161.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de dinosaure, de lézard ou de ver. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>16823</id>
+			<name>Couteau de tanneur en acier porte-bonheur</name>
+			<icon>00016823.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la peau de dépouilles d&apos;animaux. Son utilisation augmente la chance.\n- Durée de récolte : -8 sec.\n- Réparation impossible.</desc>
+		</item>
+		<item>
+			<id>16819</id>
+			<name>Couteau de boucher en acier porte-bonheur</name>
+			<icon>00016819.png</icon>
+			<desc>Un outil de récolte utilisé pour récupérer la viande de dépouilles d&apos;animaux. Son utilisation augmente la chance.\n- Durée de récolte : -8 sec.\n- Réparation impossible.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

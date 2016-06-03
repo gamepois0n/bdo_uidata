@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>16911</itemKey>
+	<itemName>Wasserweg</itemName>
+	<itemIcon>00016911.png</itemIcon>
+	<itemDesc>Wenn Ihr in einem Garten einen Wasserweg installiert, vermindert das den Verbrauch des Wasservorrats.\n(Rechtsklickt, um den nächsten Ort anzuzeigen, an dem Ihr Zäune erhalten könnt.)</itemDesc>
+	<house type="7">
+		<item>
+			<id>4605</id>
+			<name>Holzscheit</name>
+			<icon>00004605.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Fällen von Bäumen aus allen Regionen gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>6653</id>
+			<name>Flasche Flusswasser</name>
+			<icon>00006653.png</icon>
+			<desc>Eine Flasche mit Wasser, das mithilfe einer leeren Flasche in einem Fluss gesammelt wurde. Es kann in einen anderen Zustand gebracht oder als Zutat bei der Herstellung verwendet werden.\n– Gewinnung: Dieses Wasser kann aus einem Fluss mithilfe einer Leeren Flasche gewonnen werden.\n\n※ Wird eine Flasche Flusswasser im Garten angewendet, steigt der Wasservorrat an.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+</itemInfo>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4007</itemKey>
+	<itemName>Kohle</itemName>
+	<itemIcon>00004007.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Keplansteinbruch, Glutonihöhle, Omar-Lavahöhle. Kann mithilfe einer Spitzhacke gesammelt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blutstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kohle</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Schlammstein</name>
+		</character>
+	</collect>
+	<node region="Keplansteinbruch – Bergbau"/>
+	<node region="Glutonihöhle – Bergbau"/>
+	<node region="Omar-Lavahöhle – Bergbau"/>
+	<makelist>
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4070</id>
+			<name>Verarbeitete Kohle</name>
+			<icon>00004070.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kohle gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

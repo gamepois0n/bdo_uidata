@@ -1,0 +1,16 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Popup_Inven" Pos="500 500" Size="163 77" Pan="0 0" Color="ffffffff" EnableArea="0 0 163 77">
+		<Control Type="Button" Name="Button_Function" Pos="Center 7" Size="154 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 154 32" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 156 155 156 1 188 155 188" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 221 155 221" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 254 155 254" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="ÀüÀï ¼±Æ÷" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_FunctionBG" Pos="Center Center" Size="163 77" Pan="0 0" Color="ffffffff" EnableArea="0 0 163 77" Grid="1" GridPosX="0 5 158 163" GridPosY="0 5 72 77" GridUVX="0 5 178 183" GridUVY="0 5 217 222" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12112</itemKey>
+	<itemName>Resplendent Topaz Ring</itemName>
+	<itemIcon>00012112.png</itemIcon>
+	<itemDesc>A ring decorated with a Resplendent Topaz.</itemDesc>
+	<house type="8">
+		<item>
+			<id>12111</id>
+			<name>Topaz Ring</name>
+			<icon>00012111.png</icon>
+			<desc>A ring decorated with a Topaz.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Melted Iron Shard</name>
+			<icon>00004051.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Iron Ore.</desc>
+		</item>
+		<item>
+			<id>4457</id>
+			<name>Topaz</name>
+			<icon>00004457.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Rough Topaz.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12113</id>
+			<name>Gold Topaz Ring</name>
+			<icon>00012113.png</icon>
+			<desc>A ring decorated with a Gold Topaz.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

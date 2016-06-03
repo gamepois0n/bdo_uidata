@@ -1,0 +1,20 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Logo" Pos="Center Center" Size="200 200" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 200">
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_Pearl" Pos="Center Center" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 1280 0 0 720 1280 720" Ani="1 1 0.000 0">ci_ingame.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Daum" Pos="Center Center" Size="634 317" Pan="0 0" Color="ffffffff" EnableArea="0 0 634 317" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 634 0 0 317 634 317" Ani="1 1 0.000 0">daum_ci.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Grade" Pos="Right Top" Size="311 121" Pan="50 50" Color="ffffffff" EnableArea="0 0 305 118" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 311 0 0 121 311 121" Ani="1 1 0.000 0">gamegradeicon18.dds</Texture>
+		</Control>
+		<Control Type="MultilineText" Name="MultilineText_Warning" Pos="Center Center" Size="650 50" Pan="0 0" Color="  ffffff" EnableArea="0 0 650 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="본 게임물은 청소년이용불가 게임물로 \n18세 미만의 청소년은 이용할 수 없습니다." formatString="PANEL_LOGO_AGE" Font="HeaderFont_26" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

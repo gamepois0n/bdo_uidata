@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8533</itemKey>
+	<itemName>Étoile de mer séchée</itemName>
+	<itemIcon>00008533.png</itemIcon>
+	<itemDesc>Une étoile de mer obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8233</id>
+			<name>Étoile de mer</name>
+			<icon>00008233.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55933</id>
+			<name>Étoile de mer séchée sous vide</name>
+			<icon>00055933.png</icon>
+			<desc>Un objet de commerce contenant 10 étoiles de mer séchées.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

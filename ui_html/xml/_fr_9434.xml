@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9434</itemKey>
+	<itemName>Soupe de viande spéciale</itemName>
+	<itemIcon>00009434.png</itemIcon>
+	<itemDesc>Une soupe à base de viande de qualité supérieure.\n\n- Effet unique : chances de coup critique +1 pendant 45 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Eau minérale</name>
+			<icon>00009059.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.\n\n※ L&apos;utilisation d&apos;eau minérale dans le jardin augmentera légèrement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Porc</name>
+			<icon>00007905.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un cochon mort.\n\n- Utilisation : steak, ragoût à la viande, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Poivre</name>
+			<icon>00007301.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des graines de poivrier.\nUtilisation : saucisse grillée, pâtes aux fruits de mer, etc.\n- Obtention : il s&apos;obtient en cultivant un jardin.\n\n※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Crème</name>
+			<icon>00009061.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

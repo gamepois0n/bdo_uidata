@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8203</itemKey>
+	<itemName>Strumpfbandfisch</itemName>
+	<itemIcon>00008203.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Backfisch, Gedünsteter Fisch, Fischsuppe etc.</itemDesc>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8503</id>
+			<name>Getrockneter Strumpfbandfisch</name>
+			<icon>00008503.png</icon>
+			<desc>Ein Getrockneter Strumpfbandfisch, der durch Trocknen erlangt wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

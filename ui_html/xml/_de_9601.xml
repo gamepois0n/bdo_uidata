@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9601</itemKey>
+	<itemName>Balenos-Spezialität</itemName>
+	<itemIcon>00009601.png</itemIcon>
+	<itemDesc>Die Geschmäcker Balenos’ in einem einzigen Gericht.\n\n– Spezielle Wirkung: Für 90 Min.:\n Bewegungsgeschwindigkeit +2\n Angelgeschwindigkeit +2\n Sammelgeschwindigkeit +2\n\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9203</id>
+			<name>Käsegratin</name>
+			<icon>00009203.png</icon>
+			<desc>Einige mit Käse überbackene Zutaten.\n\n– Spezielle Wirkung: Max. LP +70 für 90 Min.\nAngriffsgeschwindigkeit +1 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9203</id>
+			<name>Käsegratin</name>
+			<icon>00009203.png</icon>
+			<desc>Einige mit Käse überbackene Zutaten.\n\n– Spezielle Wirkung: Max. LP +70 für 90 Min.\nAngriffsgeschwindigkeit +1 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Fleischkrokette</name>
+			<icon>00009404.png</icon>
+			<desc>Ein frittiertes Gericht aus Getreide und Fleisch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +5 % für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9417</id>
+			<name>Räucherfischsteak</name>
+			<icon>00009417.png</icon>
+			<desc>Ein Gericht aus geräuchertem Fisch.\n\n– Spezielle Wirkung: Angriffsgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9241</id>
+			<name>Gemüsepfanne</name>
+			<icon>00009241.png</icon>
+			<desc>Ein scharfes Gericht mit gebratenen Peperonis und Gemüse.\n\n– Spezielle Wirkung: Erhöhte Sprunghöhe für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9213</id>
+			<name>Bier</name>
+			<icon>00009213.png</icon>
+			<desc>Ein schwacher Alkohol aus Getreide.\n\n– Spezielle Wirkung: Stellt +2 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9282</id>
+			<name>Käsebällchengratin</name>
+			<icon>00009282.png</icon>
+			<desc>Ein Gratin mit Qualitätskäse.\n\n– Spezielle Wirkung: Max. LP +70 für 110 Min.\nAngriffsgeschwindigkeit +1 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9282</id>
+			<name>Käsebällchengratin</name>
+			<icon>00009282.png</icon>
+			<desc>Ein Gratin mit Qualitätskäse.\n\n– Spezielle Wirkung: Max. LP +70 für 110 Min.\nAngriffsgeschwindigkeit +1 für 110 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9404</id>
+			<name>Fleischkrokette</name>
+			<icon>00009404.png</icon>
+			<desc>Ein frittiertes Gericht aus Getreide und Fleisch.\n\n– Spezielle Wirkung: Kampf-EP-Bonus +5 % für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9417</id>
+			<name>Räucherfischsteak</name>
+			<icon>00009417.png</icon>
+			<desc>Ein Gericht aus geräuchertem Fisch.\n\n– Spezielle Wirkung: Angriffsgeschwindigkeit +1 für 60 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9241</id>
+			<name>Gemüsepfanne</name>
+			<icon>00009241.png</icon>
+			<desc>Ein scharfes Gericht mit gebratenen Peperonis und Gemüse.\n\n– Spezielle Wirkung: Erhöhte Sprunghöhe für 30 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</desc>
+		</item>
+		<item>
+			<id>9213</id>
+			<name>Bier</name>
+			<icon>00009213.png</icon>
+			<desc>Ein schwacher Alkohol aus Getreide.\n\n– Spezielle Wirkung: Stellt +2 Arbeiterausdauer wiederher (über das Arbeitermenü auf der Weltkarte verwenden).\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 1 Sek.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

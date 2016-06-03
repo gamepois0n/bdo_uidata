@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15118</itemKey>
+	<itemName>Cristal magique d&apos;infinité (Bravoure)</itemName>
+	<itemIcon>00045033.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être transposé dans des châsses de gant. \n- Effet d&apos;objet : taux de coups critiques +2\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<alchemy>
+		<item>
+			<id>15016</id>
+			<name>Cristal magique du soleil (Bravoure)</name>
+			<icon>00045033.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de gant. \n- Effet d&apos;objet : taux de coups critiques +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>5215</id>
+			<name>Fruit de destruction</name>
+			<icon>00005215.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>15001</id>
+			<name>Cristal magique de la flamme pourpre - Précision</name>
+			<icon>00045001.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses d&apos;arme. \n- Effet d&apos;objet : tous types de précision +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+		<item>
+			<id>4466</id>
+			<name>Cristal translucide</name>
+			<icon>00004466.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux translucides bruts trouvés près de la grotte des gobelins.</desc>
+		</item>
+		<item>
+			<id>6214</id>
+			<name>Sang de loup</name>
+			<icon>00006214.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un loup mort.</desc>
+		</item>
+		<item>
+			<id>15016</id>
+			<name>Cristal magique du soleil (Bravoure)</name>
+			<icon>00045033.png</icon>
+			<desc>Un cristal de pierre noire qui peut être transposé dans des châsses de gant. \n- Effet d&apos;objet : taux de coups critiques +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

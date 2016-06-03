@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6354</itemKey>
+	<itemName>Sinner&apos;s Blood</itemName>
+	<itemIcon>00006354.png</itemIcon>
+	<itemDesc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Clear Liquid Reagent</name>
+			<icon>00005301.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Clear Liquid Reagent</name>
+			<icon>00005301.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>6205</id>
+			<name>Pig Blood</name>
+			<icon>00006205.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be extracted from a pig corpse using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Powder of Flame</name>
+			<icon>00004802.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5005</id>
+			<name>Bloody Tree Knot</name>
+			<icon>00005005.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Bloody Tree Knot requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>49304</id>
+			<name>Fishing Boat Prow</name>
+			<icon>00049304.png</icon>
+			<desc>A prow that can be attached to a fishing boat. It allows the boat to sail faster when equipped. \nWhen 3 or more set items are equipped:\nMovement Speed +2%\nAll DP +30\n- Mounts Usable: Fishing Boat\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>49301</id>
+			<name>Ferry Prow</name>
+			<icon>00049301.png</icon>
+			<desc>A prow that can be attached to a Ferry, allowing it to sail faster.\nWhen 3 or more set items are installed:\nMovement Speed +2%\n\n- Can be Installed on: Ferry\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>16002</id>
+			<name>Black Stone (Armor)</name>
+			<icon>00000007.png</icon>
+			<desc>Armor can be enhanced through Black Spirits.\n\n- Able to Enhance: Helmet, Armor, Gloves, Shoes</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Grade 1 Armor Reform Stone</name>
+			<icon>00004907.png</icon>
+			<desc>A material used in 1st-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

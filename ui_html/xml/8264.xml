@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8264</itemKey>
+	<itemName>Round Herring</itemName>
+	<itemIcon>00008264.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<fishing/>
+	<node region="Louruve Island - Fish Trap"/>
+	<node region="Beiruwa Island - Fish Trap"/>
+	<node region="Invernen Island - Fish Trap 1"/>
+	<node region="Randis Island - Fish Trap"/>
+	<makelist>
+		<item>
+			<id>8564</id>
+			<name>Dried Round Herring</name>
+			<icon>00008564.png</icon>
+			<desc>A dried round herring obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

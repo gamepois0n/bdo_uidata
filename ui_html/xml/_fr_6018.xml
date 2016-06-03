@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6018</itemKey>
+	<itemName>Plume de flamant rose</itemName>
+	<itemIcon>00006018.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un flamant tué à la chasse.</itemDesc>
+	<collect>
+		<character>
+			<name>Flamantail</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6166</id>
+			<name>Plume fine délicate</name>
+			<icon>00006166.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes fines.</desc>
+		</item>
+		<item>
+			<id>6158</id>
+			<name>Plume fine</name>
+			<icon>00006158.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes de flamant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

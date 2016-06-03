@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5408</itemKey>
+	<itemName>Pfeilpilz</itemName>
+	<itemIcon>00005408.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Plünderwald hergestellt werden. Pfeilpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</itemDesc>
+	<collect>
+		<character>
+			<name>Pfeilpilz</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Plünderwald – Sammeln"/>
+	<makelist>
+		<item>
+			<id>7508</id>
+			<name>Pfeilpilzkiste</name>
+			<icon>00007508.png</icon>
+			<desc>Pilze, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

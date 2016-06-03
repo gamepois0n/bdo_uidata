@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10112</itemKey>
+	<itemName>Axion Shield of Temptation</itemName>
+	<itemIcon>00010103.png</itemIcon>
+	<itemDesc>The energy of Temptation is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Temptation, Axion Shield</itemDesc>
+	<house type="7">
+		<item>
+			<id>4077</id>
+			<name>Steel</name>
+			<icon>00004077.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Melted Iron Shards and Coal together. It requires the knowledge of Heating: Beginner.\n\n※ Find Flaviano in Heidel and complete the Pure Water for an Experiment Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Apprentice Level 4 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Pure Iron Crystal</name>
+			<icon>00004053.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Metal Solvent acquired by Alchemy and Iron Ingots. It requires the knowledge of Heating: Skilled.\n\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>6151</id>
+			<name>Soft Hide</name>
+			<icon>00006151.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying deer, sheep, or fox hide.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Powder of Flame</name>
+			<icon>00004802.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10103</id>
+			<name>Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>A steel-plated shield used more for attacking than defending.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Grade 1 Weapon Reform Stone</name>
+			<icon>00004906.png</icon>
+			<desc>A material used in 1st-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Black Stone Powder</name>
+			<icon>00004901.png</icon>
+			<desc>A basic ingredient used in Crafting.\n- How to Obtain: It can be obtained at a Refinery through Crafting.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10103</id>
+			<name>Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>A steel-plated shield used more for attacking than defending.</desc>
+		</item>
+		<item>
+			<id>10111</id>
+			<name>Axion Shield of Destruction</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Destruction is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Destruction, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10110</id>
+			<name>Axion Shield of Crimson Flame</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Crimson Flame, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10113</id>
+			<name>Ultimate Axion Shield</name>
+			<icon>00010103.png</icon>
+			<desc>An Axion Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Axion Shield of Crimson Flame, Axion Shield of Destruction, Axion Shield of Temptation, Axion Shield</desc>
+		</item>
+		<item>
+			<id>10112</id>
+			<name>Axion Shield of Temptation</name>
+			<icon>00010103.png</icon>
+			<desc>The energy of Temptation is contained within this Axion Shield.\n\n- Repair to Max. Durability: Axion Shield of Temptation, Axion Shield</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

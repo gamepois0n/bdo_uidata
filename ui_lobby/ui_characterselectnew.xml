@@ -1,0 +1,206 @@
+<UI>
+	<Control Type="Panel" Name="Panel_CharacterSelectNew" Pos="1 0" Size="1280 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 1280 720">
+		<Control Type="Static" Name="Static_BG" Pos="Right Center" Size="430 720" Pan="10 0" Color="ffffffff" EnableArea="0 0 430 720" Grid="1" GridPosX="0 4 426 430" GridPosY="0 10 710 720" GridUVX="0 10 173 183" GridUVY="0 10 212 222" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharacterSelect" Pos="Left Top" Size="250 30" Pan="35 20" Color="ffffffff" EnableArea="0 0 250 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="캐릭터 선택" formatString="CHARACTER_SELECT_TXT_TITLE" Font="TitleFont_18" Color="ffffe397" OverColor="ffffe397" ClickColor="ffffe397" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_Character0" Pos="Right 50" Size="402 60" Pan="30 0" Color="ffffffff" EnableArea="0 0 402 60" Grid="1" GridPosX="0 56 397 402" GridPosY="0 0 60 60" GridUVX="0 56 451 456" GridUVY="0 0 60 60" UseDefaultSound="1" ClickSound="0 0" Group="0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="2 1 458 1 2 61 458 61" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_btn_00.dds</Texture>
+			<Texture Type="On" UV="2 62 458 62 2 122 458 122" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_btn_00.dds</Texture>
+			<Texture Type="Click" UV="2 123 458 123 2 183 458 183" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_btn_00.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Left" AlignVertical="Top" Span="70 7"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_CreateSlot" Pos="Right 128" Size="402 60" Pan="30 0" Color="ffffffff" EnableArea="0 0 402 60" Grid="1" GridPosX="0 56 397 402" GridPosY="0 0 60 60" GridUVX="0 56 451 456" GridUVY="0 0 60 60" UseDefaultSound="1" ClickSound="0 8" Group="0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="2 245 458 245 2 305 458 305" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_btn_01.dds</Texture>
+			<Texture Type="On" UV="2 306 458 306 2 366 458 366" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_btn_01.dds</Texture>
+			<Texture Type="Click" UV="2 367 458 367 2 427 458 427" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_classselect_btn_01.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Left" AlignVertical="Top" Span="70 7"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_CharacterCreate" Pos="Right 133" Size="111 50" Pan="50 0" Color="ffffffff" EnableArea="0 0 111 50" Grid="1" GridPosX="0 5 106 111" GridPosY="0 5 45 50" GridUVX="0 5 149 154" GridUVY="0 5 27 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 8">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="캐릭터 생성" formatString="CHARACTER_CREATECLASS_BTN_CREATE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_CharacterDelete" Pos="Right 65" Size="19 19" Pan="31 65" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_CharacterDeleteCancel" Pos="Center Center" Size="190 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 190 30" Grid="1" GridPosX="0 5 185 190" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="캐릭터 삭제 취소" formatString="CHARACTER_SELECT_BTN_DELETECANCEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_Work_BG" Pos="Right Top" Size="29 29" Pan="139 23" Color="ffffffff" EnableArea="0 0 29 29" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Work_GaugeBG" Pos="Right Top" Size="5 44" Pan="133 8" Color="ffffffff" EnableArea="0 0 5 44" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 31 6 31 1 75 6 75" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Work_Gauge" Pos="Right Top" Size="3 42" Pan="134 9" Color="ffffffff" EnableArea="0 0 3 42" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="7 31 10 31 7 73 10 73" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Work_Icon" Pos="Right Top" Size="32 29" Pan="139 23" Color="ffffffff" EnableArea="0 0 32 29" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="64 1 96 1 64 30 96 30" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DeleteTitle" Pos="Center Center" Size="320 27" Pan="0 -100" Color="ffffffff" EnableArea="0 0 320 27">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="삭제중" formatString="CHARACTER_SELECT_TXT_DELETE" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DeleteDate" Pos="Center Center" Size="320 27" Pan="0 -50" Color="ffffffff" EnableArea="0 0 320 27">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 95 256 95 0 120 256 120" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="2013년 8월 7일 7시 25분 삭제" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Character0" Pos="Right 82" Size="50 20" Pan="320 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="삭제 중" Font="SubTitleFont_14" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharLevel" Pos="Left Bottom" Size="50 16" Pan="60 5" Color="ffffffff" EnableArea="0 0 50 16" Grid="1" GridPosX="0 5 45 50" GridPosY="0 5 11 16" GridUVX="0 5 14 19" GridUVY="0 5 14 19">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="11 31 29 31 11 49 29 49" Ani="1 1 0.000 0">new_ui_common_forlua/window/lobby/lobby_00.dds</Texture>
+			<Text Value="Lv.10" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Start" Pos="Right 68" Size="111 50" Pan="50 0" Color="ffffffff" EnableArea="0 0 111 50" Grid="1" GridPosX="0 5 106 111" GridPosY="0 5 45 50" GridUVX="0 5 149 154" GridUVY="0 5 27 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 8">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="게임 접속" formatString="CHARACTER_SELECT_BTN_CONNECT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharacterName" Pos="Right Top" Size="185 20" Pan="150 7" Color="ffffffff" EnableArea="0 0 185 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="Lv100 : 가나다라마바사아자\n차카타파하하" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_BackServerSelect" Pos="Right Bottom" Size="155 50" Pan="55 10" Color="ffffffff" EnableArea="0 0 155 50" Grid="1" GridPosX="0 5 150 155" GridPosY="0 5 45 50" GridUVX="0 5 149 154" GridUVY="0 5 27 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="서버 선택 화면" formatString="CHARACTER_SELECT_BTN_TOSERVER" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="26 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_EndGame" Pos="Right Bottom" Size="155 50" Pan="215 10" Color="ffffffff" EnableArea="0 0 155 50" Grid="1" GridPosX="0 5 150 155" GridPosY="0 5 45 50" GridUVX="0 5 149 154" GridUVY="0 5 27 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="접속 종료하기" formatString="CHARACTER_SELECT_BTN_DISCONNECT" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_UserCount" Pos="Right Top" Size="100 20" Pan="15 20" Color="ffffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="10000" Font="BaseFont" Color="ff96d4fc" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_PartLine" Pos="Right Top" Size="450 6" Pan="10 35" Color="ffffffff" EnableArea="0 0 450 6" Grid="1" GridPosX="0 95 355 450" GridPosY="0 0 6 6" GridUVX="0 95 374 469" GridUVY="0 0 6 6" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CharInfo_BG" Pos="Right Bottom" Size="400 200" Pan="30 65" Color="ffffffff" EnableArea="0 0 400 200" Grid="1" GridPosX="0 10 390 400" GridPosY="0 10 190 200" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharInfo_Name" Pos="Center Top" Size="300 20" Pan="0 10" Color="ffffffff" EnableArea="0 0 300 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="퉤이머어어어어어" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CharInfo_GaugeBG" Pos="Center Top" Size="244 17" Pan="0 44" Color="ffffffff" EnableArea="0 0 244 17" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="1 3 245 3 1 20 245 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_CharInfo_Gauge" Pos="Center Top" Size="232 6" Pan="0 49" Color="ffffffff" EnableArea="0 0 232 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 70 233 70 1 76 233 76" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-12 0" Size="20 6" Pan="0 0" Color="cc000044" EnableArea="0 0 20 6">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharInfo_Do" Pos="Center Top" Size="150 20" Pan="0 40" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="대기 중" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharInfo_RemainTime" Pos="Center Top" Size="150 20" Pan="0 55" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Time" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharInfo_NowPos" Pos="Center Top" Size="150 20" Pan="0 72" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="[현재 위치]" formatString="CHARACTER_SELECT_TXT_NOWPOS" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CharInfo_Where" Pos="Center Top" Size="150 20" Pan="0 92" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="하이델 성" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_StartCharacter" Pos="Center Bottom" Size="150 40" Pan="0 10" Color="ffffffff" EnableArea="0 0 150 40" Grid="1" GridPosX="0 5 145 150" GridPosY="0 5 35 40" GridUVX="0 5 149 154" GridUVY="0 5 26 31" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 8">
+			<Texture Type="Base" UV="1 156 155 156 1 187 155 187" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="1 189 155 189 1 220 155 220" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="1 222 155 222 1 253 155 253" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="게임 접속" formatString="CHARACTER_SELECT_BTN_CONNECT" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 7"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_DeleteCharacter" Pos="Right Top" Size="37 37" Pan="5 5" Color="ffffffff" EnableArea="0 0 37 37" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="167 132 204 132 167 169 204 169" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="On" UV="167 171 204 171 167 208 204 208" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Texture Type="Click" UV="167 210 204 210 167 247 204 247" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_02.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 7"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TicketNoByRegion" Pos="Center Top" Size="150 20" Pan="0 112" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="하이델 성" Font="BaseFont_10" Color="ff96d4fc" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_DeleteFamilyName" Pos="Left Bottom" Size="140 50" Pan="15 15" Color="ffffffff" EnableArea="0 0 140 50" Grid="1" GridPosX="0 4 135 140" GridPosY="0 4 45 50" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="가문 삭제" formatString="PANEL_UI_CHARACTERSELECT_DELETEFAMILYNAME" Font="BaseFont" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="FamilyName" Pos="Right Top" Size="403 31" Pan="15 0" Color="ffffffff" EnableArea="0 0 403 31" Grid="1" GridPosX="0 43 360 403" GridPosY="0 0 32 32" GridUVX="0 43 46 89" GridUVY="0 0 31 31">
+			<Texture Type="Base" UV="19 203 108 203 19 234 108 234" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Text Value="" Font="BaseFont_12" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Center" AlignVertical="Top" Span="7 2"/>
+		</Control>
+		<Control Type="Static" Name="Static_DeleteBox" Pos="Center Center" Size="320 120" Pan="0 0" Color="ffffffff" EnableArea="0 0 320 120" AutoDisableTime="0.000000"/>
+		<Control Type="Scroll" Name="Scroll_SlotList" Pos="Right Top" Size="5 610" Pan="15 40" Color="ffffffff" EnableArea="0 0 5 610" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 603 610" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Hide"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 610" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Attribute Type="Ignore"/>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_CtrlButton" Pos="Center 0" Size="10 100" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 100" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 90 100" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

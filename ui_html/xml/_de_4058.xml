@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4058</itemKey>
+	<itemName>Kupferbarren</itemName>
+	<itemIcon>00004058.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Kupfersplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4003</id>
+			<name>Kupfererz</name>
+			<icon>00004003.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Goblinhöhle, Koboldhöhle, Küstenhöhle, Wald der Abgeschiedenheit, Thermianklippe, Steinbruch von Nordheidel, Küste von Mediah. Kann aus kupferhaltigem Erz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Geschmolzener Kupfersplitter</name>
+			<icon>00004057.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kupfererz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Geschmolzener Kupfersplitter</name>
+			<icon>00004057.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kupfererz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>16109</id>
+			<name>Flüssigkeitssammler</name>
+			<icon>00016109.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Tierblut oder Saft gesammelt wird.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16105</id>
+			<name>Holzfälleraxt</name>
+			<icon>00016105.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16125</id>
+			<name>Spitzhacke</name>
+			<icon>00016125.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Erz aus Gestein gewonnen wird.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16121</id>
+			<name>Gerbermesser</name>
+			<icon>00016121.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16117</id>
+			<name>Schlachtermesser</name>
+			<icon>00016117.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16113</id>
+			<name>Hacke</name>
+			<icon>00016113.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16154</id>
+			<name>Dünne Harpune</name>
+			<icon>00016154.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Tiefseefische gefangen werden. Manche Fische können nur mit einer Harpune gefangen werden. \n– Zur Verwendung ist ein Fischerboot erforderlich.</desc>
+		</item>
+		<item>
+			<id>16147</id>
+			<name>Dicke Angelrute</name>
+			<icon>00016147.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem an einem Fluss oder am Meer Fische gefangen werden. Die Chance, gute Fische zu fangen, ist höher als bei einer normalen Rute.\n\n– Gegenstandseffekt: Angelgeschwindigkeit +1</desc>
+		</item>
+		<item>
+			<id>16809</id>
+			<name>Glückbringender Flüssigkeitssammler</name>
+			<icon>00016809.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Blut oder Saft abgezapft wird. Es erhöht während des Sammelns das Glück.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16805</id>
+			<name>Glückbringende Holzfälleraxt</name>
+			<icon>00016805.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird. Es erhöht während des Sammelns das Glück.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16825</id>
+			<name>Glückbringende Spitzhacke</name>
+			<icon>00016825.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem aus Gestein Erz gewonnen wird. Es erhöht während des Sammelns das Glück.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16821</id>
+			<name>Glückbringendes Gerbermesser</name>
+			<icon>00016821.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16817</id>
+			<name>Glückbringendes Schlachtermesser</name>
+			<icon>00016817.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16813</id>
+			<name>Glückbringende Hacke</name>
+			<icon>00016813.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden. Es erhöht während des Sammelns das Glück.\n– Normale Sammelzeit \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>4059</id>
+			<name>Reiner Kupferkristall</name>
+			<icon>00004059.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Kupferbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>2809</id>
+			<name>Kupferbesetzter Bienenwachs-Kronleuchter (Tageslicht)</name>
+			<icon>InHouse_X_DPC_Chandelier_05_on_light.png</icon>
+			<desc>Ein glimmender Wachskronleuchter, der mit Kupfer verziert ist.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

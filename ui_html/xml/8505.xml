@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8505</itemKey>
+	<itemName>Dried Salmon</itemName>
+	<itemIcon>00008505.png</itemIcon>
+	<itemDesc>A dried salmon obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8205</id>
+			<name>Salmon</name>
+			<icon>00008205.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55905</id>
+			<name>Packaged Dried Salmon</name>
+			<icon>00055905.png</icon>
+			<desc>A Trade Item containing 10 Dried Salmon.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

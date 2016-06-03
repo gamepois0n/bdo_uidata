@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5210</itemKey>
+	<itemName>Essence d&apos;enchantement</itemName>
+	<itemIcon>00005210.png</itemIcon>
+	<itemDesc>Essence extraite d&apos;un fruit d&apos;enchantement pouvant être parfois obtenu dans un jardin. Utilisé en tant qu&apos;ingrédient en alchimie.\n- Obtention : s&apos;obtient en combinant certains ingrédients avec un fruit d&apos;enchantement en alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5209</id>
+			<name>Fruit d&apos;enchantement</name>
+			<icon>00005209.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5209</id>
+			<name>Fruit d&apos;enchantement</name>
+			<icon>00005209.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Sève de frêne</name>
+			<icon>00005001.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un frêne.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Poudre des ténèbres</name>
+			<icon>00004801.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>5403</id>
+			<name>Fleur de flocon de feu</name>
+			<icon>00005403.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : peut être récolté directement sur des herbes sauvages à mains nues ou à l&apos;aide d&apos;une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

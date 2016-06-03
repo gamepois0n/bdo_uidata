@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4804</itemKey>
+	<itemName>Powder of Earth</itemName>
+	<itemIcon>00004804.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</itemDesc>
+	<collect>
+		<character>
+			<name>Silver</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zinc</name>
+		</character>
+	</collect>
+	<node region="Behr Riverhead - Mining"/>
+	<makelist>
+		<item>
+			<id>14019</id>
+			<name>Silver Embroidered Cook&apos;s Clothes</name>
+			<icon>00014007.png</icon>
+			<desc>A noble outfit made for Cooks.</desc>
+		</item>
+		<item>
+			<id>52902</id>
+			<name>Light Iron Horseshoe</name>
+			<icon>00052902.png</icon>
+			<desc>Sturdier and lighter horseshoe made of high-quality iron\n- Able to attach on : Horse &amp; Camel &amp; Donkey\nAble to enhance with Black Stone(Armor)</desc>
+		</item>
+		<item>
+			<id>10305</id>
+			<name>Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A dagger made for parrying attacks.</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parrying Dagger of Crimson Flame</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Crimson Flame, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Ultimate Parrying Dagger</name>
+			<icon>00010305.png</icon>
+			<desc>A Parrying Dagger developed to its maximum potential.\n\n- Repair to Max. Durability: Parrying Dagger of Crimson Flame, Parrying Dagger of Destruction, Parrying Dagger of Temptation, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parrying Dagger of Temptation</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Temptation is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Temptation, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parrying Dagger of Destruction</name>
+			<icon>00010305.png</icon>
+			<desc>The energy of Destruction is contained within this Parrying Dagger.\n\n- Repair to Max. Durability: Parrying Dagger of Destruction, Parrying Dagger</desc>
+		</item>
+		<item>
+			<id>13017</id>
+			<name>Ultimate Blade Trinket</name>
+			<icon>00010707.png</icon>
+			<desc>A Blade Trinket developed to its maximum potential.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket of Destruction, Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Blade Trinket of Temptation</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Temptation is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Temptation, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Blade Trinket of Destruction</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Destruction is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Destruction, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Blade Trinket of Crimson Flame</name>
+			<icon>00010706.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Blade Trinket.\n\n- Repair to Max. Durability: Blade Trinket of Crimson Flame, Blade Trinket</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Blade Trinket</name>
+			<icon>00010706.png</icon>
+			<desc>A trinket with an ornamental knife attached.</desc>
+		</item>
+		<item>
+			<id>10105</id>
+			<name>Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A high-strength alloy shield that provides maximum defense.</desc>
+		</item>
+		<item>
+			<id>10115</id>
+			<name>Kite Shield of Destruction</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Destruction is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Destruction, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10114</id>
+			<name>Kite Shield of Crimson Flame</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Crimson Flame, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10117</id>
+			<name>Ultimate Kite Shield</name>
+			<icon>00010105.png</icon>
+			<desc>A Kite Shield developed to its maximum potential.\n\n- Repair to Max. Durability: Kite Shield of Crimson Flame, Kite Shield of Destruction, Kite Shield of Temptation, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10116</id>
+			<name>Kite Shield of Temptation</name>
+			<icon>00010105.png</icon>
+			<desc>The energy of Temptation is contained within this Kite Shield.\n\n- Repair to Max. Durability: Kite Shield of Temptation, Kite Shield</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik Talisman of Temptation</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Temptation is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Temptation, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik Talisman of Destruction</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Destruction is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Destruction, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik Talisman of Crimson Flame</name>
+			<icon>00010505.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Rhik Talisman.\n\n- Repair to Max. Durability: Rhik Talisman of Crimson Flame, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Ultimate Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A Rhik Talisman developed to its maximum potential.\n\n- Repair to Max. Durability: Rhik Talisman of Crimson Flame, Rhik Talisman of Destruction, Rhik Talisman of Temptation, Rhik Talisman</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>A talisman with enhanced defensive abilities.</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>A handmade ornamental knot for an axe lined with gold.</desc>
+		</item>
+		<item>
+			<id>10717</id>
+			<name>Ultimate Theos Ornamental Knot</name>
+			<icon>00010705.png</icon>
+			<desc>Theos Ornamental Knot developed to its maximum potential.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Crimson Flame, Theos Ornamental Knot of Destruction, Theos Ornamental Knot of Temptation, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos Ornamental Knot of Temptation</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Temptation is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Temptation, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos Ornamental Knot of Destruction</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Destruction is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Destruction, Theos Ornamental Knot</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos Ornamental Knot of Crimson Flame</name>
+			<icon>00010705.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Theos Ornamental Knot.\n\n- Repair to Max. Durability: Theos Ornamental Knot of Crimson Flame, Theos Ornamental Knot</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

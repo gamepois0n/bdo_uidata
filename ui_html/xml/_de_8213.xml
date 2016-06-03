@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8213</itemKey>
+	<itemName>Krebs</itemName>
+	<itemIcon>00008213.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</itemDesc>
+	<fishing/>
+	<node region="Insel Taramura – Fischreuse 2"/>
+	<node region="Insel Orffs – Fischreuse 2"/>
+	<node region="Insel Daton – Fischreuse"/>
+	<node region="Insel Lisz – Fischreuse 2"/>
+	<makelist>
+		<item>
+			<id>8513</id>
+			<name>Getrockneter Krebs</name>
+			<icon>00008513.png</icon>
+			<desc>Ein Getrockneter Krebs, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

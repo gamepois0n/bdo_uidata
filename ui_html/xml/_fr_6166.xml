@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6166</itemKey>
+	<itemName>Plume fine délicate</itemName>
+	<itemIcon>00006166.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes fines.</itemDesc>
+	<shop>
+		<character>
+			<name>Lavientia Batian</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6018</id>
+			<name>Plume de flamant rose</name>
+			<icon>00006018.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un flamant tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_THINNING">
+		<item>
+			<id>6158</id>
+			<name>Plume fine</name>
+			<icon>00006158.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes de flamant.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14219</id>
+			<name>[Magicien] Tenue de noble de Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n- Effet d&apos;objet : Amitié +15 % depuis une conversation\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez le même costume avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans le même emplacement qu&apos;un costume Pearl.\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le Marché.</desc>
+		</item>
+		<item>
+			<id>14202</id>
+			<name>[Berserker] Tenue de noble de Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez le même costume avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>14201</id>
+			<name>[Guerrier] Tenue de noble de Calpheon</name>
+			<icon>00014201.png</icon>
+			<desc>Un costume porté par les aristocrates de Calpheon. Il est fabuleux, mais également pratique.\n\n- Effet d&apos;objet : amitié +15 % depuis une conversation\n\n※ Si vous utilisez un billet d&apos;échange de costume, vous obtiendrez le même costume avec l&apos;effet supplémentaire Vitesse de mouvement +2. Le costume peut être équipé dans la même case qu&apos;un costume de perles.\n\nSi vous l&apos;échangez contre un costume, vous ne pourrez pas l&apos;inscrire sur le marché.</desc>
+		</item>
+		<item>
+			<id>6174</id>
+			<name>Plume fine ultime</name>
+			<icon>00006174.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une plume fine distinguée et du revêtement de cuir, un ingrédient préparé par alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

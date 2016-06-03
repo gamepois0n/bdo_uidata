@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5216</itemKey>
+	<itemName>Essenz der Zerstörung</itemName>
+	<itemIcon>00005216.png</itemIcon>
+	<itemDesc>Eine aus der Frucht der Zerstörung extrahierte Essenz. Diese Früchte können in seltenen Fällen in einem Garten gefunden werden. Die Essenz wird als Zutat in der Alchemie verwendet.\n– Gewinnung: Kann in der Alchemie durch die Kombination bestimmter Zutaten mit einer Frucht der Zerstörung hergestellt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5215</id>
+			<name>Frucht der Zerstörung</name>
+			<icon>00005215.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5215</id>
+			<name>Frucht der Zerstörung</name>
+			<icon>00005215.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5003</id>
+			<name>Piniensaft</name>
+			<icon>00005003.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Pinie erhalten werden.</desc>
+		</item>
+		<item>
+			<id>4802</id>
+			<name>Flammenpulver</name>
+			<icon>00004802.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5402</id>
+			<name>Silberazalee</name>
+			<icon>00005402.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann in derNördlichen Ebene von Serendia und in den Ruinen des Hofes Lynch hergestellt werden. Kann außerdem mit bloßen Händen oder mithilfe einer Hacke von Wildkräutern gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

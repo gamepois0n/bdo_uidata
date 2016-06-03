@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>12112</itemKey>
+	<itemName>Glänzender Topasring</itemName>
+	<itemIcon>00012112.png</itemIcon>
+	<itemDesc>Ein mit einem Funkelnden Topas verzierter Ring.</itemDesc>
+	<house type="8">
+		<item>
+			<id>12111</id>
+			<name>Topasring</name>
+			<icon>00012111.png</icon>
+			<desc>Ein mit einem Topas verzierter Ring.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Geschmolzener Eisensplitter</name>
+			<icon>00004051.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Eisenerz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4457</id>
+			<name>Topas</name>
+			<icon>00004457.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohtopas gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>12113</id>
+			<name>Goldtopasring</name>
+			<icon>00012113.png</icon>
+			<desc>Ein mit einem Goldtopas verzierter Ring.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

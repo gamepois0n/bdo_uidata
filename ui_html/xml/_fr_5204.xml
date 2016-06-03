@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5204</itemKey>
+	<itemName>Essence d&apos;abondance</itemName>
+	<itemIcon>00005204.png</itemIcon>
+	<itemDesc>Essence extraite d&apos;un fruit d&apos;abondance pouvant être parfois obtenu dans un jardin. Utilisé en tant qu&apos;ingrédient en alchimie.\n- Obtention : s&apos;obtient en combinant certains ingrédients avec un fruit d&apos;abondance en alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5203</id>
+			<name>Fruit d&apos;abondance</name>
+			<icon>00005203.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5203</id>
+			<name>Fruit d&apos;abondance</name>
+			<icon>00005203.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5004</id>
+			<name>Sève de bouleau</name>
+			<icon>00005004.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un bouleau.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace d&apos;ascension</name>
+			<icon>00005955.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+		<item>
+			<id>5410</id>
+			<name>Champignon nuage</name>
+			<icon>00005410.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit au marécage de Glish et à Cienaga Sud. Les champignons nuages peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

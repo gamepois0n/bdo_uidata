@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11711</itemKey>
+	<itemName>Topaz Necklace</itemName>
+	<itemIcon>00011711.png</itemIcon>
+	<itemDesc>A necklace decorated with a Topaz.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4403</id>
+			<name>Rough Topaz</name>
+			<icon>00004403.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Topaz Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+		<item>
+			<id>4203</id>
+			<name>Platinum Ore</name>
+			<icon>00004203.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Platinum Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Platinum.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11712</id>
+			<name>Resplendent Topaz Necklace</name>
+			<icon>00011712.png</icon>
+			<desc>A necklace decorated with a Resplendent Topaz.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

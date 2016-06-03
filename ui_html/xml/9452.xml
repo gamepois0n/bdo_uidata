@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9452</itemKey>
+	<itemName>Fragrant Borscht</itemName>
+	<itemIcon>00009452.png</itemIcon>
+	<itemDesc>A perfectly made dish of borscht. \n\n- Unique Effect: Max Energy +20 for 75 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+		<item>
+			<id>7918</id>
+			<name>Fragrant Jerky</name>
+			<icon>00007918.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineral Water</name>
+			<icon>00009059.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vendor or Innkeeper.\n\n※ Using Mineral Water on a Garden will slightly increase the amount of available Water Deposit.</desc>
+		</item>
+		<item>
+			<id>7348</id>
+			<name>Cinnamon</name>
+			<icon>00007348.png</icon>
+			<desc>Cinnamon is a specialty of Mediah.\nUsage: Borscht, Desert Dumpling, etc.\n- How to Obtain: It can be obtained at Kasula Farm. Mediah Cinammon can also be Gathered using Bare Hands or a Hoe.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

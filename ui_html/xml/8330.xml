@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8330</itemKey>
+	<itemName>Tilefish</itemName>
+	<itemIcon>00008330.png</itemIcon>
+	<itemDesc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n\n- Usage: Fried Fish, Steamed Fish, Fish Soup, etc.</itemDesc>
+	<makelist>
+		<item>
+			<id>8630</id>
+			<name>Dried Tilefish</name>
+			<icon>00008597.png</icon>
+			<desc>A dried tilefish obtained through Drying.\n ※ Drying decreases the value of the fish.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

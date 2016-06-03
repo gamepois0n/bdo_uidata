@@ -1,0 +1,39 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Trade_Market_ItemList" Pos="192 74" Size="1024 768" Pan="0 0" Color="f2ffffff" EnableArea="0 0 1024 768" ShowSound="1 0" HideSound="1 1">
+		<Attribute Type="Drag" Area="0 0 509 27"/>
+		<Control Type="Static" Name="Static_Panel" Pos="0 0" Size="150 160" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 160" Grid="1" GridPosX="0 12 138 150" GridPosY="0 13 147 160" GridUVX="0 12 244 256" GridUVY="0 13 243 256">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot" Pos="48 5" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50">
+			<Texture Type="Base" UV="54 199 106 199 54 251 106 251" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_ui_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Icon" Pos="52 9" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42">
+			<Texture Type="Base" UV="12 12 54 12 12 54 54 54" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_remainCount" Pos="-3 93" Size="150 15" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="재고 수량 : 100개" Font="BaseFont_8_Bold" Color="ffbf6464" OverColor="ffbf6464" ClickColor="ffbf6464" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_itemName" Pos="0 53" Size="150 40" Pan="0 0" Color="  ffffff" EnableArea="0 0 150 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이템 이름\n아이템 이름" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_sellPrice" Pos="85 114" Size="12 15" Pan="0 0" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="1,000,000" Font="BaseFont_10" Color="ffffbc3a" OverColor="ffffbc3a" ClickColor="ffffbc3a" AlignHorizon="Right" AlignVertical="Center" Span="14 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_QuotationRate" Pos="100 113" Size="50 15" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="[ 100% ]" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_AddCart" Pos="2 132" Size="145 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 145 22" Grid="1" GridPosX="0 5 140 145" GridPosY="0 4 15 22" GridUVX="0 5 25 30" GridUVY="0 4 23 30" ClickSound="0 3">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="담 기" formatString="TRADEMARKET_ITEMLIST_CART" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7104</itemKey>
+	<itemName>Farine de patate douce</itemName>
+	<itemIcon>00007104.png</itemIcon>
+	<itemDesc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant des patates douces.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7004</id>
+			<name>Patate douce</name>
+			<icon>00007004.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient de plusieurs façons différentes.\n- Obtention : il s&apos;obtient à la ferme Shuri. Et peut être aussi obtenu en cultivantdes graines de patates douces dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7009</id>
+			<name>Patate douce de haute qualité</name>
+			<icon>00007004.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7014</id>
+			<name>Patate douce spéciale</name>
+			<icon>00007004.png</icon>
+			<desc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7204</id>
+			<name>Pâte de patate douce</name>
+			<icon>00007204.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de patates douces obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

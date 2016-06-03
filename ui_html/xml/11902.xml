@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11902</itemKey>
+	<itemName>Resplendent Ruby Earrings</itemName>
+	<itemIcon>00011902.png</itemIcon>
+	<itemDesc>An earring decorated with a Resplendent Ruby.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11901</id>
+			<name>Ruby Earrings</name>
+			<icon>00011901.png</icon>
+			<desc>An earring decorated with a Ruby.</desc>
+		</item>
+		<item>
+			<id>4051</id>
+			<name>Melted Iron Shard</name>
+			<icon>00004051.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Heating Iron Ore.</desc>
+		</item>
+		<item>
+			<id>4451</id>
+			<name>Ruby</name>
+			<icon>00004451.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Ruby.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11903</id>
+			<name>Blood Ruby Earrings</name>
+			<icon>00011903.png</icon>
+			<desc>An earring decorated with a Blood Ruby.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

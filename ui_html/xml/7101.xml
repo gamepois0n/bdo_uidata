@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7101</itemKey>
+	<itemName>Wheat Flour</itemName>
+	<itemIcon>00007101.png</itemIcon>
+	<itemDesc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained by Grinding Wheat.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7001</id>
+			<name>Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>This Cooking ingredient can be obtained by a variety of methods.\n- How to Obtain: It can be Produced at Costa Farm, Moretti Plantation, and Northern Wheat Plantation. It can also be obtained by Farming Wheat Seeds using a Garden.\n\n- Usage: Beer, Grain Soup, Vinegar, etc. </desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7006</id>
+			<name>High-Quality Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7011</id>
+			<name>Special Wheat</name>
+			<icon>00007001.png</icon>
+			<desc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

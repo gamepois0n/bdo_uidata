@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6154</itemKey>
+	<itemName>Dünnes Leder</itemName>
+	<itemIcon>00006154.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch Trocknen von Waschbär-, Affen- oder Wieselfell gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Brauner Waschbär</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Bösartiges Wiesel</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Guenon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wiesel</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6010</id>
+			<name>Waschbärenfell</name>
+			<icon>00006010.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Waschbärkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6011</id>
+			<name>Affenhaut</name>
+			<icon>00006011.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Affenkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6012</id>
+			<name>Wieselfell</name>
+			<icon>00006012.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Wieselkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10806</id>
+			<name>Reblas-Rüstung</name>
+			<icon>00010806.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>10805</id>
+			<name>Reblas-Helm</name>
+			<icon>00010805.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>10808</id>
+			<name>Reblas-Schuhe</name>
+			<icon>00010808.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>10807</id>
+			<name>Reblas-Handschuhe</name>
+			<icon>00010807.png</icon>
+			<desc>Eine in großer Zahl für die Miliz hergestellte Rüstung.</desc>
+		</item>
+		<item>
+			<id>6162</id>
+			<name>Feines dünnes Leder</name>
+			<icon>00006162.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Waschbär-, Affen- oder Wieselfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

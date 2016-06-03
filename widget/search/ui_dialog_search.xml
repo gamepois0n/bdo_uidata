@@ -1,0 +1,109 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Dialog_Search" Pos="-140 -3" Size="1280 720" Pan="0 0" Color="ff555555" EnableArea="0 0 1280 720" UiConvertableType="None" UiConvertableInputMode="UiMode">
+		<Attribute Type="Ignore"/>
+		<Control Type="Button" Name="Button_FreeSet_1" Pos="Right Bottom" Size="50 50" Pan="180 235" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 13 37 50" GridPosY="0 14 36 50" GridUVX="0 13 36 49" GridUVY="0 14 35 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 82 49 82 1 130 49 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="51 82 99 82 51 130 99 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="101 82 149 82 101 130 149 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="1" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_FreeSet_2" Pos="Right Bottom" Size="50 50" Pan="130 235" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 13 37 50" GridPosY="0 14 36 50" GridUVX="0 13 36 49" GridUVY="0 14 35 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 82 49 82 1 130 49 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="51 82 99 82 51 130 99 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="101 82 149 82 101 130 149 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="2" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_FreeSet_3" Pos="Right Bottom" Size="50 50" Pan="80 235" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 13 37 50" GridPosY="0 14 36 50" GridUVX="0 13 36 49" GridUVY="0 14 35 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 82 49 82 1 130 49 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="51 82 99 82 51 130 99 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="101 82 149 82 101 130 149 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="3" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Arrow_Top" Pos="Right Bottom" Size="49 49" Pan="120 350" Color="ffffffff" EnableArea="0 0 49 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="4 3 53 3 4 52 53 52" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="On" UV="4 54 53 54 4 103 53 103" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="Click" UV="4 105 53 105 4 154 53 154" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Text Value="" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Arrow_Right" Pos="Right Bottom" Size="49 49" Pan="75 310" Color="ffffffff" EnableArea="0 0 49 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="110 3 159 3 110 52 159 52" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="On" UV="110 54 159 54 110 103 159 103" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="Click" UV="110 105 159 105 110 154 159 154" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Text Value="" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Arrow_Bottom" Pos="Right Bottom" Size="49 49" Pan="120 310" Color="ffffffff" EnableArea="0 0 49 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="57 3 106 3 57 52 106 52" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="On" UV="57 54 106 54 57 103 106 103" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="Click" UV="57 105 106 105 57 154 106 154" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Text Value="" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Arrow_Left" Pos="Right Bottom" Size="49 49" Pan="165 310" Color="ffffffff" EnableArea="0 0 49 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="163 3 212 3 163 52 212 52" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="On" UV="163 54 212 54 163 103 212 103" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Texture Type="Click" UV="163 105 212 105 163 154 212 154" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_02.dds</Texture>
+			<Text Value="" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Detail" Pos="Right Bottom" Size="50 50" Pan="130 300" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 13 37 50" GridPosY="0 14 36 50" GridUVX="0 13 36 49" GridUVY="0 14 35 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 82 49 82 1 130 49 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="51 82 99 82 51 130 99 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="101 82 149 82 101 130 149 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="◎" Font="SubTitleFont_14" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ZoomIn" Pos="Right Bottom" Size="50 50" Pan="165 350" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 13 37 50" GridPosY="0 14 36 50" GridUVX="0 13 36 49" GridUVY="0 14 35 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 82 49 82 1 130 49 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="51 82 99 82 51 130 99 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="101 82 149 82 101 130 149 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="+" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_ZoomOut" Pos="Right Bottom" Size="50 50" Pan="75 350" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 13 37 50" GridPosY="0 14 36 50" GridUVX="0 13 36 49" GridUVY="0 14 35 49" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 82 49 82 1 130 49 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="51 82 99 82 51 130 99 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="101 82 149 82 101 130 149 130" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="-" Font="SubTitleFont_14" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Search_Title" Pos="Right Bottom" Size="180 30" Pan="50 400" Color="ffffffff" EnableArea="0 0 180 30" Grid="1" GridPosX="0 5 175 180" GridPosY="0 5 25 30" GridUVX="0 5 227 232" GridUVY="0 5 17 22">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="2 293 234 293 2 315 234 315" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="조사 커맨드" formatString="PANEL_DIALOG_SEARCH_STCTXT_SEARCH_TITLE" Font="BaseFont_12" Color="ffd8ae64" OverColor="ffd8ae64" ClickColor="ffd8ae64" AlignHorizon="Center" AlignVertical="Center" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_W" Pos="Right Bottom" Size="50 20" Pan="110 355" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="W" Font="BaseFont_8_Bold" Color="ff999999" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Q" Pos="Right Bottom" Size="50 20" Pan="155 355" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="Q" Font="BaseFont_8_Bold" Color="ff999999" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_E" Pos="Right Bottom" Size="50 20" Pan="65 355" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="E" Font="BaseFont_8_Bold" Color="ff999999" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_A" Pos="Right Bottom" Size="50 20" Pan="155 315" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="A" Font="BaseFont_8_Bold" Color="ff999999" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_S" Pos="Right Bottom" Size="50 20" Pan="110 315" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="S" Font="BaseFont_8_Bold" Color="ff999999" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_D" Pos="Right Bottom" Size="50 20" Pan="65 315" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="D" Font="BaseFont_8_Bold" Color="ff999999" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

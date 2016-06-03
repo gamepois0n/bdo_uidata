@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4408</itemKey>
+	<itemName>Rough Red Crystal</itemName>
+	<itemIcon>00004408.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Red Crystal requires a certain level of skill to collect.\n- How to Obtain: It can be Gathered near the Khuruto Cave.</itemDesc>
+	<collect>
+		<character>
+			<name>Red Quartz</name>
+		</character>
+	</collect>
+	<node region="Khuruto Cave - Mining"/>
+	<node region="Ancient Fissure - Mining"/>
+	<makelist>
+		<item>
+			<id>4468</id>
+			<name>Red Crystal</name>
+			<icon>00004468.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Rough Red Crystals found near Khuruto Cave.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

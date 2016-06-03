@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8569</itemKey>
+	<itemName>Pholidé séché</itemName>
+	<itemIcon>00008569.png</itemIcon>
+	<itemDesc>Un pholidé obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8269</id>
+			<name>Pholidé</name>
+			<icon>00008269.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55969</id>
+			<name>Gonelle séchée sous vide</name>
+			<icon>00055969.png</icon>
+			<desc>Un objet de commerce contenant 10 gonnelles séchées.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

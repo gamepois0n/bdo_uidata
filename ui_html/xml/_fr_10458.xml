@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10458</itemKey>
+	<itemName>Amulette de Krea de la flamme pourpre</itemName>
+	<itemIcon>00010456.png</itemIcon>
+	<itemDesc>Cette amulette de Krea renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de la flamme pourpre, amulette de Krea</itemDesc>
+	<house type="6">
+		<item>
+			<id>4077</id>
+			<name>Lingot d&apos;acier</name>
+			<icon>00004077.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant des fragments de fer fondu et du charbon. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4253</id>
+			<name>Cristal d&apos;argent pur</name>
+			<icon>00004253.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots d&apos;argent. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Peau résistante délicate</name>
+			<icon>00006160.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de rhino, de cochon ou de vache. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5952</id>
+			<name>Trace de désespoir</name>
+			<icon>00005952.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait au site d&apos;excavation de la souche de Rhua et dans la forêt des manshas.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10456</id>
+			<name>Amulette de Krea</name>
+			<icon>00010456.png</icon>
+			<desc>Une amulette conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10463</id>
+			<name>Amulette de Krea ultime</name>
+			<icon>00010456.png</icon>
+			<desc>Une amulette de Krea qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de la flamme pourpre, amulette de Krea de destruction, amulette de Krea de tentation, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10460</id>
+			<name>Amulette de Krea de tentation</name>
+			<icon>00010456.png</icon>
+			<desc>Cette amulette de Krea renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de tentation, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10459</id>
+			<name>Amulette de Krea de destruction</name>
+			<icon>00010456.png</icon>
+			<desc>Cette amulette de Krea renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de destruction, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10458</id>
+			<name>Amulette de Krea de la flamme pourpre</name>
+			<icon>00010456.png</icon>
+			<desc>Cette amulette de Krea renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de Krea.\n\n- Rétablir la durabilité maximale : amulette de Krea de la flamme pourpre, amulette de Krea</desc>
+		</item>
+		<item>
+			<id>10456</id>
+			<name>Amulette de Krea</name>
+			<icon>00010456.png</icon>
+			<desc>Une amulette conçue pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

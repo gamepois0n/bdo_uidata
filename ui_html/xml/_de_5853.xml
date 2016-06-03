@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5853</itemKey>
+	<itemName>Seidenfaden</itemName>
+	<itemIcon>00005853.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Seidenraupen-Kokons gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Bettwäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäscheständer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zelt</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>5803</id>
+			<name>Seidenraupen-Kokon</name>
+			<icon>00005803.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Unbekannt.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>13028</id>
+			<name>Krea-Anhänger der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Krea-Anhänger der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Zerstörung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Krea-Anhänger der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Anhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Anhänger, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Ultimativer Krea-Anhänger</name>
+			<icon>00010724.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Anhänger.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Anhänger der Purpurnen Flamme, Krea-Anhänger der Zerstörung, Krea-Anhänger der Versuchung, Krea-Anhänger</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Krea-Schmuckknoten der Zerstörung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Zerstörung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Krea-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Purpurnen Flamme, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein Schmuckknoten, der den strengen Ansprüchen eines Abenteurers gerecht werden soll.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Ultimativer Krea-Schmuckknoten</name>
+			<icon>00010724.png</icon>
+			<desc>Ein maximal aufgerüsteter Krea-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Purpurnen Flamme, Krea-Schmuckknoten der Zerstörung, Krea-Schmuckknoten der Versuchung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Krea-Schmuckknoten der Versuchung</name>
+			<icon>00010724.png</icon>
+			<desc>Dieser Krea-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Krea-Schmuckknoten der Versuchung, Krea-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>5857</id>
+			<name>Seide</name>
+			<icon>00005857.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Seidenfaden kann durch das Mahlen von Seidenraupen-Kokons gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>24820</id>
+			<name>Luxuriöser Teppich</name>
+			<icon>InHouse_X_DPF_Carpet_12.png</icon>
+			<desc>Ein eleganter Teppich.</desc>
+		</item>
+		<item>
+			<id>24819</id>
+			<name>Teppichboden</name>
+			<icon>InHouse_X_DPF_Carpet_11.png</icon>
+			<desc>Ein Bodenteppich.</desc>
+		</item>
+		<item>
+			<id>24818</id>
+			<name>Handwerkerteppich aus Calpheon</name>
+			<icon>InHouse_X_DPF_Carpet_10.png</icon>
+			<desc>Ein Teppich eines Meisterhandwerkers aus Calpheon.</desc>
+		</item>
+		<item>
+			<id>24603</id>
+			<name>Wandteppich mit Mediah-Muster</name>
+			<icon>InHouse_X_DPW_Carpetdeco_04b.png</icon>
+			<desc>Ein Wandteppich mit einem Muster aus Mediah.</desc>
+		</item>
+		<item>
+			<id>24602</id>
+			<name>Wandteppich mit herrlichem Muster</name>
+			<icon>InHouse_X_DPW_Carpetdeco_03.png</icon>
+			<desc>Ein Wandteppich mit elegantem Muster.</desc>
+		</item>
+		<item>
+			<id>25625</id>
+			<name>Seidenvorhang mit Schlaufen</name>
+			<icon>InHouse_X_DPW_Curtain_01_03_Tied.png</icon>
+			<desc>Ein einfacher Schlaufenvorhang aus Seide.</desc>
+		</item>
+		<item>
+			<id>25624</id>
+			<name>Vliesvorhang mit Schlaufen</name>
+			<icon>InHouse_X_DPW_Curtain_01_02_Tied.png</icon>
+			<desc>Ein einfacher Schlaufenvorhang aus Vlies.</desc>
+		</item>
+		<item>
+			<id>25622</id>
+			<name>Seidenvorhang</name>
+			<icon>InHouse_X_DPW_Curtain_01_03_Back.png</icon>
+			<desc>Ein einfacher Vorhang aus Seide.</desc>
+		</item>
+		<item>
+			<id>25621</id>
+			<name>Vliesvorhang</name>
+			<icon>InHouse_X_DPW_Curtain_01_02_Back.png</icon>
+			<desc>Ein einfacher Vorhang aus Vlies.</desc>
+		</item>
+		<item>
+			<id>24815</id>
+			<name>Teppich aus Mediah</name>
+			<icon>InHouse_X_DPF_Carpet_07.png</icon>
+			<desc>Ein Teppich aus Mediah.</desc>
+		</item>
+		<item>
+			<id>24813</id>
+			<name>Mehrfach gemusterter Teppich</name>
+			<icon>InHouse_X_DPF_Carpet_04.png</icon>
+			<desc>Ein Teppich mit elegantem Muster.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

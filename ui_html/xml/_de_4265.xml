@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4265</itemKey>
+	<itemName>Funkelnder Opal</itemName>
+	<itemIcon>00004265.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource. Wird bei Alchemie und Verarbeitung verwendet.\n\n– Gewinnung: Mehrmaliges Erhitzen von Rohopalen. Ihr benötigt das Wissen „Erhitzung: Geselle“.\n\n ※ Sucht Flaviano in Heidel auf, um die Quest „Reines Wasser für Experimente“ abzuschließen und das Wissen zu erhalten.\n\n※ Damit Ihr die Quest fortsetzen könnt, müsst Ihr Sammellehrling Stufe 4 erreichen und Fiby in Heidel aufsuchen, um die Questreihe abzuschließen. Benutzt die Schwarzgeisthilfe (Kommataste) für Details.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4260</id>
+			<name>Polierter Opal</name>
+			<icon>00004260.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4266</id>
+			<name>Mondschein-Opal</name>
+			<icon>00004266.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource. Wird bei Alchemie und Verarbeitung verwendet.\n\n– Gewinnung: Erhitzung von Metall-Lösungsmittel und brillanten Opalen. Ihr benötigt das Wissen „Erhitzung: Geselle“.\n\n※ Sucht Vatudun in Keplan auf, um die Quest „Materialien zur Talenterlernung“ abzuschließen und das Wissen zu erhalten.\n\n※ Damit Ihr die Quest fortsetzen könnt, müsst Ihr Sammelkenner Stufe 10 und Verarbeitungskenner Stufe 5 erreichen. Benutzt die Schwarzgeisthilfe (Kommataste) für Details.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5414</itemKey>
+	<itemName>Champignon fantôme</itemName>
+	<itemIcon>00005414.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit dans la grotte de Marie. Les champignons fantômes peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner ! !</itemDesc>
+	<collect>
+		<character>
+			<name>Champignon fantôme</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Grotte de Marie : récoltes"/>
+	<makelist>
+		<item>
+			<id>7514</id>
+			<name>Caisse de champignons fantôme</name>
+			<icon>00007514.png</icon>
+			<desc>Un champignon transformé pour être vendu à meilleur prix. Il peut être vendu à des marchands.\n- Obtention : il peut être préparé grâce à un établi.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

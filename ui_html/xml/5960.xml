@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5960</itemKey>
+	<itemName>Trace of Forest</itemName>
+	<itemIcon>00005960.png</itemIcon>
+	<itemDesc>A material used for Crafting equipment.\nIt can be Excavated at Bernianto Farm and Rhua Tree Stub.</itemDesc>
+	<node region="Bernianto Farm - Excavation"/>
+	<node region="Rhua Tree Stub - Excavation"/>
+	<makelist>
+		<item>
+			<id>14022</id>
+			<name>Silver Embroidered Gatherer&apos;s Clothes</name>
+			<icon>00014048.png</icon>
+			<desc>A noble outfit made for Gatherers.</desc>
+		</item>
+		<item>
+			<id>14028</id>
+			<name>Silver Embroidered Farmer&apos;s Clothes</name>
+			<icon>00014028.png</icon>
+			<desc>A noble outfit made for farmers.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

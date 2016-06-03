@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5961</itemKey>
+	<itemName>Trace de violence</itemName>
+	<itemIcon>00005961.png</itemIcon>
+	<itemDesc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait dans la forêt des manshas.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10012</id>
+			<name>Épée longue de Kalis</name>
+			<icon>00010012.png</icon>
+			<desc>Une épée longue fabriquée pour développer son potentiel maximum.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10212</id>
+			<name>Arc long de Kalis</name>
+			<icon>00010212.png</icon>
+			<desc>Un arc long conçu pour développer son potentiel maximum.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10412</id>
+			<name>Amulette de Kalis</name>
+			<icon>00010412.png</icon>
+			<desc>Une amulette conçue pour développer son potentiel maximum.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10612</id>
+			<name>Hache de Kalis</name>
+			<icon>00010612.png</icon>
+			<desc>Une hache conçue pour développer son potentiel maximum.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13212</id>
+			<name>Épée courte de Kalis</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte conçue pour développer son potentiel maximum.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14412</id>
+			<name>Bâton de Kalis</name>
+			<icon>00014412.png</icon>
+			<desc>Un bâton conçu pour développer son potentiel maximum.</desc>
+		</item>
+	</manufacture>
+	<node region="Forêt des manshas : excavation"/>
+	<makelist>
+		<item>
+			<id>13235</id>
+			<name>Épée courte de Kalis ultime</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte de Kalis qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée courte de Kalis.\n\n- Rétablir la durabilité maximale : épée courte de Kalis de la flamme pourpre, épée courte de Kalis de destruction, épée courte de Kalis de tentation, épée courte de Kalis</desc>
+		</item>
+		<item>
+			<id>13234</id>
+			<name>Épée courte de Kalis de tentation</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Kalis renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée courte de Kalis.\n\n- Rétablir la durabilité maximale : épée courte de Kalis de tentation, épée courte de Kalis</desc>
+		</item>
+		<item>
+			<id>13233</id>
+			<name>Épée courte de Kalis de destruction</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Kalis renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée courte de Kalis.\n\n- Rétablir la durabilité maximale : épée courte de Kalis de destruction, épée courte de Kalis</desc>
+		</item>
+		<item>
+			<id>13232</id>
+			<name>Épée courte de Kalis de la flamme pourpre</name>
+			<icon>00013207.png</icon>
+			<desc>Cette épée courte de Kalis renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée courte de Kalis.\n\n- Rétablir la durabilité maximale : épée courte de Kalis de la flamme pourpre, épée courte de Kalis</desc>
+		</item>
+		<item>
+			<id>13212</id>
+			<name>Épée courte de Kalis</name>
+			<icon>00013207.png</icon>
+			<desc>Une épée courte conçue pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>10435</id>
+			<name>Amulette de Kalis ultime</name>
+			<icon>00010412.png</icon>
+			<desc>Une amulette de Kalis qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une amulette de Kalis.\n\n- Rétablir la durabilité maximale : amulette de Kalis de la flamme pourpre, amulette de Kalis de destruction, amulette de Kalis de tentation, amulette de Kalis</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Amulette de Kalis de tentation</name>
+			<icon>00010412.png</icon>
+			<desc>Cette amulette de Kalis renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une amulette de Kalis.\n\n- Rétablir la durabilité maximale : amulette de Kalis de tentation, amulette de Kalis</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Amulette de Kalis de destruction</name>
+			<icon>00010412.png</icon>
+			<desc>Cette amulette de Kalis renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une amulette de Kalis.\n\n- Rétablir la durabilité maximale : amulette de Kalis de destruction, amulette de Kalis</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Amulette de Kalis de la flamme pourpre</name>
+			<icon>00010412.png</icon>
+			<desc>Cette amulette de Kalis renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de Kalis.\n\n- Rétablir la durabilité maximale : amulette de Kalis de la flamme pourpre, amulette de Kalis</desc>
+		</item>
+		<item>
+			<id>10635</id>
+			<name>Hache de Kalis ultime</name>
+			<icon>00010612.png</icon>
+			<desc>Une hache de Kalis qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une hache de Kalis.\n\n- Rétablir la durabilité maximale : hache de Kalis de la flamme pourpre, hache de Kalis de destruction, hache de Kalis de tentation, hache de Kalis</desc>
+		</item>
+		<item>
+			<id>10634</id>
+			<name>Hache de Kalis de tentation</name>
+			<icon>00010612.png</icon>
+			<desc>Cette hache de Kalis renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une hache de Kalis.\n\n- Rétablir la durabilité maximale : hache de Kalis de tentation, hache de Kalis</desc>
+		</item>
+		<item>
+			<id>10633</id>
+			<name>Hache de Kalis de destruction</name>
+			<icon>00010612.png</icon>
+			<desc>Cette hache de Kalis renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une hache de Kalis.\n\n- Rétablir la durabilité maximale : hache de Kalis de destruction, hache de Kalis</desc>
+		</item>
+		<item>
+			<id>10632</id>
+			<name>Hache de Kalis de la flamme pourpre</name>
+			<icon>00010612.png</icon>
+			<desc>Cette hache de Kalis renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache de Kalis.\n\n- Rétablir la durabilité maximale : hache de Kalis de la flamme pourpre, hache de Kalis</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Amulette de Kalis</name>
+			<icon>00010412.png</icon>
+			<desc>Une amulette conçue pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>10612</id>
+			<name>Hache de Kalis</name>
+			<icon>00010612.png</icon>
+			<desc>Une hache conçue pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Bâton de Kalis</name>
+			<icon>00014412.png</icon>
+			<desc>Un bâton conçu pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Bâton de Kalis ultime</name>
+			<icon>00014412.png</icon>
+			<desc>Un bâton de Kalis ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de la flamme pourpre, bâton de Kalis de destruction, bâton de Kalis de tentation, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Bâton de Kalis de tentation</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de tentation, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Bâton de Kalis de destruction</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de destruction, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Bâton de Kalis de la flamme pourpre</name>
+			<icon>00014412.png</icon>
+			<desc>Ce bâton de Kalis renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Kalis.\n\n- Rétablir la durabilité maximale : bâton de Kalis de la flamme pourpre, bâton de Kalis</desc>
+		</item>
+		<item>
+			<id>10235</id>
+			<name>Arc long de Kalis ultime</name>
+			<icon>00010212.png</icon>
+			<desc>Un arc long de Kalis qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de la flamme pourpre, arc long de Kalis de destruction, arc long de Kalis de tentation, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10234</id>
+			<name>Arc long de Kalis de tentation</name>
+			<icon>00010212.png</icon>
+			<desc>Cet arc long de Kalis renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de tentation, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10233</id>
+			<name>Arc long de Kalis de destruction</name>
+			<icon>00010212.png</icon>
+			<desc>Cet arc long de Kalis renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de destruction, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10232</id>
+			<name>Arc long de Kalis de la flamme pourpre</name>
+			<icon>00010212.png</icon>
+			<desc>Cet arc long de Kalis renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de Kalis.\n\n- Rétablir la durabilité maximale : arc long de Kalis de la flamme pourpre, arc long de Kalis</desc>
+		</item>
+		<item>
+			<id>10212</id>
+			<name>Arc long de Kalis</name>
+			<icon>00010212.png</icon>
+			<desc>Un arc long conçu pour développer son potentiel maximum.</desc>
+		</item>
+		<item>
+			<id>10035</id>
+			<name>Épée longue de Kalis ultime</name>
+			<icon>00010012.png</icon>
+			<desc>Une épée longue de Kalis qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée longue de Kalis.\n\n- Rétablir la durabilité maximale : épée longue de Kalis de la flamme pourpre, épée longue de Kalis de destruction, épée longue de Kalis de tentation, épée longue de Kalis</desc>
+		</item>
+		<item>
+			<id>10034</id>
+			<name>Épée longue de Kalis de tentation</name>
+			<icon>00010012.png</icon>
+			<desc>Cette épée longue de Kalis renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée longue de Kalis.\n\n- Rétablir la durabilité maximale : épée longue de Kalis de tentation, épée longue de Kalis</desc>
+		</item>
+		<item>
+			<id>10033</id>
+			<name>Épée longue de Kalis de destruction</name>
+			<icon>00010012.png</icon>
+			<desc>Cette épée longue de Kalis renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée longue de Kalis.\n\n- Rétablir la durabilité maximale : épée longue de Kalis de destruction, épée longue de Kalis</desc>
+		</item>
+		<item>
+			<id>10032</id>
+			<name>Épée longue de Kalis de la flamme pourpre</name>
+			<icon>00010012.png</icon>
+			<desc>Cette épée longue de Kalis renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée longue de Kalis.\n\n- Rétablir la durabilité maximale : épée longue de Kalis de la flamme pourpre, épée longue de Kalis</desc>
+		</item>
+		<item>
+			<id>10012</id>
+			<name>Épée longue de Kalis</name>
+			<icon>00010012.png</icon>
+			<desc>Une épée longue fabriquée pour développer son potentiel maximum.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

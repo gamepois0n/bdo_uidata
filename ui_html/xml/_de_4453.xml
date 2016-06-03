@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4453</itemKey>
+	<itemName>Blutrubin</itemName>
+	<itemIcon>00004453.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Glänzenden Rubinen mit durch Alchemie gewonnene Edelsteinpolitur gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>4452</id>
+			<name>Glänzender Rubin</name>
+			<icon>00004452.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Rohrubin gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4481</id>
+			<name>Edelsteinpolitur</name>
+			<icon>00004481.png</icon>
+			<desc>Ein Material, das genutzt wird, um Glänzende Edelsteine durch Verarbeitung in hochwertigere Edelsteine zu verwandeln.\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11905</id>
+			<name>Verderbte Rubinohrringe</name>
+			<icon>00011905.png</icon>
+			<desc>Ein mit einem Rubin der Verderbnis verzierter Ohrring.</desc>
+		</item>
+		<item>
+			<id>11705</id>
+			<name>Verderbte Rubinhalskette</name>
+			<icon>00011705.png</icon>
+			<desc>Eine mit einem Rubin der Verderbnis verzierte Halskette.</desc>
+		</item>
+		<item>
+			<id>12105</id>
+			<name>Verderbter Rubinring</name>
+			<icon>00012105.png</icon>
+			<desc>Ein mit einem Rubin der Verderbnis verzierter Ring.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

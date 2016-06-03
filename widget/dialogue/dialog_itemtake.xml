@@ -1,0 +1,51 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Dialogue_Itemtake" Pos="Right Center" Size="276 500" Pan="250 -100" Color="ffffffff" EnableArea="0 0 276 500" Grid="1" GridPosX="0 0 276 276" GridPosY="0 190 417 500" GridUVX="0 0 276 276" GridUVY="0 190 310 393" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="1 1 277 1 1 394 277 394" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 310 320"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="200 26" Pan="0 7" Color="ffffffff" EnableArea="0 0 200 26">
+			<Attribute Type="Ignore"/>
+			<Text Value="공헌도 아이템 대여" formatString="DIALOG_ITEMTAKE_STCTXT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Itemicon" Pos="Center Top" Size="56 56" Pan="-1 57" Color="ffffffff" EnableArea="0 0 56 56">
+			<Texture Type="Base" UV="103 176 153 176 103 226 153 226" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Yes" Pos="Center Bottom" Size="108 25" Pan="-60 50" Color="ffffffff" EnableArea="0 0 108 25" Grid="1" GridPosX="0 4 104 108" GridPosY="0 4 21 25" GridUVX="0 4 25 29" GridUVY="0 4 25 29" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="확 인" formatString="DIALOG_ITEMTAKE_BTN_YES" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_No" Pos="Center Bottom" Size="108 25" Pan="60 50" Color="ffffffff" EnableArea="0 0 108 25" Grid="1" GridPosX="0 4 104 108" GridPosY="0 4 21 25" GridUVX="0 4 25 29" GridUVY="0 4 25 29" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="DIALOG_ITEMTAKE_BTN_NO" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Comment" Pos="Center Center" Size="200 20" Pan="0 45" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="공헌도가 소모됩니다\n아이템을 받겠습니까?" Font="BaseFont_8_Bold" Color="ffbf6464" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Itemname" Pos="Center Center" Size="150 30" Pan="0 -40" Color="ffffffff" EnableArea="0 0 150 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="블랙스톤 방어구" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NeedContribution" Pos="Center Center" Size="120 30" Pan="0 -5" Color="ffffffff" EnableArea="0 0 120 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="필요 공헌도 : 300" Font="BaseFont_10" Color="ffdcd489" OverColor="ffdcd489" ClickColor="ffdcd489" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_MyContribution" Pos="Center Center" Size="120 30" Pan="0 15" Color="ffffffff" EnableArea="0 0 120 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="나의 공헌도 : 50" Font="BaseFont_10" Color="ffdcd489" OverColor="ffdcd489" ClickColor="ffdcd489" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_territorymark" Pos="Center Top" Size="50 59" Pan="-1 126" Color="ffffffff" EnableArea="0 0 50 59">
+			<Texture Type="Base" UV="278 1 328 1 278 60 328 60" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_helpMsg" Pos="Center Bottom" Size="260 95" Pan="0 93" Color="ffffffff" EnableArea="0 0 260 95">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이템 대여 : 자신의 공헌도를 소모하여 전투에 도움이 되는 아이템을 NPC를 통해 직접 대여할 수 있다. 차후 반납 NPC에게 아이템을 반납하여 해당되는 공헌도를 다시 돌려받을 수 있다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

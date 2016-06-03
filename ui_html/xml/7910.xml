@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7910</itemKey>
+	<itemName>Raccoon Meat</itemName>
+	<itemIcon>00007910.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a raccoon corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Brown Raccoon</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7919</id>
+			<name>Well-Dried Jerky</name>
+			<icon>00007919.png</icon>
+			<desc>A dried meat snack useful for long journeys.\n- How to Obtain: It can be obtained by Drying Butchered Meat.\n- It increases HP slightly when used.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

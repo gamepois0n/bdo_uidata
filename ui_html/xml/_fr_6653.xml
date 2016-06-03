@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6653</itemKey>
+	<itemName>Bouteille d&apos;eau du fleuve</itemName>
+	<itemIcon>00006653.png</itemIcon>
+	<itemDesc>Une bouteille vide qui a été remplie d&apos;eau de rivière. Il est possible de modifier ses propriétés ou de l&apos;utiliser comme ingrédient en artisanat.\n- Obtention : cette eau peut être obtenue en utilisant une bouteille vide près d&apos;une rivière.\n\n※ Utiliser de l&apos;eau de rivière sur un jardin augmentera la quantité d&apos;eau du réservoir.</itemDesc>
+	<makelist>
+		<item>
+			<id>4902</id>
+			<name>Or alluvial</name>
+			<icon>00004902.png</icon>
+			<desc>Un ingrédient rare obtenu dans de l&apos;eau du fleuve qui peut être chauffée pour créer de l&apos;or.\n- Obtention : s&apos;obtient en affinant une bouteille d&apos;eau du fleuve.</desc>
+		</item>
+		<item>
+			<id>6651</id>
+			<name>Eau distillée</name>
+			<icon>00006651.png</icon>
+			<desc>De l&apos;eau claire qui a été distillée.\n- Obtention : peut être obtenue en chauffant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau distillée sur un jardin augmentera de façon importante la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>6656</id>
+			<name>Eau purifiée</name>
+			<icon>00006656.png</icon>
+			<desc>Eau filtrée pour supprimer les impuretés.\n- Obtention : cette eau peut être obtenue en filtrant une bouteille d&apos;eau de rivière.\n\n※ Utiliser de l&apos;eau purifiée sur un jardin augmentera fortement la quantité d&apos;eau du réservoir.</desc>
+		</item>
+		<item>
+			<id>16911</id>
+			<name>Cours d&apos;eau</name>
+			<icon>00016911.png</icon>
+			<desc>Installer un cours d&apos;eau dans un jardin réduit la consommation d&apos;eau.\n(Effectuez un clic droit pour afficher le marché de barrières le plus proche.)</desc>
+		</item>
+		<item>
+			<id>16903</id>
+			<name>Engrais organique</name>
+			<icon>00016901.png</icon>
+			<desc>Augmente la croissance des cultures alentours. Utiliser un engrais à proximité d&apos;un jardin réduit le temps de pousse des cultures.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6173</itemKey>
+	<itemName>Plume légère ultime</itemName>
+	<itemIcon>00006173.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des plumes légères distinguées et du revêtement de cuir, un ingrédient préparé par alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>6165</id>
+			<name>Plume légère délicate</name>
+			<icon>00006165.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en affinant des plumes légères.</desc>
+		</item>
+		<item>
+			<id>6183</id>
+			<name>Revêtement de cuir</name>
+			<icon>00006183.png</icon>
+			<desc>Matériau utilisé pour renforcer le cuir, la fourrure, et les plumes grâce à la transformation.\n\n- Obtention : s&apos;obtient grâce à l&apos;alchimie.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9063</itemKey>
+	<itemName>Butter</itemName>
+	<itemIcon>00009063.png</itemIcon>
+	<itemDesc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Salz und Sahne aus geschüttelter Milch hergestellt werden.\n\n– Verwendung: Käsekuchen, In Butter gebratene Meeresfrüchte etc.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>9001</id>
+			<name>Salz</name>
+			<icon>00009001.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9061</id>
+			<name>Sahne</name>
+			<icon>00009061.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann durch Schütteln von Zucker und der Milch aus einer Hof-Quest hergestellt werden.\n\n– Verwendung: Obstkuchen, Fischsuppe etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

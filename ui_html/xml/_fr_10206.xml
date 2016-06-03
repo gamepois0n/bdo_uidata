@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>10206</itemKey>
+	<itemName>Arc long de semi-homme</itemName>
+	<itemIcon>00010206.png</itemIcon>
+	<itemDesc>Un arc long conçu pour combattre les menaces contre l&apos;humanité.</itemDesc>
+	<shop>
+		<character>
+			<name>Ornella</name>
+		</character>
+	</shop>
+	<house type="7">
+		<item>
+			<id>4602</id>
+			<name>Bois d&apos;érable</name>
+			<icon>00004602.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la forêt de la Solitude, les ruines du Château, le monastère sanglant, la plaine Nord de Serendia et les hautes terres de Mediah Nord. S&apos;obtient également en débitant des érables.</desc>
+		</item>
+		<item>
+			<id>4062</id>
+			<name>Cristal d&apos;étain pur</name>
+			<icon>00004062.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots d&apos;étain. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>6160</id>
+			<name>Peau résistante délicate</name>
+			<icon>00006160.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de rhino, de cochon ou de vache. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Trace de sauvagerie</name>
+			<icon>00005956.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site des ruines de la ferme Lynch.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>10206</id>
+			<name>Arc long de semi-homme</name>
+			<icon>00010206.png</icon>
+			<desc>Un arc long conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10227</id>
+			<name>Arc long de semi-homme ultime</name>
+			<icon>00010206.png</icon>
+			<desc>Un arc long de semi-homme qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de la flamme pourpre, arc long de semi-homme de destruction, arc long de semi-homme de tentation, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Arc long de semi-homme de tentation</name>
+			<icon>00010206.png</icon>
+			<desc>Cet arc long de semi-homme renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de tentation, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Arc long de semi-homme de destruction</name>
+			<icon>00010206.png</icon>
+			<desc>Cet arc long de semi-homme renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de destruction, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Arc long de semi-homme de la flamme pourpre</name>
+			<icon>00010206.png</icon>
+			<desc>Cet arc long de semi-homme renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de la flamme pourpre, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Arc long de semi-homme</name>
+			<icon>00010206.png</icon>
+			<desc>Un arc long conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>4062</id>
+			<name>Cristal d&apos;étain pur</name>
+			<icon>00004062.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots d&apos;étain. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Trace de sauvagerie</name>
+			<icon>00005956.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site des ruines de la ferme Lynch.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

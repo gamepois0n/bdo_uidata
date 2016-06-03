@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9435</itemKey>
+	<itemName>Top Grade Lean Meat Salad</itemName>
+	<itemIcon>00009435.png</itemIcon>
+	<itemDesc>Fresh salad with quality meat. \n- Unique effect: All Damage Reduction +3 for 110min\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30min</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Vinegar</name>
+			<icon>00009066.png</icon>
+			<desc>A sour liquid made of fermented grains and fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit and Vegetable Salad, Pickled Vegetables, etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Pork</name>
+			<icon>00007905.png</icon>
+			<desc>A natural resource obtained through Gathering that can be used in Cooking.\n- How to Obtain: It can be obtained by Butchering a pig corpse.\n\n- Usage: Steak, Meat Stew, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Vinegar</name>
+			<icon>00009066.png</icon>
+			<desc>A sour liquid made of fermented grains and fruits.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Fruit and Vegetable Salad, Pickled Vegetables, etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pepper</name>
+			<icon>00007301.png</icon>
+			<desc>This Cooking ingredient can be obtained by Farming.\nUsage: Grilled Sausage, Seafood Pasta, Meat Soup, etc.\n- How to Obtain: It can be obtained by Farming Pepper Seeds in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Dressing</name>
+			<icon>00009006.png</icon>
+			<desc>A sauce with soft flavor and texture.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Seafood Mushroom Salad, Fish Filet Salad, etc. </desc>
+		</item>
+	</cook>
+</itemInfo>
+

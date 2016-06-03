@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5202</itemKey>
+	<itemName>Essence de la flamme pourpre</itemName>
+	<itemIcon>00005202.png</itemIcon>
+	<itemDesc>Essence extraite d&apos;un fruit de la flamme pourpre pouvant être parfois obtenu dans un jardin. Utilisé en tant qu&apos;ingrédient en alchimie.\n- Obtention : s&apos;obtient en combinant certains ingrédients avec un fruit de la flamme pourpre en alchimie.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5201</id>
+			<name>Fruit de la flamme pourpre</name>
+			<icon>00005201.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5201</id>
+			<name>Fruit de la flamme pourpre</name>
+			<icon>00005201.png</icon>
+			<desc>Un ingrédient utilisé en alchimie pouvant être obtenu par culture. Il peut être utilisé directement ou bien après avoir été raffiné en essence.\n- Obtention : faible probabilité d&apos;en obtenir en cultivant un jardin.</desc>
+		</item>
+		<item>
+			<id>5001</id>
+			<name>Sève de frêne</name>
+			<icon>00005001.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un frêne.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Trace d&apos;ascension</name>
+			<icon>00005955.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site de l&apos;ancienne salle de pierre.</desc>
+		</item>
+		<item>
+			<id>5409</id>
+			<name>Champignon nain</name>
+			<icon>00005409.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en alchimie et en cuisine.\n- Obtention : produit à Cienaga Nord. Les champignons nains peuvent être récoltés avec les mains ou bien une houe.\n\n※ Consommer cet objet cru confère un effet positif spécial, mais peut également vous empoisonner !</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

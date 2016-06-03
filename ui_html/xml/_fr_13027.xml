@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>13027</itemKey>
+	<itemName>Colifichet de Krea de destruction</itemName>
+	<itemIcon>00010724.png</itemIcon>
+	<itemDesc>Ce colifichet de Krea renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet de Krea de destruction, colifichet de Krea</itemDesc>
+	<house type="6">
+		<item>
+			<id>4066</id>
+			<name>Lingot de laiton</name>
+			<icon>00004066.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre et de zinc. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4253</id>
+			<name>Cristal d&apos;argent pur</name>
+			<icon>00004253.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots d&apos;argent. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5853</id>
+			<name>Fil de soie</name>
+			<icon>00005853.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant des cocons de vers à soie.</desc>
+		</item>
+		<item>
+			<id>4803</id>
+			<name>Poudre de fissure</name>
+			<icon>00004803.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>13024</id>
+			<name>Colifichet de Krea</name>
+			<icon>00010724.png</icon>
+			<desc>Un colifichet conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>13028</id>
+			<name>Colifichet de Krea de tentation</name>
+			<icon>00010724.png</icon>
+			<desc>Ce colifichet de Krea renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet de Krea de tentation, colifichet de Krea</desc>
+		</item>
+		<item>
+			<id>13027</id>
+			<name>Colifichet de Krea de destruction</name>
+			<icon>00010724.png</icon>
+			<desc>Ce colifichet de Krea renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet de Krea de destruction, colifichet de Krea</desc>
+		</item>
+		<item>
+			<id>13026</id>
+			<name>Colifichet de Krea de la flamme pourpre</name>
+			<icon>00010724.png</icon>
+			<desc>Ce colifichet de Krea renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet de Krea de la flamme pourpre, colifichet de Krea</desc>
+		</item>
+		<item>
+			<id>13024</id>
+			<name>Colifichet de Krea</name>
+			<icon>00010724.png</icon>
+			<desc>Un colifichet conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>13031</id>
+			<name>Colifichet de Krea ultime</name>
+			<icon>00010724.png</icon>
+			<desc>Un colifichet de Krea qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet de Krea de la flamme pourpre, colifichet de Krea de destruction, colifichet de Krea de tentation, colifichet de Krea</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

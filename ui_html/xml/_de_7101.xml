@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7101</itemKey>
+	<itemName>Weizenmehl</itemName>
+	<itemIcon>00007101.png</itemIcon>
+	<itemDesc>Ein feines Pulver, das durch Mahlen hergestellt wird.\n– Gewinnung: Kann durch das Mahlen von Weizen gewonnen werden.\n\n– Verwendung: Liköressenz, Fleischeintopf, Haferbrei etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7001</id>
+			<name>Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Diese Kochzutat kann durch verschiedene Methoden gewonnen werden.\n– Gewinnung: Kann produziert werden bei Hof Costa, Moretti-Plantage und Nördlichem Getreidehof. Kann ebenfalls durch Anbau von Weizensamen im Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe, Essig etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7006</id>
+			<name>Hochwertiger Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau im Garten gewonnen werden kann.\n– Gewinnung: Die Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7011</id>
+			<name>Besonderer Weizen</name>
+			<icon>00007001.png</icon>
+			<desc>Eine Kochzutat, die durch Anbau im Garten gewonnen werden kann.\n– Gewinnung: Die Samen können durch Pflanzenzucht in einem Garten gewonnen werden.\n\n– Verwendung: Bier, Feldsuppe etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>7201</id>
+			<name>Weizenteig</name>
+			<icon>00007201.png</icon>
+			<desc>Wird durch Schütteln von durch Mahlen gewonnenem Weizenmehl und gekauftem Mineralwasser hergestellt.\n Gewinnung: Kann mithilfe von Schütteln gewonnen werden.\n\n– Verwendung: Exotischer Kräuterwein, Milchbrot, Fleischpasta etc.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

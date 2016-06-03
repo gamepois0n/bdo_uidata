@@ -1,0 +1,21 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Masking_Tutorial" Pos="0 0" Size="1 1" Pan="0 0" Color="ffffffff" EnableArea="0 0 1 1">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Static_MaskBg_Quest" Pos="0 0" Size="272 272" Pan="0 0" Color="ffffffff" EnableArea="0 0 272 272" Grid="1" GridPosX="-3000 1 271 3000" GridPosY="-1500 1 271 1500" GridUVX="0 1 271 272" GridUVY="0 1 272 272" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 272 0 0 272 272 272" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_mask_01.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_MaskBg_SelfExpGauge" Pos="-263 0" Size="528 260" Pan="0 0" Color="ffffffff" EnableArea="0 0 528 260" Grid="1" GridPosX="-200 1 527 3000" GridPosY="-100 1 259 2000" GridUVX="0 1 526 528" GridUVY="0 0 260 260" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 528 0 0 260 528 260" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_mask_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_MaskBg_Spirit" Pos="0 0" Size="528 197" Pan="0 0" Color="ffffffff" EnableArea="0 0 528 197" Grid="1" GridPosX="-4000 1 527 600" GridPosY="-2500 1 197 300" GridUVX="0 1 526 528" GridUVY="1 1 197 197" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 528 0 0 197 528 197" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tutorial/tutorial_mask_02.dds</Texture>
+		</Control>
+	</Control>
+</UI>
+

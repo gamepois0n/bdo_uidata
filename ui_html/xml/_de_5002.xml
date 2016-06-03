@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5002</itemKey>
+	<itemName>Ahornsaft</itemName>
+	<itemIcon>00005002.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einem Ahorn erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Ahorn</name>
+		</character>
+	</collect>
+	<node region="Schlossruinen – Holzfällen"/>
+	<node region="Nördliches Hochland von Mediah – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>14439</id>
+			<name>Ultimativer Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein maximal aufgerüsteter Baris-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab der Zerstörung, Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Baris-Stab der Versuchung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Versuchung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein zu höchster Perfektion geschmiedeter Stab.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Baris-Stab</name>
+			<icon>00014413.png</icon>
+			<desc>Ein Stab, der von Hass auf jegliches Leben erfüllt ist.</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Baris-Stab der Zerstörung</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Zerstörung, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Baris-Stab der Purpurnen Flamme</name>
+			<icon>00014413.png</icon>
+			<desc>Dieser Baris-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Baris-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Baris-Stab der Purpurnen Flamme, Baris-Stab</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Ultimativer Kalis-Stab</name>
+			<icon>00014412.png</icon>
+			<desc>Ein maximal aufgerüsteter Kalis-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab der Zerstörung, Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis-Stab der Versuchung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Versuchung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis-Stab der Zerstörung</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Zerstörung, Kalis-Stab</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis-Zauberstab der Purpurnen Flamme</name>
+			<icon>00014412.png</icon>
+			<desc>Dieser Kalis-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Kalis-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Kalis-Stab der Purpurnen Flamme, Kalis-Stab</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

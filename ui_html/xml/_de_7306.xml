@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7306</itemKey>
+	<itemName>Kürbis</itemName>
+	<itemIcon>00007306.png</itemIcon>
+	<itemDesc>Eine Kochzutat, die durch Anbau gewonnen wird.\n– Gewinnung: Kann gewonnen werden durch Anbau von Kürbissamen in einem Garten oder durch Sammeln von Kürbissen mithilfe einer Hacke oder mit bloßen Händen.\n– Verwendung: Gemüsepfanne, Frittiertes Gemüse etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</itemDesc>
+	<collect>
+		<character>
+			<name>Kürbis</name>
+		</character>
+	</collect>
+	<node region="Hof Alejandro – Kürbisanbau"/>
+	<node region="Hof Costa – Kürbisanbau"/>
+	<makelist>
+		<item>
+			<id>7406</id>
+			<name>Kürbiskiste</name>
+			<icon>00007406.png</icon>
+			<desc>Feldfrüchte, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

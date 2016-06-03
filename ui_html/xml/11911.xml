@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11911</itemKey>
+	<itemName>Topaz Earrings</itemName>
+	<itemIcon>00011911.png</itemIcon>
+	<itemDesc>An earring decorated with a Topaz.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4001</id>
+			<name>Iron Ore</name>
+			<icon>00004001.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be Produced at Coastal Cave, Coastal Cliff, Northern Heidel Quarry, Southern Cienaga, Hexe Stone Wall, and Abandoned Iron Mine. It can be directly obtained from Ore containing Iron.</desc>
+		</item>
+		<item>
+			<id>4403</id>
+			<name>Rough Topaz</name>
+			<icon>00004403.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Topaz Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11912</id>
+			<name>Resplendent Topaz Earrings</name>
+			<icon>00011912.png</icon>
+			<desc>An earring decorated with a Resplendent Topaz.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

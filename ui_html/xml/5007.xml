@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5007</itemKey>
+	<itemName>Monk&apos;s Branch</itemName>
+	<itemIcon>00005007.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Monk&apos;s Branch requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ash Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cedar Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fir</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Maple</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pine Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>White Cedar</name>
+		</character>
+	</collect>
+	<node region="Forest of Seclusion - Lumbering"/>
+	<node region="Serendia Shrine - Lumbering"/>
+	<node region="Oze Pass - Lumbering"/>
+	<makelist>
+		<item>
+			<id>16165</id>
+			<name>Mediah Fishing Rod</name>
+			<icon>00016165.png</icon>
+			<desc>Ash tree float. It shortens the auto-fishing time.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16164</id>
+			<name>Calpheon Fishing Rod</name>
+			<icon>00016164.png</icon>
+			<desc>Calpheon fishing rod. ...And it was super effective!\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>16163</id>
+			<name>Epheria Fishing Rod</name>
+			<icon>00016163.png</icon>
+			<desc>Epheria fishing rod. It is sturdier than other rods.\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>14414</id>
+			<name>Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A staff possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Bares Staff</name>
+			<icon>00014413.png</icon>
+			<desc>A staff possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>14456</id>
+			<name>Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A staff crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>A staff custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>14431</id>
+			<name>Ultimate Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A Seleth staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Seleth staff.\n\n- Restore Max Durability: Seleth Staff of Crimson Flame, Seleth Staff of Destruction, Seleth Staff of Temptation, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14430</id>
+			<name>Seleth Staff of Temptation</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Temptation is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Temptation, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14429</id>
+			<name>Seleth Staff of Destruction</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Destruction is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Destruction, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14428</id>
+			<name>Seleth Staff of Crimson Flame</name>
+			<icon>00014407.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Seleth Staff.\nIt can be developed by Refining a common Seleth Staff.\n\n- Repair to Max. Durability: Seleth Staff of Crimson Flame, Seleth Staff</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Ultimate Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A Demihuman staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Demihuman staff.\n\n- Restore Max Durability: Demihuman Staff of Crimson Flame, Demihuman Staff of Destruction, Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Demihuman Staff of Temptation</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Temptation, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Demihuman Staff of Destruction</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Destruction, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Demihuman Staff of Crimson Flame</name>
+			<icon>00014406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Staff.\nIt can be developed by Refining a common Demihuman Staff.\n\n- Repair to Max. Durability: Demihuman Staff of Crimson Flame, Demihuman Staff</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Ultimate Azwell Staff</name>
+			<icon>00014405.png</icon>
+			<desc>An Azwell staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Azwell staff.\n\n- Restore Max Durability: Azwell Staff of Crimson Flame, Azwell Staff of Destruction, Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Azwell Staff of Temptation</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Temptation, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Azwell Staff of Destruction</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Destruction, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Azwell Staff of Crimson Flame</name>
+			<icon>00014405.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Staff.\nIt can be developed by Refining a common Azwell Staff.\n\n- Repair to Max. Durability: Azwell Staff of Crimson Flame, Azwell Staff</desc>
+		</item>
+		<item>
+			<id>16162</id>
+			<name>Balenos Fishing Rod</name>
+			<icon>00016162.png</icon>
+			<desc>Balenos fishing rod. It shortens the auto-fishing time.\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>14463</id>
+			<name>Ultimate Krea Staff</name>
+			<icon>00014456.png</icon>
+			<desc>A Krea staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Krea staff.\n\n- Restore Max Durability: Krea Staff of Crimson Flame, Krea Staff of Destruction, Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14460</id>
+			<name>Krea Staff of Temptation</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Temptation, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14459</id>
+			<name>Krea Staff of Destruction</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Destruction, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14458</id>
+			<name>Krea Staff of Crimson Flame</name>
+			<icon>00014456.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Staff.\nIt can be developed by Refining a common Krea Staff.\n\n- Repair to Max. Durability: Krea Staff of Crimson Flame, Krea Staff</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Bares Staff of Destruction</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Destruction, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Bares Staff of Crimson Flame</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Crimson Flame, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14435</id>
+			<name>Ultimate Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A Kalis staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Kalis staff.\n\n- Restore Max Durability: Kalis Staff of Crimson Flame, Kalis Staff of Destruction, Kalis Staff of Temptation, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14434</id>
+			<name>Kalis Staff of Temptation</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Temptation, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14433</id>
+			<name>Kalis Staff of Destruction</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Destruction, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14432</id>
+			<name>Kalis Staff of Crimson Flame</name>
+			<icon>00014412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Staff.\nIt can be developed by Refining a common Kalis Staff.\n\n- Repair to Max. Durability: Kalis Staff of Crimson Flame, Kalis Staff</desc>
+		</item>
+		<item>
+			<id>14443</id>
+			<name>Ultimate Yuria Staff</name>
+			<icon>00014414.png</icon>
+			<desc>A Yuria staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Yuria staff.\n\n- Restore Max Durability: Yuria Staff of Crimson Flame, Yuria Staff of Destruction, Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14442</id>
+			<name>Yuria Staff of Temptation</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Temptation, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14441</id>
+			<name>Yuria Staff of Destruction</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Destruction, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14440</id>
+			<name>Yuria Staff of Crimson Flame</name>
+			<icon>00014414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Staff.\nIt can be developed by Refining a common Yuria Staff.\n\n- Repair to Max. Durability: Yuria Staff of Crimson Flame, Yuria Staff</desc>
+		</item>
+		<item>
+			<id>14439</id>
+			<name>Ultimate Bares Staff</name>
+			<icon>00014413.png</icon>
+			<desc>A Bares staff at its maximum potential.\nIt has a low chance of being crafted when upgrading a Bares staff.\n\n- Restore Max Durability: Bares Staff of Crimson Flame, Bares Staff of Destruction, Bares Staff of Temptation, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Bares Staff of Temptation</name>
+			<icon>00014413.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Staff.\nIt can be developed by Refining a common Bares Staff.\n\n- Repair to Max. Durability: Bares Staff of Temptation, Bares Staff</desc>
+		</item>
+		<item>
+			<id>14412</id>
+			<name>Kalis Staff</name>
+			<icon>00014412.png</icon>
+			<desc>A staff capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>14407</id>
+			<name>Seleth Staff</name>
+			<icon>00014407.png</icon>
+			<desc>A staff possessed with a strong hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Demihuman Staff</name>
+			<icon>00014406.png</icon>
+			<desc>A staff made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>4908</id>
+			<name>Grade 2 Weapon Reform Stone</name>
+			<icon>00004908.png</icon>
+			<desc>A material used in 2nd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

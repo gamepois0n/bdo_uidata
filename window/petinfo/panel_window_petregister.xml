@@ -1,0 +1,76 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_PetRegister" Pos="Center Center" Size="410 200" Pan="0 0" Color="ffffffff" EnableArea="0 0 410 200" Grid="1" GridPosX="0 8 402 410" GridPosY="0 8 192 200" GridUVX="0 8 175 183" GridUVY="0 8 214 222" UiConvertableType="ShowTime" UiConvertableInputMode="UiMode" ShowSound="1 0" HideSound="1 1">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Attribute Type="Drag" Area="5 3 420 30"/>
+		<Attribute Type="NotFront"/>
+		<Control Type="Static" Name="Static_PetRegisterBG" Pos="Center 36" Size="390 120" Pan="0 0" Color="ffffffff" EnableArea="0 0 390 120" Grid="1" GridPosX="0 10 380 390" GridPosY="0 10 110 120" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Static_Text_Title" Pos="Center Top" Size="400 6" Pan="0 30" Color="ffffffff" EnableArea="0 0 400 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="등록하기" formatString="PANEL_PETREGISTER_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Button" Name="Button_Yes" Pos="Center Bottom" Size="90 25" Pan="-50 10" Color="ffffffff" EnableArea="0 0 90 25" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 20 25" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="확 인" formatString="PANEL_PETREGISTER_YES" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_No" Pos="Center Bottom" Size="90 25" Pan="50 10" Color="ffffffff" EnableArea="0 0 90 25" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 20 25" GridUVX="0 5 23 28" GridUVY="0 5 23 28" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="취 소" formatString="PANEL_PETREGISTER_NO" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Edit" Name="Edit_Naming" Pos="118 62" Size="250 34" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 34" Grid="1" GridPosX="0 5 245 250" GridPosY="0 5 29 34" GridUVX="0 5 229 234" GridUVY="0 5 19 24">
+			<Texture Type="Base" UV="1 292 235 292 1 316 235 316" Ani="1 1 0.000 0">new_ui_common_forlua/widget/quest/quests_00.dds</Texture>
+			<Text Value="일이삼사오육칠팔구십" Font="BaseFont_12" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="7 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_IconBack" Pos="22 56" Size="80 80" Pan="10 35" Color="ffffffff" EnableArea="0 0 80 80" Grid="1" GridPosX="0 10 70 80" GridPosY="0 10 70 80" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Icon_Title" Pos="22 61" Size="80 20" Pan="10 42" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="236 54 251 54 236 69 251 69" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/stable_00.dds</Texture>
+			<Text Value="생김새" formatString="PANEL_PETREGISTER_ICON_TITLE" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Icon" Pos="23 71" Size="70 70" Pan="10 48" Color="ffffffff" EnableArea="0 0 70 70" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 143 0 0 143 143 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/pet/pet_cat_0002.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="18 8" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Description" Pos="119 101" Size="270 50" Pan="0 50" Color="ffffffff" EnableArea="0 0 270 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ 등록하실 펫의 이름을 입력해주세요.\n※ 애완동물의 이름은 2글자 ~ 10글자까지 허용됩니다.\n※ 숫자만으로 구성된 이름 및 특수문자 설정 불가" formatString="PANEL_PETREGISTER_DESC" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="MultilineText" Name="MultilineText_Description" Pos="146 109" Size="150 20" Pan="0 45" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="※ 등록하실 펫의 이름을 입력해주세요.\n※ 애완동물의 이름은 2글자 ~ 10글자까지 허용됩니다.\n※ 숫자만으로 구성된 이름 및 특수문자 설정 불가" formatString="PANEL_PETREGISTER_DESC" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_NamingPolicyBG" Pos="Left Center" Size="350 250" Pan="-355 0" Color="ffffffff" EnableArea="0 0 350 250" Grid="1" GridPosX="0 10 345 350" GridPosY="0 10 240 250" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 128 63 128" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NamingPolicyTitle" Pos="Left Top" Size="350 6" Pan="-355 10" Color="ffffffff" EnableArea="0 0 350 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="이름 생성 규칙" formatString="COMMON_CHARACTERCREATEPOLICY_TITLE_EN" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NamingPolicy" Pos="Left Center" Size="320 200" Pan="-340 20" Color="ffffffff" EnableArea="0 0 320 200">
+			<Attribute Type="Ignore"/>
+			<Text Value="※ Allowed characters:\nA-Z, a-z, 0-9, _ (underscore)\n\n※ Rules:\n1. Length: 3-16 characters\n2. You can't use a letter more than 2 times consecutively\n3. A maximum of 4 numbers are allowed at the end of your name\n4. Underscore (_) is allowed only once and can only occur between a minimum of 2 characters" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

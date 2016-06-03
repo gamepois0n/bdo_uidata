@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4204</itemKey>
+	<itemName>Rohopal</itemName>
+	<itemIcon>00004204.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rohopal erfordert eine gewisse Talentstufe.</itemDesc>
+	<collect>
+		<character>
+			<name>Eigentümlicher Stein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Opal</name>
+		</character>
+	</collect>
+	<node region="Küste von Mediah – Bergbau"/>
+	<makelist>
+		<item>
+			<id>4260</id>
+			<name>Polierter Opal</name>
+			<icon>00004260.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

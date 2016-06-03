@@ -1,0 +1,12 @@
+<UI>
+	<Control Type="Panel" Name="Panel_NakMessage" Pos="Center Top" Size="400 30" Pan="0 180" Color="ffffffff" EnableArea="0 0 400 30" Grid="1" GridPosX="0 0 400 400" GridPosY="0 1 29 30" GridUVX="0 0 256 256" GridUVY="0 1 25 26">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="0 95 256 95 0 121 256 121" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		<Control Type="StaticText" Name="MsgText" Pos="Center 5" Size="250 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 250 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="Message" Font="BaseFont_12" Color="ffd6effe" OverColor="ffd6effe" ClickColor="ffd6effe" AlignHorizon="Center" AlignVertical="Top" Span="0 -3"/>
+		</Control>
+	</Control>
+</UI>
+

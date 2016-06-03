@@ -1,0 +1,34 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Stamina" Pos="Center Bottom" Size="244 17" Pan="0 150" Color="ffffffff" EnableArea="0 0 244 17">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="1 3 245 3 1 20 245 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		<Control Type="Progress2" Name="StaminaBar" Pos="Center Center" Size="232 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 232 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 242 233 242 1 248 233 248" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="Center Center" Size="20 6" Pan="0 0" Color="cc000044" EnableArea="0 0 20 6">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="StaminaBar_" Pos="213 7" Size="168 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 168 6" Grid="1" GridPosX="0 3 165 168" GridPosY="0 3 3 6" GridUVX="0 3 165 168" GridUVY="0 3 8 11" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 164 169 164 1 175 169 175" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FullGauge" Pos="Center Center" Size="174 10" Pan="1 1" Color="ffffffff" EnableArea="0 0 174 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_StaminaMax" Pos="Center Center" Size="50 20" Pan="0 -1" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="150" Font="BaseFont_8_Bold" Color="ffefe4b8" OverColor="ffefe4b8" ClickColor="ffefe4b8" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CannonDesc" Pos="Right Center" Size="50 20" Pan="-60 -3" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="efffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="포 발사 거리를 잽니다" formatString="STAMINA_CANNON_DESC" Font="BaseFont" Color="f2ffeec4" OverColor="f2ffeec4" ClickColor="f2ffeec4" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

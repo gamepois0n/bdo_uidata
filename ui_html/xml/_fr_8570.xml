@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8570</itemKey>
+	<itemName>Fil d&apos;or séché</itemName>
+	<itemIcon>00008570.png</itemIcon>
+	<itemDesc>Une brème dorée obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8270</id>
+			<name>Brème dorée</name>
+			<icon>00008270.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55970</id>
+			<name>Brème dorée séchée sous vide</name>
+			<icon>00055970.png</icon>
+			<desc>Un objet de commerce contenant 10 brèmes dorées séchées.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

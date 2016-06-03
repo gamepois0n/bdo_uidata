@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5410</itemKey>
+	<itemName>Wolkenpilz</itemName>
+	<itemIcon>00005410.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Sumpf bei Glisch und in Süd-Cienaga hergestellt werden. Wolkenpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</itemDesc>
+	<collect>
+		<character>
+			<name>Wolkenpilz</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Sumpf bei Glisch – Sammeln"/>
+	<node region="Südliches Cienaga – Sammeln"/>
+	<makelist>
+		<item>
+			<id>7510</id>
+			<name>Wolkenpilzkiste</name>
+			<icon>00007510.png</icon>
+			<desc>Pilze, die verarbeitet wurden, damit sie gehandelt werden können. Kann an PAColor0xffe9bd23&gt;Händler verkauft werden.\n– Gewinnung: Kann an einer Werkbank hergestellt werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

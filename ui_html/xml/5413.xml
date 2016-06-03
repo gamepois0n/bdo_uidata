@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5413</itemKey>
+	<itemName>Emperor Mushroom</itemName>
+	<itemIcon>00005413.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: It can be Produced at Rhua Tree Stub and Glutoni Cave. Emperor Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<collect>
+		<character>
+			<name>Emperor Mushroom</name>
+		</character>
+	</collect>
+	<shop>
+		<character>
+			<name>Brandio</name>
+		</character>
+	</shop>
+	<node region="Rhua Tree Stub - Gathering"/>
+	<node region="Glutoni Cave - Gathering"/>
+	<makelist>
+		<item>
+			<id>7513</id>
+			<name>Emperor Mushroom Crate</name>
+			<icon>00007513.png</icon>
+			<desc>A mushroom that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

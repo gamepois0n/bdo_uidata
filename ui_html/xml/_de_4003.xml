@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4003</itemKey>
+	<itemName>Kupfererz</itemName>
+	<itemIcon>00004003.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Goblinhöhle, Koboldhöhle, Küstenhöhle, Wald der Abgeschiedenheit, Thermianklippe, Steinbruch von Nordheidel, Küste von Mediah. Kann aus kupferhaltigem Erz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blutstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Granit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Kupfer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Schlammstein</name>
+		</character>
+	</collect>
+	<node region="Goblinhöhle – Bergbau"/>
+	<node region="Koboldhöhle – Bergbau"/>
+	<node region="Koboldhöhle – Bergbau"/>
+	<node region="Küstenhöhle – Bergbau"/>
+	<node region="Wald der Abgeschiedenheit – Bergbau"/>
+	<node region="Thermianklippe – Bergbau"/>
+	<node region="Steinbruch von Nordheidel – Bergbau"/>
+	<node region="Küste von Mediah – Bergbau"/>
+	<makelist>
+		<item>
+			<id>55842</id>
+			<name>Kupfererzkiste</name>
+			<icon>00055842.png</icon>
+			<desc>Handelsware, die 10 Kupfererze enthält.</desc>
+		</item>
+		<item>
+			<id>4058</id>
+			<name>Kupferbarren</name>
+			<icon>00004058.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Kupfersplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4057</id>
+			<name>Geschmolzener Kupfersplitter</name>
+			<icon>00004057.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kupfererz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

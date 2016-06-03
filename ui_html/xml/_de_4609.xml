@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4609</itemKey>
+	<itemName>Akazienholz</itemName>
+	<itemIcon>00004609.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Steinschweif-Ödland hergestellt werden. Kann außerdem durch Fällen von Akazien erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Akazie</name>
+		</character>
+	</collect>
+	<node region="Steinschweif-Ödland – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>53406</id>
+			<name>Rad für Händlerwagen</name>
+			<icon>00053406.png</icon>
+			<desc>Ein Rad für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53606</id>
+			<name>Flagge für Händlerwagen</name>
+			<icon>00053606.png</icon>
+			<desc>Eine Flagge für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55837</id>
+			<name>Akazienholzkiste</name>
+			<icon>00055837.png</icon>
+			<desc>Handelsware, die 10 Akazienholz enthält.</desc>
+		</item>
+		<item>
+			<id>4681</id>
+			<name>Akazienschichtholz</name>
+			<icon>00004681.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Akazienholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4680</id>
+			<name>Akazienbrett</name>
+			<icon>00004680.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Akazienholz gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

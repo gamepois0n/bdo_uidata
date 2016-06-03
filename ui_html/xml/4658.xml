@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4658</itemKey>
+	<itemName>Pine Plywood</itemName>
+	<itemIcon>00004658.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Pine Timber. It requires the knowledge of Chopping: Beginner.\n\n※ Find Lebyos in Heidel and complete the Working the Ash Tree Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4603</id>
+			<name>Pine Timber</name>
+			<icon>00004603.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Serendia Shrine and Marie Cave. It can be also be obtained by Lumbering Pine Trees.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4657</id>
+			<name>Pine Plank</name>
+			<icon>00004657.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Pine Timber.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4657</id>
+			<name>Pine Plank</name>
+			<icon>00004657.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Pine Timber.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>55839</id>
+			<name>Serendia Timber Crate</name>
+			<icon>00055839.png</icon>
+			<desc>A Trade Item containing 5 Maple Plywood and 5 Pine Plywood.</desc>
+		</item>
+		<item>
+			<id>53507</id>
+			<name>Noble Wagon Cover</name>
+			<icon>00053507.png</icon>
+			<desc>A cover for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>4659</id>
+			<name>Sturdy Pine Plywood</name>
+			<icon>00004659.png</icon>
+			<desc>A processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Heating Plywood Hardener and Pine Plywood. It requires the knowledge of Heating: Skilled.\n※ Find Vatudun in Keplan and complete the Materials for Skills Quest to obtain related knowledge.\n※ In order to perform the related Quest, achieve Gathering Professional Level 10 and Processing Professional Level 5. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

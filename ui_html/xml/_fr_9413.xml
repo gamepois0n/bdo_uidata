@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9413</itemKey>
+	<itemName>Pâtes aux fruits de mer</itemName>
+	<itemIcon>00009413.png</itemIcon>
+	<itemDesc>Des pâtes à base de sauce aux fruits de mer.\n\n- Effet unique : vitesse de lancement +1 pendant 60 min.\n\n- Obtention : vous pouvez les préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Vin de cuisine</name>
+			<icon>00009017.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>7302</id>
+			<name>Ail</name>
+			<icon>00007302.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : steak, poisson à la vapeur, etc.\nObtention : s&apos;obtient en cultivant des graines d&apos;ail dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

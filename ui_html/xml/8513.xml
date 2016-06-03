@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8513</itemKey>
+	<itemName>Dried Crab</itemName>
+	<itemIcon>00008513.png</itemIcon>
+	<itemDesc>A dried crab obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8213</id>
+			<name>Crab</name>
+			<icon>00008213.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55913</id>
+			<name>Packaged Dried Crab</name>
+			<icon>00055913.png</icon>
+			<desc>A Trade Item containing 10 Dried Crab.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

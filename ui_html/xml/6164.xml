@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6164</itemKey>
+	<itemName>Fine Fancy Fur</itemName>
+	<itemIcon>00006164.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying waragon or cheetah hide. It requires the knowledge of Drying: Beginner.\n\n※ Find Techthon in Heidel and complete the Need for Soft Hide! Quest to obtain related knowledge.\n\n※ In order to perform the related Quest, achieve Gathering Level 14 or higher. Refer to the Black Spirit Guide (/key) for detailed information.</itemDesc>
+	<shop>
+		<character>
+			<name>Lavientia Batian</name>
+		</character>
+	</shop>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6015</id>
+			<name>Waragon Hide</name>
+			<icon>00006015.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted Waragon corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6016</id>
+			<name>Cheetah Dragon Hide</name>
+			<icon>00006016.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted Cheetah Dragon corpse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6156</id>
+			<name>Fancy Fur</name>
+			<icon>00006156.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Drying waragon or cheetah hide.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>14217</id>
+			<name>[Valkyrie] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14215</id>
+			<name>[Ranger] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14214</id>
+			<name>[Tamer] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14213</id>
+			<name>[Sorceress] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14212</id>
+			<name>[Berserker] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>14211</id>
+			<name>[Warrior] Garner Traveling Players Costume</name>
+			<icon>00014211.png</icon>
+			<desc>A clown costume used by the Garner Traveling Players. It has a peculiar charm to it.\n\n- Item Effect: Amity +15% from a conversation\n\n※ If you use a costume exchange coupon, you will get the same item with an additional effect of Movement Speed +2. The costume can be equipped in the same slot as a pearl costume.\n\nIf you exchange it for a costume, you cannot register it to the Item Marketplace.</desc>
+		</item>
+		<item>
+			<id>10422</id>
+			<name>Azwell Amulet of Temptation</name>
+			<icon>00010405.png</icon>
+			<desc>The energy of Temptation is contained within this Azwell Amulet.\nIt can be developed by Refining a common Azwell Amulet.\n\n- Repair to Max. Durability: Azwell Amulet of Temptation, Azwell Amulet</desc>
+		</item>
+		<item>
+			<id>10421</id>
+			<name>Azwell Amulet of Destruction</name>
+			<icon>00010405.png</icon>
+			<desc>The energy of Destruction is contained within this Azwell Amulet.\nIt can be developed by Refining a common Azwell Amulet.\n\n- Repair to Max. Durability: Azwell Amulet of Destruction, Azwell Amulet</desc>
+		</item>
+		<item>
+			<id>10420</id>
+			<name>Azwell Amulet of Crimson Flame</name>
+			<icon>00010405.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Azwell Amulet.\nIt can be developed by Refining a common Azwell Amulet.\n\n- Repair to Max. Durability: Azwell Amulet of Crimson Flame, Azwell Amulet</desc>
+		</item>
+		<item>
+			<id>10427</id>
+			<name>Ultimate Demihuman Amulet</name>
+			<icon>00010406.png</icon>
+			<desc>A Demihuman Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Crimson Flame, Demihuman Amulet of Destruction, Demihuman Amulet of Temptation, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10426</id>
+			<name>Demihuman Amulet of Temptation</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Temptation is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Temptation, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10425</id>
+			<name>Demihuman Amulet of Destruction</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Destruction is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Destruction, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10424</id>
+			<name>Demihuman Amulet of Crimson Flame</name>
+			<icon>00010406.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Demihuman Amulet.\nIt can be developed by Refining a common Demihuman Amulet.\n\n- Repair to Max. Durability: Demihuman Amulet of Crimson Flame, Demihuman Amulet</desc>
+		</item>
+		<item>
+			<id>10423</id>
+			<name>Ultimate Azwell Amulet</name>
+			<icon>00010405.png</icon>
+			<desc>An Azwell Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Azwell Amulet.\n\n- Repair to Max. Durability: Azwell Amulet of Crimson Flame, Azwell Amulet of Destruction, Azwell Amulet of Temptation, Azwell Amulet</desc>
+		</item>
+		<item>
+			<id>10406</id>
+			<name>Demihuman Amulet</name>
+			<icon>00010406.png</icon>
+			<desc>An amulet made for fighting threats to Humankind.</desc>
+		</item>
+		<item>
+			<id>10405</id>
+			<name>Azwell Amulet</name>
+			<icon>00010405.png</icon>
+			<desc>An amulet custom-made for the commander of the Militia.</desc>
+		</item>
+		<item>
+			<id>10414</id>
+			<name>Yuria Amulet</name>
+			<icon>00010414.png</icon>
+			<desc>An amulet possessed with a hatred for Humankind.</desc>
+		</item>
+		<item>
+			<id>10413</id>
+			<name>Bares Amulet</name>
+			<icon>00010413.png</icon>
+			<desc>An amulet possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>10412</id>
+			<name>Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>An amulet capable of reaching the highest potential of its kind.</desc>
+		</item>
+		<item>
+			<id>10435</id>
+			<name>Ultimate Kalis Amulet</name>
+			<icon>00010412.png</icon>
+			<desc>A Kalis Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Crimson Flame, Kalis Amulet of Destruction, Kalis Amulet of Temptation, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10434</id>
+			<name>Kalis Amulet of Temptation</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Temptation is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Temptation, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10433</id>
+			<name>Kalis Amulet of Destruction</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Destruction is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Destruction, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10432</id>
+			<name>Kalis Amulet of Crimson Flame</name>
+			<icon>00010412.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Kalis Amulet.\nIt can be developed by Refining a common Kalis Amulet.\n\n- Repair to Max. Durability: Kalis Amulet of Crimson Flame, Kalis Amulet</desc>
+		</item>
+		<item>
+			<id>10441</id>
+			<name>Yuria Amulet of Destruction</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Destruction is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Destruction, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10440</id>
+			<name>Yuria Amulet of Crimson Flame</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Crimson Flame, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10439</id>
+			<name>Ultimate Bares Amulet</name>
+			<icon>00010413.png</icon>
+			<desc>A Bares Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Crimson Flame, Bares Amulet of Destruction, Bares Amulet of Temptation, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10438</id>
+			<name>Bares Amulet of Temptation</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Temptation, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10437</id>
+			<name>Bares Amulet of Destruction</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Destruction, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10436</id>
+			<name>Bares Amulet of Crimson Flame</name>
+			<icon>00010413.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Amulet.\nIt can be developed by Refining a common Bares Amulet.\n\n- Repair to Max. Durability: Bares Amulet of Crimson Flame, Bares Amulet</desc>
+		</item>
+		<item>
+			<id>10443</id>
+			<name>Ultimate Yuria Amulet</name>
+			<icon>00010414.png</icon>
+			<desc>A Yuria Amulet developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Crimson Flame, Yuria Amulet of Destruction, Yuria Amulet of Temptation, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>10442</id>
+			<name>Yuria Amulet of Temptation</name>
+			<icon>00010414.png</icon>
+			<desc>The energy of Temptation is contained within this Yuria Amulet.\nIt can be developed by Refining a common Yuria Amulet.\n\n- Repair to Max. Durability: Yuria Amulet of Temptation, Yuria Amulet</desc>
+		</item>
+		<item>
+			<id>6172</id>
+			<name>Supreme Fancy Fur</name>
+			<icon>00006172.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking Fine Fancy Fur and Fur Glaze, an ingredient made through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

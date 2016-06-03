@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9205</itemKey>
+	<itemName>Aloe Cookie</itemName>
+	<itemIcon>00009205.png</itemIcon>
+	<itemDesc>Freshly-baked dough with aloe inside. \n\n- Unique Effect: All Accuracy +4 for 30 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloe</name>
+			<icon>00007347.png</icon>
+			<desc>Aloe is a specialty of Mediah.\nUsage: Aloe Cookie, Aloe Yogurt, etc.\n- How to Obtain: It can be obtained at Ahto Farm. Mediah Aloe can also be Gathered using Bare Hands or a Hoe.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9002</id>
+			<name>Sugar</name>
+			<icon>00009002.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Cooking Honey</name>
+			<icon>00007702.png</icon>
+			<desc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</desc>
+		</item>
+	</cook>
+	<cook>
+		<item>
+			<id>9009</id>
+			<name>Raw Sugar</name>
+			<icon>00009009.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7347</id>
+			<name>Aloe</name>
+			<icon>00007347.png</icon>
+			<desc>Aloe is a specialty of Mediah.\nUsage: Aloe Cookie, Aloe Yogurt, etc.\n- How to Obtain: It can be obtained at Ahto Farm. Mediah Aloe can also be Gathered using Bare Hands or a Hoe.</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Wheat Dough</name>
+			<icon>00007201.png</icon>
+			<desc>A product made by Shaking Wheat Flour obtained through Grinding together with Mineral Water purchased at a Shop.\n- How to Obtain: It can be obtained through Shaking.\n\n- Usage: Exotic Herbal Wine, Soft Bread, Meat Pasta, etc.</desc>
+		</item>
+		<item>
+			<id>9009</id>
+			<name>Raw Sugar</name>
+			<icon>00009009.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7702</id>
+			<name>Cooking Honey</name>
+			<icon>00007702.png</icon>
+			<desc>A natural resource originally obtained through Gathering that has been Processed for use as a Cooking Ingredient.\n- How to Obtain: It can be produced by shooting a Wooden Beehive with a Matchlock and then Grinding the acquired Beehive.\n\n- Usage: Oatmeal, Tea With Fine Scent, etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

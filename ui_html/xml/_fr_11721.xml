@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11721</itemKey>
+	<itemName>Collier de diamants</itemName>
+	<itemIcon>00011721.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;un diamant.</itemDesc>
+	<house type="8">
+		<item>
+			<id>4405</id>
+			<name>Diamant brut</name>
+			<icon>00004405.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un diamant brut demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+		<item>
+			<id>4202</id>
+			<name>Minerai d&apos;or</name>
+			<icon>00004202.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un minerai d&apos;or demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant de l&apos;or.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11722</id>
+			<name>Collier de diamants resplendissant</name>
+			<icon>00011722.png</icon>
+			<desc>Un collier décoré d&apos;un diamant brillant.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

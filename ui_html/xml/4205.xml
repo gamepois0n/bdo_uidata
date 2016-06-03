@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4205</itemKey>
+	<itemName>Rough Healing Stone</itemName>
+	<itemIcon>00004205.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Healing Stones require a certain level of skill to collect.</itemDesc>
+	<collect>
+		<character>
+			<name>White Tin</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>4261</id>
+			<name>Healing Stone</name>
+			<icon>00004261.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

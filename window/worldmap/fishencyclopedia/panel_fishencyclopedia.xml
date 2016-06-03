@@ -1,0 +1,200 @@
+<UI>
+	<Control Type="Panel" Name="Panel_FishEncyclopedia" Pos="7 21" Size="1000 688" Pan="0 0" Color="ffffffff" EnableArea="0 0 1000 688" Grid="1" GridPosX="0 28 973 1000" GridPosY="0 45 663 688" GridUVX="0 28 785 812" GridUVY="0 44 525 550">
+		<Texture Type="Base" UV="0 0 812 0 0 550 812 550" Ani="1 1 0.000 0">new_ui_common_forlua/window/skill/skill_main.dds</Texture>
+		<Attribute Type="Drag" Area="25 10 1075 50"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="948 46" Pan="1 10" Color="ffffffff" EnableArea="0 0 948 46" Grid="1" GridPosX="0 50 898 948" GridPosY="0 30 40 46" GridUVX="0 50 350 400" GridUVY="0 30 40 46">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 423 0 0 46 423 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+			<Text Value="어류 도감" formatString="PANEL_FISHENCYCLOPEDIA_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 12"/>
+		</Control>
+		<Control Type="Static" Name="Static_FishPanelBG" Pos="33 106" Size="934 512" Pan="0 0" Color="ffffffff" EnableArea="0 0 934 512" Grid="1" GridPosX="0 10 924 934" GridPosY="0 10 502 512" GridUVX="0 10 253 263" GridUVY="0 10 28 38" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 283 264 283 1 321 264 321" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishBG" Pos="43 115" Size="454 494" Pan="0 0" Color="ffffffff" EnableArea="0 0 454 494" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 454 0 0 544 454 544" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_01.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Win_Close" Pos="Right Top" Size="19 19" Pan="38 25" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_FishType" Pos="34 68" Size="95 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 95 40" UseDefaultSound="1" Group="0">
+			<Texture Type="Base" UV="1 324 96 324 1 364 96 364" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+			<Texture Type="On" UV="98 324 193 324 98 364 193 364" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+			<Texture Type="Click" UV="195 324 290 324 195 364 290 364" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+			<Text Value="민물고기" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Top" Span="0 10"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishName" Pos="63 126" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="피라니아" Font="SubTitleFont_14_Bold" Color="ffffebbc" OverColor="ffffebbc" ClickColor="ffffebbc" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Rarity" Pos="68 159" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="희귀도" formatString="PANEL_FISHENCYCLOPEDIA_RARITY" Font="BaseFont_10" Color="ffbcaf66" OverColor="ffbcaf66" ClickColor="ffbcaf66" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating1" Pos="183 163" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 367 18 367 1 384 18 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating2" Pos="203 163" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="19 367 36 367 19 384 36 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating3" Pos="223 163" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="37 367 54 367 37 384 54 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating4" Pos="243 163" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="55 367 72 367 55 384 72 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating5" Pos="263 163" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="73 367 90 367 73 384 90 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating6" Pos="183 140" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="91 367 108 367 91 384 108 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating7" Pos="203 140" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="91 367 108 367 91 384 108 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_FishRating8" Pos="223 140" Size="17 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 17 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="91 367 108 367 91 384 108 384" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TopLine" Pos="59 182" Size="233 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 233 9" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 271 234 271 1 280 234 280" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ExplanationBG" Pos="61 194" Size="225 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 225 80" Grid="1" GridPosX="0 10 215 225" GridPosY="0 10 70 80" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Attribute Type="Disable" Color="Off"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishExplanation" Pos="68 209" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="메디아 하류 지역에 주로 서식하는 육식성\n물고기로, 날카로운 이빨로 다른 물고기를\n잡아 먹는 상위 포식자로 널리 알려져 있다." Font="BaseFont_8_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_BottomLine" Pos="58 279" Size="233 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 233 9" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 271 234 271 1 280 234 280" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_InfoBG" Pos="62 291" Size="225 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 225 75" Grid="1" GridPosX="0 10 215 225" GridPosY="0 10 65 75" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishArea" Pos="68 297" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="포획 장소" formatString="PANEL_FISHENCYCLOPEDIA_FISHAREA" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishCount" Pos="68 320" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="포획한 횟수" formatString="PANEL_FISHENCYCLOPEDIA_FISHCOUNT" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishMaxSize" Pos="68 344" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="발견된 최대 크기" formatString="PANEL_FISHENCYCLOPEDIA_FISHMAXSIZE" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_FishLocation" Pos="218 293" Size="65 25" Pan="0 0" Color="ffffffff" EnableArea="0 0 65 25" Grid="1" GridPosX="0 5 60 65" GridPosY="0 5 20 25" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="위치 찾기" formatString="PANEL_FISHENCYCLOPEDIA_BTN_FISHLOCATION" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="30 3"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishCountNumber" Pos="230 316" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="1,218 마리" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_FishMaxSizeNumber" Pos="230 339" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="172" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_FishImage" Pos="317 157" Size="166 166" Pan="0 0" Color="ffffffff" EnableArea="0 0 166 166" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ListCount" Pos="Center Bottom" Size="74 20" Pan="0 34" Color="ffffffff" EnableArea="0 0 74 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 226 61 226 1 247 61 247" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="11 / 999" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Achieve" Pos="679 80" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="달성률" formatString="PANEL_FISHENCYCLOPEDIA_ACHIEVE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PercentCount" Pos="915 79" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="31%" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ProgressBG" Pos="730 88" Size="190 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 190 8" Grid="1" GridPosX="0 1 189 190" GridPosY="0 1 7 8" GridUVX="0 1 4 5" GridUVY="0 1 7 8" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 392 6 392 1 400 6 400" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_FishProgress" Pos="732 90" Size="186 4" Pan="0 0" Color="ffffffff" EnableArea="0 0 112 4">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 386 113 386 1 390 113 390" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-12 0" Size="20 4" Pan="0 0" Color="cc000044" EnableArea="0 0 20 4">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="Button" Name="Button_List_Left" Pos="Center Bottom" Size="18 18" Pan="-45 34" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 1 19 1 1 19 19 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 1 38 1 20 19 38 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 1 57 1 39 19 57 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_List_Right" Pos="Center Bottom" Size="18 18" Pan="45 34" Color="ffffffff" EnableArea="0 0 18 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="1 20 19 20 1 38 19 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="20 20 38 20 20 38 38 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="39 20 57 20 39 38 57 38" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SizeRankTitle" Pos="68 385" Size="50 24" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 24">
+			<Attribute Type="Ignore"/>
+			<Text Value="포획 크기 순위" Font="BaseFont_10" Color="ff84fff5" OverColor="ff84fff5" ClickColor="ff84fff5" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_SizeRankLine" Pos="58 408" Size="233 9" Pan="0 0" Color="ffffffff" EnableArea="0 0 233 9" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 271 234 271 1 280 234 280" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/fishencyclopedia/fishencyclopedia_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_SizeRankBG" Pos="55 421" Size="430 175" Pan="0 0" Color="ffffffff" EnableArea="0 0 430 175" Grid="1" GridPosX="0 10 420 430" GridPosY="0 10 165 175" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SizeRanker" Pos="193 435" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="캐릭명은최대열글자임" Font="BaseFont_8_Bold" Color="ff84fff5" OverColor="ff84fff5" ClickColor="ff84fff5" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SizeRankerName" Pos="252 436" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="가문명은최대열글자요" Font="BaseFont_8_Bold" Color="ff84fff5" OverColor="ff84fff5" ClickColor="ff84fff5" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SizeRankerSize" Pos="410 435" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="172" Font="BaseFont_8_Bold" Color="ff84fff5" OverColor="ff84fff5" ClickColor="ff84fff5" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SizeNoAcquire" Pos="70 430" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="지식을 얻은 어종만 순위가 공개됩니다." Font="BaseFont_8_Bold" Color="ff84fff5" OverColor="ff84fff5" ClickColor="ff84fff5" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SizeRankLoading" Pos="70 434" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="순위를 불러오는 중입니다." Font="BaseFont_8_Bold" Color="ff84fff5" OverColor="ff84fff5" ClickColor="ff84fff5" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

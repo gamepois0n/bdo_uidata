@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4265</itemKey>
+	<itemName>Brilliant Opal</itemName>
+	<itemIcon>00004265.png</itemIcon>
+	<itemDesc>A processed natural resource. It is used in alchemy and processing. \n\n- Obtained by: Heating rough opal several times. You&apos;ll need the knowledge &quot;Heating: Intermediate.&quot;\n\n ※ See Plabiano in Heidel to complete the quest &quot;Pure Water for Experiment&quot; to gain the knowledge.\n\n※ In order to proceed with the quest, you have to reach Gathering Level Apprentice 4 and see Ficy in Heidel to complete the serial quest. Call Black Spirit (/ key) for details.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4260</id>
+			<name>Polished Opal</name>
+			<icon>00004260.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>4266</id>
+			<name>Moonlight Opal</name>
+			<icon>00004266.png</icon>
+			<desc>A processed natural resource. It is used in alchemy and processing.\n\n- Obtained by: Heating Metal Solvent and brilliant opal. You&apos;ll need the knowledge &quot;Heating: Intermediate.&quot;\n\n※ See Vatudun in Keplan to complete the quest &quot;Materials for Skill Learning&quot; to gain the knowledge.\n\n※ In order to proceed with the quest, you have to reach Gathering Level Processional 10 and Processing Level Professional 5. Call Black Spirit (/ key) for details.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

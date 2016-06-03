@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9425</itemKey>
+	<itemName>Magerfleischsalat</itemName>
+	<itemIcon>00009425.png</itemIcon>
+	<itemDesc>Ein frischer Salat mit Fleischstücken.\n\n– Spezielle Wirkung: Gesamte VK +3 für 90 Min.\nLP-Regeneration +5 für 90 Min.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Abklingzeit: 30 Min.</itemDesc>
+	<cook>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7905</id>
+			<name>Schweinefleisch</name>
+			<icon>00007905.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schweinekadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+		<item>
+			<id>9066</id>
+			<name>Essig</name>
+			<icon>00009066.png</icon>
+			<desc>Eine saure Flüssigkeit aus vergorenem Getreide oder Obst.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Obst- und Gemüsesalat, Eingelegtes Gemüse etc.</desc>
+		</item>
+		<item>
+			<id>7301</id>
+			<name>Pfeffer</name>
+			<icon>00007301.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird. Kann durch Anbau von Pfeffersamen gewonnen werden.\n– Gewinnung: Kann gewonnen werden durch Anbau in einem Garten.\n– Verwendung: Grillwurst, Pasta mit Meeresfrüchten, Fleischsuppe etc.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, ist aber mit Schmerzen verbunden.</desc>
+		</item>
+		<item>
+			<id>9006</id>
+			<name>Salatsoße</name>
+			<icon>00009006.png</icon>
+			<desc>Eine Soße mit mildem Geschmack und angenehmer Konsistenz.\n\n– Gewinnung: Kann in Eurer Wohnung gekocht werden.\n\n– Verwendung: Meeresfrüchte-Pilz-Salat, Fischfiletsalat etc.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

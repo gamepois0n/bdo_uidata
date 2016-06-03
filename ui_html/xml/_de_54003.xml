@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>54003</itemKey>
+	<itemName>Zuckerwürfel</itemName>
+	<itemIcon>00054003.png</itemIcon>
+	<itemDesc>Bei Verwendung steigt die Chance, ein wildes Pferd zu zähmen.\nKann verwendet werden, nachdem ein Pferd mit einem Lasso gefangen wurde und Ihr nah an es herangetreten seid.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>9009</id>
+			<name>Rohzucker</name>
+			<icon>00009009.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.</desc>
+		</item>
+		<item>
+			<id>9059</id>
+			<name>Mineralwasser</name>
+			<icon>00009059.png</icon>
+			<desc>Eine Zutat, die beim Kochen verwendet wird.Kann bei einem Nahrungshändler oder Gastwirt gekauft werden.\n\n※ Wird Mineralwasser im Garten angewendet, steigt der Wasservorrat ein wenig an.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

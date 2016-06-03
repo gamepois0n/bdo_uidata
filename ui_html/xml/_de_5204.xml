@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5204</itemKey>
+	<itemName>Essenz des Überflusses</itemName>
+	<itemIcon>00005204.png</itemIcon>
+	<itemDesc>Eine aus der Frucht des Überflusses extrahierte Essenz, die selten in einem Garten gefunden werden kann. Sie wird als Zutat in der Alchemie verwendet.\n– Gewinnung: Kann in der Alchemie durch die Kombination bestimmter Zutaten mit einer Frucht des Überflusses hergestellt werden.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5203</id>
+			<name>Frucht des Überflusses</name>
+			<icon>00005203.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5203</id>
+			<name>Frucht des Überflusses</name>
+			<icon>00005203.png</icon>
+			<desc>Eine Zutat, die in der Alchemie verwendet wird und durch Anbau gewonnen werden kann. Kann direkt oder nach Verfeinerung zu einer Essenz verwendet werden.\n– Gewinnung: Kann mit einer geringen Chance beim Anbau von Feldfrüchten im Garten gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>5004</id>
+			<name>Birkensaft</name>
+			<icon>00005004.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und verwendet werden kann, um andere Materialien durch Alchemie zu verändern.\n– Gewinnung: Kann mit einem Flüssigkeitssammler von einer Birke erhalten werden.</desc>
+		</item>
+		<item>
+			<id>5955</id>
+			<name>Spur des Aufstiegs</name>
+			<icon>00005955.png</icon>
+			<desc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei der Uralten Steinkammer gefunden werden.</desc>
+		</item>
+		<item>
+			<id>5410</id>
+			<name>Wolkenpilz</name>
+			<icon>00005410.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Zutat für die Alchemie und beim Kochen verwendet wird.\n– Gewinnung: Kann im Sumpf bei Glisch und in Süd-Cienaga hergestellt werden. Wolkenpilze können mit bloßen Händen oder mithilfe einer Hacke gesammelt werden.\n\n※ Der Verzehr des unverarbeiteten Gegenstandes gewährt einen speziellen Zustand, kann aber auch giftig sein!</desc>
+		</item>
+	</alchemy>
+</itemInfo>
+

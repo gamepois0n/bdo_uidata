@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4205</itemKey>
+	<itemName>Pierre guérisseuse brute</itemName>
+	<itemIcon>00004205.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.Il faut un certain niveau de compétence pour collecter des pierres guérisseuses brutes.</itemDesc>
+	<collect>
+		<character>
+			<name>Fer-blanc</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>4261</id>
+			<name>Pierre guérisseuse</name>
+			<icon>00004261.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

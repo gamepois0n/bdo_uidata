@@ -1,0 +1,33 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Tooltip_Guild_Introduce" Pos="1047 327" Size="315 85" Pan="0 0" Color="ffffffff" EnableArea="0 0 315 85" Grid="1" GridPosX="0 10 305 315" GridPosY="0 10 75 85" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+		<Attribute Type="Ignore"/>
+		<Texture Type="Base" UV="64 1 126 1 64 63 126 63" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		<Control Type="Static" Name="Tooltip_Guild_IconBG" Pos="Left Top" Size="39 39" Pan="19 14" Color="ffffffff" EnableArea="0 0 39 39" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 39 0 0 39 39 39" Ani="1 1 0.000 0">new_ui_common_forlua/widget/tooltip/tooltip_guildiconbg.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Guild_Icon" Pos="Left Top" Size="35 35" Pan="20 16" Color="ffffffff" EnableArea="0 0 35 35" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/01_phm_skill/phm_skill_0175.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Guild_Name" Pos="144 10" Size="130 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명은열자까지가능" Font="BaseFont_10" Color="ff36d3a8" OverColor="ff36d3a8" ClickColor="ff36d3a8" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Guild_Master" Pos="146 34" Size="130 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="아이디는열자까지가능" Font="BaseFont_10" Color="ffffc96b" OverColor="ffffc96b" ClickColor="ffffc96b" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Guild_Introduce" Pos="15 60" Size="285 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 285 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="기운을 담아 전방의 적을 공격한다. " Font="BaseFont_8_Bold" Color="ffbcbcbc" OverColor="ffbcbcbc" ClickColor="ffbcbcbc" AlignHorizon="Left" AlignVertical="Bottom" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Guild" Pos="78 11" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명 :" formatString="TOOLTIP_GUILD_INTRODUCE_GUILD" Font="BaseFont_10" Color="ff36d3a8" OverColor="ff36d3a8" ClickColor="ff36d3a8" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Master" Pos="79 35" Size="50 20" Pan="0 0" Color="  ffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드대장 :" formatString="PANEL_NODEGUILDWARMENU_GUILDMASTER" Font="BaseFont_10" Color="ffffc96b" OverColor="ffffc96b" ClickColor="ffffc96b" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

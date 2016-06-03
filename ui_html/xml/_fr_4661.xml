@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4661</itemKey>
+	<itemName>Contreplaqué de bouleau</itemName>
+	<itemIcon>00004661.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de bouleau. Nécessite des connaissances en coupe (débutant).\n\n※ Trouvez Lebyos à Heidel et terminez la quête de travail du frêne pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4604</id>
+			<name>Bois de bouleau</name>
+			<icon>00004604.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit à le colline de Quint, dans les ruines de l&apos;arbre de Bree et à Vieux Pissenlit. S&apos;obtient également en débitant des bouleaux.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4660</id>
+			<name>Planche de bouleau</name>
+			<icon>00004660.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de bouleau.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4660</id>
+			<name>Planche de bouleau</name>
+			<icon>00004660.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en coupant du bois de bouleau.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>55840</id>
+			<name>Caisse enbois d&apos;œuvre de Calpheon</name>
+			<icon>00055840.png</icon>
+			<desc>Un objet de commerce contenant 5 contreplaqués de bouleau, 5 contreplaqués de cèdre et 5 contreplaqués de sapin.</desc>
+		</item>
+		<item>
+			<id>2216</id>
+			<name>Table de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_SideTable_01.png</icon>
+			<desc>Une table fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Table à manger de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>Une table à manger fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Commode de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>Un tiroir fabriqué à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Armoire de Calpheon fabriquée main</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>Une armoire fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Placard de Calpheon fabriqué main</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>Une table de chevet fabriquée à la main à Calpheon.\n- Effet d&apos;ensemble (4 pièces) : points d&apos;intérieur +200</desc>
+		</item>
+		<item>
+			<id>4662</id>
+			<name>Contreplaqué solide de bouleau</name>
+			<icon>00004662.png</icon>
+			<desc>Un ingrédient naturel transformé utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du durcisseur de contreplaqué et du contreplaqué de bouleau. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Permis bateau : bateau de pêche</name>
+			<icon>00049005.png</icon>
+			<desc>Preuve de propriété d&apos;un [bateau de pêche] sur les quais.\n- Emplacement d&apos;inventaire : 12, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis bateau\n 1. Effectuez un clic droit sur le permis bateau et déplacez-le vers le quai sélectionné.\n 2. Adressez-vous au gardien de la traversée en barque et sélectionnez le menu du quai.\n 3. Cliquez sur le menu d&apos;enregistrement des bateaux puis effectuez un clic droit sur le permis bateau.\n 4. Saisissez le nom du bateau puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le bateau enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

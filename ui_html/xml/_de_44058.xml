@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>44058</itemKey>
+	<itemName>Fischgräten</itemName>
+	<itemIcon>00044058.png</itemIcon>
+	<itemDesc>Händler würden diesen Gegenstand zu einem günstigen Preis kaufen.</itemDesc>
+	<collect>
+		<character>
+			<name>Fischnetz</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ständer zum Dörren von Fisch</name>
+		</character>
+	</collect>
+	<fishing/>
+	<node region="Insel Pilava – Fischreuse 1"/>
+	<node region="Insel Luivano – Fischreuse"/>
+	<node region="Insel Baeza – Fischreuse"/>
+	<node region="Insel Barater – Fischreuse 2"/>
+</itemInfo>
+

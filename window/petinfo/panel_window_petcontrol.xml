@@ -1,0 +1,102 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Window_PetControl" Pos="0 0" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Drag" Area="0 0 430 33"/>
+		<Control Type="Static" Name="Static_IconPetBG" Pos="0 0" Size="47 47" Pan="0 0" Color="ffffffff" EnableArea="0 0 47 47" Grid="1" GridPosX="0 10 37 47" GridPosY="0 10 37 47" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_IconPet" Pos="0 0" Size="47 47" Pan="0 0" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="1.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 143 0 0 143 143 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/pet/pet_cat_0002.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_PetInfo" Pos="0 70" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="104 245 136 245 104 277 136 277" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Text Value="펫 정보" formatString="PANEL_PETCONTROL_BTN_PETINFO" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Bottom" Span="-2 -15"/>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_Follow" Pos="76 70" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" UseDefaultSound="1" ClickSound="0 0" Group="0">
+			<Texture Type="Base" UV="32 245 64 245 32 277 64 277" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Text Value="따라와" formatString="PANEL_PETCONTROL_BTN_FOLLOW" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Bottom" Span="0 -15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Radiobutton" Name="Button_Wait" Pos="76 70" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" UseDefaultSound="1" ClickSound="0 0" Group="0">
+			<Texture Type="Base" UV="32 206 64 206 32 238 64 238" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Text Value="기다려" formatString="PANEL_PETCONTROL_BTN_WAIT" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Bottom" Span="0 -15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Find" Pos="114 70" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="68 206 100 206 68 238 100 238" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Texture Type="On" UV="140 206 172 206 140 238 172 238" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Texture Type="Click" UV="32 280 64 280 32 312 64 312" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Text Value="특기" formatString="PANEL_PETCONTROL_BTN_FIND" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Bottom" Span="5 -15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_GetItem" Pos="152 70" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="104 206 136 206 104 238 136 238" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Texture Type="On" UV="176 206 208 206 176 238 208 238" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Texture Type="Click" UV="67 280 99 280 67 312 99 312" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Text Value="주워와" formatString="PANEL_PETCONTROL_BTN_GETITEM" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Bottom" Span="0 -15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Seal" Pos="38 70" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="140 245 172 245 140 277 172 277" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Text Value="맡기기" formatString="PANEL_PETCONTROL_BTN_SEAL" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Bottom" Span="0 -15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_RedDotIcon" Pos="8 53" Size="8 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 8 8" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="69 245 77 245 69 253 77 253" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GreenDotIcon" Pos="8 53" Size="8 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 8 8" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="69 257 77 257 69 265 77 265" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_YellowDotIcon" Pos="20 53" Size="8 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 8 8" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 245 89 245 81 253 89 253" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PurpleDotIcon" Pos="31 53" Size="8 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 8 8" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="93 245 101 245 93 253 101 253" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GrayDotIcon1" Pos="20 53" Size="8 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 8 8" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 257 89 257 81 265 89 265" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GrayDotIcon2" Pos="31 53" Size="8 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 8 8" AutoDisableTime="0.000000">
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="81 257 89 257 81 265 89 265" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_IconPet" Pos="0 0" Size="47 47" Pan="0 0" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.300000" UseDefaultSound="1">
+			<Texture Type="Base" UV="0 0 143 0 0 143 143 143" Ani="1 1 0.000 0">new_ui_common_forlua/window/stable/pet/pet_cat_0002.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_HungryBG" Pos="1 46" Size="46 7" Pan="0 0" Color="ffffffff" EnableArea="0 0 46 7" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 3 244 3 1 19 244 19" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_Hungry" Pos="3 49" Size="42 2" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 2">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 56 232 56 1 61 232 61" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="-10 0" Size="20 2" Pan="0 0" Color="cc000044" EnableArea="0 0 20 2">
+				<Attribute Type="Ignore"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_HungryAlert" Pos="10 66" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="b8ffffff" StartIntensity="2.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="60" AdvanceType="4" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="포만감이 0이 되면 명령에 따르지 않습니다.\n사료를 먹여 포만감을 채워주세요." formatString="PANEL_PETCONTROL_HUNGRYALERT" Font="BaseFont" Color="fff16f6f" OverColor="fff16f6f" ClickColor="fff16f6f" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Button_Allseal" Pos="60 7" Size="32 32" Pan="0 0" Color="ffffffff" EnableArea="0 0 32 32" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="176 245 208 245 176 277 208 277" Ani="1 1 0.000 0">new_ui_common_forlua/window/servant/pet_00.dds</Texture>
+			<Text Value="모두 맡기기" formatString="PANEL_PETCONTROL_BTN_ALLSEAL" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Bottom" Span="0 -15"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

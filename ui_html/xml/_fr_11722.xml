@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>11722</itemKey>
+	<itemName>Collier de diamants resplendissant</itemName>
+	<itemIcon>00011722.png</itemIcon>
+	<itemDesc>Un collier décoré d&apos;un diamant brillant.</itemDesc>
+	<house type="8">
+		<item>
+			<id>11721</id>
+			<name>Collier de diamants</name>
+			<icon>00011721.png</icon>
+			<desc>Un collier décoré d&apos;un diamant.</desc>
+		</item>
+		<item>
+			<id>4254</id>
+			<name>Fragment d&apos;or fondu</name>
+			<icon>00004254.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai d&apos;or.</desc>
+		</item>
+		<item>
+			<id>4463</id>
+			<name>Diamant</name>
+			<icon>00004463.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant un diamant brut.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>11723</id>
+			<name>Collier de diamants en étoile</name>
+			<icon>00011723.png</icon>
+			<desc>Un collier décoré d&apos;un diamant stellaire.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

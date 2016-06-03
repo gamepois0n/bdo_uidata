@@ -1,0 +1,71 @@
+<UI>
+	<Control Type="Panel" Name="Panel_RaceResult" Pos="Center Center" Size="622 500" Pan="0 0" Color="ffffffff" EnableArea="0 0 622 500">
+		<Attribute Type="Ignore"/>
+		<Control Type="Static" Name="Back_BG" Pos="Center Top" Size="622 247" Pan="0 98" Color="ffffffff" EnableArea="0 0 622 247" Grid="1" GridPosX="0 64 557 622" GridPosY="0 0 247 247" GridUVX="0 58 75 134" GridUVY="0 1 31 32" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="6 104 134 104 6 136 134 136" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Result_Title_Back_Win" Pos="Left Top" Size="112 80" Pan="256 18" Color="ffffffff" EnableArea="0 0 112 80" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="8 193 120 193 8 273 120 273" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title_Glow" Pos="Center Top" Size="120 50" Pan="1 34" Color="ffffffff" EnableArea="0 0 120 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="결과" formatString="PANEL_RACERESUILT_TITLE" Font="BaseFont_26_Glow" Color="ff00c0d7" OverColor="ff00c0d7" ClickColor="ff00c0d7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="120 50" Pan="0 30" Color="ffffffff" EnableArea="0 0 120 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="결과" formatString="PANEL_RACERESUILT_TITLE" Font="HeaderFont_26" Color="ffe7e7e7" OverColor="ffe7e7e7" ClickColor="ffe7e7e7" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Line_Top_Win" Pos="Center Top" Size="622 27" Pan="0 73" Color="ffffffff" EnableArea="0 0 622 27" Grid="1" GridPosX="0 229 393 622" GridPosY="0 0 27 27" GridUVX="0 156 320 476" GridUVY="0 0 27 27" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="14 443 490 443 14 470 490 470" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Line_Bottom_Win" Pos="Center Top" Size="622 26" Pan="0 344" Color="ffffffff" EnableArea="0 0 622 26" Grid="1" GridPosX="0 229 393 622" GridPosY="0 0 26 26" GridUVX="0 156 320 476" GridUVY="0 0 26 26" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="14 481 490 481 14 507 490 507" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Left Top" Size="46 46" Pan="560 350" Color="ffffffff" EnableArea="0 0 46 46" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="8 141 54 141 8 187 54 187" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+			<Texture Type="On" UV="68 141 114 141 68 187 114 187" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+			<Texture Type="Click" UV="130 141 176 141 130 187 176 187" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+			<Text Value="바로 닫기" formatString="PANEL_MATCHRESULT_CLOSE_TEXT" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="50 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EndInfo" Pos="Left Top" Size="150 20" Pan="445 318" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="후 이전 위치로 이동됩니다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_RankBG" Pos="14 101" Size="580 34" Pan="0 0" Color="ffffffff" EnableArea="0 0 580 34" Grid="1" GridPosX="0 48 529 580" GridPosY="0 0 34 34" GridUVX="0 48 63 114" GridUVY="0 0 34 34" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="14 406 128 406 14 440 128 440" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_TopRankIcon" Pos="25 99" Size="41 41" Pan="0 0" Color="ffffffff" EnableArea="0 0 41 41" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="218 104 259 104 218 145 259 145" Ani="1 1 0.000 0">new_ui_common_forlua/widget/party/matchresult_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_LowRank" Pos="22 144" Size="50 34" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 34">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="4위" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RankerName" Pos="168 108" Size="130 34" Pan="0 0" Color="ffffffff" EnableArea="0 0 130 34">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="캐릭명은열자까지가능" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RankerTime" Pos="417 108" Size="50 34" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 34">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="20 : 20" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Goods" Pos="526 106" Size="35 35" Pan="0 0" Color="ffffffff" EnableArea="0 0 25 25">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="0 0 41 0 0 41 41 41" Ani="1 1 0.000 0">icon/new_icon/06_pc_equipitem/00_common/00_etc/00001001.dds</Texture>
+			<Text Value="x5" Font="BaseFont_8" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Bottom" Span="30 -3"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="javascript/coherent.js"></script>
+<script type="text/javascript" src="javascript/jquery-1.7.2.min.js"></script>
+
+<style>
+body {
+background-color:rgba(0,0,0,0.0);
+}
+
+div {
+border-style:solid;
+border-width:1px;
+background-color:rgba(255,255,255,1.0);
+}
+span {
+	margin: 0px 4px;
+}
+</style>
+
+<script type="text/javascript">
+var spans = new Array();
+
+function updateCandidates(candidates, selectedId, pageStartId, pageSize) {
+	var cont = $("#cont");
+	$("span").remove();
+	spans = new Array();
+
+	for(var i = 0; i < pageSize; ++i) {
+		spans[i] = $("<span></span>").html( (i+1) + ":" + candidates[pageStartId + i]);		
+		cont.append(spans[i]);
+	}
+}
+
+engine.on("UpdateCandidates", updateCandidates);
+
+</script>
+
+</head>
+<body>
+<div id="cont"></div>
+</body>
+</html>
+

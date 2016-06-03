@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4465</itemKey>
+	<itemName>Star Diamond</itemName>
+	<itemIcon>00004465.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Shaking a Resplendent Diamond and Gem Polisher obtained through Alchemy. It requires the knowledge of Shaking: Skilled.\n\n※ Shaking: Skilled can be obtained as a challenge reward after achieving Processing Artisan Level 1.</itemDesc>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>4464</id>
+			<name>Resplendent Diamond</name>
+			<icon>00004464.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Diamond. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4481</id>
+			<name>Gem Polisher</name>
+			<icon>00004481.png</icon>
+			<desc>A material used to change resplendent Gemstones into higher quality Gemstones through Processing.\n- How to Obtain: It can be obtained through Alchemy.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11725</id>
+			<name>Diamond Necklace of Fortitude</name>
+			<icon>00011725.png</icon>
+			<desc>A necklace decorated with a Diamond of Fortitude.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

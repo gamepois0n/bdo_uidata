@@ -1,0 +1,183 @@
+<UI>
+	<Control Type="Panel" Name="Panel_ChallengePresent" Pos="Center Center" Size="480 460" Pan="0 -120" Color="ffffffff" EnableArea="0 0 480 460" Grid="1" GridPosX="-2 48 432 482" GridPosY="-3 47 414 464" GridUVX="0 50 770 820" GridUVY="0 50 535 585">
+		<Texture Type="Base" UV="0 0 820 0 0 585 820 585" Ani="1 1 0.000 0">new_ui_common_forlua/window/characterinfo/my_info_back_wide.dds</Texture>
+		<Attribute Type="Drag" Area="0 0 480 460"/>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="469 46" Pan="0 3" Color="ffffffff" EnableArea="0 0 469 46" Grid="1" GridPosX="0 50 419 469" GridPosY="0 30 40 46" GridUVX="0 50 349 399" GridUVY="0 30 40 46">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 399 0 0 46 399 46" Ani="1 1 0.000 0">new_ui_common_forlua/window_titlebar.dds</Texture>
+			<Text Value="특별 선물" formatString="PANEL_CHALLENGEPRESENT_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 12"/>
+		</Control>
+		<Control Type="Button" Name="Button_Close" Pos="Right Top" Size="19 19" Pan="20 17" Color="ffffffff" EnableArea="0 0 19 19" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="151 103 170 103 151 122 170 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="171 103 190 103 171 122 190 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="191 103 210 103 191 122 210 122" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Question" Pos="Right Top" Size="14 18" Pan="41 17" Color="ffffffff" EnableArea="-4 0 14 18" AutoDisableTime="1.000000" UseDefaultSound="1">
+			<Texture Type="Base" UV="63 2 77 2 63 20 77 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="On" UV="85 2 99 2 85 20 99 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Texture Type="Click" UV="108 3 122 3 108 21 122 21" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_AllBG" Pos="Center Top" Size="451 367" Pan="0 47" Color="ffffffff" EnableArea="0 0 451 367" Grid="1" GridPosX="0 10 441 451" GridPosY="0 10 357 367" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_EventBG" Pos="Center Top" Size="445 130" Pan="0 50" Color="ffffffff" EnableArea="0 0 445 130" Grid="1" GridPosX="0 10 435 445" GridPosY="0 10 120 130" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_RemainRewardCountText" Pos="Right Top" Size="50 20" Pan="22 120" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="1 / 4" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ChallengeCompleteIcon" Pos="Right Top" Size="100 100" Pan="25 80" Color="ffffffff" EnableArea="0 0 100 100" AutoDisableTime="1.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="30 2 131 2 30 93 131 93" Ani="1 1 0.000 0">new_ui_common_forlua/window/itemmarket/itemmarket_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EventTitleBar" Pos="Center Top" Size="445 20" Pan="0 55" Color="ffffffff" EnableArea="0 0 445 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="축하합니다!" formatString="PANEL_CHALLENGEPRESENT_EVENTTITLEBAR" Font="TitleFont_18" Color="ff00c0ff" OverColor="ff00c0ff" ClickColor="ff00c0ff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EventTitle" Pos="Center Top" Size="405 20" Pan="0 82" Color="ffffffff" EnableArea="0 0 405 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="[이벤트 제목] 이벤트 완료!" Font="BaseFont_12" Color="fffff1ae" OverColor="fffff1ae" ClickColor="fffff1ae" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_EventDesc" Pos="Center Top" Size="430 60" Pan="0 105" Color="ffffffff" EnableArea="0 0 430 60">
+			<Attribute Type="Ignore"/>
+			<Text Value=" &lt;PAColor0xFFFF9000&gt;이벤트 진행 날짜 : 2014.12.25 ~ 2014.12.31&lt;PAOldColor&gt;\n길드를 대상으로 진행했던 이벤트. 어때요, 참 쉽죠? 앞으로도 이벤트가 있으면 꼬박\n꼬박 참여하시고, 그렇게 어려운거 아니니까요~ 적절하게 잘 참여하시고 우리가 보\n상을 그렇게 짜게 주는 것도 아니니까 너무 걱정하지 마시고 많이들 참여 바랄게요." Font="BaseFont_8_Bold" Color="ff888888" OverColor="ff888888" ClickColor="ff888888" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_PresentBG" Pos="Center Top" Size="445 146" Pan="0 185" Color="ffffffff" EnableArea="0 0 445 146" Grid="1" GridPosX="0 10 435 445" GridPosY="0 10 136 146" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Present0_BG" Pos="Center Top" Size="435 52" Pan="0 218" Color="ffffffff" EnableArea="0 0 435 52" Grid="1" GridPosX="0 10 425 435" GridPosY="0 10 42 52" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Present1_BG" Pos="Center Top" Size="435 52" Pan="0 274" Color="ffffffff" EnableArea="0 0 435 52" Grid="1" GridPosX="0 10 425 435" GridPosY="0 10 42 52" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_PresentTitleBar" Pos="Center Top" Size="445 20" Pan="0 193" Color="ffffffff" EnableArea="0 0 445 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="171 2 189 2 171 20 189 20" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Text Value="보상 살펴보기" formatString="PANEL_CHALLENGEPRESENT_PRESENTTITLEBAR" Font="BaseFont_8_Bold" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NormalPresent" Pos="Left Top" Size="50 20" Pan="55 232" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 기본 보상" formatString="PANEL_CHALLENGEPRESENT_NORMALPRESENT" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SelectPresent" Pos="Left Top" Size="50 20" Pan="55 288" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 선택 보상" formatString="PANEL_CHALLENGEPRESENT_SELECTPRESENT" Font="BaseFont_10" Color="ffaae900" OverColor="ffaae900" ClickColor="ffaae900" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_ItemBG_0" Pos="Left Top" Size="47 47" Pan="142 221" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemBG_1" Pos="Left Top" Size="47 47" Pan="194 221" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemBG_2" Pos="Left Top" Size="47 47" Pan="246 221" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemBG_3" Pos="Left Top" Size="47 47" Pan="298 221" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemBG_4" Pos="Left Top" Size="47 47" Pan="350 221" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_ItemBG_5" Pos="Left Top" Size="47 47" Pan="402 221" Color="ffffffff" EnableArea="0 0 47 47" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_0" Pos="Left Top" Size="44 44" Pan="144 223" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_1" Pos="Left Top" Size="44 44" Pan="196 223" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_2" Pos="Left Top" Size="44 44" Pan="248 223" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_3" Pos="Left Top" Size="44 44" Pan="300 223" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_4" Pos="Left Top" Size="44 44" Pan="352 223" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_5" Pos="Left Top" Size="44 44" Pan="404 223" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000"/>
+		<Control Type="Static" Name="Static_Slot_6" Pos="Left Top" Size="44 44" Pan="144 279" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_7" Pos="Left Top" Size="44 44" Pan="196 279" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_8" Pos="Left Top" Size="44 44" Pan="248 279" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_9" Pos="Left Top" Size="44 44" Pan="300 279" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_10" Pos="Left Top" Size="44 44" Pan="352 279" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Slot_11" Pos="Left Top" Size="44 44" Pan="404 279" Color="ffffffff" EnableArea="0 0 44 44" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 47 0 0 47 47 47" Ani="1 1 0.000 0">new_ui_common_forlua/default/ui_item_lootingwin_slot.dds</Texture>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_SelectedBG_0" Pos="Left Top" Size="47 47" Pan="142 277" Color="ffffffff" EnableArea="0 0 47 47" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 77 51 77 1 127 51 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="On" UV="52 77 102 77 52 127 102 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="Click" UV="154 77 204 77 154 127 204 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_SelectedBG_1" Pos="Left Top" Size="47 47" Pan="194 277" Color="ffffffff" EnableArea="0 0 47 47" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 77 51 77 1 127 51 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="On" UV="52 77 102 77 52 127 102 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="Click" UV="154 77 204 77 154 127 204 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_SelectedBG_2" Pos="Left Top" Size="47 47" Pan="246 277" Color="ffffffff" EnableArea="0 0 47 47" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 77 51 77 1 127 51 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="On" UV="52 77 102 77 52 127 102 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="Click" UV="154 77 204 77 154 127 204 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_SelectedBG_3" Pos="Left Top" Size="47 47" Pan="298 277" Color="ffffffff" EnableArea="0 0 47 47" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 77 51 77 1 127 51 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="On" UV="52 77 102 77 52 127 102 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="Click" UV="154 77 204 77 154 127 204 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_SelectedBG_4" Pos="Left Top" Size="47 47" Pan="350 277" Color="ffffffff" EnableArea="0 0 47 47" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 77 51 77 1 127 51 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="On" UV="52 77 102 77 52 127 102 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="Click" UV="154 77 204 77 154 127 204 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="Checkbox_SelectedBG_5" Pos="Left Top" Size="47 47" Pan="402 277" Color="ffffffff" EnableArea="0 0 47 47" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 77 51 77 1 127 51 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="On" UV="52 77 102 77 52 127 102 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Texture Type="Click" UV="154 77 204 77 154 127 204 127" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/worldmap_etc_00.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_DescBG" Pos="Center Top" Size="445 75" Pan="0 336" Color="ffffffff" EnableArea="0 0 445 75" Grid="1" GridPosX="0 10 435 445" GridPosY="0 10 65 75" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 252 64 190 126 252 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Desc" Pos="Center Top" Size="431 62" Pan="0 342" Color="ffffffff" EnableArea="0 0 431 62">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 위의 이벤트 내용은 재확인이 불가능 하오니 한 번씩 확인하시기 바랍니다.\n- 선택 보상은 택 1이며 재발급이 불가능하오니 유의하여 신중히 선택해 주세요." formatString="PANEL_CHALLENGEPRESENT_DESC" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ff888888" ClickColor="ff888888" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_GiveMe" Pos="Center Bottom" Size="140 30" Pan="-76 12" Color="ffffffff" EnableArea="0 0 140 30" Grid="1" GridPosX="0 5 135 140" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="선물 받기(Enter)" formatString="PANEL_CHALLENGEPRESENT_BTN_GIVEME" Font="BaseFont_10" Color="fffff3a3" OverColor="fffffada" ClickColor="fffffada" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_Cancel" Pos="Center Bottom" Size="140 30" Pan="76 12" Color="ffffffff" EnableArea="0 0 140 30" Grid="1" GridPosX="0 5 135 140" GridPosY="0 5 25 30" GridUVX="0 5 25 30" GridUVY="0 5 25 30" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="닫  기" formatString="PANEL_CHALLENGEPRESENT_BTN_CANCEL" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 3"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6353</itemKey>
+	<itemName>Clown&apos;s Blood</itemName>
+	<itemIcon>00006353.png</itemIcon>
+	<itemDesc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5301</id>
+			<name>Clear Liquid Reagent</name>
+			<icon>00005301.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>5301</id>
+			<name>Clear Liquid Reagent</name>
+			<icon>00005301.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>6214</id>
+			<name>Wolf Blood</name>
+			<icon>00006214.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be extracted from a wolf corpse using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>4801</id>
+			<name>Powder of Darkness</name>
+			<icon>00004801.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: There’s a small chance of acquiring it from Rocks.</desc>
+		</item>
+		<item>
+			<id>5006</id>
+			<name>Spirit&apos;s Leaf</name>
+			<icon>00005006.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Spirit&apos;s Leaf requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>49303</id>
+			<name>Altinova Ferry Prow</name>
+			<icon>00049303.png</icon>
+			<desc>A Mediah prow that can be attached to a ferry. It allows the boat to sail faster when equipped.\nWhen 3 or more set items are equipped:\nMovement Speed +3%\nAll DP +30\n- Mounts Usable: Ferry\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>4910</id>
+			<name>Grade 3 Weapon Reform Stone</name>
+			<icon>00004910.png</icon>
+			<desc>A material used in 3rd-grade weapon upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

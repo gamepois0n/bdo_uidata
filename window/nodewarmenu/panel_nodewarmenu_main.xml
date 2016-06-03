@@ -1,0 +1,94 @@
+<UI>
+	<Control Type="Panel" Name="Panel_NodeWarMenu" Pos="Center Center" Size="420 550" Pan="0 -100" Color="ffffffff" EnableArea="5 3 415 35" Grid="1" GridPosX="0 10 410 420" GridPosY="0 10 540 550" GridUVX="0 10 173 183" GridUVY="0 10 212 222">
+		<Texture Type="Base" UV="0 0 183 0 0 222 183 222" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_teal.dds</Texture>
+		<Control Type="StaticText" Name="StaticText_Title" Pos="Center Top" Size="420 6" Pan="0 33" Color="ffffffff" EnableArea="0 0 420 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="거점전 현황" formatString="PANEL_WIN_WORLDMAP_NODEWARINFO_TITLE" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_Background" Pos="Left Top" Size="400 490" Pan="10 50" Color="ffffffff" EnableArea="0 0 400 490" Grid="1" GridPosX="0 10 390 400" GridPosY="0 10 480 490" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 64 63 64 1 126 63 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Node_Title" Pos="Center Top" Size="400 25" Pan="0 75" Color="ffffffff" EnableArea="0 0 400 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="264 1 277 1 264 16 277 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="거점 정보" formatString="WORLDMAP_NODE_LV_TITLE" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_SubTitle" Pos="Center Top" Size="400 25" Pan="0 250" Color="ffffffff" EnableArea="0 0 400 25">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="264 1 277 1 264 16 277 16" Ani="1 1 0.000 0">new_ui_common_forlua/window/lordmenu/lordmenu_00.dds</Texture>
+			<Text Value="혜택 정보" formatString="PANEL_NODEWARMENU_MAIN_SUBTITLE" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="10 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildName" Pos="Left Top" Size="50 20" Pan="20 110" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드        :" formatString="PANEL_NODEWARMENU_MAIN_GUILD" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeMasterName" Pos="Left Top" Size="50 20" Pan="20 135" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="거점장     :" formatString="PANEL_NODEWARMENU_MAIN_NODEMASTER" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Occupation" Pos="Left Top" Size="50 20" Pan="20 170" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령 시점 :" formatString="PANEL_LORDMENU_TER_OCCUPATION" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuildNameValue" Pos="Left Top" Size="150 20" Pan="88 110" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명은열자까지가능" Font="BaseFont_12" Color="ffffa841" OverColor="ffffa841" ClickColor="ffffa841" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeMasterNameValue" Pos="Left Top" Size="150 20" Pan="88 135" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="거점장은열자까지가능" Font="BaseFont_12" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_OccupationValue" Pos="Left Top" Size="150 20" Pan="90 170" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2014년 3월 1일" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeBenefits" Pos="Left Top" Size="50 20" Pan="20 297" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="거점 혜택 :" formatString="PANEL_NODEWARMENU_MAIN_BENEFITSNODE" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeBenefitsValue" Pos="Left Top" Size="150 40" Pan="90 290" Color="ffffffff" EnableArea="0 0 150 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="생산량(2배수)\ndasdf" Font="BaseFont_12" Color="ffffa841" OverColor="ffffa841" ClickColor="ffffa841" AlignHorizon="Left" AlignVertical="Bottom" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Tax" Pos="Left Top" Size="60 15" Pan="20 360" Color="ffffffff" EnableArea="0 0 60 15">
+			<Attribute Type="Ignore"/>
+			<Text Value="세금량 :" formatString="PANEL_NODEWARMENU_MAIN_TAX" Font="BaseFont_12" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TaxValue" Pos="Left Top" Size="12 15" Pan="230 360" Color="ffffffff" EnableArea="0 0 12 15">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="102 44 114 44 102 59 114 59" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+			<Text Value="99,000,000" Font="BaseFont_12" Color="ffffe476" OverColor="ffffe476" ClickColor="ffffe476" AlignHorizon="Right" AlignVertical="Bottom" Span="20 -1"/>
+		</Control>
+		<Control Type="Static" Name="Static_GuildIcon_BG" Pos="Right Top" Size="60 60" Pan="30 110" Color="ffffffff" EnableArea="0 0 60 60" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="87 1 129 1 87 43 129 43" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_GuildIcon" Pos="Right Top" Size="30 30" Pan="45 125" Color="ffffffff" EnableArea="0 0 30 30" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 96 0 0 96 96 96" Ani="1 1 0.000 0">icon/quest/405_1.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_TerrInfo_Help" Pos="Left Top" Size="370 50" Pan="15 480" Color="ffffffff" EnableArea="0 0 370 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 세금 징수 단계가 높을수록 더 많은 세금을 거둬들입니다.\n- 세금은 거점이 소속된 영지의 1채널에서만 수령할 수 있습니다." formatString="PANEL_NODEWARMENU_MAIN_BOTTOMDESC" Font="BaseFont_8" Color="ffddcd82" OverColor="ffddcd82" ClickColor="ffddcd82" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NoOccupation" Pos="Center Top" Size="200 20" Pan="0 170" Color="ffffffff" EnableArea="0 0 200 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="점령한 길드가 없습니다." formatString="PANEL_NODEWARMENU_MAIN_NOTNODEWAR" Font="SubTitleFont_14" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NodeWarProcessing" Pos="Center Top" Size="150 20" Pan="0 150" Color="ffffffff" EnableArea="0 0 150 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="거점전 진행중입니다." formatString="PANEL_NODEWARMENU_MAIN_NODEWAR_ING" Font="SubTitleFont_14_Bold" Color="ffffa841" OverColor="ffffa841" ClickColor="ffffa841" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_GetTax" Pos="Center Top" Size="154 32" Pan="0 420" Color="ffffffff" EnableArea="0 0 154 32" Grid="1" GridPosX="0 28 148 154" GridPosY="0 0 32 32" GridUVX="0 28 148 154" GridUVY="0 0 32 32" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 133 155 133 1 165 155 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_06.dds</Texture>
+			<Texture Type="On" UV="156 133 310 133 156 165 310 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_06.dds</Texture>
+			<Texture Type="Click" UV="311 133 465 133 311 165 465 165" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_btn_06.dds</Texture>
+			<Text Value="세금 인출하기" formatString="PANEL_NODEWARMENU_MAIN_GETTAX" Font="BaseFont_10" Color="ffc4bebe" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="0 5"/>
+		</Control>
+	</Control>
+</UI>
+

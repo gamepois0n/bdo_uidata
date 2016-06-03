@@ -1,0 +1,105 @@
+﻿@charset "utf-8";
+@font-face {
+	font-family:'NanumGothic';
+	src: url('/font/NanumGothic.eot');
+	src: local("  "),
+		url("/font/NanumGothic.ttf") format("truetype"),
+		url("/font/NanumGothic.otf") format("opentype");
+		url('/font/NanumGothic.woff') format('woff');
+}
+
+#wrap{ 
+	min-width:942px;
+	width:100%;   
+	height:100%; 
+	}
+#header{
+	position:relative;
+	max-width:940px;
+	min-width:700px;
+	margin:0 auto;
+	margin-bottom:10px;
+	/*height:113px; */
+}
+#container{
+	_display:inline-block; 
+	max-width:940px;
+	margin:0 auto;
+	padding:0 0 0;
+}
+#container:after{display:block;clear:both;content:''}
+.snb{float:left;width:180px;margin-right:-200px}
+#content{}
+#footer{
+	position:fixed;
+	bottom:1px;
+	width:100%;
+	height:55px;
+	background:#eeeeef;
+	}
+	#footer .bottom {
+		width:940px;
+		margin:0 auto;
+	}
+
+#DW_navigation {
+	position:absolute;
+	right:0;
+	top:0;
+	margin-top:2px;
+	font-size:11px;
+	font-weight:normal;
+	color:#dc6a41;
+}
+	#DW_navigation a { color:#818181;text-decoration:none; }
+	
+
+	
+.topm {
+	border:1px #c9c9c9 solid;
+	border-radius:7px; 
+	-ms-border-radius:7px;
+	-webkit-border-radius:7px; 
+	-moz-border-radius:7px; 
+	height:39px;
+	background:-webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e3e3e3), color-stop(0.5, #f5f5f5));
+	background:-moz-linear-gradient(top, #f5f5f5, #e3e3e3); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#e5e5e5'); /* for IE */
+
+}
+	#header h1 { padding:12px 0 3px 0; }
+
+
+	/* tab */
+	.tab-top-step { width:100%;}
+
+		.tab-top-step td {
+			/*display:inline-block;*/
+			overflow:hidden;  
+			text-align:center;
+			/*width:25%;*/
+		}
+		.tab-top-step td.last {  
+			background:none;  
+		} 
+		.tab-top-step td a {
+			display:inline-block; 
+			text-align:center;
+			font-size:15px;
+			font-family:NanumGothic;
+			font-weight:bold;  
+			color:#383838;
+		}
+		.tab-top-step td a span {
+			display:inline-block;
+			text-align:center;
+			height:24px; 
+			padding:13px 20px 0 20px;
+		} 
+			.tab-top-step td.tab-on span {
+				color:#cd3a00;
+				border-bottom:2px #eb5d01 solid;
+				text-align:center;
+			}
+
+

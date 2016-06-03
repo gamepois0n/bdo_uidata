@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9203</itemKey>
+	<itemName>Gratin au fromage</itemName>
+	<itemIcon>00009203.png</itemIcon>
+	<itemDesc>Un ensemble d&apos;ingrédients rôtis avec du fromage sur le dessus.\n\n- Effet unique : PV max. +70 pendant 90 min.\nVitesse d&apos;attaque +1 pendant 90 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+		<item>
+			<id>7201</id>
+			<name>Pâte de blé</name>
+			<icon>00007201.png</icon>
+			<desc>Un ingrédient obtenu en mélangeant de la farine de blé obtenue par meulage avec de l&apos;eau minérale achetée dans une boutique.\n- Obtention : vous pouvez l&apos;obtenir grâce au mélange.\n\n- Utilisation : vin aux herbes exotiques, pain moelleux, pâtes à la viande, etc.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9427</id>
+			<name>Saucisse grillée</name>
+			<icon>00009427.png</icon>
+			<desc>Une saucisse rôtie à la perfection.\n\n- Effet unique : tous types de PA +1 pendant 30 min.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Fromage</name>
+			<icon>00009062.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en faisant sécher du lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : salade au filet de poisson, gratin au fromage, etc.</desc>
+		</item>
+		<item>
+			<id>9004</id>
+			<name>Sauce rouge</name>
+			<icon>00009004.png</icon>
+			<desc>Une sauce rouge utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : steak, gratin au fromage</desc>
+		</item>
+	</cook>
+</itemInfo>
+

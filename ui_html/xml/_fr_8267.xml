@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8267</itemKey>
+	<itemName>Dorade tropicale</itemName>
+	<itemIcon>00008267.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</itemDesc>
+	<fishing/>
+	<node region="Nasse 1, île de Taramura"/>
+	<node region="Nasse 1, île d'Orffs"/>
+	<node region="Nasse, île de Randis"/>
+	<node region="Nasse 1, île de Lisz"/>
+	<makelist>
+		<item>
+			<id>8567</id>
+			<name>Dorade tropicale séchée</name>
+			<icon>00008567.png</icon>
+			<desc>Une dorade tropicale obtenue par séchage. Elle peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

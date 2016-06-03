@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6159</itemKey>
+	<itemName>Feines weiches Leder</itemName>
+	<itemIcon>00006159.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Schafs-, Hirsch- oder Fuchsfell gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6001</id>
+			<name>Hirschfell</name>
+			<icon>00006001.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Hirschkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6002</id>
+			<name>Schafsfell</name>
+			<icon>00006002.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Schafkadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6003</id>
+			<name>Fuchsfell</name>
+			<icon>00006003.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch das Gerben eines Fuchskadavers gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6151</id>
+			<name>Weiches Leder</name>
+			<icon>00006151.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Hirsch-, Schafs- oder Fuchsfell gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10824</id>
+			<name>Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10823</id>
+			<name>Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10822</id>
+			<name>Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10821</id>
+			<name>Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Eine Rüstung, die weniger Schutz, dafür aber mehr Beweglichkeit bietet. Sie wird meist von Adeligen getragen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>10876</id>
+			<name>Talis-Schuhe der Eisenmauer</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Eisenmauer, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10875</id>
+			<name>Talis-Handschuhe der Eisenmauer</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Eisenmauer, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10874</id>
+			<name>Talis-Rüstung der Eisenmauer</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Eisenmauer, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10873</id>
+			<name>Talis-Helm der Eisenmauer</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Eisenmauer, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10879</id>
+			<name>Talis-Handschuhe der Beweglichkeit</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Beweglichkeit, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10878</id>
+			<name>Talis-Rüstung der Beweglichkeit</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Beweglichkeit, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10877</id>
+			<name>Talis-Helm der Beweglichkeit</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Beweglichkeit, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>51008</id>
+			<name>Wagenregistrierung: Adelswagen</name>
+			<icon>00051008.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Adelswagens』.\n– Inventarplätze: 20, Beschleunigung: 95 %, Geschwindigkeit: 95 %, Wenden: 95 %, Bremse: 95 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51003</id>
+			<name>Wagenregistrierung: Weißer Wagen</name>
+			<icon>00051003.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Weißen Wagens』.\n– Inventarplätze: 12, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>10884</id>
+			<name>Talis-Schuhe der Einschüchterung</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Einschüchterung, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10883</id>
+			<name>Talis-Handschuhe der Einschüchterung</name>
+			<icon>00010823.png</icon>
+			<desc>Diese Talis-Handschuhe enthalten die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Einschüchterung, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10882</id>
+			<name>Talis-Rüstung der Einschüchterung</name>
+			<icon>00010822.png</icon>
+			<desc>Diese Talis-Rüstung enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Einschüchterung, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10881</id>
+			<name>Talis-Helm der Einschüchterung</name>
+			<icon>00010821.png</icon>
+			<desc>Dieser Talis-Helm enthält die Energie der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Einschüchterung, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>10880</id>
+			<name>Talis-Schuhe der Beweglichkeit</name>
+			<icon>00010824.png</icon>
+			<desc>Diese Talis-Schuhe enthalten die Energie der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Beweglichkeit, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10888</id>
+			<name>Ultimative Talis-Schuhe</name>
+			<icon>00010824.png</icon>
+			<desc>Maximal aufgerüstete Talis-Schuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Schuhe der Eisenmauer, Talis-Schuhe der Beweglichkeit, Talis-Schuhe der Einschüchterung, Talis-Schuhe</desc>
+		</item>
+		<item>
+			<id>10887</id>
+			<name>Ultimative Talis-Handschuhe</name>
+			<icon>00010823.png</icon>
+			<desc>Maximal aufgerüstete Talis-Handschuhe.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Handschuhe der Eisenmauer, Talis-Handschuhe der Beweglichkeit, Talis-Handschuhe der Einschüchterung, Talis-Handschuhe</desc>
+		</item>
+		<item>
+			<id>10886</id>
+			<name>Ultimative Talis-Rüstung</name>
+			<icon>00010822.png</icon>
+			<desc>Eine maximal aufgerüstete Talis-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Rüstung der Eisenmauer, Talis-Rüstung der Beweglichkeit, Talis-Rüstung der Einschüchterung, Talis-Rüstung</desc>
+		</item>
+		<item>
+			<id>10885</id>
+			<name>Ultimativer Talis-Helm</name>
+			<icon>00010821.png</icon>
+			<desc>Ein maximal aufgerüsteter Talis-Helm.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Talis-Helm der Eisenmauer, Talis-Helm der Beweglichkeit, Talis-Helm der Einschüchterung, Talis-Helm</desc>
+		</item>
+		<item>
+			<id>6167</id>
+			<name>Exzellentes weiches Leder</name>
+			<icon>00006167.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Schütteln von Feinem weichem Leder mit durch Alchemie gewonnene Lederversiegelung gewonnen werden. Dies erfordert die Kenntnis Schütteln – Geselle.\n\n※ Schütteln – Geselle kann als Herausforderungsbelohnung nach dem Erreichen von Verarbeitungsfachmann Stufe 1 erlangt werden.</desc>
+		</item>
+		<item>
+			<id>24134</id>
+			<name>Kissen aus blauem Schafsfell</name>
+			<icon>InHouse_X_DPFO_Cushion_03.png</icon>
+			<desc>Ein blaues Kissen aus Schafsfell.</desc>
+		</item>
+		<item>
+			<id>24133</id>
+			<name>Kissen aus rotem Schafsfell</name>
+			<icon>InHouse_X_DPFO_Cushion_02.png</icon>
+			<desc>Ein rotes Kissen aus Schafsfell.</desc>
+		</item>
+		<item>
+			<id>24132</id>
+			<name>Kissen aus weißem Schafsfell</name>
+			<icon>InHouse_X_DPFO_Cushion_01.png</icon>
+			<desc>Ein weißes Kissen aus Schafsfell.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

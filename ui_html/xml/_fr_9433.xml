@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9433</itemKey>
+	<itemName>Fruits de mer savoureux grillés au beurre</itemName>
+	<itemIcon>00009433.png</itemIcon>
+	<itemDesc>Un plat de fruits de mer cuit dans du beurre.\n\n- Effet unique : vitesse d&apos;attaque +1 pendant 45 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Sel</name>
+			<icon>00009001.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Huile d&apos;olive</name>
+			<icon>00009015.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

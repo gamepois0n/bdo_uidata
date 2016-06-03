@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5852</itemKey>
+	<itemName>Flachsfaden</itemName>
+	<itemIcon>00005852.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Flachs gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Bettwäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wilder Flachs</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäsche</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Wäscheständer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zelt</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>5802</id>
+			<name>Flachs</name>
+			<icon>00005802.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf der Moretti-Plantage hergestellt werden.</desc>
+		</item>
+	</manufacture>
+	<node region="Hof Costa – Flachsanbau"/>
+	<node region="Moretti-Plantage – Flachsanbau"/>
+	<node region="Kamasilvetempel – Flachsanbau"/>
+	<makelist>
+		<item>
+			<id>13007</id>
+			<name>Weihrauchanhänger der Zerstörung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Zerstörung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Weihrauchanhänger der Purpurnen Flamme</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Purpurnen Flamme, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein Anhänger mit einem Beutel voller Weihrauch.</desc>
+		</item>
+		<item>
+			<id>53501</id>
+			<name>Plane für Schäbigen Wagen</name>
+			<icon>00053501.png</icon>
+			<desc>Eine Plane für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>13009</id>
+			<name>Ultimativer Weihrauchanhänger</name>
+			<icon>00013003.png</icon>
+			<desc>Ein maximal aufgerüsteter Weihrauchanhänger.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Purpurnen Flamme, Weihrauchanhänger der Zerstörung, Weihrauchanhänger der Versuchung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Weihrauchanhänger der Versuchung</name>
+			<icon>00013003.png</icon>
+			<desc>Dieser Weihrauchanhänger enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Weihrauchanhänger der Versuchung, Weihrauchanhänger</desc>
+		</item>
+		<item>
+			<id>5856</id>
+			<name>Flachsstoff</name>
+			<icon>00005856.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Mahlen von Flachsfaden gewonnen werden. Dies erfordert die Kenntnis Mahlen – Anfänger.\n\n※ Sucht Ornella in Heidel auf und vollendet die Quest Materialien für die Reparatur von Ausrüstung, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>24109</id>
+			<name>Viereckiger Korb mit Deckel</name>
+			<icon>InHouse_X_DPFO_Basket_12.png</icon>
+			<desc>Ein eckiger Strohkorb mit Deckel.</desc>
+		</item>
+		<item>
+			<id>24107</id>
+			<name>Korb mit zwei Henkeln</name>
+			<icon>InHouse_X_DPFO_Basket_07.png</icon>
+			<desc>Ein Strohkorb mit zwei Henkeln.</desc>
+		</item>
+		<item>
+			<id>24106</id>
+			<name>Strohkorb mit Henkeln</name>
+			<icon>InHouse_X_DPFO_Basket_06.png</icon>
+			<desc>Ein Strohkorb mit Henkel.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

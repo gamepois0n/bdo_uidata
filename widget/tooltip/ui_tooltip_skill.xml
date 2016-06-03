@@ -1,0 +1,96 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Tooltip_Skill" Pos="1050 335" Size="335 440" Pan="0 0" Color="ffffffff" EnableArea="0 0 335 440" Grid="1" GridPosX="0 5 325 335" GridPosY="0 5 434 440" GridUVX="0 5 246 256" GridUVY="0 5 250 256">
+		<Attribute Type="Hide"/>
+		<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_noline.dds</Texture>
+		<Texture Type="Special" UV="0 0 1 0 0 64 1 64" Ani="1 1 0.000 0">new_ui_common_forlua/default/Mask_Gradient_toBottom.dds</Texture>
+		<Control Type="Static" Name="Tooltip_Skill_Icon" Pos="12 29" Size="42 42" Pan="0 0" Color="ffffffff" EnableArea="0 0 42 42" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 42 0 0 42 42 42" Ani="1 1 0.000 0">icon/new_icon/04_pc_skill/01_pc_skill/04_pgm_skill/pgm_skill_0272.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_Name" Pos="Left Top" Size="220 20" Pan="15 5" Color="  ffffff" EnableArea="0 0 220 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="진격의 강타 II" Font="BaseFont_12_Bold" Color="ffededed" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_Level" Pos="Right Top" Size="100 20" Pan="11 5" Color="  ffffff" EnableArea="0 0 100 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="최초 레벨" Font="BaseFont_8_Bold" Color="ffb7a390" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Skill_UseCondition_panel" Pos="Center 71" Size="316 130" Pan="0 0" Color="ffffffff" EnableArea="0 0 316 130" Grid="1" GridPosX="0 12 304 316" GridPosY="0 13 117 130" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_category" Pos="Left 63" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffb7a390" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needHP" Pos="Left 83" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 요구 생명력" formatString="TOOLTIP_SKILL_TXT_NEEDHP" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needHP_value" Pos="Left 80" Size="160 20" Pan="140 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="20" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needMP" Pos="Left 98" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 요구 정신력" formatString="TOOLTIP_SKILL_TXT_NEEDMP" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needMP_value" Pos="Left 98" Size="160 20" Pan="130 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="10" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needSP" Pos="Left 146" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 요구 지구력" formatString="TOOLTIP_SKILL_TXT_NEEDSP" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needSP_value" Pos="Left 146" Size="160 20" Pan="140 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="10" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needItem" Pos="Left 130" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 요구 아이템" formatString="TOOLTIP_SKILL_TXT_NEEDITEM" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_needItem_value" Pos="Left 130" Size="160 20" Pan="140 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="부싯돌 3개" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_reuseCycle" Pos="Left 98" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 재사용 대기 시간" formatString="TOOLTIP_SKILL_TXT_REUSECYCLE" Font="BaseFont_8_Bold" Color="ff888888" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseCondition_reuseCycle_value" Pos="Left 98" Size="160 20" Pan="140 0" Color="  ffffff" EnableArea="0 0 160 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="10s" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_UseMethod" Pos="Left 154" Size="270 40" Pan="15 0" Color="  ffffff" EnableArea="0 0 270 40">
+			<Attribute Type="Ignore"/>
+			<Text Value="기술슬롯에 등록해서 사용이 가능합니다." Font="BaseFont_8_Bold" Color="ff839364" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Skill_SkillEffect_panel" Pos="Center 213" Size="316 85" Pan="0 0" Color="ffffffff" EnableArea="0 0 316 85" Grid="1" GridPosX="0 12 304 316" GridPosY="0 13 72 85" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_SkillEffect_category" Pos="Left 205" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ffb7a390" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_SkillEffect_buff_value" Pos="Center 222" Size="280 70" Pan="3 0" Color="  ffffff" EnableArea="0 0 280 70">
+			<Attribute Type="Ignore"/>
+			<Text Value="5초간 출혈 대미지 -2" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Tooltip_Skill_AwakeningEffect_panel" Pos="Center 306" Size="316 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 316 75" Grid="1" GridPosX="0 12 304 316" GridPosY="0 13 62 75" GridUVX="0 12 244 256" GridUVY="0 13 243 256" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_AwakeningEffect_category" Pos="Left 298" Size="275 20" Pan="15 0" Color="  ffffff" EnableArea="0 0 275 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="- 기술 각성 능력" formatString="TOOLTIP_SKILL_TXT_AWAKEN" Font="BaseFont_10_Bold" Color="ffffa800" OverColor="ffffa800" ClickColor="ffffa800" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_AwakeningEffect_effect" Pos="Center 321" Size="280 50" Pan="3 0" Color="  ffffff" EnableArea="0 0 280 50">
+			<Attribute Type="Ignore"/>
+			<Text Value="각성 능력" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="Tooltip_Skill_Description" Pos="Left Top" Size="255 30" Pan="59 27" Color="  ffffff" EnableArea="0 0 255 30">
+			<Attribute Type="Ignore"/>
+			<Text Value="기운을 담아 전방의 적을 공격한다. 그냥 그런\n기술이다.기운을 담아 전방의 적을 공격한다. \n그냥 그런 기술이다." Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Top" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

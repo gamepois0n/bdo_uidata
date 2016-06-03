@@ -1,0 +1,89 @@
+<UI>
+	<Control Type="Panel" Name="Panel_House_InstallationMode_Cart" Pos="0 0" Size="220 720" Pan="0 0" Color="ffffffff" EnableArea="0 0 220 720">
+		<Control Type="Static" Name="Static_CartBG" Pos="Right Top" Size="180 515" Pan="10 45" Color="ffffffff" EnableArea="0 0 180 515" Grid="1" GridPosX="0 10 170 180" GridPosY="0 10 505 515" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CartTitle" Pos="-24 74" Size="180 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 180 6" Grid="1" GridPosX="0 80 100 180" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="장바구니" formatString="TRADEMARKET_STD_TXT_TITLE" Font="BaseFont_10" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="Static_CartListBG" Pos="19 83" Size="160 390" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 390" Grid="1" GridPosX="0 10 150 160" GridPosY="0 10 380 390" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Template_Static_CashIconBG" Pos="327 599" Size="50 50" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 50" Grid="1" GridPosX="0 10 40 50" GridPosY="0 10 40 50" GridUVX="0 10 43 53" GridUVY="0 10 43 53" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="1 1 53 1 1 53 53 53" Ani="1 1 0.000 0">new_ui_common_forlua/window/housing/housing_00.dds</Texture>
+		</Control>
+		<Control Type="Scroll" Name="Scroll_CartList" Pos="194 89" Size="5 380" Pan="0 0" Color="ffffffff" EnableArea="0 0 5 380" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 373 380" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+			<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+			<Control Type="Button" Name="Scroll_UpButton" Pos="0 -20" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_DownButton" Pos="0 380" Size="10 20" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 20" AutoDisableTime="0.000000" UseDefaultSound="1">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+			<Control Type="Button" Name="Scroll_CtrlButton" Pos="Center 179" Size="10 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 20" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 26 36" GridUVX="0 0 13 13" GridUVY="0 10 26 36" AutoDisableTime="0.000000" UseDefaultSound="1" ClickSound="0 0">
+				<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+			</Control>
+		</Control>
+		<Control Type="Static" Name="Static_CartBuyBG" Pos="19 478" Size="160 75" Pan="0 0" Color="ffffffff" EnableArea="0 0 160 75" Grid="1" GridPosX="0 10 150 160" GridPosY="0 10 65 75" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_CartTotal_PearlBG" Pos="24 482" Size="150 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 150 30" Grid="1" GridPosX="0 10 140 150" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CartTotal_Title" Pos="33 487" Size="60 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="합계" formatString="PANEL_INGAMECASHSHOP_NEWCART_TOTALCOUNT" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_CartTotal_PearlIcon" Pos="76 488" Size="19 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 19 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="287 479 307 479 287 498 307 498" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_CartTotal_PearlCount" Pos="106 487" Size="60 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50,000" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Right" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_CartClear" Pos="24 519" Size="60 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 60 30" Grid="1" GridPosX="0 4 55 60" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="비우기" formatString="PANEL_INGAMECASHSHOP_NEWCART_BTN_CARTCLEAR" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Button" Name="Button_CartBuy" Pos="88 519" Size="85 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 85 30" Grid="1" GridPosX="0 4 80 85" GridPosY="0 4 25 30" GridUVX="0 4 24 29" GridUVY="0 4 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 30 1 1 30 30 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 60 1 31 30 60 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 90 1 61 30 90 30" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="모두 구입" formatString="PANEL_INGAMECASHSHOP_NEWCART_BTN_BUYALL" Font="BaseFont_10_Line" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Top" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+		<Control Type="Static" Name="Static_BuyPearlBG" Pos="Right 10" Size="180 30" Pan="10 10" Color="ffffffff" EnableArea="0 0 180 30" Grid="1" GridPosX="0 10 170 180" GridPosY="0 10 20 30" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="127 64 189 64 127 126 189 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_NowPearlIcon" Pos="16 16" Size="19 17" Pan="0 0" Color="ffffffff" EnableArea="0 0 19 17" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="287 479 307 479 287 498 307 498" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/cashshop_01.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_NowPearlCount" Pos="43 14" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="50,000" Font="BaseFont_10" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_BuyPearl" Pos="133 15" Size="49 22" Pan="0 0" Color="ffffffff" EnableArea="0 0 49 22" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="17 170 66 170 17 192 66 192" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="On" UV="69 170 118 170 69 192 118 192" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Texture Type="Click" UV="122 170 171 170 122 192 171 192" Ani="1 1 0.000 0">new_ui_common_forlua/window/ingamecashshop/ingamecashshop_00.dds</Texture>
+			<Text Value="구입" formatString="PANEL_CASH_CUSTOMIZATION_BTN_BUY" Font="BaseFont_8_Bold" Color="ffc4bebe" OverColor="ffc4bebe" ClickColor="ffc4bebe" AlignHorizon="Center" AlignVertical="Center" Span="0 4"/>
+			<Attribute Type="ClickMoveText" Value="1 1"/>
+		</Control>
+	</Control>
+</UI>
+

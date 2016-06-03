@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4607</itemKey>
+	<itemName>Cedar Timber</itemName>
+	<itemIcon>00004607.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be Produced at Lumberjack’s Rest Area, Longleaf Tree Forest, Oze Pass. It can be also be obtained by Lumbering Cedar Trees.</itemDesc>
+	<collect>
+		<character>
+			<name>Cedar Tree</name>
+		</character>
+	</collect>
+	<node region="Lumberjack's Rest Area - Lumbering"/>
+	<node region="Longleaf Tree Forest - Lumbering"/>
+	<node region="Oze Pass - Lumbering"/>
+	<makelist>
+		<item>
+			<id>55835</id>
+			<name>Cedar Timber Crate</name>
+			<icon>00055835.png</icon>
+			<desc>A Trade Item containing 10 planks of Cedar Timber.</desc>
+		</item>
+		<item>
+			<id>53605</id>
+			<name>Trade Wagon Flag</name>
+			<icon>00053605.png</icon>
+			<desc>A flag for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>53405</id>
+			<name>Trade Wagon Wheel</name>
+			<icon>00053405.png</icon>
+			<desc>A wheel for a four-wheeled wagon.\n\n- Can be Installed on: Four-Wheeled Wagon\n\nIt can be enhanced with a Black Stone (Armor).</desc>
+		</item>
+		<item>
+			<id>16155</id>
+			<name>Thick Harpoon</name>
+			<icon>00016155.png</icon>
+			<desc>A Gathering Tool made for catching deep sea fish. Some fish can only be caught with a harpoon. \n- It requires a Fishing Boat to use.</desc>
+		</item>
+		<item>
+			<id>16154</id>
+			<name>Thin Harpoon</name>
+			<icon>00016154.png</icon>
+			<desc>A Gathering Tool made for catching deep sea fish. Some fish can only be caught with a harpoon. \n- It requires a Fishing Boat to use.</desc>
+		</item>
+		<item>
+			<id>10239</id>
+			<name>Ultimate Bares Longbow</name>
+			<icon>00010213.png</icon>
+			<desc>A Bares Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow of Destruction, Bares Longbow of Temptation, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10238</id>
+			<name>Bares Longbow of Temptation</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Temptation is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Temptation, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10237</id>
+			<name>Bares Longbow of Destruction</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Destruction is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Destruction, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10236</id>
+			<name>Bares Longbow of Crimson Flame</name>
+			<icon>00010213.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Bares Longbow.\nIt can be developed by Refining a common Bares Longbow.\n\n- Repair to Max. Durability: Bares Longbow of Crimson Flame, Bares Longbow</desc>
+		</item>
+		<item>
+			<id>10213</id>
+			<name>Bares Longbow</name>
+			<icon>00010213.png</icon>
+			<desc>A longbow possessed with a hatred for all living things.</desc>
+		</item>
+		<item>
+			<id>4667</id>
+			<name>Cedar Plywood</name>
+			<icon>00004667.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Cedar Timber. It requires the knowledge of Chopping: Beginner.\n\n※ Find Lebyos in Heidel and complete the Working the Ash Tree Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>4666</id>
+			<name>Cedar Plank</name>
+			<icon>00004666.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be also be obtained by Chopping Cedar Timber.</desc>
+		</item>
+		<item>
+			<id>10258</id>
+			<name>Krea Longbow of Crimson Flame</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Crimson Flame is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Crimson Flame, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10256</id>
+			<name>Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A longbow crafted to meet the strict requirements of adventurers.</desc>
+		</item>
+		<item>
+			<id>10263</id>
+			<name>Ultimate Krea Longbow</name>
+			<icon>00010256.png</icon>
+			<desc>A Krea Longbow developed to its maximum potential.\nThere is a small chance this will be developed when Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Crimson Flame, Krea Longbow of Destruction, Krea Longbow of Temptation, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10260</id>
+			<name>Krea Longbow of Temptation</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Temptation is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Temptation, Krea Longbow</desc>
+		</item>
+		<item>
+			<id>10259</id>
+			<name>Krea Longbow of Destruction</name>
+			<icon>00010256.png</icon>
+			<desc>The energy of Destruction is contained within this Krea Longbow.\nIt can be developed by Refining a common Krea Longbow.\n\n- Repair to Max. Durability: Krea Longbow of Destruction, Krea Longbow</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

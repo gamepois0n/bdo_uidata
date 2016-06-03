@@ -1,0 +1,22 @@
+<UI>
+	<Control Type="Panel" Name="Panel_GuardGauge" Pos="Center Center" Size="33 43" Pan="-70 30" Color="ffffffff" EnableArea="0 0 33 43">
+		<Control Type="Static" Name="GuardGauge_ProgresssBG" Pos="0 0" Size="33 43" Pan="0 0" Color="ffffffff" EnableArea="0 0 33 43" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="298 121 331 121 298 164 331 164" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+		</Control>
+		<Control Type="Progress2" Name="Progress2_1" Pos="0 0" Size="33 43" Pan="0 0" Color="ffffffff" EnableArea="0 0 33 43">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="332 121 365 121 332 164 365 164" Ani="1 1 0.000 0">new_ui_common_forlua/widget/dialogue/dialogue_etc_00.dds</Texture>
+			<Attribute Type="Vertical"/>
+			<Control Type="Static" Name="Progress2_1_Bar_Head" Pos="1 21" Size="33 43" Pan="0 0" Color="cc000044" EnableArea="0 0 33 43">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_GuardGaugeCount" Pos="Center Center" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="100" Font="BaseFont_10_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

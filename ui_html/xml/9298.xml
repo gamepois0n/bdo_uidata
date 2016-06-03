@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9298</itemKey>
+	<itemName>Plentiful Assorted Side Dishes</itemName>
+	<itemIcon>00009298.png</itemIcon>
+	<itemDesc>Delicious snacks intended to be consumed with alcohol. \n\n- Unique Effect: Life EXP Increase +5% for 110 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</itemDesc>
+	<cook>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>8511</id>
+			<name>Dried Squid</name>
+			<icon>00008511.png</icon>
+			<desc>A dried squid obtained through Drying. It can be Crafted into a Trade Item at a Workbench.\n※ Drying decreases the value of the fish.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apple</name>
+			<icon>00007313.png</icon>
+			<desc>A tasty apple used as an ingredient in Cooking.\nUsage: Fruit Juice, Fruit Pudding, etc.\n- How to Obtain: It can be Gathered from Apple Trees using Bare Hands or purchased from a special Merchant.</desc>
+		</item>
+		<item>
+			<id>9062</id>
+			<name>Cheese</name>
+			<icon>00009062.png</icon>
+			<desc>An ingredient used in Cooking. This can be created by Drying milk received from a farm Quest.\n\n- Usage: Fish Filet Salad, Cheese Gratin, etc.</desc>
+		</item>
+		<item>
+			<id>9403</id>
+			<name>Fried Bird</name>
+			<icon>00009403.png</icon>
+			<desc>Bird meat fried with grain powder. \n\n- Unique Effect: HP Recovery +5 for 60 min\n\n- How to Obtain: It can be Cooked at your House.\n\n- Cooldown: 30 min</desc>
+		</item>
+	</cook>
+</itemInfo>
+

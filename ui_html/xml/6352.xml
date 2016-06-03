@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6352</itemKey>
+	<itemName>Tyrant&apos;s Blood</itemName>
+	<itemIcon>00006352.png</itemIcon>
+	<itemDesc>A Processed reagent capable of changing the form of other materials through Alchemy.\n- How to Obtain: It can be refined by mixing alchemical ingredients with blood through Alchemy.</itemDesc>
+	<alchemy>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>5302</id>
+			<name>Pure Powder Reagent</name>
+			<icon>00005302.png</icon>
+			<desc>A Catalyst that can be applied to various Alchemy mixtures.\n- How to Obtain: It can be made using Alchemy.</desc>
+		</item>
+		<item>
+			<id>6213</id>
+			<name>Bear Blood</name>
+			<icon>00006213.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy.\n- How to Obtain: It can be extracted from a bear corpse using a Fluid Collector.</desc>
+		</item>
+		<item>
+			<id>5956</id>
+			<name>Trace of Savagery</name>
+			<icon>00005956.png</icon>
+			<desc>A material used for Crafting equipment.\nIt can be Excavated at Lynch Farm Ruins.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Monk&apos;s Branch</name>
+			<icon>00005007.png</icon>
+			<desc>A natural resource obtained through Gathering that can be employed to modify other materials using Alchemy. Monk&apos;s Branch requires a certain level of skill to collect.\n- How to Obtain: This alchemical ingredient can be obtained by Lumbering trees, but only rarely.</desc>
+		</item>
+	</alchemy>
+	<makelist>
+		<item>
+			<id>16001</id>
+			<name>Black Stone (Weapon)</name>
+			<icon>00000008.png</icon>
+			<desc>Weapons can be enhanced through Black Spirits.\n\n- Able to Enhance: Weapon, Secondary Weapon</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Grade 3 Armor Reform Stone</name>
+			<icon>00004911.png</icon>
+			<desc>A material used in 3rd-grade armor upgrade.\n-Obtainable from: Refinery, through crafting.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

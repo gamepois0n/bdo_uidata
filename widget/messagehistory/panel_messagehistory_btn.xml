@@ -1,0 +1,15 @@
+<UI>
+	<Control Type="Panel" Name="Panel_MessageHistory_BTN" Pos="Right Bottom" Size="64 64" Pan="40 0" Color="ffffffff" EnableArea="0 0 64 64">
+		<Attribute Type="Hide"/>
+		<!-- <Texture Type="Base" UV="0 65 64 65 0 128 64 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/humanrelations/compensation_00.dds</Texture> -->
+		<Control Type="Static" Name="Static_BTN" Pos="0 0" Size="64 64" Pan="0 0" Color="ffffffff" EnableArea="0 0 64 64">
+			<Texture Type="Base" UV="0 65 64 65 0 128 64 128" Ani="1 1 0.000 0">new_ui_common_forlua/widget/humanrelations/compensation_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_badges" Pos="Left Top" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="196 1 216 1 196 21 216 21" Ani="1 1 0.000 0">new_ui_common_forlua/widget/character_main/knowledge_00.dds</Texture>
+			<Text Value="50" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

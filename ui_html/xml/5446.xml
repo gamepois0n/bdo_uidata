@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5446</itemKey>
+	<itemName>High-Quality Fire Flake Flower</itemName>
+	<itemIcon>00005403.png</itemIcon>
+	<itemDesc>A Farming product that can be employed to modify other materials using Alchemy.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<makelist>
+		<item>
+			<id>7561</id>
+			<name>High-Quality Fire Flake Flower Crate</name>
+			<icon>00007503.png</icon>
+			<desc>An herb that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+		<item>
+			<id>570</id>
+			<name>Concentrated Herbal Juice</name>
+			<icon>00000570.png</icon>
+			<desc>Immediately heals MP/WP/SP by +175.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+		<item>
+			<id>569</id>
+			<name>Herbal Juice</name>
+			<icon>00000569.png</icon>
+			<desc>Immediately heals MP/WP/SP by +125.\n- Cooldown: 6 sec\n- It weighs less than normal potion.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

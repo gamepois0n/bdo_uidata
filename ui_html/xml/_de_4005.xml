@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4005</itemKey>
+	<itemName>Zinkerz</itemName>
+	<itemIcon>00004005.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, die durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Omar-Lavahöhle, Verlassene Eisenmine, Antiker Riss. Kann aus zinkhaltigem Erz gewonnen werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesit</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Blutstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Sandstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Schlammstein</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Zink</name>
+		</character>
+	</collect>
+	<node region="Omar-Lavahöhle – Bergbau"/>
+	<node region="Verlassene Eisenmine – Bergbau"/>
+	<node region="Antiker Riss – Bergbau"/>
+	<makelist>
+		<item>
+			<id>55846</id>
+			<name>Zinkerzkiste</name>
+			<icon>00055846.png</icon>
+			<desc>Handelsware, die 10 Zinkerze enthält.</desc>
+		</item>
+		<item>
+			<id>4064</id>
+			<name>Zinkbarren</name>
+			<icon>00004064.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Zinksplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4063</id>
+			<name>Geschmolzener Zinksplitter</name>
+			<icon>00004063.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinkerz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4907</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 1)</name>
+			<icon>00004907.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 1. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

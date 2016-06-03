@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4661</itemKey>
+	<itemName>Birkenschichtholz</itemName>
+	<itemIcon>00004661.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Birkenholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4604</id>
+			<name>Birkenholz</name>
+			<icon>00004604.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann auf dem Quintenhügel, in den Breebaumruinen und Alt-Löwenzahn hergestellt werden. Kann außerdem durch Fällen von Birken erhalten werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4660</id>
+			<name>Birkenbrett</name>
+			<icon>00004660.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Birkenholz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4660</id>
+			<name>Birkenbrett</name>
+			<icon>00004660.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Birkenholz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>55840</id>
+			<name>Calpheonholzkiste</name>
+			<icon>00055840.png</icon>
+			<desc>Handelsware, die 5 Birkenschichthölzer, 5 Zedernschichthölzer und 5 Tannenschichthölzer enthält.</desc>
+		</item>
+		<item>
+			<id>2216</id>
+			<name>Handgemachter Tisch aus Calpheon</name>
+			<icon>InHouse_F_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Handgemachter Esstisch aus Calpheon</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Handgemachte Kommode aus Calpheon</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Handgemachter Kleiderschrank aus Calpheon</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Handgemachter Schrank aus Calpheon</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>Ein handgemachter Nachttisch aus Calpheon.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>4662</id>
+			<name>Stabiles Birkenschichtholz</name>
+			<icon>00004662.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Schichtholz-Härter und Birkenschichtholz gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Schiffslizenz: Fischerboot</name>
+			<icon>00049005.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz eines 『Fischerboots 』.\n– Inventarplätze: 12, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4003</itemKey>
+	<itemName>Minerai de cuivre</itemName>
+	<itemIcon>00004003.png</itemIcon>
+	<itemDesc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la grotte des gobelins, grotte des éfrits, grotte côtière, forêt de la Solitude, falaise de Thermian, carrière nord d&apos;Heidel, rives de Mediah. S&apos;obtient à partir de minerai contenant du cuivre.</itemDesc>
+	<collect>
+		<character>
+			<name>Andesite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cuivre</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Granite</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Grès</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pierre de sang</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pierre de terre</name>
+		</character>
+	</collect>
+	<node region="Littoral de Mediah : extraction minière"/>
+	<node region="Grotte des gobelins : extraction minière"/>
+	<node region="Grotte des éfrits : extraction minière"/>
+	<node region="Grotte des éfrits : extraction minière"/>
+	<node region="Grotte côtière : extraction minière"/>
+	<node region="Forêt de la Solitude : extraction minière"/>
+	<node region="Falaise de Thermian : extraction minière"/>
+	<node region="Carrière nord d'Heidel"/>
+	<makelist>
+		<item>
+			<id>55842</id>
+			<name>Caisse de minerai de cuivre</name>
+			<icon>00055842.png</icon>
+			<desc>Un objet de commerce contenant 10 minerais de cuivre.</desc>
+		</item>
+		<item>
+			<id>4058</id>
+			<name>Lingot de cuivre</name>
+			<icon>00004058.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de cuivre fondu. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4057</id>
+			<name>Fragment de cuivre fondu</name>
+			<icon>00004057.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de cuivre.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

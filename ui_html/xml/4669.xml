@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4669</itemKey>
+	<itemName>Usable Scantling</itemName>
+	<itemIcon>00004669.png</itemIcon>
+	<itemDesc>Timber required for Construction.\n\n- How to Obtain: It can be also be obtained by Chopping Logs received from trees Lumbered in any region.</itemDesc>
+	<manufacture action="MANUFACTURE_FIREWOOD">
+		<item>
+			<id>4605</id>
+			<name>Log</name>
+			<icon>00004605.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Lumbering trees grown in every region.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>3719</id>
+			<name>Advanced Cooking Utensil</name>
+			<icon>Crafting_Cooking_03.png</icon>
+			<desc>A high-quality tool used when cooking.\n- It can be installed in a residence.\n- Additional effects applied later</desc>
+		</item>
+		<item>
+			<id>3703</id>
+			<name>Advanced Alchemy Tool</name>
+			<icon>Crafting_Alchemy_03.png</icon>
+			<desc>A tool that can reconstruct the substance.\n- It can be installed in a residence.\n- Additional effects applied later</desc>
+		</item>
+		<item>
+			<id>2702</id>
+			<name>Heidel Handcrafted Bed</name>
+			<icon>InHouse_B_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2708</id>
+			<name>Mediahn Handcrafted Bed</name>
+			<icon>InHouse_H_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2706</id>
+			<name>Calpheon Handcrafted Bed</name>
+			<icon>InHouse_F_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2704</id>
+			<name>Velian Handcrafted Bed</name>
+			<icon>InHouse_D_DFF_Bed_01.png</icon>
+			<desc>A handcrafted bed from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2010</id>
+			<name>Mediahn Handcrafted Bedside Table</name>
+			<icon>InHouse_H_DFF_Chest_01.png</icon>
+			<desc>A handcrafted bedside table from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2008</id>
+			<name>Mediahn Handcrafted Drawers</name>
+			<icon>InHouse_H_DFF_Dresser_01.png</icon>
+			<desc>A handcrafted drawer from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2108</id>
+			<name>Mediahn Handcrafted Closet</name>
+			<icon>InHouse_H_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2316</id>
+			<name>Mediahn Handcrafted Sofa</name>
+			<icon>InHouse_H_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2315</id>
+			<name>Mediahn Handcrafted Chair</name>
+			<icon>InHouse_H_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2313</id>
+			<name>Calpheon Handcrafted Sofa</name>
+			<icon>InHouse_F_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2311</id>
+			<name>Velian Handcrafted Sofa</name>
+			<icon>InHouse_D_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2309</id>
+			<name>Heidel Handcrafted Sofa</name>
+			<icon>InHouse_B_DFF_Sofa_01.png</icon>
+			<desc>A handcrafted sofa from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2216</id>
+			<name>Calpheon Handcrafted Table</name>
+			<icon>InHouse_F_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2214</id>
+			<name>Velian Handcrafted Table</name>
+			<icon>InHouse_D_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2212</id>
+			<name>Heidel Handcrafted Table</name>
+			<icon>InHouse_B_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2210</id>
+			<name>Mediahn Handcrafted Table</name>
+			<icon>InHouse_H_DFF_SideTable_01.png</icon>
+			<desc>A handcrafted table from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2208</id>
+			<name>Mediahn Handcrafted Dining Table</name>
+			<icon>InHouse_H_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Mediah.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>24005</id>
+			<name>[Jukebox] Prayer of Time</name>
+			<icon>InHouse_X_DPF_JukeBox_02.png</icon>
+			<desc>A juke box that plays the Prayer of Time theme song.</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Ship License: Fishing Boat</name>
+			<icon>00049005.png</icon>
+			<desc>Proof of ownership of a &lt;Fishing Boat&gt; at the Wharf.\n- Inventory Slot(s): 12, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>49004</id>
+			<name>Ship License: Mediah Ferry</name>
+			<icon>00049004.png</icon>
+			<desc>Proof of ownership of a &lt;Mediah Ferry&gt; at the Wharf.\n- Inventory Slot(s): 8, Acceleration: 100%, Speed: 110%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>49003</id>
+			<name>Ship License: Calpheon Ferry</name>
+			<icon>00049003.png</icon>
+			<desc>Proof of ownership of a &lt;Calpheon Ferry&gt; at the Wharf.\n- Inventory Slot(s): 10, Acceleration: 100%, Speed: 105%, Turn: 105%, Braking: 105%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+		<item>
+			<id>49001</id>
+			<name>Ship License: Ferry</name>
+			<icon>00049001.png</icon>
+			<desc>Proof of ownership of a  at the Wharf.\n- Inventory Slot(s): 8, Acceleration: 100%, Speed: 105%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

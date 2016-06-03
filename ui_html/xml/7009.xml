@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7009</itemKey>
+	<itemName>High-Quality Sweet Potato</itemName>
+	<itemIcon>00007004.png</itemIcon>
+	<itemDesc>A Cooking ingredient that was produced through Farming.\n- How to Obtain: Seeds can be obtained through Plant Breeding in a Garden.\n\n- Usage: Beer, Grain Soup, etc.</itemDesc>
+	<node region="Shuri Farm - Sweet Potato Farming"/>
+	<makelist>
+		<item>
+			<id>7104</id>
+			<name>Sweet Potato Flour</name>
+			<icon>00007104.png</icon>
+			<desc>A fine flour made by Grinding.\n- How to Obtain: It can be obtained through Grinding Sweet Potatoes.\n\n- Usage: Essence of Liquor, Meat Stew, Oatmeal, etc.</desc>
+		</item>
+		<item>
+			<id>7558</id>
+			<name>High-Quality Sweet Potato Crate</name>
+			<icon>00007427.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+		<item>
+			<id>567</id>
+			<name>Concentrated Grain Juice</name>
+			<icon>00000567.png</icon>
+			<desc>Immediately heals HP by+125.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Grain Juice</name>
+			<icon>00000566.png</icon>
+			<desc>Immediately heals HP by+75.\n- Cooldown : 5 sec.\n- Weighs lighter than normal potion.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Inorganic Fertilizer</name>
+			<icon>00016901.png</icon>
+			<desc>Boosts growth rate of crops. Using fertilizer reduces the growth time for crops in the garden.\n※ There&apos;s a cool-down time of 5 seconds.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14122</itemKey>
+	<itemName>Ultimative Taritas-Stahlrüstung</itemName>
+	<itemIcon>00010814.png</itemIcon>
+	<itemDesc>Eine maximal aufgerüstete Taritas-Stahlrüstung.\nSie ist leichter und beständiger als eine Ultimative Taritas-Rüstung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Eisenmauer, Taritas-Rüstung der Eisenmauer, Taritas-Stahlrüstung der Beweglichkeit, Taritas-Rüstung der Beweglichkeit, Taritas-Stahlrüstung der Einschüchterung, Taritas-Rüstung der Einschüchterung, Taritas-Stahlrüstung der Zerstörung, Taritas-Stahlrüstung, Taritas-Rüstung</itemDesc>
+	<house type="5">
+		<item>
+			<id>4077</id>
+			<name>Stahl</name>
+			<icon>00004077.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von geschmolzenen Eisensplittern und Kohle gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>6161</id>
+			<name>Feines hartes Leder</name>
+			<icon>00006161.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch Trocknen von Dinosaurier-, Echsen- oder Wurmhaut gewonnen werden. Dies erfordert die Kenntnis Trocknen – Anfänger.\n\n※ Findet Techthon in Heidel und vollendet die Quest Bedarf an weichem Leder!, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelstufe 14 oder höher verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4467</id>
+			<name>Schlammkristall</name>
+			<icon>00004467.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe der Ruinen von Glisch gefundenem Rohen Schlammkristall gewonnen werden.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14106</id>
+			<name>Taritas-Stahlrüstung der Eisenmauer</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Eisenmauer.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Eisenmauer, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>4911</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 3)</name>
+			<icon>00004911.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 3. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Schwarzsteinpulver</name>
+			<icon>00004901.png</icon>
+			<desc>Ein grundlegender Bestandteil, der in der Herstellung verwendet wird.\n– Gewinnung: Kann bei einer Raffinerie durch Herstellung gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14102</id>
+			<name>Taritas-Stahlrüstung</name>
+			<icon>00010814.png</icon>
+			<desc>Eine von einem Meisterschmied gefertigte Taritas-Stahlrüstung.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung und kann auch verwendet werden, um die Haltbarkeit einer normalen Taritas-Rüstung wiederherzustellen.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.</desc>
+		</item>
+		<item>
+			<id>14110</id>
+			<name>Taritas-Stahlrüstung der Beweglichkeit</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Beweglichkeit.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Beweglichkeit.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Beweglichkeit, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14106</id>
+			<name>Taritas-Stahlrüstung der Eisenmauer</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Eisenmauer.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Eisenmauer.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Eisenmauer, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+		<item>
+			<id>14114</id>
+			<name>Taritas-Stahlrüstung der Einschüchterung</name>
+			<icon>00010814.png</icon>
+			<desc>Diese Taritas-Stahlrüstung enthält die Energie der Einschüchterung.\nSie ist leichter und beständiger als eine gewöhnliche Taritas-Rüstung der Einschüchterung.\n– Wenn 2 oder mehr Teile ausgerüstet werden, löst das den Set-Effekt aus.\n\n– Max. Haltbarkeit wiederherstellen: Taritas-Stahlrüstung der Einschüchterung, Taritas-Stahlrüstung, Taritas-Rüstung</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

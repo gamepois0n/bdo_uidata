@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6162</itemKey>
+	<itemName>Peau fine délicate</itemName>
+	<itemIcon>00006162.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en faisant sécher des peaux de raton laveur, de singe ou de belette. Nécessite des connaissances en séchage : débutant.\n\n※ Trouvez Techthon à Heidel et terminez la quête Une peau toute douce pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 14 en récolte. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6010</id>
+			<name>Peau de raton laveur</name>
+			<icon>00006010.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un raton laveur tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6011</id>
+			<name>Peau de singe</name>
+			<icon>00006011.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant un singe tué à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6012</id>
+			<name>Fourrure de belette</name>
+			<icon>00006012.png</icon>
+			<desc>Une ressource naturelle obtenue par récolte et utilisée en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en tannant une belette tuée à la chasse.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>6154</id>
+			<name>Peau fine</name>
+			<icon>00006154.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en séchant une peau de raton laveur, de singe ou de belette.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10531</id>
+			<name>Talisman de Krea ultime</name>
+			<icon>00010524.png</icon>
+			<desc>Un talisman de Krea qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman de Krea de la flamme pourpre, talisman de Krea de destruction, talisman de Krea de tentation, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>10528</id>
+			<name>Talisman de Krea de tentation</name>
+			<icon>00010524.png</icon>
+			<desc>Ce talisman de Krea renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman de Krea de tentation, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>10511</id>
+			<name>Talisman de Jubre de destruction</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman de Jubre renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman de Jubre de destruction, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10510</id>
+			<name>Talisman de Jubre de la flamme pourpre</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman de Jubre renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman de Jubre de la flamme pourpre, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Talisman d&apos;Helrick ultime</name>
+			<icon>00010503.png</icon>
+			<desc>Un talisman d&apos;Helrick qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de la flamme pourpre, talisman d&apos;Helrick de destruction, talisman d&apos;Helrick de tentation, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Talisman de Rhik de tentation</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman de Rhik de tentation, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Talisman de Rhik de destruction</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman de Rhik de destruction, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Talisman de Rhik de la flamme pourpre</name>
+			<icon>00010505.png</icon>
+			<desc>Ce talisman de Rhik renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman de Rhik de la flamme pourpre, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10513</id>
+			<name>Talisman de Jubre ultime</name>
+			<icon>00010504.png</icon>
+			<desc>Un talisman de Jubre qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman de Jubre de la flamme pourpre, talisman de Jubre de destruction, talisman de Jubre de tentation, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10512</id>
+			<name>Talisman de Jubre de tentation</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman de Jubre renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman de Jubre de tentation, talisman de Jubre</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Talisman de Rhik ultime</name>
+			<icon>00010505.png</icon>
+			<desc>Un talisman de Rhik qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman de Rhik de la flamme pourpre, talisman de Rhik de destruction, talisman de Rhik de tentation, talisman de Rhik</desc>
+		</item>
+		<item>
+			<id>10527</id>
+			<name>Talisman de Krea de destruction</name>
+			<icon>00010524.png</icon>
+			<desc>Ce talisman de Krea renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman de Krea de destruction, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>10526</id>
+			<name>Talisman de Krea de la flamme pourpre</name>
+			<icon>00010524.png</icon>
+			<desc>Ce talisman de Krea renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman de Krea de la flamme pourpre, talisman de Krea</desc>
+		</item>
+		<item>
+			<id>10524</id>
+			<name>Talisman de Krea</name>
+			<icon>00010524.png</icon>
+			<desc>Un talisman conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Talisman d&apos;Helrick de tentation</name>
+			<icon>00010503.png</icon>
+			<desc>Ce talisman d&apos;Helrick renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de tentation, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Talisman d&apos;Helrick de destruction</name>
+			<icon>00010503.png</icon>
+			<desc>Ce talisman d&apos;Helrick renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de destruction, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Talisman d&apos;Helrick de la flamme pourpre</name>
+			<icon>00010503.png</icon>
+			<desc>Ce talisman d&apos;Helrick renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de la flamme pourpre, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Talisman de Rhik</name>
+			<icon>00010505.png</icon>
+			<desc>Un talisman avec des capacités de défense améliorées.</desc>
+		</item>
+		<item>
+			<id>10504</id>
+			<name>Talisman de Jubre</name>
+			<icon>00010504.png</icon>
+			<desc>Ce talisman porte une inscription dans une langue ancienne inconnue.</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Talisman de Helrick</name>
+			<icon>00010503.png</icon>
+			<desc>Un talisman dans lequel une pierre précieuse est incrustée.</desc>
+		</item>
+		<item>
+			<id>6170</id>
+			<name>Peau fine ultime</name>
+			<icon>00006170.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant une peau fine délicate et du revêtement de cuir, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

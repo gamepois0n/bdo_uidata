@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7704</itemKey>
+	<itemName>Erlesener Honig</itemName>
+	<itemIcon>00007704.png</itemIcon>
+	<itemDesc>Eine verarbeitete, natürliche Zutat, die beim Kochen verwendet wird.\– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt und die Beute raffiniert.\n\n– Verwendung: Haferbrei, Aromatee etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7701</id>
+			<name>Wildbienenstock</name>
+			<icon>00007701.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und zu einer Kochzutat weiterverarbeitet werden kann.\n– Gewinnung: Kann gewonnen werden, indem man mit einem Luntenschloss einen Bienenstock aus einem Baum schießt.\n\n– Verwendung: Honigwabenkeks etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

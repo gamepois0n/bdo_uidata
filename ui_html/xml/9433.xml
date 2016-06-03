@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9433</itemKey>
+	<itemName>Savory Seafood Grilled with Butter</itemName>
+	<itemIcon>00009433.png</itemIcon>
+	<itemDesc>Cooked seafood with butter. \n- Unique effect: Attack Speed Rank +1 for 45 min.\n- How to Obtain : Can be cooked at your residence.\n- Cooldown : 30 min.</itemDesc>
+	<shop>
+		<character>
+			<name>Maryan Pero</name>
+		</character>
+	</shop>
+	<cook>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>An ingredient used in Cooking. It can be created by Shaking salt with the cream obtained from Shaking milk.\n\n- Usage: Cheese Pie, Seafood Grilled with Butter</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Squid</name>
+			<icon>00008211.png</icon>
+			<desc>An ingredient that can be sold to a Trader or used in Cooking. It can be obtained through Fishing.\n- Usage: Seafood Pasta, Stir Fried Seafood, Seafood Mushroom Salad, etc.</desc>
+		</item>
+		<item>
+			<id>9063</id>
+			<name>Butter</name>
+			<icon>00009063.png</icon>
+			<desc>An ingredient used in Cooking. It can be created by Shaking salt with the cream obtained from Shaking milk.\n\n- Usage: Cheese Pie, Seafood Grilled with Butter</desc>
+		</item>
+		<item>
+			<id>9001</id>
+			<name>Salt</name>
+			<icon>00009001.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9015</id>
+			<name>Olive Oil</name>
+			<icon>00009015.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

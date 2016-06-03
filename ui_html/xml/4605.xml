@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4605</itemKey>
+	<itemName>Log</itemName>
+	<itemIcon>00004605.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n- How to Obtain: It can be obtained by Lumbering trees grown in every region.</itemDesc>
+	<collect>
+		<character>
+			<name>Acacia Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ash Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Birch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Cedar Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Fir</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Maple</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Pine Tree</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>White Cedar</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>16150</id>
+			<name>Old Fishing Rod</name>
+			<icon>00016150.png</icon>
+			<desc>A Gathering Tool made for catching fish in rivers or oceans.</desc>
+		</item>
+		<item>
+			<id>4669</id>
+			<name>Usable Scantling</name>
+			<icon>00004669.png</icon>
+			<desc>Timber required for Construction.\n\n- How to Obtain: It can be also be obtained by Chopping Logs received from trees Lumbered in any region.</desc>
+		</item>
+		<item>
+			<id>3718</id>
+			<name>Intermediate Cooking Utensil</name>
+			<icon>Crafting_Cooking_02.png</icon>
+			<desc>An medium-grade tool used for Cooking.\n- It can be installed in a residence.</desc>
+		</item>
+		<item>
+			<id>3702</id>
+			<name>Intermediate Alchemy Tool</name>
+			<icon>Crafting_Alchemy_02.png</icon>
+			<desc>A tool that can reconstruct the components in a substance.\n- It can be installed in a residence.</desc>
+		</item>
+		<item>
+			<id>2014</id>
+			<name>Velian Handcrafted High-Quality Bedside Table</name>
+			<icon>InHouse_D_DFF_Chest_01.png</icon>
+			<desc>A high-quality, handcrafted bedside table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2012</id>
+			<name>Heidel Handcrafted High-Quality Bedside Table</name>
+			<icon>InHouse_B_DFF_Chest_01.png</icon>
+			<desc>A high-quality, handcrafted bedside table from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2006</id>
+			<name>Calpheon Handcrafted Drawer</name>
+			<icon>InHouse_F_DFF_Dresser_01.png</icon>
+			<desc>A handcrafted drawer from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2004</id>
+			<name>Velian handmade High-Quality Drawers</name>
+			<icon>InHouse_D_DFF_Dresser_01.png</icon>
+			<desc>A high-quality, handcrafted drawer from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2002</id>
+			<name>Heidel Handcrafted High-Quality Drawers</name>
+			<icon>InHouse_B_DFF_Dresser_01.png</icon>
+			<desc>A high-quality, handcrafted drawer from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2106</id>
+			<name>Calpheon Handcrafted Wardrobe</name>
+			<icon>InHouse_F_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2104</id>
+			<name>Velian Handcrafted Wardrobe</name>
+			<icon>InHouse_D_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2102</id>
+			<name>Heidel Handcrafted Wardrobe</name>
+			<icon>InHouse_B_DFF_Closet_01.png</icon>
+			<desc>A handcrafted wardrobe from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2306</id>
+			<name>Calpheon Handcrafted Chair</name>
+			<icon>InHouse_F_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2304</id>
+			<name>Velian Handcrafted Chair</name>
+			<icon>InHouse_D_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2016</id>
+			<name>Calpheon Handcrafted Cabinet</name>
+			<icon>InHouse_F_DFF_Chest_01.png</icon>
+			<desc>A handcrafted bedside table from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2302</id>
+			<name>Heidel Handcrafted Chair</name>
+			<icon>InHouse_B_DFF_Chair_01.png</icon>
+			<desc>A handcrafted chair from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2206</id>
+			<name>Calpheon Handcrafted Dining Table</name>
+			<icon>InHouse_F_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Calpheon.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2204</id>
+			<name>Velian Handcrafted Dining Table</name>
+			<icon>InHouse_D_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Velia.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>2202</id>
+			<name>Heidel Handcrafted Dining Table</name>
+			<icon>InHouse_B_DFF_Table_01.png</icon>
+			<desc>A handcrafted dining table from Heidel.\n- 4 Set Effect: Interior Points +200</desc>
+		</item>
+		<item>
+			<id>16911</id>
+			<name>Waterway</name>
+			<icon>00016911.png</icon>
+			<desc>Installing a Waterway in a Garden will reduce the amount of water consumed.\n(Right-click to display the closest Fence Exchange location)</desc>
+		</item>
+		<item>
+			<id>16910</id>
+			<name>Scarecrow</name>
+			<icon>00016910.png</icon>
+			<desc>Installing a Scarecrow in a Garden will decrease the rate of bird attacks.\n(Right-click to display the closest Fence Exchange location)</desc>
+		</item>
+		<item>
+			<id>49005</id>
+			<name>Ship License: Raft</name>
+			<icon>00049005.png</icon>
+			<desc>Proof of ownership of a  at the Wharf.\n- Inventory Slot(s): 4, Acceleration: 100%, Speed: 100%, Turn: 100%, Braking: 100%\nIt can be used after reaching Lv.8.\n\n※ Using a Ship License\n 1. Right-click the Ship License and move to the designated Wharf.\n 2. Talk to the Ferry Crossing Keeper and select the Wharf menu.\n 3. Click on the Register Ship menu and right-click on the Ship License.\n 4. Enter the ship’s name and push Confirm to register the ship.\n 5. Select the registered ship and click on the Find menu.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

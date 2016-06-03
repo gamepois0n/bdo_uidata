@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9061</itemKey>
+	<itemName>Crème</itemName>
+	<itemIcon>00009061.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sucre au lait obtenu lors d&apos;une quête dans une ferme.\n\n- Utilisation : tarte aux fruits, soupe de poisson, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_SHAKE">
+		<item>
+			<id>9002</id>
+			<name>Sucre</name>
+			<icon>00009002.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine.Vous pouvez l&apos;acheter à un marchand de nourriture ou à un aubergiste.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Lait</name>
+			<icon>00009065.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le recevoir lors d&apos;une requête dans une ferme.Il peut être transformé en d&apos;autres ingrédients.\n\n- Utilisation : crème, fromage, pudding aux fruits, etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>9063</id>
+			<name>Beurre</name>
+			<icon>00009063.png</icon>
+			<desc>Un ingrédient utilisé pour la cuisine. Vous pouvez le produire en mélangeant du sel et la crème obtenue en mélangeant du lait.\n\n- Utilisation : tarte au fromage, fruits de mer grillés au beurre</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

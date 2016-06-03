@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7703</itemKey>
+	<itemName>Miel de cuisine de haute qualité</itemName>
+	<itemIcon>00007703.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé utilisé en cuisine.\n- Obtention : il s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche et en la raffinant.\n\n- Utilisation : flocons d&apos;avoine, thé au parfum délicat, etc.</itemDesc>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>7701</id>
+			<name>Ruche sauvage</name>
+			<icon>00007701.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en cuisine.\n- Obtention : s&apos;obtient en tirant sur une ruche en bois avec une platine à mèche.\n\n- Utilisation : biscuit au miel, etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

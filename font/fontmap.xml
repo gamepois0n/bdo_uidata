@@ -1,0 +1,207 @@
+﻿<!-- FileName 에는 절대경로나 bin64 기준 상대경로가 들어올 수 있습니다. UI_Data\Font\font.ttf 에 접근하려면 ..\UI_Data\Font\font.ttf -->
+
+<!-- 최 상단에 있는 Font 가 BaseFont 로 자동 세팅 되므로 항상 이 폰트를 최상단에 둘 것!! -->
+<Font Name="BaseFont" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="14">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Outline"/>
+	<Attribute Type="OutlineColor" Value="FF222222"/>
+</Font>
+<Font Name="BaseFont_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="14">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+<Font Name="BaseFont_10" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="14">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+</Font>
+<Font Name="BaseFont_10_Bold" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="12">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+</Font>
+<Font Name="BaseFont_10_Normal" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="14">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+</Font>
+<Font Name="BaseFont_10_Line" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="14">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Outline"/>
+	<Attribute Type="OutlineColor" Value="FF000000"/>
+</Font>
+<Font Name="BaseFont_10_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="14">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+<Font Name="BaseFont_8" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="12">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+</Font>
+<Font Name="BaseFont_8_Bold" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="12">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+</Font>
+<Font Name="BaseFont_8_Line" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="12">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="2"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Outline"/>
+	<Attribute Type="OutlineColor" Value="FF222222"/>
+</Font>
+<Font Name="BaseFont_8_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="12">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+<Font Name="BaseFont_7_Bold" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="10">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+</Font>
+
+
+<Font Name="BaseFont_6" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="8">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+</Font>
+
+
+<Font Name="BaseFont_12" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="17">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="3"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+	<!--Attribute Type="RenderType" Value="Outline"-->
+</Font>
+<Font Name="BaseFont_12_Yellow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="17">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="3"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Outline"/>
+	<Attribute Type="OutlineColor" Value="FFca2913"/>
+</Font>
+<Font Name="BaseFont_12_Bold" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="17">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="3"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+</Font>
+<Font Name="BaseFont_12_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="17">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="3"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+
+<Font Name="SubTitleFont_14" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="20">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+</Font>
+<Font Name="SubTitleFont_14_Bold" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="20">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+</Font>
+<Font Name="SubTitleFont_14_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="20">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+
+<Font Name="TitleFont_18" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="25">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+</Font>
+<Font Name="BaseFont_18_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="25">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="4"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+
+
+<Font Name="TitleFont_22" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="30">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="5"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+</Font>
+<Font Name="BaseFont_22_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="30">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="5"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+
+
+<Font Name="HeaderFont_26" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="36">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="5"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Shadow"/>
+</Font>
+<Font Name="BaseFont_26_Glow" FileName="../UI_Data/Font/Pearl.ttf" Index="0" Size="36">
+	<Attribute Type="WidthSpan" Value="0"/>
+	<Attribute Type="HeightSpan" Value="5"/>
+	<Attribute Type="WidthBold" Value="0"/>
+	<Attribute Type="HeightBold" Value="0"/>
+	<Attribute Type="RenderType" Value="Glow"/>
+</Font>
+
+
+
+
+
+

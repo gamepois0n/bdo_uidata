@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>13005</itemKey>
+	<itemName>Colifichet de lame</itemName>
+	<itemIcon>00010706.png</itemIcon>
+	<itemDesc>Un colifichet avec une lame décorative attachée.</itemDesc>
+	<shop>
+		<character>
+			<name>Ronatz</name>
+		</character>
+	</shop>
+	<house type="6">
+		<item>
+			<id>4055</id>
+			<name>Lingot de plomb</name>
+			<icon>00004055.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant des fragments de plomb fondu. Nécessite des connaissances en fonte : débutant.\n\n※ Trouvez Flaviano à Heidel et terminez la quête d&apos;eau purifiée pour une expérience pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 4 d&apos;apprenti en récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Cristal de fer pur</name>
+			<icon>00004053.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de fer. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5851</id>
+			<name>Fil de coton</name>
+			<icon>00005851.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en chauffant du coton.</desc>
+		</item>
+		<item>
+			<id>4804</id>
+			<name>Poudre de la terre</name>
+			<icon>00004804.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>13005</id>
+			<name>Colifichet de lame</name>
+			<icon>00010706.png</icon>
+			<desc>Un colifichet avec une lame décorative attachée.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>13017</id>
+			<name>Colifichet de lame ultime</name>
+			<icon>00010707.png</icon>
+			<desc>Un colifichet de lame qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet de lame de la flamme pourpre, colifichet de lame de destruction, colifichet de lame de tentation, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13016</id>
+			<name>Colifichet de lame de tentation</name>
+			<icon>00010706.png</icon>
+			<desc>Ce colifichet de lame renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet de lame de tentation, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13015</id>
+			<name>Colifichet de lame de destruction</name>
+			<icon>00010706.png</icon>
+			<desc>Ce colifichet de lame renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet de lame de destruction, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13014</id>
+			<name>Colifichet de lame de la flamme pourpre</name>
+			<icon>00010706.png</icon>
+			<desc>Ce colifichet de lame renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet de lame de la flamme pourpre, colifichet de lame</desc>
+		</item>
+		<item>
+			<id>13005</id>
+			<name>Colifichet de lame</name>
+			<icon>00010706.png</icon>
+			<desc>Un colifichet avec une lame décorative attachée.</desc>
+		</item>
+		<item>
+			<id>4054</id>
+			<name>Fragment de plomb fondu</name>
+			<icon>00004054.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du minerai de plomb.</desc>
+		</item>
+		<item>
+			<id>4053</id>
+			<name>Cristal de fer pur</name>
+			<icon>00004053.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de fer. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

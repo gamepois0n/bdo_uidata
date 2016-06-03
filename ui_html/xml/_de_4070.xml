@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4070</itemKey>
+	<itemName>Verarbeitete Kohle</itemName>
+	<itemIcon>00004070.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kohle gewonnen werden.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4007</id>
+			<name>Kohle</name>
+			<icon>00004007.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Keplansteinbruch, Glutonihöhle, Omar-Lavahöhle. Kann mithilfe einer Spitzhacke gesammelt werden.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55864</id>
+			<name>Ein paar Kohlen</name>
+			<icon>00055864.png</icon>
+			<desc>Kohle ist ein hochwertiger Brennstoff, den sich nur die Reichen leisten können.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

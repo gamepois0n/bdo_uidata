@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4059</itemKey>
+	<itemName>Reiner Kupferkristall</itemName>
+	<itemIcon>00004059.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von durch Alchemie gewonnene Metall-Lösungsmittel und Kupferbarren gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Geselle.\n\nSucht Vatudun in Keplan auf und vollendet die Quest Materialien für Talente, um das entsprechende Wissen zu erhalten.\n\n※ Um die entsprechende Quest vollenden zu können, müsst Ihr über Sammelkenner St. 10 und Verarbeitungskenner St. 5 verfügen. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4058</id>
+			<name>Kupferbarren</name>
+			<icon>00004058.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von geschmolzenen Kupfersplittern gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4076</id>
+			<name>Metall-Lösungsmittel</name>
+			<icon>00004076.png</icon>
+			<desc>Ein Material, das für eine Verarbeitungsmethode genutzt wird, bei der Metalle in Kristalle verwandelt werden.\n\n– Gewinnung: Kann mithilfe von Alchemie gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10303</id>
+			<name>Bronzedolch</name>
+			<icon>00010303.png</icon>
+			<desc>Ein bronzener Dolch.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10305</id>
+			<name>Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein Dolch, mit dem Angriffe pariert werden können.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10503</id>
+			<name>Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein Talisman, in den ein magischer Edelstein eingelassen ist.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10505</id>
+			<name>Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein Talisman mit verstärkten Verteidigungseigenschaften.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>10308</id>
+			<name>Bronzedolch der Versuchung</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Versuchung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Bronzedolch der Zerstörung</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Zerstörung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Bronzedolch der Purpurnen Flamme</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Purpurnen Flamme, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10305</id>
+			<name>Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein Dolch, mit dem Angriffe pariert werden können.</desc>
+		</item>
+		<item>
+			<id>10314</id>
+			<name>Parierdolch der Purpurnen Flamme</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10309</id>
+			<name>Ultimativer Bronzedolch</name>
+			<icon>00010303.png</icon>
+			<desc>Ein maximal aufgerüsteter Bronzedolch.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Purpurnen Flamme, Bronzedolch der Zerstörung, Bronzedolch der Versuchung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10317</id>
+			<name>Ultimativer Parierdolch</name>
+			<icon>00010305.png</icon>
+			<desc>Ein maximal aufgerüsteter Parierdolch.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Purpurnen Flamme, Parierdolch der Zerstörung, Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10316</id>
+			<name>Parierdolch der Versuchung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Versuchung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10315</id>
+			<name>Parierdolch der Zerstörung</name>
+			<icon>00010305.png</icon>
+			<desc>Dieser Parierdolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Parierdolch der Zerstörung, Parierdolch</desc>
+		</item>
+		<item>
+			<id>10423</id>
+			<name>Ultimativer Aswell-Fokusreif</name>
+			<icon>00010405.png</icon>
+			<desc>Ein maximal aufgerüsteter Aswell-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Purpurnen Flamme, Aswell-Fokusreif der Zerstörung, Aswell-Fokusreif der Versuchung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10405</id>
+			<name>Aswell-Fokusreif</name>
+			<icon>00010405.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Fokusreif.</desc>
+		</item>
+		<item>
+			<id>10517</id>
+			<name>Ultimativer Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein maximal aufgerüsteter Rhik-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman der Zerstörung, Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick-Talisman der Versuchung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick-Talisman der Zerstörung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Zerstörung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick-Talisman der Purpurnen Flamme</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10505</id>
+			<name>Rhik-Talisman</name>
+			<icon>00010505.png</icon>
+			<desc>Ein Talisman mit verstärkten Verteidigungseigenschaften.</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein Talisman, in den ein magischer Edelstein eingelassen ist.</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Ultimativer Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein maximal aufgerüsteter Helrick-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman der Zerstörung, Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>53701</id>
+			<name>Abzeichen für Schäbigen Wagen</name>
+			<icon>00053607.png</icon>
+			<desc>Ein Banner für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>13205</id>
+			<name>Aswell-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestelltes Kurzschwert.</desc>
+		</item>
+		<item>
+			<id>13223</id>
+			<name>Ultimatives Aswell-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein maximal aufgerüstetes Aswell-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Kurzschwert der Purpurnen Flamme, Aswell-Kurzschwert der Zerstörung, Aswell-Kurzschwert der Versuchung, Aswell-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13222</id>
+			<name>Aswell-Kurzschwert der Versuchung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Aswell-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Kurzschwerts hergestellt werden.\n– Max. Haltbarkeit wiederherstellen: Aswell-Kurzschwert der Versuchung, Aswell-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13221</id>
+			<name>Aswell-Kurzschwert der Zerstörung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Aswell-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Kurzschwert der Zerstörung, Aswell-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13220</id>
+			<name>Aswell-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Aswell-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Kurzschwert der Purpurnen Flamme, Aswell-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>10303</id>
+			<name>Bronzedolch</name>
+			<icon>00010303.png</icon>
+			<desc>Ein bronzener Dolch.</desc>
+		</item>
+		<item>
+			<id>10422</id>
+			<name>Aswell-Fokusreif der Versuchung</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Versuchung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10421</id>
+			<name>Aswell-Fokusreif der Zerstörung</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Zerstörung, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10420</id>
+			<name>Aswell-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010405.png</icon>
+			<desc>Dieser Aswell-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Fokusreif der Purpurnen Flamme, Aswell-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10623</id>
+			<name>Ultimative Aswell-Axt</name>
+			<icon>00010605.png</icon>
+			<desc>Eine maximal aufgerüstete Aswell-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Aswell-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Axt der Purpurnen Flamme, Aswell-Axt der Zerstörung, Aswell-Axt der Versuchung, Aswell-Axt</desc>
+		</item>
+		<item>
+			<id>10622</id>
+			<name>Aswell-Axt der Versuchung</name>
+			<icon>00010605.png</icon>
+			<desc>Diese Aswell-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Aswell-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Axt der Versuchung, Aswell-Axt</desc>
+		</item>
+		<item>
+			<id>10621</id>
+			<name>Aswell-Axt der Zerstörung</name>
+			<icon>00010605.png</icon>
+			<desc>Diese Aswell-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Aswell-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Axt der Zerstörung, Aswell-Axt</desc>
+		</item>
+		<item>
+			<id>10620</id>
+			<name>Aswell-Axt der Purpurnen Flamme</name>
+			<icon>00010605.png</icon>
+			<desc>Diese Aswell-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Aswell-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Axt der Purpurnen Flamme, Aswell-Axt</desc>
+		</item>
+		<item>
+			<id>16162</id>
+			<name>Balenos-Angelrute</name>
+			<icon>00016162.png</icon>
+			<desc>Balenos-Angelrute. Verkürzt automatische Fischfangzeit.\nKann mit einem Schwarzstein (Waffe) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>14423</id>
+			<name>Ultimativer Aswell-Stab</name>
+			<icon>00014405.png</icon>
+			<desc>Ein maximal aufgerüsteter Aswell-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Purpurnen Flamme, Aswell-Stab der Zerstörung, Aswell-Stab der Versuchung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14422</id>
+			<name>Aswell-Stab der Versuchung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Versuchung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14421</id>
+			<name>Aswell-Stab der Zerstörung</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Zerstörung, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14420</id>
+			<name>Aswell-Stab der Purpurnen Flamme</name>
+			<icon>00014405.png</icon>
+			<desc>Dieser Aswell-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Stab der Purpurnen Flamme, Aswell-Stab</desc>
+		</item>
+		<item>
+			<id>14405</id>
+			<name>Aswell-Stab</name>
+			<icon>00014405.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Stab.</desc>
+		</item>
+		<item>
+			<id>10222</id>
+			<name>Aswell-Langbogen der Versuchung</name>
+			<icon>00010205.png</icon>
+			<desc>Dieser Aswell-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langbogen der Versuchung, Aswell-Langbogen</desc>
+		</item>
+		<item>
+			<id>10221</id>
+			<name>Aswell-Langbogen der Zerstörung</name>
+			<icon>00010205.png</icon>
+			<desc>Dieser Aswell-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langbogen der Zerstörung, Aswell-Langbogen</desc>
+		</item>
+		<item>
+			<id>10220</id>
+			<name>Aswell-Langbogen der Purpurnen Flamme</name>
+			<icon>00010205.png</icon>
+			<desc>Dieser Aswell-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langbogen der Purpurnen Flamme, Aswell-Langbogen</desc>
+		</item>
+		<item>
+			<id>10516</id>
+			<name>Rhik-Talisman der Versuchung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Versuchung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10515</id>
+			<name>Rhik-Talisman der Zerstörung</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Zerstörung, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10514</id>
+			<name>Rhik-Talisman der Purpurnen Flamme</name>
+			<icon>00010505.png</icon>
+			<desc>Dieser Rhik-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Rhik-Talisman der Purpurnen Flamme, Rhik-Talisman</desc>
+		</item>
+		<item>
+			<id>10223</id>
+			<name>Ultimativer Aswell-Langbogen</name>
+			<icon>00010205.png</icon>
+			<desc>Ein maximal aufgerüsteter Aswell-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langbogen der Purpurnen Flamme, Aswell-Langbogen der Zerstörung, Aswell-Langbogen der Versuchung, Aswell-Langbogen</desc>
+		</item>
+		<item>
+			<id>10205</id>
+			<name>Aswell-Langbogen</name>
+			<icon>00010205.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestellter Langbogen.</desc>
+		</item>
+		<item>
+			<id>10605</id>
+			<name>Aswell-Axt</name>
+			<icon>00010605.png</icon>
+			<desc>Eine speziell für den Milizenanführer hergestellte Axt.</desc>
+		</item>
+		<item>
+			<id>10023</id>
+			<name>Ultimatives Aswell-Langschwert</name>
+			<icon>00010005.png</icon>
+			<desc>Ein maximal aufgerüstetes Aswell-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Aswell-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langschwert der Purpurnen Flamme, Aswell-Langschwert der Zerstörung, Aswell-Langschwert der Versuchung, Aswell-Langschwert</desc>
+		</item>
+		<item>
+			<id>10022</id>
+			<name>Aswell-Langschwert der Versuchung</name>
+			<icon>00010005.png</icon>
+			<desc>Dieses Aswell-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Aswell-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langschwert der Versuchung, Aswell-Langschwert</desc>
+		</item>
+		<item>
+			<id>10021</id>
+			<name>Aswell-Langschwert der Zerstörung</name>
+			<icon>00010005.png</icon>
+			<desc>Dieses Aswell-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Aswell-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langschwert der Zerstörung, Aswell-Langschwert</desc>
+		</item>
+		<item>
+			<id>10020</id>
+			<name>Aswell-Langschwert der Purpurnen Flamme</name>
+			<icon>00010005.png</icon>
+			<desc>Dieses Aswell-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Aswell-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Aswell-Langschwert der Purpurnen Flamme, Aswell-Langschwert</desc>
+		</item>
+		<item>
+			<id>10005</id>
+			<name>Aswell-Langschwert</name>
+			<icon>00010005.png</icon>
+			<desc>Ein speziell für den Milizenanführer hergestelltes Langschwert.</desc>
+		</item>
+		<item>
+			<id>24005</id>
+			<name>[Musikautomat] Gebet der Zeit</name>
+			<icon>InHouse_X_DPF_JukeBox_02.png</icon>
+			<desc>Ein Musikautomat, der das Titellied des Gebets der Zeit spielt.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

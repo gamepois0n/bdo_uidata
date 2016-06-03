@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4408</itemKey>
+	<itemName>Roter Rohkristall</itemName>
+	<itemIcon>00004408.png</itemIcon>
+	<itemDesc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden. Das Sammeln von Rotem Rohkristall erfordert eine gewisse Talentstufe.\n– Gewinnung: Kann in der Nähe der Khurutohöhle gesammelt werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Rotquarz</name>
+		</character>
+	</collect>
+	<node region="Khurutohöhle – Bergbau"/>
+	<node region="Antiker Riss – Bergbau"/>
+	<makelist>
+		<item>
+			<id>4468</id>
+			<name>Roter Kristall</name>
+			<icon>00004468.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann durch die Erhitzung von in der Nähe der Khurutohöhle gefundenem Roten Rohkristall gewonnen werden.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

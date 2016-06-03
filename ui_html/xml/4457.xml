@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4457</itemKey>
+	<itemName>Topaz</itemName>
+	<itemIcon>00004457.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding Rough Topaz.</itemDesc>
+	<collect>
+		<character>
+			<name>Topaz</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Whale Carcass</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4403</id>
+			<name>Rough Topaz</name>
+			<icon>00004403.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Topaz Ore requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11606</id>
+			<name>Talis Necklace</name>
+			<icon>00011606.png</icon>
+			<desc>A necklace infused with the energy of steel.\nIt can be Enhanced with the same type of necklace, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>11806</id>
+			<name>Talis Earring</name>
+			<icon>00011806.png</icon>
+			<desc>A set of Earrings infused with the energy of steel.\nIt can be Enhanced with the same type of earring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12006</id>
+			<name>Talis Ring</name>
+			<icon>00012006.png</icon>
+			<desc>A ring infused with the energy of steel.\nIt can be Enhanced with the same type of ring, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>12206</id>
+			<name>Talis Belt</name>
+			<icon>00012206.png</icon>
+			<desc>A belt infused with the energy of steel.\nIt can be Enhanced with the same type of belt, but if Enhancement fails, both will be lost.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>12113</id>
+			<name>Gold Topaz Ring</name>
+			<icon>00012113.png</icon>
+			<desc>A ring decorated with a Gold Topaz.</desc>
+		</item>
+		<item>
+			<id>12112</id>
+			<name>Resplendent Topaz Ring</name>
+			<icon>00012112.png</icon>
+			<desc>A ring decorated with a Resplendent Topaz.</desc>
+		</item>
+		<item>
+			<id>11713</id>
+			<name>Gold Topaz Necklace</name>
+			<icon>00011713.png</icon>
+			<desc>A necklace decorated with a Gold Topaz.</desc>
+		</item>
+		<item>
+			<id>11712</id>
+			<name>Resplendent Topaz Necklace</name>
+			<icon>00011712.png</icon>
+			<desc>A necklace decorated with a Resplendent Topaz.</desc>
+		</item>
+		<item>
+			<id>11913</id>
+			<name>Gold Topaz Earrings</name>
+			<icon>00011913.png</icon>
+			<desc>An earring decorated with a Gold Topaz.</desc>
+		</item>
+		<item>
+			<id>11912</id>
+			<name>Resplendent Topaz Earrings</name>
+			<icon>00011912.png</icon>
+			<desc>An earring decorated with a Resplendent Topaz.</desc>
+		</item>
+		<item>
+			<id>4458</id>
+			<name>Resplendent Topaz</name>
+			<icon>00004458.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Grinding a Rough Topaz. It requires the knowledge of Grinding: Beginner.\n\n※ Find Ornella in Heidel and complete the Materials for Equipment Repair Quest to obtain related knowledge.\n\n※ In order to perform the Quest for Beginner Processing knowledge, achieve Gathering Level 14 or higher and visit Ficy in Heidel to complete the corresponding Quest. Refer to the Black Spirit Guide (/key) for detailed information.</desc>
+		</item>
+		<item>
+			<id>24129</id>
+			<name>Tin Candelabra with Four Candles</name>
+			<icon>InHouse_X_DPFO_Candlestick_03_light.png</icon>
+			<desc>A tin candelabra with 4 candles attached.</desc>
+		</item>
+		<item>
+			<id>24128</id>
+			<name>Brass Candelabra with Four Candles</name>
+			<icon>InHouse_X_DPFO_Candlestick_03b_light.png</icon>
+			<desc>A brass candelabra with 4 candles attached.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

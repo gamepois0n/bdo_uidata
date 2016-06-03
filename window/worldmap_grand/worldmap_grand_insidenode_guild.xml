@@ -1,0 +1,58 @@
+<UI>
+	<Control Type="Panel" Name="Worldmap_Grand_InSideNode" Pos="-1 1" Size="200 215" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 215">
+		<Control Type="Static" Name="NodeInfo_Bg" Pos="Left Top" Size="200 215" Pan="0 0" Color="ffffffff" EnableArea="0 0 200 215" Grid="1" GridPosX="0 10 190 200" GridPosY="0 10 205 215" GridUVX="0 10 52 62" GridUVY="0 10 52 62" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_Title" Pos="Left Top" Size="240 6" Pan="-26 32" Color="ffffffff" EnableArea="0 0 240 6" Grid="1" GridPosX="0 80 180 240" GridPosY="0 0 6 6" GridUVX="0 80 389 469" GridUVY="0 0 6 6">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 469 0 0 6 469 6" Ani="1 1 0.000 0">new_ui_common_forlua/default/partline.dds</Texture>
+			<Text Value="소유 길드 정보" formatString="PANEL_WORLDMAP_GRAND_INSIDENODE_GUILD_OWNGUILDINFO" Font="BaseFont_12" Color="ffc4a68a" OverColor="ffc4a68a" ClickColor="ffc4a68a" AlignHorizon="Center" AlignVertical="Bottom" Span="0 10"/>
+		</Control>
+		<Control Type="Static" Name="NodeInfo_Static_GuildMarkBG" Pos="Left Top" Size="40 40" Pan="9 43" Color="ffffffff" EnableArea="0 0 40 40" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="0 0 40 0 0 40 40 40" Ani="1 1 0.000 0">new_ui_common_forlua/widget/worldmap/nowarguildbackground.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="NodeInfo_Static_GuildMark" Pos="Left Top" Size="40 40" Pan="9 43" Color="ffffffff" EnableArea="0 0 40 40" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_StaticText_GuildName" Pos="Left Top" Size="130 20" Pan="55 43" Color="ffffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="길드명 : " formatString="PANEL_WORLDMAP_GRAND_INSIDENODE_GUILD_NAME" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_StaticText_GuildName_Value" Pos="Left Top" Size="140 20" Pan="55 59" Color="ffffffff" EnableArea="0 0 140 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_StaticText_GuildMaster" Pos="Left Top" Size="50 20" Pan="7 88" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="대   장 : " formatString="PANEL_WORLDMAP_GRAND_INSIDENODE_GUILD_MASTER" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_StaticText_GuildMaster_Value" Pos="Left Top" Size="140 20" Pan="59 88" Color="ffffffff" EnableArea="0 0 140 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_StaticText_HasDate" Pos="Left Top" Size="50 20" Pan="7 108" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="점령일 : " formatString="PANEL_WORLDMAP_GRAND_INSIDENODE_GUILD_DATE" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_StaticText_HasDate_Value" Pos="Left Top" Size="130 20" Pan="59 108" Color="ffffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="2015년 12월 29일 20시" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_StaticText_NowWar" Pos="Center Top" Size="130 20" Pan="0 103" Color="ffffffff" EnableArea="0 0 130 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="-개 길드가 참여중입니다." Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_NodeBonus" Pos="Left Top" Size="190 70" Pan="5 140" Color="ffffffff" EnableArea="0 0 190 70" Grid="1" GridPosX="0 10 180 190" GridPosY="0 10 60 70" GridUVX="0 10 52 62" GridUVY="0 10 52 62">
+			<Attribute Type="Ignore"/>
+			<Texture Type="Base" UV="190 64 190 64 190 126 190 126" Ani="1 1 0.000 0">new_ui_common_forlua/default/blackpanel_series.dds</Texture>
+			<Text Value="점령 혜택" formatString="PANEL_WORLDMAP_GRAND_INSIDENODE_GUILD_BOON" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Top" Span="10 5"/>
+		</Control>
+		<Control Type="StaticText" Name="NodeInfo_NodeBonus_Value" Pos="Left Top" Size="180 20" Pan="10 170" Color="ffffffff" EnableArea="0 0 180 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="세금 혜택 : -\n생산량 혜택 : -" Font="BaseFont_10" Color="ffefefef" OverColor="ffefefef" ClickColor="ffefefef" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

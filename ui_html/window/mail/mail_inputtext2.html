@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body style="margin: 0 0 0 0;background-color:#000000">
+		<script type="text/javascript" src="../../javascript/coherent.js"></script>
+		<script type="text/javascript" src="../../javascript/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			function setText()
+			{
+				var content = document.getElementById("text").value;
+				engine.call( "SetText", content );
+			}
+			
+			function clearText()
+			{
+				var content = document.getElementById("text").value;
+				content = "";
+			}
+			
+			function clickSubmit()
+			{
+				var inventorySlotNo 	= Number(document.getElementById("inventorySlotNo").value);
+				var subject 			= document.getElementById("subject_InputValue").value;
+				var toSomeone 		    = document.getElementById("toUser_InputValue").value;
+				var mailContents 	    = document.getElementById("contents_Contents").value; 
+
+				engine.call("SendMail", inventorySlotNo, subject, toSomeone, mailContents )
+
+				//SendMail( self._inventorySlotNo, receiveCharactername, title, contents )
+			}
+			function clickCancel()
+			{
+				
+			}
+			
+			engine.on('InventorySlotNo', function (inventorySlotNo){
+				document.getElementById("inventorySlotNo").value = inventorySlotNo; 
+			});
+			
+			engine.on( "GetText", setText )
+			engine.on( "ClearText", clearText )
+		</script>
+		<form action="" method="post">
+			<input type="hidden" id="inventorySlotNo">
+			
+			<div id="subject" style="color:white;background-color:#000000;">
+				<div id="subject_Title" style="width:80px;float:left;">제목</div>
+				<div id="subject_Input" style="width:220px;float:right;">
+					<input type="text" id="subject_InputValue" size="20" maxlength="24" style="width:220px;color:white;background-color:#000000;" />
+				</div>
+			</div>
+			<div id="toUser" style="color:white;background-color:#000000;">
+				<div id="toUser_Title" style="width:80px;float:left;">받는사람</div>
+				<div id="toUser_Input" style="width:220px;float:right;">
+					<input type="text" id="toUser_InputValue" size="20" maxlength="24" style="width:220px;color:white;background-color:#000000;" />
+				</div>
+			</div>
+			<div id="contents" style="color:white;background-color:#000000;">
+				<Textarea id="contents_Contents" wrap="soft" style="resize:none;width:330px;height:370px;color:white;background-color:#000000;"></Textarea>
+			</div>
+			<div id="buttons" style="color:white;background-color:#000000;text-align: center;">
+				<input type="submit" value="보내기" onclick="clickSubmit();"><button type="button" onclick="clickCancle();">취소</button>
+			</div>
+		</form>
+	</body>
+</html>

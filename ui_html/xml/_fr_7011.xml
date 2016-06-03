@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7011</itemKey>
+	<itemName>Blé spécial</itemName>
+	<itemIcon>00007001.png</itemIcon>
+	<itemDesc>Un ingrédient utilisé en cuisine. Il s&apos;obtient en plantant des semences.\n- Obtention : les graines s&apos;obtiennent par sélection de végétaux dans un jardin.\n\n- Utilisation : bière, soupe de céréales, vinaigre, etc.</itemDesc>
+	<makelist>
+		<item>
+			<id>567</id>
+			<name>Jus de grains concentré</name>
+			<icon>00000567.png</icon>
+			<desc>Restaure instantanément les PM par +125 à l&apos;utilisation.\n- Temps de recharge : 4 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>566</id>
+			<name>Jus de grain</name>
+			<icon>00000566.png</icon>
+			<desc>Restaure instantanément les PM par +75 à l&apos;utilisation.\n- Temps de recharge : 4 sec.\n- Pèse moins qu&apos;une potion normale.</desc>
+		</item>
+		<item>
+			<id>7101</id>
+			<name>Farine de blé</name>
+			<icon>00007101.png</icon>
+			<desc>Une farine fine obtenue par meulage.\n- Obtention : elle peut s&apos;obtenir en meulant du blé.\n\n- Utilisation : essence de liqueur, ragoût à la viande, flocons d&apos;avoine, etc.</desc>
+		</item>
+		<item>
+			<id>7593</id>
+			<name>Caisse de blé spéciale</name>
+			<icon>00007425.png</icon>
+			<desc>Une récolte transformée pour être vendue à bon prix. Elle peut être vendue à des marchands.\n- Obtention : elle peut être préparée à un établi.</desc>
+		</item>
+		<item>
+			<id>16901</id>
+			<name>Engrais minéral</name>
+			<icon>00016901.png</icon>
+			<desc>Augmente la croissance des cultures alentours. Utiliser un engrais avant de planter réduit le temps de pousse des cultures.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

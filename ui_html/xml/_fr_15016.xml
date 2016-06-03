@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>15016</itemKey>
+	<itemName>Cristal magique du soleil (Bravoure)</itemName>
+	<itemIcon>00045033.png</itemIcon>
+	<itemDesc>Un cristal de pierre noire qui peut être transposé dans des châsses de gant. \n- Effet d&apos;objet : taux de coups critiques +1\n※ Ce cristal magique a de grandes chances de se briser à la mort de votre personnage.\n\n- Les objets peuvent être transposés grâce à l&apos;esprit occulte.</itemDesc>
+	<shop>
+		<character>
+			<name>Marsella</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Corin</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<script type="text/javascript" src="javascript/coherent.js"></script>
+		<!-- Uncomment the following meta tag if you have issues rendering this page on an intranet or local site. -->    
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+		<script type="text/javascript">
+			document.addEventListener("DOMContentLoaded", function () {
+				init();
+			}, false);
+
+			function init() {        // Master function, encapsulates all functions
+				var guideMovie_640 = document.getElementById("guideMovie_640");   
+				guideMovie_640.play();
+				//guideMovie_640.addEventListener("ended", function () {
+					//engine.trigger('OnEndMovie');
+				//}, false);
+			}// end of master       
+
+			//engine.on('OnEndMovie', function () {    alert('Bye');});
+			
+			engine.on('PlayMovie', function (movieName){
+				var guideMovie_640 = document.getElementById("guideMovie_640");  
+				guideMovie_640.src = movieName;
+				guideMovie_640.loop = "loop";
+				if(guideMovie_640.paused){
+					guideMovie_640.play();
+				}
+			});
+			
+			engine.on('StopMovie', function (movieName){
+				var guideMovie_640 = document.getElementById("guideMovie_640");
+				guideMovie_640.pause();
+			});
+			
+			engine.on('ControlAudio', function (audioVolume){
+				var guideMovie_640 = document.getElementById("guideMovie_640");
+				guideMovie_640.volume = audioVolume;
+			});
+			
+			engine.on('ShowControl', function (isShow){
+				var guideMovie_640 = document.getElementById("guideMovie_640");
+				
+				if(isShow == "true")
+				{
+					guideMovie_640.setAttribute("controls","controls")   
+				}
+				else
+				{
+					guideMovie_640.removeAttribute("controls")  
+				}
+				
+			});
+			
+		</script>
+	</head>
+	<body style="margin:0px;padding:0px;">
+		<video id="guideMovie_640" width="640" Height="480" style="background-color:black" controls>	
+		  <source src="" type='video/webm; codecs="vp8, vorbis"'>
+		</video>
+	</body>
+</html>

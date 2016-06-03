@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7308</itemKey>
+	<itemName>Sunflower</itemName>
+	<itemIcon>00007308.png</itemIcon>
+	<itemDesc>This Cooking ingredient can be obtained primarily by Farming.\nUsage: Tea With Fine Scent\n- How to Obtain: It can be obtained by Farming Sunflower Seeds in a Garden or by Gathering from Sunflowers using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but will cause pain.</itemDesc>
+	<collect>
+		<character>
+			<name>Sunflower</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7408</id>
+			<name>Sunflower Crate</name>
+			<icon>00007408.png</icon>
+			<desc>A crop that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

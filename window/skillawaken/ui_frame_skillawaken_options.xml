@@ -1,0 +1,39 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Frame_AwkOptions" Pos="50 50" Size="258 204" Pan="0 0" Color="ffffffff" EnableArea="0 0 258 204">
+		<Control Type="Frame" Name="Frame_OptionList" Pos="Right Bottom" Size="258 204" Pan="31 43" Color="ffffffff" EnableArea="0 0 258 204">
+			<Attribute Type="Ignore"/>
+			<Control Type="FrameContent" Name="Frame_2_Content" Pos="0 0" Size="258 204" Pan="0 0" Color="ffffffff" EnableArea="0 0 258 204">
+				<Attribute Type="Ignore"/>
+			</Control>
+			<Control Type="Scroll" Name="Frame_2_VerticalScroll" Pos="258 Top" Size="20 204" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 204" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 197 204" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_2_VerticalScroll_UpButton" Pos="0 -20" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_2_VerticalScroll_DownButton" Pos="0 204" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_2_VerticalScroll_CtrlButton" Pos="Center 0" Size="13 65" Pan="-5 0" Color="ffffffff" EnableArea="0 0 13 65" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 56 65" GridUVX="0 0 13 13" GridUVY="0 10 27 36" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_2_HorizontalScroll" Pos="0 204" Size="218 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 218 20">
+				<Attribute Type="Ignore"/>
+				<Attribute Type="Hide"/>
+				<Control Type="Button" Name="Frame_2_HorizontalScroll_UpButton" Pos="-20 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_2_HorizontalScroll_DownButton" Pos="218 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_2_HorizontalScroll_CtrlButton" Pos="-5 0" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+	</Control>
+</UI>
+

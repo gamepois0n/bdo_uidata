@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7914</itemKey>
+	<itemName>Viande de waragon</itemName>
+	<itemIcon>00007914.png</itemIcon>
+	<itemDesc>Une ressource naturelle obtenue par récolte et utilisée en cuisine.\n- Obtention : elle s&apos;obtient en découpant un waragon mort.</itemDesc>
+	<collect>
+		<character>
+			<name>Bébé waragon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Waragon</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Waragon explosif</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7920</id>
+			<name>Viande séchée rare</name>
+			<icon>00007920.png</icon>
+			<desc>Un encas séché pratique lors des longs voyages.\n- Obtention : s&apos;obtient en faisant sécher de la viande découpée.\n- Augmente légèrement les PV lorsqu&apos;on l&apos;utilise.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

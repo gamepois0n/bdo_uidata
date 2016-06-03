@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5419</itemKey>
+	<itemName>Amanita Mushroom</itemName>
+	<itemIcon>00005419.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering that can be used as an ingredient in Alchemy and Cooking.\n- How to Obtain: Amanita Mushrooms can be Gathered using Bare Hands or a Hoe.\n\n ※ Consuming this item without Cooking will grant a special buff, but you may be poisoned!</itemDesc>
+	<collect>
+		<character>
+			<name>Amanita Mushroom</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>7519</id>
+			<name>Amanita Mushroom Crate</name>
+			<icon>00007519.png</icon>
+			<desc>A mushroom that was Processed to increase its marketability. It can be sold to Traders.\n- How to Obtain: It can be Crafted using a Workbench.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

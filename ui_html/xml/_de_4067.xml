@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4067</itemKey>
+	<itemName>Bronzebarren</itemName>
+	<itemIcon>00004067.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die gemeinsame Erhitzung von Kupfer und Zinn gewonnen werden. Dies erfordert die Kenntnis Erhitzung – Anfänger.\n\n※ Sucht Flaviano in Heidel auf und vollendet die Quest Reines Wasser für ein Experiment, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 4 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4057</id>
+			<name>Geschmolzener Kupfersplitter</name>
+			<icon>00004057.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kupfererz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4060</id>
+			<name>Geschmolzener Zinnsplitter</name>
+			<icon>00004060.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinnerz gewonnen werden.</desc>
+		</item>
+	</manufacture>
+	<house type="17">
+		<item>
+			<id>4057</id>
+			<name>Geschmolzener Kupfersplitter</name>
+			<icon>00004057.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Kupfererz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>4060</id>
+			<name>Geschmolzener Zinnsplitter</name>
+			<icon>00004060.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch die Erhitzung von Zinnerz gewonnen werden.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>10308</id>
+			<name>Bronzedolch der Versuchung</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Versuchung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Bronzedolch der Zerstörung</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Zerstörung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Bronzedolch der Purpurnen Flamme</name>
+			<icon>00010303.png</icon>
+			<desc>Dieser Bronzedolch enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Purpurnen Flamme, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10309</id>
+			<name>Ultimativer Bronzedolch</name>
+			<icon>00010303.png</icon>
+			<desc>Ein maximal aufgerüsteter Bronzedolch.\n\n– Max. Haltbarkeit wiederherstellen: Bronzedolch der Purpurnen Flamme, Bronzedolch der Zerstörung, Bronzedolch der Versuchung, Bronzedolch</desc>
+		</item>
+		<item>
+			<id>10717</id>
+			<name>Ultimativer Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein maximal aufgerüsteter Theos-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Purpurnen Flamme, Theos-Schmuckknoten der Zerstörung, Theos-Schmuckknoten der Versuchung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10716</id>
+			<name>Theos-Schmuckknoten der Versuchung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Versuchung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10715</id>
+			<name>Theos-Schmuckknoten der Zerstörung</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Zerstörung, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10714</id>
+			<name>Theos-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010705.png</icon>
+			<desc>Dieser Theos-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Theos-Schmuckknoten der Purpurnen Flamme, Theos-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Helrick-Talisman der Versuchung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Helrick-Talisman der Zerstörung</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Zerstörung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Helrick-Talisman der Purpurnen Flamme</name>
+			<icon>00010503.png</icon>
+			<desc>Dieser Helrick-Talisman enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein Talisman, in den ein magischer Edelstein eingelassen ist.</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Ultimativer Helrick-Talisman</name>
+			<icon>00010503.png</icon>
+			<desc>Ein maximal aufgerüsteter Helrick-Talisman.\n\n– Max. Haltbarkeit wiederherstellen: Helrick-Talisman der Purpurnen Flamme, Helrick-Talisman der Zerstörung, Helrick-Talisman der Versuchung, Helrick-Talisman</desc>
+		</item>
+		<item>
+			<id>53501</id>
+			<name>Plane für Schäbigen Wagen</name>
+			<icon>00053501.png</icon>
+			<desc>Eine Plane für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53505</id>
+			<name>Plane für Handelswagen</name>
+			<icon>00053505.png</icon>
+			<desc>Eine Plane für einen vierrädrigen Wagen.\n\n– Ausrüstung für Vierrädriger Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>55848</id>
+			<name>Bronzebarrenkiste</name>
+			<icon>00055848.png</icon>
+			<desc>Handelsware, die 10 Bronzebarren enthält.</desc>
+		</item>
+		<item>
+			<id>49202</id>
+			<name>Frachtbehälter der Calpheon-Fähre</name>
+			<icon>00049202.png</icon>
+			<desc>Ein Frachtbehälter aus Calpheon, der an einer Fähre angebracht werden kann. Dies erlaubt dem Boot, größere Lasten zu transportieren.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nMax. Traglast +100 kg (noch nicht verfügbar)\n\n– Ausrüstung für Fähren\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16110</id>
+			<name>Verbesserter Flüssigkeitssammler</name>
+			<icon>00016110.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Tierblut oder Saft gesammelt wird.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16106</id>
+			<name>Scharfe Holzfälleraxt</name>
+			<icon>00016106.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16126</id>
+			<name>Spitze Spitzhacke</name>
+			<icon>00016126.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Erz aus Gestein gewonnen wird.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16122</id>
+			<name>Scharfes Gerbermesser</name>
+			<icon>00016122.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16118</id>
+			<name>Scharfes Schlachtermesser</name>
+			<icon>00016118.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16114</id>
+			<name>Bronzehacke</name>
+			<icon>00016114.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>51009</id>
+			<name>Wagenregistrierung: Leichter Wagen</name>
+			<icon>00051009.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Leichten Wagens』.\n– Inventarplätze: 6, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Bremse: 100 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>51001</id>
+			<name>Wagenregistrierung: Schäbiger Wagen</name>
+			<icon>00051001.png</icon>
+			<desc>Dient beim Stall als Nachweis über den Besitz eines 『Schäbigen Wagens』.\n– Inventarplätze: 8, Beschleunigung: 110 %, Geschwindigkeit: 110 %, Wenden: 120 %, Bremse: 120 %\nKann ab Stufe 8 verwendet werden.\n\n※ Verwendung einer Wagenlizenz:\n 1. Rechtsklickt auf die Wagenlizenz und begebt Euch zum angezeigten Stall.\n 2. Sprecht mit dem Stallwart und wählt „Stall“ aus.\n 3. Klickt auf die Schaltfläche zum Registrieren und rechtsklickt dann auf die Wagenlizenz.\n 4. Gebt den Namen des Wagens ein und bestätigt die Auswahl, um den Wagen zu registrieren.\n 5. Wählt den registrierten Wagen aus und klickt auf „Suchen“.</desc>
+		</item>
+		<item>
+			<id>49204</id>
+			<name>Fischerboot-Frachtbehälter</name>
+			<icon>00049204.png</icon>
+			<desc>Ein Frachtbehälter, der an einem Fischerboot angebracht werden kann. Dies erlaubt dem Boot, größere Lasten zu transportieren.\nWenn 3 oder mehr Setgegenstände ausgerüstet sind:\nBewegungsgeschwindigkeit +2 %\nGesamte VK +30 (noch nicht verfügbar)\n\n– Ausrüstung für Fischerboote\n\nKann mit einem Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>10303</id>
+			<name>Bronzedolch</name>
+			<icon>00010303.png</icon>
+			<desc>Ein bronzener Dolch.</desc>
+		</item>
+		<item>
+			<id>10705</id>
+			<name>Theos-Schmuckknoten</name>
+			<icon>00010705.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten gesäumt mit Gold.</desc>
+		</item>
+		<item>
+			<id>10709</id>
+			<name>Ultimativer Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein maximal aufgerüsteter Saiyer-Schmuckknoten.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10708</id>
+			<name>Saiyer-Schmuckknoten der Versuchung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Versuchung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Versuchung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10707</id>
+			<name>Saiyer-Schmuckknoten der Zerstörung</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Zerstörung.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Zerstörung, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10706</id>
+			<name>Saiyer-Schmuckknoten der Purpurnen Flamme</name>
+			<icon>00010703.png</icon>
+			<desc>Dieser Saiyer-Schmuckknoten enthält die Energie der Purpurnen Flamme.\n\n– Max. Haltbarkeit wiederherstellen: Saiyer-Schmuckknoten der Purpurnen Flamme, Saiyer-Schmuckknoten</desc>
+		</item>
+		<item>
+			<id>10703</id>
+			<name>Saiyer-Schmuckknoten</name>
+			<icon>00010703.png</icon>
+			<desc>Ein handgemachter Axt-Schmuckknoten aus hochwertiger Seide.</desc>
+		</item>
+		<item>
+			<id>16810</id>
+			<name>Glückbringender verbesserter Flüssigkeitssammler</name>
+			<icon>00016810.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Blut oder Saft abgezapft wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16806</id>
+			<name>Glückbringende scharfe Holzfälleraxt</name>
+			<icon>00016806.png</icon>
+			<desc>Ein Sammelwerkzeug, das zum effizienten Schlagen von Holz verwendet wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16826</id>
+			<name>Glückbringende spitze Spitzhacke</name>
+			<icon>00016826.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem aus Gestein Erz gewonnen wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16822</id>
+			<name>Glückbringendes scharfes Gerbermesser</name>
+			<icon>00016822.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem die Haut toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16818</id>
+			<name>Glückbringendes scharfes Schlachtermesser</name>
+			<icon>00016818.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem das Fleisch toter Tiere eingesammelt wird. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>16814</id>
+			<name>Glückbringende Bronzehacke</name>
+			<icon>00016814.png</icon>
+			<desc>Ein Sammelwerkzeug, mit dem Wildkräuter und Feldfrüchte gepflückt werden. Es erhöht während des Sammelns das Glück.\n– Sammelzeit: -4 Sek. \n– Nicht reparierbar</desc>
+		</item>
+		<item>
+			<id>2302</id>
+			<name>Handgemachter Stuhl aus Heidel</name>
+			<icon>InHouse_B_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2214</id>
+			<name>Handgemachter Tisch aus Velia</name>
+			<icon>InHouse_D_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2212</id>
+			<name>Handgemachter Tisch aus Heidel</name>
+			<icon>InHouse_B_DFF_SideTable_01.png</icon>
+			<desc>Ein handgemachter Tisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2204</id>
+			<name>Handgemachter Esstisch aus Velia</name>
+			<icon>InHouse_D_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2202</id>
+			<name>Handgemachter Esstisch aus Heidel</name>
+			<icon>InHouse_B_DFF_Table_01.png</icon>
+			<desc>Ein handgemachter Esstisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2014</id>
+			<name>Handgemachter hochwertiger Nachttisch aus Velia</name>
+			<icon>InHouse_D_DFF_Chest_01.png</icon>
+			<desc>Ein hochwertiger, handgemachter Nachttisch aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2012</id>
+			<name>Handgemachter hochwertiger Nachttisch aus Heidel</name>
+			<icon>InHouse_B_DFF_Chest_01.png</icon>
+			<desc>Ein hochwertiger, handgemachter Nachttisch aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2004</id>
+			<name>Handgemachte hochwertige Kommode aus Velia</name>
+			<icon>InHouse_D_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2002</id>
+			<name>Handgemachte hochwertige Kommode aus Heidel</name>
+			<icon>InHouse_B_DFF_Dresser_01.png</icon>
+			<desc>Eine hochwertige, handgemachte Kommode aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2104</id>
+			<name>Handgemachter Kleiderschrank aus Velia</name>
+			<icon>InHouse_D_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2102</id>
+			<name>Handgemachter Kleiderschrank aus Heidel</name>
+			<icon>InHouse_B_DFF_Closet_01.png</icon>
+			<desc>Ein handgemachter Kleiderschrank aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2304</id>
+			<name>Handgemachter Stuhl aus Velia</name>
+			<icon>InHouse_D_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2702</id>
+			<name>Handgemachtes Bett aus Heidel</name>
+			<icon>InHouse_B_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Heidel.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>2704</id>
+			<name>Handgemachtes Bett aus Velia</name>
+			<icon>InHouse_D_DFF_Bed_01.png</icon>
+			<desc>Ein handgemachtes Bett aus Velia.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+		<item>
+			<id>4909</id>
+			<name>Rüstungs-Verbesserungsstein (Stufe 2)</name>
+			<icon>00004909.png</icon>
+			<desc>Ein Material, das für die Rüstungsaufwertung der 2. Stufe verwendet wird.\nGewinnung durch: Raffinerie, Herstellung.</desc>
+		</item>
+		<item>
+			<id>49006</id>
+			<name>Schiffslizenz: Fischerboot</name>
+			<icon>00049005.png</icon>
+			<desc>Dient beim Kai als Nachweis über den Besitz eines 『Fischerboots 』.\n– Inventarplätze: 12, Beschleunigung: 100 %, Geschwindigkeit: 100 %, Wenden: 100 %, Anhalten: 100 %\nKann ab St. 8 verwendet werden.\n\n※ Verwendung einer Schiffslizenz\n 1. Rechtsklickt auf die Schiffslizenz und begebt Euch zum angezeigten Kai.\n 2. Sprecht mit dem Fährenwart und wählt „Werft“ aus.\n 3. Klickt auf „Schiff registrieren“ und rechtsklickt dann auf die Schiffslizenz.\n 4. Gebt den Namen des Schiffs ein und bestätigt die Auswahl, um das Schiff zu registrieren.\n 5. Wählt das registrierte Schiff aus und klickt auf „Suchen“.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

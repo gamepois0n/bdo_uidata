@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8514</itemKey>
+	<itemName>Getrocknete Qualle</itemName>
+	<itemIcon>00008514.png</itemIcon>
+	<itemDesc>Eine Getrocknete Qualle, die durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8214</id>
+			<name>Qualle</name>
+			<icon>00008214.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55914</id>
+			<name>Verpackte getrocknete Qualle</name>
+			<icon>00055914.png</icon>
+			<desc>Handelsware, die 10 getrocknete Quallen enthält.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

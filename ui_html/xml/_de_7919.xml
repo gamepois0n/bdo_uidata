@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>7919</itemKey>
+	<itemName>Hochwertiges Trockenfleisch</itemName>
+	<itemIcon>00007919.png</itemIcon>
+	<itemDesc>Wegzehrung aus getrocknetem Fleisch für lange Reisen.\n– Gewinnung: Kann durch Trocknen von Schlachtfleisch gewonnen werden.\n– Erhöht bei Verzehr die LP ein wenig.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7902</id>
+			<name>Lammfleisch</name>
+			<icon>00007902.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Schafskadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7908</id>
+			<name>Echsenfleisch</name>
+			<icon>00007908.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Echsenkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7910</id>
+			<name>Waschbärenfleisch</name>
+			<icon>00007910.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Waschbärkadaver ausschlachtet.\n\n– Verwendung: Steak, Fleischeintopf, Fleischpasta etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7916</id>
+			<name>Kukuvogelfleisch</name>
+			<icon>00007916.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Kukuvogelkadaver ausschlachtet.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>7917</id>
+			<name>Flamingofleisch</name>
+			<icon>00007917.png</icon>
+			<desc>Eine natürliche Ressource, welche durch Sammeln erhalten wurde und die beim Kochen verwendet wird.\n– Gewinnung: Kann gewonnen werden, indem man einen Flamingokadaver ausschlachtet.\n\n– Verwendung: Bratvogel, Gedünstetes Vogelfleisch etc.</desc>
+		</item>
+	</manufacture>
+</itemInfo>
+

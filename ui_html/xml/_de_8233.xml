@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8233</itemKey>
+	<itemName>Seestern</itemName>
+	<itemIcon>00008233.png</itemIcon>
+	<itemDesc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</itemDesc>
+	<collect>
+		<character>
+			<name>Fischnetz</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Ständer zum Dörren von Fisch</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Walkadaver</name>
+		</character>
+	</collect>
+	<fishing/>
+	<makelist>
+		<item>
+			<id>8533</id>
+			<name>Getrockneter Seestern</name>
+			<icon>00008533.png</icon>
+			<desc>Ein Getrockneter Seestern, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

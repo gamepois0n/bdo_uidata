@@ -1,0 +1,10 @@
+<UI>
+	<Control Type="Panel" Name="Panel_TimeBarNumber" Pos="Right Top" Size="74 17" Pan="65 5" Color="ffffffff" EnableArea="0 0 74 17">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Control Type="StaticText" Name="timeNum" Pos="Center Top" Size="74 17" Pan="0 0" Color="  ffffff" EnableArea="0 0 74 17">
+			<Text Value="PM 12 : 12" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

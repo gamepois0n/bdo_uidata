@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8266</itemKey>
+	<itemName>Merlan</itemName>
+	<itemIcon>00008266.png</itemIcon>
+	<itemDesc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : poisson frit, poisson cuit à la vapeur, soupe de poisson, etc.</itemDesc>
+	<fishing/>
+	<node region="Nasse 1, île de Delinghart"/>
+	<node region="Nasse 2, île d'Angie"/>
+	<node region="Nasse 1, île de Teyamal"/>
+	<node region="Nasse 1, île de Staren"/>
+	<makelist>
+		<item>
+			<id>8566</id>
+			<name>Merlan séché</name>
+			<icon>00008566.png</icon>
+			<desc>Un merlan obtenu par séchage. Il peut servir à fabriquer un objet de commerce à l&apos;établi.\n※ Le séchage réduit la valeur du poisson.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

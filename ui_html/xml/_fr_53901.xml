@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>53901</itemKey>
+	<itemName>Cheval de wagon</itemName>
+	<itemIcon>00053901.png</itemIcon>
+	<itemDesc>Un cheval pouvant tirer un wagon. Essentiel à la fabrication d&apos;un wagon.\n\n- Utilisation : fabrication de wagon</itemDesc>
+	<shop>
+		<character>
+			<name>Bial Nasser</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Melson Bandor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Gula</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Gabril</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Breesman</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Dimanthor</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ashrogue</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Romary</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Herar</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Partus</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Muam Mant</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Ella</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Izaro</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Chiara Coop</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Samier</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Vanacil</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Meisha</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Bevel</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Spig</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Fanucci</name>
+		</character>
+	</shop>
+	<shop>
+		<character>
+			<name>Lorenzo Murray</name>
+		</character>
+	</shop>
+	<makelist>
+		<item>
+			<id>51009</id>
+			<name>Papiers de wagon : wagon branlant</name>
+			<icon>00051009.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon branlant] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 6, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51008</id>
+			<name>Papiers de wagon : wagon noble</name>
+			<icon>00051008.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon noble] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 20, accélération : 95 %, vitesse : 95 %, direction : 95 %, freinage : 95 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51007</id>
+			<name>Papiers de wagon : wagon de marchand</name>
+			<icon>00051007.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon marchand] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 18, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51005</id>
+			<name>Papiers de wagon : wagon de commerce</name>
+			<icon>00051005.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon de commerce] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 16, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51004</id>
+			<name>Papiers de wagon : wagon agricole</name>
+			<icon>00051004.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon agricole] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 14, accélération : 100 %, vitesse : 100 %, direction : 100 %, freinage : 100 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51003</id>
+			<name>Papiers de wagon : wagon blanc</name>
+			<icon>00051003.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon blanc] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 12, accélération : 110 %, vitesse : 110 %, direction : 120 %, freinage : 120 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51002</id>
+			<name>Papiers de wagon : wagon solide</name>
+			<icon>00051002.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon solide] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 10, accélération : 110 %, vitesse : 110 %, direction : 120 %, freinage : 120 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+		<item>
+			<id>51001</id>
+			<name>Papiers de wagon : wagon miteux</name>
+			<icon>00051001.png</icon>
+			<desc>Preuve de propriété d&apos;un [wagon miteux] dans l&apos;écurie.\n- Emplacement d&apos;inventaire : 8, accélération : 110 %, vitesse : 110 %, direction : 120 %, freinage : 120 %\nUtilisable à partir du niveau 8.\n\n※ Utiliser un permis wagon\n 1. Effectuez un clic droit sur le permis wagon et déplacez-le vers l&apos;écurie sélectionnée.\n 2. Adressez-vous au palefrenier et sélectionnez le menu de l&apos;écurie.\n 3. Cliquez sur le menu d&apos;enregistrement des emblèmes puis effectuez un clic droit sur le permis wagon.\n 4. Saisissez le nom du wagon puis confirmez pour l&apos;enregistrer.\n 5. Sélectionnez le wagon enregistré puis cliquez sur le menu de recherche.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

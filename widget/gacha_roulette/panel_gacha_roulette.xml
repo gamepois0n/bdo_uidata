@@ -1,0 +1,28 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Gacha_Roulette" Pos="0 0" Size="313 371" Pan="0 0" Color="ffffffff" EnableArea="0 0 313 371">
+		<Texture Type="Base" UV="4 4 317 4 4 375 317 375" Ani="1 1 0.000 0">new_ui_common_forlua/default/roulette_00.dds</Texture>
+		<Texture Type="Special" UV="0 0 288 0 0 327 288 327" Ani="1 1 0.000 0">new_ui_common_forlua/default/Roulette_Mask.dds</Texture>
+		<Control Type="StaticText" Name="Static_ItemSlot" Pos="125 137" Size="269 51" Pan="0 0" Color="ffffffff" EnableArea="0 0 269 51">
+			<Texture Type="Base" UV="4 458 273 458 4 509 273 509" Ani="1 1 0.000 0">new_ui_common_forlua/default/roulette_00.dds</Texture>
+			<Text Value="" Font="BaseFont_8_Line" Color="ffffab6d" OverColor="ffffab6d" ClickColor="ffffab6d" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Cover" Pos="3 145" Size="306 80" Pan="0 0" Color="ffffffff" EnableArea="0 0 306 80" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="4 377 310 377 4 457 310 457" Ani="1 1 0.000 0">new_ui_common_forlua/default/roulette_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_PushSpace" Pos="320 Center" Size="90 183" Pan="0 0" Color="ff999999" EnableArea="0 0 90 183" AutoDisableTime="0.000000">
+			<Texture Type="Base" UV="322 68 412 68 322 251 412 251" Ani="1 1 0.000 0">new_ui_common_forlua/default/roulette_00.dds</Texture>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ff999999" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+		</Control>
+		<Control Type="Static" Name="Static_EffectControl" Pos="0 0" Size="313 371" Pan="0 0" Color="ffffffff" EnableArea="0 0 313 371" AutoDisableTime="0.000000"/>
+		<Control Type="StaticText" Name="StaticText_Notify" Pos="307 277" Size="300 60" Pan="0 0" Color="ffffffff" EnableArea="0 0 300 60">
+			<Attribute Type="Ignore"/>
+			<UIAni CalcParentRotate="False">
+				<UIAniItem Type="Color" StartColor="ffffffff" EndColor="ff999999" StartIntensity="1.00" EndIntensity="1.00" ChangeChild="False" ColorOperator="0" ID="Ani_Color_New" Activity="True" Replay="True" RunOnBoot="True" StartFrame="0" EndFrame="30" AdvanceType="0" HideAtEnd="False"/>
+			</UIAni>
+			<Text Value="ESC를 눌러 취소 할 수 있습니다.\n30초 후 자동 취소됩니다." formatString="PANEL_GACHA_ROULETTE_NOTIFY" Font="SubTitleFont_14" Color="ff67ffa4" OverColor="ff67ffa4" ClickColor="ff67ffa4" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

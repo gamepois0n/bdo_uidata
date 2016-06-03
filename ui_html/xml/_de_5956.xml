@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5956</itemKey>
+	<itemName>Spur der Wildheit</itemName>
+	<itemIcon>00005956.png</itemIcon>
+	<itemDesc>Ein Material, das für die Herstellung von Ausrüstung genutzt wird.\nKann durch Ausgrabung bei den Ruinen von Hof Lynch gefunden werden.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10006</id>
+			<name>Halbmenschen-Langschwert</name>
+			<icon>00010006.png</icon>
+			<desc>Ein Langschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10206</id>
+			<name>Halbmenschen-Langbogen</name>
+			<icon>00010206.png</icon>
+			<desc>Ein Langbogen zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10406</id>
+			<name>Halbmenschen-Fokusreif</name>
+			<icon>00010406.png</icon>
+			<desc>Ein Fokusreif zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10606</id>
+			<name>Halbmenschen-Axt</name>
+			<icon>00010606.png</icon>
+			<desc>Eine Axt zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13206</id>
+			<name>Halbmenschen-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14406</id>
+			<name>Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein Stab zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</manufacture>
+	<node region="Ruinen von Hof Lynch – Ausgrabung"/>
+	<makelist>
+		<item>
+			<id>10427</id>
+			<name>Ultimativer Halbmenschen-Fokusreif</name>
+			<icon>00010406.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Fokusreif.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Purpurnen Flamme, Halbmenschen-Fokusreif der Zerstörung, Halbmenschen-Fokusreif der Versuchung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10426</id>
+			<name>Halbmenschen-Fokusreif der Versuchung</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Versuchung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10425</id>
+			<name>Halbmenschen-Fokusreif der Zerstörung</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Zerstörung, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10424</id>
+			<name>Halbmenschen-Fokusreif der Purpurnen Flamme</name>
+			<icon>00010406.png</icon>
+			<desc>Dieser Halbmenschen-Fokusreif enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Fokusreifs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Fokusreif der Purpurnen Flamme, Halbmenschen-Fokusreif</desc>
+		</item>
+		<item>
+			<id>10406</id>
+			<name>Halbmenschen-Fokusreif</name>
+			<icon>00010406.png</icon>
+			<desc>Ein Fokusreif zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Ultimativer Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Stab.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Halbmenschen-Stab der Versuchung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Versuchung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Halbmenschen-Stab der Zerstörung</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Zerstörung, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>13227</id>
+			<name>Ultimatives Halbmenschen-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein maximal aufgerüstetes Halbmenschen-Kurzschwert.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Kurzschwert der Purpurnen Flamme, Halbmenschen-Kurzschwert der Zerstörung, Halbmenschen-Kurzschwert der Versuchung, Halbmenschen-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13226</id>
+			<name>Halbmenschen-Kurzschwert der Versuchung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Halbmenschen-Kurzschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Kurzschwert der Versuchung, Halbmenschen-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13225</id>
+			<name>Halbmenschen-Kurzschwert der Zerstörung</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Halbmenschen-Kurzschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Kurzschwert der Zerstörung, Halbmenschen-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13224</id>
+			<name>Halbmenschen-Kurzschwert der Purpurnen Flamme</name>
+			<icon>00013203.png</icon>
+			<desc>Dieses Halbmenschen-Kurzschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Kurzschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Kurzschwert der Purpurnen Flamme, Halbmenschen-Kurzschwert</desc>
+		</item>
+		<item>
+			<id>13206</id>
+			<name>Halbmenschen-Kurzschwert</name>
+			<icon>00013203.png</icon>
+			<desc>Ein Kurzschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Halbmenschen-Stab der Purpurnen Flamme</name>
+			<icon>00014406.png</icon>
+			<desc>Dieser Halbmenschen-Stab enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Stabs hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Stab der Purpurnen Flamme, Halbmenschen-Stab</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Halbmenschen-Stab</name>
+			<icon>00014406.png</icon>
+			<desc>Ein Stab zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Halbmenschen-Langbogen</name>
+			<icon>00010206.png</icon>
+			<desc>Ein Langbogen zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10227</id>
+			<name>Ultimativer Halbmenschen-Langbogen</name>
+			<icon>00010206.png</icon>
+			<desc>Ein maximal aufgerüsteter Halbmenschen-Langbogen.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Purpurnen Flamme, Halbmenschen-Langbogen der Zerstörung, Halbmenschen-Langbogen der Versuchung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Halbmenschen-Langbogen der Versuchung</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Versuchung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Halbmenschen-Langbogen der Zerstörung</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Zerstörung, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Halbmenschen-Langbogen der Purpurnen Flamme</name>
+			<icon>00010206.png</icon>
+			<desc>Dieser Halbmenschen-Langbogen enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Langbogens hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langbogen der Purpurnen Flamme, Halbmenschen-Langbogen</desc>
+		</item>
+		<item>
+			<id>10606</id>
+			<name>Halbmenschen-Axt</name>
+			<icon>00010606.png</icon>
+			<desc>Eine Axt zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+		<item>
+			<id>10626</id>
+			<name>Halbmenschen-Axt der Versuchung</name>
+			<icon>00010606.png</icon>
+			<desc>Diese Halbmenschen-Axt enthält die Energie der Versuchung.\nKann durch die Aufwertung einer Halbmenschen-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Axt der Versuchung, Halbmenschen-Axt</desc>
+		</item>
+		<item>
+			<id>10625</id>
+			<name>Halbmenschen-Axt der Zerstörung</name>
+			<icon>00010606.png</icon>
+			<desc>Diese Halbmenschen-Axt enthält die Energie der Zerstörung.\nKann durch die Aufwertung einer Halbmenschen-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Axt der Zerstörung, Halbmenschen-Axt</desc>
+		</item>
+		<item>
+			<id>10624</id>
+			<name>Halbmenschen-Axt der Purpurnen Flamme</name>
+			<icon>00010606.png</icon>
+			<desc>Diese Halbmenschen-Axt enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung einer Halbmenschen-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Axt der Purpurnen Flamme, Halbmenschen-Axt</desc>
+		</item>
+		<item>
+			<id>10627</id>
+			<name>Ultimative Halbmenschen-Axt</name>
+			<icon>00010606.png</icon>
+			<desc>Eine maximal aufgerüstete Halbmenschen-Axt.\nKann in seltenen Fällen durch die Aufwertung einer Halbmenschen-Axt hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Axt der Purpurnen Flamme, Halbmenschen-Axt der Zerstörung, Halbmenschen-Axt der Versuchung, Halbmenschen-Axt</desc>
+		</item>
+		<item>
+			<id>10025</id>
+			<name>Halbmenschen-Langschwert der Zerstörung</name>
+			<icon>00010006.png</icon>
+			<desc>Dieses Halbmenschen-Langschwert enthält die Energie der Zerstörung.\nKann durch die Aufwertung eines Halbmenschen-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langschwert der Zerstörung, Halbmenschen-Langschwert</desc>
+		</item>
+		<item>
+			<id>10024</id>
+			<name>Halbmenschen-Langschwert der Purpurnen Flamme</name>
+			<icon>00010006.png</icon>
+			<desc>Dieses Halbmenschen-Langschwert enthält die Energie der Purpurnen Flamme.\nKann durch die Aufwertung eines Halbmenschen-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langschwert der Purpurnen Flamme, Halbmenschen-Langschwert</desc>
+		</item>
+		<item>
+			<id>10027</id>
+			<name>Ultimatives Halbmenschen-Langschwert</name>
+			<icon>00010006.png</icon>
+			<desc>Ein maximal aufgerüstetes Halbmenschen-Langschwert.\nKann in seltenen Fällen durch die Aufwertung eines Halbmenschen-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langschwert der Purpurnen Flamme, Halbmenschen-Langschwert der Zerstörung, Halbmenschen-Langschwert der Versuchung, Halbmenschen-Langschwert</desc>
+		</item>
+		<item>
+			<id>10026</id>
+			<name>Halbmenschen-Langschwert der Versuchung</name>
+			<icon>00010006.png</icon>
+			<desc>Dieses Halbmenschen-Langschwert enthält die Energie der Versuchung.\nKann durch die Aufwertung eines Halbmenschen-Langschwerts hergestellt werden.\n\n– Max. Haltbarkeit wiederherstellen: Halbmenschen-Langschwert der Versuchung, Halbmenschen-Langschwert</desc>
+		</item>
+		<item>
+			<id>10006</id>
+			<name>Halbmenschen-Langschwert</name>
+			<icon>00010006.png</icon>
+			<desc>Ein Langschwert zum Kampf gegen Bedrohungen für die Menschheit.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

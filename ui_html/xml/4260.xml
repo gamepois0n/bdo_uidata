@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4260</itemKey>
+	<itemName>Polished Opal</itemName>
+	<itemIcon>00004260.png</itemIcon>
+	<itemDesc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4204</id>
+			<name>Rough Opal</name>
+			<icon>00004204.png</icon>
+			<desc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Opals require a certain level of skill to collect.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55863</id>
+			<name>Opal Jewelry Box</name>
+			<icon>00055863.png</icon>
+			<desc>Opals harvested from the Balenos Sea are said to have the best quality. One of Velia’s specialty products is a jewel box decorated with this opal.</desc>
+		</item>
+		<item>
+			<id>4265</id>
+			<name>Brilliant Opal</name>
+			<icon>00004265.png</icon>
+			<desc>A processed natural resource. It is used in alchemy and processing. \n\n- Obtained by: Heating rough opal several times. You&apos;ll need the knowledge &quot;Heating: Intermediate.&quot;\n\n ※ See Plabiano in Heidel to complete the quest &quot;Pure Water for Experiment&quot; to gain the knowledge.\n\n※ In order to proceed with the quest, you have to reach Gathering Level Apprentice 4 and see Ficy in Heidel to complete the serial quest. Call Black Spirit (/ key) for details.</desc>
+		</item>
+		<item>
+			<id>24210</id>
+			<name>Beautiful Opal Vase</name>
+			<icon>Pot_Base_49.png</icon>
+			<desc>A beautiful opal vase.</desc>
+		</item>
+		<item>
+			<id>24005</id>
+			<name>[Jukebox] Prayer of Time</name>
+			<icon>InHouse_X_DPF_JukeBox_02.png</icon>
+			<desc>A juke box that plays the Prayer of Time theme song.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4608</itemKey>
+	<itemName>Weißzederholz</itemName>
+	<itemIcon>00004608.png</itemIcon>
+	<itemDesc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n– Gewinnung: Kann im Nördlichen Hochland von Mediah und im Elricschrein hergestellt werden. Kann außerdem durch Fällen von Weißzedern erhalten werden.</itemDesc>
+	<collect>
+		<character>
+			<name>Weißzeder</name>
+		</character>
+	</collect>
+	<node region="Nördliches Hochland von Mediah – Holzfällen"/>
+	<node region="Elricschrein – Holzfällen"/>
+	<makelist>
+		<item>
+			<id>53403</id>
+			<name>Rad für Weißen Wagen</name>
+			<icon>00053403.png</icon>
+			<desc>Ein Rad für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>53603</id>
+			<name>Flagge für Weißen Wagen</name>
+			<icon>00053603.png</icon>
+			<desc>Eine Flagge für einen Wagen.\n\n– Ausrüstung für Wagen\n\nKann mit Schwarzstein (Rüstung) verstärkt werden.</desc>
+		</item>
+		<item>
+			<id>16165</id>
+			<name>Mediah Fishing Rod</name>
+			<icon>00016165.png</icon>
+			<desc>Ash tree float. It shortens the auto-fishing time.\n\nCan be enhanced with Blackstone (Weapon).</desc>
+		</item>
+		<item>
+			<id>55836</id>
+			<name>Weißzedernholzkiste</name>
+			<icon>00055836.png</icon>
+			<desc>Handelsware, die 10 Weißzedernholz enthält.</desc>
+		</item>
+		<item>
+			<id>4677</id>
+			<name>Weißzederschichtholz</name>
+			<icon>00004677.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Weißzederholz gewonnen werden. Dies erfordert die Kenntnis Hacken – Anfänger.\n\n※ Sucht Lebyos in Heidel auf und vollendet die Quest Die Esche bearbeiten, um das entsprechende Wissen zu erhalten.\n\n※ Um die Quest für die Verarbeitungsexpertise eines Anfängers vollenden zu können, müsst Ihr über Sammellehrling St. 14 oder höher verfügen und Fiby in Heidel aufsuchen sowie die dortige Quest vollenden. In der Schwarzgeisthilfe (Kommataste) findet Ihr zusätzliche Informationen.</desc>
+		</item>
+		<item>
+			<id>4676</id>
+			<name>Weißzederbrett</name>
+			<icon>00004676.png</icon>
+			<desc>Eine weiterverarbeitete, natürliche Ressource, welche durch Sammeln erhalten wurde und als Material für die Herstellung verwendet wird. Kann durch Alchemie oder Verarbeitung verändert werden.\n\n– Gewinnung: Kann durch das Hacken von Weißzederholz gewonnen werden.</desc>
+		</item>
+		<item>
+			<id>2315</id>
+			<name>Handgemachter Stuhl aus Mediah</name>
+			<icon>InHouse_H_DFF_Chair_01.png</icon>
+			<desc>Ein handgemachter Stuhl aus Mediah.\n– Effekt des vierteiligen Sets: Einrichtungspunkte +200</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

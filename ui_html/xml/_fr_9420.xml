@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9420</itemKey>
+	<itemName>Fruits de mer au wok</itemName>
+	<itemIcon>00009420.png</itemIcon>
+	<itemDesc>Un plat à base de fruits de mer et légumes au wok.\n\n- Effet unique : vitesse de lancement +1 pendant 30 min.\n\n- Obtention : vous pouvez le préparer dans votre résidence.\n\n- Temps de recharge : 30 min.</itemDesc>
+	<cook>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+		<item>
+			<id>8211</id>
+			<name>Calamar</name>
+			<icon>00008211.png</icon>
+			<desc>Un ingrédient qui peut être vendu à un marchand ou utilisé pour la cuisine. Vous pouvez l&apos;obtenir en le pêchant.\n- Utilisation : pâtes aux fruits de mer, sauté de fruits de mer, salade aux fruits de mer et aux champignons, etc.</desc>
+		</item>
+		<item>
+			<id>7305</id>
+			<name>Piment</name>
+			<icon>00007305.png</icon>
+			<desc>Un ingrédient utilisé en cuisine.\n- Utilisation : légumes au wok, viande au wok, etc.\nObtention : s&apos;obtient en cultivant des graines de piments dans un jardin.\n\n ※ Consommer cet objet sans le faire cuire octroie un effet positif spécial, mais inflige des douleurs.</desc>
+		</item>
+		<item>
+			<id>7318</id>
+			<name>Chou</name>
+			<icon>00007318.png</icon>
+			<desc>Un gros chou utilisé comme ingrédient en cuisine.\nUtilisation : légumes au wok, légumes frits, etc.\n- Obtention : vous pouvez l&apos;obtenir en le ramassant à la main.</desc>
+		</item>
+		<item>
+			<id>9003</id>
+			<name>Sauce blanche</name>
+			<icon>00009003.png</icon>
+			<desc>Une sauce blanche utilisée pour cuisiner.\n\n- Obtention : vous pouvez la préparer dans votre résidence.\n\n- Utilisation : fruits de mer au wok</desc>
+		</item>
+	</cook>
+</itemInfo>
+

@@ -1,0 +1,57 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Copy_WaitComment" Pos="Center 110" Size="100 100" Pan="0 0" Color="  ffffff" EnableArea="0 0 200 10">
+		<Attribute Type="Ignore"/>
+		<Attribute Type="Hide"/>
+		<Control Type="Static" Name="Static_Board" Pos="Center Bottom" Size="310 110" Pan="0 -36" Color="ffffffff" EnableArea="0 0 310 110" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="1 1 311 1 1 111 311 111" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Paper" Pos="Center Bottom" Size="281 56" Pan="0 2" Color="ffffffff" EnableArea="0 0 281 56" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="2 112 283 112 2 168 283 168" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Edit" Name="Edit_Txt" Pos="Center Bottom" Size="256 56" Pan="0 0" Color="ffffffff" EnableArea="0 0 256 56">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="" Font="BaseFont_10_Bold" Color="ff454545" OverColor="ff454545" ClickColor="ff454545" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_1" Pos="Center Bottom" Size="10 10" Pan="0 38" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_2" Pos="Center Bottom" Size="10 10" Pan="0 38" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_3" Pos="Center Bottom" Size="10 10" Pan="0 8" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Pin_4" Pos="Center Bottom" Size="10 10" Pan="0 8" Color="ffffffff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="372 1 382 1 372 11 382 11" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Roll_L" Pos="Center Bottom" Size="29 60" Pan="0 3" Color="ffffffff" EnableArea="0 0 29 60" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="312 1 341 1 312 61 341 61" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="Static" Name="Static_Roll_R" Pos="Center Bottom" Size="29 60" Pan="0 3" Color="ffffffff" EnableArea="0 0 29 60" AutoDisableTime="0.000000">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Texture Type="Base" UV="342 1 371 1 342 61 371 61" Ani="1 1 0.000 0">new_ui_common_forlua/widget/waitcomment/waitcomment_00.dds</Texture>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ID" Pos="Center Bottom" Size="50 20" Pan="0 47" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Attribute Type="Hide"/>
+			<Text Value="[ test ]" Font="BaseFont" Color="ffe5e5e5" OverColor="ffe5e5e5" ClickColor="ffe5e5e5" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

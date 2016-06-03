@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4466</itemKey>
+	<itemName>Cristal translucide</itemName>
+	<itemIcon>00004466.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : s&apos;obtient en chauffant des cristaux translucides bruts trouvés près de la grotte des gobelins.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>4406</id>
+			<name>Cristal translucide brut</name>
+			<icon>00004406.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer un cristal translucide demande un certain niveau de compétence.\n- Obtention : s&apos;obtient près de la grotte des gobelins.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10809</id>
+			<name>Casque d&apos;Agerian</name>
+			<icon>00010809.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10810</id>
+			<name>Armure d&apos;Agerian</name>
+			<icon>00010810.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10811</id>
+			<name>Gants d&apos;Agerian</name>
+			<icon>00010811.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10812</id>
+			<name>Chaussures d&apos;Agerian</name>
+			<icon>00010812.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55861</id>
+			<name>Amulette de bonheur en cristal translucide</name>
+			<icon>00055861.png</icon>
+			<desc>Un accessoire fait de cristal translucide. Il est porté par ceux qui recherchent le bonheur.</desc>
+		</item>
+		<item>
+			<id>10834</id>
+			<name>Armure d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010810.png</icon>
+			<desc>Cette armure d&apos;Agerian renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure d&apos;Agerian d&apos;intimidation, armure d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10833</id>
+			<name>Casque d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010809.png</icon>
+			<desc>Ce casque d&apos;Agerian renferme l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque d&apos;Agerian d&apos;intimidation, casque d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10832</id>
+			<name>Chaussures d&apos;Agerian d&apos;agilité</name>
+			<icon>00010812.png</icon>
+			<desc>Ces chaussures d&apos;Agerian renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures d&apos;Agerian d&apos;agilité, chaussures d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10812</id>
+			<name>Chaussures d&apos;Agerian</name>
+			<icon>00010812.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10811</id>
+			<name>Gants d&apos;Agerian</name>
+			<icon>00010811.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10810</id>
+			<name>Armure d&apos;Agerian</name>
+			<icon>00010810.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10809</id>
+			<name>Casque d&apos;Agerian</name>
+			<icon>00010809.png</icon>
+			<desc>Une armure faite sur mesure pour les membres les plus en vue de la milice.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.</desc>
+		</item>
+		<item>
+			<id>10840</id>
+			<name>Chaussures d&apos;Agerian ultimes</name>
+			<icon>00010812.png</icon>
+			<desc>Des chaussures d&apos;Agerian qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures d&apos;Agerian du mur de fer, chaussures d&apos;Agerian d&apos;agilité, chaussures d&apos;Agerian d&apos;intimidation, chaussures d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10839</id>
+			<name>Gants d&apos;Agerian ultimes</name>
+			<icon>00010811.png</icon>
+			<desc>Des gants d&apos;Agerian qui ont atteint leur potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants d&apos;Agerian du mur de fer, gants d&apos;Agerian d&apos;agilité, gants d&apos;Agerian d&apos;intimidation, gants d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10838</id>
+			<name>Armure d&apos;Agerian ultime</name>
+			<icon>00010810.png</icon>
+			<desc>Une armure d&apos;Agerian qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure d&apos;Agerian du mur de fer, armure d&apos;Agerian d&apos;agilité, armure d&apos;Agerian d&apos;intimidation, armure d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10837</id>
+			<name>Casque d&apos;Agerian ultime</name>
+			<icon>00010809.png</icon>
+			<desc>Un casque d&apos;Agerian qui a atteint son potentiel maximum.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque d&apos;Agerian du mur de fer, casque d&apos;Agerian d&apos;agilité, casque d&apos;Agerian d&apos;intimidation, casque d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10836</id>
+			<name>Chaussures d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010812.png</icon>
+			<desc>Ces chaussures d&apos;Agerian renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures d&apos;Agerian d&apos;intimidation, chaussures d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10835</id>
+			<name>Gants d&apos;Agerian d&apos;intimidation</name>
+			<icon>00010811.png</icon>
+			<desc>Ces gants d&apos;Agerian renferment l&apos;énergie de l&apos;intimidation.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants d&apos;Agerian d&apos;intimidation, gants d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10826</id>
+			<name>Armure d&apos;Agerian du mur de fer</name>
+			<icon>00010810.png</icon>
+			<desc>Cette armure d&apos;Agerian renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure d&apos;Agerian du mur de fer, armure d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10825</id>
+			<name>Casque d&apos;Agerian du mur de fer</name>
+			<icon>00010809.png</icon>
+			<desc>Ce casque d&apos;Agerian renferme l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque d&apos;Agerian du mur de fer, casque d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10831</id>
+			<name>Gants d&apos;Agerian d&apos;agilité</name>
+			<icon>00010811.png</icon>
+			<desc>Ces gants d&apos;Agerian renferment l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants d&apos;Agerian d&apos;agilité, gants d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10830</id>
+			<name>Armure d&apos;Agerian d&apos;agilité</name>
+			<icon>00010810.png</icon>
+			<desc>Cette armure d&apos;Agerian renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : armure d&apos;Agerian d&apos;agilité, armure d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10829</id>
+			<name>Casque d&apos;Agerian d&apos;agilité</name>
+			<icon>00010809.png</icon>
+			<desc>Ce casque d&apos;Agerian renferme l&apos;énergie de l&apos;agilité.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : casque d&apos;Agerian d&apos;agilité, casque d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10828</id>
+			<name>Chaussures d&apos;Agerian du mur de fer</name>
+			<icon>00010812.png</icon>
+			<desc>Ces chaussures d&apos;Agerian renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : chaussures d&apos;Agerian du mur de fer, chaussures d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>10827</id>
+			<name>Gants d&apos;Agerian du mur de fer</name>
+			<icon>00010811.png</icon>
+			<desc>Ces gants d&apos;Agerian renferment l&apos;énergie du mur de fer.\n- Équiper 2 pièces ou plus activera l&apos;effet d&apos;ensemble.\n\n- Rétablir la durabilité maximale : gants d&apos;Agerian du mur de fer, gants d&apos;Agerian</desc>
+		</item>
+		<item>
+			<id>16167</id>
+			<name>Frêne flottant</name>
+			<icon>00016167.png</icon>
+			<desc>Un bouchon en frêne. Idéal pour attraper de gros poissons.\n\nPeut être optimisé avec une pierre noire (arme).</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

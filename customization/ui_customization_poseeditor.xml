@@ -1,0 +1,146 @@
+<UI>
+	<Control Type="Panel" Name="Panel_Customzation_PoseEditor" Pos="0 0" Size="280 374" Pan="0 0" Color="ffffffff" EnableArea="0 0 280 374">
+		<Attribute Type="Drag" Area="0 0 275 40"/>
+		<Control Type="StaticText" Name="StaticText_ControlType" Pos="10 10" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="컨트롤 방식" formatString="UI_CUSTOMIZATION_POSEEDITOR_STCTXT_CONTROLTYPE" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Bone" Pos="10 40" Size="125 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 40" Grid="1" GridPosX="0 5 120 125" GridPosY="0 5 35 40" GridUVX="1 6 24 29" GridUVY="1 6 24 29" Group="0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="개별컨트롤" formatString="UI_CUSTOMIZATION_POSEEDITOR_RDOBTN_BONE" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Radiobutton" Name="RadioButton_Ik" Pos="145 40" Size="125 40" Pan="0 0" Color="ffffffff" EnableArea="0 0 125 40" Grid="1" GridPosX="0 5 120 125" GridPosY="0 5 35 40" GridUVX="1 6 24 29" GridUVY="1 6 24 29" Group="0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="IK" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_DetailControl" Pos="10 90" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="세부 조절" formatString="UI_CUSTOMIZATION_POSEEDITOR_STCTXT_DETAILCONTROL" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_x" Pos="5 111" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="종폭" formatString="UI_CUSTOMIZATION_COMMON_X" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Y" Pos="5 133" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="횡폭" formatString="UI_CUSTOMIZATION_COMMON_Y" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Z" Pos="3 155" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="깊이" formatString="UI_CUSTOMIZATION_COMMON_Z" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_X_Controller" Pos="60 118" Size="209 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 209 8" Grid="1" GridPosX="0 2 207 209" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="79 Center" Size="36 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 34 10">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_X_Left" Pos="35 120" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="(Now)" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_Y_Controller" Pos="60 139" Size="209 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 209 8" Grid="1" GridPosX="0 2 207 209" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="60 Center" Size="36 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 34 10">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_Y_Left" Pos="35 141" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="(Now)" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Slider" Name="Slider_Z_Controller" Pos="60 160" Size="209 8" Pan="0 0" Color="ffffffff" EnableArea="0 0 209 8" Grid="1" GridPosX="0 2 207 209" GridPosY="0 0 8 8" GridUVX="0 2 232 234" GridUVY="0 0 9 9" Interval="100">
+			<Texture Type="Base" UV="1 176 235 176 1 185 235 185" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_gauges.dds</Texture>
+			<Control Type="Button" AutoDisableTime="1.000000" ClickSound="0 0" Name="Slider_GammaController_Button" Pos="66 Center" Size="36 13" Pan="0 0" Color="ffffffff" EnableArea="0 0 34 10">
+				<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				<Texture Type="Base" UV="167 1 203 1 167 14 203 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="On" UV="204 1 240 1 204 14 240 14" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+				<Texture Type="Click" UV="167 15 203 15 167 28 203 28" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+			</Control>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Slider_Z_Left" Pos="34 162" Size="20 6" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 6">
+			<Attribute Type="Ignore"/>
+			<Text Value="(Now)" Font="BaseFont_8_Bold" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_Symmetry" Pos="10 187" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="211 73 230 73 211 92 230 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="235 73 254 73 235 92 254 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_Symmetry" Pos="40 187" Size="50 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 50 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="좌우 대칭" formatString="UI_CUSTOMIZATION_POSEEDITOR_STCTXT_SYMMETRY" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Checkbox" Name="CheckButton_ControlPart" Pos="140 187" Size="20 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 20 20" ClickSound="0 0">
+			<Texture Type="Base" UV="185 72 208 72 185 95 208 95" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="211 73 230 73 211 92 230 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="235 73 254 73 235 92 254 92" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="StaticText" Name="StaticText_ControlPart" Pos="170 187" Size="80 20" Pan="0 0" Color="ffffffff" EnableArea="0 0 80 20">
+			<Attribute Type="Ignore"/>
+			<Text Value="조절 부위 보기" formatString="UI_CUSTOMIZATION_POSEEDITOR_STCTXT_CONTROLPART" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Left" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_All_Reset" Pos="80 217" Size="90 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 90 30" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 25 30" GridUVX="1 6 24 29" GridUVY="1 6 24 29" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="전체 초기화" formatString="UI_CUSTOMIZATION_POSEEDITOR_BTN_ALL_RESET" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Part_Reset" Pos="180 217" Size="90 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 90 30" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 25 30" GridUVX="1 6 24 29" GridUVY="1 6 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="부위 초기화" formatString="UI_CUSTOMIZATION_POSEEDITOR_BTN_PART_RESET" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Frame" Name="Frame_Template" Pos="10 257" Size="260 67" Pan="120 220" Color="ffffffff" EnableArea="0 0 260 67" Grid="1" GridPosX="0 12 230 242" GridPosY="0 13 58 67" GridUVX="0 12 239 256" GridUVY="0 13 237 256" IgnoreHScroll="true">
+			<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+			<Control Type="FrameContent" Name="Frame_Content" Pos="0 0" Size="260 67" Pan="0 0" Color="ffffffff" EnableArea="0 0 260 67">
+				<Attribute Type="Ignore"/>
+				<Control Type="Static" Name="Frame_Content_Image" Pos="0 0" Size="48 48" Pan="0 0" Color="ffffffff" EnableArea="0 0 48 48" AutoDisableTime="0.000000">
+					<Attribute Type="Hide"/>
+					<Texture Type="Base" UV="0 0 256 0 0 256 256 256" Ani="1 1 0.000 0">new_ui_common_forlua/default/window_sample_blackpanel.dds</Texture>
+				</Control>
+			</Control>
+			<Control Type="Scroll" Name="Frame_Scroll" Pos="Right Top" Size="10 67" Pan="0 0" Color="ffffffff" EnableArea="0 0 10 67" Grid="1" GridPosX="0 2 6 7" GridPosY="0 4 60 67" GridUVX="0 1 6 7" GridUVY="0 4 31 38" Shape="Vertical">
+				<Texture Type="Base" UV="19 1 26 1 19 39 26 39" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_etc_01.dds</Texture>
+				<Control Type="Button" Name="Frame_Head_Scroll_UpButton" Pos="0 -10" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_Scroll_DownButton" Pos="0 100" Size="10 10" Pan="0 0" Color="ffff00ff" EnableArea="0 0 10 10" AutoDisableTime="0.000000">
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+				<Control Type="Button" Name="Frame_Scroll_CtrlButton" Pos="Center 81" Size="13 38" Pan="-1 0" Color="ffffffff" EnableArea="0 0 13 38" Grid="1" GridPosX="0 0 13 13" GridPosY="0 10 29 38" GridUVX="0 0 13 13" GridUVY="0 10 27 36" AutoDisableTime="0.000000" ClickSound="0 0">
+					<Texture Type="Base" UV="125 0 138 0 125 36 138 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="On" UV="139 0 152 0 139 36 152 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Texture Type="Click" UV="153 0 166 0 153 36 166 36" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons_01.dds</Texture>
+					<Text Value="" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+				</Control>
+			</Control>
+		</Control>
+		<Control Type="Button" Name="Button_Save" Pos="80 334" Size="90 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 90 30" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 25 30" GridUVX="1 6 24 29" GridUVY="1 6 24 29" AutoDisableTime="1.000000" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="포즈 저장" formatString="UI_CUSTOMIZATION_POSEEDITOR_BTN_SAVE" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+		<Control Type="Button" Name="Button_Delete" Pos="180 334" Size="90 30" Pan="0 0" Color="ffffffff" EnableArea="0 0 90 30" Grid="1" GridPosX="0 5 85 90" GridPosY="0 5 25 30" GridUVX="1 6 24 29" GridUVY="1 6 24 29" AutoDisableTime="1.000000" UseDefaultSound="1" ClickSound="0 0">
+			<Texture Type="Base" UV="1 1 29 1 1 29 29 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="On" UV="31 1 59 1 31 29 59 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Texture Type="Click" UV="61 1 89 1 61 29 89 29" Ani="1 1 0.000 0">new_ui_common_forlua/default/default_buttons.dds</Texture>
+			<Text Value="포즈 삭제" formatString="UI_CUSTOMIZATION_POSEEDITOR_BTN_DELETE" Font="BaseFont" Color="ffffffff" OverColor="ffffffff" ClickColor="ffffffff" AlignHorizon="Center" AlignVertical="Center" Span="0 0"/>
+		</Control>
+	</Control>
+</UI>
+

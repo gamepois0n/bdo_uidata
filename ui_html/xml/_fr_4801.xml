@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4801</itemKey>
+	<itemName>Poudre des ténèbres</itemName>
+	<itemIcon>00004801.png</itemIcon>
+	<itemDesc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : faible chance de l&apos;obtenir auprès de roches.</itemDesc>
+	<collect>
+		<character>
+			<name>Fer</name>
+		</character>
+	</collect>
+	<collect>
+		<character>
+			<name>Plomb</name>
+		</character>
+	</collect>
+	<node region="Mur de pierre d'Hexe : extraction minière"/>
+	<node region="Mine de fer abandonnée : extraction minière"/>
+	<node region="Grotte côtière : extraction minière"/>
+	<node region="Falaise côtière : extraction minière"/>
+	<node region="Carrière nord d'Heidel"/>
+	<makelist>
+		<item>
+			<id>13009</id>
+			<name>Colifichet d&apos;encens ultime</name>
+			<icon>00013003.png</icon>
+			<desc>Un colifichet d&apos;encens qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de la flamme pourpre, colifichet d&apos;encens de destruction, colifichet d&apos;encens de tentation, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>13008</id>
+			<name>Colifichet d&apos;encens de tentation</name>
+			<icon>00013003.png</icon>
+			<desc>Ce colifichet d&apos;encens renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de tentation, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>10308</id>
+			<name>Dague de bronze de tentation</name>
+			<icon>00010303.png</icon>
+			<desc>Cette dague en bronze renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : dague en bronze de tentation, dague en bronze</desc>
+		</item>
+		<item>
+			<id>10307</id>
+			<name>Dague de bronze de destruction</name>
+			<icon>00010303.png</icon>
+			<desc>Cette dague en bronze renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : dague en bronze de destruction, dague en bronze</desc>
+		</item>
+		<item>
+			<id>10306</id>
+			<name>Dague de bronze de la flamme pourpre</name>
+			<icon>00010303.png</icon>
+			<desc>Cette dague en bronze renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : dague en bronze de la flamme pourpre, dague en bronze</desc>
+		</item>
+		<item>
+			<id>10303</id>
+			<name>Dague de bronze</name>
+			<icon>00010303.png</icon>
+			<desc>Une dague en bronze.</desc>
+		</item>
+		<item>
+			<id>10309</id>
+			<name>Dague de bronze ultime</name>
+			<icon>00010303.png</icon>
+			<desc>Une dague en bronze qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : dague en bronze de la flamme pourpre, dague en bronze de destruction, dague en bronze de tentation, dague en bronze</desc>
+		</item>
+		<item>
+			<id>13007</id>
+			<name>Colifichet d&apos;encens de destruction</name>
+			<icon>00013003.png</icon>
+			<desc>Ce colifichet d&apos;encens renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de destruction, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>13006</id>
+			<name>Colifichet d&apos;encens de la flamme pourpre</name>
+			<icon>00013003.png</icon>
+			<desc>Ce colifichet d&apos;encens renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : colifichet d&apos;encens de la flamme pourpre, colifichet d&apos;encens</desc>
+		</item>
+		<item>
+			<id>13003</id>
+			<name>Colifichet d&apos;encens</name>
+			<icon>00013003.png</icon>
+			<desc>Un colifichet avec une poche pleine d&apos;encens.</desc>
+		</item>
+		<item>
+			<id>14025</id>
+			<name>Vêtements d&apos;alchimiste brodés d&apos;argent</name>
+			<icon>00014001.png</icon>
+			<desc>Un habit noble fait pour les alchimistes.</desc>
+		</item>
+		<item>
+			<id>10509</id>
+			<name>Talisman d&apos;Helrick ultime</name>
+			<icon>00010503.png</icon>
+			<desc>Un talisman d&apos;Helrick qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de la flamme pourpre, talisman d&apos;Helrick de destruction, talisman d&apos;Helrick de tentation, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10508</id>
+			<name>Talisman d&apos;Helrick de tentation</name>
+			<icon>00010503.png</icon>
+			<desc>Ce talisman d&apos;Helrick renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de tentation, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10507</id>
+			<name>Talisman d&apos;Helrick de destruction</name>
+			<icon>00010503.png</icon>
+			<desc>Ce talisman d&apos;Helrick renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de destruction, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10506</id>
+			<name>Talisman d&apos;Helrick de la flamme pourpre</name>
+			<icon>00010503.png</icon>
+			<desc>Ce talisman d&apos;Helrick renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : talisman d&apos;Helrick de la flamme pourpre, talisman d&apos;Helrick</desc>
+		</item>
+		<item>
+			<id>10503</id>
+			<name>Talisman de Helrick</name>
+			<icon>00010503.png</icon>
+			<desc>Un talisman dans lequel une pierre précieuse est incrustée.</desc>
+		</item>
+		<item>
+			<id>10727</id>
+			<name>Nœud décoratif de Krea de destruction</name>
+			<icon>00010724.png</icon>
+			<desc>Ce nœud décoratif de Krea renferme l&apos;énergie de la destruction.\n\n- - Rétablir la durabilité maximale : nœud décoratif de Krea de destruction, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>10726</id>
+			<name>Nœud décoratif de Krea de la flamme pourpre</name>
+			<icon>00010724.png</icon>
+			<desc>Ce nœud décoratif de Krea renferme l&apos;énergie de la flamme pourpre.\n\n- - Rétablir la durabilité maximale : nœud décoratif de Krea de la flamme pourpre, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>10724</id>
+			<name>Nœud décoratif de Krea</name>
+			<icon>00010724.png</icon>
+			<desc>Un nœud décoratif conçu pour répondre aux exigences strictes des aventuriers.</desc>
+		</item>
+		<item>
+			<id>10731</id>
+			<name>Nœud décoratif de Krea ultime</name>
+			<icon>00010724.png</icon>
+			<desc>Un nœud décoratif de Krea qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : nœud décoratif de Krea de la flamme pourpre, nœud décoratif de Krea de destruction, nœud décoratif de Krea de tentation, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>10728</id>
+			<name>Nœud décoratif de Krea de tentation</name>
+			<icon>00010724.png</icon>
+			<desc>Ce nœud décoratif de Krea renferme l&apos;énergie de la tentation.\n\n- - Rétablir la durabilité maximale : nœud décoratif de Krea de tentation, nœud décoratif de Krea</desc>
+		</item>
+		<item>
+			<id>10107</id>
+			<name>Bouclier de Vangertz de destruction</name>
+			<icon>00010102.png</icon>
+			<desc>Ce bouclier de Vangertz renferme l&apos;énergie de la destruction.\n\n- Rétablir la durabilité maximale : bouclier de Vangertz de destruction, bouclier de Vangertz</desc>
+		</item>
+		<item>
+			<id>10106</id>
+			<name>Bouclier de Vangertz de la flamme pourpre</name>
+			<icon>00010102.png</icon>
+			<desc>Ce bouclier de Vangertz renferme l&apos;énergie de la flamme pourpre.\n\n- Rétablir la durabilité maximale : bouclier de Vangertz de la flamme pourpre, bouclier de Vangertz</desc>
+		</item>
+		<item>
+			<id>10102</id>
+			<name>Bouclier de Vangertz</name>
+			<icon>00010102.png</icon>
+			<desc>Un bouclier rond fait en fer solide.</desc>
+		</item>
+		<item>
+			<id>10109</id>
+			<name>Bouclier de Vangertz ultime</name>
+			<icon>00010102.png</icon>
+			<desc>Un bouclier de Vangertz qui a atteint son potentiel maximum.\n\n- Rétablir la durabilité maximale : bouclier de Vangertz de la flamme pourpre, bouclier de Vangertz de destruction, bouclier de Vangertz de tentation, bouclier de Vangertz</desc>
+		</item>
+		<item>
+			<id>10108</id>
+			<name>Bouclier de Vangertz de tentation</name>
+			<icon>00010102.png</icon>
+			<desc>Ce bouclier de Vangertz renferme l&apos;énergie de la tentation.\n\n- Rétablir la durabilité maximale : bouclier de Vangertz de tentation, bouclier de Vangertz</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

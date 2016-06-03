@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>8513</itemKey>
+	<itemName>Getrockneter Krebs</itemName>
+	<itemIcon>00008513.png</itemIcon>
+	<itemDesc>Ein Getrockneter Krebs, der durch Trocknen gewonnen wurde. Kann an einer Werkbank zu einer Handelsware verarbeitet werden.\n※ Trocknen verringert den Wert des Fisches.</itemDesc>
+	<manufacture action="MANUFACTURE_DRY">
+		<item>
+			<id>8213</id>
+			<name>Krebs</name>
+			<icon>00008213.png</icon>
+			<desc>Eine Zutat, die durch Handel verkauft oder zum Kochen verwendet werden kann. Kann durch Fischfang gewonnen werden.\n– Verwendung: Paste mit Meeresfrüchten, Meeresfrüchtepfanne, Meeresfrüchte-Pilz-Salat etc.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>55913</id>
+			<name>Verpackter getrockneter Krebs</name>
+			<icon>00055913.png</icon>
+			<desc>Handelsware, die 10 getrocknete Krebse enthält.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

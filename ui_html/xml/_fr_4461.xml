@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>4461</itemKey>
+	<itemName>Émeraude resplendissante</itemName>
+	<itemIcon>00004461.png</itemIcon>
+	<itemDesc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une émeraude brute. Nécessite des connaissances en meulage (débutant).\n\n※ Trouvez Ornella à Heidel et terminez la quête de matériaux de réparation d&apos;équipement pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête liée aux connaissances en transformation pour débutant, vous devez avoir atteint le niveau 14 de récolte et retrouver Ficy à Heidel pour terminer la quête correspondante. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</itemDesc>
+	<collect>
+		<character>
+			<name>Carcasse de baleine</name>
+		</character>
+	</collect>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4404</id>
+			<name>Émeraude brute</name>
+			<icon>00004404.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation. Récupérer une émeraude brute demande un certain niveau de compétence.\n- Obtention : s&apos;obtient auprès de roches contenant des gemmes.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_GRIND">
+		<item>
+			<id>4460</id>
+			<name>Émeraude</name>
+			<icon>00004460.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en meulant une émeraude brute.</desc>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>11719</id>
+			<name>Collier d&apos;émeraude de la forêt placide</name>
+			<icon>00011719.png</icon>
+			<desc>Un collier décoré d&apos;une émeraude des forêts paisibles.</desc>
+		</item>
+		<item>
+			<id>4462</id>
+			<name>Émeraude des forêts</name>
+			<icon>00004462.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en mélangeant des émeraudes resplendissantes et du polisseur de gemme, un ingrédient préparé grâce à l&apos;alchimie. Nécessite des connaissances en mélange (habile).\n\n※ La compétence de mélange habile peut être obtenue comme récompense de défi après avoir atteint le niveau 1 d&apos;artisanat de transformation.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

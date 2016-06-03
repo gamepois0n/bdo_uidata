@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>9003</itemKey>
+	<itemName>White Sauce</itemName>
+	<itemIcon>00009003.png</itemIcon>
+	<itemDesc>A white sauce used for Cooking.\n\n- How to Obtain: It can be Cooked at your House.\n\n- Usage: Stir-Fried Seafood</itemDesc>
+	<cook>
+		<item>
+			<id>9018</id>
+			<name>Base Sauce</name>
+			<icon>00009018.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>9018</id>
+			<name>Base Sauce</name>
+			<icon>00009018.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+		<item>
+			<id>7313</id>
+			<name>Apple</name>
+			<icon>00007313.png</icon>
+			<desc>A tasty apple used as an ingredient in Cooking.\nUsage: Fruit Juice, Fruit Pudding, etc.\n- How to Obtain: It can be Gathered from Apple Trees using Bare Hands or purchased from a special Merchant.</desc>
+		</item>
+		<item>
+			<id>9065</id>
+			<name>Milk</name>
+			<icon>00009065.png</icon>
+			<desc>An ingredient used in Cooking. It can be received from a farm Quest. It can be Processed into other Cooking ingredients.\n\n- Usage: Cream, Cheese, Fruit Pudding, etc.</desc>
+		</item>
+		<item>
+			<id>9017</id>
+			<name>Cooking Wine</name>
+			<icon>00009017.png</icon>
+			<desc>An ingredient used in Cooking.It can be bought from a Food Vender or Innkeeper.</desc>
+		</item>
+	</cook>
+</itemInfo>
+

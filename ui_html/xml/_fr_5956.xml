@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>5956</itemKey>
+	<itemName>Trace de sauvagerie</itemName>
+	<itemIcon>00005956.png</itemIcon>
+	<itemDesc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait sur le site des ruines de la ferme Lynch.</itemDesc>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10006</id>
+			<name>Épée longue de semi-homme</name>
+			<icon>00010006.png</icon>
+			<desc>Une épée longue faite pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10206</id>
+			<name>Arc long de semi-homme</name>
+			<icon>00010206.png</icon>
+			<desc>Un arc long conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10406</id>
+			<name>Amulette de semi-homme</name>
+			<icon>00010406.png</icon>
+			<desc>Une amulette conçue pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>10606</id>
+			<name>Hache de semi-homme</name>
+			<icon>00010606.png</icon>
+			<desc>Une hache conçue pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>13206</id>
+			<name>Épée courte de semi-homme</name>
+			<icon>00013203.png</icon>
+			<desc>Une épée courte conçue pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<manufacture action="MANUFACTURE_HEAT">
+		<item>
+			<id>14406</id>
+			<name>Bâton de semi-homme</name>
+			<icon>00014406.png</icon>
+			<desc>Un bâton conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+	</manufacture>
+	<node region="Ruines de la ferme de Lynch : excavation"/>
+	<makelist>
+		<item>
+			<id>13206</id>
+			<name>Épée courte de semi-homme</name>
+			<icon>00013203.png</icon>
+			<desc>Une épée courte conçue pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>13227</id>
+			<name>Épée courte de semi-homme ultime</name>
+			<icon>00013203.png</icon>
+			<desc>Une épée courte de semi-homme qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée courte de semi-homme.\n\n- Rétablir la durabilité maximale : épée courte de semi-homme de la flamme pourpre, épée courte de semi-homme de destruction, épée courte de semi-homme de tentation, épée courte de semi-homme</desc>
+		</item>
+		<item>
+			<id>13226</id>
+			<name>Épée courte de semi-homme de tentation</name>
+			<icon>00013203.png</icon>
+			<desc>Cette épée courte de semi-homme renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée courte de semi-homme.\n\n- Rétablir la durabilité maximale : épée courte de semi-homme de tentation, épée courte de semi-homme</desc>
+		</item>
+		<item>
+			<id>13225</id>
+			<name>Épée courte de semi-homme de destruction</name>
+			<icon>00013203.png</icon>
+			<desc>Cette épée courte de semi-homme renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée courte de semi-homme.\n\n- Rétablir la durabilité maximale : épée courte de semi-homme de destruction, épée courte de semi-homme</desc>
+		</item>
+		<item>
+			<id>13224</id>
+			<name>Épée courte de semi-homme de la flamme pourpre</name>
+			<icon>00013203.png</icon>
+			<desc>Cette épée courte de semi-homme renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée courte de semi-homme.\n\n- Rétablir la durabilité maximale : épée courte de semi-homme de la flamme pourpre, épée courte de semi-homme</desc>
+		</item>
+		<item>
+			<id>10427</id>
+			<name>Amulette de semi-homme ultime</name>
+			<icon>00010406.png</icon>
+			<desc>Une amulette de semi-homme qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une amulette de semi-homme.\n\n- Rétablir la durabilité maximale : amulette de semi-homme de la flamme pourpre, amulette de semi-homme de destruction, amulette de semi-homme de tentation, amulette de semi-homme</desc>
+		</item>
+		<item>
+			<id>10426</id>
+			<name>Amulette de semi-homme de tentation</name>
+			<icon>00010406.png</icon>
+			<desc>Cette amulette de semi-homme renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une amulette de semi-homme.\n\n- Rétablir la durabilité maximale : amulette de semi-homme de tentation, amulette de semi-homme</desc>
+		</item>
+		<item>
+			<id>10425</id>
+			<name>Amulette de semi-homme de destruction</name>
+			<icon>00010406.png</icon>
+			<desc>Cette amulette de semi-homme renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une amulette de semi-homme.\n\n- Rétablir la durabilité maximale : amulette de semi-homme de destruction, amulette de semi-homme</desc>
+		</item>
+		<item>
+			<id>10424</id>
+			<name>Amulette de semi-homme de la flamme pourpre</name>
+			<icon>00010406.png</icon>
+			<desc>Cette amulette de semi-homme renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une amulette de semi-homme.\n\n- Rétablir la durabilité maximale : amulette de semi-homme de la flamme pourpre, amulette de semi-homme</desc>
+		</item>
+		<item>
+			<id>10627</id>
+			<name>Hache de semi-homme ultime</name>
+			<icon>00010606.png</icon>
+			<desc>Une hache de semi-homme qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une hache de semi-homme.\n\n- Rétablir la durabilité maximale : hache de semi-homme de la flamme pourpre, hache de semi-homme de destruction, hache de semi-homme de tentation, hache de semi-homme</desc>
+		</item>
+		<item>
+			<id>10406</id>
+			<name>Amulette de semi-homme</name>
+			<icon>00010406.png</icon>
+			<desc>Une amulette conçue pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10606</id>
+			<name>Hache de semi-homme</name>
+			<icon>00010606.png</icon>
+			<desc>Une hache conçue pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10626</id>
+			<name>Hache de semi-homme de tentation</name>
+			<icon>00010606.png</icon>
+			<desc>Cette hache de semi-homme renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une hache de semi-homme.\n\n- Rétablir la durabilité maximale : hache de semi-homme de tentation, hache de semi-homme</desc>
+		</item>
+		<item>
+			<id>10625</id>
+			<name>Hache de semi-homme de destruction</name>
+			<icon>00010606.png</icon>
+			<desc>Cette hache de semi-homme renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une hache de semi-homme.\n\n- Rétablir la durabilité maximale : hache de semi-homme de destruction, hache de semi-homme</desc>
+		</item>
+		<item>
+			<id>10624</id>
+			<name>Hache de semi-homme de la flamme pourpre</name>
+			<icon>00010606.png</icon>
+			<desc>Cette hache de semi-homme renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une hache de semi-homme.\n\n- Rétablir la durabilité maximale : hache de semi-homme de la flamme pourpre, hache de semi-homme</desc>
+		</item>
+		<item>
+			<id>14424</id>
+			<name>Bâton de semi-homme de la flamme pourpre</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de la flamme pourpre, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14427</id>
+			<name>Bâton de semi-homme ultime</name>
+			<icon>00014406.png</icon>
+			<desc>Un bâton de semi-homme ayant atteint son potentiel maximal.\nIl existe une faible chance de le fabriquer en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de la flamme pourpre, bâton de semi-homme de destruction, bâton de semi-homme de tentation, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14426</id>
+			<name>Bâton de semi-homme de tentation</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de tentation, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14425</id>
+			<name>Bâton de semi-homme de destruction</name>
+			<icon>00014406.png</icon>
+			<desc>Ce bâton de semi-homme renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de semi-homme.\n\n- Rétablir la durabilité maximale : bâton de semi-homme de destruction, bâton de semi-homme</desc>
+		</item>
+		<item>
+			<id>14406</id>
+			<name>Bâton de semi-homme</name>
+			<icon>00014406.png</icon>
+			<desc>Un bâton conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10227</id>
+			<name>Arc long de semi-homme ultime</name>
+			<icon>00010206.png</icon>
+			<desc>Un arc long de semi-homme qui a atteint son potentiel maximum.\nIl existe une chance faible de le fabriquer en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de la flamme pourpre, arc long de semi-homme de destruction, arc long de semi-homme de tentation, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10226</id>
+			<name>Arc long de semi-homme de tentation</name>
+			<icon>00010206.png</icon>
+			<desc>Cet arc long de semi-homme renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de tentation, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10225</id>
+			<name>Arc long de semi-homme de destruction</name>
+			<icon>00010206.png</icon>
+			<desc>Cet arc long de semi-homme renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de destruction, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10224</id>
+			<name>Arc long de semi-homme de la flamme pourpre</name>
+			<icon>00010206.png</icon>
+			<desc>Cet arc long de semi-homme renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un arc long de semi-homme.\n\n- Rétablir la durabilité maximale : arc long de semi-homme de la flamme pourpre, arc long de semi-homme</desc>
+		</item>
+		<item>
+			<id>10206</id>
+			<name>Arc long de semi-homme</name>
+			<icon>00010206.png</icon>
+			<desc>Un arc long conçu pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+		<item>
+			<id>10025</id>
+			<name>Épée longue de semi-homme de destruction</name>
+			<icon>00010006.png</icon>
+			<desc>Cette épée longue de semi-homme renferme l&apos;énergie de la destruction.\nElle peut être fabriquée en améliorant une épée longue de semi-homme.\n\n- Rétablir la durabilité maximale : épée longue de semi-homme de destruction, épée longue de semi-homme</desc>
+		</item>
+		<item>
+			<id>10024</id>
+			<name>Épée longue de semi-homme de la flamme pourpre</name>
+			<icon>00010006.png</icon>
+			<desc>Cette épée longue de semi-homme renferme l&apos;énergie de la flamme pourpre.\nElle peut être fabriquée en améliorant une épée longue de semi-homme.\n\n- Rétablir la durabilité maximale : épée longue de semi-homme de la flamme pourpre, épée longue de semi-homme</desc>
+		</item>
+		<item>
+			<id>10027</id>
+			<name>Épée longue de semi-homme ultime</name>
+			<icon>00010006.png</icon>
+			<desc>Une épée longue de semi-homme qui a atteint son potentiel maximum.\nIl existe une chance faible de la fabriquer en améliorant une épée longue de semi-homme.\n\n- Rétablir la durabilité maximale : épée longue de semi-homme de la flamme pourpre, épée longue de semi-homme de destruction, épée longue de semi-homme de tentation, épée longue de semi-homme</desc>
+		</item>
+		<item>
+			<id>10026</id>
+			<name>Épée longue de semi-homme de tentation</name>
+			<icon>00010006.png</icon>
+			<desc>Cette épée longue de semi-homme renferme l&apos;énergie de la tentation.\nElle peut être fabriquée en améliorant une épée longue de semi-homme.\n\n- Rétablir la durabilité maximale : épée longue de semi-homme de tentation, épée longue de semi-homme</desc>
+		</item>
+		<item>
+			<id>10006</id>
+			<name>Épée longue de semi-homme</name>
+			<icon>00010006.png</icon>
+			<desc>Une épée longue faite pour combattre les menaces contre l&apos;humanité.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>6017</itemKey>
+	<itemName>Soft Kuku Bird Plume</itemName>
+	<itemIcon>00006017.png</itemIcon>
+	<itemDesc>A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing.\n- How to Obtain: It can be obtained by Tanning a hunted Kuku Bird corpse.</itemDesc>
+	<collect>
+		<character>
+			<name>Kuku Bird</name>
+		</character>
+	</collect>
+	<makelist>
+		<item>
+			<id>6165</id>
+			<name>Fine Lightweight Plume</name>
+			<icon>00006165.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Thinning Lightweight Plumes. It requires knowledge of Thinning.</desc>
+		</item>
+		<item>
+			<id>6157</id>
+			<name>Lightweight Plume</name>
+			<icon>00006157.png</icon>
+			<desc>A Processed natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or further Processing.\n\n- How to Obtain: It can be obtained by Thinning Kuku Bird Feathers.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

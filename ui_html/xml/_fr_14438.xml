@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>14438</itemKey>
+	<itemName>Bâton de Bares de tentation</itemName>
+	<itemIcon>00014413.png</itemIcon>
+	<itemDesc>Ce bâton de Bares renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de tentation, bâton de Bares</itemDesc>
+	<house type="6">
+		<item>
+			<id>4259</id>
+			<name>Cristal de platine pur</name>
+			<icon>00004259.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n\n- Obtention : s&apos;obtient en fondant du solvant métallique obtenu par alchimie et des lingots de platine. Nécessite des connaissances en fonte : habile.\n\n※ Trouvez Vatudun à Keplan et terminez la quête de matériaux de compétences pour obtenir les connaissances associées.\n\n※ Pour exécuter la quête correspondante, vous devez avoir atteint le niveau 10 de professionnel en récolte et le niveau 5 de professionnel en transformation. Consultez le guide de l&apos;esprit occulte (touche ,) pour plus d&apos;informations.</desc>
+		</item>
+		<item>
+			<id>5002</id>
+			<name>Sève d&apos;érable</name>
+			<icon>00005002.png</icon>
+			<desc>Un ingrédient naturel obtenu par récolte capable de modifier d&apos;autres matériaux grâce à l&apos;alchimie.\n- Obtention : s&apos;obtient en utilisant un collecteur de liquides sur un érable.</desc>
+		</item>
+		<item>
+			<id>4602</id>
+			<name>Bois d&apos;érable</name>
+			<icon>00004602.png</icon>
+			<desc>Un ingrédient naturel transformé obtenu par récolte et utilisé en artisanat. Ses propriétés peuvent être modifiées par l&apos;alchimie ou la transformation.\n- Obtention : peut être produit dans la forêt de la Solitude, les ruines du Château, le monastère sanglant, la plaine Nord de Serendia et les hautes terres de Mediah Nord. S&apos;obtient également en débitant des érables.</desc>
+		</item>
+		<item>
+			<id>5007</id>
+			<name>Branche de moine</name>
+			<icon>00005007.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie. Récupérer une branche de moine demande un certain niveau de compétence.\n- Obtention : faible probabilité d&apos;en obtenir en coupant des arbres.</desc>
+		</item>
+		<item>
+			<id>5958</id>
+			<name>Trace de bataille</name>
+			<icon>00005958.png</icon>
+			<desc>Un matériau utilisé pour la réalisation d&apos;équipement.\nPeut être extrait à la ferme Bernianto.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<house type="11">
+		<item>
+			<id>14413</id>
+			<name>Bâton de Bares</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>4906</id>
+			<name>Pierre d&apos;optimisation d&apos;arme de niveau 1</name>
+			<icon>00004906.png</icon>
+			<desc>Matériau d&apos;amélioration d&apos;arme de niveau 1.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+		<item>
+			<id>4901</id>
+			<name>Poudre de pierre noire</name>
+			<icon>00004901.png</icon>
+			<desc>Un ingrédient basique de l&apos;artisanat.\n- Obtention : s&apos;obtient par artisanat dans une raffinerie.</desc>
+		</item>
+	</house>
+	<makelist>
+		<item>
+			<id>14439</id>
+			<name>Bâton de Bares ultime</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton de Bares ayant atteint son potentiel maximal.\nIl existe une chance faible de le fabriquer en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares de destruction, bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14438</id>
+			<name>Bâton de Bares de tentation</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la tentation.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de tentation, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14413</id>
+			<name>Bâton de Bares</name>
+			<icon>00014413.png</icon>
+			<desc>Un bâton possédé par une haine contre toutes les choses vivantes.</desc>
+		</item>
+		<item>
+			<id>14437</id>
+			<name>Bâton de Bares de destruction</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la destruction.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de destruction, bâton de Bares</desc>
+		</item>
+		<item>
+			<id>14436</id>
+			<name>Bâton de Bares de la flamme pourpre</name>
+			<icon>00014413.png</icon>
+			<desc>Ce bâton de Bares renferme l&apos;énergie de la flamme pourpre.\nIl peut être fabriqué en améliorant un bâton de Bares.\n\n- Rétablir la durabilité maximale : bâton de Bares de la flamme pourpre, bâton de Bares</desc>
+		</item>
+	</makelist>
+</itemInfo>
+
