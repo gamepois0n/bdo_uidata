@@ -599,6 +599,9 @@ function Panel_SelectServer_ReCreateChannelCtrl(worldIndex)
 			tempBtn:SetShow( isAdmission );
 			if toInt64(0,0) < changeChannelTime then
 				tempChgChannel:SetShow( not isAdmission )
+				if tempChgChannel:GetShow() then
+					tempBtn:SetShow( false )
+				end
 				tempChgChannel:SetText( PAGetStringParam1( Defines.StringSheet_GAME, "LUA_SERVERSELECT_CHANGECHANNEL", "changeRealChannelTime", changeRealChannelTime ) )
 			end
 		else -- 서비스 버젼에서는 점검상태도 체크한 후 보여준다.
@@ -606,6 +609,10 @@ function Panel_SelectServer_ReCreateChannelCtrl(worldIndex)
 			
 			local isTextShow = (not isAdmission) and (busyState ~= 0)
 			tempChgChannel:SetShow( isTextShow )
+
+			if tempChgChannel:GetShow() then
+				tempBtn:SetShow( false )
+			end
 
 			if isTextShow then
 				if toInt64(0,0) < changeChannelTime then
